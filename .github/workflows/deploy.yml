@@ -1,0 +1,48 @@
+name: Deploy Pages
+
+# Regenerates the site whenever anything lands on main — in particular the
+# feed XMLs the crawler pushes. build_feeds.py rescans *.xml, so new feeds
+# appear on the site without code changes.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Build feed manifest
+        run: python3 scripts/build_feeds.py
+
+      - name: Stage site
+        run: |
+          mkdir -p _site
+          cp -R index.html assets feeds.json *.xml _site/
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

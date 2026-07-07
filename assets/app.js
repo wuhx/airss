@@ -2,12 +2,9 @@
 (() => {
 'use strict';
 
-const FEEDS = [
-  { id: 'claude',  file: 'claude_blog.xml',       title: 'Claude Blog',    lang: 'en', color: '#d97757', home: 'https://claude.com/blog' },
-  { id: 'qwen-en', file: 'qwen_blog_en.xml',      title: 'Qwen Blog',      lang: 'en', color: '#615ced', home: 'https://qwen.ai/research' },
-  { id: 'qwen-zh', file: 'qwen_blog_zh.xml',      title: 'Qwen 博客',      lang: 'zh', color: '#615ced', home: 'https://qwen.ai/research' },
-  { id: 'seed',    file: 'bytedance_seed_zh.xml', title: 'ByteDance Seed', lang: 'zh', color: '#2e6be6', home: 'https://seed.bytedance.com/zh/blog', format: 'md' },
-];
+/* Filled from feeds.json, which scripts/build_feeds.py regenerates on every
+   deploy — new XML files in the repo root appear here automatically. */
+let FEEDS = [];
 
 const CONTENT_NS = 'http://purl.org/rss/1.0/modules/content/';
 const LS = { read: 'airss.read', star: 'airss.star', theme: 'airss.theme', sel: 'airss.sel', pos: 'airss.pos' };
@@ -255,9 +252,10 @@ const ICON_STAR = '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><pat
 const CARD_STAR = '<svg class="card-star" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3.4 2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L3.5 9.6l5.9-.8Z"/></svg>';
 
 function faviconHTML(feed) {
-  const origin = new URL(feed.home).origin;
-  return `<span class="favicon" style="--fc:${feed.color}">${esc(feed.title[0].toUpperCase())}` +
-         `<img src="${origin}/favicon.ico" alt="" loading="lazy"></span>`;
+  let origin = '';
+  try { origin = new URL(feed.home).origin; } catch {}
+  return `<span class="favicon" style="--fc:${feed.color}">${esc((feed.title || '?')[0].toUpperCase())}` +
+         (origin ? `<img src="${origin}/favicon.ico" alt="" loading="lazy">` : '') + `</span>`;
 }
 
 function buildNav() {
@@ -509,19 +507,36 @@ function bindUI() {
 
 /* ---------- boot ---------- */
 
-const saved = loadJSON(LS.sel);
-if (saved?.view && (saved.view === 'all' || saved.view === 'star' || FEEDS.some(f => f.id === saved.view))) {
-  state.view = saved.view;
-}
-pendingKey = saved?.key || null;
+async function boot() {
+  renderSkeletons();
+  bindUI();
 
-buildNav();
-renderSkeletons();
-bindUI();
-$('timeline-title').textContent =
-  state.view === 'all' ? 'Home' :
-  state.view === 'star' ? 'Starred' :
-  (FEEDS.find(f => f.id === state.view)?.title ?? state.view);
-loadFeeds();
+  try {
+    const res = await fetch('feeds.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    FEEDS = (await res.json()).feeds || [];
+    if (!FEEDS.length) throw new Error('empty manifest');
+  } catch (err) {
+    console.error('airss: failed to load feeds.json', err);
+    $('cards').innerHTML =
+      '<div class="timeline-note">Could not load the feed manifest (feeds.json).</div>';
+    return;
+  }
+
+  const saved = loadJSON(LS.sel);
+  if (saved?.view && (saved.view === 'all' || saved.view === 'star' || FEEDS.some(f => f.id === saved.view))) {
+    state.view = saved.view;
+  }
+  pendingKey = saved?.key || null;
+
+  buildNav();
+  $('timeline-title').textContent =
+    state.view === 'all' ? 'Home' :
+    state.view === 'star' ? 'Starred' :
+    (FEEDS.find(f => f.id === state.view)?.title ?? state.view);
+  loadFeeds();
+}
+
+boot();
 
 })();

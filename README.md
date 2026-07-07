@@ -17,4 +17,6 @@ The XML files at the repo root are full-text RSS 2.0 feeds, refreshed by an exte
 
 ## Reader
 
-The site is a static, dependency-free web app ([`index.html`](index.html) + [`assets/`](assets/)) served by GitHub Pages straight from this branch — every feed update automatically republishes it. It fetches the XML files from the same origin, sanitizes the article HTML, and renders a three-pane, keyboard-friendly reader (<kbd>j</kbd>/<kbd>k</kbd> to navigate, <kbd>o</kbd> to open the original, <kbd>s</kbd> to star, <kbd>/</kbd> to search). Read state, starred items, and theme live in `localStorage`.
+The site is a static, dependency-free web app ([`index.html`](index.html) + [`assets/`](assets/)). On every push to `main`, the [Deploy Pages workflow](.github/workflows/deploy.yml) runs [`scripts/build_feeds.py`](scripts/build_feeds.py) to regenerate the `feeds.json` manifest from the XML files and deploys the site to GitHub Pages — so feed updates republish automatically, and **dropping a new feed XML into the repo root adds it to the site** with no code changes (known feeds keep curated titles/colors via the script's `OVERRIDES`).
+
+The app fetches the XML files from the same origin, sanitizes the article HTML, and renders a three-pane, keyboard-friendly reader (<kbd>j</kbd>/<kbd>k</kbd> to navigate, <kbd>o</kbd> to open the original, <kbd>s</kbd> to star, <kbd>/</kbd> to search). Read state, starred items, and theme live in `localStorage`.
