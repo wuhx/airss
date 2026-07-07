@@ -249,7 +249,6 @@ function maybeRestore() {
 
 const ICON_HOME = '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 10.6 12 4.2l7.5 6.4M6.2 9.5V19a1 1 0 0 0 1 1h9.6a1 1 0 0 0 1-1V9.5"/></svg>';
 const ICON_STAR = '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3.4 2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L3.5 9.6l5.9-.8Z"/></svg>';
-const CARD_STAR = '<svg class="card-star" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3.4 2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L3.5 9.6l5.9-.8Z"/></svg>';
 
 function faviconHTML(feed) {
   let origin = '';
@@ -282,15 +281,19 @@ function updateNavStatus(feedId) {
   el.title = s === 'error' ? 'Failed to load feed' : '';
 }
 
+/* The search placeholder doubles as the view title: it names the scope. */
+function searchPlaceholder(view) {
+  if (view === 'all') return 'Search all articles';
+  if (view === 'star') return 'Search starred';
+  return 'Search ' + (FEEDS.find(f => f.id === view)?.title ?? view);
+}
+
 function setView(view) {
   state.view = view;
   state.q = '';
   $('search').value = '';
   document.querySelectorAll('.nav-item').forEach(b => b.classList.toggle('active', b.dataset.view === view));
-  $('timeline-title').textContent =
-    view === 'all' ? 'Home' :
-    view === 'star' ? 'Starred' :
-    (FEEDS.find(f => f.id === view)?.title ?? view);
+  $('search').placeholder = searchPlaceholder(view);
   renderTimeline();
   $('timeline').scrollTop = 0;
   saveJSON(LS.sel, { view, key: state.selected });
@@ -310,15 +313,20 @@ function visibleItems() {
   return arr;
 }
 
+const STAR_PATH = '<path d="m12 3.4 2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L3.5 9.6l5.9-.8Z"/>';
+
 function cardHTML(it) {
   const read = state.read.has(it.key);
   const sel = state.selected === it.key;
+  const starred = state.star.has(it.key);
   return `<article class="card${read ? ' read' : ''}${sel ? ' selected' : ''}" data-key="${esc(it.key)}" role="listitem" tabindex="0">
     <div class="card-main">
       <div class="card-meta">
-        ${faviconHTML(it.feed)}<span class="card-src">${esc(it.feed.title)}</span>
-        ${state.star.has(it.key) ? CARD_STAR : ''}
+        ${faviconHTML(it.feed)}
         <span class="card-time" title="${esc(fmtDate(it.ts))}">${relTime(it.ts)}</span>
+        <button class="card-star-btn${starred ? ' starred' : ''}" title="Star (s)" aria-label="Star article" aria-pressed="${starred}">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">${STAR_PATH}</svg>
+        </button>
       </div>
       <h3 class="card-title" lang="${it.feed.lang}">${esc(it.title)}</h3>
       ${it.preview ? `<p class="card-preview" lang="${it.feed.lang}">${esc(it.preview.slice(0, 160))}</p>` : ''}
@@ -387,14 +395,6 @@ function renderReader(it, opts = {}) {
     </header>
     <div class="article-body" lang="${it.feed.lang}">${it.html}</div>`;
 
-  const star = $('star-btn');
-  star.disabled = false;
-  star.classList.toggle('starred', state.star.has(it.key));
-
-  const open = $('open-btn');
-  open.hidden = !it.link;
-  if (it.link) open.href = it.link;
-
   const pos = loadJSON(LS.pos);
   $('reader-scroll').scrollTop = (opts.restore && pos && pos.key === it.key) ? pos.top : 0;
 }
@@ -403,7 +403,6 @@ function toggleStar(key) {
   if (state.star.has(key)) state.star.delete(key);
   else state.star.add(key);
   saveSet(LS.star, state.star);
-  if (state.selected === key) $('star-btn').classList.toggle('starred', state.star.has(key));
   renderTimeline();
 }
 
@@ -428,6 +427,11 @@ function move(delta) {
 
 function bindUI() {
   $('cards').addEventListener('click', e => {
+    const starBtn = e.target.closest('.card-star-btn');
+    if (starBtn) {
+      toggleStar(starBtn.closest('.card').dataset.key);
+      return;
+    }
     const card = e.target.closest('.card');
     if (card && !card.classList.contains('skeleton')) select(card.dataset.key);
   });
@@ -450,10 +454,6 @@ function bindUI() {
   $('search').addEventListener('input', e => {
     state.q = e.target.value.trim();
     renderTimeline();
-  });
-
-  $('star-btn').addEventListener('click', () => {
-    if (state.selected) toggleStar(state.selected);
   });
 
   $('back-btn').addEventListener('click', () => document.body.classList.remove('reader-open'));
@@ -530,10 +530,7 @@ async function boot() {
   pendingKey = saved?.key || null;
 
   buildNav();
-  $('timeline-title').textContent =
-    state.view === 'all' ? 'Home' :
-    state.view === 'star' ? 'Starred' :
-    (FEEDS.find(f => f.id === state.view)?.title ?? state.view);
+  $('search').placeholder = searchPlaceholder(state.view);
   loadFeeds();
 }
 
