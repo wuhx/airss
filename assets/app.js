@@ -336,21 +336,19 @@ function cardHTML(it) {
         ${it.thumb ? `<img class="card-thumb" src="${esc(it.thumb)}" alt="" loading="lazy">` : ''}
       </div>` : '';
   return `<article class="card${read ? ' read' : ''}${sel ? ' selected' : ''}" data-key="${esc(it.key)}" role="listitem" tabindex="0">
-    <div class="card-meta">
-      <span class="card-time" title="${esc(fmtDate(it.ts))}">${relTime(it.ts)}</span>
-      <button class="card-star-btn${starred ? ' starred' : ''}" title="Star (s)" aria-label="Star article" aria-pressed="${starred}">
-        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">${STAR_PATH}</svg>
-      </button>
-    </div>
+    <button class="card-star-btn${starred ? ' starred' : ''}" title="Star (s)" aria-label="Star article" aria-pressed="${starred}">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">${STAR_PATH}</svg>
+    </button>
     <h3 class="card-title" lang="${it.feed.lang}">${esc(it.title)}</h3>
     ${body}
+    ${it.ts ? `<span class="card-time" title="${esc(fmtDate(it.ts))}">${relTime(it.ts)}</span>` : ''}
   </article>`;
 }
 
 function renderSkeletons() {
   $('cards').innerHTML = Array.from({ length: 7 }, () =>
     '<div class="card skeleton">' +
-    '<div class="sk sk-meta"></div><div class="sk sk-title"></div><div class="sk sk-line"></div>' +
+    '<div class="sk sk-title"></div><div class="sk sk-line"></div><div class="sk sk-meta"></div>' +
     '</div>').join('');
 }
 
@@ -399,7 +397,6 @@ function renderReader(it, opts = {}) {
   art.hidden = false;
   art.innerHTML = `
     <header class="article-head">
-      <div class="article-chip">${faviconHTML(it.feed)}<span>${esc(it.feed.title)}</span></div>
       <h1 class="article-title" lang="${it.feed.lang}">${esc(it.title)}</h1>
       <div class="article-meta">
         ${it.ts ? `<span>${esc(fmtDate(it.ts))}</span>` : ''}
