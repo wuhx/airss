@@ -184,7 +184,6 @@ function parseFeed(feed, xml) {
       key: feed.id + '|' + (link || i),
       feed, link, ts, title, preview,
       html: tpl.innerHTML,
-      thumb: tpl.content.querySelector('img')?.getAttribute('src') || '',
     };
   });
   return dedupeByLink(items);
@@ -330,10 +329,9 @@ function cardHTML(it) {
   const read = state.read.has(it.key);
   const sel = state.selected === it.key;
   const starred = state.star.has(it.key);
-  const body = (it.preview || it.thumb)
+  const body = it.preview
     ? `<div class="card-body">
-        ${it.preview ? `<p class="card-preview" lang="${it.feed.lang}">${esc(it.preview.slice(0, 160))}</p>` : ''}
-        ${it.thumb ? `<img class="card-thumb" src="${esc(it.thumb)}" alt="" loading="lazy">` : ''}
+        <p class="card-preview" lang="${it.feed.lang}">${esc(it.preview.slice(0, 160))}</p>
       </div>` : '';
   return `<article class="card${read ? ' read' : ''}${sel ? ' selected' : ''}" data-key="${esc(it.key)}" role="listitem" tabindex="0">
     <button class="card-star-btn${starred ? ' starred' : ''}" title="Star (s)" aria-label="Star article" aria-pressed="${starred}">
@@ -446,10 +444,10 @@ function bindUI() {
     if (card && !card.classList.contains('skeleton')) select(card.dataset.key);
   });
 
-  // drop broken remote images (favicons fall back to their monogram)
+  // drop broken favicon images (they fall back to their monogram)
   document.addEventListener('error', e => {
     const t = e.target;
-    if (t.tagName === 'IMG' && (t.closest('.favicon') || t.classList.contains('card-thumb'))) t.remove();
+    if (t.tagName === 'IMG' && t.closest('.favicon')) t.remove();
   }, true);
   // reveal favicon images only once they have pixels (monogram shows until then)
   document.addEventListener('load', e => {
