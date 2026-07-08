@@ -12,6 +12,19 @@ Self-updating full-text RSS feeds for a few AI blogs, plus a [Reeder](https://re
 | Qwen Blog (English) | https://qwen.ai/research | [`qwen_blog_en.xml`](qwen_blog_en.xml) |
 | Qwen 博客 (中文) | https://qwen.ai/research | [`qwen_blog_zh.xml`](qwen_blog_zh.xml) |
 | ByteDance Seed (中文) | https://seed.bytedance.com/zh/blog | [`bytedance_seed_zh.xml`](bytedance_seed_zh.xml) |
+| Zhipu AI News (中文) | https://www.zhipuai.cn/zh/news | [`zhipuai_news.xml`](zhipuai_news.xml) |
+| MiniMax News | https://www.minimaxi.com/news | [`minimax_news.xml`](minimax_news.xml) |
+| MiniMax Blog | https://www.minimaxi.com/blog | [`minimax_blog.xml`](minimax_blog.xml) |
+| Kling Blog | https://kling.ai/blog | [`kling_blog.xml`](kling_blog.xml) |
+| Mistral News | https://mistral.ai/news/ | [`mistral_news.xml`](mistral_news.xml) |
+| OpenAI Blog | https://openai.com/blog/ | [`openai_blog.xml`](openai_blog.xml) |
+| DeepMind Blog | https://deepmind.google/blog/ | [`deepmind_blog.xml`](deepmind_blog.xml) |
+| NVIDIA News | https://nvidianews.nvidia.com/in-the-news | [`nvidia_news.xml`](nvidia_news.xml) |
+| NVIDIA Blog | https://blogs.nvidia.com/ | [`nvidia_blog.xml`](nvidia_blog.xml) |
+| Meta AI Blog | https://ai.meta.com/blog/ | [`meta_ai_blog.xml`](meta_ai_blog.xml) |
+| Apple Newsroom | https://www.apple.com/newsroom/ | [`apple_newsroom.xml`](apple_newsroom.xml) |
+| Apple ML Highlights | https://machinelearning.apple.com/highlights | [`apple_ml_highlights.xml`](apple_ml_highlights.xml) |
+| Microsoft AI News | https://news.microsoft.com/source/topics/ai/ | [`microsoft_ai_news.xml`](microsoft_ai_news.xml) |
 
 The XML files at the repo root are full-text RSS 2.0 feeds, refreshed by an external crawler that pushes to `main`.
 
