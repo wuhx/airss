@@ -39,8 +39,14 @@ OVERRIDES = {
         "color": "#2e6be6", "home": "https://seed.bytedance.com/zh/blog",
         "format": "md",
     },
+    "airss.xml": {
+        "id": "crawl-log", "title": "Crawl Log", "lang": "en",
+        "color": "#8e8e93", "home": "https://github.com/wuhx/Aiji/actions",
+    },
 }
-ORDER = list(OVERRIDES)  # sidebar order for known feeds; new ones follow
+# Meta feed (scraper run reports) pinned below the article feeds
+LAST = ["airss.xml"]
+ORDER = [n for n in OVERRIDES if n not in LAST]  # sidebar order for known feeds; new ones follow
 
 PALETTE = ["#0a84ff", "#30b04f", "#bf5af2", "#ff9f0a", "#64d2ff", "#ff6482", "#ac8e68"]
 
@@ -113,7 +119,9 @@ def main():
         else:
             extra.append(entry)
 
-    feeds = [known[n] for n in ORDER if n in known] + sorted(extra, key=lambda f: f["id"])
+    feeds = ([known[n] for n in ORDER if n in known]
+             + sorted(extra, key=lambda f: f["id"])
+             + [known[n] for n in LAST if n in known])
 
     for name, reason in skipped:
         print(f"  skip  {name}: {reason}")
