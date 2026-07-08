@@ -172,14 +172,18 @@ function parseFeed(feed, xml) {
     const raw = encoded || el.getElementsByTagName('description')[0]?.textContent || '';
     const ts = +new Date(text('pubDate')) || 0;
     const tpl = sanitize(feed.format === 'md' ? mdToHtml(raw) : raw);
-    const title = text('title');
+    const rawTitle = text('title');
+    const title = (JUNK_TITLE.test(rawTitle) ? '' : rawTitle) || '(untitled)';
+
+    // Headline-only feeds repeat the title as the body; no point previewing it
+    let preview = makePreview(tpl);
+    const norm = s => s.replace(/\s+/g, ' ').trim().toLowerCase();
+    if (norm(preview) === norm(title)) preview = '';
 
     return {
       key: feed.id + '|' + (link || i),
-      feed, link, ts,
-      title: (JUNK_TITLE.test(title) ? '' : title) || '(untitled)',
+      feed, link, ts, title, preview,
       html: tpl.innerHTML,
-      preview: makePreview(tpl),
       thumb: tpl.content.querySelector('img')?.getAttribute('src') || '',
     };
   });
@@ -248,6 +252,7 @@ function maybeRestore() {
 /* ---------- sidebar ---------- */
 
 const ICON_HOME = '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 10.6 12 4.2l7.5 6.4M6.2 9.5V19a1 1 0 0 0 1 1h9.6a1 1 0 0 0 1-1V9.5"/></svg>';
+const ICON_TODAY = '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14.5" rx="3"/><path d="M8 3.5v3.5M16 3.5v3.5M4 10.5h16"/></svg>';
 const ICON_STAR = '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3.4 2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L3.5 9.6l5.9-.8Z"/></svg>';
 
 function faviconHTML(feed) {
@@ -260,6 +265,7 @@ function faviconHTML(feed) {
 function buildNav() {
   const parts = [
     navBtn('all', 'Home', ICON_HOME),
+    navBtn('today', 'Today', ICON_TODAY),
     navBtn('star', 'Starred', ICON_STAR),
     '<div class="nav-label">Feeds</div>',
     ...FEEDS.map(f => navBtn(f.id, f.title, faviconHTML(f), true)),
@@ -284,6 +290,7 @@ function updateNavStatus(feedId) {
 /* The search placeholder doubles as the view title: it names the scope. */
 function searchPlaceholder(view) {
   if (view === 'all') return 'Search all articles';
+  if (view === 'today') return 'Search today';
   if (view === 'star') return 'Search starred';
   return 'Search ' + (FEEDS.find(f => f.id === view)?.title ?? view);
 }
@@ -305,6 +312,10 @@ function setView(view) {
 function visibleItems() {
   let arr = state.items;
   if (state.view === 'star') arr = arr.filter(it => state.star.has(it.key));
+  else if (state.view === 'today') {
+    const t0 = new Date().setHours(0, 0, 0, 0);
+    arr = arr.filter(it => it.ts >= t0);
+  }
   else if (state.view !== 'all') arr = arr.filter(it => it.feed.id === state.view);
   if (state.q) {
     const q = state.q.toLowerCase();
@@ -319,27 +330,28 @@ function cardHTML(it) {
   const read = state.read.has(it.key);
   const sel = state.selected === it.key;
   const starred = state.star.has(it.key);
+  const body = (it.preview || it.thumb)
+    ? `<div class="card-body">
+        ${it.preview ? `<p class="card-preview" lang="${it.feed.lang}">${esc(it.preview.slice(0, 160))}</p>` : ''}
+        ${it.thumb ? `<img class="card-thumb" src="${esc(it.thumb)}" alt="" loading="lazy">` : ''}
+      </div>` : '';
   return `<article class="card${read ? ' read' : ''}${sel ? ' selected' : ''}" data-key="${esc(it.key)}" role="listitem" tabindex="0">
-    <div class="card-main">
-      <div class="card-meta">
-        ${faviconHTML(it.feed)}
-        <span class="card-time" title="${esc(fmtDate(it.ts))}">${relTime(it.ts)}</span>
-        <button class="card-star-btn${starred ? ' starred' : ''}" title="Star (s)" aria-label="Star article" aria-pressed="${starred}">
-          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">${STAR_PATH}</svg>
-        </button>
-      </div>
-      <h3 class="card-title" lang="${it.feed.lang}">${esc(it.title)}</h3>
-      ${it.preview ? `<p class="card-preview" lang="${it.feed.lang}">${esc(it.preview.slice(0, 160))}</p>` : ''}
+    <div class="card-meta">
+      <span class="card-time" title="${esc(fmtDate(it.ts))}">${relTime(it.ts)}</span>
+      <button class="card-star-btn${starred ? ' starred' : ''}" title="Star (s)" aria-label="Star article" aria-pressed="${starred}">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">${STAR_PATH}</svg>
+      </button>
     </div>
-    ${it.thumb ? `<img class="card-thumb" src="${esc(it.thumb)}" alt="" loading="lazy">` : ''}
+    <h3 class="card-title" lang="${it.feed.lang}">${esc(it.title)}</h3>
+    ${body}
   </article>`;
 }
 
 function renderSkeletons() {
   $('cards').innerHTML = Array.from({ length: 7 }, () =>
-    '<div class="card skeleton"><div class="card-main">' +
+    '<div class="card skeleton">' +
     '<div class="sk sk-meta"></div><div class="sk sk-title"></div><div class="sk sk-line"></div>' +
-    '</div></div>').join('');
+    '</div>').join('');
 }
 
 function renderTimeline() {
@@ -351,7 +363,8 @@ function renderTimeline() {
     const loading = FEEDS.some(f => state.status[f.id] === 'loading');
     const note = loading ? 'Loading…' :
       state.q ? 'No matching articles' :
-      state.view === 'star' ? 'Nothing starred yet' : 'No articles';
+      state.view === 'star' ? 'Nothing starred yet' :
+      state.view === 'today' ? 'Nothing published today yet' : 'No articles';
     $('cards').innerHTML = `<div class="timeline-note">${note}</div>`;
     return;
   }
@@ -524,7 +537,7 @@ async function boot() {
   }
 
   const saved = loadJSON(LS.sel);
-  if (saved?.view && (saved.view === 'all' || saved.view === 'star' || FEEDS.some(f => f.id === saved.view))) {
+  if (saved?.view && (['all', 'today', 'star'].includes(saved.view) || FEEDS.some(f => f.id === saved.view))) {
     state.view = saved.view;
   }
   pendingKey = saved?.key || null;
