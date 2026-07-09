@@ -1,26 +1,62 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Nvidia Blog</title><link>https://blogs.nvidia.com/</link><description>nvidia_blog RSS Feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 08 Jul 2026 22:59:15 +0000</lastBuildDate><item><title>Making Sense of the Early Universe</title><link>https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy/</link><description>&lt;article&gt;
+<rss version="2.0">
+  <channel>
+    <title>Nvidia Blog</title>
+    <link>https://blogs.nvidia.com/</link>
+    <description>nvidia_blog RSS Feed</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Jul 2026 01:47:48 +0000</lastBuildDate>
+    <item>
+      <title>Making Sense of the Early Universe</title>
+      <link>https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy/</link>
+      <description>&lt;article&gt;
 &lt;a href="https://blogs.nvidia.com/blog/open-models-icml-2026/"&gt;
 &lt;div&gt;&lt;img alt="How Open Models Are Driving AI Research" height="169" src="https://blogs.nvidia.com/wp-content/uploads/2026/07/ICML-Blog-Featured-Image-300x169.jpg" width="300"/&gt;&lt;/div&gt; &lt;/a&gt;
 &lt;a href="https://blogs.nvidia.com/blog/open-models-icml-2026/"&gt;
 		How Open Models Are Driving AI Research	&lt;/a&gt;
 &lt;div&gt;
 		Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work.  This year’s accepted papers reveal a clear direction: open...	&lt;/div&gt;
-&lt;/article&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy/</guid><pubDate>Thu, 23 Apr 2026 13:00:22 +0000</pubDate></item><item><title>Firefly Aerospace Operates NVIDIA Jetson in Lunar Orbit for the First Time</title><link>https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/</link><description>&lt;article&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy/</guid>
+      <pubDate>Thu, 23 Apr 2026 13:00:22 +0000</pubDate>
+      <crawled>2026-07-07T17:01:09.832160+00:00</crawled>
+    </item>
+    <item>
+      <title>Firefly Aerospace Operates NVIDIA Jetson in Lunar Orbit for the First Time</title>
+      <link>https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/</link>
+      <description>&lt;article&gt;
 &lt;a href="https://blogs.nvidia.com/blog/open-models-icml-2026/"&gt;
 &lt;div&gt;&lt;img alt="How Open Models Are Driving AI Research" height="169" src="https://blogs.nvidia.com/wp-content/uploads/2026/07/ICML-Blog-Featured-Image-300x169.jpg" width="300"/&gt;&lt;/div&gt; &lt;/a&gt;
 &lt;a href="https://blogs.nvidia.com/blog/open-models-icml-2026/"&gt;
 		How Open Models Are Driving AI Research	&lt;/a&gt;
 &lt;div&gt;
 		Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work.  This year’s accepted papers reveal a clear direction: open...	&lt;/div&gt;
-&lt;/article&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/</guid><pubDate>Mon, 29 Jun 2026 15:00:04 +0000</pubDate></item><item><title>NVIDIA and Partners Build in America, for America</title><link>https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/</link><description>&lt;article&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/</guid>
+      <pubDate>Mon, 29 Jun 2026 15:00:04 +0000</pubDate>
+      <crawled>2026-07-07T17:00:33.445262+00:00</crawled>
+    </item>
+    <item>
+      <title>NVIDIA and Partners Build in America, for America</title>
+      <link>https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/</link>
+      <description>&lt;article&gt;
 &lt;a href="https://blogs.nvidia.com/blog/open-models-icml-2026/"&gt;
 &lt;div&gt;&lt;img alt="How Open Models Are Driving AI Research" height="169" src="https://blogs.nvidia.com/wp-content/uploads/2026/07/ICML-Blog-Featured-Image-300x169.jpg" width="300"/&gt;&lt;/div&gt; &lt;/a&gt;
 &lt;a href="https://blogs.nvidia.com/blog/open-models-icml-2026/"&gt;
 		How Open Models Are Driving AI Research	&lt;/a&gt;
 &lt;div&gt;
 		Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work.  This year’s accepted papers reveal a clear direction: open...	&lt;/div&gt;
-&lt;/article&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/</guid><pubDate>Wed, 01 Jul 2026 13:00:47 +0000</pubDate></item><item><title>NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community</title><link>https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/</link><description>&lt;div&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/</guid>
+      <pubDate>Wed, 01 Jul 2026 13:00:47 +0000</pubDate>
+      <crawled>2026-07-07T17:00:24.369591+00:00</crawled>
+    </item>
+    <item>
+      <title>NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community</title>
+      <link>https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;Open source AI has shown how quickly developers can innovate when models, data and tools are shared. &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/industries/robotics/"&gt;&lt;span&gt;Robotics&lt;/span&gt;&lt;/a&gt;&lt;span&gt; has the same opportunity, but advancements in &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/glossary/generative-physical-ai/"&gt;&lt;span&gt;physical AI&lt;/span&gt;&lt;/a&gt;&lt;span&gt; development can still be gated by costly and fragmented resources, from large datasets and robot foundation models to simulation, compute and validation tools.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;NVIDIA and &lt;/span&gt;&lt;a href="https://huggingface.co/blog/lerobot-release-v060"&gt;&lt;span&gt;Hugging Face&lt;/span&gt;&lt;/a&gt;&lt;span&gt; are collaborating to bring the &lt;/span&gt;&lt;a href="https://developer.nvidia.com/isaac/gr00t"&gt;&lt;span&gt;NVIDIA Isaac GR00T 1.7&lt;/span&gt;&lt;/a&gt;&lt;span&gt; open, reasoning vision language action (VLA) model for &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/use-cases/humanoid-robots/"&gt;&lt;span&gt;humanoid robots&lt;/span&gt;&lt;/a&gt;&lt;span&gt; and the &lt;/span&gt;&lt;a href="https://nvidia.github.io/IsaacTeleop/"&gt;&lt;span&gt;NVIDIA Isaac Teleop&lt;/span&gt;&lt;/a&gt;&lt;span&gt; framework to LeRobot — Hugging Face’s open source library for robotics — with &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/ai/cosmos/"&gt;&lt;span&gt;NVIDIA Cosmos 3&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, a frontier model for physical AI, planned soon. Together, these integrations give developers a more accessible and standardized path for end-to-end robot development while driving innovation and collaboration across the open robotics community.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;“Open source is how a field turns advanced research into something people can study, adapt and build on,” said Thomas Wolf, cofounder and chief science officer at Hugging Face. “With NVIDIA Isaac GR00T 1.7 and Isaac TeleOp in LeRobot today, robotics developers can use shared models, data and workflows to train and evaluate robots in the open. And with NVIDIA Cosmos 3 planned next, the community will have a path to bring frontier world models into that same collaborative loop.” &lt;/span&gt;&lt;/p&gt;
@@ -40,7 +76,15 @@
 &lt;li&gt;&lt;b&gt;NVIDIA Jetson Thor integration with LeRobot’s Reachy 2&lt;/b&gt;&lt;span&gt; to support deployment of VLA models on open source humanoid robots.&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt;Learn more about how to use Isaac Teleop, Isaac GR00T 1.7 and Isaac Lab-Arena with LeRobot for end-to-end humanoid development and &lt;/span&gt;&lt;/i&gt;&lt;a href="https://huggingface.co/blog/nvidia/nvidia-isaac-teleop-and-gr00t17-in-lerobot"&gt;&lt;i&gt;&lt;span&gt;explore detailed LeRobot integration workflows&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/</guid><pubDate>Mon, 06 Jul 2026 09:00:00 -0700</pubDate></item><item><title>NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout</title><link>https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/</guid>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 -0700</pubDate>
+      <crawled>2026-07-07T17:00:36.336270+00:00</crawled>
+    </item>
+    <item>
+      <title>NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout</title>
+      <link>https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;As AI moves from model development to production inference, compute demand is accelerating and shifting toward continuously operating AI factories that generate tokens at scale. This shift requires access to large‑scale, multi‑tenant accelerated computing that can come online quickly, stay highly utilized and support the economics of token‑scale AI services. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Emerging AI companies historically have had limited access to capital-intensive infrastructure, with even long-term commitments insufficient to unlock financing for compute.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;To address this, NVIDIA is introducing a new business model that opens up compute access to the fast‑growing AI ecosystem of startups, model builders, enterprises, research organizations and regional AI players. &lt;/span&gt;&lt;/p&gt;
@@ -57,7 +101,15 @@
 &lt;p&gt;&lt;span&gt;Their customers need reliable access to large-scale NVIDIA accelerated computing as usage grows, but they also need commercial flexibility as products move from pilot to production. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt;To secure compute capacity and build and deploy AI models, contact Sharon AI and Firmus. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt; Learn more about &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/data-center/gpu-cloud-computing/partners/"&gt;&lt;i&gt;&lt;span&gt;NVIDIA Cloud Partners&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt; and &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/glossary/ai-factory/"&gt;&lt;i&gt;&lt;span&gt;AI factories&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning</title><link>https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:00:27.227633+00:00</crawled>
+    </item>
+    <item>
+      <title>Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning</title>
+      <link>https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;Editor’s note: This post is part of &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/omniverse/news/"&gt;&lt;i&gt;&lt;span&gt;Into the Omniverse&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;, a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/omniverse/usd/"&gt;&lt;i&gt;&lt;span&gt;OpenUSD&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt; and &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/omniverse/"&gt;&lt;i&gt;&lt;span&gt;NVIDIA Omniverse&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.nvidia.com/en-us/use-cases/video-analytics-ai-agents/"&gt;&lt;span&gt;Vision AI agents&lt;/span&gt;&lt;/a&gt;&lt;span&gt; are becoming a practical way to automatically turn video data from the physical world into operational intelligence in factories, cities, warehouses and transportation systems. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;That shift is accelerating as more AI workloads move closer to where data is generated. Gartner projects that more than two-thirds of enterprise-managed data will be created and processed outside the data center or cloud by 2028, and that over two-thirds of all enterprises globally will deploy edge AI by 2029, up from 10% in 2025 (1)&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;
@@ -109,7 +161,15 @@
 &lt;p&gt;&lt;i&gt;&lt;span&gt;To see how developers can build and deploy video analytics AI agents, watch this technical walkthrough on using&lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.youtube.com/watch?v=U1D4ZhSHHd0"&gt; &lt;i&gt;&lt;span&gt;NVIDIA VSS skills with coding agents&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt;Explore NVIDIA agent skills and blueprints to build, operate and optimize &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/use-cases/video-analytics-ai-agents/"&gt;&lt;i&gt;&lt;span&gt;video analytics AI agents&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt;Source: Gartner, Predicts 2026: Physical AI Pushes I&amp;amp;O to the Edge, 3 March 2026. &lt;/span&gt;&lt;/i&gt;&lt;i&gt;&lt;span&gt;Gartner is a trademark of Gartner, Inc. and/or its affiliates.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost</title><link>https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:00:58.149299+00:00</crawled>
+    </item>
+    <item>
+      <title>How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost</title>
+      <link>https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per &lt;/span&gt;&lt;a href="https://blogs.nvidia.com/blog/ai-tokens-explained/"&gt;&lt;span&gt;token&lt;/span&gt;&lt;/a&gt;&lt;span&gt;: how many useful tokens they can deliver per dollar, per watt and within required latency targets.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Codesigned with NVIDIA GPUs, CPUs, networking and systems, and strengthened by a broad open source ecosystem, NVIDIA’s full-stack inference software continuously improves hardware performance. On the &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/"&gt;&lt;span&gt;NVIDIA Blackwell&lt;/span&gt;&lt;/a&gt;&lt;span&gt; platform, the software stack has already reduced token costs by up to 5x on the DeepSeek V4 model in just one month.&lt;/span&gt;&lt;/p&gt;
 &lt;figure&gt;&lt;img alt="" height="1080" src="https://blogs.nvidia.com/wp-content/uploads/2026/06/semi-analysis-inference-x-5x.jpg" width="1920"/&gt;&lt;figcaption&gt;SemiAnalysis InferenceX results comparing token cost and interactivity for NVIDIA GB300 NVL72 systems with SGLang and the NVIDIA Dynamo inference framework.&lt;/figcaption&gt;&lt;/figure&gt;
@@ -147,7 +207,15 @@
 &lt;figure&gt;&lt;img alt="" height="720" src="https://blogs.nvidia.com/wp-content/uploads/2026/06/think-smart-software-optimizations.png" width="1280"/&gt;&lt;figcaption&gt;SemiAnalysis InferenceX results comparing token throughput at same interactivity for NVIDIA GB200 NVL72 systems with vLLM and the NVIDIA Dynamo inference framework.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;span&gt;That’s the open source flywheel: more developers optimize CUDA-native inference paths, more production deployments feed back into the ecosystem and each software improvement increases delivered token output while lowering cost per token over time.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt;Explore how software multiplies hardware performance in this &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.youtube.com/watch?v=zNuOOMM20Tk"&gt;&lt;i&gt;&lt;span&gt;NVIDIA AI Podcast on tokenomics&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt; and this &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/solutions/ai/inference/"&gt;&lt;i&gt;&lt;span&gt;inference solutions page&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters</title><link>https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:00:49.023371+00:00</crawled>
+    </item>
+    <item>
+      <title>AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters</title>
+      <link>https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;A&lt;/span&gt;&lt;span&gt;cross the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the tool calling, code execution, data processing, KV-cache and result analysis. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;For agents in AI factories, speed matters. &lt;/span&gt;&lt;/p&gt;
@@ -189,7 +257,15 @@
 &lt;p&gt;&lt;span&gt;In the agentic AI era, there will be billions of agents, and every one of them will turn to a CPU to act, check, retrieve, execute and verify. In this new market, completed agent work is the product. Faster agent loops help every GPU spend more time generating revenue producing work and less time waiting.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;NVIDIA Vera is the CPU built for that future.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt;Learn more about the&lt;/span&gt;&lt;/i&gt; &lt;a href="https://www.nvidia.com/en-us/data-center/vera-cpu/"&gt;&lt;i&gt;&lt;span&gt;NVIDIA Vera CPU&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>Eco Wave Power Turns Waves Into Watts With NVIDIA AI Infrastructure and Digital Twins</title><link>https://blogs.nvidia.com/blog/eco-wave-power-ai-digital-twins/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T22:54:16.304420+00:00</crawled>
+    </item>
+    <item>
+      <title>Eco Wave Power Turns Waves Into Watts With NVIDIA AI Infrastructure and Digital Twins</title>
+      <link>https://blogs.nvidia.com/blog/eco-wave-power-ai-digital-twins/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;The next era of AI will not be defined by compute alone. Its growth will be determined by energy.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;As accelerated computing scales across &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/glossary/ai-factory/"&gt;&lt;span&gt;AI factories&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/glossary/ai-agents/"&gt;&lt;span&gt;agentic AI&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/glossary/industrial-ai/"&gt;&lt;span&gt;industrial AI&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, edge computing and &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/glossary/generative-physical-ai/"&gt;&lt;span&gt;physical AI&lt;/span&gt;&lt;/a&gt;&lt;span&gt; — including robotics and autonomous systems — global electricity demand is rising at unprecedented speed. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;In many regions, expanding grid infrastructure to meet that need requires years of permitting, transmission upgrades, land acquisition and capital investment.&lt;/span&gt;&lt;/p&gt;
@@ -220,7 +296,15 @@
 &lt;p&gt;&lt;span&gt;AI software serves as the control layer for this data center pilot, planning compute tasks based on the available power supply. For example, the software can monitor and predict when waves will be stronger throughout the week based on weather patterns — and accordingly allocate more intensive compute tasks for these periods. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;“We exist, we work, we’re grid connected and we have so much of this resource,” Braverman  said. “The energy is needed now, so I think we’re in the right place at the right time and we’re innovative, but we’re not futuristic, and that’s what sets us apart.” &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt;Explore how NVIDIA is driving the &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/industries/energy/"&gt;&lt;i&gt;&lt;span&gt;future of energy&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/eco-wave-power-ai-digital-twins/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure</title><link>https://blogs.nvidia.com/blog/anthropic-nvidia-gb300-blackwell-ultra-microsoft-azure/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/eco-wave-power-ai-digital-twins/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:00:55.088948+00:00</crawled>
+    </item>
+    <item>
+      <title>Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure</title>
+      <link>https://blogs.nvidia.com/blog/anthropic-nvidia-gb300-blackwell-ultra-microsoft-azure/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;&lt;a href="https://claude.com/blog/claude-in-microsoft-foundry"&gt;Anthropic’s Claude models&lt;/a&gt; in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build autonomous and domain-specific AI agents.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;As agentic AI continues to drive enterprise innovation and becomes more autonomous, organizations need access to computing power to build and deploy specialized agents to accelerate essential business tasks. And having great inference performance and efficiency reduces &lt;/span&gt;&lt;span&gt;total cost of ownership&lt;/span&gt;&lt;span&gt; and drives positive company results.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;With Claude in Foundry running on &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/data-center/gb300-nvl72/"&gt;&lt;span&gt;NVIDIA GB300 NVL72&lt;/span&gt;&lt;/a&gt;&lt;span&gt; systems with &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/networking/products/infiniband/quantum-x800/"&gt;&lt;span&gt;NVIDIA Quantum-X800 InfiniBand&lt;/span&gt;&lt;/a&gt;&lt;span&gt; networking, enterprises can now build and run more powerful agentic systems, including autonomous and specialized sub-agents that can work across business domains to perform advanced tasks. &lt;/span&gt;&lt;/p&gt;
@@ -229,7 +313,15 @@
 &lt;p&gt;&lt;span&gt;Enterprises can run Claude agents on Azure by using the &lt;/span&gt;&lt;a href="https://developer.nvidia.com/blog/how-to-govern-autonomous-agents-in-enterprise-ai-factories"&gt;&lt;span&gt;NVIDIA Secure Agent Workspace Reference Design&lt;/span&gt;&lt;/a&gt;&lt;span&gt;. It provides a blueprint for running autonomous agents in a governed environment where identity, network access, credentials and runtime policy are controlled at the infrastructure level.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Claude in Microsoft Foundry accelerated by NVIDIA GB300 GPUs on Azure builds on the strategic partnership &lt;/span&gt;&lt;a href="https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/"&gt;&lt;span&gt;Microsoft, NVIDIA and Anthropic announced in November&lt;/span&gt;&lt;/a&gt;&lt;span&gt; to expand enterprise access to Claude and offer Anthropic models on NVIDIA accelerated computing. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt;Get started by visiting &lt;/span&gt;&lt;/i&gt;&lt;a href="https://ai.azure.com/catalog/publishers/anthropic"&gt;&lt;i&gt;&lt;span&gt;Claude in Microsoft Foundry&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt; and learn more in &lt;/span&gt;&lt;/i&gt;&lt;a href="https://aka.ms/ClaudeGAdocumentation"&gt;&lt;i&gt;&lt;span&gt;Foundry documentation&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/anthropic-nvidia-gb300-blackwell-ultra-microsoft-azure/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>Joyride Through July With 12 Games Coming to GeForce NOW</title><link>https://blogs.nvidia.com/blog/geforce-now-thursday-july-2026-games-list/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/anthropic-nvidia-gb300-blackwell-ultra-microsoft-azure/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:01:01.035169+00:00</crawled>
+    </item>
+    <item>
+      <title>Joyride Through July With 12 Games Coming to GeForce NOW</title>
+      <link>https://blogs.nvidia.com/blog/geforce-now-thursday-july-2026-games-list/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;Summer is heating up — and &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/geforce-now/"&gt;&lt;span&gt;GeForce NOW&lt;/span&gt;&lt;/a&gt;&lt;span&gt; is taking players along for the ride.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Start the month with &lt;/span&gt;&lt;i&gt;&lt;span&gt;Monopoly: Star Wars Heroes vs. Villains&lt;/span&gt;&lt;/i&gt;&lt;span&gt;, bringing a galaxy far, far away to the iconic board-game franchise, alongside 12 new games joining the cloud this month. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Plus, don’t let the sun set on the biggest GeForce NOW savings of the year. Level up for less before the deals disappear.&lt;/span&gt;&lt;/p&gt;
@@ -279,7 +371,15 @@
 &lt;p&gt;&lt;span&gt;One GeForce NOW member recently called the Summer Sale “&lt;/span&gt;&lt;a href="https://www.reddit.com/r/GeForceNOW/comments/1u38rje/summer_sale_is_quite_significant_for_people/"&gt;&lt;span&gt;quite significant&lt;/span&gt;&lt;/a&gt;&lt;span&gt;” after realizing the savings were even larger than expected in their local currency. By locking in a year of Ultimate, they calculated their monthly cost dropped from roughly 29 CAD to 17 CAD – showcasing how GeForce NOW continues to help gamers around the world enjoy the games they love, wherever they choose to play.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Plus, check out this &lt;/span&gt;&lt;a href="https://www.reddit.com/r/GeForceNOW/comments/1ug4eoz/for_steams_summer_sale_i_collected_all_geforcenow/"&gt;&lt;span&gt;spreadsheet&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, made by a community member, featuring discounted games streaming on GeForce NOW  and build out a bigger library at the best bargains during the &lt;/span&gt;&lt;a href="https://store.steampowered.com/specials"&gt;&lt;span&gt;Steam Summer Sale&lt;/span&gt;&lt;/a&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;What are you planning to play this weekend? Let us know on &lt;/span&gt;&lt;a href="https://www.twitter.com/nvidiagfn"&gt;&lt;span&gt;X&lt;/span&gt;&lt;/a&gt;&lt;span&gt; or in the comments below.&lt;/span&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/geforce-now-thursday-july-2026-games-list/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts</title><link>https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/geforce-now-thursday-july-2026-games-list/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:00:46.253726+00:00</crawled>
+    </item>
+    <item>
+      <title>The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts</title>
+      <link>https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;Summer savings are heating up. From the &lt;/span&gt;&lt;a href="https://store.steampowered.com/"&gt;&lt;span&gt;Steam Summer Sale&lt;/span&gt;&lt;/a&gt;&lt;span&gt; to &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/geforce-now/games/"&gt;&lt;span&gt;GeForce NOW membership discounts&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Plus, &lt;/span&gt;&lt;i&gt;&lt;span&gt;Dark Scrolls &lt;/span&gt;&lt;/i&gt;&lt;span&gt;joins the growing Devolver lineup, alongside Square Enix’s &lt;/span&gt;&lt;i&gt;&lt;span&gt;The Adventures of Elliot: The Millennium Tales&lt;/span&gt;&lt;/i&gt;&lt;span&gt;. They lead the charge for &lt;/span&gt;&lt;span&gt;six&lt;/span&gt;&lt;span&gt; new games joining the &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/geforce-now/games/"&gt;&lt;span&gt;GeForce NOW library&lt;/span&gt;&lt;/a&gt;&lt;span&gt; this week.&lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;&lt;b&gt;Steam Dreams Are Made of These&lt;/b&gt;&lt;/h2&gt;
@@ -315,7 +415,15 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;span&gt;Leaving the last word to the Community Corner, one GeForce NOW member recently shared being “&lt;/span&gt;&lt;a href="https://www.reddit.com/r/GeForceNOW/comments/1t8dbb8/im_so_impressed/"&gt;&lt;span&gt;so impressed&lt;/span&gt;&lt;/a&gt;&lt;span&gt;” by GeForce NOW. They gave the service a spin because of affordable pricing and took a lower-end PC from 20-30 fps on low settings to 60+ fps with settings maxed out — really putting the WoW in their &lt;/span&gt;&lt;i&gt;&lt;span&gt;World of Warcraft&lt;/span&gt;&lt;/i&gt;&lt;span&gt;. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;What are you planning to play this weekend? Maybe even more importantly, what device are you planning to play on? Let us know on &lt;/span&gt;&lt;a href="https://x.com/NVIDIAGFN/status/2069450408540434616?s=20"&gt;&lt;span&gt;X&lt;/span&gt;&lt;/a&gt;&lt;span&gt; or in the comments below.&lt;/span&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science</title><link>https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:01:06.792341+00:00</crawled>
+    </item>
+    <item>
+      <title>NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science</title>
+      <link>https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help researchers run more sophisticated workflows and iterate faster.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;This week, Anthropic announced &lt;a href="https://www.anthropic.com/news/claude-science-ai-workbench"&gt;Claude Science&lt;/a&gt;, an AI workbench for science research that lets scientists converse with agents in natural language to run their work end to end.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Claude Science &lt;/span&gt;&lt;span&gt;integrates with &lt;/span&gt;&lt;a href="https://nvidianews.nvidia.com/news/nvidia-launches-bionemo-agent-toolkit-giving-ai-agents-the-tools-to-accelerate-scientific-discovery"&gt;&lt;span&gt;NVIDIA BioNeMo Agent Toolkit&lt;/span&gt;&lt;/a&gt; &lt;span&gt;as a resource that&lt;/span&gt; &lt;span&gt;scientists can access&lt;/span&gt;&lt;span&gt; within their workflow. The toolkit packages NVIDIA-accelerated capabilities as callable skills, enabling Claude Science to select the appropriate tool, prepare valid inputs and execute the workflow — all while connecting to NVIDIA compute resources deployed anywhere. This brings NVIDIA’s accelerated models, libraries and NVIDIA NIM microservices directly into the same environment where the rest of the research happens.&lt;/span&gt;&lt;/p&gt;
@@ -340,7 +448,15 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;span&gt;NVIDIA BioNeMo Agent Toolkit is open and harness-agnostic, allowing the same scientific skills to work across agent frameworks and research platforms. The toolkit and its skills are available now through &lt;a href="https://developer.nvidia.com/industries/healthcare?size=n_12_n&amp;amp;sort-field=featured&amp;amp;sort-direction=desc"&gt;NVIDIA developer resources&lt;/a&gt; and &lt;/span&gt;&lt;a href="https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit"&gt;&lt;span&gt;GitHub&lt;/span&gt;&lt;/a&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Scientists can access BioNeMo-powered workflows through Anthropic’s Claude Science, which is entering public beta today. As part of the public beta, Anthropic is inviting researchers to provide feedback on additional domain specialists and integrations they need.&lt;/span&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates</title><link>https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:00:30.166222+00:00</crawled>
+    </item>
+    <item>
+      <title>‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates</title>
+      <link>https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;“You are entering the world at an extraordinary moment,” NVIDIA founder and CEO Jensen Huang told graduates as he delivered the keynote address at Carnegie Mellon University’s 128th commencement ceremony on Sunday. “A new industry is being born. A new era of science and discovery is beginning.”&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;“No generation has entered the world with more powerful tools — or greater opportunities — than you,” said Huang, addressing the assembled thousands on a rainy morning at Gesling Stadium on the university’s main campus in Pittsburgh, Pennsylvania. “We are all standing at the same starting line. This is your moment to help shape what comes next.”&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;After encouraging graduates to turn to their mothers and wish them a happy Mother’s Day, Huang drew a direct parallel between starting his career at the beginning of the PC revolution and graduates starting theirs at the beginning of the AI revolution, emphasizing that every major computing platform shift — PCs, the internet, mobile and cloud — had led to this shared moment.&lt;/span&gt;&lt;/p&gt;
@@ -376,7 +492,15 @@
 &lt;p&gt;&lt;span&gt;“Carnegie Mellon has a motto I love: ‘My heart is in the work.’ So put your heart in the work,” Huang said to conclude his address. “Build something worthy of your education, your potential and the people who believed in you long before the world did.”&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Watch the full address below: &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;iframe height="675" src="https://www.youtube.com/embed/dRaNmHmTJzs?start=5781&amp;amp;feature=oembed" title="2026 Commencement - Main Ceremony" width="1200"&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>Thomas Chen Helps NVIDIA Systems Launch Without a Hitch</title><link>https://blogs.nvidia.com/blog/nvidia-life-thomas-chen/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:01:18.254067+00:00</crawled>
+    </item>
+    <item>
+      <title>Thomas Chen Helps NVIDIA Systems Launch Without a Hitch</title>
+      <link>https://blogs.nvidia.com/blog/nvidia-life-thomas-chen/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;Thomas Chen doesn’t just build servers. He builds trust. As a liaison between NVIDIA and its partners, Chen ensures that systems run smoothly from design to deployment.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Based in Taipei, Taiwan, Chen earned master’s degrees in electronic and biomedical engineering from research universities National Chiao Tung University and National Taiwan University. He then began his career in enterprise server system design, working on compute trays, storage and GPU servers. Starting off with a focus on board-level design, he gradually expanded into designing full systems. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;When Chen joined NVIDIA in 2020, he jumped at the opportunity to work more closely with GPUs and AI infrastructure. As a senior application engineer manager, he acts as a bridge between external customers and internal NVIDIA teams.&lt;/span&gt;&lt;/p&gt;
@@ -393,7 +517,15 @@
 &lt;p&gt;&lt;span&gt;Chen finds fulfillment contributing to work that shapes the future of technology. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;“For me, doing my life’s work at NVIDIA means being part of something bigger,” he said. “It’s not just a job, it’s a place where I get to create cool technologies and feel like what I’m doing really matters.”&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt;Follow &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.instagram.com/nvidialife/"&gt;&lt;i&gt;&lt;span&gt;@nvidialife&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt; on Instagram and learn more about &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/"&gt;&lt;i&gt;&lt;span&gt;NVIDIA life, culture and careers&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-life-thomas-chen/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI</title><link>https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-life-thomas-chen/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:01:21.129817+00:00</crawled>
+    </item>
+    <item>
+      <title>NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI</title>
+      <link>https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;At CVPR, NVIDIA is unveiling new physical AI agent skills that &lt;/span&gt;&lt;a href="https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/"&gt;&lt;span&gt;help researchers and developers&lt;/span&gt;&lt;/a&gt;&lt;span&gt; speed the development of &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/solutions/autonomous-vehicles/"&gt;&lt;span&gt;autonomous vehicles&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/industries/robotics/"&gt;&lt;span&gt;robots&lt;/span&gt;&lt;/a&gt;&lt;span&gt; and &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics-platform/"&gt;&lt;span&gt;vision AI systems&lt;/span&gt;&lt;/a&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;The core challenge in &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/glossary/generative-physical-ai/"&gt;&lt;span&gt;physical AI&lt;/span&gt;&lt;/a&gt;&lt;span&gt; research isn’t simply developing stronger models. It’s building a full workflow around them — reconstructing real-world scenes, generating edge-case scenarios, training policies, evaluating behavior and rapidly iterating. Today, these steps are fragmented across separate tools, slowing the pace of experimentation as researchers struggle to piece them together.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Earlier this week, NVIDIA announced &lt;/span&gt;&lt;a href="https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai"&gt;&lt;span&gt;NVIDIA Cosmos 3&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, the open frontier model for physical AI and the world’s first full omnimodel unifying vision reasoning, world and action generation. Leading across the open model public leaderboards central to physical AI, the world foundation model provides core capabilities for physical AI development. &lt;/span&gt;&lt;a href="https://github.com/NVIDIA/skills"&gt;&lt;span&gt;NVIDIA physical AI skills&lt;/span&gt;&lt;/a&gt;&lt;span&gt; pair with Cosmos,  NVIDIA libraries and simulation frameworks to help researchers move from model capabilities to scalable end-to-end workflows faster than ever. &lt;/span&gt;&lt;/p&gt;
@@ -452,7 +584,15 @@
 &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Agent skills and tools for synthetic data generation — &lt;/span&gt;&lt;a href="https://github.com/NVIDIA/skills/tree/main/skills/physical-ai-neural-reconstruction"&gt;&lt;span&gt;Neural Reconstruction&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, &lt;/span&gt;&lt;a href="https://github.com/NVIDIA/skills/tree/main/skills/physical-ai-video-data-augmentation"&gt;&lt;span&gt;Video Augmentation&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, &lt;/span&gt;&lt;a href="https://github.com/NVIDIA/skills/tree/main/skills/physical-ai-defect-image-generation"&gt;&lt;span&gt;Defect Image Generation&lt;/span&gt;&lt;/a&gt;&lt;span&gt; — are also available to try instantly on NVIDIA Brev as &lt;/span&gt;&lt;a href="https://brev.nvidia.com/physical-ai"&gt;&lt;span&gt;Physical AI Launchables&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, preconfigured environments that bundle agent skills and tools for faster synthetic data generation and evaluation. Launchables run on hosted NVIDIA H100 Tensor Core GPUs and include free trial credits for researchers.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt;Learn more about &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/events/cvpr/"&gt;&lt;i&gt;&lt;span&gt;NVIDIA at CVPR&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt; and &lt;/span&gt;&lt;/i&gt;&lt;a href="https://research.nvidia.com"&gt;&lt;i&gt;&lt;span&gt;explore NVIDIA Research&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;’s work in physical AI, computer vision and autonomous systems. Get started with &lt;/span&gt;&lt;/i&gt;&lt;a href="https://developer.nvidia.com/isaac"&gt;&lt;i&gt;&lt;span&gt;Isaac GR00T and NVIDIA robotics tools&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>Sidney Knowles Puts AI to Work Inside NVIDIA</title><link>https://blogs.nvidia.com/blog/nvidia-life-sidney-knowles/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:01:03.876090+00:00</crawled>
+    </item>
+    <item>
+      <title>Sidney Knowles Puts AI to Work Inside NVIDIA</title>
+      <link>https://blogs.nvidia.com/blog/nvidia-life-sidney-knowles/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;The eve of &lt;/span&gt;&lt;a href="https://www.nvidia.com/gtc/"&gt;&lt;span&gt;GTC&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, NVIDIA’s annual AI conference — and after a full day helping teach a workshop about large language models — Sidney Knowles got a message that changed the shape of her week: NVIDIA was looking for employees to help support &lt;/span&gt;&lt;a href="https://blogs.nvidia.com/blog/gtc-2026-news/#build-a-claw"&gt;&lt;span&gt;Build-a-Claw&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, an event focused on giving developers hands-on experience with emerging AI tools. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;What started as a two-hour volunteer slot turned into something closer to a weeklong front-row seat to the future of AI development. Shortly after stepping into the event tent, Knowles immediately knew she was in her element: moving fast and helping others work faster and smarter.&lt;/span&gt;&lt;/p&gt;
 &lt;figure&gt;&lt;img alt="" height="675" src="https://blogs.nvidia.com/wp-content/uploads/2026/05/16x9_Build-a-Claw_GTC2026-1680x945.jpg" width="1200"/&gt;&lt;figcaption&gt;Knowles supporting attendees of the Build-a-Claw event at NVIDIA GTC.&lt;/figcaption&gt;&lt;/figure&gt;
@@ -480,7 +620,15 @@
 &lt;p&gt;&lt;span&gt;That distinction runs through Knowles’ view of the work. The goal isn’t automation for its own sake. It’s freeing people to spend more time understanding problems, separating signal from noise and applying creativity where it counts.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;One of the most rewarding parts of the job is how many teams Knowles gets to collaborate with and help empower, from healthcare and life sciences to infrastructure to field organizations.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;“Some of the smartest people on the planet work for NVIDIA,” Knowles said. “And I get to help enable their work.”&lt;/span&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-life-sidney-knowles/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>How Nations Are Deploying AI for Strategic Priorities</title><link>https://blogs.nvidia.com/blog/nations-deploy-ai-strategic-priorities/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-life-sidney-knowles/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:01:15.488943+00:00</crawled>
+    </item>
+    <item>
+      <title>How Nations Are Deploying AI for Strategic Priorities</title>
+      <link>https://blogs.nvidia.com/blog/nations-deploy-ai-strategic-priorities/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;Nations have long invested in domestic infrastructure to advance their economies, protect and use their data, and take advantage of technology opportunities in areas such as transportation, communications, commerce, entertainment and healthcare.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;AI, the most important technology of our time, is turbocharging innovation across every facet of society. Countries are investing in AI capabilities so they can design, train and deploy models and applications, using domestic infrastructure, local datasets and homegrown expertise. This approach ensures AI solutions are tailored to local citizens, services and regulations.&lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;&lt;b&gt;Why AI Capabilities Matter&lt;/b&gt;&lt;/h2&gt;
@@ -510,7 +658,15 @@
 &lt;p&gt;&lt;span&gt;In Latin America, &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/case-studies/widelabs-ai-makes-legal-services-accessible-brazil/"&gt;&lt;span&gt;AI solutions from Widelabs&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, running on NVIDIA‑accelerated infrastructure, are helping modernize and expand access to legal services for the Public Ministry of Rio Grande do Sul in Brazil, streamlining internal investigations and making justice records easier to find and use for more than 8 million citizens across nearly 500 municipalities — aligning advanced computing with more efficient, transparent and inclusive public administration. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;These efforts demonstrate how AI turns domestic infrastructure, local data and homegrown talent into solutions that can be used for social good.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt;Learn more by joining NVIDIA at the &lt;/span&gt;&lt;/i&gt;&lt;a href="https://aiforgood.itu.int/"&gt;&lt;i&gt;&lt;span&gt;AI for Good Summit&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;, running July 7-10 in Geneva, Switzerland, and read more about &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/ai-trust-center/trustworthy-ai/"&gt;&lt;i&gt;&lt;span&gt;NVIDIA’s commitment to trustworthy AI&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/nations-deploy-ai-strategic-priorities/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron</title><link>https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/nations-deploy-ai-strategic-priorities/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:00:42.873293+00:00</crawled>
+    </item>
+    <item>
+      <title>Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron</title>
+      <link>https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — &lt;a href="https://www.businesswire.com/news/home/20260629390275/en"&gt;introduced today&lt;/a&gt; — uses &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/"&gt;&lt;span&gt;NVIDIA Nemotron&lt;/span&gt;&lt;/a&gt;&lt;span&gt; open models to serve the needs of U.S. government agencies.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Open source software has long been a pillar of U.S. technology leadership. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;In 1969, DARPA connected four university computers — from UCLA, Stanford, UCSB and the University of Utah — laying the infrastructure backbone that became the internet.&lt;/span&gt;&lt;/p&gt;
@@ -530,7 +686,15 @@
 &lt;p&gt;&lt;b&gt;Lower costs fuel economic development&lt;/b&gt;&lt;span&gt;: Open models are in broad use, with about two-thirds of companies already using them and &lt;/span&gt;&lt;a href="https://www.linuxfoundation.org/hubfs/Research%20Reports/lfr_marketimpacts25_052725a.pdf"&gt;&lt;span&gt;reporting&lt;/span&gt;&lt;/a&gt;&lt;span&gt; on their cost efficiency. Organizations note that these cost savings are an important factor as they build AI that can scale with success.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;The combination of NVIDIA Nemotron open models with Palantir’s critical infrastructure products — AIP, Foundry, Ontology and Apollo —  bolsters U.S. technology leadership for government agencies and commercial businesses alike. Running the models on air-gapped NVIDIA-powered infrastructure keeps the data and models secure — and ready to support the most important missions.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt;Learn more about &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/"&gt;&lt;i&gt;&lt;span&gt;NVIDIA Nemotron&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt; and the Palantir &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.palantir.com/sovereignaios/"&gt;&lt;i&gt;&lt;span&gt;Sovereign AI Operating System Reference Architecture with NVIDIA&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>How Jaiveer Singh Is Helping Robots — and Developers — Move Faster</title><link>https://blogs.nvidia.com/blog/nvidia-life-jaiveer-singh/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:00:52.224731+00:00</crawled>
+    </item>
+    <item>
+      <title>How Jaiveer Singh Is Helping Robots — and Developers — Move Faster</title>
+      <link>https://blogs.nvidia.com/blog/nvidia-life-jaiveer-singh/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;When Jaiveer Singh talks about robots, he doesn’t begin with spectacle. He begins with infrastructure: the boards inside machines, the software that lets developers see through a robot’s cameras and the engineering required before a robot can leave a demo floor to do something useful.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;As a robotics software engineer who leads the team behind &lt;/span&gt;&lt;a href="https://developer.nvidia.com/isaac/ros"&gt;&lt;span&gt;NVIDIA Isaac ROS&lt;/span&gt;&lt;/a&gt;&lt;span&gt; (Robot Operating System), Singh works on the connective tissue of the &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/glossary/generative-physical-ai/"&gt;&lt;span&gt;physical AI&lt;/span&gt;&lt;/a&gt;&lt;span&gt; era. Built on the open source ROS 2 framework, Isaac ROS brings CUDA-accelerated libraries and AI models to developers building autonomous mobile robots, manipulation systems and humanoids. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;“My goal is to make sure everyone feels like they are a part of the robotics future,” Singh said.&lt;/span&gt;&lt;/p&gt;
@@ -554,7 +718,15 @@
 &lt;p&gt;&lt;span&gt;“When more people can build robots,” Singh said, “the future gets here faster.”&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" height="800" src="https://blogs.nvidia.com/wp-content/uploads/2026/06/Robotics-2024-8612-1680x1120.jpg" width="1200"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt;Follow &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.instagram.com/nvidialife/"&gt;&lt;i&gt;&lt;span&gt;@nvidialife&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt; on Instagram and learn more about &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/"&gt;&lt;i&gt;&lt;span&gt;NVIDIA life, culture and careers&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-life-jaiveer-singh/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>How Open Models Are Driving AI Research</title><link>https://blogs.nvidia.com/blog/open-models-icml-2026/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-life-jaiveer-singh/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:01:12.573546+00:00</crawled>
+    </item>
+    <item>
+      <title>How Open Models Are Driving AI Research</title>
+      <link>https://blogs.nvidia.com/blog/open-models-icml-2026/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;This year’s accepted papers reveal a clear direction: open &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/glossary/frontier-models/"&gt;&lt;span&gt;frontier models&lt;/span&gt;&lt;/a&gt;&lt;span&gt; and open &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/glossary/ai-infrastructure/"&gt;&lt;span&gt;AI infrastructure&lt;/span&gt;&lt;/a&gt;&lt;span&gt; have become foundational to how modern AI science gets done.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;NVIDIA had 74 papers accepted at ICML 2026. Approximately 2,000 accepted papers cite NVIDIA GPUs, and 145 cite &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/"&gt;&lt;span&gt;NVIDIA Nemotron&lt;/span&gt;&lt;/a&gt;&lt;span&gt; — a family of open models, including open datasets — as the foundation for new research. Hundreds more draw on NVIDIA &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/ai/cosmos/"&gt;&lt;span&gt;Cosmos&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, NVIDIA &lt;/span&gt;&lt;a href="https://developer.nvidia.com/isaac/gr00t"&gt;&lt;span&gt;Isaac GR00T&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, &lt;/span&gt;&lt;a href="https://nvidianews.nvidia.com/news/nvidia-launches-bionemo-agent-toolkit-giving-ai-agents-the-tools-to-accelerate-scientific-discovery"&gt;&lt;span&gt;BioNeMo&lt;/span&gt;&lt;/a&gt;&lt;span&gt; and other NVIDIA open model families, spanning physical AI, robotics, autonomous vehicles and biomedical research.&lt;/span&gt;&lt;/p&gt;
@@ -581,7 +753,15 @@
 &lt;p&gt;&lt;span&gt;Humanoid&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;a href="https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/"&gt;&lt;span&gt;LG Electronics&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;NEURA Robotics&lt;/span&gt;&lt;span&gt; and &lt;/span&gt;&lt;span&gt;Noble Machines&lt;/span&gt;&lt;span&gt; are adopting NVIDIA Isaac GR00T  models to accelerate industrial deployments of their humanoids, while &lt;/span&gt;&lt;span&gt;1X&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;Agility&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;Agile Robots&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;Boston Dynamics&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;Hexagon Robotics&lt;/span&gt;&lt;span&gt;, and &lt;/span&gt;&lt;span&gt;Mentee&lt;/span&gt;&lt;span&gt; are building the next generation of humanoids using Cosmos world models, Isaac Sim and Isaac Lab to accelerate the development and validation of their robots.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Explore NVIDIA’s open models on &lt;/span&gt;&lt;a href="https://huggingface.co/nvidia"&gt;&lt;span&gt;Hugging Face&lt;/span&gt;&lt;/a&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Explore genomics and biology research at ICML’s &lt;/span&gt;&lt;a href="https://genbio-workshop.github.io/2026/"&gt;&lt;span&gt;GenBio Workshop&lt;/span&gt;&lt;/a&gt;&lt;span&gt; on Friday, July 10.&lt;/span&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/open-models-icml-2026/</guid><pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate></item><item><title>For Robotaxis, Safety Must Be Built In, Not Bolted On</title><link>https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/open-models-icml-2026/</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:26 -0700</pubDate>
+      <crawled>2026-07-07T17:00:39.989021+00:00</crawled>
+    </item>
+    <item>
+      <title>For Robotaxis, Safety Must Be Built In, Not Bolted On</title>
+      <link>https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;A car pulls up to the curb. The app says, “Your ride is here.” No one’s in the driver’s seat. For people who live in one of the dozens of cities now hosting &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/glossary/robotaxi/"&gt;&lt;span&gt;robotaxi&lt;/span&gt;&lt;/a&gt;&lt;span&gt; services, this is already a reality.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;The robotaxi industry has moved from prototype milestones to commercial operations, with an expanding ecosystem accelerating the pace of deployment. New&lt;/span&gt;&lt;a href="https://nvidianews.nvidia.com/news/nvidia-drive-hyperion-becomes-the-global-platform-for-a-robotaxi-ready-world"&gt; &lt;span&gt;collaborations announced at NVIDIA GTC Taipei&lt;/span&gt;&lt;/a&gt;&lt;span&gt; reflect robotaxi programs spinning up around the world:&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -628,7 +808,15 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;span&gt;Halos OS spans the full development lifecycle — from training and simulation in Halos Infra to inference in the vehicle itself.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt;Learn more about &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/ai-trust-center/halos/autonomous-vehicles/"&gt;&lt;i&gt;&lt;span&gt;NVIDIA Halos&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/</guid><pubDate>Tue, 07 Jul 2026 08:00:52 -0700</pubDate></item><item><title>NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness</title><link>https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/</link><description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/</guid>
+      <pubDate>Tue, 07 Jul 2026 08:00:52 -0700</pubDate>
+      <crawled>2026-07-07T22:54:18.406114+00:00</crawled>
+    </item>
+    <item>
+      <title>NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness</title>
+      <link>https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x lower inference cost per run than leading closed models. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Measured against LangChain’s Deep Agents benchmark, Nemotron 3 Ultra also achieved business task parity with the highest-scoring closed models. No model retraining was required. Every gain came from engineering the environment around the model, not the model itself. &lt;/span&gt;&lt;/p&gt;
@@ -653,4 +841,10 @@
 &lt;p&gt;&lt;i&gt;&lt;span&gt;Stay up to date on agentic AI, &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/"&gt;&lt;i&gt;&lt;span&gt;NVIDIA Nemotron&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt; and more by subscribing to &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/executive-insights/generative-ai-tools/?modal=stay-inf"&gt;&lt;i&gt;&lt;span&gt;NVIDIA news&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;,&lt;/span&gt;&lt;/i&gt;&lt;a href="https://developer.nvidia.com/community"&gt;&lt;i&gt;&lt;span&gt; joining the community&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;, and following NVIDIA AI on &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.linkedin.com/showcase/nvidia-ai/posts/?feedView=all"&gt;&lt;i&gt;&lt;span&gt;LinkedIn&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;, &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.instagram.com/nvidiaai/?hl=en"&gt;&lt;i&gt;&lt;span&gt;Instagram&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;, &lt;/span&gt;&lt;/i&gt;&lt;a href="https://x.com/NVIDIAAIDev"&gt;&lt;i&gt;&lt;span&gt;X&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt; and &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.facebook.com/NVIDIAAI"&gt;&lt;i&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;.  &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&lt;span&gt;Explore &lt;/span&gt;&lt;/i&gt;&lt;a href="https://youtube.com/playlist?list=PL5B692fm6--vdRKB14FImVi7MTJ77zjn4&amp;amp;feature=shared"&gt;&lt;i&gt;&lt;span&gt;self-paced video tutorials and livestreams&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description><guid isPermaLink="false">https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/</guid><pubDate>Tue, 07 Jul 2026 08:00:52 -0700</pubDate></item></channel></rss>
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/</guid>
+      <pubDate>Tue, 07 Jul 2026 08:00:52 -0700</pubDate>
+      <crawled>2026-07-08T17:24:26.974700+00:00</crawled>
+    </item>
+  </channel>
+</rss>

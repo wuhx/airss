@@ -1,5 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Deepmind Blog</title><link>https://deepmind.google/blog/</link><description>deepmind_blog RSS Feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 08 Jul 2026 22:59:13 +0000</lastBuildDate><item><title>Gemini for Science: AI experiments and tools for a new era of discovery</title><link>https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/</link><description>&lt;article&gt;
+<rss version="2.0">
+  <channel>
+    <title>Deepmind Blog</title>
+    <link>https://deepmind.google/blog/</link>
+    <description>deepmind_blog RSS Feed</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Jul 2026 01:47:46 +0000</lastBuildDate>
+    <item>
+      <title>Gemini for Science: AI experiments and tools for a new era of discovery</title>
+      <link>https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/</link>
+      <description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -266,7 +278,15 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/</guid><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate></item><item><title>Making it easier to understand how content was created and edited</title><link>https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online</link><description>&lt;article&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:11:59.552962+00:00</crawled>
+    </item>
+    <item>
+      <title>Making it easier to understand how content was created and edited</title>
+      <link>https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online</link>
+      <description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -540,7 +560,15 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online</guid><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate></item><item><title>Introducing Gemini Omni</title><link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/</link><description>&lt;article&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:12:05.242536+00:00</crawled>
+    </item>
+    <item>
+      <title>Introducing Gemini Omni</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/</link>
+      <description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -909,7 +937,15 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/</guid><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate></item><item><title>Simulate real-world places with Project Genie and Street View</title><link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/</link><description>&lt;article&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:11:00.791062+00:00</crawled>
+    </item>
+    <item>
+      <title>Simulate real-world places with Project Genie and Street View</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/</link>
+      <description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -1197,7 +1233,15 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/</guid><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate></item><item><title>Gemini 3.5: frontier intelligence with action</title><link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/</link><description>&lt;article&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:12:10.861607+00:00</crawled>
+    </item>
+    <item>
+      <title>Gemini 3.5: frontier intelligence with action</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/</link>
+      <description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -1664,7 +1708,15 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/</guid><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate></item><item><title>Introducing Gemma 4 12B: a unified, encoder-free multimodal model</title><link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</link><description>&lt;article&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:11:53.571056+00:00</crawled>
+    </item>
+    <item>
+      <title>Introducing Gemma 4 12B: a unified, encoder-free multimodal model</title>
+      <link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</link>
+      <description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -1884,7 +1936,15 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</guid><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate></item><item><title>Powering the future of robotics in Europe</title><link>https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/</link><description>&lt;article&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:11:45.936567+00:00</crawled>
+    </item>
+    <item>
+      <title>Powering the future of robotics in Europe</title>
+      <link>https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/</link>
+      <description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -2174,7 +2234,15 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/</guid><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate></item><item><title>Fluid, natural voice translation with Gemini 3.5 Live Translate</title><link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/</link><description>&lt;article&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:11:39.724264+00:00</crawled>
+    </item>
+    <item>
+      <title>Fluid, natural voice translation with Gemini 3.5 Live Translate</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/</link>
+      <description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -2491,7 +2559,15 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/</guid><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate></item><item><title>DiffusionGemma: 4x faster text generation</title><link>https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/</link><description>&lt;article&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:11:31.528651+00:00</crawled>
+    </item>
+    <item>
+      <title>DiffusionGemma: 4x faster text generation</title>
+      <link>https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/</link>
+      <description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -2688,7 +2764,15 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/</guid><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate></item><item><title>Google DeepMind and A24 announce first-of-its-kind research partnership</title><link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/</link><description>&lt;main&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:11:26.248157+00:00</crawled>
+    </item>
+    <item>
+      <title>Google DeepMind and A24 announce first-of-its-kind research partnership</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/</link>
+      <description>&lt;main&gt;
 &lt;div&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -2742,7 +2826,15 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/main&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/</guid><pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate></item><item><title>Introducing computer use in Gemini 3.5 Flash</title><link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/</link><description>&lt;article&gt;
+&lt;/main&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:11:18.861184+00:00</crawled>
+    </item>
+    <item>
+      <title>Introducing computer use in Gemini 3.5 Flash</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/</link>
+      <description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -3035,7 +3127,15 @@ that can interact across platforms.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/</guid><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate></item><item><title>Start building with Nano Banana 2 Lite and Gemini Omni Flash</title><link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/</link><description>&lt;article&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:11:12.899657+00:00</crawled>
+    </item>
+    <item>
+      <title>Start building with Nano Banana 2 Lite and Gemini Omni Flash</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/</link>
+      <description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -3332,4 +3432,10 @@ that can interact across platforms.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/</guid><pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:11:07.255641+00:00</crawled>
+    </item>
+  </channel>
+</rss>
