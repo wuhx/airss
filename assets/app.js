@@ -171,6 +171,9 @@ function parseFeed(feed, xml) {
     const encoded = el.getElementsByTagNameNS(CONTENT_NS, 'encoded')[0]?.textContent;
     const raw = encoded || el.getElementsByTagName('description')[0]?.textContent || '';
     const ts = +new Date(text('pubDate')) || 0;
+    // <crawled> is when the scraper fetched the article; older feed builds
+    // (or feeds without it) fall back to the published date.
+    const crawledTs = +new Date(text('crawled')) || ts;
     const tpl = sanitize(feed.format === 'md' ? mdToHtml(raw) : raw);
     const rawTitle = text('title');
     const title = (JUNK_TITLE.test(rawTitle) ? '' : rawTitle) || '(untitled)';
@@ -182,7 +185,7 @@ function parseFeed(feed, xml) {
 
     return {
       key: feed.id + '|' + (link || i),
-      feed, link, ts, title, preview,
+      feed, link, ts, crawledTs, title, preview,
       html: tpl.innerHTML,
     };
   });
@@ -313,7 +316,7 @@ function visibleItems() {
   if (state.view === 'star') arr = arr.filter(it => state.star.has(it.key));
   else if (state.view === 'today') {
     const t0 = new Date().setHours(0, 0, 0, 0);
-    arr = arr.filter(it => it.ts >= t0);
+    arr = arr.filter(it => it.crawledTs >= t0);
   }
   else if (state.view !== 'all') arr = arr.filter(it => it.feed.id === state.view);
   if (state.q) {
@@ -360,7 +363,7 @@ function renderTimeline() {
     const note = loading ? 'Loading…' :
       state.q ? 'No matching articles' :
       state.view === 'star' ? 'Nothing starred yet' :
-      state.view === 'today' ? 'Nothing published today yet' : 'No articles';
+      state.view === 'today' ? 'Nothing crawled today yet' : 'No articles';
     $('cards').innerHTML = `<div class="timeline-note">${note}</div>`;
     return;
   }
