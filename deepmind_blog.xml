@@ -1,574 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss version="2.0">
-  <channel>
-    <title>Deepmind Blog</title>
-    <link>https://deepmind.google/blog/</link>
-    <description>deepmind_blog RSS Feed</description>
-    <docs>http://www.rssboard.org/rss-specification</docs>
-    <generator>python-feedgen</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 10 Jul 2026 22:57:14 +0000</lastBuildDate>
-    <item>
-      <title>Gemini for Science: AI experiments and tools for a new era of discovery</title>
-      <link>https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/</link>
-      <description>&lt;article&gt;
-&lt;section&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h1&gt;Gemini for Science: AI experiments and tools for a new era of discovery&lt;/h1&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;uni-reading-time&gt;&lt;!-- --&gt;&lt;p&gt;&lt;!--?lit$043511237$--&gt;6 min read&lt;/p&gt;&lt;/uni-reading-time&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;a&gt;
-
-&lt;div&gt;Share&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-&lt;a href="https://twitter.com/intent/tweet?text=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/"&gt;
-
-&lt;div&gt;x.com&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery&amp;amp;u=https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/"&gt;
-
-&lt;div&gt;Facebook&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/&amp;amp;title=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery"&gt;
-
-&lt;div&gt;LinkedIn&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="mailto:?subject=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery&amp;amp;body=Check out this article on the Keyword:%0A%0AGemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery%0A%0AGemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.%0A%0Ahttps://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/"&gt;
-
-&lt;div&gt;Mail&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-
-&lt;div&gt;
-
-&lt;div&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;
-          Explore the future of discovery with new Science Skills in Google Antigravity and three new experimental tools on Google Labs. These tools are designed to help accelerate core steps of the scientific method, built with Co-Scientist, AlphaEvolve, Empirical Research Assistance and NotebookLM.
-        &lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;a href="https://blog.google/authors/pushmeet-kohli/"&gt;
-&lt;figure&gt;
-&lt;picture&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pushmeet.max-122x92.format-webp.webp"/&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pushmeet.max-244x184.format-webp.webp"/&gt;
-&lt;img alt="Pushmeet" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pushmeet.max-244x184.format-webp.webp"/&gt;
-&lt;/picture&gt;
-&lt;/figure&gt;
-&lt;div&gt;
-&lt;div&gt;Pushmeet Kohli&lt;/div&gt;
-&lt;div&gt;
-      Chief Scientist, Google Cloud and Vice President, Google DeepMind
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://blog.google/authors/yossi-matias/"&gt;
-&lt;figure&gt;
-&lt;picture&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/yossi-portrait-high-res_1.max-122x92.format-webp.webp"/&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/yossi-portrait-high-res_1.max-244x184.format-webp.webp"/&gt;
-&lt;img alt="yossi-portrait-high-res (1)" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/yossi-portrait-high-res_1.max-244x184.format-webp.webp"/&gt;
-&lt;/picture&gt;
-&lt;/figure&gt;
-&lt;div&gt;
-&lt;div&gt;Yossi Matias&lt;/div&gt;
-&lt;div&gt;
-      Vice President, Google and General Manager, Google Research
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;a&gt;
-
-&lt;div&gt;Share&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-&lt;a href="https://twitter.com/intent/tweet?text=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/"&gt;
-
-&lt;div&gt;x.com&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery&amp;amp;u=https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/"&gt;
-
-&lt;div&gt;Facebook&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/&amp;amp;title=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery"&gt;
-
-&lt;div&gt;LinkedIn&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="mailto:?subject=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery&amp;amp;body=Check out this article on the Keyword:%0A%0AGemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery%0A%0AGemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.%0A%0Ahttps://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/"&gt;
-
-&lt;div&gt;Mail&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-
-&lt;div&gt;
-
-&lt;div&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;figure&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;img alt='Person using a microscope with "Gemini for Science" text and star icon.' height="150px" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/science__keyword__blog-header.width-200.format-webp.webp" width="360px"/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;section&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;audio title="Gemini for Science: AI experiments and tools for a new era of discovery"&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_84628_umbriel_2026_06_01_15_20_52.wav" type="audio/x-wav"/&gt;
-&lt;p&gt;Your browser does not support the audio element.&lt;/p&gt;
-&lt;/audio&gt;
-&lt;div&gt;
-&lt;div&gt;
-
-&lt;div&gt;
-&lt;span&gt;
-          Listen to article
-          &lt;span&gt;
-&lt;div&gt;This content is generated by Google AI. Generative AI is experimental&lt;/div&gt;
-
-&lt;/span&gt;
-&lt;/span&gt;
-&lt;div&gt;7:20 minutes&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div&gt;
-&lt;div&gt;
-&lt;span&gt;0:00&lt;/span&gt;
-&lt;div&gt;
-
-&lt;/div&gt;
-&lt;span&gt;7:20&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div&gt;
-&lt;div&gt;
-
-
-&lt;/div&gt;
-&lt;div&gt;
-
-&lt;/div&gt;
-&lt;div&gt;
-
-
-
-
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;!--article text--&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;p&gt;For centuries, the scientific method has been the greatest engine of human progress. At Google, our mission is deeply rooted in building tools to accelerate it. We believe that a new era of discovery won’t come from narrow, specialized models, but general agents that empower researchers across every scientific field.&lt;/p&gt;&lt;p&gt;That’s why we are introducing &lt;a href="https://ai.google/gemini-for-science/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Gemini for Science&lt;/a&gt;, a collection of science tools and experiments designed to expand the scale and precision of scientific exploration.&lt;/p&gt;&lt;h2&gt;A force multiplier for human ingenuity&lt;/h2&gt;&lt;p&gt;Today science faces a paradox: our collective knowledge is growing so fast that it’s becoming harder for individual scientists to see the full picture. Scientific breakthroughs often rely upon making creative connections between data, but the time required to do this manually can take weeks or even months. AI can help eliminate this bottleneck and serve as a force multiplier for scientific work by handling complex tasks. This allows researchers to focus on identifying and tackling the most impactful scientific problems and directions that would drive progress.&lt;/p&gt;&lt;p&gt;Gemini for Science experimental tools on Google Labs include three primary prototypes designed to handle such tasks.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;Hypothesis Generation, built with&lt;/b&gt; &lt;a href="https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;&lt;b&gt;Co-Scientist&lt;/b&gt;&lt;/a&gt;&lt;b&gt;:&lt;/b&gt; Ideation is the heartbeat of science, but no human can synthesise the millions of papers published annually. Hypothesis Generation bridges this gap by simulating the scientific method: it collaborates with researchers to define a research challenge, then uses a multi-agent “idea tournament” to generate, debate and evaluate hypotheses. To ensure absolute rigor, claims are deeply verified and supported by clickable citations.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Computational Discovery, built with&lt;/b&gt; &lt;a href="https://deepmind.google/blog/alphaevolve-impact/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;&lt;b&gt;AlphaEvolve&lt;/b&gt;&lt;/a&gt;&lt;b&gt; and&lt;/b&gt; &lt;a href="https://research.google/blog/empirical-research-assistance-era-is-published-in-nature-and-helped-build-computational-discovery/"&gt;&lt;b&gt;ERA (Empirical Research Assistance)&lt;/b&gt;&lt;/a&gt;&lt;b&gt;:&lt;/b&gt; Scientific progress is often limited by the number of hypotheses we can realistically test with computational experiments. Computational Discovery, an agentic research engine, is a prototype that solves this by generating and scoring thousands of code variations in parallel. This allows scientists to test novel modeling approaches — for complex fields like solar forecasting or epidemiology — that would take months to navigate manually.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Literature Insights, built with&lt;/b&gt; &lt;a href="https://notebooklm.google/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;&lt;b&gt;Google NotebookLM&lt;/b&gt;&lt;/a&gt;&lt;b&gt;:&lt;/b&gt; Understanding scientific literature is a core part of all research journeys. Literature Insights searches scientific literature and structures results into tables with custom, searchable attributes for side-by-side analysis. Researchers can use chat to uncover nuances grounded in their curated corpus, and create high-fidelity artifacts such as reports, slide decks, infographics and audio and video overviews. With the power of NotebookLM, Literature insights helps synthesize findings across papers, identify research gaps and uncover areas of opportunity.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Starting today, we’ll begin gradually opening access to these experiments. Visit &lt;a href="http://labs.google/science/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;labs.google/science&lt;/a&gt; to register your interest.&lt;/p&gt;&lt;p&gt;Beyond the individual experiments, we’re also bringing these advanced AI capabilities to enterprise organizations through &lt;a href="https://docs.cloud.google.com/gemini/enterprise/docs/co-scientist-and-alphaevolve/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Google Cloud&lt;/a&gt;. Our enterprise-grade solutions for scientific and industrial R&amp;amp;D are already being used by a range of partners in private preview to drive real-world impact. Companies like &lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/how-basf-manages-thousands-of-supply-chain-decisions-with-alphaevolve?e=48754805?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;BASF&lt;/a&gt; are using &lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/alphaevolve-on-google-cloud/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;AlphaEvolve&lt;/a&gt; to optimize their supply chains, and &lt;a href="https://engineering.klarna.com/beyond-prompting-how-algorithmic-evolution-doubled-our-training-speed-8f874af3080d"&gt;Klarna&lt;/a&gt; is leveraging it to enhance their machine learning models. In parallel, organizations like Daiichi Sankyo, Bayer Crop Science and the U.S. National Labs (as part of the U.S. &lt;a href="https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Department of Energy's Genesis Mission&lt;/a&gt;) are using Co-Scientist to accelerate their research and tackle fundamental scientific challenges. These enterprise-grade tools are demonstrating significant value in their current preview phase. We are excited about the breakthroughs our partners are unlocking and look forward to expanding access to more organizations in the coming months.&lt;/p&gt;&lt;p&gt;Several validation papers have been already published based on these and other tools. The &lt;a href="https://www.nature.com/articles/s41586-026-10658-6"&gt;ERA&lt;/a&gt; and &lt;a href="https://www.nature.com/articles/s41586-026-10644-y"&gt;Co-Scientist&lt;/a&gt; research papers are published today in Nature.&lt;/p&gt;&lt;h2&gt;A scientific workbench on your desktop&lt;/h2&gt;&lt;p&gt;As part of Gemini for Science, we are also launching Science Skills, a specialized bundle that integrates insights from over 30 major life science databases and tools including &lt;a href="https://www.uniprot.org/"&gt;UniProt&lt;/a&gt;, &lt;a href="https://alphafold.ebi.ac.uk/"&gt;AlphaFold Database&lt;/a&gt;, &lt;a href="https://deepmind.google.com/science/alphagenome/"&gt;AlphaGenome API&lt;/a&gt; and &lt;a href="https://www.ebi.ac.uk/interpro/"&gt;InterPro&lt;/a&gt;. Using these skills on agentic platforms like Google Antigravity allows researchers to perform complex and often manual workflows like structural bioinformatics and genomic analyses in minutes rather than hours.&lt;/p&gt;&lt;p&gt;Our research teams using Science Skills have already seen this speedup in practice. In early testing, our team used Science Skills to perform a complex analysis that normally takes hours in minutes. This led to novel insights about potential mechanisms for a rare genetic disease caused by mutations in the AK2 gene.&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;uni-youtube-player-article&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;!--?lit$043511237$--&gt; &lt;!--?lit$043511237$--&gt; &lt;!--?lit$043511237$--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-youtube-player-article&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;p&gt;To learn more on how to use Science Skills in Google Antigravity visit &lt;a href="http://antigravity.google/use-cases/science"&gt;antigravity.google/use-cases/science&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;A collaborative effort with the scientific community&lt;/h2&gt;&lt;p&gt;Our commitment to responsibly develop and deploy tools for science begins with the scientific ecosystem. We are collaborating with over 100 institutions — including &lt;a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202508751?af=R"&gt;Stanford University&lt;/a&gt; on liver fibrosis, &lt;a href="https://www.cell.com/cell/fulltext/S0092-8674(25)00973-0"&gt;Imperial College London&lt;/a&gt; on antimicrobial resistance and a multi-year effort with &lt;a href="https://www.crick.ac.uk/news/2022-07-06_the-francis-crick-institute-and-deepmind-join-forces-to-apply-machine-learning-to-biology"&gt;The Crick Institute&lt;/a&gt; — to validate our new systems and tools. To ensure the integrity of AI-generated insights, we’ve built a trusted tester community — ranging from PhD students to industry researchers to Nobel laureates — to stress test our systems against complex real-world challenges.&lt;/p&gt;&lt;p&gt;In addition, we’ve also created dedicated pilots with leading scientific conferences like ICML, STOC and NeurIPS to develop pioneering tools for agentic peer review and scientific validation such as our experimental &lt;a href="https://research.google/blog/gemini-provides-automated-feedback-for-theoretical-computer-scientists-at-stoc-2026/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Paper Assistant Tool (PAT)&lt;/a&gt; and &lt;a href="https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;ScholarPeer&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;All of this work builds on a long history of AI advancements. Our specialized AI models are already accelerating progress: &lt;a href="https://deepmind.google/science/alphafold/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;AlphaFold&lt;/a&gt; has helped over 3 million researchers tackle malaria vaccines and plastic-eating enzymes; and &lt;a href="https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;AlphaGenome&lt;/a&gt; is helping scientists identify the drivers of disease. These sit alongside everyday tools researchers rely on — from &lt;a href="https://scholar.google.co.uk/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Google Scholar&lt;/a&gt; and &lt;a href="https://earthengine.google.com/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Earth Engine&lt;/a&gt; to &lt;a href="https://colab.research.google.com/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Colab&lt;/a&gt;, &lt;a href="https://research.google/blog/next-generation-medical-image-interpretation-with-medgemma-15-and-medical-speech-to-text-with-medasr/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;MedGemma&lt;/a&gt;, &lt;a href="https://ai.google/earth-ai/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Earth AI&lt;/a&gt; and &lt;a href="https://gemini.google/overview/deep-research/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Gemini Deep Research&lt;/a&gt;. With our latest &lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Gemini Deep Think&lt;/a&gt; release, we continue to improve our core model capabilities on complex scientific tasks. Together&lt;b&gt;,&lt;/b&gt; these tools have already become essential parts of the scientific ecosystem, helping researchers organize information and perform complex data analysis at scale.&lt;/p&gt;&lt;p&gt;As we explore the future of agentic research together, we continue to work towards a future where AI accelerates scientific progress and helps solve our most pressing societal challenges.&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;uni-related-content-tout title="I/O 2026"&gt;
-&lt;!-- --&gt;&lt;section&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/"&gt;&lt;!--?lit$043511237$--&gt;&lt;div&gt;&lt;p&gt;&lt;!--?lit$043511237$--&gt;Collection&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;!--?lit$043511237$--&gt;&lt;div&gt;
-&lt;figure&gt;
-&lt;picture&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-300.format-webp.webp"/&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp"/&gt;
-&lt;img alt="The image shows a colorful abstract design with the Google I/O 2026 logo." src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp"/&gt;
-&lt;/picture&gt;
-&lt;/figure&gt;
-&lt;/div&gt;&lt;div&gt;&lt;h2&gt;&lt;!--?lit$043511237$--&gt;I/O 2026&lt;/h2&gt;&lt;p&gt;&lt;!--?lit$043511237$--&gt;Here’s a look at everything we announced at Google I/O 2026.&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;!--?lit$043511237$--&gt;See more&lt;/span&gt;&lt;uni-icon-component&gt;&lt;!-- --&gt;&lt;/uni-icon-component&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;/section&gt;&lt;/uni-related-content-tout&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;
-
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;p&gt;
-          Done. Just one step more.
-        &lt;/p&gt;
-&lt;p&gt;
-          Check your inbox to confirm your subscription.
-        &lt;/p&gt;
-&lt;p&gt;You are already subscribed to our newsletter.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;
-        You can also subscribe with a
-        
-&lt;span&gt;
-        .
-        &lt;/span&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;span&gt;POSTED IN:&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:11:59.552962+00:00</crawled>
-    </item>
-    <item>
-      <title>Making it easier to understand how content was created and edited</title>
-      <link>https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online</link>
-      <description>&lt;article&gt;
-&lt;section&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h1&gt;Making it easier to understand how content was created and edited&lt;/h1&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;p&gt;May 19, 2026&lt;/p&gt;
-&lt;span&gt;·&lt;/span&gt;
-&lt;uni-reading-time&gt;&lt;!-- --&gt;&lt;p&gt;&lt;!--?lit$555409562$--&gt;7 min read&lt;/p&gt;&lt;/uni-reading-time&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;a&gt;
-
-&lt;div&gt;Share&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-&lt;a href="https://twitter.com/intent/tweet?text=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/"&gt;
-
-&lt;div&gt;x.com&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited&amp;amp;u=https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/"&gt;
-
-&lt;div&gt;Facebook&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/&amp;amp;title=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited"&gt;
-
-&lt;div&gt;LinkedIn&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="mailto:?subject=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited&amp;amp;body=Check out this article on the Keyword:%0A%0AMaking%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited%0A%0Ahttps://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/"&gt;
-
-&lt;div&gt;Mail&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-
-&lt;div&gt;
-
-&lt;div&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;
-          We're expanding our tools to help you understand how content was created and edited across the web.
-        &lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;a href="https://blog.google/authors/laurie-richardson/"&gt;
-&lt;figure&gt;
-&lt;picture&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LaurieRichardson8971-_Formal_Hea.max-122x92.format-webp.webp"/&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LaurieRichardson8971-_Formal_He.max-244x184.format-webp.webp"/&gt;
-&lt;img alt="Laurie Richardson" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LaurieRichardson8971-_Formal_He.max-244x184.format-webp.webp"/&gt;
-&lt;/picture&gt;
-&lt;/figure&gt;
-&lt;div&gt;
-&lt;div&gt;Laurie Richardson&lt;/div&gt;
-&lt;div&gt;
-      Vice President, Trust and Safety, Google
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://blog.google/authors/pushmeet-kohli/"&gt;
-&lt;figure&gt;
-&lt;picture&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pushmeet.max-122x92.format-webp.webp"/&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pushmeet.max-244x184.format-webp.webp"/&gt;
-&lt;img alt="Pushmeet" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pushmeet.max-244x184.format-webp.webp"/&gt;
-&lt;/picture&gt;
-&lt;/figure&gt;
-&lt;div&gt;
-&lt;div&gt;Pushmeet Kohli&lt;/div&gt;
-&lt;div&gt;
-      Chief Scientist, Google Cloud and Vice President, Google DeepMind
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;a&gt;
-
-&lt;div&gt;Share&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-&lt;a href="https://twitter.com/intent/tweet?text=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/"&gt;
-
-&lt;div&gt;x.com&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited&amp;amp;u=https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/"&gt;
-
-&lt;div&gt;Facebook&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/&amp;amp;title=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited"&gt;
-
-&lt;div&gt;LinkedIn&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="mailto:?subject=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited&amp;amp;body=Check out this article on the Keyword:%0A%0AMaking%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited%0A%0Ahttps://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/"&gt;
-
-&lt;div&gt;Mail&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-
-&lt;div&gt;
-
-&lt;div&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;figure&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;img alt='A chat input box mockup featuring an uploaded thumbnail of dog-themed latte art, the text "Is this generated with AI?", and action icons for adding files, voice input, and sending.' height="150px" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FINAL_SOCIAL_HERO_laWfMt0.width-200.format-webp.webp" width="360px"/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;section&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;!--article text--&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;p&gt;As generative media becomes more advanced and accessible, it’s helpful to know where content comes from, and whether it’s been altered. Today, we’re expanding our content transparency and verification tools in Search, Gemini, Chrome, Pixel and Cloud, and deepening our partnership with the broader industry.&lt;/p&gt;&lt;h2&gt;Scaling our technology&lt;/h2&gt;&lt;p&gt;Three years ago, we introduced &lt;a href="https://deepmind.google/blog/identifying-ai-generated-images-with-synthid/"&gt;SynthID&lt;/a&gt;, our industry-leading digital watermarking technology that embeds imperceptible signals into AI-generated content. Since then, we've integrated SynthID into our generative media models and products, watermarking over 100 billion images and videos and 60,000 years of audio.&lt;/p&gt;&lt;p&gt;Across a growing number of our generative media tools, we use &lt;a href="https://contentcredentials.org/"&gt;C2PA Content Credentials&lt;/a&gt;, the industry standard that shows how media was created and modified, with or without AI. &lt;a href="https://security.googleblog.com/2025/09/pixel-android-trusted-images-c2pa-content-credentials.html"&gt;Pixel 10&lt;/a&gt; was the first smartphone to provide Content Credentials for images in its native camera app, and we are expanding this technology to include video on Pixel 8, 9 and 10 phones in the coming weeks.&lt;/p&gt;&lt;p&gt;By using this technology at the point of capture, Pixel documents when content has been captured by a camera. In an era of generative media, we believe that identifying authentic, unedited content can be just as important as knowing when a file was made or edited using AI.&lt;/p&gt;&lt;h2&gt;Providing more ways to verify content&lt;/h2&gt;&lt;p&gt;Our goal is to make it easier to learn more about the content you encounter online. That’s why we recently added SynthID verification for image, video and audio to the &lt;a href="https://blog.google/innovation-and-ai/products/ai-image-verification-gemini-app/"&gt;Gemini app&lt;/a&gt;. Already, it’s been used 50 million times globally, and we’re expanding this verification capability to Search today and Chrome over the coming weeks.&lt;/p&gt;&lt;p&gt;You can learn about an image's origin by using Search features like Lens, AI Mode and Circle to Search, as well as Gemini in Chrome. Just ask, "Is this made with AI?” or “Is this AI generated?”&lt;/p&gt;&lt;p&gt;We’re also adding verification for C2PA Content Credentials, to easily check if content is an unaltered original from a camera or if it has been modified, and by what tools. This feature is rolling out in the Gemini app starting today, and it will come to Search and Chrome in the coming months. This builds on features like the &lt;a href="https://blog.youtube/news-and-events/disclosing-ai-generated-content/"&gt;labels on YouTube&lt;/a&gt; that identify AI-generated content and our work with trusted testers on &lt;a href="https://deepmind.google/blog/exploring-the-context-of-online-images-with-backstory/"&gt;Backstory&lt;/a&gt; to make detection tools faster and more reliable.&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;uni-image-full-width&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/FINAL_3kYG23z.mp4#t=0.001" title="FINAL I/O" type="video/mp4"&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/FINAL_3kYG23z.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;!--?--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;h2&gt;Partnering across the industry&lt;/h2&gt;&lt;p&gt;Because digital media travels across many platforms, industry-wide partnership and adoption of robust, interoperable tools is essential. More content across the web will soon carry these imperceptible watermarks, as companies like OpenAI, Kakao and ElevenLabs are bringing SynthID technology to more of their AI-generated content. This builds on our ongoing work to make content origins clearer, like &lt;a href="https://github.com/google-deepmind/synthid-text"&gt;open-sourcing our SynthID text watermarking technology&lt;/a&gt; and &lt;a href="https://nvidianews.nvidia.com/news/nvidia-alphabet-and-google-collaborate-on-the-future-of-agentic-and-physical-ai"&gt;partnering with NVIDIA&lt;/a&gt; to watermark AI-generated video from their &lt;a href="https://build.nvidia.com/search?q=Cosmos&amp;amp;categories=models"&gt;Cosmos world foundation models&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;To help more organizations identify AI-generated media, we’re launching a new AI Content Detection API on Google Cloud’s Gemini Enterprise Agent Platform. This gives businesses a powerful way to spot AI content made by both Google and other popular models, helping them decide how to evaluate and manage media across their own platforms — whether that’s for backend operations like sorting feeds and preventing insurance fraud, or for user-facing content like fact-checking and labeling synthetic media. We’re launching with a group of trusted partners and will continue to refine the API based on their feedback.&lt;/p&gt;&lt;p&gt;We also continue to advocate for global standards for provenance technology as a member of the &lt;a href="https://blog.google/innovation-and-ai/products/google-gen-ai-content-transparency-c2pa/"&gt;C2PA steering committee&lt;/a&gt;. This ensures that transparency tools built into our devices work seamlessly across the platforms you use every day. For example, Meta — a fellow C2PA Steering Committee member — will start labeling camera-captured media with Content Credentials on Instagram. This means authentic photos and videos shot natively on Pixel phones will soon be recognized and labeled as such when you share them on Instagram.&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;section&gt;
-&lt;ui-carousel&gt;
-&lt;div&gt;
-&lt;/div&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt; &lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;ui-carousel-slide&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
-&lt;uni-image-full-width&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
-&lt;img alt="Quote from Attestiv" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Attestiv_CzAjtGt.width-100.format-webp.webp"/&gt;
-&lt;/div&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
-&lt;/div&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/ui-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;ui-carousel-slide&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
-&lt;uni-image-full-width&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
-&lt;img alt="Shutterstock quote" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/2_Shutterstock.width-100.format-webp.webp"/&gt;
-&lt;/div&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
-&lt;/div&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/ui-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;ui-carousel-slide&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
-&lt;uni-image-full-width&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
-&lt;img alt="Snap quote" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/3_Snap.width-100.format-webp.webp"/&gt;
-&lt;/div&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
-&lt;/div&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/ui-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;ui-carousel-slide&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
-&lt;uni-image-full-width&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
-&lt;img alt="Fox Sports quote" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5_Fox_Sports.width-100.format-webp.webp"/&gt;
-&lt;/div&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
-&lt;/div&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/ui-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;ui-carousel-slide&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
-&lt;uni-image-full-width&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
-&lt;img alt="Nectar Social quote" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/6_Nectar_Social.width-100.format-webp.webp"/&gt;
-&lt;/div&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
-&lt;/div&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/ui-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;ui-carousel-slide&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
-&lt;uni-image-full-width&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
-&lt;img alt="Canva quote" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Canva_Eo5WvCR.width-100.format-webp.webp"/&gt;
-&lt;/div&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
-&lt;/div&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/ui-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;ui-carousel-slide&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
-&lt;uni-image-full-width&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
-&lt;img alt="Avid quote" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Avid_testimonial_IO2026.width-100.format-webp.webp"/&gt;
-&lt;/div&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
-&lt;/div&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/ui-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/ui-carousel&gt;
-&lt;/section&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;p&gt;We’ve long invested in providing helpful context about the information you find online. Content transparency is a complex challenge, but we’ll keep developing ways to push the technology forward and set a high bar for the industry. Our goal is to empower you with the tools needed to determine the history of any content you encounter.&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;uni-related-content-tout title="I/O 2026"&gt;
-&lt;!-- --&gt;&lt;section&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/"&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;p&gt;&lt;!--?lit$555409562$--&gt;Collection&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
-&lt;figure&gt;
-&lt;picture&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-300.format-webp.webp"/&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp"/&gt;
-&lt;img alt="The image shows a colorful abstract design with the Google I/O 2026 logo." src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp"/&gt;
-&lt;/picture&gt;
-&lt;/figure&gt;
-&lt;/div&gt;&lt;div&gt;&lt;h2&gt;&lt;!--?lit$555409562$--&gt;I/O 2026&lt;/h2&gt;&lt;p&gt;&lt;!--?lit$555409562$--&gt;Here’s a look at everything we announced at Google I/O 2026.&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;!--?lit$555409562$--&gt;See more&lt;/span&gt;&lt;uni-icon-component&gt;&lt;!-- --&gt;&lt;/uni-icon-component&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;/section&gt;&lt;/uni-related-content-tout&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;
-
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;p&gt;
-          Done. Just one step more.
-        &lt;/p&gt;
-&lt;p&gt;
-          Check your inbox to confirm your subscription.
-        &lt;/p&gt;
-&lt;p&gt;You are already subscribed to our newsletter.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;
-        You can also subscribe with a
-        
-&lt;span&gt;
-        .
-        &lt;/span&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;span&gt;POSTED IN:&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:12:05.242536+00:00</crawled>
-    </item>
-    <item>
-      <title>Introducing Gemini Omni</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/</link>
-      <description>&lt;article&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Deepmind Blog</title><link>https://deepmind.google/blog/</link><description>deepmind_blog RSS Feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 07 Jul 2026 23:20:36 +0000</lastBuildDate><item><title>Introducing Gemini Omni</title><link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/</link><description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -937,311 +368,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:11:00.791062+00:00</crawled>
-    </item>
-    <item>
-      <title>Simulate real-world places with Project Genie and Street View</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/</link>
-      <description>&lt;article&gt;
-&lt;section&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h1&gt;Simulate real-world places with Project Genie and Street View&lt;/h1&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;p&gt;May 19, 2026&lt;/p&gt;
-&lt;span&gt;·&lt;/span&gt;
-&lt;uni-reading-time&gt;&lt;!-- --&gt;&lt;p&gt;&lt;!--?lit$212646851$--&gt;3 min read&lt;/p&gt;&lt;/uni-reading-time&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;a&gt;
-
-&lt;div&gt;Share&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-&lt;a href="https://twitter.com/intent/tweet?text=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/"&gt;
-
-&lt;div&gt;x.com&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View&amp;amp;u=https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/"&gt;
-
-&lt;div&gt;Facebook&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/&amp;amp;title=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View"&gt;
-
-&lt;div&gt;LinkedIn&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="mailto:?subject=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View&amp;amp;body=Check out this article on the Keyword:%0A%0ASimulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View%0A%0AWe’re connecting Project Genie with nearly 20 years of Google Street View imagery so you can create new worlds anchored in reality.%0A%0Ahttps://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/"&gt;
-
-&lt;div&gt;Mail&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-
-&lt;div&gt;
-
-&lt;div&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;
-          We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.
-        &lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;figure&gt;
-&lt;picture&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image_bIiabui.max-122x92.format-webp.webp"/&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image_bIiabui.max-244x184.format-webp.webp"/&gt;
-&lt;img alt="image" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image_bIiabui.max-244x184.format-webp.webp"/&gt;
-&lt;/picture&gt;
-&lt;/figure&gt;
-&lt;div&gt;
-&lt;div&gt;Diego Rivas&lt;/div&gt;
-&lt;div&gt;
-      Group Product Manager, Google DeepMind
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;figure&gt;
-&lt;picture&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Jonathan_Herbert.max-122x92.format-webp.webp"/&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Jonathan_Herbert.max-244x184.format-webp.webp"/&gt;
-&lt;img alt="Jonathan Herbert" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Jonathan_Herbert.max-244x184.format-webp.webp"/&gt;
-&lt;/picture&gt;
-&lt;/figure&gt;
-&lt;div&gt;
-&lt;div&gt;Jonathan Herbert&lt;/div&gt;
-&lt;div&gt;
-      Principal Product Manager, Maps
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;figure&gt;
-&lt;picture&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/headshot_ZeOD3hw.max-122x92.format-webp.webp"/&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/headshot_ZeOD3hw.max-244x184.format-webp.webp"/&gt;
-&lt;img alt="headshot" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/headshot_ZeOD3hw.max-244x184.format-webp.webp"/&gt;
-&lt;/picture&gt;
-&lt;/figure&gt;
-&lt;div&gt;
-&lt;div&gt;Nicole Segaran&lt;/div&gt;
-&lt;div&gt;
-      Associate Product Manager, Google Labs
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;a&gt;
-
-&lt;div&gt;Share&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-&lt;a href="https://twitter.com/intent/tweet?text=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/"&gt;
-
-&lt;div&gt;x.com&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View&amp;amp;u=https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/"&gt;
-
-&lt;div&gt;Facebook&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/&amp;amp;title=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View"&gt;
-
-&lt;div&gt;LinkedIn&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="mailto:?subject=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View&amp;amp;body=Check out this article on the Keyword:%0A%0ASimulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View%0A%0AWe’re connecting Project Genie with nearly 20 years of Google Street View imagery so you can create new worlds anchored in reality.%0A%0Ahttps://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/"&gt;
-
-&lt;div&gt;Mail&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-
-&lt;div&gt;
-
-&lt;div&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;video controls="controls" poster="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/projectgenie-social.png            " src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/GeoGenie_hero_small_kA4AQO6.mp4" type="video/mp4"&gt;
-          Sorry, your browser doesn't support embedded videos, but don't worry, you can
-            &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/GeoGenie_hero_small_kA4AQO6.mp4"&gt;download it&lt;/a&gt;
-            and watch it with your favorite video player!
-        &lt;/video&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;section&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;audio title="Simulate real\u002Dworld places with Project Genie and Street View"&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_84655_umbriel_2026_05_19_22_06_21.wav" type="audio/x-wav"/&gt;
-&lt;p&gt;Your browser does not support the audio element.&lt;/p&gt;
-&lt;/audio&gt;
-&lt;div&gt;
-&lt;div&gt;
-
-&lt;div&gt;
-&lt;span&gt;
-          Listen to article
-          &lt;span&gt;
-&lt;div&gt;This content is generated by Google AI. Generative AI is experimental&lt;/div&gt;
-
-&lt;/span&gt;
-&lt;/span&gt;
-&lt;div&gt;[[duration]] minutes&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div&gt;
-&lt;div&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;div&gt;
-
-&lt;/div&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div&gt;
-&lt;div&gt;
-
-
-&lt;/div&gt;
-&lt;div&gt;
-
-&lt;/div&gt;
-&lt;div&gt;
-
-
-
-
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;!--article text--&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;p&gt;Genie is our general-purpose world model capable of generating diverse, interactive environments. Since launching, Genie has become a foundational tool for research, enabling &lt;a href="https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/"&gt;agents to learn and reason&lt;/a&gt; in complex virtual settings and even helping Waymo &lt;a href="https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation/"&gt;simulate hyper-realistic road environments&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Now, we’re taking a leap forward by connecting Genie’s generative power with the real-world imagery of Google Street View, allowing our models to anchor themselves in reality. This expansion of Genie’s capabilities can provide a virtual environment for AI agents or robots to navigate and interact with the complexities of the real world.&lt;/p&gt;&lt;p&gt;Today, we’re launching this new Street View grounding capability within &lt;a href="http://labs.google/projectgenie/"&gt;Project Genie&lt;/a&gt;, our experimental prototype. With this upgrade, you'll be able to leverage real-world imagery to explore your favorite spots, or reimagine them with a creative twist. We’re also expanding access to Project Genie to more people around the globe.&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;uni-image-full-width&gt;
-&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$212646851$--&gt;&lt;!--?lit$212646851$--&gt;&lt;div&gt;&lt;!--?lit$212646851$--&gt; &lt;!--?lit$212646851$--&gt;&lt;!--?lit$212646851$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$212646851$--&gt;&lt;div&gt;&lt;!--?lit$212646851$--&gt;&lt;span width="14px"&gt;&lt;/span&gt;&lt;/div&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Genie_Golden_Gate_Bridge_asset_elXgzQ4.mp4#t=0.001" title="Genie dive" type="video/mp4"&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Genie_Golden_Gate_Bridge_asset_elXgzQ4.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$212646851$--&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?lit$212646851$--&gt;&lt;!--?lit$212646851$--&gt;&lt;!--?--&gt;&lt;!--?--&gt;&lt;!--?--&gt; &lt;!--?lit$212646851$--&gt;&lt;!--?lit$212646851$--&gt;&lt;!--?--&gt; &lt;!--?lit$212646851$--&gt;&lt;!--?lit$212646851$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$212646851$--&gt;&lt;!--?lit$212646851$--&gt;&lt;figcaption&gt;&lt;!--?lit$212646851$--&gt;&lt;div&gt;
-&lt;div&gt;&lt;p&gt;Select the “Ocean World” style to scuba dive with schools of fish around places grounded in the real world.&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;!--?lit$212646851$--&gt;&lt;/figcaption&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;h2&gt;Street View: ground your worlds in real places&lt;/h2&gt;&lt;p&gt;When creating imaginative worlds in Project Genie, you can now also base them on real places. Just tap the Maps pin to choose a place in the U.S. and optionally select a style for your world, like “Desert Sands” or “Stone Age.” Then, describe your character — like your favorite animal, comic book hero or even a claymation monster — and Genie will use this information to create an imaginative world with its starting location tied to Street View’s real-world imagery. This capability is powered by &lt;a href="https://mapsplatform.google.com/maps-products/grounding/#maps-imagery-grounding"&gt;Maps Imagery Grounding&lt;/a&gt;, the same technology developers use to create stunning AI visuals with Street View.&lt;/p&gt;&lt;p&gt;Want to see the Golden Gate Bridge under the sea? Select the “Ocean World” style to scuba dive with schools of fish around the bridge. Or, if you want to explore what the iconic &lt;a href="https://www.google.com/maps/@32.788846,-97.3455485,3a,75y,90.64h,78.29t/data=!3m7!1e1!3m5!1sBZP3qg2Lak8FANlQwGG31g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D11.70768324118383%26panoid%3DBZP3qg2Lak8FANlQwGG31g%26yaw%3D90.63818816013945!7i16384!8i8192?entry=ttu&amp;amp;g_ep=EgoyMDI2MDUwMi4wIKXMDSoASAFQAw%3D%3D"&gt;Fort Worth Stockyards in Texas&lt;/a&gt; might have looked like in the 1920s, select the “B&amp;amp;W film” style to see a world with saloons, vintage cars and trading posts.&lt;/p&gt;&lt;p&gt;Street View imagery in Project Genie is available now for places in the U.S. with plans to expand to more places over time.&lt;/p&gt;&lt;h2&gt;Project Genie: now available with Google AI Ultra&lt;/h2&gt;&lt;p&gt;Starting today, Project Genie — including the new Street View capability — is gradually rolling out to all eligible &lt;a href="https://one.google.com/about/google-ai-plans/"&gt;Google AI Ultra&lt;/a&gt; $200 subscribers globally (18+). Try creating today with &lt;a href="http://labs.google/projectgenie/"&gt;Project Genie&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Project Genie is still an experimental research prototype in Google Labs, so we're working behind the scenes to make the details even sharper and more accurate. You can read more about our progress and current limitations on our &lt;a href="https://deepmind.google/models/genie/"&gt;website&lt;/a&gt;.&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;uni-related-content-tout title="I/O 2026"&gt;
-&lt;!-- --&gt;&lt;section&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/"&gt;&lt;!--?lit$212646851$--&gt;&lt;div&gt;&lt;p&gt;&lt;!--?lit$212646851$--&gt;Collection&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;!--?lit$212646851$--&gt;&lt;div&gt;
-&lt;figure&gt;
-&lt;picture&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-300.format-webp.webp"/&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp"/&gt;
-&lt;img alt="The image shows a colorful abstract design with the Google I/O 2026 logo." src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp"/&gt;
-&lt;/picture&gt;
-&lt;/figure&gt;
-&lt;/div&gt;&lt;div&gt;&lt;h2&gt;&lt;!--?lit$212646851$--&gt;I/O 2026&lt;/h2&gt;&lt;p&gt;&lt;!--?lit$212646851$--&gt;Here’s a look at everything we announced at Google I/O 2026.&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;!--?lit$212646851$--&gt;See more&lt;/span&gt;&lt;uni-icon-component&gt;&lt;!-- --&gt;&lt;/uni-icon-component&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;/section&gt;&lt;/uni-related-content-tout&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;
-
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;p&gt;
-          Done. Just one step more.
-        &lt;/p&gt;
-&lt;p&gt;
-          Check your inbox to confirm your subscription.
-        &lt;/p&gt;
-&lt;p&gt;You are already subscribed to our newsletter.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;
-        You can also subscribe with a
-        
-&lt;span&gt;
-        .
-        &lt;/span&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;span&gt;POSTED IN:&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:12:10.861607+00:00</crawled>
-    </item>
-    <item>
-      <title>Gemini 3.5: frontier intelligence with action</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/</link>
-      <description>&lt;article&gt;
+&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/</guid><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate></item><item><title>Gemini 3.5: frontier intelligence with action</title><link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/</link><description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -1708,15 +835,836 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:11:53.571056+00:00</crawled>
-    </item>
-    <item>
-      <title>Introducing Gemma 4 12B: a unified, encoder-free multimodal model</title>
-      <link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</link>
-      <description>&lt;article&gt;
+&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/</guid><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate></item><item><title>Simulate real-world places with Project Genie and Street View</title><link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/</link><description>&lt;article&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1&gt;Simulate real-world places with Project Genie and Street View&lt;/h1&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;May 19, 2026&lt;/p&gt;
+&lt;span&gt;·&lt;/span&gt;
+&lt;uni-reading-time&gt;&lt;!-- --&gt;&lt;p&gt;&lt;!--?lit$212646851$--&gt;3 min read&lt;/p&gt;&lt;/uni-reading-time&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;a&gt;
+
+&lt;div&gt;Share&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/"&gt;
+
+&lt;div&gt;x.com&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View&amp;amp;u=https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/"&gt;
+
+&lt;div&gt;Facebook&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/&amp;amp;title=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View"&gt;
+
+&lt;div&gt;LinkedIn&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="mailto:?subject=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View&amp;amp;body=Check out this article on the Keyword:%0A%0ASimulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View%0A%0AWe’re connecting Project Genie with nearly 20 years of Google Street View imagery so you can create new worlds anchored in reality.%0A%0Ahttps://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/"&gt;
+
+&lt;div&gt;Mail&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+
+&lt;div&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+          We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.
+        &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;figure&gt;
+&lt;picture&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image_bIiabui.max-122x92.format-webp.webp"/&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image_bIiabui.max-244x184.format-webp.webp"/&gt;
+&lt;img alt="image" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image_bIiabui.max-244x184.format-webp.webp"/&gt;
+&lt;/picture&gt;
+&lt;/figure&gt;
+&lt;div&gt;
+&lt;div&gt;Diego Rivas&lt;/div&gt;
+&lt;div&gt;
+      Group Product Manager, Google DeepMind
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;figure&gt;
+&lt;picture&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Jonathan_Herbert.max-122x92.format-webp.webp"/&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Jonathan_Herbert.max-244x184.format-webp.webp"/&gt;
+&lt;img alt="Jonathan Herbert" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Jonathan_Herbert.max-244x184.format-webp.webp"/&gt;
+&lt;/picture&gt;
+&lt;/figure&gt;
+&lt;div&gt;
+&lt;div&gt;Jonathan Herbert&lt;/div&gt;
+&lt;div&gt;
+      Principal Product Manager, Maps
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;figure&gt;
+&lt;picture&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/headshot_ZeOD3hw.max-122x92.format-webp.webp"/&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/headshot_ZeOD3hw.max-244x184.format-webp.webp"/&gt;
+&lt;img alt="headshot" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/headshot_ZeOD3hw.max-244x184.format-webp.webp"/&gt;
+&lt;/picture&gt;
+&lt;/figure&gt;
+&lt;div&gt;
+&lt;div&gt;Nicole Segaran&lt;/div&gt;
+&lt;div&gt;
+      Associate Product Manager, Google Labs
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;a&gt;
+
+&lt;div&gt;Share&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/"&gt;
+
+&lt;div&gt;x.com&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View&amp;amp;u=https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/"&gt;
+
+&lt;div&gt;Facebook&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/&amp;amp;title=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View"&gt;
+
+&lt;div&gt;LinkedIn&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="mailto:?subject=Simulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View&amp;amp;body=Check out this article on the Keyword:%0A%0ASimulate%20real-world%20places%20with%20Project%20Genie%20and%20Street%20View%0A%0AWe’re connecting Project Genie with nearly 20 years of Google Street View imagery so you can create new worlds anchored in reality.%0A%0Ahttps://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/"&gt;
+
+&lt;div&gt;Mail&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+
+&lt;div&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;video controls="controls" poster="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/projectgenie-social.png            " src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/GeoGenie_hero_small_kA4AQO6.mp4" type="video/mp4"&gt;
+          Sorry, your browser doesn't support embedded videos, but don't worry, you can
+            &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/GeoGenie_hero_small_kA4AQO6.mp4"&gt;download it&lt;/a&gt;
+            and watch it with your favorite video player!
+        &lt;/video&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;audio title="Simulate real\u002Dworld places with Project Genie and Street View"&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_84655_umbriel_2026_05_19_22_06_21.wav" type="audio/x-wav"/&gt;
+&lt;p&gt;Your browser does not support the audio element.&lt;/p&gt;
+&lt;/audio&gt;
+&lt;div&gt;
+&lt;div&gt;
+
+&lt;div&gt;
+&lt;span&gt;
+          Listen to article
+          &lt;span&gt;
+&lt;div&gt;This content is generated by Google AI. Generative AI is experimental&lt;/div&gt;
+
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;div&gt;[[duration]] minutes&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;div&gt;
+
+&lt;/div&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;div&gt;
+
+
+&lt;/div&gt;
+&lt;div&gt;
+
+&lt;/div&gt;
+&lt;div&gt;
+
+
+
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--article text--&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;p&gt;Genie is our general-purpose world model capable of generating diverse, interactive environments. Since launching, Genie has become a foundational tool for research, enabling &lt;a href="https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/"&gt;agents to learn and reason&lt;/a&gt; in complex virtual settings and even helping Waymo &lt;a href="https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation/"&gt;simulate hyper-realistic road environments&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Now, we’re taking a leap forward by connecting Genie’s generative power with the real-world imagery of Google Street View, allowing our models to anchor themselves in reality. This expansion of Genie’s capabilities can provide a virtual environment for AI agents or robots to navigate and interact with the complexities of the real world.&lt;/p&gt;&lt;p&gt;Today, we’re launching this new Street View grounding capability within &lt;a href="http://labs.google/projectgenie/"&gt;Project Genie&lt;/a&gt;, our experimental prototype. With this upgrade, you'll be able to leverage real-world imagery to explore your favorite spots, or reimagine them with a creative twist. We’re also expanding access to Project Genie to more people around the globe.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;uni-image-full-width&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$212646851$--&gt;&lt;!--?lit$212646851$--&gt;&lt;div&gt;&lt;!--?lit$212646851$--&gt; &lt;!--?lit$212646851$--&gt;&lt;!--?lit$212646851$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$212646851$--&gt;&lt;div&gt;&lt;!--?lit$212646851$--&gt;&lt;span width="14px"&gt;&lt;/span&gt;&lt;/div&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Genie_Golden_Gate_Bridge_asset_elXgzQ4.mp4#t=0.001" title="Genie dive" type="video/mp4"&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Genie_Golden_Gate_Bridge_asset_elXgzQ4.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$212646851$--&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?lit$212646851$--&gt;&lt;!--?lit$212646851$--&gt;&lt;!--?--&gt;&lt;!--?--&gt;&lt;!--?--&gt; &lt;!--?lit$212646851$--&gt;&lt;!--?lit$212646851$--&gt;&lt;!--?--&gt; &lt;!--?lit$212646851$--&gt;&lt;!--?lit$212646851$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$212646851$--&gt;&lt;!--?lit$212646851$--&gt;&lt;figcaption&gt;&lt;!--?lit$212646851$--&gt;&lt;div&gt;
+&lt;div&gt;&lt;p&gt;Select the “Ocean World” style to scuba dive with schools of fish around places grounded in the real world.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;!--?lit$212646851$--&gt;&lt;/figcaption&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;h2&gt;Street View: ground your worlds in real places&lt;/h2&gt;&lt;p&gt;When creating imaginative worlds in Project Genie, you can now also base them on real places. Just tap the Maps pin to choose a place in the U.S. and optionally select a style for your world, like “Desert Sands” or “Stone Age.” Then, describe your character — like your favorite animal, comic book hero or even a claymation monster — and Genie will use this information to create an imaginative world with its starting location tied to Street View’s real-world imagery. This capability is powered by &lt;a href="https://mapsplatform.google.com/maps-products/grounding/#maps-imagery-grounding"&gt;Maps Imagery Grounding&lt;/a&gt;, the same technology developers use to create stunning AI visuals with Street View.&lt;/p&gt;&lt;p&gt;Want to see the Golden Gate Bridge under the sea? Select the “Ocean World” style to scuba dive with schools of fish around the bridge. Or, if you want to explore what the iconic &lt;a href="https://www.google.com/maps/@32.788846,-97.3455485,3a,75y,90.64h,78.29t/data=!3m7!1e1!3m5!1sBZP3qg2Lak8FANlQwGG31g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D11.70768324118383%26panoid%3DBZP3qg2Lak8FANlQwGG31g%26yaw%3D90.63818816013945!7i16384!8i8192?entry=ttu&amp;amp;g_ep=EgoyMDI2MDUwMi4wIKXMDSoASAFQAw%3D%3D"&gt;Fort Worth Stockyards in Texas&lt;/a&gt; might have looked like in the 1920s, select the “B&amp;amp;W film” style to see a world with saloons, vintage cars and trading posts.&lt;/p&gt;&lt;p&gt;Street View imagery in Project Genie is available now for places in the U.S. with plans to expand to more places over time.&lt;/p&gt;&lt;h2&gt;Project Genie: now available with Google AI Ultra&lt;/h2&gt;&lt;p&gt;Starting today, Project Genie — including the new Street View capability — is gradually rolling out to all eligible &lt;a href="https://one.google.com/about/google-ai-plans/"&gt;Google AI Ultra&lt;/a&gt; $200 subscribers globally (18+). Try creating today with &lt;a href="http://labs.google/projectgenie/"&gt;Project Genie&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Project Genie is still an experimental research prototype in Google Labs, so we're working behind the scenes to make the details even sharper and more accurate. You can read more about our progress and current limitations on our &lt;a href="https://deepmind.google/models/genie/"&gt;website&lt;/a&gt;.&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;uni-related-content-tout title="I/O 2026"&gt;
+&lt;!-- --&gt;&lt;section&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/"&gt;&lt;!--?lit$212646851$--&gt;&lt;div&gt;&lt;p&gt;&lt;!--?lit$212646851$--&gt;Collection&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;!--?lit$212646851$--&gt;&lt;div&gt;
+&lt;figure&gt;
+&lt;picture&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-300.format-webp.webp"/&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp"/&gt;
+&lt;img alt="The image shows a colorful abstract design with the Google I/O 2026 logo." src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp"/&gt;
+&lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/div&gt;&lt;div&gt;&lt;h2&gt;&lt;!--?lit$212646851$--&gt;I/O 2026&lt;/h2&gt;&lt;p&gt;&lt;!--?lit$212646851$--&gt;Here’s a look at everything we announced at Google I/O 2026.&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;!--?lit$212646851$--&gt;See more&lt;/span&gt;&lt;uni-icon-component&gt;&lt;!-- --&gt;&lt;/uni-icon-component&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;/section&gt;&lt;/uni-related-content-tout&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;
+          Done. Just one step more.
+        &lt;/p&gt;
+&lt;p&gt;
+          Check your inbox to confirm your subscription.
+        &lt;/p&gt;
+&lt;p&gt;You are already subscribed to our newsletter.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+        You can also subscribe with a
+        
+&lt;span&gt;
+        .
+        &lt;/span&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;span&gt;POSTED IN:&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/</guid><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate></item><item><title>Gemini for Science: AI experiments and tools for a new era of discovery</title><link>https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/</link><description>&lt;article&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1&gt;Gemini for Science: AI experiments and tools for a new era of discovery&lt;/h1&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;uni-reading-time&gt;&lt;!-- --&gt;&lt;p&gt;&lt;!--?lit$043511237$--&gt;6 min read&lt;/p&gt;&lt;/uni-reading-time&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;a&gt;
+
+&lt;div&gt;Share&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/"&gt;
+
+&lt;div&gt;x.com&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery&amp;amp;u=https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/"&gt;
+
+&lt;div&gt;Facebook&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/&amp;amp;title=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery"&gt;
+
+&lt;div&gt;LinkedIn&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="mailto:?subject=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery&amp;amp;body=Check out this article on the Keyword:%0A%0AGemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery%0A%0AGemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.%0A%0Ahttps://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/"&gt;
+
+&lt;div&gt;Mail&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+
+&lt;div&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+          Explore the future of discovery with new Science Skills in Google Antigravity and three new experimental tools on Google Labs. These tools are designed to help accelerate core steps of the scientific method, built with Co-Scientist, AlphaEvolve, Empirical Research Assistance and NotebookLM.
+        &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;a href="https://blog.google/authors/pushmeet-kohli/"&gt;
+&lt;figure&gt;
+&lt;picture&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pushmeet.max-122x92.format-webp.webp"/&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pushmeet.max-244x184.format-webp.webp"/&gt;
+&lt;img alt="Pushmeet" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pushmeet.max-244x184.format-webp.webp"/&gt;
+&lt;/picture&gt;
+&lt;/figure&gt;
+&lt;div&gt;
+&lt;div&gt;Pushmeet Kohli&lt;/div&gt;
+&lt;div&gt;
+      Chief Scientist, Google Cloud and Vice President, Google DeepMind
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://blog.google/authors/yossi-matias/"&gt;
+&lt;figure&gt;
+&lt;picture&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/yossi-portrait-high-res_1.max-122x92.format-webp.webp"/&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/yossi-portrait-high-res_1.max-244x184.format-webp.webp"/&gt;
+&lt;img alt="yossi-portrait-high-res (1)" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/yossi-portrait-high-res_1.max-244x184.format-webp.webp"/&gt;
+&lt;/picture&gt;
+&lt;/figure&gt;
+&lt;div&gt;
+&lt;div&gt;Yossi Matias&lt;/div&gt;
+&lt;div&gt;
+      Vice President, Google and General Manager, Google Research
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;a&gt;
+
+&lt;div&gt;Share&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/"&gt;
+
+&lt;div&gt;x.com&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery&amp;amp;u=https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/"&gt;
+
+&lt;div&gt;Facebook&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/&amp;amp;title=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery"&gt;
+
+&lt;div&gt;LinkedIn&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="mailto:?subject=Gemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery&amp;amp;body=Check out this article on the Keyword:%0A%0AGemini%20for%20Science%3A%20AI%20experiments%20and%20tools%20for%20a%20new%20era%20of%20discovery%0A%0AGemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.%0A%0Ahttps://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/"&gt;
+
+&lt;div&gt;Mail&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+
+&lt;div&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;figure&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;img alt='Person using a microscope with "Gemini for Science" text and star icon.' height="150px" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/science__keyword__blog-header.width-200.format-webp.webp" width="360px"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;audio title="Gemini for Science: AI experiments and tools for a new era of discovery"&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_84628_umbriel_2026_06_01_15_20_52.wav" type="audio/x-wav"/&gt;
+&lt;p&gt;Your browser does not support the audio element.&lt;/p&gt;
+&lt;/audio&gt;
+&lt;div&gt;
+&lt;div&gt;
+
+&lt;div&gt;
+&lt;span&gt;
+          Listen to article
+          &lt;span&gt;
+&lt;div&gt;This content is generated by Google AI. Generative AI is experimental&lt;/div&gt;
+
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;div&gt;7:20 minutes&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;div&gt;
+&lt;span&gt;0:00&lt;/span&gt;
+&lt;div&gt;
+
+&lt;/div&gt;
+&lt;span&gt;7:20&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;div&gt;
+
+
+&lt;/div&gt;
+&lt;div&gt;
+
+&lt;/div&gt;
+&lt;div&gt;
+
+
+
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--article text--&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;p&gt;For centuries, the scientific method has been the greatest engine of human progress. At Google, our mission is deeply rooted in building tools to accelerate it. We believe that a new era of discovery won’t come from narrow, specialized models, but general agents that empower researchers across every scientific field.&lt;/p&gt;&lt;p&gt;That’s why we are introducing &lt;a href="https://ai.google/gemini-for-science/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Gemini for Science&lt;/a&gt;, a collection of science tools and experiments designed to expand the scale and precision of scientific exploration.&lt;/p&gt;&lt;h2&gt;A force multiplier for human ingenuity&lt;/h2&gt;&lt;p&gt;Today science faces a paradox: our collective knowledge is growing so fast that it’s becoming harder for individual scientists to see the full picture. Scientific breakthroughs often rely upon making creative connections between data, but the time required to do this manually can take weeks or even months. AI can help eliminate this bottleneck and serve as a force multiplier for scientific work by handling complex tasks. This allows researchers to focus on identifying and tackling the most impactful scientific problems and directions that would drive progress.&lt;/p&gt;&lt;p&gt;Gemini for Science experimental tools on Google Labs include three primary prototypes designed to handle such tasks.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;Hypothesis Generation, built with&lt;/b&gt; &lt;a href="https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;&lt;b&gt;Co-Scientist&lt;/b&gt;&lt;/a&gt;&lt;b&gt;:&lt;/b&gt; Ideation is the heartbeat of science, but no human can synthesise the millions of papers published annually. Hypothesis Generation bridges this gap by simulating the scientific method: it collaborates with researchers to define a research challenge, then uses a multi-agent “idea tournament” to generate, debate and evaluate hypotheses. To ensure absolute rigor, claims are deeply verified and supported by clickable citations.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Computational Discovery, built with&lt;/b&gt; &lt;a href="https://deepmind.google/blog/alphaevolve-impact/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;&lt;b&gt;AlphaEvolve&lt;/b&gt;&lt;/a&gt;&lt;b&gt; and&lt;/b&gt; &lt;a href="https://research.google/blog/empirical-research-assistance-era-is-published-in-nature-and-helped-build-computational-discovery/"&gt;&lt;b&gt;ERA (Empirical Research Assistance)&lt;/b&gt;&lt;/a&gt;&lt;b&gt;:&lt;/b&gt; Scientific progress is often limited by the number of hypotheses we can realistically test with computational experiments. Computational Discovery, an agentic research engine, is a prototype that solves this by generating and scoring thousands of code variations in parallel. This allows scientists to test novel modeling approaches — for complex fields like solar forecasting or epidemiology — that would take months to navigate manually.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Literature Insights, built with&lt;/b&gt; &lt;a href="https://notebooklm.google/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;&lt;b&gt;Google NotebookLM&lt;/b&gt;&lt;/a&gt;&lt;b&gt;:&lt;/b&gt; Understanding scientific literature is a core part of all research journeys. Literature Insights searches scientific literature and structures results into tables with custom, searchable attributes for side-by-side analysis. Researchers can use chat to uncover nuances grounded in their curated corpus, and create high-fidelity artifacts such as reports, slide decks, infographics and audio and video overviews. With the power of NotebookLM, Literature insights helps synthesize findings across papers, identify research gaps and uncover areas of opportunity.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Starting today, we’ll begin gradually opening access to these experiments. Visit &lt;a href="http://labs.google/science/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;labs.google/science&lt;/a&gt; to register your interest.&lt;/p&gt;&lt;p&gt;Beyond the individual experiments, we’re also bringing these advanced AI capabilities to enterprise organizations through &lt;a href="https://docs.cloud.google.com/gemini/enterprise/docs/co-scientist-and-alphaevolve/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Google Cloud&lt;/a&gt;. Our enterprise-grade solutions for scientific and industrial R&amp;amp;D are already being used by a range of partners in private preview to drive real-world impact. Companies like &lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/how-basf-manages-thousands-of-supply-chain-decisions-with-alphaevolve?e=48754805?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;BASF&lt;/a&gt; are using &lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/alphaevolve-on-google-cloud/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;AlphaEvolve&lt;/a&gt; to optimize their supply chains, and &lt;a href="https://engineering.klarna.com/beyond-prompting-how-algorithmic-evolution-doubled-our-training-speed-8f874af3080d"&gt;Klarna&lt;/a&gt; is leveraging it to enhance their machine learning models. In parallel, organizations like Daiichi Sankyo, Bayer Crop Science and the U.S. National Labs (as part of the U.S. &lt;a href="https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Department of Energy's Genesis Mission&lt;/a&gt;) are using Co-Scientist to accelerate their research and tackle fundamental scientific challenges. These enterprise-grade tools are demonstrating significant value in their current preview phase. We are excited about the breakthroughs our partners are unlocking and look forward to expanding access to more organizations in the coming months.&lt;/p&gt;&lt;p&gt;Several validation papers have been already published based on these and other tools. The &lt;a href="https://www.nature.com/articles/s41586-026-10658-6"&gt;ERA&lt;/a&gt; and &lt;a href="https://www.nature.com/articles/s41586-026-10644-y"&gt;Co-Scientist&lt;/a&gt; research papers are published today in Nature.&lt;/p&gt;&lt;h2&gt;A scientific workbench on your desktop&lt;/h2&gt;&lt;p&gt;As part of Gemini for Science, we are also launching Science Skills, a specialized bundle that integrates insights from over 30 major life science databases and tools including &lt;a href="https://www.uniprot.org/"&gt;UniProt&lt;/a&gt;, &lt;a href="https://alphafold.ebi.ac.uk/"&gt;AlphaFold Database&lt;/a&gt;, &lt;a href="https://deepmind.google.com/science/alphagenome/"&gt;AlphaGenome API&lt;/a&gt; and &lt;a href="https://www.ebi.ac.uk/interpro/"&gt;InterPro&lt;/a&gt;. Using these skills on agentic platforms like Google Antigravity allows researchers to perform complex and often manual workflows like structural bioinformatics and genomic analyses in minutes rather than hours.&lt;/p&gt;&lt;p&gt;Our research teams using Science Skills have already seen this speedup in practice. In early testing, our team used Science Skills to perform a complex analysis that normally takes hours in minutes. This led to novel insights about potential mechanisms for a rare genetic disease caused by mutations in the AK2 gene.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;uni-youtube-player-article&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;!--?lit$043511237$--&gt; &lt;!--?lit$043511237$--&gt; &lt;!--?lit$043511237$--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-youtube-player-article&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;p&gt;To learn more on how to use Science Skills in Google Antigravity visit &lt;a href="http://antigravity.google/use-cases/science"&gt;antigravity.google/use-cases/science&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;A collaborative effort with the scientific community&lt;/h2&gt;&lt;p&gt;Our commitment to responsibly develop and deploy tools for science begins with the scientific ecosystem. We are collaborating with over 100 institutions — including &lt;a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202508751?af=R"&gt;Stanford University&lt;/a&gt; on liver fibrosis, &lt;a href="https://www.cell.com/cell/fulltext/S0092-8674(25)00973-0"&gt;Imperial College London&lt;/a&gt; on antimicrobial resistance and a multi-year effort with &lt;a href="https://www.crick.ac.uk/news/2022-07-06_the-francis-crick-institute-and-deepmind-join-forces-to-apply-machine-learning-to-biology"&gt;The Crick Institute&lt;/a&gt; — to validate our new systems and tools. To ensure the integrity of AI-generated insights, we’ve built a trusted tester community — ranging from PhD students to industry researchers to Nobel laureates — to stress test our systems against complex real-world challenges.&lt;/p&gt;&lt;p&gt;In addition, we’ve also created dedicated pilots with leading scientific conferences like ICML, STOC and NeurIPS to develop pioneering tools for agentic peer review and scientific validation such as our experimental &lt;a href="https://research.google/blog/gemini-provides-automated-feedback-for-theoretical-computer-scientists-at-stoc-2026/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Paper Assistant Tool (PAT)&lt;/a&gt; and &lt;a href="https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;ScholarPeer&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;All of this work builds on a long history of AI advancements. Our specialized AI models are already accelerating progress: &lt;a href="https://deepmind.google/science/alphafold/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;AlphaFold&lt;/a&gt; has helped over 3 million researchers tackle malaria vaccines and plastic-eating enzymes; and &lt;a href="https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;AlphaGenome&lt;/a&gt; is helping scientists identify the drivers of disease. These sit alongside everyday tools researchers rely on — from &lt;a href="https://scholar.google.co.uk/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Google Scholar&lt;/a&gt; and &lt;a href="https://earthengine.google.com/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Earth Engine&lt;/a&gt; to &lt;a href="https://colab.research.google.com/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Colab&lt;/a&gt;, &lt;a href="https://research.google/blog/next-generation-medical-image-interpretation-with-medgemma-15-and-medical-speech-to-text-with-medasr/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;MedGemma&lt;/a&gt;, &lt;a href="https://ai.google/earth-ai/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Earth AI&lt;/a&gt; and &lt;a href="https://gemini.google/overview/deep-research/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Gemini Deep Research&lt;/a&gt;. With our latest &lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/?utm_source=keyword&amp;amp;utm_medium=referral&amp;amp;utm_campaign=geminiforscience&amp;amp;utm_content=scienceblog"&gt;Gemini Deep Think&lt;/a&gt; release, we continue to improve our core model capabilities on complex scientific tasks. Together&lt;b&gt;,&lt;/b&gt; these tools have already become essential parts of the scientific ecosystem, helping researchers organize information and perform complex data analysis at scale.&lt;/p&gt;&lt;p&gt;As we explore the future of agentic research together, we continue to work towards a future where AI accelerates scientific progress and helps solve our most pressing societal challenges.&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;uni-related-content-tout title="I/O 2026"&gt;
+&lt;!-- --&gt;&lt;section&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/"&gt;&lt;!--?lit$043511237$--&gt;&lt;div&gt;&lt;p&gt;&lt;!--?lit$043511237$--&gt;Collection&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;!--?lit$043511237$--&gt;&lt;div&gt;
+&lt;figure&gt;
+&lt;picture&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-300.format-webp.webp"/&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp"/&gt;
+&lt;img alt="The image shows a colorful abstract design with the Google I/O 2026 logo." src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp"/&gt;
+&lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/div&gt;&lt;div&gt;&lt;h2&gt;&lt;!--?lit$043511237$--&gt;I/O 2026&lt;/h2&gt;&lt;p&gt;&lt;!--?lit$043511237$--&gt;Here’s a look at everything we announced at Google I/O 2026.&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;!--?lit$043511237$--&gt;See more&lt;/span&gt;&lt;uni-icon-component&gt;&lt;!-- --&gt;&lt;/uni-icon-component&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;/section&gt;&lt;/uni-related-content-tout&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;
+          Done. Just one step more.
+        &lt;/p&gt;
+&lt;p&gt;
+          Check your inbox to confirm your subscription.
+        &lt;/p&gt;
+&lt;p&gt;You are already subscribed to our newsletter.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+        You can also subscribe with a
+        
+&lt;span&gt;
+        .
+        &lt;/span&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;span&gt;POSTED IN:&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/</guid><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate></item><item><title>Making it easier to understand how content was created and edited</title><link>https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online</link><description>&lt;article&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1&gt;Making it easier to understand how content was created and edited&lt;/h1&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;May 19, 2026&lt;/p&gt;
+&lt;span&gt;·&lt;/span&gt;
+&lt;uni-reading-time&gt;&lt;!-- --&gt;&lt;p&gt;&lt;!--?lit$555409562$--&gt;7 min read&lt;/p&gt;&lt;/uni-reading-time&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;a&gt;
+
+&lt;div&gt;Share&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/"&gt;
+
+&lt;div&gt;x.com&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited&amp;amp;u=https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/"&gt;
+
+&lt;div&gt;Facebook&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/&amp;amp;title=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited"&gt;
+
+&lt;div&gt;LinkedIn&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="mailto:?subject=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited&amp;amp;body=Check out this article on the Keyword:%0A%0AMaking%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited%0A%0Ahttps://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/"&gt;
+
+&lt;div&gt;Mail&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+
+&lt;div&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+          We're expanding our tools to help you understand how content was created and edited across the web.
+        &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;a href="https://blog.google/authors/laurie-richardson/"&gt;
+&lt;figure&gt;
+&lt;picture&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LaurieRichardson8971-_Formal_Hea.max-122x92.format-webp.webp"/&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LaurieRichardson8971-_Formal_He.max-244x184.format-webp.webp"/&gt;
+&lt;img alt="Laurie Richardson" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LaurieRichardson8971-_Formal_He.max-244x184.format-webp.webp"/&gt;
+&lt;/picture&gt;
+&lt;/figure&gt;
+&lt;div&gt;
+&lt;div&gt;Laurie Richardson&lt;/div&gt;
+&lt;div&gt;
+      Vice President, Trust and Safety, Google
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://blog.google/authors/pushmeet-kohli/"&gt;
+&lt;figure&gt;
+&lt;picture&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pushmeet.max-122x92.format-webp.webp"/&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pushmeet.max-244x184.format-webp.webp"/&gt;
+&lt;img alt="Pushmeet" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pushmeet.max-244x184.format-webp.webp"/&gt;
+&lt;/picture&gt;
+&lt;/figure&gt;
+&lt;div&gt;
+&lt;div&gt;Pushmeet Kohli&lt;/div&gt;
+&lt;div&gt;
+      Chief Scientist, Google Cloud and Vice President, Google DeepMind
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;a&gt;
+
+&lt;div&gt;Share&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/"&gt;
+
+&lt;div&gt;x.com&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited&amp;amp;u=https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/"&gt;
+
+&lt;div&gt;Facebook&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/&amp;amp;title=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited"&gt;
+
+&lt;div&gt;LinkedIn&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="mailto:?subject=Making%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited&amp;amp;body=Check out this article on the Keyword:%0A%0AMaking%20it%20easier%20to%20understand%20how%20content%20was%20created%20and%20edited%0A%0Ahttps://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/"&gt;
+
+&lt;div&gt;Mail&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+
+&lt;div&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;figure&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;img alt='A chat input box mockup featuring an uploaded thumbnail of dog-themed latte art, the text "Is this generated with AI?", and action icons for adding files, voice input, and sending.' height="150px" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FINAL_SOCIAL_HERO_laWfMt0.width-200.format-webp.webp" width="360px"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;!--article text--&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;p&gt;As generative media becomes more advanced and accessible, it’s helpful to know where content comes from, and whether it’s been altered. Today, we’re expanding our content transparency and verification tools in Search, Gemini, Chrome, Pixel and Cloud, and deepening our partnership with the broader industry.&lt;/p&gt;&lt;h2&gt;Scaling our technology&lt;/h2&gt;&lt;p&gt;Three years ago, we introduced &lt;a href="https://deepmind.google/blog/identifying-ai-generated-images-with-synthid/"&gt;SynthID&lt;/a&gt;, our industry-leading digital watermarking technology that embeds imperceptible signals into AI-generated content. Since then, we've integrated SynthID into our generative media models and products, watermarking over 100 billion images and videos and 60,000 years of audio.&lt;/p&gt;&lt;p&gt;Across a growing number of our generative media tools, we use &lt;a href="https://contentcredentials.org/"&gt;C2PA Content Credentials&lt;/a&gt;, the industry standard that shows how media was created and modified, with or without AI. &lt;a href="https://security.googleblog.com/2025/09/pixel-android-trusted-images-c2pa-content-credentials.html"&gt;Pixel 10&lt;/a&gt; was the first smartphone to provide Content Credentials for images in its native camera app, and we are expanding this technology to include video on Pixel 8, 9 and 10 phones in the coming weeks.&lt;/p&gt;&lt;p&gt;By using this technology at the point of capture, Pixel documents when content has been captured by a camera. In an era of generative media, we believe that identifying authentic, unedited content can be just as important as knowing when a file was made or edited using AI.&lt;/p&gt;&lt;h2&gt;Providing more ways to verify content&lt;/h2&gt;&lt;p&gt;Our goal is to make it easier to learn more about the content you encounter online. That’s why we recently added SynthID verification for image, video and audio to the &lt;a href="https://blog.google/innovation-and-ai/products/ai-image-verification-gemini-app/"&gt;Gemini app&lt;/a&gt;. Already, it’s been used 50 million times globally, and we’re expanding this verification capability to Search today and Chrome over the coming weeks.&lt;/p&gt;&lt;p&gt;You can learn about an image's origin by using Search features like Lens, AI Mode and Circle to Search, as well as Gemini in Chrome. Just ask, "Is this made with AI?” or “Is this AI generated?”&lt;/p&gt;&lt;p&gt;We’re also adding verification for C2PA Content Credentials, to easily check if content is an unaltered original from a camera or if it has been modified, and by what tools. This feature is rolling out in the Gemini app starting today, and it will come to Search and Chrome in the coming months. This builds on features like the &lt;a href="https://blog.youtube/news-and-events/disclosing-ai-generated-content/"&gt;labels on YouTube&lt;/a&gt; that identify AI-generated content and our work with trusted testers on &lt;a href="https://deepmind.google/blog/exploring-the-context-of-online-images-with-backstory/"&gt;Backstory&lt;/a&gt; to make detection tools faster and more reliable.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;uni-image-full-width&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/FINAL_3kYG23z.mp4#t=0.001" title="FINAL I/O" type="video/mp4"&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/FINAL_3kYG23z.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;!--?--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;h2&gt;Partnering across the industry&lt;/h2&gt;&lt;p&gt;Because digital media travels across many platforms, industry-wide partnership and adoption of robust, interoperable tools is essential. More content across the web will soon carry these imperceptible watermarks, as companies like OpenAI, Kakao and ElevenLabs are bringing SynthID technology to more of their AI-generated content. This builds on our ongoing work to make content origins clearer, like &lt;a href="https://github.com/google-deepmind/synthid-text"&gt;open-sourcing our SynthID text watermarking technology&lt;/a&gt; and &lt;a href="https://nvidianews.nvidia.com/news/nvidia-alphabet-and-google-collaborate-on-the-future-of-agentic-and-physical-ai"&gt;partnering with NVIDIA&lt;/a&gt; to watermark AI-generated video from their &lt;a href="https://build.nvidia.com/search?q=Cosmos&amp;amp;categories=models"&gt;Cosmos world foundation models&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;To help more organizations identify AI-generated media, we’re launching a new AI Content Detection API on Google Cloud’s Gemini Enterprise Agent Platform. This gives businesses a powerful way to spot AI content made by both Google and other popular models, helping them decide how to evaluate and manage media across their own platforms — whether that’s for backend operations like sorting feeds and preventing insurance fraud, or for user-facing content like fact-checking and labeling synthetic media. We’re launching with a group of trusted partners and will continue to refine the API based on their feedback.&lt;/p&gt;&lt;p&gt;We also continue to advocate for global standards for provenance technology as a member of the &lt;a href="https://blog.google/innovation-and-ai/products/google-gen-ai-content-transparency-c2pa/"&gt;C2PA steering committee&lt;/a&gt;. This ensures that transparency tools built into our devices work seamlessly across the platforms you use every day. For example, Meta — a fellow C2PA Steering Committee member — will start labeling camera-captured media with Content Credentials on Instagram. This means authentic photos and videos shot natively on Pixel phones will soon be recognized and labeled as such when you share them on Instagram.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;ui-carousel&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt; &lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;ui-carousel-slide&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
+&lt;uni-image-full-width&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
+&lt;img alt="Quote from Attestiv" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Attestiv_CzAjtGt.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
+&lt;/div&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/ui-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;ui-carousel-slide&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
+&lt;uni-image-full-width&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
+&lt;img alt="Shutterstock quote" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/2_Shutterstock.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
+&lt;/div&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/ui-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;ui-carousel-slide&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
+&lt;uni-image-full-width&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
+&lt;img alt="Snap quote" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/3_Snap.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
+&lt;/div&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/ui-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;ui-carousel-slide&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
+&lt;uni-image-full-width&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
+&lt;img alt="Fox Sports quote" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5_Fox_Sports.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
+&lt;/div&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/ui-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;ui-carousel-slide&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
+&lt;uni-image-full-width&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
+&lt;img alt="Nectar Social quote" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/6_Nectar_Social.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
+&lt;/div&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/ui-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;ui-carousel-slide&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
+&lt;uni-image-full-width&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
+&lt;img alt="Canva quote" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Canva_Eo5WvCR.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
+&lt;/div&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/ui-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;ui-carousel-slide&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
+&lt;uni-image-full-width&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
+&lt;img alt="Avid quote" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Avid_testimonial_IO2026.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$555409562$--&gt;&lt;!--?lit$555409562$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/uni-image-full-width&gt;
+&lt;/div&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;/div&gt;&lt;/ui-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/ui-carousel&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;p&gt;We’ve long invested in providing helpful context about the information you find online. Content transparency is a complex challenge, but we’ll keep developing ways to push the technology forward and set a high bar for the industry. Our goal is to empower you with the tools needed to determine the history of any content you encounter.&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;uni-related-content-tout title="I/O 2026"&gt;
+&lt;!-- --&gt;&lt;section&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/"&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;&lt;p&gt;&lt;!--?lit$555409562$--&gt;Collection&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;!--?lit$555409562$--&gt;&lt;div&gt;
+&lt;figure&gt;
+&lt;picture&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-300.format-webp.webp"/&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp"/&gt;
+&lt;img alt="The image shows a colorful abstract design with the Google I/O 2026 logo." src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp"/&gt;
+&lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/div&gt;&lt;div&gt;&lt;h2&gt;&lt;!--?lit$555409562$--&gt;I/O 2026&lt;/h2&gt;&lt;p&gt;&lt;!--?lit$555409562$--&gt;Here’s a look at everything we announced at Google I/O 2026.&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;!--?lit$555409562$--&gt;See more&lt;/span&gt;&lt;uni-icon-component&gt;&lt;!-- --&gt;&lt;/uni-icon-component&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;/section&gt;&lt;/uni-related-content-tout&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;
+          Done. Just one step more.
+        &lt;/p&gt;
+&lt;p&gt;
+          Check your inbox to confirm your subscription.
+        &lt;/p&gt;
+&lt;p&gt;You are already subscribed to our newsletter.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+        You can also subscribe with a
+        
+&lt;span&gt;
+        .
+        &lt;/span&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;span&gt;POSTED IN:&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online</guid><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate></item><item><title>Introducing Gemma 4 12B: a unified, encoder-free multimodal model</title><link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</link><description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -1936,313 +1884,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:11:45.936567+00:00</crawled>
-    </item>
-    <item>
-      <title>Powering the future of robotics in Europe</title>
-      <link>https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/</link>
-      <description>&lt;article&gt;
-&lt;section&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h1&gt;Powering the future of robotics in Europe&lt;/h1&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;p&gt;Jun 09, 2026&lt;/p&gt;
-&lt;span&gt;·&lt;/span&gt;
-&lt;uni-reading-time&gt;&lt;!-- --&gt;&lt;p&gt;&lt;!--?lit$6147006995$--&gt;4 min read&lt;/p&gt;&lt;/uni-reading-time&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;a&gt;
-
-&lt;div&gt;Share&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-&lt;a href="https://twitter.com/intent/tweet?text=Powering%20the%20future%20of%20robotics%20in%20Europe%20%40google&amp;amp;url=https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/"&gt;
-
-&lt;div&gt;x.com&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Powering%20the%20future%20of%20robotics%20in%20Europe&amp;amp;u=https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/"&gt;
-
-&lt;div&gt;Facebook&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/&amp;amp;title=Powering%20the%20future%20of%20robotics%20in%20Europe"&gt;
-
-&lt;div&gt;LinkedIn&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="mailto:?subject=Powering%20the%20future%20of%20robotics%20in%20Europe&amp;amp;body=Check out this article on the Keyword:%0A%0APowering%20the%20future%20of%20robotics%20in%20Europe%0A%0Ahttps://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/"&gt;
-
-&lt;div&gt;Mail&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-
-&lt;div&gt;
-
-&lt;div&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;
-          Google DeepMind Accelerator selects 15 robotics companies from across Europe to join the program. Providing 3 months of intensive mentorship and technical support, enabling the integration of AI into their core products.
-        &lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;C&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;Carolina Parada&lt;/div&gt;
-&lt;div&gt;
-      VP Robotics, Google DeepMind
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-
-&lt;div&gt;
-&lt;div&gt;
-&lt;h2&gt;General summary&lt;/h2&gt;
-&lt;p&gt;
-&lt;/p&gt;&lt;p&gt;Google DeepMind is launching a three-month accelerator program to support early-stage robotics startups across Europe. These companies will receive technical mentorship, product guidance, and access to advanced artificial intelligence models to help turn their research into real-world applications. You can learn more about the selected cohort and their work on the official program page.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;small&gt;
-            Summaries were generated by Google AI. Generative AI is experimental.
-          &lt;/small&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;h2&gt;Bullet points&lt;/h2&gt;
-&lt;p&gt;
-&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;Google DeepMind’s new accelerator helps European startups build the future of physical AI.&lt;/li&gt;
-&lt;li&gt;Selected founders get access to Google’s AI stack, technical expertise and robotics models.&lt;/li&gt;
-&lt;li&gt;Mentors provide hands-on guidance to turn complex research into real-world robotic applications.&lt;/li&gt;
-&lt;li&gt;The cohort includes startups working on everything from healthcare and manufacturing to climate solutions.&lt;/li&gt;
-&lt;li&gt;These companies are scaling innovative robotics to solve big challenges in the physical world.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;small&gt;
-            Summaries were generated by Google AI. Generative AI is experimental.
-          &lt;/small&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;h2&gt;Basic explainer&lt;/h2&gt;
-&lt;p&gt;
-&lt;/p&gt;&lt;p&gt;Google DeepMind is launching a new program to help European startups build better robots. These companies are using AI to solve real-world problems in areas like healthcare, construction and recycling. Google experts will provide the teams with mentorship and advanced technology to speed up their work. It’s all about turning smart research into robots that can actually help people.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;small&gt;
-            Summaries were generated by Google AI. Generative AI is experimental.
-          &lt;/small&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;h4&gt;
-          Explore other styles:
-        &lt;/h4&gt;
-&lt;div&gt;
-&lt;ul&gt;
-&lt;li&gt;
-
-&lt;/li&gt;
-&lt;li&gt;
-
-&lt;/li&gt;
-&lt;li&gt;
-
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;a&gt;
-
-&lt;div&gt;Share&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-&lt;a href="https://twitter.com/intent/tweet?text=Powering%20the%20future%20of%20robotics%20in%20Europe%20%40google&amp;amp;url=https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/"&gt;
-
-&lt;div&gt;x.com&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Powering%20the%20future%20of%20robotics%20in%20Europe&amp;amp;u=https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/"&gt;
-
-&lt;div&gt;Facebook&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/&amp;amp;title=Powering%20the%20future%20of%20robotics%20in%20Europe"&gt;
-
-&lt;div&gt;LinkedIn&lt;/div&gt;
-&lt;/a&gt;
-&lt;a href="mailto:?subject=Powering%20the%20future%20of%20robotics%20in%20Europe&amp;amp;body=Check out this article on the Keyword:%0A%0APowering%20the%20future%20of%20robotics%20in%20Europe%0A%0Ahttps://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/"&gt;
-
-&lt;div&gt;Mail&lt;/div&gt;
-&lt;/a&gt;
-&lt;div&gt;
-
-&lt;div&gt;
-
-&lt;div&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;figure&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;img alt="Google Deep mind startup partner logos" height="150px" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/130.width-200.format-webp.webp" width="360px"/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;section&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;audio title="Powering the future of robotics in Europe"&gt;
-&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_85279_umbriel_2026_06_09_14_43_55.wav" type="audio/x-wav"/&gt;
-&lt;p&gt;Your browser does not support the audio element.&lt;/p&gt;
-&lt;/audio&gt;
-&lt;div&gt;
-&lt;div&gt;
-
-&lt;div&gt;
-&lt;span&gt;
-          Listen to article
-          &lt;span&gt;
-&lt;div&gt;This content is generated by Google AI. Generative AI is experimental&lt;/div&gt;
-
-&lt;/span&gt;
-&lt;/span&gt;
-&lt;div&gt;5:59 minutes&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div&gt;
-&lt;div&gt;
-&lt;span&gt;0:00&lt;/span&gt;
-&lt;div&gt;
-
-&lt;/div&gt;
-&lt;span&gt;5:59&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div&gt;
-&lt;div&gt;
-
-
-&lt;/div&gt;
-&lt;div&gt;
-
-&lt;/div&gt;
-&lt;div&gt;
-
-
-
-
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;!--article text--&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;p&gt;AI has the potential to help solve some of the world’s biggest challenges — not just in the digital realm, but in the physical world, too. Robotics is one of the most exciting frontiers of AI, where advances in language, vision and action models can help create intelligent machines that interact with the real world in safer, more helpful and more adaptive ways.&lt;/p&gt;&lt;p&gt;That’s why we’re launching the Google DeepMind Accelerator: Robotics, a three-month program for early-stage robotics startups across Europe. This week, the selected startup founders are coming together to kick off the program, meet the Google DeepMind and Google teams, and begin a journey designed to support the next generation of physical AI. They’ll have access to our AI stack, technical expertise and Gemini robotics models.&lt;/p&gt;&lt;p&gt;Selected from a strong pool of applicants, these startups will receive hands-on support from Google DeepMind and Google experts throughout the program. Through technical mentorship, product guidance and a wide network of partners, the accelerator will help founders turn cutting-edge AI research into real-world robotics applications. The cohort joining us in London this week reflects the breadth of opportunity in embodied AI — from logistics and manufacturing to healthcare, climate, and advanced navigation.&lt;/p&gt;&lt;p&gt;Meet the startups and founders shaping the future of robotics and embodied AI:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.3d-components.com/"&gt;3D-Components AS&lt;/a&gt; (&lt;b&gt;Norway&lt;/b&gt;): Developing RobTrack, an AI-driven platform that automates parameter selection and quality control for robotic welding and metal 3D-printing, 280X faster than current practices.&lt;/li&gt;&lt;li&gt;&lt;a href="https://acumino.ai/"&gt;Acumino&lt;/a&gt; (&lt;b&gt;Greece&lt;/b&gt;): Develops hardware-agnostic Physical AI that enables robots to perform complex industrial tasks in a scalable, cost-efficient, reliable manner with high ROI.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.adaptarobotics.com/"&gt;Adapta Robotics&lt;/a&gt; (&lt;b&gt;Romania&lt;/b&gt;): Deploys physical AI replicating human touch to test devices and software for healthcare, automotive and consumer electronics, unlocking automated QA and supporting the circular economy.&lt;/li&gt;&lt;li&gt;&lt;a href="https://auar.io/"&gt;AUAR (Automated Architecture)&lt;/a&gt; (&lt;b&gt;United Kingdom&lt;/b&gt;): Makes homebuilding more affordable by deploying robotic MicroFactories directly to construction sites.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.bubble-robotics.com/"&gt;Bubble Robotics&lt;/a&gt; (&lt;b&gt;France&lt;/b&gt;): Building the ocean's autonomous workforce: a vessel-free constellation of self-docking surface and subsea robots that see, hear, and act, feeding a live underwater world model.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.danurobotics.com/"&gt;Danu Robotics&lt;/a&gt; (&lt;b&gt;United Kingdom&lt;/b&gt;): Uses embodied AI robotic systems to automate complex waste sorting, increasing efficiency, improving safety, and enabling scalable recovery of valuable materials that supports the circular economy.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.deltia.ai/"&gt;Deltia GmbH&lt;/a&gt; (&lt;b&gt;Germany&lt;/b&gt;): Digitizes production-line work, transforming workflows into process graphs that help teams optimize manual processes and automate repetitive tasks so people can focus where they matter most.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.embodiedai.ch/"&gt;Embodied AI&lt;/a&gt; (&lt;b&gt;Switzerland&lt;/b&gt;): Deploys teleoperated humanoids that collect data during customer service to continuously train and improve their manipulation skills.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.extendrobotics.com/"&gt;Extend Robotics&lt;/a&gt; (&lt;b&gt;United Kingdom&lt;/b&gt;): Provides teleoperation software and data pipelines that help train and fine-tune foundation models for real-world robotics applications.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.forgis.com/"&gt;Forgis&lt;/a&gt; (&lt;b&gt;Switzerland&lt;/b&gt;): Develops AI agents that understand machines like experienced engineers, predicting failures and optimizing operations.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.gbionics.ai/"&gt;Generative Bionics&lt;/a&gt; (&lt;b&gt;Italy&lt;/b&gt;): Amplifies human potential by developing humanoid robots based on physical AI, developed in Europe but built to scale globally.&lt;/li&gt;&lt;li&gt;&lt;a href="https://qualiastudios.dev/"&gt;Qualia&lt;/a&gt; (&lt;b&gt;Denmark&lt;/b&gt;): Building infrastructure that enables companies to turn robotic foundation models into working deployments, automating and optimising time-consuming manual labor.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.robeaute.com/"&gt;ROBEAUTE&lt;/a&gt; (&lt;b&gt;France&lt;/b&gt;): Building microrobots that navigate through brain tissue to diagnose, treat and monitor neuropathology, establishing a new physical infrastructure layer in neurosurgery.&lt;/li&gt;&lt;li&gt;&lt;a href="https://staer.ai/"&gt;Staer&lt;/a&gt; (&lt;b&gt;Sweden&lt;/b&gt;): Uses computer vision on existing cameras and sensors to build 3D spatial models of facilities, giving robots a shared environment to navigate and operators real-time visibility into how their physical operations actually run.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.touchlab.io/"&gt;Touchlab&lt;/a&gt; (&lt;b&gt;United Kingdom&lt;/b&gt;): Uses advanced nano inks to create an “e-skin” that gives robots a high-resolution sense of touch across flexible surfaces.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;These startups reflect the growing momentum of robotics and intelligent systems across Europe. Each company will receive mentorship and strategic guidance from Google DeepMind and Google to help them accelerate development and scale responsibly.&lt;/p&gt;&lt;p&gt;Congratulations to this cohort! To learn more about the Google DeepMind Accelerator: Robotics, visit the official &lt;a href="https://deepmind.google/models/gemini-robotics/accelerator/"&gt;program page&lt;/a&gt;.&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707"/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;
-
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;p&gt;
-          Done. Just one step more.
-        &lt;/p&gt;
-&lt;p&gt;
-          Check your inbox to confirm your subscription.
-        &lt;/p&gt;
-&lt;p&gt;You are already subscribed to our newsletter.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;
-        You can also subscribe with a
-        
-&lt;span&gt;
-        .
-        &lt;/span&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;span&gt;POSTED IN:&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:11:39.724264+00:00</crawled>
-    </item>
-    <item>
-      <title>Fluid, natural voice translation with Gemini 3.5 Live Translate</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/</link>
-      <description>&lt;article&gt;
+&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</guid><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate></item><item><title>Fluid, natural voice translation with Gemini 3.5 Live Translate</title><link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/</link><description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -2559,15 +2201,297 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:11:31.528651+00:00</crawled>
-    </item>
-    <item>
-      <title>DiffusionGemma: 4x faster text generation</title>
-      <link>https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/</link>
-      <description>&lt;article&gt;
+&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/</guid><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate></item><item><title>Powering the future of robotics in Europe</title><link>https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/</link><description>&lt;article&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1&gt;Powering the future of robotics in Europe&lt;/h1&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Jun 09, 2026&lt;/p&gt;
+&lt;span&gt;·&lt;/span&gt;
+&lt;uni-reading-time&gt;&lt;!-- --&gt;&lt;p&gt;&lt;!--?lit$6147006995$--&gt;4 min read&lt;/p&gt;&lt;/uni-reading-time&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;a&gt;
+
+&lt;div&gt;Share&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Powering%20the%20future%20of%20robotics%20in%20Europe%20%40google&amp;amp;url=https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/"&gt;
+
+&lt;div&gt;x.com&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Powering%20the%20future%20of%20robotics%20in%20Europe&amp;amp;u=https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/"&gt;
+
+&lt;div&gt;Facebook&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/&amp;amp;title=Powering%20the%20future%20of%20robotics%20in%20Europe"&gt;
+
+&lt;div&gt;LinkedIn&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="mailto:?subject=Powering%20the%20future%20of%20robotics%20in%20Europe&amp;amp;body=Check out this article on the Keyword:%0A%0APowering%20the%20future%20of%20robotics%20in%20Europe%0A%0Ahttps://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/"&gt;
+
+&lt;div&gt;Mail&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+
+&lt;div&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+          Google DeepMind Accelerator selects 15 robotics companies from across Europe to join the program. Providing 3 months of intensive mentorship and technical support, enabling the integration of AI into their core products.
+        &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;C&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;Carolina Parada&lt;/div&gt;
+&lt;div&gt;
+      VP Robotics, Google DeepMind
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+
+&lt;div&gt;
+&lt;div&gt;
+&lt;h2&gt;General summary&lt;/h2&gt;
+&lt;p&gt;
+&lt;/p&gt;&lt;p&gt;Google DeepMind is launching a three-month accelerator program to support early-stage robotics startups across Europe. These companies will receive technical mentorship, product guidance, and access to advanced artificial intelligence models to help turn their research into real-world applications. You can learn more about the selected cohort and their work on the official program page.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;small&gt;
+            Summaries were generated by Google AI. Generative AI is experimental.
+          &lt;/small&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;h2&gt;Bullet points&lt;/h2&gt;
+&lt;p&gt;
+&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;Google DeepMind’s new accelerator helps European startups build the future of physical AI.&lt;/li&gt;
+&lt;li&gt;Selected founders get access to Google’s AI stack, technical expertise and robotics models.&lt;/li&gt;
+&lt;li&gt;Mentors provide hands-on guidance to turn complex research into real-world robotic applications.&lt;/li&gt;
+&lt;li&gt;The cohort includes startups working on everything from healthcare and manufacturing to climate solutions.&lt;/li&gt;
+&lt;li&gt;These companies are scaling innovative robotics to solve big challenges in the physical world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;small&gt;
+            Summaries were generated by Google AI. Generative AI is experimental.
+          &lt;/small&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;h2&gt;Basic explainer&lt;/h2&gt;
+&lt;p&gt;
+&lt;/p&gt;&lt;p&gt;Google DeepMind is launching a new program to help European startups build better robots. These companies are using AI to solve real-world problems in areas like healthcare, construction and recycling. Google experts will provide the teams with mentorship and advanced technology to speed up their work. It’s all about turning smart research into robots that can actually help people.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;small&gt;
+            Summaries were generated by Google AI. Generative AI is experimental.
+          &lt;/small&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;h4&gt;
+          Explore other styles:
+        &lt;/h4&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;a&gt;
+
+&lt;div&gt;Share&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Powering%20the%20future%20of%20robotics%20in%20Europe%20%40google&amp;amp;url=https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/"&gt;
+
+&lt;div&gt;x.com&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Powering%20the%20future%20of%20robotics%20in%20Europe&amp;amp;u=https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/"&gt;
+
+&lt;div&gt;Facebook&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/&amp;amp;title=Powering%20the%20future%20of%20robotics%20in%20Europe"&gt;
+
+&lt;div&gt;LinkedIn&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="mailto:?subject=Powering%20the%20future%20of%20robotics%20in%20Europe&amp;amp;body=Check out this article on the Keyword:%0A%0APowering%20the%20future%20of%20robotics%20in%20Europe%0A%0Ahttps://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/"&gt;
+
+&lt;div&gt;Mail&lt;/div&gt;
+&lt;/a&gt;
+&lt;div&gt;
+
+&lt;div&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;figure&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;img alt="Google Deep mind startup partner logos" height="150px" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/130.width-200.format-webp.webp" width="360px"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;audio title="Powering the future of robotics in Europe"&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_85279_umbriel_2026_06_09_14_43_55.wav" type="audio/x-wav"/&gt;
+&lt;p&gt;Your browser does not support the audio element.&lt;/p&gt;
+&lt;/audio&gt;
+&lt;div&gt;
+&lt;div&gt;
+
+&lt;div&gt;
+&lt;span&gt;
+          Listen to article
+          &lt;span&gt;
+&lt;div&gt;This content is generated by Google AI. Generative AI is experimental&lt;/div&gt;
+
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;div&gt;5:59 minutes&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;div&gt;
+&lt;span&gt;0:00&lt;/span&gt;
+&lt;div&gt;
+
+&lt;/div&gt;
+&lt;span&gt;5:59&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;div&gt;
+
+
+&lt;/div&gt;
+&lt;div&gt;
+
+&lt;/div&gt;
+&lt;div&gt;
+
+
+
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--article text--&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;p&gt;AI has the potential to help solve some of the world’s biggest challenges — not just in the digital realm, but in the physical world, too. Robotics is one of the most exciting frontiers of AI, where advances in language, vision and action models can help create intelligent machines that interact with the real world in safer, more helpful and more adaptive ways.&lt;/p&gt;&lt;p&gt;That’s why we’re launching the Google DeepMind Accelerator: Robotics, a three-month program for early-stage robotics startups across Europe. This week, the selected startup founders are coming together to kick off the program, meet the Google DeepMind and Google teams, and begin a journey designed to support the next generation of physical AI. They’ll have access to our AI stack, technical expertise and Gemini robotics models.&lt;/p&gt;&lt;p&gt;Selected from a strong pool of applicants, these startups will receive hands-on support from Google DeepMind and Google experts throughout the program. Through technical mentorship, product guidance and a wide network of partners, the accelerator will help founders turn cutting-edge AI research into real-world robotics applications. The cohort joining us in London this week reflects the breadth of opportunity in embodied AI — from logistics and manufacturing to healthcare, climate, and advanced navigation.&lt;/p&gt;&lt;p&gt;Meet the startups and founders shaping the future of robotics and embodied AI:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.3d-components.com/"&gt;3D-Components AS&lt;/a&gt; (&lt;b&gt;Norway&lt;/b&gt;): Developing RobTrack, an AI-driven platform that automates parameter selection and quality control for robotic welding and metal 3D-printing, 280X faster than current practices.&lt;/li&gt;&lt;li&gt;&lt;a href="https://acumino.ai/"&gt;Acumino&lt;/a&gt; (&lt;b&gt;Greece&lt;/b&gt;): Develops hardware-agnostic Physical AI that enables robots to perform complex industrial tasks in a scalable, cost-efficient, reliable manner with high ROI.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.adaptarobotics.com/"&gt;Adapta Robotics&lt;/a&gt; (&lt;b&gt;Romania&lt;/b&gt;): Deploys physical AI replicating human touch to test devices and software for healthcare, automotive and consumer electronics, unlocking automated QA and supporting the circular economy.&lt;/li&gt;&lt;li&gt;&lt;a href="https://auar.io/"&gt;AUAR (Automated Architecture)&lt;/a&gt; (&lt;b&gt;United Kingdom&lt;/b&gt;): Makes homebuilding more affordable by deploying robotic MicroFactories directly to construction sites.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.bubble-robotics.com/"&gt;Bubble Robotics&lt;/a&gt; (&lt;b&gt;France&lt;/b&gt;): Building the ocean's autonomous workforce: a vessel-free constellation of self-docking surface and subsea robots that see, hear, and act, feeding a live underwater world model.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.danurobotics.com/"&gt;Danu Robotics&lt;/a&gt; (&lt;b&gt;United Kingdom&lt;/b&gt;): Uses embodied AI robotic systems to automate complex waste sorting, increasing efficiency, improving safety, and enabling scalable recovery of valuable materials that supports the circular economy.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.deltia.ai/"&gt;Deltia GmbH&lt;/a&gt; (&lt;b&gt;Germany&lt;/b&gt;): Digitizes production-line work, transforming workflows into process graphs that help teams optimize manual processes and automate repetitive tasks so people can focus where they matter most.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.embodiedai.ch/"&gt;Embodied AI&lt;/a&gt; (&lt;b&gt;Switzerland&lt;/b&gt;): Deploys teleoperated humanoids that collect data during customer service to continuously train and improve their manipulation skills.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.extendrobotics.com/"&gt;Extend Robotics&lt;/a&gt; (&lt;b&gt;United Kingdom&lt;/b&gt;): Provides teleoperation software and data pipelines that help train and fine-tune foundation models for real-world robotics applications.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.forgis.com/"&gt;Forgis&lt;/a&gt; (&lt;b&gt;Switzerland&lt;/b&gt;): Develops AI agents that understand machines like experienced engineers, predicting failures and optimizing operations.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.gbionics.ai/"&gt;Generative Bionics&lt;/a&gt; (&lt;b&gt;Italy&lt;/b&gt;): Amplifies human potential by developing humanoid robots based on physical AI, developed in Europe but built to scale globally.&lt;/li&gt;&lt;li&gt;&lt;a href="https://qualiastudios.dev/"&gt;Qualia&lt;/a&gt; (&lt;b&gt;Denmark&lt;/b&gt;): Building infrastructure that enables companies to turn robotic foundation models into working deployments, automating and optimising time-consuming manual labor.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.robeaute.com/"&gt;ROBEAUTE&lt;/a&gt; (&lt;b&gt;France&lt;/b&gt;): Building microrobots that navigate through brain tissue to diagnose, treat and monitor neuropathology, establishing a new physical infrastructure layer in neurosurgery.&lt;/li&gt;&lt;li&gt;&lt;a href="https://staer.ai/"&gt;Staer&lt;/a&gt; (&lt;b&gt;Sweden&lt;/b&gt;): Uses computer vision on existing cameras and sensors to build 3D spatial models of facilities, giving robots a shared environment to navigate and operators real-time visibility into how their physical operations actually run.&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.touchlab.io/"&gt;Touchlab&lt;/a&gt; (&lt;b&gt;United Kingdom&lt;/b&gt;): Uses advanced nano inks to create an “e-skin” that gives robots a high-resolution sense of touch across flexible surfaces.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;These startups reflect the growing momentum of robotics and intelligent systems across Europe. Each company will receive mentorship and strategic guidance from Google DeepMind and Google to help them accelerate development and scale responsibly.&lt;/p&gt;&lt;p&gt;Congratulations to this cohort! To learn more about the Google DeepMind Accelerator: Robotics, visit the official &lt;a href="https://deepmind.google/models/gemini-robotics/accelerator/"&gt;program page&lt;/a&gt;.&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;img alt="" src="https://blog.google/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;
+          Done. Just one step more.
+        &lt;/p&gt;
+&lt;p&gt;
+          Check your inbox to confirm your subscription.
+        &lt;/p&gt;
+&lt;p&gt;You are already subscribed to our newsletter.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+        You can also subscribe with a
+        
+&lt;span&gt;
+        .
+        &lt;/span&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;span&gt;POSTED IN:&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/</guid><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate></item><item><title>DiffusionGemma: 4x faster text generation</title><link>https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/</link><description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -2764,15 +2688,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:11:26.248157+00:00</crawled>
-    </item>
-    <item>
-      <title>Google DeepMind and A24 announce first-of-its-kind research partnership</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/</link>
-      <description>&lt;main&gt;
+&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/</guid><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate></item><item><title>Google DeepMind and A24 announce first-of-its-kind research partnership</title><link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/</link><description>&lt;main&gt;
 &lt;div&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -2826,15 +2742,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:11:18.861184+00:00</crawled>
-    </item>
-    <item>
-      <title>Introducing computer use in Gemini 3.5 Flash</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/</link>
-      <description>&lt;article&gt;
+&lt;/main&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/</guid><pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate></item><item><title>Introducing computer use in Gemini 3.5 Flash</title><link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/</link><description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -3127,15 +3035,7 @@ that can interact across platforms.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/</guid>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:11:12.899657+00:00</crawled>
-    </item>
-    <item>
-      <title>Start building with Nano Banana 2 Lite and Gemini Omni Flash</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/</link>
-      <description>&lt;article&gt;
+&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/</guid><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate></item><item><title>Start building with Nano Banana 2 Lite and Gemini Omni Flash</title><link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/</link><description>&lt;article&gt;
 &lt;section&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -3432,10 +3332,4 @@ that can interact across platforms.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:11:07.255641+00:00</crawled>
-    </item>
-  </channel>
-</rss>
+&lt;/article&gt;</description><guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/</guid><pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate></item></channel></rss>
