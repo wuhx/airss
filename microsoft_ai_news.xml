@@ -7,7 +7,30 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jul 2026 22:50:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 23:55:59 +0000</lastBuildDate>
+    <item>
+      <title>lang-en</title>
+      <link>https://news.microsoft.com/source/latam/features/ai/data-driven-farming-chile/?lang=en</link>
+      <description>&lt;article&gt;
+&lt;div&gt;
+&lt;span&gt;
+								AI							&lt;/span&gt;
+&lt;/div&gt;
+&lt;h2&gt;
+&lt;split-text&gt;
+							Data-driven farming and AI are transforming water management in Chile 						&lt;/split-text&gt;
+&lt;/h2&gt;
+&lt;div&gt;
+&lt;split-text&gt;
+						December 9, 2025 | By Juan Montes					&lt;/split-text&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://news.microsoft.com/source/latam/features/ai/data-driven-farming-chile/?lang=en</guid>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
+      <crawled>2026-07-14T22:53:12.293629+00:00</crawled>
+    </item>
     <item>
       <title>AI alone won’t change your business. The system running it will.</title>
       <link>https://blogs.microsoft.com/blog/2026/06/02/ai-alone-wont-change-your-business-the-system-running-it-will/</link>
