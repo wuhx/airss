@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jul 2026 23:55:59 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 00:01:25 +0000</lastBuildDate>
     <item>
       <title>WWDC26: Apple unveils next generation of Apple Intelligence, Siri AI, powerful parental controls, and an expansive set of software improvements</title>
       <link>https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</link>
@@ -244,6 +244,23 @@
       <guid isPermaLink="false">https://www.apple.com/newsroom/2026/07/madden-nfl-27-arcade-edition-brings-gridiron-action-to-apple-arcade-on-august-6/</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-14T22:53:04.150524+00:00</crawled>
+    </item>
+    <item>
+      <title>Major League Soccer returns to Apple TV tomorrow</title>
+      <link>https://www.apple.com/newsroom/2026/07/major-league-soccer-returns-to-apple-tv-tomorrow/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Major League Soccer returns to Apple TV tomorrow, July 16, as regular-season play resumes and the league welcomes fans back following a monthlong break for the FIFA World Cup.
+&lt;/div&gt;
+&lt;div&gt;Apple TV subscribers in more than 100 countries and regions can watch every MLS match with no blackouts. Subscribers also receive comprehensive coverage and analysis, exclusive content, and access to matches beyond the regular season, including the annual Leagues Cup tournament, Michelob ULTRA Campeones Cup, MLS All-Star Game, and Audi MLS Cup Playoffs.
+&lt;/div&gt;
+&lt;div&gt;All 30 clubs return to action following the World Cup Final, with six marquee matchups scheduled across July 16 and 17. Highlights include the Cascadia Cup rivalry between the Seattle Sounders and Portland Timbers, a Southern showdown between Nashville SC and Atlanta United FC, and the latest edition of El Tráfico featuring the LA Galaxy and Los Angeles Football Club.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/07/major-league-soccer-returns-to-apple-tv-tomorrow/</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-15T22:54:52.993145+00:00</crawled>
     </item>
   </channel>
 </rss>

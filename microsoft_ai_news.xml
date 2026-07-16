@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jul 2026 23:55:59 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 00:01:25 +0000</lastBuildDate>
     <item>
       <title>lang-en</title>
       <link>https://news.microsoft.com/source/latam/features/ai/data-driven-farming-chile/?lang=en</link>
@@ -30,6 +30,150 @@
       <guid isPermaLink="false">https://news.microsoft.com/source/latam/features/ai/data-driven-farming-chile/?lang=en</guid>
       <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
       <crawled>2026-07-14T22:53:12.293629+00:00</crawled>
+    </item>
+    <item>
+      <title>There is no Copilot without the pilots, says Slovenian insurance executive</title>
+      <link>https://news.microsoft.com/source/emea/features/zavarovalnica-triglav-copilot-adoption-insurance/</link>
+      <description>&lt;article&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;!-- block-wysiwyg --&gt;
+&lt;section&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;For a 125-plus-year-old company in a highly regulated industry, &lt;a href="https://www.triglav.si/"&gt;Zavarovalnica Triglav&lt;/a&gt;, the Triglav Group’s &lt;a href="https://www.triglavre.si/en/triglav-group/"&gt;parent company&lt;/a&gt;, has been an early and enthusiastic adopter of AI, through Copilot.&lt;/p&gt;
+&lt;p&gt;The diversified insurance and financial group, based in Ljubljana, Slovenia, has been using Copilot “heavily since the beginning” of the AI tool, says Klemen Ramoveš, chief digital officer, at Triglav.&lt;/p&gt;
+&lt;p&gt;Triglav operates in seven markets in the Adriatic region of Europe as well as in the wider international environment through partnerships with insurance brokerage, agency and reinsurance companies. At first the company’s over 5,000 employees were wary. However, Triglav won them over to &lt;a href="https://www.microsoft.com/en-gb/microsoft-365-copilot"&gt;Microsoft 365 Copilot&lt;/a&gt; thanks to a team of “digital mentors” and by using the resulting productivity gains to reduce boring, repetitive work in favor of higher-value tasks that require a human touch — while keeping the same teams.&lt;/p&gt;
+&lt;p&gt;The digital transformation brought together the company’s fragmented businesses while also empowering them to act as strategic partners.&lt;/p&gt;
+&lt;p&gt;“We had citizen development, trying to teach the people advanced usage of the tools like &lt;a href="https://www.microsoft.com/en-us/power-platform/products/power-bi/?msockid=37de90507d7766bc143786a47cdb6773"&gt;Power BI&lt;/a&gt;, &lt;a href="https://www.microsoft.com/en-us/power-platform/products/power-automate/topics/robotic-process-automation/what-is-rpa?msockid=37de90507d7766bc143786a47cdb6773"&gt;RPA&lt;/a&gt;, &lt;a href="https://www.microsoft.com/en-us/power-platform/products/power-apps/?msockid=37de90507d7766bc143786a47cdb6773"&gt;Power Apps&lt;/a&gt;,” Ramoveš says. Triglav has 40 “digital mentors” who focus on Copilot and Copilot agents. “If you compare it with the size of the company, it’s quite huge. They have first access to the information and knowledge from our IT support regarding how to use Copilot on different levels of maturities,” he says.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- block title --&gt;
+&lt;section&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;h2&gt;
+&lt;split-text&gt;Digital mentors as key to Copilot adoption&lt;/split-text&gt;
+&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- block-wysiwyg --&gt;
+&lt;section&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Armed with these new skills, the digital mentors then look at their original domains of work, whether internal back-office operations, processes for customer experience, new digital revenue products or others, for ways Copilot or Copilot agents can bring improvements.&lt;/p&gt;
+&lt;p&gt;“It’s not centralized by IT only,” Ramoveš says. “We take a different approach. AI should be used by everyone, not just by the chief digital officer saying you should use it, right? We really believe that these digital mentors are the key, because you enable not just one thing, but you enable the army of the people behind with the proper knowledge.”&lt;/p&gt;
+&lt;p&gt;That said, using Copilot and creating agents isn’t a free-for-all at Triglav, which is highly regulated. “We have proper governance, and yes, the employee can make and run their agent for themselves or their team, or they can deploy it to the whole enterprise,” Ramoveš says.&lt;/p&gt;
+&lt;p&gt;Triglav does not use Copilot with external partners, instead focusing on internal use cases and process support. One of the first internal chatbot initiatives was built around HR topics, especially onboarding.&lt;/p&gt;
+&lt;p&gt;The team prepared answers to a wide range of employee questions, helping new colleagues understand key processes, internal rules and everyday practicalities more quickly. “In insurance, there are many policies and procedures people need to follow,” Ramoveš says. “That makes onboarding a very relevant use case — not only to answer basic questions faster, but also to help employees navigate a highly regulated environment with more confidence.”&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- block title --&gt;
+&lt;section&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;h2&gt;
+&lt;split-text&gt;Copilot as a multipurpose tool &lt;/split-text&gt;
+&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- block-wysiwyg --&gt;
+&lt;section&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;However, internal processes are a fertile field for Copilot and its agents to make improvements, Ramoveš says, listing examples.&lt;/p&gt;
+&lt;p&gt;Copilot speeds up preparation of drafts for the legal team when a customer makes a complaint, cutting the time from a few hours to five to 10 minutes in most cases, according to Triglav’s internal surveys and benchmarks. It summarizes batches of claims documents and provides action points. Triglav’s digital mentors have found ways to use Copilot throughout the company.&lt;/p&gt;
+&lt;p&gt;“I will use the transcript and the task in Copilot right after Teams calls, and I believe that a lot more things get done because we didn’t have a culture of the minutes before,” Ramoveš says. But now, he notes, when people say in a Teams meeting that they will do something, they follow through.&lt;/p&gt;
+&lt;p&gt;Rather than developing a single Copilot agent that revolutionizes the company, Triglav’s intensive deployment of Copilot is more akin to a rising tide that lifts all the boats that make up its business. It’s as much a cultural transformation as a digital one, which sets Triglav up for success as AI continues to evolve, Ramoveš says.&lt;/p&gt;
+&lt;p&gt;“We still believe that people are the key,” he says. “It’s ‘Copilot’— it’s not a pilot, so we need to have a lot of pilots on board.”&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- block-wysiwyg --&gt;
+&lt;section&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- block stories --&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;h2&gt;
+			Read more		&lt;/h2&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;i&gt;Catherine Bolgar writes about AI and innovation at Microsoft, from advances in quantum computing to how AI is helping ordinary people. Previously, Catherine wrote about technology and business for a number of publications, and she was an editor at the Wall Street Journal in New York and Brussels. She taught high school math in Kenya, where she learned Swahili. She currently lives in France. You can contact Catherine on &lt;/i&gt;&lt;i&gt;&lt;u&gt;&lt;a href="https://www.linkedin.com/in/catherine-bolgar-2a47321/" title="https://www.linkedin.com/in/catherine-bolgar-2a47321/"&gt;LinkedIn&lt;/a&gt;&lt;/u&gt;&lt;/i&gt;&lt;i&gt;.&lt;/i&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;article&gt;
+&lt;a href="https://news.microsoft.com/source/emea/features/ai-tools-small-businesses-kenya/"&gt;
+&lt;span&gt;
+&lt;img alt='"A' src="https://news.microsoft.com/source/emea/wp-content/uploads/2026/02/njoki-njoroge-mandevu-office-fastagger-microsoft.jpg"/&gt;
+&lt;/span&gt;
+&lt;/a&gt;
+&lt;h3&gt;
+&lt;a href="https://news.microsoft.com/source/emea/features/ai-tools-small-businesses-kenya/"&gt;
+								From beards to bytes: How AI is empowering small business owners in Kenya							&lt;/a&gt;
+&lt;/h3&gt;
+&lt;/article&gt;
+&lt;article&gt;
+&lt;a href="https://news.microsoft.com/source/emea/features/microsoft-copilot-zendawa-ai-kenya-pharmacies/"&gt;
+&lt;span&gt;
+&lt;img alt='"A' src="https://news.microsoft.com/source/emea/wp-content/uploads/2026/01/DSC01074.jpg"/&gt;
+&lt;/span&gt;
+&lt;/a&gt;
+&lt;h3&gt;
+&lt;a href="https://news.microsoft.com/source/emea/features/microsoft-copilot-zendawa-ai-kenya-pharmacies/"&gt;
+								The digital medicine for pharmacies: How AI is powering Kenya’s chemists							&lt;/a&gt;
+&lt;/h3&gt;
+&lt;/article&gt;
+&lt;article&gt;
+&lt;a href="https://news.microsoft.com/source/emea/features/building-qiddiya-city-how-copilot-helps-abdulrahman-alali-navigate-a-project-of-unprecedented-scale/"&gt;
+&lt;span&gt;
+&lt;img alt='"A' src="https://news.microsoft.com/source/emea/wp-content/uploads/2026/02/Abdulrahman_AlAli_Qiddya_Microsoft_Copilot-1.jpg"/&gt;
+&lt;/span&gt;
+&lt;/a&gt;
+&lt;h3&gt;
+&lt;a href="https://news.microsoft.com/source/emea/features/building-qiddiya-city-how-copilot-helps-abdulrahman-alali-navigate-a-project-of-unprecedented-scale/"&gt;
+								Building Qiddiya City: How Copilot helps Abdulrahman AlAli navigate a project of unprecedented scale 							&lt;/a&gt;
+&lt;/h3&gt;
+&lt;/article&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;h4&gt;Tags: &lt;/h4&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://news.microsoft.com/source/emea/tag/ai/"&gt;AI&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://news.microsoft.com/source/emea/features/zavarovalnica-triglav-copilot-adoption-insurance/</guid>
+      <pubDate>Wed, 27 May 2026 07:57:12 +0000</pubDate>
+      <crawled>2026-07-15T22:55:03.704734+00:00</crawled>
     </item>
     <item>
       <title>AI alone won’t change your business. The system running it will.</title>

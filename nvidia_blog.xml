@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jul 2026 23:55:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 00:01:24 +0000</lastBuildDate>
     <item>
       <title>Making Sense of the Early Universe</title>
       <link>https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy/</link>
@@ -886,6 +886,31 @@
       <guid isPermaLink="false">https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/</guid>
       <pubDate>Tue, 14 Jul 2026 08:00:20 -0700</pubDate>
       <crawled>2026-07-14T22:52:41.255004+00:00</crawled>
+    </item>
+    <item>
+      <title>NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry</title>
+      <link>https://blogs.nvidia.com/blog/japan-ecosystem-2026/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt;&lt;div&gt;Home to leading manufacturers, robotics pioneers, infrastructure builders and iconic gaming companies, of course, Japan is one of the world’s centers of AI — building across the full stack with NVIDIA technologies. This week NVIDIA and its partners in Japan are showcasing the AI ecosystem’s latest advancements. Check back here for updates.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Wednesday, July 15, 3 a.m. PT &lt;/em&gt;&lt;b&gt;&lt;em&gt;&lt;a href="https://blogs.nvidia.com/blog/japan-ecosystem-2026/#sega"&gt;🔗&lt;/a&gt;&lt;/em&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;b&gt;NVIDIA and SEGA Celebrate 30 Years of Innovation, Bringing ‘VIRTUA FIGHTER CROSSROADS’ and Other Legendary SEGA Games to NVIDIA RTX Spark &lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;NVIDIA and SEGA are celebrating more than three decades of collaboration by bringing &lt;/span&gt;&lt;i&gt;&lt;span&gt;VIRTUA FIGHTER CROSSROADS&lt;/span&gt;&lt;/i&gt;&lt;span&gt; and future SEGA titles to &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/products/rtx-spark/"&gt;&lt;span&gt;NVIDIA RTX Spark&lt;/span&gt;&lt;/a&gt;&lt;span&gt; — a new superchip for slim Windows laptops and compact desktop PCs. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;This builds on the companies’ long-standing relationship, which began 30 years ago when NVIDIA worked with SEGA on burgeoning graphics technology for arcade systems and gaming consoles — with the NVIDIA NV1 chip powering the first &lt;/span&gt;&lt;i&gt;&lt;span&gt;Virtua Fighter &lt;/span&gt;&lt;/i&gt;&lt;span&gt;title on PC, among the world’s first 3D fighting games.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;SEGA will support RTX Spark, giving gamers new ways to experience SEGA’s iconic franchises, including the upcoming &lt;/span&gt;&lt;i&gt;&lt;span&gt;VIRTUA FIGHTER CROSSROADS&lt;/span&gt;&lt;/i&gt;&lt;span&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Announced from the heart of Akihabara, a global gaming technology hub, at the original SEGA Akihabara Arcade (now GiGO Akihabara 3), &lt;/span&gt;&lt;i&gt;&lt;span&gt;VIRTUA FIGHTER CROSSROADS&lt;/span&gt;&lt;/i&gt;&lt;span&gt; coming to RTX Spark reinforces the companies’ commitment to innovation and shows a glimpse of the future of gaming on a new era of Windows PCs designed for personal agents, AI, creating and gaming.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;NVIDIA founder and CEO Jensen Huang joined SEGA CEO Haruki Satomi; SEGA chief operating officer Shuji Utsumi; Yu Suzuki, creator of &lt;/span&gt;&lt;i&gt;&lt;span&gt;Virtua Fighter&lt;/span&gt;&lt;/i&gt;&lt;span&gt;; and former SEGA President Shoichiro Irimajiri, at the birthplace of countless arcade memories to celebrate the milestone. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="1153" src="https://blogs.nvidia.com/wp-content/uploads/2026/07/de3db269-98cd-4541-a47e-3bc4c91a4420-scaled.jpg" width="2048"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;They showcased how technology partnerships can evolve across generations of hardware and software, connecting the gaming industry’s heritage with its future. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;The expanding NVIDIA RTX Spark ecosystem — including SEGA and other industry leaders — will offer gamers new experiences harnessing NVIDIA ray tracing, DLSS and AI technologies, while preserving and celebrating the iconic franchises they know and love.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;&lt;span&gt;Learn more about &lt;/span&gt;&lt;/i&gt;&lt;a href="https://www.nvidia.com/en-us/products/rtx-spark/"&gt;&lt;i&gt;&lt;span&gt;NVIDIA RTX Spark&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span&gt;.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/japan-ecosystem-2026/</guid>
+      <pubDate>Tue, 14 Jul 2026 09:45:13 -0700</pubDate>
+      <crawled>2026-07-15T22:54:34.958176+00:00</crawled>
     </item>
     <item>
       <title>Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency</title>
