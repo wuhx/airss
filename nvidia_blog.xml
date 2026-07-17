@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jul 2026 00:02:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 23:56:02 +0000</lastBuildDate>
     <item>
       <title>Making Sense of the Early Universe</title>
       <link>https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy/</link>
@@ -1069,6 +1069,48 @@
       <guid isPermaLink="false">https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/</guid>
       <pubDate>Thu, 16 Jul 2026 06:00:34 -0700</pubDate>
       <crawled>2026-07-16T22:53:52.732655+00:00</crawled>
+    </item>
+    <item>
+      <title>NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI</title>
+      <link>https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;p&gt;Think of a professional athlete. What separates elite performers is what happens between games: continuous refinement, adjusting to new opponents and sharpening skills based on what the last game exposed.&lt;/p&gt;
+&lt;p&gt;Agentic AI works the same way. A model is no longer asked for an answer. It’s given a goal and has to keep adapting as environments shift, edge cases emerge and tools change. Unlike a generative model responding to a prompt, an agentic model must plan, use different tools and recover from problems it encounters mid-run.&lt;/p&gt;
+&lt;p&gt;That’s why post-training, the phase that refines a model after initial training on raw data, is no longer a one-time finishing step. It’s continuous, because the environment that agentic models operate in shifts fast. The tools an agent uses can change week to week. Edge cases surface in production that no test set anticipated. Each deployment brings its own codebase, policies and environment.&lt;/p&gt;
+&lt;p&gt;Post-training runs loop back from production as new problems surface. The compute footprint grows not because any single run is larger, but because the runs never stop. Agentic AI introduces a new compute pattern for post-training, making it the central workload of the agentic era and the primary driver of intelligence per dollar.&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;The goal of post-training is to maximize intelligence per dollar by maximizing the yield of every forward and backward pass in the continuous learning cycle. The forward pass — inference — &lt;/span&gt;&lt;a href="https://blogs.nvidia.com/blog/lowest-token-cost-ai-factories/"&gt;&lt;span&gt;is measured in cost per token&lt;/span&gt;&lt;/a&gt;&lt;span&gt;. That means that every improvement to cost per token flows directly into intelligence per dollar.  &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Agentic Post-Training Demystified&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Post-training is where intelligence is built. In pretraining, the model learns to predict the next token, which gives it fluency but not intelligence. Post-training is where it learns to write code, plan a multistep task, use a search tool and recover when something goes wrong. Inference is what comes after: the model working on the job, priced in cost per token.&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Because there’s no answer key to memorize, only a reward, the model learns by &lt;/span&gt;&lt;a href="https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-reinforcement-learning/"&gt;&lt;span&gt;reinforcement learning&lt;/span&gt;&lt;/a&gt;&lt;span&gt; (RL) techniques. When given a task, it writes out an attempt — the forward pass — the same work it does on the job. The attempt is scored, and the lesson updates the model’s weights — the backward pass. Across millions of attempts, intelligence grows. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Each step is compute intensive, and running this loop at scale is an orchestration problem: thousands of environments generating rollouts in parallel, rewards being verified and updated weights flowing back into training with accelerators fully utilized. NVIDIA NeMo open libraries, such as &lt;a href="https://docs.nvidia.com/nemo/gym/about"&gt;NeMo Gym&lt;/a&gt; for training environments and &lt;a href="https://docs.nvidia.com/nemo/rl/latest/index.html"&gt;NeMo RL&lt;/a&gt; for distributed post-training, turn post-training from bespoke research code into repeatable infrastructure. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="675" src="https://blogs.nvidia.com/wp-content/uploads/2026/07/ai-infra-diagram-vr-post-traininig-agentic-workflow-1920x1080-5448060-1680x945.jpg" width="1200"/&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Why Intelligence per Dollar Extends Cost per Token &lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;If inference is the revenue engine, post-training is the multiplier: the more capable the model, the higher the value of every token served. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="138" src="https://blogs.nvidia.com/wp-content/uploads/2026/07/intelligence-per-dollar-equation-960x138.jpg" width="960"/&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;Cost per token is the key metric for the inference factory: the all-in cost of delivering 1 million tokens. Intelligence per dollar sits one layer up, answering a different question: what does it cost to build a model worth serving, and keep it worth serving as its environment changes?&lt;/p&gt;
+&lt;p&gt;The two are nested, not competing. AI infrastructure that lowers cost per token also lowers the cost of every point of intelligence built into the model. And every point of intelligence built in raises the value of every token the inference factory serves. &lt;/p&gt;
+&lt;p&gt;In other words, cost per token measures operating yield; intelligence per dollar measures whether the investment in model intelligence is paying off. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="675" src="https://blogs.nvidia.com/wp-content/uploads/2026/07/ai-infra-diagram-vr-post-traininig-maximizing-intelligence-1920x1080-5448060-1680x945.jpg" width="1200"/&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;/figure&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Maximizing Intelligence per Dollar: Post-Training Nemotron 3 Ultra&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/"&gt;&lt;span&gt;NVIDIA Nemotron 3 Ultra&lt;/span&gt;&lt;/a&gt;&lt;span&gt; — an open weight, 550-billion-parameter mixture-of-experts (MoE) model, offers verifiable benchmarks and a fully disclosed post-training recipe run on NeMo RL. It scored 71.7% on a standard real-world coding benchmark, SWE-bench verified, where it produced a working fix for roughly seven in 10 real software bugs from open source projects, each one checked against the project’s own tests.  &lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt="" height="675" src="https://blogs.nvidia.com/wp-content/uploads/2026/07/ai-infra-diagram-vr-post-traininig-table-1920x1080-5448060-1680x945.jpg" width="1200"/&gt;&lt;figcaption&gt;Illustrative 20 billion rollout tokens, based on prior-generation Nemotron 3 Super’s ~1.2 million rollouts at ~10,000 tokens each, scaled up for the larger Ultra model. Intelligence per dollar between platforms is independent of this assumption; the absolute values scale with the token count.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;The NVIDIA Blackwell platform lowers cost per run and makes the frequent post-training the agentic era demands economically viable. That intelligence is reaped across every token served.&lt;/p&gt;
+&lt;p&gt;The NVIDIA Vera Rubin platform extends the trajectory further, training the largest models with one-fourth the GPUs of the Blackwell generation. It was codesigned from end to end to maximize intelligence per dollar for the agentic post-training load: more rollouts per run, more environments in play and post-training cycles that never stop.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Post-Training Workflows in Action&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.primeintellect.ai/blog/nvidia-collaboration"&gt;Prime Intellect’s Lab&lt;/a&gt; continuously post-trains frontier open models on NVIDIA Blackwell and uses NVIDIA Dynamo for inference orchestration. With Vera Rubin, Prime Intellect plans to scale reinforcement learning environments, generate more rollouts per run and accelerate training-to-inference iteration loops to maximize intelligence per dollar for businesses.&lt;/p&gt;
+&lt;p&gt;Prime Intellect has optimized its sandbox infrastructure to integrate with &lt;a href="https://www.nvidia.com/en-us/data-center/vera-cpu/"&gt;NVIDIA Vera CPUs&lt;/a&gt;, enabling low-latency, energy-efficient &lt;a href="https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-reinforcement-learning/"&gt;reinforcement learning&lt;/a&gt;. Open source tools and models such as NVIDIA Nemotron and NVIDIA NeMo Gym are also integrated into its software stack. When comparing realistic RL sandbox workloads against alternative x86 architectures, Prime Intellect found that Vera delivers, on average, 30% greater throughput per CPU.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://research.perplexity.ai/articles/hosting-qwen-on-blackwell"&gt;Perplexity’s&lt;/a&gt; RL post-training stack runs asynchronously across hundreds of NVIDIA GPUs, with an RDMA-based weight transfer engine that syncs trillion-parameter models in under two seconds between training and inference compute nodes. The resulting post-trained Qwen3 235B models are then served on NVIDIA GB200 NVL72 systems.&lt;/p&gt;
+&lt;p&gt;Together AI provides post-training as a service, including supervised fine-tuning, RL and direct preference optimization. The service is delivered via a feature-rich application programming interface and software development kit that supports the full range of post-training on its AI Native Cloud platform. It has been running on NVIDIA’s platform and optimized kernel libraries, and is looking to harness the Vera Rubin platform next.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Learn more about &lt;/em&gt;&lt;a href="https://www.nvidia.com/en-us/data-center/technologies/rubin/"&gt;&lt;em&gt;NVIDIA Vera Rubin&lt;/em&gt;&lt;/a&gt;&lt;em&gt;, the platform for AI factories to maximize intelligence per dollar across workloads. And explore NVIDIA’s full-stack platform for &lt;/em&gt;&lt;a href="https://www.nvidia.com/en-us/solutions/ai/ai-training/"&gt;&lt;em&gt;training frontier models&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/</guid>
+      <pubDate>Thu, 16 Jul 2026 06:00:34 -0700</pubDate>
+      <crawled>2026-07-17T22:43:41.150507+00:00</crawled>
     </item>
   </channel>
 </rss>
