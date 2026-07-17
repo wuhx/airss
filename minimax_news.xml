@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Jul 2026 00:01:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 00:02:04 +0000</lastBuildDate>
     <item>
       <title>开展"清朗·整治AI应用乱象"专项公告</title>
       <link>https://www.minimaxi.com/news/%E5%BC%80%E5%B1%95%E6%B8%85%E6%9C%97%E6%95%B4%E6%B2%BBai%E5%BA%94%E7%94%A8%E4%B9%B1%E8%B1%A1%E4%B8%93%E9%A1%B9%E5%85%AC%E5%91%8A</link>
@@ -15,30 +15,6 @@
       <guid isPermaLink="false">https://www.minimaxi.com/news/%E5%BC%80%E5%B1%95%E6%B8%85%E6%9C%97%E6%95%B4%E6%B2%BBai%E5%BA%94%E7%94%A8%E4%B9%B1%E8%B1%A1%E4%B8%93%E9%A1%B9%E5%85%AC%E5%91%8A</guid>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-07T16:47:56.864046+00:00</crawled>
-    </item>
-    <item>
-      <title>沐曦股份曦云C系列GPU Day 0 适配 MiniMax M3，国产算力支撑前沿Coding与Agentic能力</title>
-      <link>https://www.minimaxi.com/news/m3-day0-suczi21nrg</link>
-      <description>&lt;article&gt;&lt;div&gt;&lt;p&gt;6月12日，MiniMax正式开源新一代原生多模态旗舰模型M3。沐曦股份曦云C系列GPU凭借全栈自研的软硬一体技术优势，完成对M3的Day 0深度适配，成为率先支持该模型的国产算力平台，持续领跑国产GPU极速适配赛道。&lt;/p&gt;&lt;p&gt;这是近期继M2.5、M2.7之后，曦云C系列又一次对MiniMax旗舰大模型实现极速适配。此次Day 0适配的快速实现，持续源于沐曦股份"自研GPU硬件+MXMACA全栈软件"的软硬一体核心优势。&lt;/p&gt;&lt;p&gt;曦云C系列GPU基于沐曦自主核心GPU IP打造，具备高能效比与高通用性，精准匹配大模型的超大规模参数处理及长上下文推理需求。MXMACA软件栈作为连接硬件算力与上层应用生态的核心枢纽，全链路覆盖底层驱动、用户态接口、MXCC编译器、算子深度适配及主流训练/推理框架对接，原生兼容 PyTorch、TensorFlow、vLLM与SGLang等 40 余种主流 AI 框架，支持 500+ AI 模型稳定运行，大幅缩短传统模型适配周期。曦云C系列GPU依托沐曦自研MXMACA软件栈的深度优化能力，成功实现M3的高效部署与稳定运行，为其前沿能力提供澎湃算力支撑。&lt;/p&gt;&lt;p&gt;在国产GPU Day 0适配赛道，沐曦股份持续保持行业领先地位。截至目前，沐曦已累计完成Day 0适配模型达26个，全面覆盖MiniMax、智谱、阿里千问、阶跃星辰、百度、DeepSeek等国内头部厂商的最新旗舰模型，品类涵盖语言、多模态、OCR、文生图、3D生成等全领域，构建起"模型发布—芯片适配—产业落地"的高效闭环。&lt;/p&gt;&lt;h3&gt;关于MiniMax新一代原生多模态旗舰模型M3&lt;/h3&gt;&lt;p&gt;MiniMax M3 在编程和智能体等专业任务上达到了前沿的能力。它使用了全新注意力架构 MSA （MiniMax Sparse Attention），最高支持 1M 超长上下文。它也是一个原生多模态模型，支持图片和视频的输入，并能操作电脑桌面。这三种能力是海外闭源前沿模型所必须拥有的。M3 是国内第一个齐备这些要素的模型，也是目前唯一的开源模型。&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" src="https://filecdn.minimax.chat/public/code=NGJmNmE3ZjMzMzMzNGZmMzNkNDg3NWY5ZDExMDA2N2ZfNUlxWUQwYTBYSGFRMk4xRDhtRkk4R0JpaVZNRTJ1WmxfVG9rZW46V1VXcGJXTlBzb2ZybHd4eXRwd2NaemxDbkhkXzE3ODE1ODQ4MjQ6MTc4MTU4ODQyNF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781584839670"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;在 Artificial Analysis 综合智能指数排行榜上，M3 取得了全球开源模型的最高排名。&lt;/p&gt;&lt;h3&gt;MSA：结构创新带来 Context Scaling&lt;/h3&gt;&lt;p&gt;MSA 是一个简洁且易于扩展的全新稀疏注意力架构，让 context 真正成为又一个可被 scale 的维度。稀疏注意力机制普遍通过增加一个初筛阶段来避免复杂度爆炸问题。与 DSA 和 MoBA 等方案相比，MSA 可以更精确为 KV 分块，实现更高的有效上下文覆盖。&lt;/p&gt;&lt;p&gt;同时，MiniMax团队还在算子层直接优化，采用以 KV 块为外层来聚合命中 query 的 KV outer gather Q。每块只读一次、访存连续，在 M3 的 head 配比下计算访存比显著优于通行方法，比开源的 Flash-Sparse-Attention、FlashMoBA 快 4 倍以上。&lt;/p&gt;&lt;p&gt;简洁可扩展、易于实现且硬件友好的特点，使它的理论收益能真正落地：在 100 万上下文下，M3 每 token 计算量仅为上代模型的 1/20。在 prefilling 阶段，MiniMax团队实现了超过 9 倍的加速倍率，在 decoding 阶段有超过 15 倍的加速优势。而且在多个对照实验中，MSA 的绝大部分能力与全注意力打平。&lt;/p&gt;&lt;h3&gt;前沿的Coding和Agentic能力&lt;/h3&gt;&lt;p&gt;Coding 与 Agent 能力是 M3 重点提升之处，在涵盖软件工程、终端执行等多个维度的国际权威评测中，M3 均达到国际领先水平：&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" src="https://filecdn.minimax.chat/public/code=Y2ZhZGMzMDgxZDc1ZjNhMjY1NGUxN2I5Y2VmYTMyYTdfTm9xck5HclVpNFRRM0VYNkw1MHJPaFVBVDBoZEU2YWhfVG9rZW46UFRxSWJEM0Y5bzlXMkl4dXZ1ZGN1T3N1bk5mXzE3ODE1ODQ4MjQ6MTc4MTU4ODQyNF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781584838830"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;下一代 Agent Coding 比的不仅是代码生成，更要比拼长期协作能力、规划能力以及人与 Agent 的协同效率。M3 把真正对 Coding 和 Agent 至关重要的数据 Scale up，目标不仅是在 Benchmark 上取得领先，更是在真实研发流程中成为开发者可靠的协作伙伴。&lt;/p&gt;&lt;h3&gt;多模态：原生训练，继续 Scale&lt;/h3&gt;&lt;p&gt;M3 是一个从 Step 0 开始进行多模态混合训练的模型。这种原生多模态的路线能让不同模态数据的语义空间更天然、更高度的融合。&lt;/p&gt;&lt;p&gt;同时，在数据配比和构成上，MiniMax团队的大量实验显示，Interleaved data（交错数据）对模型性能带来的提升，比一般认为的更加关键。&lt;/p&gt;&lt;p&gt;这些文本和图像或其他模态在序列中交替自然排列的数据，对于整体训练数据的规模扩展也很重要。在MiniMax团队为这些数据重构整套数据管线后，已可以将训练数据 Token 规模提升至更大量级。&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://www.minimaxi.com/news/m3-day0-suczi21nrg</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:47:45.502009+00:00</crawled>
-    </item>
-    <item>
-      <title>Day0适配丨壁仞科技率先支持MiniMax M3大模型​</title>
-      <link>https://www.minimaxi.com/news/m3-day0-biren</link>
-      <description>&lt;article&gt;&lt;div&gt;&lt;p&gt;6月12日晚，MiniMax正式开源新一代通用模型MiniMax M3，壁仞科技壁砺™166系列&lt;strong&gt;基于SGLang推理框架&lt;/strong&gt;完成该模型的&lt;strong&gt;“Day0”适配与调优&lt;/strong&gt;。壁仞科技以全栈技术能力支持国产AI生态建设，此前已同步高效适配MiniMax M2.1、M2.5、M2.7等多款模型，并在模型精度和稳定性方面表现优异。&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" src="https://filecdn.minimax.chat/public/code=ZjVhNzAwMzkxNjBkMjVkYTkzYTZjNzIxZjEwMjkyY2ZfRHpnR0poUENzVllOckthcFI4WVkyTjU0WjdTajEzM0VfVG9rZW46QnBSWWJ5ZjlHbzFCNmp4M09QeGNwRWl2bmgyXzE3ODE1ODQzNDk6MTc4MTU4Nzk0OV9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781584380589"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;MiniMax M3基于壁砺™166系列完成推理任务&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MiniMax M3：三大能力合一&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;根据官方介绍，MiniMax M3采用全新的自研稀疏注意力架构MSA（MiniMax Sparse Attention），是国内首个同时具备“&lt;strong&gt;前沿Coding能力&lt;/strong&gt;、&lt;strong&gt;1M超长上下文&lt;/strong&gt;、&lt;strong&gt;原生多模态&lt;/strong&gt;”三项核心能力的大模型，也是目前唯一具备完整能力组合的开源选项。&lt;/p&gt;&lt;p&gt;在衡量Coding能力的SWE-Bench Pro上，MiniMax M3超过GPT-5.5和Gemini 3.1 Pro，接近Opus4.7。在综合评估SVG生成性能的基准SVG-Bench上，MiniMax M3超过Opus 4.7。而在多模态测试集OmniDocBench上，MiniMax M3得分超过Gemini 3.1 Pro，在面向自主Agent的端到端评测框架Claw-Eval上，MiniMax M3得到最高分。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;实现20+领先大模型“Day0”适配&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;本次Day0适配中，针对MiniMax M3模型的自研MSA稀疏注意力架构、1M超长上下文窗口、原生多模态及顶尖Agent与Coding能力等核心特性，壁仞科技围绕MSA稀疏注意力算子深度适配，优化超长序列KV Cache管理、开发高性能融合算子，成功实现MiniMax M3模型适配与高效部署。&lt;/p&gt;&lt;p&gt;壁仞科技充分发挥自研全栈多智能体编排平台SUPACODE与BIRENSUPA™软件栈的技术优势。&lt;strong&gt;SUPACODE&lt;/strong&gt;通过自动化分析、智能算子调优与关键路径优化，&lt;strong&gt;大幅缩短&lt;/strong&gt;针对MSA新架构的适配与调优周期；&lt;strong&gt;BIRENSUPA™&lt;/strong&gt;深度兼容主流AI框架，开箱性能优异，可&lt;strong&gt;显著降低&lt;/strong&gt;开发者的模型部署与应用门槛。&lt;/p&gt;&lt;p&gt;随着人工智能领域核心技术及应用需求的快速增长，壁仞科技作为国内领先的通用智能计算解决方案提供商，持续引领国产AI生态建设。截至目前，壁仞科技已成功支持&lt;strong&gt;20余款领先大模型的“Day0”级适配&lt;/strong&gt;。依托高性能通用GPU产品与成熟软件生态，壁仞科技将加强与国产基础模型企业合作，以“国芯国模”协同发展为契机，共建国产AI生态，推动智能终端、AI智能体走向千行百业。&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://www.minimaxi.com/news/m3-day0-biren</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:47:28.330880+00:00</crawled>
-    </item>
-    <item>
-      <title>华为云与MiniMax最新模型M3完成适配</title>
-      <link>https://www.minimaxi.com/news/huawei-cloud-minimax-m3-adaptation-copy</link>
-      <description>&lt;article&gt;&lt;div&gt;&lt;p&gt;6月12日，华为云与MiniMax原生多模态旗舰模型M3实现开源首发适配。华为云基于昇腾算力底座，为MiniMax提供强大的Tokens算力支持。双方打通“算力”到“企业生产力”的闭环，共筑AI行业新标杆。&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" src="https://filecdn.minimax.chat/public/code=M2NmZGVjZjViOWRjMjk3NDYzNTE3NzM4MDRkNzI1NjZfZVZZcmY0Nm9PdEY2SlFrUWxrdEYxZjJCeEtZbXQ2TTZfVG9rZW46SG1pcmJYd1Bsb0xXenR4Uk9PM2N2bjdDblZoXzE3ODE1ODM3Njg6MTc4MTU4NzM2OF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781583786505"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;近日，华为云与MiniMax 达成进一步深化合作。华为云CloudMatrix智算云服务已完成对其全新一代&lt;strong&gt;原生多模态旗舰模型MiniMax M3&lt;/strong&gt;的开源首发适配。在此次合作中，华为云基于昇腾算力为M3提供Tokens支持，全面护航新模型的稳定、高效运行。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MiniMax M3：前沿Coding &amp;amp; Agentic能力·百万上下文·原生多模态&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;MiniMax M3在编程和智能体等专业任务上达到了前沿的能力。它使用了MiniMax提出的全新注意力架构MSA（MiniMax Sparse Attention），最高支持1M超长上下文。它也是一个原生多模态模型，支持图片和视频的输入，并能操作电脑桌面。&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" src="https://filecdn.minimax.chat/public/code=ZTAwMzUyYTE0NWQ3Yzc3ZjcwMzI1ZDkzODI2MTE0ZThfRVd1WnhsUDhieTd1Q05LcThWSVNZT2E3OWZRMVJ5Yk9fVG9rZW46RzVMTGJFMlRIbzR3ZXp4YWxJNmN2RVltbjliXzE3ODE1ODM3Njg6MTc4MTU4NzM2OF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781583785762"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;在衡量Coding能力的SWE-Bench Pro上，MiniMax M3超过GPT-5.5和Gemini 3.1 Pro，接近Opus 4.7。在综合评估SVG生成性能的基准SVG-Bench上，MiniMax M3超过Opus 4.7。&lt;/p&gt;&lt;p&gt;而在多模态测试集OmniDocBench上，MiniMax M3得分超过Gemini 3.1 Pro，在面向自主Agent的端到端评测框架Claw-Eval上，MiniMax M3得到最高分。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;昇腾算力云端适配&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;MiniMax M3在昇腾算力上完成MSA的算子适配，实现精确KV分块与连续访存策略，使M3的Context Scaling能力得以充分发挥。同时，M3还在昇腾算力上完成了MOE均衡优化，确保各专家模块在多卡间高效协作，为M3的大规模推理服务提供稳定的性能支撑。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;构建“算力”到“企业生产力”闭环&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;在刚刚闭幕的华为云INSPIRE创想者大会上，华为云联合MiniMax等20余家TOP模型厂商，发布了“百模千态，云聚共赢”生态合作计划，共建系统化商业生态，打造多方共赢的产业发展新模式。&lt;/p&gt;&lt;p&gt;结合华为云在政企、金融、制造等30+行业、5500+企业的深厚积累，华为云将与MiniMax共同推进行业Agent应用落地，真正用AI解决业务难题，让每一个Token创造真实价值。&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://www.minimaxi.com/news/huawei-cloud-minimax-m3-adaptation-copy</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:47:22.332433+00:00</crawled>
     </item>
     <item>
       <title>Day0极速适配！海光DCU解锁MiniMax M3满血能力</title>
@@ -49,12 +25,12 @@
       <crawled>2026-07-07T16:47:34.072389+00:00</crawled>
     </item>
     <item>
-      <title>极速适配，生态共赢：昆仑芯高效支持MiniMax M3模型​</title>
-      <link>https://www.minimaxi.com/news/m3-day0-brckt0dnyp</link>
-      <description>&lt;article&gt;&lt;div&gt;&lt;p&gt;6月12日，MiniMax M3模型正式开源。昆仑芯第一时间完成对该模型的适配与调优，成为首批完成适配的国产算力厂商之一，再次彰显其在主流大模型生态中的敏捷响应能力和广泛兼容实力。​&lt;/p&gt;&lt;p&gt;据悉，MiniMax M3采用全新的自研注意力架构MSA（MiniMax Sparse Attention），具备前沿Coding、超长上下文、原生多模态能力，在 Artificial Analysis综合智能指数排行榜上，M3取得了全球开源SOTA的最高成绩。作为原生多模态模型，M3从训练起点便融合文本、图片、视频混合数据，支持图片视频理解及电脑桌面操作，为构建复杂智能体任务提供了坚实基础。​&lt;/p&gt;&lt;p&gt;极速适配落地，验证全栈生态实力​&lt;/p&gt;&lt;p&gt;随着AI大模型向更高参数规模、更强性能表现和更广应用场景持续演进，底层算力的适配能力已成为决定模型落地效率的关键环节。昆仑芯在MiniMax M3模型正式开源当日，率先实现“模型发布即适配”，使用户在模型上线当日即可获得稳定、高效的国产算力支持。实际适配中，昆仑芯展现出强劲的算力支撑与灵活的部署优势，能够稳定支撑海量数据处理，支持多种混合精度计算，为MiniMax M3模型持续调优与规模化部署提供了可靠基础。凭借稳定高效的产品表现，昆仑芯充分验证了自研软件栈在模型快速迁移、性能释放及生态兼容方面的综合实力。这一高效适配的背后，是昆仑芯自研软件栈的长期积累。昆仑芯软件栈完整覆盖从底层驱动、开发工具SDK到专业库等核心组件，贴合开发者实际使用习惯，在保障计算性能充分释放的同时，有效降低开发门槛与模型迁移成本。开发者得以高效完成精度无损、性能稳定的模型部署，显著提升模型开发效率与应用部署体验。 ​&lt;/p&gt;&lt;p&gt;拓展生态边界，"发布即可用"成常态​&lt;/p&gt;&lt;p&gt;近期，国产大模型生态持续演进，技术突破与产业落地节奏显著加快。昆仑芯持续扩大“发布即适配”生态覆盖范围，引领国产AI生态建设。目前，公司已构建起体系化的模型适配机制，能够快速响应主流模型的迭代升级，已实现对MiniMax、智谱GLM、通义千问Qwen等头部厂商最新旗舰模型的快速适配，覆盖语言、多模态、AIGC等方向。凭借成熟开放的软件生态，昆仑芯已将"发布当日即适配"变为常态，让开发者和用户在模型上线当日便能享受国产AI芯片带来的高效加速体验。昆仑芯软件负责人王勇表示：“大模型快速演进对算力平台的适配效率提出了更高要求。我们通过持续优化自研软件栈能力，实现模型发布即适配、上线即可稳定运行，帮助开发者缩短迁移周期、稳定释放性能。此外，我们将持续完善软件生态建设，提升对主流模型架构与算法创新的支持能力，为国产大模型生态发展提供更坚实的算力支撑。” ​&lt;/p&gt;&lt;p&gt;软硬协同驱动，赋能国产模型加速落地​&lt;/p&gt;&lt;p&gt;国产算力的高效适配能力，正成为推动大模型规模化落地的重要支撑。面向未来，昆仑芯将进一步强化对主流模型的高效适配能力，夯实国产AI算力底座。依托软硬协同的深度优化能力，持续聚焦行业应用与场景需求，为千行百业客户及开发者提供高性能、易部署、可规模化的算力支撑，助力AI技术加速落地，推动产业智能化升级与数字化转型迈向新高度。​&lt;/p&gt;&lt;p&gt;​&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://www.minimaxi.com/news/m3-day0-brckt0dnyp</guid>
+      <title>沐曦股份曦云C系列GPU Day 0 适配 MiniMax M3，国产算力支撑前沿Coding与Agentic能力</title>
+      <link>https://www.minimaxi.com/news/m3-day0-suczi21nrg</link>
+      <description>&lt;article&gt;&lt;div&gt;&lt;p&gt;6月12日，MiniMax正式开源新一代原生多模态旗舰模型M3。沐曦股份曦云C系列GPU凭借全栈自研的软硬一体技术优势，完成对M3的Day 0深度适配，成为率先支持该模型的国产算力平台，持续领跑国产GPU极速适配赛道。&lt;/p&gt;&lt;p&gt;这是近期继M2.5、M2.7之后，曦云C系列又一次对MiniMax旗舰大模型实现极速适配。此次Day 0适配的快速实现，持续源于沐曦股份"自研GPU硬件+MXMACA全栈软件"的软硬一体核心优势。&lt;/p&gt;&lt;p&gt;曦云C系列GPU基于沐曦自主核心GPU IP打造，具备高能效比与高通用性，精准匹配大模型的超大规模参数处理及长上下文推理需求。MXMACA软件栈作为连接硬件算力与上层应用生态的核心枢纽，全链路覆盖底层驱动、用户态接口、MXCC编译器、算子深度适配及主流训练/推理框架对接，原生兼容 PyTorch、TensorFlow、vLLM与SGLang等 40 余种主流 AI 框架，支持 500+ AI 模型稳定运行，大幅缩短传统模型适配周期。曦云C系列GPU依托沐曦自研MXMACA软件栈的深度优化能力，成功实现M3的高效部署与稳定运行，为其前沿能力提供澎湃算力支撑。&lt;/p&gt;&lt;p&gt;在国产GPU Day 0适配赛道，沐曦股份持续保持行业领先地位。截至目前，沐曦已累计完成Day 0适配模型达26个，全面覆盖MiniMax、智谱、阿里千问、阶跃星辰、百度、DeepSeek等国内头部厂商的最新旗舰模型，品类涵盖语言、多模态、OCR、文生图、3D生成等全领域，构建起"模型发布—芯片适配—产业落地"的高效闭环。&lt;/p&gt;&lt;h3&gt;关于MiniMax新一代原生多模态旗舰模型M3&lt;/h3&gt;&lt;p&gt;MiniMax M3 在编程和智能体等专业任务上达到了前沿的能力。它使用了全新注意力架构 MSA （MiniMax Sparse Attention），最高支持 1M 超长上下文。它也是一个原生多模态模型，支持图片和视频的输入，并能操作电脑桌面。这三种能力是海外闭源前沿模型所必须拥有的。M3 是国内第一个齐备这些要素的模型，也是目前唯一的开源模型。&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" src="https://filecdn.minimax.chat/public/code=NGJmNmE3ZjMzMzMzNGZmMzNkNDg3NWY5ZDExMDA2N2ZfNUlxWUQwYTBYSGFRMk4xRDhtRkk4R0JpaVZNRTJ1WmxfVG9rZW46V1VXcGJXTlBzb2ZybHd4eXRwd2NaemxDbkhkXzE3ODE1ODQ4MjQ6MTc4MTU4ODQyNF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781584839670"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;在 Artificial Analysis 综合智能指数排行榜上，M3 取得了全球开源模型的最高排名。&lt;/p&gt;&lt;h3&gt;MSA：结构创新带来 Context Scaling&lt;/h3&gt;&lt;p&gt;MSA 是一个简洁且易于扩展的全新稀疏注意力架构，让 context 真正成为又一个可被 scale 的维度。稀疏注意力机制普遍通过增加一个初筛阶段来避免复杂度爆炸问题。与 DSA 和 MoBA 等方案相比，MSA 可以更精确为 KV 分块，实现更高的有效上下文覆盖。&lt;/p&gt;&lt;p&gt;同时，MiniMax团队还在算子层直接优化，采用以 KV 块为外层来聚合命中 query 的 KV outer gather Q。每块只读一次、访存连续，在 M3 的 head 配比下计算访存比显著优于通行方法，比开源的 Flash-Sparse-Attention、FlashMoBA 快 4 倍以上。&lt;/p&gt;&lt;p&gt;简洁可扩展、易于实现且硬件友好的特点，使它的理论收益能真正落地：在 100 万上下文下，M3 每 token 计算量仅为上代模型的 1/20。在 prefilling 阶段，MiniMax团队实现了超过 9 倍的加速倍率，在 decoding 阶段有超过 15 倍的加速优势。而且在多个对照实验中，MSA 的绝大部分能力与全注意力打平。&lt;/p&gt;&lt;h3&gt;前沿的Coding和Agentic能力&lt;/h3&gt;&lt;p&gt;Coding 与 Agent 能力是 M3 重点提升之处，在涵盖软件工程、终端执行等多个维度的国际权威评测中，M3 均达到国际领先水平：&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" src="https://filecdn.minimax.chat/public/code=Y2ZhZGMzMDgxZDc1ZjNhMjY1NGUxN2I5Y2VmYTMyYTdfTm9xck5HclVpNFRRM0VYNkw1MHJPaFVBVDBoZEU2YWhfVG9rZW46UFRxSWJEM0Y5bzlXMkl4dXZ1ZGN1T3N1bk5mXzE3ODE1ODQ4MjQ6MTc4MTU4ODQyNF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781584838830"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;下一代 Agent Coding 比的不仅是代码生成，更要比拼长期协作能力、规划能力以及人与 Agent 的协同效率。M3 把真正对 Coding 和 Agent 至关重要的数据 Scale up，目标不仅是在 Benchmark 上取得领先，更是在真实研发流程中成为开发者可靠的协作伙伴。&lt;/p&gt;&lt;h3&gt;多模态：原生训练，继续 Scale&lt;/h3&gt;&lt;p&gt;M3 是一个从 Step 0 开始进行多模态混合训练的模型。这种原生多模态的路线能让不同模态数据的语义空间更天然、更高度的融合。&lt;/p&gt;&lt;p&gt;同时，在数据配比和构成上，MiniMax团队的大量实验显示，Interleaved data（交错数据）对模型性能带来的提升，比一般认为的更加关键。&lt;/p&gt;&lt;p&gt;这些文本和图像或其他模态在序列中交替自然排列的数据，对于整体训练数据的规模扩展也很重要。在MiniMax团队为这些数据重构整套数据管线后，已可以将训练数据 Token 规模提升至更大量级。&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://www.minimaxi.com/news/m3-day0-suczi21nrg</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:47:51.053863+00:00</crawled>
+      <crawled>2026-07-07T16:47:45.502009+00:00</crawled>
     </item>
     <item>
       <title>Day-0支持｜摩尔线程率先完成MiniMax M3大模型适配​</title>
@@ -63,6 +39,204 @@
       <guid isPermaLink="false">https://www.minimaxi.com/news/m3-day0-moer</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-07T16:47:39.685856+00:00</crawled>
+    </item>
+    <item>
+      <title>华为云与MiniMax最新模型M3完成适配</title>
+      <link>https://www.minimaxi.com/news/huawei-cloud-minimax-m3-adaptation-copy</link>
+      <description>&lt;article&gt;&lt;div&gt;&lt;p&gt;6月12日，华为云与MiniMax原生多模态旗舰模型M3实现开源首发适配。华为云基于昇腾算力底座，为MiniMax提供强大的Tokens算力支持。双方打通“算力”到“企业生产力”的闭环，共筑AI行业新标杆。&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" src="https://filecdn.minimax.chat/public/code=M2NmZGVjZjViOWRjMjk3NDYzNTE3NzM4MDRkNzI1NjZfZVZZcmY0Nm9PdEY2SlFrUWxrdEYxZjJCeEtZbXQ2TTZfVG9rZW46SG1pcmJYd1Bsb0xXenR4Uk9PM2N2bjdDblZoXzE3ODE1ODM3Njg6MTc4MTU4NzM2OF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781583786505"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;近日，华为云与MiniMax 达成进一步深化合作。华为云CloudMatrix智算云服务已完成对其全新一代&lt;strong&gt;原生多模态旗舰模型MiniMax M3&lt;/strong&gt;的开源首发适配。在此次合作中，华为云基于昇腾算力为M3提供Tokens支持，全面护航新模型的稳定、高效运行。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MiniMax M3：前沿Coding &amp;amp; Agentic能力·百万上下文·原生多模态&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;MiniMax M3在编程和智能体等专业任务上达到了前沿的能力。它使用了MiniMax提出的全新注意力架构MSA（MiniMax Sparse Attention），最高支持1M超长上下文。它也是一个原生多模态模型，支持图片和视频的输入，并能操作电脑桌面。&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" src="https://filecdn.minimax.chat/public/code=ZTAwMzUyYTE0NWQ3Yzc3ZjcwMzI1ZDkzODI2MTE0ZThfRVd1WnhsUDhieTd1Q05LcThWSVNZT2E3OWZRMVJ5Yk9fVG9rZW46RzVMTGJFMlRIbzR3ZXp4YWxJNmN2RVltbjliXzE3ODE1ODM3Njg6MTc4MTU4NzM2OF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781583785762"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;在衡量Coding能力的SWE-Bench Pro上，MiniMax M3超过GPT-5.5和Gemini 3.1 Pro，接近Opus 4.7。在综合评估SVG生成性能的基准SVG-Bench上，MiniMax M3超过Opus 4.7。&lt;/p&gt;&lt;p&gt;而在多模态测试集OmniDocBench上，MiniMax M3得分超过Gemini 3.1 Pro，在面向自主Agent的端到端评测框架Claw-Eval上，MiniMax M3得到最高分。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;昇腾算力云端适配&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;MiniMax M3在昇腾算力上完成MSA的算子适配，实现精确KV分块与连续访存策略，使M3的Context Scaling能力得以充分发挥。同时，M3还在昇腾算力上完成了MOE均衡优化，确保各专家模块在多卡间高效协作，为M3的大规模推理服务提供稳定的性能支撑。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;构建“算力”到“企业生产力”闭环&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;在刚刚闭幕的华为云INSPIRE创想者大会上，华为云联合MiniMax等20余家TOP模型厂商，发布了“百模千态，云聚共赢”生态合作计划，共建系统化商业生态，打造多方共赢的产业发展新模式。&lt;/p&gt;&lt;p&gt;结合华为云在政企、金融、制造等30+行业、5500+企业的深厚积累，华为云将与MiniMax共同推进行业Agent应用落地，真正用AI解决业务难题，让每一个Token创造真实价值。&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://www.minimaxi.com/news/huawei-cloud-minimax-m3-adaptation-copy</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T16:47:22.332433+00:00</crawled>
+    </item>
+    <item>
+      <title>Day0适配丨壁仞科技率先支持MiniMax M3大模型​</title>
+      <link>https://www.minimaxi.com/news/m3-day0-biren</link>
+      <description>&lt;article&gt;&lt;div&gt;&lt;p&gt;6月12日晚，MiniMax正式开源新一代通用模型MiniMax M3，壁仞科技壁砺™166系列&lt;strong&gt;基于SGLang推理框架&lt;/strong&gt;完成该模型的&lt;strong&gt;“Day0”适配与调优&lt;/strong&gt;。壁仞科技以全栈技术能力支持国产AI生态建设，此前已同步高效适配MiniMax M2.1、M2.5、M2.7等多款模型，并在模型精度和稳定性方面表现优异。&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" src="https://filecdn.minimax.chat/public/code=ZjVhNzAwMzkxNjBkMjVkYTkzYTZjNzIxZjEwMjkyY2ZfRHpnR0poUENzVllOckthcFI4WVkyTjU0WjdTajEzM0VfVG9rZW46QnBSWWJ5ZjlHbzFCNmp4M09QeGNwRWl2bmgyXzE3ODE1ODQzNDk6MTc4MTU4Nzk0OV9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781584380589"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;MiniMax M3基于壁砺™166系列完成推理任务&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MiniMax M3：三大能力合一&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;根据官方介绍，MiniMax M3采用全新的自研稀疏注意力架构MSA（MiniMax Sparse Attention），是国内首个同时具备“&lt;strong&gt;前沿Coding能力&lt;/strong&gt;、&lt;strong&gt;1M超长上下文&lt;/strong&gt;、&lt;strong&gt;原生多模态&lt;/strong&gt;”三项核心能力的大模型，也是目前唯一具备完整能力组合的开源选项。&lt;/p&gt;&lt;p&gt;在衡量Coding能力的SWE-Bench Pro上，MiniMax M3超过GPT-5.5和Gemini 3.1 Pro，接近Opus4.7。在综合评估SVG生成性能的基准SVG-Bench上，MiniMax M3超过Opus 4.7。而在多模态测试集OmniDocBench上，MiniMax M3得分超过Gemini 3.1 Pro，在面向自主Agent的端到端评测框架Claw-Eval上，MiniMax M3得到最高分。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;实现20+领先大模型“Day0”适配&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;本次Day0适配中，针对MiniMax M3模型的自研MSA稀疏注意力架构、1M超长上下文窗口、原生多模态及顶尖Agent与Coding能力等核心特性，壁仞科技围绕MSA稀疏注意力算子深度适配，优化超长序列KV Cache管理、开发高性能融合算子，成功实现MiniMax M3模型适配与高效部署。&lt;/p&gt;&lt;p&gt;壁仞科技充分发挥自研全栈多智能体编排平台SUPACODE与BIRENSUPA™软件栈的技术优势。&lt;strong&gt;SUPACODE&lt;/strong&gt;通过自动化分析、智能算子调优与关键路径优化，&lt;strong&gt;大幅缩短&lt;/strong&gt;针对MSA新架构的适配与调优周期；&lt;strong&gt;BIRENSUPA™&lt;/strong&gt;深度兼容主流AI框架，开箱性能优异，可&lt;strong&gt;显著降低&lt;/strong&gt;开发者的模型部署与应用门槛。&lt;/p&gt;&lt;p&gt;随着人工智能领域核心技术及应用需求的快速增长，壁仞科技作为国内领先的通用智能计算解决方案提供商，持续引领国产AI生态建设。截至目前，壁仞科技已成功支持&lt;strong&gt;20余款领先大模型的“Day0”级适配&lt;/strong&gt;。依托高性能通用GPU产品与成熟软件生态，壁仞科技将加强与国产基础模型企业合作，以“国芯国模”协同发展为契机，共建国产AI生态，推动智能终端、AI智能体走向千行百业。&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://www.minimaxi.com/news/m3-day0-biren</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T16:47:28.330880+00:00</crawled>
+    </item>
+    <item>
+      <title>极速适配，生态共赢：昆仑芯高效支持MiniMax M3模型​</title>
+      <link>https://www.minimaxi.com/news/m3-day0-brckt0dnyp</link>
+      <description>&lt;article&gt;&lt;div&gt;&lt;p&gt;6月12日，MiniMax M3模型正式开源。昆仑芯第一时间完成对该模型的适配与调优，成为首批完成适配的国产算力厂商之一，再次彰显其在主流大模型生态中的敏捷响应能力和广泛兼容实力。​&lt;/p&gt;&lt;p&gt;据悉，MiniMax M3采用全新的自研注意力架构MSA（MiniMax Sparse Attention），具备前沿Coding、超长上下文、原生多模态能力，在 Artificial Analysis综合智能指数排行榜上，M3取得了全球开源SOTA的最高成绩。作为原生多模态模型，M3从训练起点便融合文本、图片、视频混合数据，支持图片视频理解及电脑桌面操作，为构建复杂智能体任务提供了坚实基础。​&lt;/p&gt;&lt;p&gt;极速适配落地，验证全栈生态实力​&lt;/p&gt;&lt;p&gt;随着AI大模型向更高参数规模、更强性能表现和更广应用场景持续演进，底层算力的适配能力已成为决定模型落地效率的关键环节。昆仑芯在MiniMax M3模型正式开源当日，率先实现“模型发布即适配”，使用户在模型上线当日即可获得稳定、高效的国产算力支持。实际适配中，昆仑芯展现出强劲的算力支撑与灵活的部署优势，能够稳定支撑海量数据处理，支持多种混合精度计算，为MiniMax M3模型持续调优与规模化部署提供了可靠基础。凭借稳定高效的产品表现，昆仑芯充分验证了自研软件栈在模型快速迁移、性能释放及生态兼容方面的综合实力。这一高效适配的背后，是昆仑芯自研软件栈的长期积累。昆仑芯软件栈完整覆盖从底层驱动、开发工具SDK到专业库等核心组件，贴合开发者实际使用习惯，在保障计算性能充分释放的同时，有效降低开发门槛与模型迁移成本。开发者得以高效完成精度无损、性能稳定的模型部署，显著提升模型开发效率与应用部署体验。 ​&lt;/p&gt;&lt;p&gt;拓展生态边界，"发布即可用"成常态​&lt;/p&gt;&lt;p&gt;近期，国产大模型生态持续演进，技术突破与产业落地节奏显著加快。昆仑芯持续扩大“发布即适配”生态覆盖范围，引领国产AI生态建设。目前，公司已构建起体系化的模型适配机制，能够快速响应主流模型的迭代升级，已实现对MiniMax、智谱GLM、通义千问Qwen等头部厂商最新旗舰模型的快速适配，覆盖语言、多模态、AIGC等方向。凭借成熟开放的软件生态，昆仑芯已将"发布当日即适配"变为常态，让开发者和用户在模型上线当日便能享受国产AI芯片带来的高效加速体验。昆仑芯软件负责人王勇表示：“大模型快速演进对算力平台的适配效率提出了更高要求。我们通过持续优化自研软件栈能力，实现模型发布即适配、上线即可稳定运行，帮助开发者缩短迁移周期、稳定释放性能。此外，我们将持续完善软件生态建设，提升对主流模型架构与算法创新的支持能力，为国产大模型生态发展提供更坚实的算力支撑。” ​&lt;/p&gt;&lt;p&gt;软硬协同驱动，赋能国产模型加速落地​&lt;/p&gt;&lt;p&gt;国产算力的高效适配能力，正成为推动大模型规模化落地的重要支撑。面向未来，昆仑芯将进一步强化对主流模型的高效适配能力，夯实国产AI算力底座。依托软硬协同的深度优化能力，持续聚焦行业应用与场景需求，为千行百业客户及开发者提供高性能、易部署、可规模化的算力支撑，助力AI技术加速落地，推动产业智能化升级与数字化转型迈向新高度。​&lt;/p&gt;&lt;p&gt;​&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://www.minimaxi.com/news/m3-day0-brckt0dnyp</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T16:47:51.053863+00:00</crawled>
+    </item>
+    <item>
+      <title>Day 0支持｜昆仑芯完成MiniMax M2.7模型极速适配</title>
+      <link>https://www.minimaxi.com/news/day-0%E6%94%AF%E6%8C%81%E6%98%86%E4%BB%91%E8%8A%AF%E5%AE%8C%E6%88%90minimax-m27%E6%A8%A1%E5%9E%8B%E6%9E%81%E9%80%9F%E9%80%82%E9%85%8D</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.4.12&lt;/div&gt;&lt;h1&gt;Day 0支持｜昆仑芯完成MiniMax M2.7模型极速适配&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/8fa64778-f57e-4356-8e40-20c3788b2585.png" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F8fa64778-f57e-4356-8e40-20c3788b2585.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;p&gt;今日，MiniMax正式开源 MiniMax M2.7模型。昆仑芯同步完成对该模型的Day 0适配与深度优化，成为首批实现适配的国产算力厂商之一，再次验证其在主流大模型生态中的敏捷响应能力与广泛兼容能力。&lt;/p&gt;
+&lt;h2&gt;发布即适配，软硬协同支撑高效落地&lt;/h2&gt;
+&lt;p&gt;MiniMax M2.7是M2系列的最新一代模型，也是首个深度参与自身迭代的版本。模型具备自主构建复杂Agent Harness与Skills 的能力，可动态更新Memory，并通过强化学习持续优化，实现"模型驱动模型进化"的闭环。在能力表现上，M2.7已覆盖从代码生成、日志排障到端到端项目交付的完整软件工程链路：SWE-Pro基准达到 56.22%，整体表现追平GPT-5.3-Codex；在专业办公场景中，GDPval-AA评分位居行业前列，并在40个复杂 Skills（&amp;gt;2000 Token）任务中保持 97% 的指令遵循率，展现出优异的稳定性与执行能力。&lt;/p&gt;
+&lt;p&gt;在实际适配过程中，昆仑芯依托自研架构，持续提升算子覆盖与生态兼容能力，实现模型性能与算力效率的高效匹配。通过底层算子优化与软硬件协同加速，MiniMax M2.7已在昆仑芯平台上实现高吞吐、低延迟的稳定运行，并在复杂任务与长序列场景下保持优异表现。&lt;/p&gt;
+&lt;p&gt;为充分释放产品性能，昆仑芯构建了面向开发者的全栈软件体系，完整覆盖从底层驱动到开发工具SDK及专业库的完整能力，兼顾高效易用与工程化落地。该软件栈高度兼容主流AI开发生态，在显著降低开发门槛的同时，最大化释放计算性能，帮助客户以更低适配成本和更短部署周期完成模型开发与落地，加速模型从研发到应用的转化。&lt;/p&gt;
+&lt;h2&gt;常态化Day 0响应，昆仑芯夯实国产AI算力底座&lt;/h2&gt;
+&lt;p&gt;近期，国产大模型生态迎来密集升级，技术突破与产业落地节奏持续加快。在此背景下，昆仑芯已完成对多款主流大模型的首发适配，稳步实现"发布即支持"的快速落地能力，推动模型技术迭代与算力底座实现同频演进，充分体现其在软硬协同、生态兼容与工程化落地方面的综合实力。同时，该能力有效降低了模型部署与应用门槛，进一步加快AI应用的规模化拓展。&lt;/p&gt;
+&lt;p&gt;当前，昆仑芯正持续深化模型适配与性能优化能力，全面支持多样化架构与算法创新，不断提升开发与部署效率。面向未来，昆仑芯将进一步强化对主流前沿模型的高效适配能力，依托持续的技术创新与软硬协同优势，不断夯实国产AI算力底座，助力产业智能化升级与数字化转型加速推进。&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
+      <guid isPermaLink="false">https://www.minimaxi.com/news/day-0%E6%94%AF%E6%8C%81%E6%98%86%E4%BB%91%E8%8A%AF%E5%AE%8C%E6%88%90minimax-m27%E6%A8%A1%E5%9E%8B%E6%9E%81%E9%80%9F%E9%80%82%E9%85%8D</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T16:48:08.161927+00:00</crawled>
+    </item>
+    <item>
+      <title>Day-0支持｜摩尔线程率先完成MiniMax M2.7大模型适配</title>
+      <link>https://www.minimaxi.com/news/day-0%E6%94%AF%E6%8C%81%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%E7%8E%87%E5%85%88%E5%AE%8C%E6%88%90minimax-m27%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%80%82%E9%85%8D</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.4.12&lt;/div&gt;&lt;h1&gt;Day-0支持｜摩尔线程率先完成MiniMax M2.7大模型适配&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/cf1c2a2c-2f38-40f5-8e6a-6b1eead75c03.png" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fcf1c2a2c-2f38-40f5-8e6a-6b1eead75c03.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;p&gt;4月12日，摩尔线程其旗舰级AI训推一体全功能GPU MTT S5000已率先完成对MiniMax新一代大模型MiniMax M2.7的Day-0极速适配，再次验证了国产全功能GPU对前沿AI大模型的快速响应与稳定支撑能力。&lt;/p&gt;
+&lt;!-- &lt;p style="margin: 0 0 12px 0; text-align: justify;"&gt;图示：MiniMax M2.7在MTT S5000运行&lt;/p&gt; --&gt;
+&lt;p&gt;MiniMax M2.7是业界首个具备深度自我进化能力的大模型，能够自主构建Agent Harness，通过Agent Teams协作、复杂Skills调用及Tool Search Tool等能力完成复杂生产力任务，甚至深度参与自身迭代。在软件工程领域，M2.7支持端到端完整项目交付、日志分析排障、代码安全审查及机器学习任务；在专业办公场景，其Excel/PPT/Word高保真编辑与多轮修改能力显著提升，即使在超长上下文复杂任务中仍保持稳定的高水平skills遵循率。与此同时，该模型对长上下文处理、复杂Agent任务调度及高保真编辑等场景提出了极高的计算效率要求。&lt;/p&gt;
+&lt;img src="https://filecdn.minimax.chat/platform_web/offical-news/摩尔线程_Day0_MiniMax_M27/image_01.jpeg"/&gt;
+&lt;p&gt;针对上述挑战，摩尔线程技术团队基于MUSA架构完成深度调优，成功在MTT S5000上实现M2.7高性能推理，核心技术优势包括：&lt;/p&gt;
+&lt;p&gt;· &lt;span&gt;超长上下文与高吞吐保障：&lt;/span&gt;依托MTT S5000的80GB大容量显存、1.6TB/s高带宽及PD分离架构，配合高效KV Cache管理，支撑MiniMax M2.7长时间、多步骤任务的稳定执行。&lt;/p&gt;
+&lt;p&gt;· &lt;span&gt;全精度端到端支持：&lt;/span&gt;MTT S5000原生支持FP8至FP64全精度计算，满足代码生成、金融建模等场景对混合精度及高精度计算的要求，确保决策精准可靠。&lt;/p&gt;
+&lt;p&gt;· &lt;span&gt;高算力低延迟推理：&lt;/span&gt;MTT S5000单卡可提供1000 TFLOPS稠密算力，结合vLLM-MUSA定制化调优，实现复杂Agent Harness与高频工具调用场景下的低延迟响应。&lt;/p&gt;
+&lt;p&gt;· &lt;span&gt;强大生态兼容性：&lt;/span&gt;深度兼容PyTorch、vLLM、SGLang、Triton等主流生态，通过MUSA C++、Triton-MUSA、TileLang-MUSA等抽象层实现新算子"零成本迁移"，确保前沿模型发布当日完成极速适配。&lt;/p&gt;
+&lt;p&gt;此次 Day-0 适配是摩尔线程常态化技术响应能力的再次体现。依托 MUSA 架构对主流AI生态的深度兼容与持续演进，国产全功能GPU算力底座已形成覆盖前沿模型"Day-0适配—高效部署"的全链路支撑体系，帮助开发者以更快响应、更稳运行、更低迁移成本第一时间接入最新模型能力，加速大模型创新落地与规模化应用。&lt;/p&gt;
+&lt;p&gt;开发者可下载镜像进行开箱体验：&lt;/p&gt;
+&lt;p&gt;registry.mthreads.com/presale/devtech/vllm_musa:MiniMax-M2.7&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;span&gt;关于摩尔线程&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;摩尔线程以全功能GPU为核心，致力于向全球提供加速计算的基础设施和一站式解决方案，为各行各业的数智化转型提供强大的AI计算支持。我们的目标是成为具备国际竞争力的GPU领军企业，为融合人工智能和数字孪生的数智世界打造先进的加速计算平台。我们的愿景是为美好世界加速。&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
+      <guid isPermaLink="false">https://www.minimaxi.com/news/day-0%E6%94%AF%E6%8C%81%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%E7%8E%87%E5%85%88%E5%AE%8C%E6%88%90minimax-m27%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%80%82%E9%85%8D</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T16:48:27.409521+00:00</crawled>
+    </item>
+    <item>
+      <title>MiniMax Music 2.6：我们想讲四个人的故事</title>
+      <link>https://minimaxi.com/news/music-26</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026-04-10&lt;/div&gt;&lt;h1&gt;MiniMax Music 2.6：我们想讲四个人的故事&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/ba44b483-c46c-4611-8942-470f77750af5.png" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fba44b483-c46c-4611-8942-470f77750af5.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;p&gt;今天我们发布 MiniMax Music 2.6。&lt;/p&gt;
+&lt;p&gt;过去几代，我们都在讲模型本身变强了多少。这一次我们想换一种讲法——讲四个人、四段音乐、四件过去做不到的事。因为一个音乐模型的升级，最终不是活在参数表里的，是活在"这一次有人用它做成了一件以前做不成的事"里。&lt;/p&gt;
+&lt;h2&gt;她在做一段需要呼吸的国风&lt;/h2&gt;
+&lt;p&gt;@萧蓠苒苒 是一个做了三年国风短视频的独立创作者，一直在找能用的国风音乐素材。&lt;/p&gt;
+&lt;p&gt;国风里最有辨识度的部分，恰恰是 AI 音乐最做不好的部分。&lt;/p&gt;
+&lt;p&gt;二胡的揉弦、笛子的气口、古筝的扫弦、戏腔的收放——这些不是乐器种类的问题，是演奏细节的问题。过去的 AI 音乐能识别"国风"这个标签，但做出来的东西像一套国风音色包被机械地拼在一起，该有呼吸的地方没有呼吸，该有气口的地方没有气口。&lt;/p&gt;
+&lt;p&gt;Music 2.6 在器乐上不止支持更多乐器，也让乐器之间&lt;span&gt;有了横向的时序演进&lt;/span&gt;。开场可以只有鼓的留白、弦乐和弹拨乐器一层一层进来，旋律和人声最后一起推到顶点。先铺氛围，再入旋律，这是古戏里"仓才仓才"锣鼓开场的章法，也是 AI 音乐开始真正懂国风的进场顺序。&lt;/p&gt;
+&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-1.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
+&lt;p&gt;她现在可以做的事：一条国风短视频的 BGM，从"找现成的、版权模糊的素材"，变成"15 分钟写一段完全符合画面情绪的原创配乐"。&lt;/p&gt;
+&lt;h2&gt;他在给独立游戏配 boss 战&lt;/h2&gt;
+&lt;p&gt;@本命彦祖 的问题是，他在做一款单人开发的动作游戏，预算里没有配乐工作室这一项。&lt;/p&gt;
+&lt;p&gt;过去他有两个选择。一是花几千块买一套 sample library，但 sample library 里的"史诗战斗音乐"就那么几首，买回来的第一天他就知道玩家会听到重复。二是用 AI 音乐生成，但过去的 AI 音乐做史诗感做不到——鼓点是"响"但不是"重"，低频是糊的，推不动 boss 战该有的情绪压迫感。&lt;/p&gt;
+&lt;p&gt;Music 2.6 这一代对中低频做了专门的优化。贝斯和鼓点在下潜深度和咬合紧密度上有了明显提升——具体落到听感上就是：在带低音的耳机里、在车载音响里、在玩家的游戏音响里，鼓和贝斯不会糊成一片，它们能真的推着画面走。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;配合 2.6 对段落结构的理解力提升，他可以在 prompt 里明确写："开局渲染压抑氛围，逐渐过渡到力量觉醒，再到爆发与无敌的姿态"——模型能真的按这个结构来。&lt;/span&gt;&lt;/p&gt;
+&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-2.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
+&lt;p&gt;他现在可以做的事：给一款独立游戏做一整套 boss 战配乐，成本从几千块降到一个下午。&lt;/p&gt;
+&lt;h2&gt;她在挑一份能放在咖啡厅里四小时的独家歌单&lt;/h2&gt;
+&lt;p&gt;@南方易小姐 是一家精品咖啡店的主理人，每天下午 2 点到 6 点的时段需要一份歌单，但她一直挑不到合适的。&lt;/p&gt;
+&lt;p&gt;播放器的咖啡馆歌单要么太有"背景音乐感"——流畅到没有存在感，放了等于没放；要么太有"表演感"——萨克斯 solo 张扬到抢走客人的对话。而咖啡馆需要的音乐有一个反直觉的标准：它必须足够好听到能被注意，又足够克制到不会被讨厌。这个"刚好"的分寸，过去的 AI 音乐几乎做不到。&lt;/p&gt;
+&lt;p&gt;Music 2.6 的人声和旋律处理有一个微妙但重要的变化：它允许"不精准"。在合适的风格区间里（lo-fi、indie folk、独立爵士），这种不精准变成了律动的呼吸感。&lt;/p&gt;
+&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-3.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
+&lt;p&gt;在她创作的《荒野赛跑》中，人声带着一种深夜独处时的随性与倔强，像另一个自我在唱一首写给自己的歌。低频的 Bass 和鼓点与中频的人声能量几乎完全对等，高频被刻意压制在暖厚暗调里。放进咖啡馆里，不会让任何人觉得烦，但偶尔会让某个客人停下来，问一句"这首歌是谁唱的"。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;她现在可以做的事：不再在歌单里挑来挑去，直接告诉 2.6 她想要的情绪和氛围——"深夜感、都市、微醺、不要太亮"&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;她是一个想给妈妈做生日惊喜的女儿&lt;/h2&gt;
+&lt;p&gt;@NYX 是四个人里，以前最做不成自己那件事的一个。&lt;/p&gt;
+&lt;p&gt;她不会编曲，不认识音乐人，预算也有限。她想做的事很简单——妈妈年轻时最喜欢的那首歌，她想用自己的风格重新做一版，作为妈妈生日那天的惊喜。&lt;/p&gt;
+&lt;p&gt;这件事过去没法做。不是因为 AI 音乐生成不了音乐，是因为她要的不是"一首新歌"——她要的是"&lt;span&gt;那首歌&lt;/span&gt;的另一种样子"。旋律必须是妈妈认得出的那条旋律，改的是风格、编曲、氛围。这是一个需要把一首已经存在的歌作为精确约束的任务。&lt;/p&gt;
+&lt;p&gt;这是 Music 2.6 的新功能：&lt;span&gt;Cover&lt;/span&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;你上传一首歌，模型会精准提取它的旋律骨架，然后让你决定骨架之外的一切——风格可以从民谣跳到重金属，编曲可以从古典交响变成赛博朋克电子，甚至可以保留旋律、完全换掉歌词。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;《友谊地久天长》原曲：&lt;/p&gt;
+&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-4.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
+&lt;p&gt;Cover 版本：&lt;/p&gt;
+&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-5.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
+&lt;p&gt;她现在可以做的事：在生日前一个晚上，花半小时，做出一份过去需要整个编曲团队才能做出的礼物。&lt;/p&gt;
+&lt;h2&gt;这四个人，和剩下的那些人&lt;/h2&gt;
+&lt;p&gt;以上是四个人的故事。但 Music 2.6 的升级不止覆盖这四个人——&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;首包延迟降到 20 秒以内&lt;/span&gt;。当你写完 prompt，短暂的一个深呼吸之后就能听到第一段反馈。过去的"等待感"基本消失。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;指令控制全面增强&lt;/span&gt;。BPM、Key、段落结构、情绪走向都可以写在 prompt 里被模型准确执行。你写下的具体要求，模型会认真执行。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;中低频声学表现系统性优化&lt;/span&gt;。除了前面提到的游戏配乐场景，任何对低频有要求的风格——House、Trap、Drum &amp;amp; Bass——都会直接受益。&lt;/p&gt;
+&lt;p&gt;这些能力在上面四个故事里都有出场，但它们的适用范围比那四个故事宽得多。&lt;/p&gt;
+&lt;h2&gt;还有一种用法：让 Agent 替你用它&lt;/h2&gt;
+&lt;p&gt;上面四个人都是直接和 Music 2.6 打交道。但如果你是一个 AI Agent 开发者，你可能想的不是自己用它做一首歌，而是让我的 Agent 能用它做一首歌。&lt;/p&gt;
+&lt;p&gt;这是我们这次同步开源的三个 Music Skill 要解决的事：&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;• &lt;span&gt;minimax-music-gen&lt;/span&gt;：让 Agent 具备完整的音乐生成能力。一句话描述需求，Agent 自动识别意图、选择模式（原创/纯音乐/Cover）、调用生成接口。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;• &lt;span&gt;minimax-music-playlist&lt;/span&gt;：让 Agent 成为你的音乐主理人。它会了解你的听歌喜好，构建品味画像，然后为你生成整份定制歌单。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;• &lt;span&gt;buddy-sings&lt;/span&gt;：让你的虚拟伙伴开口唱歌。联动 OpenClaw，Agent 会读取你定义的角色人格，构建专属的声音身份，以角色第一人称为你即兴创作。去试试看，让一直陪伴你工作的 Moth 唱一首歌吧 ~&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2&gt;现在就试&lt;/h2&gt;
+&lt;p&gt;这四个人的故事，本来都不是 Music 2.6 写的剧本。是他们自己想做的事，我们只是用 AI 做到了能让他们做成的程度。&lt;/p&gt;
+&lt;p&gt;即日起，MiniMax Music 2.6 全球创作内测开启，14 天限免，邀你来创作。&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;• C 端产品用户：每个账号每日 500 首免费创作额度&lt;/p&gt;
+&lt;p&gt;• 开发者：现有 Token Plan 用户额外获赠 100 首/天的免费调用额度&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;每一段音乐背后，都是一个在 AI 时代第一次成为音乐创作者的人。&lt;/p&gt;
+&lt;p&gt;你那件想做的事，是什么？&lt;/p&gt;
+&lt;p&gt;C 端产品体验：&lt;a href="https://minimaxi.com/audio/music"&gt;minimaxi.com/audio/music&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;API 接口：&lt;a href="https://platform.minimaxi.com/docs/api-reference/music-generation"&gt;platform.minimaxi.com/docs/api-reference/music-generation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Intelligence with Everyone.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
+      <guid isPermaLink="false">https://minimaxi.com/news/music-26</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T16:49:12.497953+00:00</crawled>
+    </item>
+    <item>
+      <title>沐曦股份曦云C系列GPU Day 0适配MiniMax M2.7  澎湃算力支持自进化大模型</title>
+      <link>https://www.minimaxi.com/news/%E6%B2%90%E6%9B%A6%E8%82%A1%E4%BB%BD%E6%9B%A6%E4%BA%91c%E7%B3%BB%E5%88%97gpu-day-0%E9%80%82%E9%85%8Dminimax-m27-%E6%BE%8E%E6%B9%83%E7%AE%97%E5%8A%9B%E6%94%AF%E6%8C%81%E8%87%AA%E8%BF%9B%E5%8C%96%E5%A4%A7%E6%A8%A1%E5%9E%8B</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.4.12&lt;/div&gt;&lt;h1&gt;沐曦股份曦云C系列GPU Day 0适配MiniMax M2.7  澎湃算力支持自进化大模型&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/0c9e2c27-4890-4e6b-a8cb-6a68ad3b21cc.png" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F0c9e2c27-4890-4e6b-a8cb-6a68ad3b21cc.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;p&gt;4月12日，MiniMax新一代Agent旗舰大模型M2.7开源。沐曦股份曦云C系列GPU已完成对M2.7的Day 0深度适配，将为M2.7提供澎湃算力支持。&lt;/p&gt;
+&lt;p&gt;此次Day 0适配，标志着沐曦股份与MiniMax在"国产算力+国产大模型"协同发展道路上更进一步。双方形成的"模型发布—芯片适配—产业落地"高效闭环，为关键领域国产化替代提供了坚实支撑。&lt;/p&gt;
+&lt;p&gt;依托沐曦股份"自研GPU硬件+MXMACA全栈软件"的软硬一体核心优势，公司得以快速响应大模型迭代节奏，高效完成各类主流模型的适配工作。近一段时间以来，沐曦股份已累计完成Day 0适配模型超15个，全面覆盖智谱、通义千问、阶跃星辰、百度飞桨等头部厂商的最新旗舰模型，涵盖语言、多模态、OCR等全品类，在国产GPU Day 0适配赛道持续保持行业领先地位，以全栈技术实力为大模型快速落地筑牢算力支撑。&lt;/p&gt;
+&lt;h2&gt;MiniMax M2.7: 开启模型的自我进化&lt;/h2&gt;
+&lt;p&gt;MiniMax M2.7是MiniMax第一个深度参与自我迭代的模型。&lt;/p&gt;
+&lt;p&gt;M2.7能够自行构建复杂Agent Harness，并基于Agent Teams、复杂Skills、Tool Search Tool等能力，完成高度复杂的生产力任务。在研发M2.7的过程中，MiniMax基于模型构建强化学习Harness中的数十个复杂的skills，更新自己的memory，驱动模型自身的强化学习，并基于结果优化强化学习过程和Harness，开启模型的自我进化。&lt;/p&gt;
+&lt;p&gt;以一个RL场景为例：研究员从一个实验想法出发，与Agent展开讨论。Agent协助进行文献调研，持续跟踪预设的实验规格，完成数据流水线及其他对接工作，并启动实验。实验运行期间，它会自动监控和分析实验状态，并自动触发日志读取、问题排查、指标分析、代码修复、合并请求以及冒烟测试。这些工作过去可能需要来自不同团队的多位同事协作完成，而现在研究员只需在关键决策和讨论时介入。在这个场景下，M2.7能够胜任30%至50%的工作流。&lt;/p&gt;
+&lt;p&gt;"自进化"模型的诞生，对底层算力提出了更高要求。&lt;span&gt;曦云C系列GPU凭借沐曦全栈自研的MXMACA软件栈，在M2.7开源当日即完成深度适配，实现"模型发布即算力就绪"的Day 0体验。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;MiniMax M2.7在多个核心领域展现出卓越性能。&lt;/p&gt;
+&lt;h3&gt;软件工程能力&lt;/h3&gt;
+&lt;p&gt;在基准测试SWE-Pro中，M2.7以56.22%的正确率追平GPT-5.3-Codex。在涵盖多种编程语言的SWE Multilingual（76.5）和Multi SWE Bench（52.7）中展现出更显著优势。在端到端的完整项目交付场景（VIBE-Pro）上，M2.7得分55.6%，几乎与Opus 4.6持平。在对复杂工程系统的深层理解方面，Terminal Bench 2（57.0%）和NL2Repo（39.8%）表现稳健。&lt;/p&gt;
+&lt;h3&gt;专业办公能力&lt;/h3&gt;
+&lt;p&gt;在GDPval-AA的评测中，M2.7在45个模型中的ELO得分是1500，仅次于Opus 4.6、Sonnet 4.6和GPT5.4，超过了GPT5.3。M2.7对Office三件套Excel/PPT/Word的复杂编辑能力显著提升，能更好地完成多轮修改和高保真编辑。M2.7在40个复杂skills（&amp;gt; 2000 Token）的case上，仍能保持97%的skills遵循率。在Toolathon上，M2.7的正确率46.3%，达到了全球第一梯队水平。&lt;/p&gt;
+&lt;h3&gt;多智能体协作&lt;/h3&gt;
+&lt;p&gt;M2.7原生支持Agent Teams（多智能体协作）。Agent Teams对模型提出了范式级要求：角色边界、对抗性推理、协议遵循、行为分化——这些无法通过提示词，必须内化为模型的原生能力。&lt;/p&gt;
+&lt;h3&gt;技术架构&lt;/h3&gt;
+&lt;p&gt;M2.7采用2300亿参数MoE架构，在 MLE Bench Lite 的 22 项机器学习任务竞赛中，一举拿下 9 枚金牌。三次测试平均是 66.6% 的得牌率，此成绩仅次于 Opus-4.6 (75.7%)、GPT-5.4(71.2%)，和 Gemini-3.1(66.6%) 持平。&lt;/p&gt;
+&lt;h2&gt;沐曦股份全栈技术支撑模型高效适配&lt;/h2&gt;
+&lt;p&gt;此次高效适配的背后，是沐曦股份在软硬件协同方面的长期深耕。&lt;/p&gt;
+&lt;p&gt;沐曦股份GPU产品基于自主核心GPU IP打造，兼具高能效比与高通用性，已规模化部署10余个智算集群，覆盖国家人工智能公共算力平台、运营商智算平台和商业化智算中心。&lt;/p&gt;
+&lt;p&gt;目前，MXMACA软件栈不仅深度兼容主流GPU生态，还支持40多种AI框架，覆盖训练、推理、科学计算全场景，可大幅降低开发者的生态迁移成本。同时可支持500多款AI模型、4500多个开源项目软件兼容测试，覆盖95%的主流AI场景。&lt;/p&gt;
+&lt;p&gt;MXMACA软件栈于2025年2月正式开源。截至2026年3月，注册的开发者用户已突破30万人，API调用次数超过5591万次，文件下载量超过16万次。沐曦股份是国内少数提供核心软件生态开源、版本SDK公开下载渠道及英文开发文档的GPU企业，开源社区已覆盖超过半数的C9高校。&lt;/p&gt;
+&lt;p&gt;沐曦股份将持续深耕全栈技术研发，强化软硬协同与生态共建，以开放兼容的软件生态和强劲高效的硬件底座，为国产AI的高质量发展提供源源不断的算力动能。&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;span&gt;MiniMax M2.7 已在 MiniMax Agent 与开放平台上全量上线，访问链接如下：&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;· MiniMax Agent：agent.minimaxi.com&lt;/p&gt;
+&lt;p&gt;· API服务：platform.minimaxi.com&lt;/p&gt;
+&lt;p&gt;· Coding Plan订阅：platform.minimaxi.com/subscribe/coding-plan&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;欢迎前往沐曦开发者社区获取推理镜像(vLLM&amp;gt;=0.13.0)：&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developer.metax-tech.com/"&gt;https://developer.metax-tech.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
+      <guid isPermaLink="false">https://www.minimaxi.com/news/%E6%B2%90%E6%9B%A6%E8%82%A1%E4%BB%BD%E6%9B%A6%E4%BA%91c%E7%B3%BB%E5%88%97gpu-day-0%E9%80%82%E9%85%8Dminimax-m27-%E6%BE%8E%E6%B9%83%E7%AE%97%E5%8A%9B%E6%94%AF%E6%8C%81%E8%87%AA%E8%BF%9B%E5%8C%96%E5%A4%A7%E6%A8%A1%E5%9E%8B</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T16:48:21.054888+00:00</crawled>
+    </item>
+    <item>
+      <title>昇腾0Day支持MiniMaxM2.7，共同开启模型自我进化新范式</title>
+      <link>https://www.minimaxi.com/news/%E6%98%87%E8%85%BE0day%E6%94%AF%E6%8C%81minimaxm27%E5%85%B1%E5%90%8C%E5%BC%80%E5%90%AF%E6%A8%A1%E5%9E%8B%E8%87%AA%E6%88%91%E8%BF%9B%E5%8C%96%E6%96%B0%E8%8C%83%E5%BC%8F</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.4.12&lt;/div&gt;&lt;h1&gt;昇腾0Day支持MiniMaxM2.7，共同开启模型自我进化新范式&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/c600d3eb-54ec-4180-9005-9edf9809962e.png" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fc600d3eb-54ec-4180-9005-9edf9809962e.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;p&gt;2026年4月12日，MiniMax正式开源其第一个自我深度迭代的模型MiniMax M2.7。昇腾一直同步支持MiniMax M2系列模型，此次M2.7模型一经开源发布，昇腾AI基础软硬件即实现0day适配，可基于vllm-Ascend推理引擎在Atlas 800 A3、Atlas 800I A2系列产品上为该模型的推理部署提供全流程支持。&lt;/p&gt;
+&lt;p&gt;MiniMax M2.7能够自行构建复杂Agent Harness，并基于Agent Teams、复杂 Skills、Tool Search Tool等能力，完成高度复杂的生产力任务。在研发过程中，MiniMax基于模型构建强化学习Harness中的数十个复杂的skills，更新自己的memory，驱动模型自身的强化学习，并基于结果优化强化学习过程和Harness，开启模型的自我进化。&lt;/p&gt;
+&lt;p&gt;昇腾持续加速算子和基础软硬件创新，匹配MiniMax M2.7模型创新的FlashComm序列切分，AllReduce换成ReduceScatter和AllGather通信加速；深度优化的Transformer Attention前序全链路融合算子和MoE大融合算子，彻底消除中间张量读写和多算子调度开销；同时在多DP并发场景下，自适应DP域负载均衡，大幅降低prefill对decode的抢断，显著提升重载忙时的吞吐性能，让广大用户和开发者畅享MiniMax M2.7新体验。&lt;/p&gt;
+&lt;p&gt;体验链接: &lt;span&gt;https://docs.vllm.ai/projects/ascend/en/v0.18.0/tutorials/models/index.html&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;代码仓：&lt;span&gt;https://github.com/vllm-project/vllm-ascend/tree/releases/v0.18.0&lt;/span&gt;&lt;/p&gt;
+&lt;img src="https://filecdn.minimax.chat/public/ef5ff1f3-f19e-46fb-ab16-c3f2984de80d.png"/&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;span&gt;构建模型自我进化智能体：&lt;/span&gt;MiniMax团队在开发过程中，研究员将M2的早期版本引导为一个研究型Agent Harness来参与下一代模型的迭代循环，它能够与不同的研究项目组进行交互和协作，研究员在每一层引导方向，模型在每一层负责构建，研究员只需在关键决策和讨论时介入。通过Agent驱动，大幅加速了问题发现和实验迭代，从而更快地交付模型。部分RL场景下，M2.7能够胜任30-50%的工作流。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;软件工程领域：&lt;/span&gt;M2.7更深入地打磨了真实软件工程所需的编程能力，覆盖日志分析与 Bug 定位、代码重构、代码安全、机器学习、安卓开发等方向。在涵盖多种编程语言的基准测试SWE-Pro中M2.7以56.22% 的正确率追平GPT-5.3-Codex；而在更贴近真实工程场景的SWE Multilingual（76.5）和 Multi SWE Bench（52.7）中展现出更显著优势。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;专业办公领域：&lt;/span&gt;M2.7模型提升了专业知识和任务交付能力，在GDPval-AA的得分为开源最高；并且具备与复杂环境交互的能力，在40个复杂skills (&amp;gt;2000 Token) 的case上，仍能保持97%的skills遵循率。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;互动娱乐领域：&lt;/span&gt;M2.7构建了一个Agent交互系统OpenRoom，它将AI互动置入一个万物皆可互动的Web GUI空间，极大加强了人设保持和对话能力，并且能够随着模型Agentic能力的提升和社区共建持续进化。&lt;/p&gt;
+&lt;img src="https://filecdn.minimax.chat/public/081ef384-36c8-4e47-aa78-874903fd8f15.png"/&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
+      <guid isPermaLink="false">https://www.minimaxi.com/news/%E6%98%87%E8%85%BE0day%E6%94%AF%E6%8C%81minimaxm27%E5%85%B1%E5%90%8C%E5%BC%80%E5%90%AF%E6%A8%A1%E5%9E%8B%E8%87%AA%E6%88%91%E8%BF%9B%E5%8C%96%E6%96%B0%E8%8C%83%E5%BC%8F</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T16:48:02.503170+00:00</crawled>
     </item>
     <item>
       <title>MiniMax M2.5: 更快更强更智能，为真实世界生产力而生</title>
@@ -94,6 +268,71 @@ MiniMax 内部已率先受益于 M2.5 的模型能力。&lt;strong&gt;在 MiniMa
       <guid isPermaLink="false">https://minimaxi.com/news/minimax-m25</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-07T16:48:41.125597+00:00</crawled>
+    </item>
+    <item>
+      <title>MiniMax M2.7: 开启模型的自我进化</title>
+      <link>https://minimaxi.com/news/minimax-m27-zh</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026-03-18&lt;/div&gt;&lt;h1&gt;MiniMax M2.7: 开启模型的自我进化&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/7a85723c-acc3-4eb8-a3a8-f53713d0822e.png" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F7a85723c-acc3-4eb8-a3a8-f53713d0822e.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;p&gt;在 M2 系列模型发布后的几个月，我们收到了大量热心用户的反馈和建议，这促使我们进一步加速模型的迭代效率。除了更加认真工作之外，我们能找到的唯一途径就是&lt;span&gt;开启模型和组织的自我进化。MiniMax M2.7是我们第一个模型深度参与迭代自己的模型。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;M2.7 能够自行构建复杂 Agent Harness，并基于 Agent Teams、复杂 Skills、Tool Search Tool 等能力，完成高度复杂的生产力任务。例如，在研发M2.7的过程中，我们基于模型构建强化学习Harness 中的数十个复杂的 skills，更新自己的 memory，驱动模型自身的强化学习，并基于结果优化强化学习过程和Harness，开启模型的自我进化。&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;1. M2.7 在真实的软件工程中有优异的表现，包括端到端的完整项目交付，分析日志排查 Bug、代码安全，机器学习等。在基准测试 SWE-Pro 中，M2.7 得分56.22%，几乎接近Opus最好的水平。这一能力同样延伸到了端到端的完整项目交付场景（VIBE-Pro 55.6%）以及对复杂工程系统的深层理解Terminal Bench 2（57.0%）。&lt;/p&gt;
+&lt;p&gt;2. 在专业办公领域，我们提升了模型在各领域的专业知识和任务交付能力，在 GDPval-AA 的ELO得分是1495，为开源最高。M2.7 对 Office 三件套 Excel/PPT/Word 的复杂编辑能力显著提升，能更好地完成多轮修改和高保真的编辑。M2.7具备与复杂环境交互的能力，M2.7 在 40 个复杂 skills (&amp;gt; 2000 Token) 的 case 上，仍能保持 97% 的 skills 遵循率。在OpenClaw的使用中，M2.7相比于M2.5也有了显著的提升，在MMClaw的评测中接近最新的Sonnet 4.6。&lt;/p&gt;
+&lt;p&gt;3. M2.7具备优秀的身份保持能力和情商，除了生产力使用外，给互动娱乐场景的创新也准备了空间。&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;基于上述能力，M2.7 也在显著加速我们自身向一个 AI Native 组织的进化。&lt;/p&gt;
+&lt;img alt="MiniMax M2.7 基准测试对比" src="https://filecdn.minimax.chat/public/4f5db695-e248-481a-9081-311b35ba5a87.jpg"/&gt;
+&lt;h2&gt;构建模型自我进化智能体&lt;/h2&gt;
+&lt;p&gt;在最开始，我们分享一个我们内部让M2系列模型自我进化的实践，这也是对模型Agent能力边界的探索。&lt;/p&gt;
+&lt;p&gt;Agent Harness通常依赖复杂的Skills、记忆系统和其他组件来提升模型对不同工作环境的适应能力。在此基础上，我们在 M2 的早期版本中，将其引导为一个研究型 Agent Harness——它能够与不同的研究项目组进行交互和协作。该系统覆盖了数据流水线、训练环境、评测基础设施、跨团队协作、持久化记忆——让研究员可以驱动它来交付更好的模型。研究 Agent 驱动着产出下一代模型的迭代循环。研究员在每一层引导方向，模型在每一层负责构建。&lt;/p&gt;
+&lt;p&gt;以一个 RL 场景为例：研究员从一个实验想法出发，与 Agent 展开讨论。Agent 协助进行文献调研，持续跟踪预设的实验规格，完成数据流水线及其他对接工作，并启动实验。实验运行期间，它会自动监控和分析实验状态，并自动触发日志读取、问题排查、指标分析、代码修复、合并请求以及冒烟测试，识别并配置那些细微但关键的变更。这些工作过去可能需要来自不同团队的多位同事协作完成，而现在研究员只需在关键决策和讨论时介入。这大幅加速了问题发现和实验迭代，从而更快地交付模型。在这个场景下，M2.7 能够胜任 30-50% 的工作流。&lt;/p&gt;
+&lt;img alt="M2* 模型迭代系统架构" src="https://filecdn.minimax.chat/public/d080353d-31aa-4642-8586-3b7f2201bf94.png"/&gt;
+&lt;p&gt;我们在迭代过程中也意识到，模型自主迭代 harness 的能力也至关重要。我们内部的 harness 会自主收集反馈，建立内部任务的评测集，并基于此不断迭代自己的 Agent架构、Skills/MCP 实现和记忆机制，来更好和更高效的完成任务。&lt;/p&gt;
+&lt;p&gt;举个例子，我们让 M2.7 优化一个内部脚手架上模型的软件工程开发表现。M2.7 全程自主运行，执行"分析失败轨迹 → 规划改动 → 修改脚手架代码 → 运行评测 → 对比结果 → 决定保留或回退"的迭代循环超过 100 轮。这个过程中 M2.7 发现了针对模型的有效优化：系统性搜索温度、频率惩罚、存在惩罚等采样参数的最优组合；为模型设计更具体的工作流指引（如修复后自动搜索其他文件中的相同 bug 模式）；在脚手架的Agent Loop中添加循环检测等优化。最终在内部评测集上效果提升 30%。&lt;/p&gt;
+&lt;p&gt;我们相信，未来的 AI 自我进化会逐步向完全自动化过渡，包括完全自主的协调数据构建、模型训练、推理架构、评测等等。我们用 M2.7 参与了MLE Bench Lite的22 个机器学习任务测试，几乎囊括了研发的所有环节。&lt;/p&gt;
+&lt;p&gt;我们设计和实现了一个简易的脚手架来引导 Agent 进行自主优化，核心的模块包括短时记忆、自反馈以及自优化三个模块。具体来讲，Agent 完成每轮迭代后会形成一个短时记忆文件，同时对当前轮次的结果进行自反馈，从而给下一轮次提供潜在的优化方向，下一轮次基于所有历史轮次的记忆及自反馈链进行下一步的自优化。我们总共测试三次，每次有 24 小时来迭代进化，从下图中能够看到 M2.7 随时间不断取得更高的性能。最好的一次取得 9 枚金牌，5 枚银牌，1枚铜牌。三次平均是 66.6% 的得牌率，此成绩仅次于Opus-4.6 (75.7%)、GPT-5.4 (71.2%)，和 Gemini-3.1 (66.6%) 持平。&lt;/p&gt;
+&lt;img alt="MLE Bench 得牌率随时间变化" src="https://filecdn.minimax.chat/public/61f43a5f-f359-4194-8245-6484b08c4a3e.png"/&gt;
+&lt;h2&gt;真实的软件工程&lt;/h2&gt;
+&lt;p&gt;在编程等代码生成类任务上，M2.7 更深入地打磨了真实软件工程所需的编程能力，覆盖日志分析与 Bug 定位、代码重构、代码安全、机器学习、安卓开发等方向。&lt;/p&gt;
+&lt;p&gt;以线上最常见的线上生产环境故障调试为例——这类任务不仅需要生成代码，还需要很强的综合推理能力。面对我们实际的生产环境告警，M2.7 能关联监控指标与部署时间线做因果推理，对轨迹采样做统计分析并提出精准假设，主动连接数据库执行验证根因，定位到代码仓库中缺失的索引迁移文件，甚至知道用非阻塞建索引先止血，再提 MR。从可观测性分析、数据库专业知识到 SRE 级别的决策判断——这不只是一个会写代码的模型，而是一个真正理解生产系统的模型。相比传统的人工排障流程，基于 M2.7，我们已多次将线上生产系统故障的恢复时间缩短到三分钟以内。&lt;/p&gt;
+&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/163bd51d-7793-469c-a497-8ad21df3da33.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
+&lt;p&gt;【线上生产环境故障调试】&lt;/p&gt;
+&lt;p&gt;在单项编程能力上，M2.7 已具备国际一线模型水准。 在涵盖多种编程语言的 SWE-Pro 中，M2.7 以 56.22% 的正确率追平 GPT-5.3-Codex；而在更贴近真实工程场景的 SWE Multilingual（76.5）和 Multi SWE Bench（52.7）中展现出更显著优势。&lt;/p&gt;
+&lt;p&gt;这一能力同样延伸到了端到端的完整项目交付场景。 在 Repo 级代码生成基准 VIBE-Pro 上，M2.7 得分55.6%，几乎与 Opus 4.6持平 —— 这意味着无论是 Web、Android、iOS 还是 Simulation 类需求，都可以直接交给 M2.7 完成。&lt;/p&gt;
+&lt;p&gt;更值得关注的，是对复杂工程系统的深层理解。 在对系统认知要求极高的 Terminal Bench 2（57.0%）和 NL2Repo（39.8%）中，M2.7 同样表现稳健，进一步印证了它不只擅长代码生成，更能深入理解软件系统的运行逻辑与协作流程。&lt;/p&gt;
+&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/misc/screen-recording-20260316-med.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
+&lt;p&gt;【基于M2.7生成的WildGuard演示网页】&lt;/p&gt;
+&lt;p&gt;为了提升开发效率，一个比较重要的特性是原生的 Agent Teams （多智能体协作）。Agent Teams 对模型提出了范式级要求：角色边界、对抗性推理、协议遵循、行为分化——这些无法通过提示词，必须内化为模型的原生能力。Agent Teams 场景下，模型需要稳定锚定角色身份、主动挑战队友的逻辑与伦理盲区、在复杂状态机中自主决策。下面是我们内部使用的一个做产品原型开发的 Agent Teams，里面包含了做产品原型的一个最小组织。&lt;/p&gt;
+&lt;img alt="Agent Teams 协作模拟演示" src="https://filecdn.minimax.chat/public/dd83d19a-156b-481f-9835-9576293c323a.gif"/&gt;
+&lt;p&gt;【Agent Teams 协作模拟演示】&lt;/p&gt;
+&lt;h2&gt;专业办公&lt;/h2&gt;
+&lt;p&gt;除了软件工程外，Agent开始在办公场景中变得越来越有用，我们认为这是两个核心能力：&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;1. &lt;span&gt;专业知识与任务交付能力。&lt;/span&gt; 模型需要具备各领域的专业知识，理解用户的需求。在衡量这一能力的 GDPval-AA 的评测中，M2.7 在45个模型中的ELO得分是1500，仅次于Opus 4.6、Sonnet 4.6和GPT5.4，超过了GPT5.3。在最常见的办公文件处理上，我们系统性地优化了模型处理 Word、Excel 和 PPT 的能力。M2.7 在各种 Agent Harness上，既能够基于模版和 skills 直接生成文件，也能够遵从用户的交互指令，对已有的文件做多轮的高保真编辑，最终给出可编辑的产物。&lt;/p&gt;
+&lt;p&gt;2. &lt;span&gt;与复杂环境的交互能力。&lt;/span&gt; 泛化的日常场景意味着模型需要灵活适应各类上下文、调用各种 skills 和工具、并在长程交互中保持稳定的指令遵循。M2.7 在这些方面有大幅提升。在 Toolathon 上，M2.7的正确率 46.3%，达到了全球第一梯队水平。真实工作场景中的 Agent Harness 往往也需要理解和调用大量复杂的 skills。在 MM Claw 的测试中，M2.7 在 40 个复杂 skills (&amp;gt; 2000 Token) 的 case 上，仍能保持 97% 的 skills 遵循率。&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;我们测试了在Finance领域的专业水准，与上代模型相比，模型的能力提升显著。例如，在Finance领域一个阅读研报并建模公司未来营收的场景，M2.7可以自主阅读公司的年报与业绩沟通会纪要，交叉比对多篇研报，独立设计假设并构建营收预测模型，再基于模版产出PPT和研究报告——像一个初级分析师一样理解、判断、输出，并在多轮交互中自我修正。从业者的评价是：产出物已经可以作为初稿直接进入后续工作流程。下面是一个对台积电的例子。&lt;/p&gt;
+&lt;blockquote&gt;任务：基于台积电年报和业绩沟通会信息，构建台积电的营收模型，读取多个研报，设计对应的假设，基于最新的信息对台积电营收建模，然后基于PPT模版产出PPT，并写一个Word文档研究报告。&lt;/blockquote&gt;
+&lt;div&gt;&lt;a href="https://filecdn.minimax.chat/public/0dff594f-3226-421e-a7f3-b4d55273ee5f.xlsx"&gt;[TSMC_Revenue_Model.xlsx]&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a href="https://filecdn.minimax.chat/public/504a47e3-8d71-4dd0-9397-8c7214bb26d7.pptx"&gt;[TSMC_Financial_Analysis.pptx]&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a href="https://filecdn.minimax.chat/public/7bd2f0a5-06e2-406f-818d-7bf5bd64eca8.docx"&gt;[TSMC_Equity_Research_Report.docx]&lt;/a&gt;&lt;/div&gt;
+&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/d070816d-2c2a-4a5c-a441-48c9dd19d44d.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
+&lt;p&gt;最近OpenClaw 爆火为代表的Agent社区蓬勃发展，我们很高兴M2系列的模型帮助到了社区的繁荣。我们基于OpenClaw中的常用任务，构建了一个评测集 MM Claw，涵盖个人学习规划，到办公文档的处理与交付、定时的专业信息调研与投资建议、代码开发与维护等工作与生活中形形色色的真实需求。M2.7 在这个测试中达到了接近Sonnet 4.6的水平，正确率是62.7%。&lt;/p&gt;
+&lt;h2&gt;互动娱乐&lt;/h2&gt;
+&lt;p&gt;在 OpenClaw 等 Agent 脚手架的使用过程中，不少用户在使用 Agent 完成工作的同时，还希望模型具备比较高的情商和复杂人设保持能力。在有人设的情况下，用户不再只是让模型机械完成任务，而是开始自然于与Agent"相处"。 这促使我们思考，产品与交互设计、内容创作、甚至娱乐体验的构建，都可以被 AI 原生驱动的可能性。我们认为这会让 Agentic 模型的使用从单纯的生产力能进一步拓展到互动娱乐。为此，我们在 M2.7 中极大加强了人设保持和对话能力。&lt;/p&gt;
+&lt;p&gt;基于此，我们构建了一个 Agent 交互系统 OpenRoom，它将 AI 互动置入一个万物皆可互动的 Web GUI 空间。在这里，对话即驱动，实时产生视觉反馈与场景交互，角色可以主动地与环境交互。我们认为这个框架扩展性较高，能够随着模型 Agentic 能力的提升和社区的共建持续进化，探索出更多人与 Agent 之间全新的交互方式。为了促进这个领域的创新，我们已将这个原型项目开源 （这个里面的代码大部分也是 AI 写的）：&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href="https://github.com/MiniMax-AI/OpenRoom"&gt;github.com/MiniMax-AI/OpenRoom&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;立即体验： &lt;a href="https://openroom.ai"&gt;openroom.ai&lt;/a&gt;&lt;/p&gt;
+&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/misc/openroom-20260305-med.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
+&lt;p&gt;MiniMax M2.7 已在 MiniMax Agent 与开放平台上全量上线，期待用户和开发者朋友们能在MiniMax M2.7上探索出更多有趣场景。&lt;/p&gt;
+&lt;p&gt;MiniMax Agent：&lt;a href="https://agent.minimaxi.com"&gt;agent.minimaxi.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;API服务：&lt;a href="https://platform.minimaxi.com"&gt;platform.minimaxi.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Coding Plan订阅：&lt;a href="https://platform.minimaxi.com/subscribe/coding-plan"&gt;platform.minimaxi.com/subscribe/coding-plan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Intelligence with Everyone.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
+      <guid isPermaLink="false">https://minimaxi.com/news/minimax-m27-zh</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T16:48:33.992262+00:00</crawled>
     </item>
     <item>
       <title>Day 0 实现 MiniMax M2.7 六芯落地，众智FlagOS 又双叒叕让大模型多芯可用了！</title>
@@ -203,58 +442,6 @@ MiniMax 内部已率先受益于 M2.5 的模型能力。&lt;strong&gt;在 MiniMa
       <crawled>2026-07-07T16:48:14.426952+00:00</crawled>
     </item>
     <item>
-      <title>Day 0支持｜昆仑芯完成MiniMax M2.7模型极速适配</title>
-      <link>https://www.minimaxi.com/news/day-0%E6%94%AF%E6%8C%81%E6%98%86%E4%BB%91%E8%8A%AF%E5%AE%8C%E6%88%90minimax-m27%E6%A8%A1%E5%9E%8B%E6%9E%81%E9%80%9F%E9%80%82%E9%85%8D</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.4.12&lt;/div&gt;&lt;h1&gt;Day 0支持｜昆仑芯完成MiniMax M2.7模型极速适配&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/8fa64778-f57e-4356-8e40-20c3788b2585.png" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F8fa64778-f57e-4356-8e40-20c3788b2585.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
-&lt;p&gt;今日，MiniMax正式开源 MiniMax M2.7模型。昆仑芯同步完成对该模型的Day 0适配与深度优化，成为首批实现适配的国产算力厂商之一，再次验证其在主流大模型生态中的敏捷响应能力与广泛兼容能力。&lt;/p&gt;
-&lt;h2&gt;发布即适配，软硬协同支撑高效落地&lt;/h2&gt;
-&lt;p&gt;MiniMax M2.7是M2系列的最新一代模型，也是首个深度参与自身迭代的版本。模型具备自主构建复杂Agent Harness与Skills 的能力，可动态更新Memory，并通过强化学习持续优化，实现"模型驱动模型进化"的闭环。在能力表现上，M2.7已覆盖从代码生成、日志排障到端到端项目交付的完整软件工程链路：SWE-Pro基准达到 56.22%，整体表现追平GPT-5.3-Codex；在专业办公场景中，GDPval-AA评分位居行业前列，并在40个复杂 Skills（&amp;gt;2000 Token）任务中保持 97% 的指令遵循率，展现出优异的稳定性与执行能力。&lt;/p&gt;
-&lt;p&gt;在实际适配过程中，昆仑芯依托自研架构，持续提升算子覆盖与生态兼容能力，实现模型性能与算力效率的高效匹配。通过底层算子优化与软硬件协同加速，MiniMax M2.7已在昆仑芯平台上实现高吞吐、低延迟的稳定运行，并在复杂任务与长序列场景下保持优异表现。&lt;/p&gt;
-&lt;p&gt;为充分释放产品性能，昆仑芯构建了面向开发者的全栈软件体系，完整覆盖从底层驱动到开发工具SDK及专业库的完整能力，兼顾高效易用与工程化落地。该软件栈高度兼容主流AI开发生态，在显著降低开发门槛的同时，最大化释放计算性能，帮助客户以更低适配成本和更短部署周期完成模型开发与落地，加速模型从研发到应用的转化。&lt;/p&gt;
-&lt;h2&gt;常态化Day 0响应，昆仑芯夯实国产AI算力底座&lt;/h2&gt;
-&lt;p&gt;近期，国产大模型生态迎来密集升级，技术突破与产业落地节奏持续加快。在此背景下，昆仑芯已完成对多款主流大模型的首发适配，稳步实现"发布即支持"的快速落地能力，推动模型技术迭代与算力底座实现同频演进，充分体现其在软硬协同、生态兼容与工程化落地方面的综合实力。同时，该能力有效降低了模型部署与应用门槛，进一步加快AI应用的规模化拓展。&lt;/p&gt;
-&lt;p&gt;当前，昆仑芯正持续深化模型适配与性能优化能力，全面支持多样化架构与算法创新，不断提升开发与部署效率。面向未来，昆仑芯将进一步强化对主流前沿模型的高效适配能力，依托持续的技术创新与软硬协同优势，不断夯实国产AI算力底座，助力产业智能化升级与数字化转型加速推进。&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://www.minimaxi.com/news/day-0%E6%94%AF%E6%8C%81%E6%98%86%E4%BB%91%E8%8A%AF%E5%AE%8C%E6%88%90minimax-m27%E6%A8%A1%E5%9E%8B%E6%9E%81%E9%80%9F%E9%80%82%E9%85%8D</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:48:08.161927+00:00</crawled>
-    </item>
-    <item>
-      <title>MiniMax Hailuo 2.3 视频复杂表现新高度 &amp; Media Agent</title>
-      <link>https://minimaxi.com/news/minimax-hailuo-23</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2025.10.28&lt;/div&gt;&lt;h1&gt;MiniMax Hailuo 2.3 视频复杂表现新高度 &amp;amp; Media Agent&lt;/h1&gt;&lt;div&gt;&lt;a href="https://platform.minimaxi.com/docs/api-reference/video-generation-intro"&gt;&lt;p&gt;即刻接入 API&lt;/p&gt;&lt;/a&gt;&lt;a href="https://hailuoai.com/"&gt;&lt;p&gt;立即体验海螺&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;br/&gt;今天，我们为大家带来MiniMax视频模型 Hailuo 2.3，在 Hailuo 02 模型的基础上进一步升级动态表现力，画面更加真实、稳定。Hailuo 2.3 模型在肢体动作呈现、风格化以及人物微表情方面实现了显著的效果提升，同时对运动指令响应做进一步优化。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:47&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/7409a7e3-9b93-4f61-a608-8eb0d575cb1d.mp4"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;首先，得益于模型在物理表现与指令遵循进一步的增强，Hailuo 2.3 可以呈现出更加复杂的人物肢体动作，更加流畅自然，精确度和可控性更好。在不同的大动态运镜下，光线方向、明暗过渡和色调，都能实现近乎实拍的视觉效果。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:38&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/71cfe88d-70d7-4efa-b501-eec6ec1f165a.MP4"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;在风格化方面，Hailuo 2.3对动漫、插画类，以及水墨、游戏CG等特殊画风的支持效果更佳。喜欢动漫创作的用户对Hailuo 01 的 Live 模型爱不释手，而 Hailuo 2.3 解锁了更多画风，通用模型的输出效果更稳定、更生动。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:38&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/ccf98ca6-401d-4ec2-ac54-b0d0e99111b9.MP4"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;在 Hailuo 2.3 中，真人面部表演、微表情变化等动作也更自然。我们用细腻的表情变化，打造最动人的角色表演。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F4a25c486-f4be-43d0-80b7-b19b047d4ead.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa770623c-baa5-47b4-8558-7e8c6a24a672.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;除了人的表情、动作呈现得到提升以外，Hailuo 2.3 对物体的运动指令响应也更加出色。正值双十一购物节期间，有创作者在内测期间制作了一些电商广告，抽卡率大幅提高。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F10e1ebf4-8f82-4094-ba6f-efd9962d4aad.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fe5fc1281-dcdd-4865-aea4-1041d023a8fe.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Hailuo 2.3 再次刷新了全球视频模型效果成本纪录，在提升性能表现的同时保持 Hailuo 02 既有价格，B端与C端都“加量不加价”，为全球创作者提供业内最优性价比。此外，我们提供 Hailuo 2.3 Fast 模型，生成速度更快，定价更低，最高可为批量创作降低50%成本。&lt;br/&gt;&lt;br/&gt;
-
-我们在海螺AI网页端、APP客户端及开放平台API中推全了上述的模型更新，并在发布期间每日提供免费试用额度，欢迎体验。我们在持续迭代模型整体水平的同时，会继续针对AI视频的不同应用场景深度优化，解决用户在实际使用中遇到的问题。
-
-今年夏天，我们发布了 Hailuo Video Agent，得到了不错的反响。在海螺创作者的使用和反馈中我们发现，多模态融合创作一定是未来的趋势。&lt;strong&gt;今天，Hailuo Video Agent 正式迭代升级为支持全模态全能创作的 Media Agent，并已经在全球同步上线&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;
-
-输入你想要的内容，Media Agent 自动匹配多模态模型，无需手动剪辑，“一键成片”功能帮你全部搞定。专业创作者也可以在Media Agent中分布创作，自由上传图片、视频或音频，根据需求自由定制成片。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa7a35bc7-c948-4d7a-b2e9-a8e6e5f65b13.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;例如，我们尝试为“Casa Nacho”品牌的玉米片设计一支30秒的广告，可以将想要的场景、色调、运镜风格和音乐等要素输入，来看一看一键成片的效果。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:30&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/4535e623-138e-43d6-ad17-74cb02ed3f7d.mov"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;在 Media Agent 后续的更新版本中，对成片链路上的任一Part，我们都可以在画布中与Agent一起调整细节，真正实现“对话即创作”，并把每一个灵感留存。用自然语言与AI交互、共创，也是我们认为下一代应有的工作平台。&lt;br/&gt;&lt;br/&gt;
-
-我们正迎来一个快速变革的时代，而在这个新时代中，AI视频改变了很多人的工作和创造方式。我们希望，Hailuo是创作的全能帮手，也是创新和变革的先锋，让灵感生长成形——又超越一切形。&lt;br/&gt;&lt;br/&gt;
-&lt;p&gt;
-    海螺AI体验链接：
-  &lt;/p&gt;
-&lt;p&gt;
-&lt;a href="https://hailuoai.com/"&gt;https://hailuoai.com/&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;
-    Media Agent体验链接：
-  &lt;/p&gt;
-&lt;p&gt;
-&lt;a href="https://hailuoai.com/agent"&gt;https://hailuoai.com/agent&lt;/a&gt;
-&lt;/p&gt;
-&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
-
-Intelligence with Everyone.
-
-
-
-&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F756afba2-5149-469f-8dc1-9e6f1489bd8c.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://minimaxi.com/news/minimax-hailuo-23</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:48:57.738294+00:00</crawled>
-    </item>
-    <item>
       <title>MiniMax Speech 2.8：赋予 AI 语音“人的温度”</title>
       <link>https://minimaxi.com/news/minimax-speech-28</link>
       <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026-01-23&lt;/div&gt;&lt;h1&gt;MiniMax Speech 2.8：赋予 AI 语音“人的温度”&lt;/h1&gt;&lt;div&gt;&lt;a href="https://platform.minimaxi.com/docs/guides/speech-t2a-websocket"&gt;&lt;p&gt;即刻接入 API&lt;/p&gt;&lt;/a&gt;&lt;a href="https://www.minimaxi.com/audio"&gt;&lt;p&gt;立即体验语音&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/b94fb26a-aeb5-4303-929e-a28033e26fb1.png" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fb94fb26a-aeb5-4303-929e-a28033e26fb1.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
@@ -312,226 +499,39 @@ Intelligence with Everyone.
       <crawled>2026-07-07T16:49:05.687881+00:00</crawled>
     </item>
     <item>
-      <title>昇腾0Day支持MiniMaxM2.7，共同开启模型自我进化新范式</title>
-      <link>https://www.minimaxi.com/news/%E6%98%87%E8%85%BE0day%E6%94%AF%E6%8C%81minimaxm27%E5%85%B1%E5%90%8C%E5%BC%80%E5%90%AF%E6%A8%A1%E5%9E%8B%E8%87%AA%E6%88%91%E8%BF%9B%E5%8C%96%E6%96%B0%E8%8C%83%E5%BC%8F</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.4.12&lt;/div&gt;&lt;h1&gt;昇腾0Day支持MiniMaxM2.7，共同开启模型自我进化新范式&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/c600d3eb-54ec-4180-9005-9edf9809962e.png" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fc600d3eb-54ec-4180-9005-9edf9809962e.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
-&lt;p&gt;2026年4月12日，MiniMax正式开源其第一个自我深度迭代的模型MiniMax M2.7。昇腾一直同步支持MiniMax M2系列模型，此次M2.7模型一经开源发布，昇腾AI基础软硬件即实现0day适配，可基于vllm-Ascend推理引擎在Atlas 800 A3、Atlas 800I A2系列产品上为该模型的推理部署提供全流程支持。&lt;/p&gt;
-&lt;p&gt;MiniMax M2.7能够自行构建复杂Agent Harness，并基于Agent Teams、复杂 Skills、Tool Search Tool等能力，完成高度复杂的生产力任务。在研发过程中，MiniMax基于模型构建强化学习Harness中的数十个复杂的skills，更新自己的memory，驱动模型自身的强化学习，并基于结果优化强化学习过程和Harness，开启模型的自我进化。&lt;/p&gt;
-&lt;p&gt;昇腾持续加速算子和基础软硬件创新，匹配MiniMax M2.7模型创新的FlashComm序列切分，AllReduce换成ReduceScatter和AllGather通信加速；深度优化的Transformer Attention前序全链路融合算子和MoE大融合算子，彻底消除中间张量读写和多算子调度开销；同时在多DP并发场景下，自适应DP域负载均衡，大幅降低prefill对decode的抢断，显著提升重载忙时的吞吐性能，让广大用户和开发者畅享MiniMax M2.7新体验。&lt;/p&gt;
-&lt;p&gt;体验链接: &lt;span&gt;https://docs.vllm.ai/projects/ascend/en/v0.18.0/tutorials/models/index.html&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;代码仓：&lt;span&gt;https://github.com/vllm-project/vllm-ascend/tree/releases/v0.18.0&lt;/span&gt;&lt;/p&gt;
-&lt;img src="https://filecdn.minimax.chat/public/ef5ff1f3-f19e-46fb-ab16-c3f2984de80d.png"/&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;span&gt;构建模型自我进化智能体：&lt;/span&gt;MiniMax团队在开发过程中，研究员将M2的早期版本引导为一个研究型Agent Harness来参与下一代模型的迭代循环，它能够与不同的研究项目组进行交互和协作，研究员在每一层引导方向，模型在每一层负责构建，研究员只需在关键决策和讨论时介入。通过Agent驱动，大幅加速了问题发现和实验迭代，从而更快地交付模型。部分RL场景下，M2.7能够胜任30-50%的工作流。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;软件工程领域：&lt;/span&gt;M2.7更深入地打磨了真实软件工程所需的编程能力，覆盖日志分析与 Bug 定位、代码重构、代码安全、机器学习、安卓开发等方向。在涵盖多种编程语言的基准测试SWE-Pro中M2.7以56.22% 的正确率追平GPT-5.3-Codex；而在更贴近真实工程场景的SWE Multilingual（76.5）和 Multi SWE Bench（52.7）中展现出更显著优势。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;专业办公领域：&lt;/span&gt;M2.7模型提升了专业知识和任务交付能力，在GDPval-AA的得分为开源最高；并且具备与复杂环境交互的能力，在40个复杂skills (&amp;gt;2000 Token) 的case上，仍能保持97%的skills遵循率。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;互动娱乐领域：&lt;/span&gt;M2.7构建了一个Agent交互系统OpenRoom，它将AI互动置入一个万物皆可互动的Web GUI空间，极大加强了人设保持和对话能力，并且能够随着模型Agentic能力的提升和社区共建持续进化。&lt;/p&gt;
-&lt;img src="https://filecdn.minimax.chat/public/081ef384-36c8-4e47-aa78-874903fd8f15.png"/&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://www.minimaxi.com/news/%E6%98%87%E8%85%BE0day%E6%94%AF%E6%8C%81minimaxm27%E5%85%B1%E5%90%8C%E5%BC%80%E5%90%AF%E6%A8%A1%E5%9E%8B%E8%87%AA%E6%88%91%E8%BF%9B%E5%8C%96%E6%96%B0%E8%8C%83%E5%BC%8F</guid>
+      <title>MiniMax Hailuo 2.3 视频复杂表现新高度 &amp; Media Agent</title>
+      <link>https://minimaxi.com/news/minimax-hailuo-23</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2025.10.28&lt;/div&gt;&lt;h1&gt;MiniMax Hailuo 2.3 视频复杂表现新高度 &amp;amp; Media Agent&lt;/h1&gt;&lt;div&gt;&lt;a href="https://platform.minimaxi.com/docs/api-reference/video-generation-intro"&gt;&lt;p&gt;即刻接入 API&lt;/p&gt;&lt;/a&gt;&lt;a href="https://hailuoai.com/"&gt;&lt;p&gt;立即体验海螺&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;br/&gt;今天，我们为大家带来MiniMax视频模型 Hailuo 2.3，在 Hailuo 02 模型的基础上进一步升级动态表现力，画面更加真实、稳定。Hailuo 2.3 模型在肢体动作呈现、风格化以及人物微表情方面实现了显著的效果提升，同时对运动指令响应做进一步优化。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:47&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/7409a7e3-9b93-4f61-a608-8eb0d575cb1d.mp4"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;首先，得益于模型在物理表现与指令遵循进一步的增强，Hailuo 2.3 可以呈现出更加复杂的人物肢体动作，更加流畅自然，精确度和可控性更好。在不同的大动态运镜下，光线方向、明暗过渡和色调，都能实现近乎实拍的视觉效果。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:38&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/71cfe88d-70d7-4efa-b501-eec6ec1f165a.MP4"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;在风格化方面，Hailuo 2.3对动漫、插画类，以及水墨、游戏CG等特殊画风的支持效果更佳。喜欢动漫创作的用户对Hailuo 01 的 Live 模型爱不释手，而 Hailuo 2.3 解锁了更多画风，通用模型的输出效果更稳定、更生动。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:38&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/ccf98ca6-401d-4ec2-ac54-b0d0e99111b9.MP4"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;在 Hailuo 2.3 中，真人面部表演、微表情变化等动作也更自然。我们用细腻的表情变化，打造最动人的角色表演。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F4a25c486-f4be-43d0-80b7-b19b047d4ead.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa770623c-baa5-47b4-8558-7e8c6a24a672.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;除了人的表情、动作呈现得到提升以外，Hailuo 2.3 对物体的运动指令响应也更加出色。正值双十一购物节期间，有创作者在内测期间制作了一些电商广告，抽卡率大幅提高。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F10e1ebf4-8f82-4094-ba6f-efd9962d4aad.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fe5fc1281-dcdd-4865-aea4-1041d023a8fe.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Hailuo 2.3 再次刷新了全球视频模型效果成本纪录，在提升性能表现的同时保持 Hailuo 02 既有价格，B端与C端都“加量不加价”，为全球创作者提供业内最优性价比。此外，我们提供 Hailuo 2.3 Fast 模型，生成速度更快，定价更低，最高可为批量创作降低50%成本。&lt;br/&gt;&lt;br/&gt;
+
+我们在海螺AI网页端、APP客户端及开放平台API中推全了上述的模型更新，并在发布期间每日提供免费试用额度，欢迎体验。我们在持续迭代模型整体水平的同时，会继续针对AI视频的不同应用场景深度优化，解决用户在实际使用中遇到的问题。
+
+今年夏天，我们发布了 Hailuo Video Agent，得到了不错的反响。在海螺创作者的使用和反馈中我们发现，多模态融合创作一定是未来的趋势。&lt;strong&gt;今天，Hailuo Video Agent 正式迭代升级为支持全模态全能创作的 Media Agent，并已经在全球同步上线&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;
+
+输入你想要的内容，Media Agent 自动匹配多模态模型，无需手动剪辑，“一键成片”功能帮你全部搞定。专业创作者也可以在Media Agent中分布创作，自由上传图片、视频或音频，根据需求自由定制成片。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa7a35bc7-c948-4d7a-b2e9-a8e6e5f65b13.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;例如，我们尝试为“Casa Nacho”品牌的玉米片设计一支30秒的广告，可以将想要的场景、色调、运镜风格和音乐等要素输入，来看一看一键成片的效果。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:30&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/4535e623-138e-43d6-ad17-74cb02ed3f7d.mov"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;在 Media Agent 后续的更新版本中，对成片链路上的任一Part，我们都可以在画布中与Agent一起调整细节，真正实现“对话即创作”，并把每一个灵感留存。用自然语言与AI交互、共创，也是我们认为下一代应有的工作平台。&lt;br/&gt;&lt;br/&gt;
+
+我们正迎来一个快速变革的时代，而在这个新时代中，AI视频改变了很多人的工作和创造方式。我们希望，Hailuo是创作的全能帮手，也是创新和变革的先锋，让灵感生长成形——又超越一切形。&lt;br/&gt;&lt;br/&gt;
+&lt;p&gt;
+    海螺AI体验链接：
+  &lt;/p&gt;
+&lt;p&gt;
+&lt;a href="https://hailuoai.com/"&gt;https://hailuoai.com/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    Media Agent体验链接：
+  &lt;/p&gt;
+&lt;p&gt;
+&lt;a href="https://hailuoai.com/agent"&gt;https://hailuoai.com/agent&lt;/a&gt;
+&lt;/p&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+
+Intelligence with Everyone.
+
+
+
+&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F756afba2-5149-469f-8dc1-9e6f1489bd8c.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
+      <guid isPermaLink="false">https://minimaxi.com/news/minimax-hailuo-23</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:48:02.503170+00:00</crawled>
-    </item>
-    <item>
-      <title>Day-0支持｜摩尔线程率先完成MiniMax M2.7大模型适配</title>
-      <link>https://www.minimaxi.com/news/day-0%E6%94%AF%E6%8C%81%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%E7%8E%87%E5%85%88%E5%AE%8C%E6%88%90minimax-m27%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%80%82%E9%85%8D</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.4.12&lt;/div&gt;&lt;h1&gt;Day-0支持｜摩尔线程率先完成MiniMax M2.7大模型适配&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/cf1c2a2c-2f38-40f5-8e6a-6b1eead75c03.png" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fcf1c2a2c-2f38-40f5-8e6a-6b1eead75c03.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
-&lt;p&gt;4月12日，摩尔线程其旗舰级AI训推一体全功能GPU MTT S5000已率先完成对MiniMax新一代大模型MiniMax M2.7的Day-0极速适配，再次验证了国产全功能GPU对前沿AI大模型的快速响应与稳定支撑能力。&lt;/p&gt;
-&lt;!-- &lt;p style="margin: 0 0 12px 0; text-align: justify;"&gt;图示：MiniMax M2.7在MTT S5000运行&lt;/p&gt; --&gt;
-&lt;p&gt;MiniMax M2.7是业界首个具备深度自我进化能力的大模型，能够自主构建Agent Harness，通过Agent Teams协作、复杂Skills调用及Tool Search Tool等能力完成复杂生产力任务，甚至深度参与自身迭代。在软件工程领域，M2.7支持端到端完整项目交付、日志分析排障、代码安全审查及机器学习任务；在专业办公场景，其Excel/PPT/Word高保真编辑与多轮修改能力显著提升，即使在超长上下文复杂任务中仍保持稳定的高水平skills遵循率。与此同时，该模型对长上下文处理、复杂Agent任务调度及高保真编辑等场景提出了极高的计算效率要求。&lt;/p&gt;
-&lt;img src="https://filecdn.minimax.chat/platform_web/offical-news/摩尔线程_Day0_MiniMax_M27/image_01.jpeg"/&gt;
-&lt;p&gt;针对上述挑战，摩尔线程技术团队基于MUSA架构完成深度调优，成功在MTT S5000上实现M2.7高性能推理，核心技术优势包括：&lt;/p&gt;
-&lt;p&gt;· &lt;span&gt;超长上下文与高吞吐保障：&lt;/span&gt;依托MTT S5000的80GB大容量显存、1.6TB/s高带宽及PD分离架构，配合高效KV Cache管理，支撑MiniMax M2.7长时间、多步骤任务的稳定执行。&lt;/p&gt;
-&lt;p&gt;· &lt;span&gt;全精度端到端支持：&lt;/span&gt;MTT S5000原生支持FP8至FP64全精度计算，满足代码生成、金融建模等场景对混合精度及高精度计算的要求，确保决策精准可靠。&lt;/p&gt;
-&lt;p&gt;· &lt;span&gt;高算力低延迟推理：&lt;/span&gt;MTT S5000单卡可提供1000 TFLOPS稠密算力，结合vLLM-MUSA定制化调优，实现复杂Agent Harness与高频工具调用场景下的低延迟响应。&lt;/p&gt;
-&lt;p&gt;· &lt;span&gt;强大生态兼容性：&lt;/span&gt;深度兼容PyTorch、vLLM、SGLang、Triton等主流生态，通过MUSA C++、Triton-MUSA、TileLang-MUSA等抽象层实现新算子"零成本迁移"，确保前沿模型发布当日完成极速适配。&lt;/p&gt;
-&lt;p&gt;此次 Day-0 适配是摩尔线程常态化技术响应能力的再次体现。依托 MUSA 架构对主流AI生态的深度兼容与持续演进，国产全功能GPU算力底座已形成覆盖前沿模型"Day-0适配—高效部署"的全链路支撑体系，帮助开发者以更快响应、更稳运行、更低迁移成本第一时间接入最新模型能力，加速大模型创新落地与规模化应用。&lt;/p&gt;
-&lt;p&gt;开发者可下载镜像进行开箱体验：&lt;/p&gt;
-&lt;p&gt;registry.mthreads.com/presale/devtech/vllm_musa:MiniMax-M2.7&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;span&gt;关于摩尔线程&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;摩尔线程以全功能GPU为核心，致力于向全球提供加速计算的基础设施和一站式解决方案，为各行各业的数智化转型提供强大的AI计算支持。我们的目标是成为具备国际竞争力的GPU领军企业，为融合人工智能和数字孪生的数智世界打造先进的加速计算平台。我们的愿景是为美好世界加速。&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://www.minimaxi.com/news/day-0%E6%94%AF%E6%8C%81%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%E7%8E%87%E5%85%88%E5%AE%8C%E6%88%90minimax-m27%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%80%82%E9%85%8D</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:48:27.409521+00:00</crawled>
-    </item>
-    <item>
-      <title>MiniMax M2.7: 开启模型的自我进化</title>
-      <link>https://minimaxi.com/news/minimax-m27-zh</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026-03-18&lt;/div&gt;&lt;h1&gt;MiniMax M2.7: 开启模型的自我进化&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/7a85723c-acc3-4eb8-a3a8-f53713d0822e.png" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F7a85723c-acc3-4eb8-a3a8-f53713d0822e.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
-&lt;p&gt;在 M2 系列模型发布后的几个月，我们收到了大量热心用户的反馈和建议，这促使我们进一步加速模型的迭代效率。除了更加认真工作之外，我们能找到的唯一途径就是&lt;span&gt;开启模型和组织的自我进化。MiniMax M2.7是我们第一个模型深度参与迭代自己的模型。&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;M2.7 能够自行构建复杂 Agent Harness，并基于 Agent Teams、复杂 Skills、Tool Search Tool 等能力，完成高度复杂的生产力任务。例如，在研发M2.7的过程中，我们基于模型构建强化学习Harness 中的数十个复杂的 skills，更新自己的 memory，驱动模型自身的强化学习，并基于结果优化强化学习过程和Harness，开启模型的自我进化。&lt;/p&gt;
-&lt;div&gt;
-&lt;p&gt;1. M2.7 在真实的软件工程中有优异的表现，包括端到端的完整项目交付，分析日志排查 Bug、代码安全，机器学习等。在基准测试 SWE-Pro 中，M2.7 得分56.22%，几乎接近Opus最好的水平。这一能力同样延伸到了端到端的完整项目交付场景（VIBE-Pro 55.6%）以及对复杂工程系统的深层理解Terminal Bench 2（57.0%）。&lt;/p&gt;
-&lt;p&gt;2. 在专业办公领域，我们提升了模型在各领域的专业知识和任务交付能力，在 GDPval-AA 的ELO得分是1495，为开源最高。M2.7 对 Office 三件套 Excel/PPT/Word 的复杂编辑能力显著提升，能更好地完成多轮修改和高保真的编辑。M2.7具备与复杂环境交互的能力，M2.7 在 40 个复杂 skills (&amp;gt; 2000 Token) 的 case 上，仍能保持 97% 的 skills 遵循率。在OpenClaw的使用中，M2.7相比于M2.5也有了显著的提升，在MMClaw的评测中接近最新的Sonnet 4.6。&lt;/p&gt;
-&lt;p&gt;3. M2.7具备优秀的身份保持能力和情商，除了生产力使用外，给互动娱乐场景的创新也准备了空间。&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;基于上述能力，M2.7 也在显著加速我们自身向一个 AI Native 组织的进化。&lt;/p&gt;
-&lt;img alt="MiniMax M2.7 基准测试对比" src="https://filecdn.minimax.chat/public/4f5db695-e248-481a-9081-311b35ba5a87.jpg"/&gt;
-&lt;h2&gt;构建模型自我进化智能体&lt;/h2&gt;
-&lt;p&gt;在最开始，我们分享一个我们内部让M2系列模型自我进化的实践，这也是对模型Agent能力边界的探索。&lt;/p&gt;
-&lt;p&gt;Agent Harness通常依赖复杂的Skills、记忆系统和其他组件来提升模型对不同工作环境的适应能力。在此基础上，我们在 M2 的早期版本中，将其引导为一个研究型 Agent Harness——它能够与不同的研究项目组进行交互和协作。该系统覆盖了数据流水线、训练环境、评测基础设施、跨团队协作、持久化记忆——让研究员可以驱动它来交付更好的模型。研究 Agent 驱动着产出下一代模型的迭代循环。研究员在每一层引导方向，模型在每一层负责构建。&lt;/p&gt;
-&lt;p&gt;以一个 RL 场景为例：研究员从一个实验想法出发，与 Agent 展开讨论。Agent 协助进行文献调研，持续跟踪预设的实验规格，完成数据流水线及其他对接工作，并启动实验。实验运行期间，它会自动监控和分析实验状态，并自动触发日志读取、问题排查、指标分析、代码修复、合并请求以及冒烟测试，识别并配置那些细微但关键的变更。这些工作过去可能需要来自不同团队的多位同事协作完成，而现在研究员只需在关键决策和讨论时介入。这大幅加速了问题发现和实验迭代，从而更快地交付模型。在这个场景下，M2.7 能够胜任 30-50% 的工作流。&lt;/p&gt;
-&lt;img alt="M2* 模型迭代系统架构" src="https://filecdn.minimax.chat/public/d080353d-31aa-4642-8586-3b7f2201bf94.png"/&gt;
-&lt;p&gt;我们在迭代过程中也意识到，模型自主迭代 harness 的能力也至关重要。我们内部的 harness 会自主收集反馈，建立内部任务的评测集，并基于此不断迭代自己的 Agent架构、Skills/MCP 实现和记忆机制，来更好和更高效的完成任务。&lt;/p&gt;
-&lt;p&gt;举个例子，我们让 M2.7 优化一个内部脚手架上模型的软件工程开发表现。M2.7 全程自主运行，执行"分析失败轨迹 → 规划改动 → 修改脚手架代码 → 运行评测 → 对比结果 → 决定保留或回退"的迭代循环超过 100 轮。这个过程中 M2.7 发现了针对模型的有效优化：系统性搜索温度、频率惩罚、存在惩罚等采样参数的最优组合；为模型设计更具体的工作流指引（如修复后自动搜索其他文件中的相同 bug 模式）；在脚手架的Agent Loop中添加循环检测等优化。最终在内部评测集上效果提升 30%。&lt;/p&gt;
-&lt;p&gt;我们相信，未来的 AI 自我进化会逐步向完全自动化过渡，包括完全自主的协调数据构建、模型训练、推理架构、评测等等。我们用 M2.7 参与了MLE Bench Lite的22 个机器学习任务测试，几乎囊括了研发的所有环节。&lt;/p&gt;
-&lt;p&gt;我们设计和实现了一个简易的脚手架来引导 Agent 进行自主优化，核心的模块包括短时记忆、自反馈以及自优化三个模块。具体来讲，Agent 完成每轮迭代后会形成一个短时记忆文件，同时对当前轮次的结果进行自反馈，从而给下一轮次提供潜在的优化方向，下一轮次基于所有历史轮次的记忆及自反馈链进行下一步的自优化。我们总共测试三次，每次有 24 小时来迭代进化，从下图中能够看到 M2.7 随时间不断取得更高的性能。最好的一次取得 9 枚金牌，5 枚银牌，1枚铜牌。三次平均是 66.6% 的得牌率，此成绩仅次于Opus-4.6 (75.7%)、GPT-5.4 (71.2%)，和 Gemini-3.1 (66.6%) 持平。&lt;/p&gt;
-&lt;img alt="MLE Bench 得牌率随时间变化" src="https://filecdn.minimax.chat/public/61f43a5f-f359-4194-8245-6484b08c4a3e.png"/&gt;
-&lt;h2&gt;真实的软件工程&lt;/h2&gt;
-&lt;p&gt;在编程等代码生成类任务上，M2.7 更深入地打磨了真实软件工程所需的编程能力，覆盖日志分析与 Bug 定位、代码重构、代码安全、机器学习、安卓开发等方向。&lt;/p&gt;
-&lt;p&gt;以线上最常见的线上生产环境故障调试为例——这类任务不仅需要生成代码，还需要很强的综合推理能力。面对我们实际的生产环境告警，M2.7 能关联监控指标与部署时间线做因果推理，对轨迹采样做统计分析并提出精准假设，主动连接数据库执行验证根因，定位到代码仓库中缺失的索引迁移文件，甚至知道用非阻塞建索引先止血，再提 MR。从可观测性分析、数据库专业知识到 SRE 级别的决策判断——这不只是一个会写代码的模型，而是一个真正理解生产系统的模型。相比传统的人工排障流程，基于 M2.7，我们已多次将线上生产系统故障的恢复时间缩短到三分钟以内。&lt;/p&gt;
-&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/163bd51d-7793-469c-a497-8ad21df3da33.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
-&lt;p&gt;【线上生产环境故障调试】&lt;/p&gt;
-&lt;p&gt;在单项编程能力上，M2.7 已具备国际一线模型水准。 在涵盖多种编程语言的 SWE-Pro 中，M2.7 以 56.22% 的正确率追平 GPT-5.3-Codex；而在更贴近真实工程场景的 SWE Multilingual（76.5）和 Multi SWE Bench（52.7）中展现出更显著优势。&lt;/p&gt;
-&lt;p&gt;这一能力同样延伸到了端到端的完整项目交付场景。 在 Repo 级代码生成基准 VIBE-Pro 上，M2.7 得分55.6%，几乎与 Opus 4.6持平 —— 这意味着无论是 Web、Android、iOS 还是 Simulation 类需求，都可以直接交给 M2.7 完成。&lt;/p&gt;
-&lt;p&gt;更值得关注的，是对复杂工程系统的深层理解。 在对系统认知要求极高的 Terminal Bench 2（57.0%）和 NL2Repo（39.8%）中，M2.7 同样表现稳健，进一步印证了它不只擅长代码生成，更能深入理解软件系统的运行逻辑与协作流程。&lt;/p&gt;
-&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/misc/screen-recording-20260316-med.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
-&lt;p&gt;【基于M2.7生成的WildGuard演示网页】&lt;/p&gt;
-&lt;p&gt;为了提升开发效率，一个比较重要的特性是原生的 Agent Teams （多智能体协作）。Agent Teams 对模型提出了范式级要求：角色边界、对抗性推理、协议遵循、行为分化——这些无法通过提示词，必须内化为模型的原生能力。Agent Teams 场景下，模型需要稳定锚定角色身份、主动挑战队友的逻辑与伦理盲区、在复杂状态机中自主决策。下面是我们内部使用的一个做产品原型开发的 Agent Teams，里面包含了做产品原型的一个最小组织。&lt;/p&gt;
-&lt;img alt="Agent Teams 协作模拟演示" src="https://filecdn.minimax.chat/public/dd83d19a-156b-481f-9835-9576293c323a.gif"/&gt;
-&lt;p&gt;【Agent Teams 协作模拟演示】&lt;/p&gt;
-&lt;h2&gt;专业办公&lt;/h2&gt;
-&lt;p&gt;除了软件工程外，Agent开始在办公场景中变得越来越有用，我们认为这是两个核心能力：&lt;/p&gt;
-&lt;div&gt;
-&lt;p&gt;1. &lt;span&gt;专业知识与任务交付能力。&lt;/span&gt; 模型需要具备各领域的专业知识，理解用户的需求。在衡量这一能力的 GDPval-AA 的评测中，M2.7 在45个模型中的ELO得分是1500，仅次于Opus 4.6、Sonnet 4.6和GPT5.4，超过了GPT5.3。在最常见的办公文件处理上，我们系统性地优化了模型处理 Word、Excel 和 PPT 的能力。M2.7 在各种 Agent Harness上，既能够基于模版和 skills 直接生成文件，也能够遵从用户的交互指令，对已有的文件做多轮的高保真编辑，最终给出可编辑的产物。&lt;/p&gt;
-&lt;p&gt;2. &lt;span&gt;与复杂环境的交互能力。&lt;/span&gt; 泛化的日常场景意味着模型需要灵活适应各类上下文、调用各种 skills 和工具、并在长程交互中保持稳定的指令遵循。M2.7 在这些方面有大幅提升。在 Toolathon 上，M2.7的正确率 46.3%，达到了全球第一梯队水平。真实工作场景中的 Agent Harness 往往也需要理解和调用大量复杂的 skills。在 MM Claw 的测试中，M2.7 在 40 个复杂 skills (&amp;gt; 2000 Token) 的 case 上，仍能保持 97% 的 skills 遵循率。&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;我们测试了在Finance领域的专业水准，与上代模型相比，模型的能力提升显著。例如，在Finance领域一个阅读研报并建模公司未来营收的场景，M2.7可以自主阅读公司的年报与业绩沟通会纪要，交叉比对多篇研报，独立设计假设并构建营收预测模型，再基于模版产出PPT和研究报告——像一个初级分析师一样理解、判断、输出，并在多轮交互中自我修正。从业者的评价是：产出物已经可以作为初稿直接进入后续工作流程。下面是一个对台积电的例子。&lt;/p&gt;
-&lt;blockquote&gt;任务：基于台积电年报和业绩沟通会信息，构建台积电的营收模型，读取多个研报，设计对应的假设，基于最新的信息对台积电营收建模，然后基于PPT模版产出PPT，并写一个Word文档研究报告。&lt;/blockquote&gt;
-&lt;div&gt;&lt;a href="https://filecdn.minimax.chat/public/0dff594f-3226-421e-a7f3-b4d55273ee5f.xlsx"&gt;[TSMC_Revenue_Model.xlsx]&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href="https://filecdn.minimax.chat/public/504a47e3-8d71-4dd0-9397-8c7214bb26d7.pptx"&gt;[TSMC_Financial_Analysis.pptx]&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href="https://filecdn.minimax.chat/public/7bd2f0a5-06e2-406f-818d-7bf5bd64eca8.docx"&gt;[TSMC_Equity_Research_Report.docx]&lt;/a&gt;&lt;/div&gt;
-&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/d070816d-2c2a-4a5c-a441-48c9dd19d44d.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
-&lt;p&gt;最近OpenClaw 爆火为代表的Agent社区蓬勃发展，我们很高兴M2系列的模型帮助到了社区的繁荣。我们基于OpenClaw中的常用任务，构建了一个评测集 MM Claw，涵盖个人学习规划，到办公文档的处理与交付、定时的专业信息调研与投资建议、代码开发与维护等工作与生活中形形色色的真实需求。M2.7 在这个测试中达到了接近Sonnet 4.6的水平，正确率是62.7%。&lt;/p&gt;
-&lt;h2&gt;互动娱乐&lt;/h2&gt;
-&lt;p&gt;在 OpenClaw 等 Agent 脚手架的使用过程中，不少用户在使用 Agent 完成工作的同时，还希望模型具备比较高的情商和复杂人设保持能力。在有人设的情况下，用户不再只是让模型机械完成任务，而是开始自然于与Agent"相处"。 这促使我们思考，产品与交互设计、内容创作、甚至娱乐体验的构建，都可以被 AI 原生驱动的可能性。我们认为这会让 Agentic 模型的使用从单纯的生产力能进一步拓展到互动娱乐。为此，我们在 M2.7 中极大加强了人设保持和对话能力。&lt;/p&gt;
-&lt;p&gt;基于此，我们构建了一个 Agent 交互系统 OpenRoom，它将 AI 互动置入一个万物皆可互动的 Web GUI 空间。在这里，对话即驱动，实时产生视觉反馈与场景交互，角色可以主动地与环境交互。我们认为这个框架扩展性较高，能够随着模型 Agentic 能力的提升和社区的共建持续进化，探索出更多人与 Agent 之间全新的交互方式。为了促进这个领域的创新，我们已将这个原型项目开源 （这个里面的代码大部分也是 AI 写的）：&lt;/p&gt;
-&lt;p&gt;项目地址： &lt;a href="https://github.com/MiniMax-AI/OpenRoom"&gt;github.com/MiniMax-AI/OpenRoom&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;立即体验： &lt;a href="https://openroom.ai"&gt;openroom.ai&lt;/a&gt;&lt;/p&gt;
-&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/misc/openroom-20260305-med.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
-&lt;p&gt;MiniMax M2.7 已在 MiniMax Agent 与开放平台上全量上线，期待用户和开发者朋友们能在MiniMax M2.7上探索出更多有趣场景。&lt;/p&gt;
-&lt;p&gt;MiniMax Agent：&lt;a href="https://agent.minimaxi.com"&gt;agent.minimaxi.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;API服务：&lt;a href="https://platform.minimaxi.com"&gt;platform.minimaxi.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Coding Plan订阅：&lt;a href="https://platform.minimaxi.com/subscribe/coding-plan"&gt;platform.minimaxi.com/subscribe/coding-plan&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Intelligence with Everyone.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://minimaxi.com/news/minimax-m27-zh</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:48:33.992262+00:00</crawled>
-    </item>
-    <item>
-      <title>沐曦股份曦云C系列GPU Day 0适配MiniMax M2.7  澎湃算力支持自进化大模型</title>
-      <link>https://www.minimaxi.com/news/%E6%B2%90%E6%9B%A6%E8%82%A1%E4%BB%BD%E6%9B%A6%E4%BA%91c%E7%B3%BB%E5%88%97gpu-day-0%E9%80%82%E9%85%8Dminimax-m27-%E6%BE%8E%E6%B9%83%E7%AE%97%E5%8A%9B%E6%94%AF%E6%8C%81%E8%87%AA%E8%BF%9B%E5%8C%96%E5%A4%A7%E6%A8%A1%E5%9E%8B</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.4.12&lt;/div&gt;&lt;h1&gt;沐曦股份曦云C系列GPU Day 0适配MiniMax M2.7  澎湃算力支持自进化大模型&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/0c9e2c27-4890-4e6b-a8cb-6a68ad3b21cc.png" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F0c9e2c27-4890-4e6b-a8cb-6a68ad3b21cc.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
-&lt;p&gt;4月12日，MiniMax新一代Agent旗舰大模型M2.7开源。沐曦股份曦云C系列GPU已完成对M2.7的Day 0深度适配，将为M2.7提供澎湃算力支持。&lt;/p&gt;
-&lt;p&gt;此次Day 0适配，标志着沐曦股份与MiniMax在"国产算力+国产大模型"协同发展道路上更进一步。双方形成的"模型发布—芯片适配—产业落地"高效闭环，为关键领域国产化替代提供了坚实支撑。&lt;/p&gt;
-&lt;p&gt;依托沐曦股份"自研GPU硬件+MXMACA全栈软件"的软硬一体核心优势，公司得以快速响应大模型迭代节奏，高效完成各类主流模型的适配工作。近一段时间以来，沐曦股份已累计完成Day 0适配模型超15个，全面覆盖智谱、通义千问、阶跃星辰、百度飞桨等头部厂商的最新旗舰模型，涵盖语言、多模态、OCR等全品类，在国产GPU Day 0适配赛道持续保持行业领先地位，以全栈技术实力为大模型快速落地筑牢算力支撑。&lt;/p&gt;
-&lt;h2&gt;MiniMax M2.7: 开启模型的自我进化&lt;/h2&gt;
-&lt;p&gt;MiniMax M2.7是MiniMax第一个深度参与自我迭代的模型。&lt;/p&gt;
-&lt;p&gt;M2.7能够自行构建复杂Agent Harness，并基于Agent Teams、复杂Skills、Tool Search Tool等能力，完成高度复杂的生产力任务。在研发M2.7的过程中，MiniMax基于模型构建强化学习Harness中的数十个复杂的skills，更新自己的memory，驱动模型自身的强化学习，并基于结果优化强化学习过程和Harness，开启模型的自我进化。&lt;/p&gt;
-&lt;p&gt;以一个RL场景为例：研究员从一个实验想法出发，与Agent展开讨论。Agent协助进行文献调研，持续跟踪预设的实验规格，完成数据流水线及其他对接工作，并启动实验。实验运行期间，它会自动监控和分析实验状态，并自动触发日志读取、问题排查、指标分析、代码修复、合并请求以及冒烟测试。这些工作过去可能需要来自不同团队的多位同事协作完成，而现在研究员只需在关键决策和讨论时介入。在这个场景下，M2.7能够胜任30%至50%的工作流。&lt;/p&gt;
-&lt;p&gt;"自进化"模型的诞生，对底层算力提出了更高要求。&lt;span&gt;曦云C系列GPU凭借沐曦全栈自研的MXMACA软件栈，在M2.7开源当日即完成深度适配，实现"模型发布即算力就绪"的Day 0体验。&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;MiniMax M2.7在多个核心领域展现出卓越性能。&lt;/p&gt;
-&lt;h3&gt;软件工程能力&lt;/h3&gt;
-&lt;p&gt;在基准测试SWE-Pro中，M2.7以56.22%的正确率追平GPT-5.3-Codex。在涵盖多种编程语言的SWE Multilingual（76.5）和Multi SWE Bench（52.7）中展现出更显著优势。在端到端的完整项目交付场景（VIBE-Pro）上，M2.7得分55.6%，几乎与Opus 4.6持平。在对复杂工程系统的深层理解方面，Terminal Bench 2（57.0%）和NL2Repo（39.8%）表现稳健。&lt;/p&gt;
-&lt;h3&gt;专业办公能力&lt;/h3&gt;
-&lt;p&gt;在GDPval-AA的评测中，M2.7在45个模型中的ELO得分是1500，仅次于Opus 4.6、Sonnet 4.6和GPT5.4，超过了GPT5.3。M2.7对Office三件套Excel/PPT/Word的复杂编辑能力显著提升，能更好地完成多轮修改和高保真编辑。M2.7在40个复杂skills（&amp;gt; 2000 Token）的case上，仍能保持97%的skills遵循率。在Toolathon上，M2.7的正确率46.3%，达到了全球第一梯队水平。&lt;/p&gt;
-&lt;h3&gt;多智能体协作&lt;/h3&gt;
-&lt;p&gt;M2.7原生支持Agent Teams（多智能体协作）。Agent Teams对模型提出了范式级要求：角色边界、对抗性推理、协议遵循、行为分化——这些无法通过提示词，必须内化为模型的原生能力。&lt;/p&gt;
-&lt;h3&gt;技术架构&lt;/h3&gt;
-&lt;p&gt;M2.7采用2300亿参数MoE架构，在 MLE Bench Lite 的 22 项机器学习任务竞赛中，一举拿下 9 枚金牌。三次测试平均是 66.6% 的得牌率，此成绩仅次于 Opus-4.6 (75.7%)、GPT-5.4(71.2%)，和 Gemini-3.1(66.6%) 持平。&lt;/p&gt;
-&lt;h2&gt;沐曦股份全栈技术支撑模型高效适配&lt;/h2&gt;
-&lt;p&gt;此次高效适配的背后，是沐曦股份在软硬件协同方面的长期深耕。&lt;/p&gt;
-&lt;p&gt;沐曦股份GPU产品基于自主核心GPU IP打造，兼具高能效比与高通用性，已规模化部署10余个智算集群，覆盖国家人工智能公共算力平台、运营商智算平台和商业化智算中心。&lt;/p&gt;
-&lt;p&gt;目前，MXMACA软件栈不仅深度兼容主流GPU生态，还支持40多种AI框架，覆盖训练、推理、科学计算全场景，可大幅降低开发者的生态迁移成本。同时可支持500多款AI模型、4500多个开源项目软件兼容测试，覆盖95%的主流AI场景。&lt;/p&gt;
-&lt;p&gt;MXMACA软件栈于2025年2月正式开源。截至2026年3月，注册的开发者用户已突破30万人，API调用次数超过5591万次，文件下载量超过16万次。沐曦股份是国内少数提供核心软件生态开源、版本SDK公开下载渠道及英文开发文档的GPU企业，开源社区已覆盖超过半数的C9高校。&lt;/p&gt;
-&lt;p&gt;沐曦股份将持续深耕全栈技术研发，强化软硬协同与生态共建，以开放兼容的软件生态和强劲高效的硬件底座，为国产AI的高质量发展提供源源不断的算力动能。&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;span&gt;MiniMax M2.7 已在 MiniMax Agent 与开放平台上全量上线，访问链接如下：&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;· MiniMax Agent：agent.minimaxi.com&lt;/p&gt;
-&lt;p&gt;· API服务：platform.minimaxi.com&lt;/p&gt;
-&lt;p&gt;· Coding Plan订阅：platform.minimaxi.com/subscribe/coding-plan&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;欢迎前往沐曦开发者社区获取推理镜像(vLLM&amp;gt;=0.13.0)：&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://developer.metax-tech.com/"&gt;https://developer.metax-tech.com/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://www.minimaxi.com/news/%E6%B2%90%E6%9B%A6%E8%82%A1%E4%BB%BD%E6%9B%A6%E4%BA%91c%E7%B3%BB%E5%88%97gpu-day-0%E9%80%82%E9%85%8Dminimax-m27-%E6%BE%8E%E6%B9%83%E7%AE%97%E5%8A%9B%E6%94%AF%E6%8C%81%E8%87%AA%E8%BF%9B%E5%8C%96%E5%A4%A7%E6%A8%A1%E5%9E%8B</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:48:21.054888+00:00</crawled>
-    </item>
-    <item>
-      <title>MiniMax Music 2.6：我们想讲四个人的故事</title>
-      <link>https://minimaxi.com/news/music-26</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026-04-10&lt;/div&gt;&lt;h1&gt;MiniMax Music 2.6：我们想讲四个人的故事&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/ba44b483-c46c-4611-8942-470f77750af5.png" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fba44b483-c46c-4611-8942-470f77750af5.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
-&lt;p&gt;今天我们发布 MiniMax Music 2.6。&lt;/p&gt;
-&lt;p&gt;过去几代，我们都在讲模型本身变强了多少。这一次我们想换一种讲法——讲四个人、四段音乐、四件过去做不到的事。因为一个音乐模型的升级，最终不是活在参数表里的，是活在"这一次有人用它做成了一件以前做不成的事"里。&lt;/p&gt;
-&lt;h2&gt;她在做一段需要呼吸的国风&lt;/h2&gt;
-&lt;p&gt;@萧蓠苒苒 是一个做了三年国风短视频的独立创作者，一直在找能用的国风音乐素材。&lt;/p&gt;
-&lt;p&gt;国风里最有辨识度的部分，恰恰是 AI 音乐最做不好的部分。&lt;/p&gt;
-&lt;p&gt;二胡的揉弦、笛子的气口、古筝的扫弦、戏腔的收放——这些不是乐器种类的问题，是演奏细节的问题。过去的 AI 音乐能识别"国风"这个标签，但做出来的东西像一套国风音色包被机械地拼在一起，该有呼吸的地方没有呼吸，该有气口的地方没有气口。&lt;/p&gt;
-&lt;p&gt;Music 2.6 在器乐上不止支持更多乐器，也让乐器之间&lt;span&gt;有了横向的时序演进&lt;/span&gt;。开场可以只有鼓的留白、弦乐和弹拨乐器一层一层进来，旋律和人声最后一起推到顶点。先铺氛围，再入旋律，这是古戏里"仓才仓才"锣鼓开场的章法，也是 AI 音乐开始真正懂国风的进场顺序。&lt;/p&gt;
-&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-1.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
-&lt;p&gt;她现在可以做的事：一条国风短视频的 BGM，从"找现成的、版权模糊的素材"，变成"15 分钟写一段完全符合画面情绪的原创配乐"。&lt;/p&gt;
-&lt;h2&gt;他在给独立游戏配 boss 战&lt;/h2&gt;
-&lt;p&gt;@本命彦祖 的问题是，他在做一款单人开发的动作游戏，预算里没有配乐工作室这一项。&lt;/p&gt;
-&lt;p&gt;过去他有两个选择。一是花几千块买一套 sample library，但 sample library 里的"史诗战斗音乐"就那么几首，买回来的第一天他就知道玩家会听到重复。二是用 AI 音乐生成，但过去的 AI 音乐做史诗感做不到——鼓点是"响"但不是"重"，低频是糊的，推不动 boss 战该有的情绪压迫感。&lt;/p&gt;
-&lt;p&gt;Music 2.6 这一代对中低频做了专门的优化。贝斯和鼓点在下潜深度和咬合紧密度上有了明显提升——具体落到听感上就是：在带低音的耳机里、在车载音响里、在玩家的游戏音响里，鼓和贝斯不会糊成一片，它们能真的推着画面走。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;配合 2.6 对段落结构的理解力提升，他可以在 prompt 里明确写："开局渲染压抑氛围，逐渐过渡到力量觉醒，再到爆发与无敌的姿态"——模型能真的按这个结构来。&lt;/span&gt;&lt;/p&gt;
-&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-2.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
-&lt;p&gt;他现在可以做的事：给一款独立游戏做一整套 boss 战配乐，成本从几千块降到一个下午。&lt;/p&gt;
-&lt;h2&gt;她在挑一份能放在咖啡厅里四小时的独家歌单&lt;/h2&gt;
-&lt;p&gt;@南方易小姐 是一家精品咖啡店的主理人，每天下午 2 点到 6 点的时段需要一份歌单，但她一直挑不到合适的。&lt;/p&gt;
-&lt;p&gt;播放器的咖啡馆歌单要么太有"背景音乐感"——流畅到没有存在感，放了等于没放；要么太有"表演感"——萨克斯 solo 张扬到抢走客人的对话。而咖啡馆需要的音乐有一个反直觉的标准：它必须足够好听到能被注意，又足够克制到不会被讨厌。这个"刚好"的分寸，过去的 AI 音乐几乎做不到。&lt;/p&gt;
-&lt;p&gt;Music 2.6 的人声和旋律处理有一个微妙但重要的变化：它允许"不精准"。在合适的风格区间里（lo-fi、indie folk、独立爵士），这种不精准变成了律动的呼吸感。&lt;/p&gt;
-&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-3.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
-&lt;p&gt;在她创作的《荒野赛跑》中，人声带着一种深夜独处时的随性与倔强，像另一个自我在唱一首写给自己的歌。低频的 Bass 和鼓点与中频的人声能量几乎完全对等，高频被刻意压制在暖厚暗调里。放进咖啡馆里，不会让任何人觉得烦，但偶尔会让某个客人停下来，问一句"这首歌是谁唱的"。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;她现在可以做的事：不再在歌单里挑来挑去，直接告诉 2.6 她想要的情绪和氛围——"深夜感、都市、微醺、不要太亮"&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;她是一个想给妈妈做生日惊喜的女儿&lt;/h2&gt;
-&lt;p&gt;@NYX 是四个人里，以前最做不成自己那件事的一个。&lt;/p&gt;
-&lt;p&gt;她不会编曲，不认识音乐人，预算也有限。她想做的事很简单——妈妈年轻时最喜欢的那首歌，她想用自己的风格重新做一版，作为妈妈生日那天的惊喜。&lt;/p&gt;
-&lt;p&gt;这件事过去没法做。不是因为 AI 音乐生成不了音乐，是因为她要的不是"一首新歌"——她要的是"&lt;span&gt;那首歌&lt;/span&gt;的另一种样子"。旋律必须是妈妈认得出的那条旋律，改的是风格、编曲、氛围。这是一个需要把一首已经存在的歌作为精确约束的任务。&lt;/p&gt;
-&lt;p&gt;这是 Music 2.6 的新功能：&lt;span&gt;Cover&lt;/span&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;你上传一首歌，模型会精准提取它的旋律骨架，然后让你决定骨架之外的一切——风格可以从民谣跳到重金属，编曲可以从古典交响变成赛博朋克电子，甚至可以保留旋律、完全换掉歌词。&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;《友谊地久天长》原曲：&lt;/p&gt;
-&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-4.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
-&lt;p&gt;Cover 版本：&lt;/p&gt;
-&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-5.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
-&lt;p&gt;她现在可以做的事：在生日前一个晚上，花半小时，做出一份过去需要整个编曲团队才能做出的礼物。&lt;/p&gt;
-&lt;h2&gt;这四个人，和剩下的那些人&lt;/h2&gt;
-&lt;p&gt;以上是四个人的故事。但 Music 2.6 的升级不止覆盖这四个人——&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;首包延迟降到 20 秒以内&lt;/span&gt;。当你写完 prompt，短暂的一个深呼吸之后就能听到第一段反馈。过去的"等待感"基本消失。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;指令控制全面增强&lt;/span&gt;。BPM、Key、段落结构、情绪走向都可以写在 prompt 里被模型准确执行。你写下的具体要求，模型会认真执行。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;中低频声学表现系统性优化&lt;/span&gt;。除了前面提到的游戏配乐场景，任何对低频有要求的风格——House、Trap、Drum &amp;amp; Bass——都会直接受益。&lt;/p&gt;
-&lt;p&gt;这些能力在上面四个故事里都有出场，但它们的适用范围比那四个故事宽得多。&lt;/p&gt;
-&lt;h2&gt;还有一种用法：让 Agent 替你用它&lt;/h2&gt;
-&lt;p&gt;上面四个人都是直接和 Music 2.6 打交道。但如果你是一个 AI Agent 开发者，你可能想的不是自己用它做一首歌，而是让我的 Agent 能用它做一首歌。&lt;/p&gt;
-&lt;p&gt;这是我们这次同步开源的三个 Music Skill 要解决的事：&lt;/p&gt;
-&lt;div&gt;
-&lt;p&gt;• &lt;span&gt;minimax-music-gen&lt;/span&gt;：让 Agent 具备完整的音乐生成能力。一句话描述需求，Agent 自动识别意图、选择模式（原创/纯音乐/Cover）、调用生成接口。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;• &lt;span&gt;minimax-music-playlist&lt;/span&gt;：让 Agent 成为你的音乐主理人。它会了解你的听歌喜好，构建品味画像，然后为你生成整份定制歌单。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;• &lt;span&gt;buddy-sings&lt;/span&gt;：让你的虚拟伙伴开口唱歌。联动 OpenClaw，Agent 会读取你定义的角色人格，构建专属的声音身份，以角色第一人称为你即兴创作。去试试看，让一直陪伴你工作的 Moth 唱一首歌吧 ~&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2&gt;现在就试&lt;/h2&gt;
-&lt;p&gt;这四个人的故事，本来都不是 Music 2.6 写的剧本。是他们自己想做的事，我们只是用 AI 做到了能让他们做成的程度。&lt;/p&gt;
-&lt;p&gt;即日起，MiniMax Music 2.6 全球创作内测开启，14 天限免，邀你来创作。&lt;/p&gt;
-&lt;div&gt;
-&lt;p&gt;• C 端产品用户：每个账号每日 500 首免费创作额度&lt;/p&gt;
-&lt;p&gt;• 开发者：现有 Token Plan 用户额外获赠 100 首/天的免费调用额度&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;每一段音乐背后，都是一个在 AI 时代第一次成为音乐创作者的人。&lt;/p&gt;
-&lt;p&gt;你那件想做的事，是什么？&lt;/p&gt;
-&lt;p&gt;C 端产品体验：&lt;a href="https://minimaxi.com/audio/music"&gt;minimaxi.com/audio/music&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;API 接口：&lt;a href="https://platform.minimaxi.com/docs/api-reference/music-generation"&gt;platform.minimaxi.com/docs/api-reference/music-generation&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Intelligence with Everyone.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://minimaxi.com/news/music-26</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:49:12.497953+00:00</crawled>
+      <crawled>2026-07-07T16:48:57.738294+00:00</crawled>
     </item>
   </channel>
 </rss>

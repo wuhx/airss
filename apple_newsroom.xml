@@ -7,26 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Jul 2026 00:01:25 +0000</lastBuildDate>
-    <item>
-      <title>WWDC26: Apple unveils next generation of Apple Intelligence, Siri AI, powerful parental controls, and an expansive set of software improvements</title>
-      <link>https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</link>
-      <description>&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Today, during the Worldwide Developers Conference, Apple previewed its upcoming software releases that will deliver the next generation of &lt;a href="https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/"&gt;Apple Intelligence&lt;/a&gt; and introduce &lt;a href="https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/"&gt;Siri AI&lt;/a&gt;, an entirely new version of Siri that is profoundly more intelligent, knowledgeable, and capable. The releases also bring powerful and intuitive &lt;a href="https://www.apple.com/newsroom/2026/06/apple-previews-new-child-safety-features/"&gt;new features to help parents create safe digital experiences for kids&lt;/a&gt;, as well as improvements that further elevate the software design and performance of Apple products while making them more responsive, delightful, and easier to use with &lt;a href="https://www.apple.com/os/ios/"&gt;iOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/ipados/"&gt;iPadOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/macos/"&gt;macOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/watchos/"&gt;watchOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/visionos/"&gt;visionOS 27&lt;/a&gt;, and tvOS 27.
-&lt;/div&gt;
-&lt;div&gt;“Apple products are an essential part of people’s lives, and this year we’re bringing powerful new capabilities to empower our users in even more ways,” said Craig Federighi, Apple’s senior vice president of Software Engineering. “We’re delivering the next generation of Apple Intelligence across our platforms; introducing Siri AI, a profoundly more intelligent, knowledgeable, and capable Siri; expanding child safety features with intuitive new tools for families; and making our software platforms faster, more reliable, and more delightful than ever before.”
-&lt;/div&gt;
-&lt;h2&gt;&lt;strong&gt;Next Generation of Apple Intelligence and an Entirely New Siri Experience&lt;/strong&gt;
-&lt;/h2&gt;
-&lt;div&gt;Leveraging a bold new architecture uniquely designed to protect users’ privacy, the next generation of &lt;a href="https://www.apple.com/apple-intelligence/"&gt;Apple Intelligence&lt;/a&gt; powers Siri AI and brings helpful new features to apps users rely on every day.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:03:18.848767+00:00</crawled>
-    </item>
+    <lastBuildDate>Fri, 17 Jul 2026 00:02:02 +0000</lastBuildDate>
     <item>
       <title>Apple Intelligence brings powerful AI capabilities into everyday experiences</title>
       <link>https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/</link>
@@ -62,6 +43,25 @@
       <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-07T17:03:13.246277+00:00</crawled>
+    </item>
+    <item>
+      <title>WWDC26: Apple unveils next generation of Apple Intelligence, Siri AI, powerful parental controls, and an expansive set of software improvements</title>
+      <link>https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Today, during the Worldwide Developers Conference, Apple previewed its upcoming software releases that will deliver the next generation of &lt;a href="https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/"&gt;Apple Intelligence&lt;/a&gt; and introduce &lt;a href="https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/"&gt;Siri AI&lt;/a&gt;, an entirely new version of Siri that is profoundly more intelligent, knowledgeable, and capable. The releases also bring powerful and intuitive &lt;a href="https://www.apple.com/newsroom/2026/06/apple-previews-new-child-safety-features/"&gt;new features to help parents create safe digital experiences for kids&lt;/a&gt;, as well as improvements that further elevate the software design and performance of Apple products while making them more responsive, delightful, and easier to use with &lt;a href="https://www.apple.com/os/ios/"&gt;iOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/ipados/"&gt;iPadOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/macos/"&gt;macOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/watchos/"&gt;watchOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/visionos/"&gt;visionOS 27&lt;/a&gt;, and tvOS 27.
+&lt;/div&gt;
+&lt;div&gt;“Apple products are an essential part of people’s lives, and this year we’re bringing powerful new capabilities to empower our users in even more ways,” said Craig Federighi, Apple’s senior vice president of Software Engineering. “We’re delivering the next generation of Apple Intelligence across our platforms; introducing Siri AI, a profoundly more intelligent, knowledgeable, and capable Siri; expanding child safety features with intuitive new tools for families; and making our software platforms faster, more reliable, and more delightful than ever before.”
+&lt;/div&gt;
+&lt;h2&gt;&lt;strong&gt;Next Generation of Apple Intelligence and an Entirely New Siri Experience&lt;/strong&gt;
+&lt;/h2&gt;
+&lt;div&gt;Leveraging a bold new architecture uniquely designed to protect users’ privacy, the next generation of &lt;a href="https://www.apple.com/apple-intelligence/"&gt;Apple Intelligence&lt;/a&gt; powers Siri AI and brings helpful new features to apps users rely on every day.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:03:18.848767+00:00</crawled>
     </item>
     <item>
       <title>Apple introduces innovative features and intelligence experiences across services</title>
