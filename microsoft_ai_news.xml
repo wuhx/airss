@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Jul 2026 23:28:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 23:30:22 +0000</lastBuildDate>
     <item>
       <title>lang-en</title>
       <link>https://news.microsoft.com/source/latam/features/ai/data-driven-farming-chile/?lang=en</link>
@@ -1080,6 +1080,58 @@ smells the white flowers on a green bush." height="683" src="https://news.micros
       <guid isPermaLink="false">https://www.microsoft.com/en-us/worklab/aiwork-tokenomics-is-the-new-headcount-and-four-more-trends-to-watch</guid>
       <pubDate>Tue, 07 Jul 2026 17:06:55 +0000</pubDate>
       <crawled>2026-07-07T17:06:55.784118+00:00</crawled>
+    </item>
+    <item>
+      <title>3M and Microsoft announce strategic partnership to advance AI data center infrastructure and enterprise transformation</title>
+      <link>https://news.microsoft.com/source/2026/07/15/3m-and-microsoft-announce-strategic-partnership-to-advance-ai-data-center-infrastructure-and-enterprise-transformation/</link>
+      <description>&lt;article&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;figure&gt;
+&lt;img alt="3M and Microsoft text shown on top of a datacenter image" src="https://news.microsoft.com/source/wp-content/uploads/2026/07/3M_Microsoft_datacenter_left_centered_overlay_highres-1024x683.jpg"/&gt; &lt;/figure&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;h3&gt;&lt;em&gt;Microsoft becomes first announced hyperscale cloud provider to deploy&lt;/em&gt; &lt;em&gt;3M Expanded Beam Optical (EBO) technology&lt;/em&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;em&gt;3M to use Microsoft AI and digital capabilities to advance enterprise transformation across key functions&lt;/em&gt;&lt;/h3&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;ST. PAUL, Minn. and REDMOND, Wash. — July 15, 2026 — &lt;/strong&gt;3M (NYSE: MMM) and Microsoft (Nasdaq: MSFT) today announced a strategic partnership focused on AI data center infrastructure and enterprise transformation. Microsoft’s Azure cloud and AI infrastructure will become the first announced hyperscale cloud provider to deploy 3M’s Expanded Beam Optical (EBO) technology. 3M will also use Microsoft’s AI and digital platforms as part of its enterprise transformation across key business functions.&lt;/p&gt;
+&lt;p&gt;Together, the companies will combine Microsoft’s digital and hyperscale infrastructure with 3M’s materials science and precision manufacturing to accelerate AI adoption and strengthen the physical networks required for the growth of cloud and AI workloads.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Innovating datacenter infrastructure for the AI era&lt;/strong&gt;&lt;br/&gt;As Microsoft continues to advance high-performance, efficient and sustainable infrastructure for enterprise and generative AI workloads, it will deploy 3M’s proprietary EBO technology in Azure data centers.&lt;/p&gt;
+&lt;p&gt;By using an expanded beam optical interface instead of the direct contact required in traditional connectors, EBO technology is designed to make fiber connections faster to install, more tolerant of contamination and easier to maintain. The technology will help Microsoft reduce the need for frequent cleaning and inspection while supporting reliable optical performance in dense, high-volume deployment environments.&lt;/p&gt;
+&lt;p&gt;Microsoft’s early use of EBO technology has shown the potential to reduce network deployment timelines in certain environments. The technology has also demonstrated strong signal performance in live data center conditions, where dust exposure and routine handling are typical during installation and maintenance.&lt;/p&gt;
+&lt;p&gt;3M is scaling production of its EBO technology to meet accelerating demand from hyperscalers and data center operators building the infrastructure required for AI. Building on decades of materials science and precision-manufacturing expertise, 3M has advanced single-mode expanded beam optical technology for high-volume data center applications, supporting disciplined commercialization and broader adoption across the data center ecosystem. 3M helped establish the EBO Multi-Source Agreement (MSA) to support standardization and broader industry adoption of EBO technology.&lt;/p&gt;
+&lt;p&gt;“At Microsoft, we’re redefining the foundation of cloud and AI infrastructure — combining our own innovations with advances from partners like 3M to build datacenters that are faster to deploy, more resilient and ready for the scale of AI,” said Cliff Henson, corporate vice president, cloud supply chain and engineering at Microsoft. “3M’s EBO solution will help unlock new levels of performance, reliability and efficiency to ensure customers can run their cloud and AI workloads on a trusted, sustainable and advanced environment.”  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Enterprise AI transformation&lt;/strong&gt;&lt;br/&gt;3M will deploy Microsoft’s AI and digital capabilities in key areas of its enterprise transformation road map, including customer service, finance, sales and marketing. These efforts will help simplify processes, improve decision-making, strengthen customer experiences and enable greater employee productivity.&lt;/p&gt;
+&lt;p&gt;A specific example involves the newly launched Microsoft Frontier Company deploying engineers to help 3M’s Global Business Services team automate the way it manages customer orders. Both companies are collaborating on an AI agent–driven workflow to assist with credit checks, delinquency assessments and system updates, with human-in-the-loop controls and a custom monitoring dashboard for real-time visibility and approvals. This solution is expected to significantly reduce manual effort, improve process speed and consistency, and accelerate cash flow, freeing 3M staff for higher-value work and enabling scalable, auditable operations.&lt;/p&gt;
+&lt;p&gt;“At 3M, we view AI as a powerful tool that can accelerate growth, improve customer experiences and help our teams work more effectively,” said Jon Van Wyck, executive vice president and chief strategy officer, 3M. “Our collaboration with Microsoft supports that vision through targeted optimization opportunities for our enterprise while advancing the infrastructure needed to power the future of AI. We are excited to deepen our partnership and develop practical solutions that can create mutual value.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Building the future through science and technology&lt;/strong&gt;&lt;br/&gt;Microsoft and 3M intend to build on this partnership through continued technical collaboration, bench-to-bench engagement between engineering and commercial teams, and joint innovation opportunities across Microsoft’s data center and device ecosystem, with a focus on areas where 3M’s materials science, optical connectivity and manufacturing capabilities can help address evolving requirements for reliability, deployment speed, density and long-term scalability.&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;About 3M&lt;/strong&gt; &lt;br/&gt;3M (NYSE: MMM) is focused on transforming industries around the world by applying science and creating innovative, customer-focused solutions. Our multi-disciplinary team is working to solve tough customer problems by leveraging diverse technology platforms, differentiated capabilities, global footprint and operational excellence. Discover how 3M is shaping the future at &lt;a href="https://protect.checkpoint.com/v2/r01/___https:/edge.prnewswire.com/c/link/?t=0&amp;amp;l=en&amp;amp;o=4640394-1&amp;amp;h=128464734&amp;amp;u=https%3A%2F%2Fedge.prnewswire.com%2Fc%2Flink%2F%3Ft%3D0%26l%3Den%26o%3D4533078-1%26h%3D2068249304%26u%3Dhttps%253A%252F%252Fedge.prnewswire.com%252Fc%252Flink%252F%253Ft%253D0%2526l%253Den%2526o%253D4525281-1%2526h%253D861190626%2526u%253Dhttps%25253A%25252F%25252Fedge.prnewswire.com%25252Fc%25252Flink%25252F%25253Ft%25253D0%252526l%25253Den%252526o%25253D4509889-1%252526h%25253D1371207810%252526u%25253Dhttps%2525253A%2525252F%2525252F3m.com%2525252Fnews%252526a%25253D3M.com%2525252Fnews%2526a%253D3M.com%25252Fnews%26a%3D3M.com%252Fnews&amp;amp;a=3M.com%2Fnews___.YzJ1OndlY29tbXVuaWNhdGlvbnM6YzpvZmZpY2UzNjVfZW1haWxzX2F0dGFjaG1lbnQ6ZTdlODhmNGQ2MjkxZmZmNzUxNDAxNGIxMWZiMTUyNDM6NzowZTczOjgxMTYzOWZlNDFmNDdjMzUzYzQyNGE4NjdlNDYyM2RhOGY0MGZjYjhhNDc1M2EwNGZkZTY0YzRmODBlMmE1MDM6cDpUOkY"&gt;3M.com/news&lt;/a&gt;. &lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;About Microsoft &lt;/strong&gt;&lt;br/&gt;Microsoft (Nasdaq “MSFT” @microsoft) creates platforms and tools powered by AI to deliver innovative solutions that meet the evolving needs of our customers. The technology company is committed to making AI available broadly and doing so responsibly, with a mission to empower every person and every organization on the planet to achieve more. &lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Media contacts&lt;/strong&gt;&lt;br/&gt;3M, &lt;a href="mailto:3MNews@mmm.com"&gt;3MNews@mmm.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Microsoft Media Relations, &lt;strong&gt;We. Communications&lt;/strong&gt; for Microsoft, (425) 638-7777, &lt;a href="mailto:rapidresponse@wecommunications.com"&gt;rapidresponse@wecommunications.com&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt; &lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;h4&gt;Tags: &lt;/h4&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://news.microsoft.com/source/tag/press-releases/"&gt;Press releases&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt;&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://news.microsoft.com/source/2026/07/15/3m-and-microsoft-announce-strategic-partnership-to-advance-ai-data-center-infrastructure-and-enterprise-transformation/</guid>
+      <pubDate>Wed, 15 Jul 2026 13:00:19 +0000</pubDate>
+      <crawled>2026-07-20T22:52:22.105271+00:00</crawled>
     </item>
   </channel>
 </rss>

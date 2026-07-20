@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Jul 2026 23:28:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 23:30:17 +0000</lastBuildDate>
     <item>
       <title>Seed-1.6-Embedding：基于 Seed1.6-Flash 构建的多模态向量化模型</title>
       <link>https://seed.bytedance.com/zh/research/seed-1-6-embedding-基于-seed1-6-flash-构建的多模态向量化模型</link>
@@ -115,114 +115,7 @@
 </description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/seed-1-6-embedding-基于-seed1-6-flash-构建的多模态向量化模型</guid>
       <pubDate>Fri, 27 Jun 2025 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Seed-1.6-Embedding：基于 Seed1.6-Flash 构建的多模态向量化模型</title>
-      <link>https://seed.bytedance.com/zh/research/seed-1-6-embedding-基于-seed1-6-flash-构建的多模态向量化模型</link>
-      <description>我们推出了 Seed-1.6-Embedding，这是一个基于Seed1.6-Flash构建的向量化模型。它具有以下关键特性:
-
-&lt;br/&gt;
-
-* **多模态混合检索**: 支持文本、图像和视频模态之间的混合检索。
-
-&lt;br/&gt;
-
-* **SOTA性能**: 在纯文本任务的CMTEB排行榜和多模态任务的MMEB-V2排行榜上均取得了新的SOTA分数。
-
-&lt;br/&gt;
-
-* **灵活性**: 支持多种嵌入维度 —[2048, 1024] 在较低维度下仍保持较好效果。
-
-&lt;br/&gt;
-
-[Seed1.6-Embedding的API已在火山引擎上线（模型ID：doubao-embedding-vision-250615）。](https://console.volcengine.com/auth/login?redirectURI=%2Fark%2Fregion%3Aark%2Bcn-beijing%2Fmodel%2Fdetail%3FId%3Ddoubao-embedding-vision)
-
-&lt;br/&gt;
-
-## 模型结构
-
-&lt;br/&gt;
-
-基于Seed1.6-Flash，Seed-1.6-Embedding充分保留和增强了模型对于文本、图片、视频以及混合模态的多模态理解能力。它基于双塔结构，提取的向量维度与[EOS]token 的最后一层隐向量相对应。
-
-&lt;br/&gt;
-&lt;p&gt;&lt;img alt="image" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymct5lyoa.png"/&gt;&lt;/p&gt;
-&lt;br/&gt;
-
-## 训练方法
-
-&lt;br/&gt;
-
-在 embedding 模型的构建过程中，我们使用了分阶段训练策略，逐步提升模型性能，最终塑造出Seed1.6-Embedding 模型。
-
-&lt;br/&gt;
-
-### Stage1: Text Continue Training
-
-&lt;br/&gt;
-
-**训练目标**: 这一阶段的目标是赋予模型基础的 embedding 能力，将vlm模型转变为具备embedding能力的模型。
-
-&lt;br/&gt;
-
-**训练策略**: 我们使用了大规模纯文本数据作为训练数据，涵盖了从互联网采集的多领域公开数据以及部分合成数据。对于公开数据，我们设计了精巧的数据清洗算法和过滤规则，去除其中的噪声、重复内容以及无关信息，保证数据的高质量。而合成数据则是基于特定的种子数据，借助大语言模型进行扩展，使得合成的数据能够覆盖各类不同的领域知识和话题。训练过程中，每条样本是一个文本对，并采用 infoNce 损失函数进行对比学习。
-
-&lt;br/&gt;
-
-### Stage 2: Multimodal Continue Training
-
-&lt;br/&gt;
-
-**训练目标**: 在上一阶段的基础上，增加文、图、视频的多模态对齐能力。
-
-&lt;br/&gt;
-
-**训练策略**: 我们收集了千万级规模的图文对、视频-文对数据用于训练。这些原始数据一部分采集自互联网，为确保数据质量，首先对其中的图片进行严格的清洗和过滤，剔除模糊、损坏、低分辨率等不合格的图片。同时，为了构建高质量的图文样本对，我们设计了一套数据生产流程，从原始图片中获取准确、详细的 caption，使图文语义实现精准匹配。在训练过程中，同样采用 infoNce 损失函数，通过优化图文对在向量空间中的距离，不断强化模型对多模态数据的理解能力。
-
-&lt;br/&gt;
-
-### Stage 3: Fine-Tuning
-
-&lt;br/&gt;
-
-**训练目标**: 这一阶段的目标是通过引入不同形式、模态以及任务类型的数据，全面提升模型在各类细分场景和复杂任务下的处理能力，使其能够更好地适配信息检索、内容分类等实际应用需求。
-
-&lt;br/&gt;
-
-**训练策略**: 我们从任务类型、输入数据模态、任务场景三个关键维度出发，系统性地构建高质量的微调数据集。一方面参考公开评测集的任务类型和数据结构，另一方面紧密结合火山引擎的实际业务需求与丰富经验，构建了数十个不同任务的数据集。针对每个数据集的特点和场景需求，我们设计了专属的指令，以引导模型学习特定任务的处理逻辑，并具备一定的泛化能力。对于部分训练数据匮乏的场景和任务，我们运用数据增强和合成技术，扩充数据规模；对于难度较高，训练效果不佳的任务，定向挖掘不同难度层次的负样本，以此提升模型在复杂任务下的表现。最后，将所有数据集进行混合训练，经过多轮迭代优化，使得 Seed1.6-Embedding 模型在不同的细分场景下都展现出较好的泛化能力与性能表现。
-
-&lt;br/&gt;
-
-## 效果
-
-&lt;br/&gt;
-
-在最能体现模型泛化能力的权威榜单中，Seed1.6-Embedding 均展现出优势:
-
-&lt;br/&gt;
-&lt;p&gt;C-MTEB (Chinese)&lt;/p&gt;
-&lt;p&gt;&lt;img alt="image" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymct6e22m.jpeg"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;*截止到6月28日&lt;/span&gt;&lt;/p&gt;
-&lt;br/&gt;
-
-**纯文本任务**: 在 CMTEB 中文文本向量评测榜单上，模型以75.62高分刷新榜单 SOTA，在检索、分类、语义匹配等通用任务表现上领跑。
-
-&lt;br/&gt;
-&lt;p&gt;MMEB-V2&lt;/p&gt;
-&lt;p&gt;&lt;img alt="image" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymct6fijt.jpeg"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;*截止到6月28日&lt;/span&gt;&lt;/p&gt;
-&lt;br/&gt;
-
-**多模态任务**: 在多模态评测榜单 MMEB_v2中，模型的图片、视频向量化任务登顶 SOTA，实现较大幅度领先。其中在 MMEB_v2 Image 榜单上，模型以77.78分领先第二名5.6分；模型新增的视频模态，在 MMEB_v2 video 榜单领先第二名20.1分。
-
-&lt;br/&gt;
-
-## 使用方法
-
-&lt;p&gt;&lt;img alt="image" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymct6qcxe.jpeg"/&gt;&lt;/p&gt;
-</description>
-      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/seed-1-6-embedding-基于-seed1-6-flash-构建的多模态向量化模型</guid>
-      <pubDate>Fri, 27 Jun 2025 16:00:00 +0000</pubDate>
+      <crawled>2026-07-07T09:36:54.092804+00:00</crawled>
     </item>
     <item>
       <title>25 篇成果入选，字节跳动 Seed 与你共赴 ICML 2025</title>
@@ -8761,6 +8654,13 @@ Seed-OSS-36B-Instruct 是基于 Seed-OSS-36B-Base 进行后训练的模型版本
       <description>&lt;p&gt;&lt;span&gt;如今，智能图像创作已经逐渐走进大众日常。&lt;br/&gt;&lt;br/&gt;但在真实的生产环境中，画面好看往往只是起点。更重要的是，模型是否能够高效地满足复杂、专业的创作需求，将“创作者意图”与“视觉呈现”的距离缩到最短，实现真正可用。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;今天，我们正式发布多模态图像创作模型 —— Seedream 5.0 Pro。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;相比之前版本，Seedream 5.0 Pro 在图文匹配、结构合理性、文字渲染与画面美感等基础能力上全面提升，并带来了四大核心能力突破：&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;复杂信息可视化&lt;/strong&gt;：将数据、概念与密集文字准确转化为专业排版，直接用于高信息密度的内容生产。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;交互式精准编辑&lt;/strong&gt;：基于对空间位置与区域语义的理解，支持点选、圈选、草图渲染、色彩与材质替换、图层分离、多图融合的自由组合，实现像素级编辑。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;真实的影像与人像质感&lt;/strong&gt;：还原现实世界的光影、材质与皮肤肌理，兼顾 CG 表现与摄影质感，画面更具生命力。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;原生多语种输入与生成&lt;/strong&gt;：支持十余种世界常用语言的直接输入与高质量渲染，准确传递本地化特征。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbz4nie.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;p&gt;&lt;span&gt;目前，Seedream 5.0 Pro 已上线火山方舟体验中心，也将陆续在豆包、即梦上线，欢迎体验。&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;项目主页：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://seed.bytedance.com/seedream5_0_pro"&gt;&lt;span&gt;https://seed.bytedance.com/seedream5_0_pro&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;体验入口：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;1）豆包 App/电脑版-AI 创作-图片生成-选择模型 Seedream 5.0 Pro；&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;2）即梦网页端-图片生成/Agent 模式-选择图片 5.0 Pro；&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;3）火山方舟体验中心-视觉模型-图片生成-Doubao-Seedream-5.0-pro&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;高密度信息表达，一图讲清复杂逻辑&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;在专业场景中，图像不仅是视觉装饰，更是信息本身。而信息图生成，是当前 AI 图像生成中复杂度最高的领域之一，它要求模型在单次生成中，同时兼顾数据准确、密集文字无错漏、版面结构合理与专业美感。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Pro 对其进行了针对性优化，能深度解析用户意图，自主完成逻辑推理与版面规划，在不同场景下稳定输出高密度信息图。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;如图所示，「南极科考站」中，模型在同一画面内融合了时间轴、折线图、柱状图与站体实景，信息层级分明，视觉隐喻准确，展现出对全景数据的空间统筹能力。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498204994.jpg" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbss6df.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：主题为南极秦岭站科考纪事可视化信息图，中心放置秦岭站建筑主体；四周环绕排布科考发展时间轴、五座科考站规模柱状图、站点能源饼图、月度日照折线图，辅以科研设备实拍、夏季气象面板、野外作业七步流程、实地采样摄影，多方面展示中国南极科考实景。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;模型也能满足教育、科普场景对事实准确度的高要求：不仅能生动解释“为什么月全食的月亮是红色”，还能准确提取不同鸟类的形态特征，完成规整的网格化排版。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498205512.jpg" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbss6rs.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：生成一张天文科普信息图，解释：为什么月全食的月亮是红色的？&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img alt="remote-media-1783498206547.jpg" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbss7kj.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：生成一张《新手观鸟入门指南》自然科普信息图，采用清新配色的网格排版，展示 8 种常见鸟类，并附带科学插画、中英文名、识别特征等内容。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;面对「冬日圣诞促销海报」这种包含标题、折扣细则、活动时间等多层级的密集文本，模型在复古卷轴上疏密有致地排布：大量英文拼写无误，并按信息主次穿插粗体与手写体，兼顾信息密度与商业美感。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498208218.jpg" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbss8uz.jpg"/&gt;&lt;p&gt;&lt;span&gt;在「宠物电商首屏」UI 中，模型展现出对空间拓扑的理解力。它生成了清晰的导航栏与悬浮卡片，并执行跨层交互——金毛犬的前爪打破右侧图片边界，真实按压在左侧按钮上；可帮助用户快速生成产品原型图。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498210842.png" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbssavu.png"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：16:9 宠物电商首屏 UI，日落暖阳色调，分层阴影。顶部导航；左侧奶油米色背景，含文案、商品卡片、金黄胶囊按钮；右侧金毛图，3D 特效：金毛前爪冲破右框，搭在左侧按钮上。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;交互式精准编辑，让创作更自由可控&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;纯文本 Prompt 有天然局限：语言擅长描述“生成什么”，却难以精确指定“修改哪里”，而设计往往需要反复微调打磨。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Pro 把控制信号原生介入生成过程，核心在于它对空间位置（Grounding）与区域语义的精准理解，从而实现像素级的交互式编辑。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;模型能深刻解析画面中的位置信息。在「2026 新高考数学试卷解答」中，它准确识别题目，锁定每一题下方的留白区域进行演算，并将答案填入对应的答题位置。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498211778.png" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbssblu.png"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt: 帮我完成上述所有选择题，并写上对应的演算过程。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;在日常应用场景中，模型同样能将海外菜单精准翻译成中文，并做到排版位置的一一对应。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498213402.png" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbsscuz.png"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：把菜单翻译成中文。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;基于这种空间感知，模型能把用户通过点选、圈选、框选、涂鸦传递的坐标信息，转化为确定性的局部操控指令，衍生出多种实用玩法：&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;局部交互与属性重构：点选、圈选、色彩编辑与材质替换&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;模型提供了一套并行的精细化控制手段。在空间定位上，通过点选或圈选即可锁定目标元素，实现局部对象的消除或定点新增；在对象修改上，模型支持色彩编辑与材质替换。几种手段相互配合，让改色、换材质或增删对象后的局部与整体环境自然过渡，透视正确。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;如图所示，模型支持输入 Hex 色卡值或直接参考外部色卡控制颜色，并同步替换对象材质。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498215186.jpg" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbsse8i.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：请依据图 1 的材质和图 2 的色卡，修改图 3 中的沙发。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;模型也展现了较强的区域隔离能力。用户以不同颜色边框圈定位置，模型即对应生成指定物品——例如红框生成看泡泡的蓝毛怪兽、紫框生成草绿色毛毯等，各元素遵循坐标划分、保持独立。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498216748.jpg" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbssffx.jpg"/&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;草图渲染：将抽象意图转化为高保真视觉&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;用户可以通过随手涂鸦的色块、线条或简笔画作为控制信号，直接驱动画面的精细化渲染。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;在「三里小学春游海报」中，仅需一张带粗略排版的草图，模型便能识别各区块意图，还原毛毡材质与缝线质感，并把出发时间、必备物品等文本准确填入草图指定的坐标区域。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498224811.png" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbsslnw.png"/&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;图层分离：智能拆分为独立图层&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Pro 支持图层智能拆分：通过文字描述，可将图像拆分为独立图层，输出可加工的设计素材。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;如视频所示，模型能把一张完整海报拆分为文字、主体（鹦鹉）、背景以及环境装饰等十余个独立图层，被主体遮挡的背景区域也被补全还原。这些图层保留透明度，可自由拖拽、缩放，创作者还能将核心主体替换为新元素（把鹦鹉换成孔雀）。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbsspd4.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;多图融合：复杂场景的多源素材拼搭&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;同时输入多张参考素材及一张目标底图，模型会按指令把不同元素融合进场景，适用于前期的视觉拼贴与创意发散。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbssqmx.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;释放创作自由度，多种编辑能力任意组合&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;在实际创作中，上述能力可任意组合。如图所示，用户要求把南瓜修改为深绿色（#3E4A2E）与姜黄色（#DB973E）相间，并将背景字体改为刺绣质感。模型准确执行了材质替换与色彩编辑，修改后的局部与夏日午后的环境光融为一体。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498236939.jpg" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbssv0r.jpg"/&gt;&lt;p&gt;&lt;span&gt;这种“先精准定位，再执行修改”的机制，让设计师无需每次微调都重绘整图，可对半成品高频局部修正、提升迭代效率；也让普通用户凭直觉就能搭出高质量画面。&lt;/span&gt;&lt;/p&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;丰富影像与人像质感，让每一幕都栩栩如生&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;无论商业广告还是日常记录，画面细节的逼真度与光影的自然感都直接决定作品质量。Seedream 5.0 Pro 强化了对真实世界光影、物体材质与皮肤肌理的理解，CG 表现与摄影质感大幅提升。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;真实感来自对光、物、人的准确还原。光影层面，模型能捕捉高频细节的微观动态：昏暗房间里穿过百叶窗的“耶稣光”、寿司海报中腾空的米粒与鱼籽、黑白胶片里的水花都能被定格，让画面兼具空间纵深与影调质感。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498238824.png" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbsswh4.png"/&gt;&lt;p&gt;&lt;span&gt;物体材质层面，模型遵循真实物理规律处理反射、折射与透光效果，让不同材质的光影虚实与周边环境自然融合。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;如图所示，左侧街景橱窗里，玻璃上的复古人像海报保留印刷网点肌理，街景透视自然、玻璃环境反射层次分明，海报、街景、反射三层虚实交织。右侧「滨海悬崖玻璃别墅」在金属框架、落地玻璃、石材、海水与原木之间，让室内暖光与落日、海面的多重反射柔和过渡，尽显建筑摄影的写实质感。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498240231.png" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbssxk7.png"/&gt;&lt;p&gt;&lt;span&gt;人像层面，Seedream 5.0 Pro 细腻还原皮肤肌理，面部纹路、粗粝肤质层次立体，哑光面部光影过渡柔和，人物神态自带叙事张力。同时兼顾多元写实创作需求，除真人影视人像外，也能流畅驾驭 3A 游戏写实角色塑造，服饰、肢体与环境光影协调统一。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498244646.png" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbst0yv.png"/&gt;&lt;p&gt;&lt;span&gt;静态的真实感之外，模型也支持更进阶的摄影玩法。摇拍场景下，骑行人物与车身清晰锐利，背景街道拉出水平运动模糊，车轮辐条旋转虚化，准确还原了相机横移跟随与车轮高速转动的双重运动关系，速度感真实。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498246468.jpg" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbst2dg.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：摇拍一个骑行者，人物和自行车主体清晰，背景街道拉成水平方向的运动模糊，车轮辐条有旋转虚化，传递速度感。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;多图合成则进一步延伸了这种控制力。输入多张独立的人物照片后，模型能提取各自的面部特征，按指定站位组合到同一场景，生成光影统一、质感协调的合影，适配社交分享等场景。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498251250.png" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbst62b.png"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：将图 2 到图 6 的人物，参照图 1 站位合影，人物神态开心，背景有树和咖啡馆门店。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;原生多语种输入与生成，适配本地化特征&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;全球化创作不仅是语言的简单转换，更需要准确传递不同市场的地域文化与视觉特征。除中英文外，Seedream 5.0 Pro 原生支持法语、德语、俄语、日语、韩语、西班牙语、阿拉伯语等十余种世界常用语言的直接输入与高质量生成。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;创作者用不同语种输入指令时，模型不仅能准确解析语义，还能匹配对应文化语境下的建筑风貌、人物面孔与服饰细节，让画面贴合当地的视觉氛围。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbst92j.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;p&gt;&lt;span&gt;在文字渲染上，模型能自动适配不同语种的排版规则。即使面对同一种视觉版式，它不仅能精准渲染常规的中英文字符，也能正确处理阿拉伯语从右向左的连写、还原西班牙语的重音符号（如 PASIÓN），确保各语种文字准确且符合当地的阅读习惯。&lt;/span&gt;&lt;/p&gt;&lt;img alt="remote-media-1783498256918.png" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrbstafr.png"/&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;总结与展望&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;本次 Seedream 5.0 Pro 版本升级，主要得益于模型在空间结构感知、高密度文字渲染与多语种理解能力上的底层突破，不仅能够支持精准生成复杂信息图，更带来了灵活的局部修改和可控编辑能力，有效提升了专业生产力。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;目前，Seedream 5.0 Pro 在复杂信息图生成、交互式精准编辑等方面实现了突破，但在更细粒度的文字渲染、像素级编辑保持等方面，依然有进步空间。未来，我们将继续打磨模型在专业级生产和设计领域的生成能力，希望它不仅是提升效率的辅助工具，更能深度融入各行各业，让复杂创意低门槛、高质量地转化为生产价值。&lt;/span&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/不止-生成-更懂-设计-seedream-5-0-pro-发布</guid>
       <pubDate>Tue, 07 Jul 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>从“会说”走向“会创作”｜ Seed Audio 1.0 音频创作模型发布</title>
+      <link>https://seed.bytedance.com/zh/research/从-会说-走向-会创作-seed-audio-1-0-音频创作模型发布</link>
+      <description>&lt;p&gt;&lt;span&gt;对音频创作者而言，生成单一音频要素并不困难，真正困难的是让台词、音效等各类声音在同一场景中自然配合，服务于叙事和情绪表达。长期以来，这类创作往往依赖多个模型分别生成，再通过人工拼接、对齐和混音完成，不仅流程冗长，也难以兼顾整体完成度与控制精度。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;今天，我们很高兴向你介绍&lt;strong&gt;音频创作模型 Seed Audio 1.0，&lt;/strong&gt;它面向完整声音场景，在统一框架下联合建模人声、音效和环境声等多种音频要素，端到端完成影视级音频创作。声音不再只是画面的补充，而是可以直接参与叙事，在听者脑海中直接形成画面感，做到 “听见” 即 “看见”。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;其核心能力主要体现在以下方面：&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;多要素统一编排，支持精细的时间控制：&lt;/strong&gt;一条 prompt 即可统一编排带有特定情绪的对白、关键音效和环境声，并可按时间线精准控制声音进场。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;音色风格可控，长时稳定：&lt;/strong&gt;支持文本与参考音频输入，在长音频和多次延长场景下保持角色一致性，同一音色也能自然呈现不同语气和情绪。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;多语种自然生成：&lt;/strong&gt;支持 20+ 语种的音频生成，同一角色声音可依据不同语种的特点，呈现更自然的发音、节奏与表达方式。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;目前，Seed Audio 1.0 已在火山方舟体验中心上线，欢迎大家体验，用声音表达创意。&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;项目主页：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://seed.bytedance.com/zh/seedaudio1_0"&gt;&lt;span&gt;https://seed.bytedance.com/zh/seedaudio1_0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;体验入口：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://ark.volcengine.com/region:cn-beijing/experience/voice?_vtm_=a441938.b28928.0_0.0_0.0.242_7661095862207497779&amp;amp;model=doubao-seed-audio-1-0"&gt;&lt;span&gt;https://ark.volcengine.com/region:cn-beijing/experience/voice?_vtm_=a441938.b28928.0_0.0_0.0.242_7661095862207497779&amp;amp;model=doubao-seed-audio-1-0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;从拼接生成到完整声音场景生成&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;过去，完整音频内容的生产通常依赖多环节拼接。要打破这种级联方式，实现完整声音场景的生成，模型至少需要跨越三个门槛：&lt;/span&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;兼顾多类声音的细节保留&lt;/strong&gt;。不同类型音频对表征的要求并不相同：语音看重清晰度和韵律，环境声则要求空间氛围持续稳定。模型需具备足够强的声学细节建模能力。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;理解并生成完整声音场景&lt;/strong&gt;。一段完整音频里，各音频要素间存在时间关系、情绪关系和声学互动，彼此关联、相互影响，模型要理解的是整个声音场景。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;遵循多种指令控制。&lt;/strong&gt;模型不仅要有生成质量，还要能够服从文本、参考音频、时间轴和角色设定等多种条件，使声音在合适的时间、以合适的方式出现。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;span&gt;Seed Audio 1.0 的核心思路，是将不同的音频要素放在统一框架下理解与生成，学习更复杂的联合分布。为此，我们训练了一个通用声学编码器，将各类音频要素视为同一声音场景中的组成部分，映射到统一的声学表征中，而非将多类音频作为独立任务编码。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;基于这种统一建模方式，模型能够更自然地组织角色语气、背景氛围和声音节奏，让输出更接近一段完整作品，而不是一组拼接起来的素材。&lt;strong&gt;这也是我们更愿意将 Seed Audio 1.0 称为 “音频创作模型” 的原因。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed Audio 1.0 可生成兼具角色互动、情绪推进和氛围营造的复杂音频作品，支持专题叙事、剧情对话、主播互动等典型场景。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsj6kui.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;p&gt;&lt;span&gt;在真实创作环境中，声音出现的时机同样关键。它会直接影响节奏推进、情绪表达，以及一段内容能否真正成立。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed Audio 1.0 能先将创作意图拆解成结构化时间线，明确角色、台词、情绪和音效的进入时机，从而控制不同声音何时出现、如何衔接，以及怎样更自然地服务剧情。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;基于此，Seed Audio 1.0 支持精准时间控制生成，创作者可以在 prompt 中指定角色台词的时间安排，当前时间控制支持 100ms 间隔精度。对于视频配音、视频翻配、广告片等场景，这项能力尤其关键。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsj6tjh.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;音色立得住、接得上、演得开&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;Seed Audio 1.0 支持零样本音频生成。创作者既可以直接用文字描述目标声音，也可以结合参考音频进一步控制生成结果，而无需为每一种声音单独训练模型。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;对真实创作来说，这意味着在前期尚未明确最终声音方案时，创作者可以先快速试出方向，再围绕更合适的音色与表达继续细化，从而减少反复试音和后期返工的成本。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsj73pf.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;p&gt;&lt;span&gt;与此同时，在长音频创作场景中，有声书、播客、长剧集和多人对话都要求角色声音前后一致，一旦出现明显音色变化，听众很快就会出戏。传统制作中，这通常需要配音演员长时间连续录制，或者依赖后期反复比对和修正。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;针对这一问题，Seed Audio 1.0 支持基于参考音频进行延展生成，当前单次可生成约 2 分钟音频，并可在此基础上继续延长，同时保持角色音色与表达方式一致。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsj7zbu.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;p&gt;&lt;span&gt;不过，稳定并不意味着表达单一。Seed Audio 1.0 在保持角色辨识度的同时，也支持同一音色自然呈现不同情绪、场景和表达方式。它支持“单音色、多角色”能力，同一音色可以通过差异化演绎塑造不同人物，从而拓展配音、叙事类内容和创意音频的创作空间。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsnekz8.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;多语种生成，声音表达更地道&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;多语种创作，不只是内容翻译，而是让声音的节奏、重音、停顿与情绪都更符合目标语言的表达方式。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed Audio 1.0 支持同一音色在多种语言中的自然迁移，并已覆盖 20+ 语种，包括中文、英文、日语、韩语、西班牙语、印尼语、德语、法语、泰语、越南语等。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;对于出海内容、游戏本地化、品牌广告、多语种播客和短视频创作来说，这意味着一个创意不必在每个语言市场重新制作，而可以基于同一角色或音色设定，高效地扩展出多语言版本。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsj94o0.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;评测结果&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;为了更全面地验证 Seed Audio 1.0 在真实创作任务中的表现，我们从文本生成音色、多场景创作和多语种生成三个维度进行了评估。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;在文本生成音色能力上，Seed Audio 1.0 在 AB 主观评测中表现出显著优势，可用率和优良率也明显提升。&lt;/span&gt;&lt;/p&gt;&lt;img src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsmgnj9.jpeg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Seed Audio 1.0 在文本到音色任务上与其他模型的主观评测结果&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;在多场景音频生成能力上，我们进一步评测了影视、电视节目、短剧、动漫、播客对话、直播带货、网络创作、话剧和语音合成等场景。结果显示，多数场景中的音频可用率已达到 90% 以上。&lt;/span&gt;&lt;/p&gt;&lt;img alt="Seed Audio 1.0 按场景拆分的条件音频到音频生成评测" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsj9m5l.png"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Seed Audio 1.0 按场景拆分的条件音频到音频生成评测&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;针对多语言音频生成能力，我们从指令遵循和音频自然度两个维度进行了人工评测。结果显示，在音频自然度上，大部分语言的 MOS 超过 4 分，音质已达到优秀水准；复杂音频生成的指令遵循能力，除越南语外，其余语言的 MOS 均高于 3.5 分，表明 Seed Audio 1.0 已具备较强的多语言指令遵循能力。&lt;/span&gt;&lt;/p&gt;&lt;img alt="Seed Audio 1.0 在 “文本生成音频” 和 “音频生成音频” 两类任务上的效果" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsj9mdq.png"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Seed Audio 1.0 在 “文本生成音频” 任务上的效果&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;写在最后&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;从“会说”到“会创作”，Seed Audio 1.0 迈出了重要一步。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;以 Seed Audio 1.0 为起点，我们希望进一步拓展模型在真实创作流程中的能力边界，通过模型框架创新支持视频参考等更多模态输入，并满足长音频、分轨等更复杂的音频生成需求。同时，我们也将探索把 Seed Audio 与可控翻译结合起来，提升模型在多语种场景下对内容表达和时长约束的控制能力。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;未来，我们希望音频生成朝着更自然、更可控、更贴近创作流程的方向继续演进，让创作者轻松将脑海中的声音变成可听见的作品。&lt;/span&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/从-会说-走向-会创作-seed-audio-1-0-音频创作模型发布</guid>
+      <pubDate>Sun, 19 Jul 2026 16:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
