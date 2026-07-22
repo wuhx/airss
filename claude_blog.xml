@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Jul 2026 23:28:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 23:29:50 +0000</lastBuildDate>
     <item>
       <title>Bringing Claude Code and Claude Cowork to government</title>
       <link>https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government</link>
@@ -327,6 +327,50 @@
       <guid isPermaLink="false">https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code</guid>
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-21T22:46:45.902350+00:00</crawled>
+    </item>
+    <item>
+      <title>Building verification loops in Claude Code with skills</title>
+      <link>https://claude.com/blog/building-verification-loops-in-claude-code-with-skills</link>
+      <description>&lt;div&gt;&lt;p&gt;Most &lt;a href="https://claude.com/blog/introduction-to-agentic-coding"&gt;agentic coding&lt;/a&gt; sessions follow a loop: you ask for a change, Claude gathers context, takes action, verifies the results, and if needed, loops back to gather additional context.&lt;/p&gt;&lt;p&gt;Verification is how agents check their work before responding. Claude already does some of this from observing the deterministic signals in your codebase, including type checkers, linters, tests, and runtime errors. Whatever Claude can't infer becomes the steps you take to manually check a feature. &lt;/p&gt;&lt;p&gt;These manual steps, however, can be transformed into verification loops. In &lt;a href="https://claude.com/product/claude-code"&gt;Claude Code&lt;/a&gt;, a verification loop is an iterative process where Claude checks and attempts to fix the work.&lt;/p&gt;&lt;figure&gt;&lt;div&gt;&lt;img alt="diagram of the agentic loop: 1. gathering context, 2. taking action, 3. verifying results." src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a60f2068656db3211c097af_5b4284f8.png"/&gt;&lt;/div&gt;&lt;figcaption&gt;&lt;em&gt;The agentic loop: 1. gathering context, 2. taking action, 3. verifying results.&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;In this article, we cover the most common types of verification loops and show you what we use inside Anthropic. Then we’ll show how to encode the manual checks you already do as skills, so Claude can close its own feedback loop and you can work on something else while it iterates.&lt;/p&gt;&lt;h2&gt;Built-in verification loops&lt;/h2&gt;&lt;p&gt;Before diving into designing custom verification loops, it can be helpful to understand the built-in support Claude has for a number of different verification loops. Common features and approaches include:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;/verify skill&lt;/strong&gt;: builds, runs, and observes the changes in your application.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Toolchain&lt;/strong&gt;: Claude aims to catch and act on error codes and warnings from any tool you provide such as a linter. A good practice is to list your exact build and test commands in CLAUDE.md so Claude doesn't have to infer them.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Code Review (research preview)&lt;/strong&gt;: A managed multi-agent service that runs an automated review pass on PRs in the repos you enable. You can manually fix the finding and push, or close the loop by commenting @claude on the finding (if you’ve already set up and configured GitHub Actions, below).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;GitHub Actions&lt;/strong&gt;: Define a job that invokes Claude with a verification skill, and the same checks you run locally fire on every push or PR.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Spec validation&lt;/strong&gt;: A skill that helps verify each change against a markdown spec in the repo and looks to fix violations.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Rubrics in Claude Managed Agents (beta)&lt;/strong&gt;: A managed agentic service that allows you to verify outcomes against a rubric using a separate grader agent. Failures loop back for rework automatically.&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Writing verification loops &lt;/h2&gt;&lt;p&gt;When you have an existing project and you find yourself making the same small corrections every time Claude implements a new feature for you, it’s time to turn those steps into your own custom verification loop. The first step is to write down everything that you find yourself doing every time &lt;/p&gt;&lt;p&gt;The same goes if you're starting a new project and need to figure out how the project should behave. Write the best-practices version in plain English, the way you'd hand it to a new teammate on day one.&lt;/p&gt;&lt;p&gt;If you're struggling to articulate the verification check itself, ask Claude for best practices first and edit from there. Your version probably differs on a few specific points, and those differences are exactly what you want to capture.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Pro tip&lt;/strong&gt;: The check doesn't have to be qualitative to belong here. "Reject any migration that drops a column without a backfill step" is a deterministic rule no generic linter will catch but a project-specific one will. Anything you keep having to enforce by hand as a manual check qualifies for capture as a loop.&lt;/p&gt;&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-verification-loops-in-claude-code-with-skills</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-22T22:55:11.035947+00:00</crawled>
+    </item>
+    <item>
+      <title>How Outtake built a cyber investigator on Claude</title>
+      <link>https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude</link>
+      <description>&lt;div&gt;&lt;p&gt;&lt;em&gt;In our series, &lt;/em&gt;&lt;strong&gt;How startups build with Claude,&lt;/strong&gt; we highlight how startups are transforming their industries with AI. In this article, we share how Outtake built an autonomous cyber investigator that detects, investigates, and dismantles digital threats, from cloned login pages to entire adversarial networks.&lt;/p&gt;&lt;div&gt;&lt;figure&gt;
+&lt;div&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th colspan="2"&gt;The quick pitch&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;td&gt;Outtake&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;Founded&lt;/th&gt;
+&lt;td&gt;2023&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;Founders&lt;/th&gt;
+&lt;td&gt;Alex Dhillon (CEO), formerly of Palantir's moonshot team&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;Growth&lt;/th&gt;
+&lt;td&gt;Grew annual recurring revenue 6x and its customer base more than 10x year-over-year, scanning 20M+ potential cyberattacks in 2025 alone.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/figure&gt;&lt;/div&gt;&lt;p&gt;Even with strong safeguards and controls, bad actors can mask their use of AI in seemingly benign purposes that hide their malicious intent. Code generation platforms can create convincing login portals, agentic go-to-market tooling can power the distribution of phishing attacks, and image generation capabilities can spoof identity. Traditional cybersecurity defenses struggle to keep up.&lt;/p&gt;&lt;p&gt;“If you put on the bad actor's hat, it's actually a great time to be running attacks,” says Alex Dhillon, founder and CEO of AI cybersecurity platform &lt;a href="https://www.outtake.ai/"&gt;Outtake&lt;/a&gt;. “The average attack is not only executed faster because of AI, but it also captures deeper access due to AI”&lt;/p&gt;&lt;p&gt;Outtake unifies the full &lt;a href="https://www.outtake.ai/blog/2026-digital-trust-industry-pain-report"&gt;digital trust attack chain&lt;/a&gt; into a single defense, using fleets of AI agents to autonomously detect, investigate, and dismantle threats aimed at their customers, which include leading AI labs, major hedge funds, and US federal agencies. &lt;/p&gt;&lt;p&gt;Here’s how the Outtake team recently built the Recon Agent, a long-running autonomous cyber investigator, on Claude using &lt;a href="https://code.claude.com/docs/en/quickstart"&gt;Claude Code&lt;/a&gt; and the &lt;a href="https://code.claude.com/docs/en/agent-sdk/overview"&gt;Agent SDK&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;strong&gt;Agentic offense needs agentic defense&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;When targeting a company, attackers typically move through the same process: weaponize public data → build impersonations as lures → exploit internal systems. This process has been accelerated by AI.&lt;/p&gt;&lt;p&gt;Before breaking into anything, they harvest publicly available information about an organization, and its executives and employees.&lt;/p&gt;&lt;p&gt;They then turn that intelligence into bait, like a fake website with a fraudulent login page, to trick victims into handing over credentials. The access gained from these lures help the attacker get inside the perimeter to reach an organization’s most valuable and sensitive assets.&lt;/p&gt;&lt;p&gt; &lt;!--$--&gt;&lt;br/&gt;&lt;!--/$--&gt;This three-part sequence is predictable, but legacy security tooling guards only one slice at a time:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Threat intelligence tools monitor the public-data stage,&lt;/li&gt;&lt;li&gt;Brand protection tools watch for impersonations, and&lt;/li&gt;&lt;li&gt;Endpoint tools guard the internal systems. &lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Outtake’s Recon Agent investigates the full network behind an impersonation. Instead of just taking down a cloned login page, for example, the agent gathers and classifies evidence from the impersonation event. &lt;/p&gt;&lt;p&gt;It follows those leads to connected infrastructure, like a fake Telegram account that presents itself as “Customer Support,” and maps this adversarial network in a graph. The agent’s final step produces a report explaining the investigation process, a profile of the threat actor, and a reconstructed timeline of what the attacker did. &lt;/p&gt;&lt;p&gt;To carry out this sophisticated workflow, the Recon Agent can read, write, and run code. It can even interact with malicious login pages directly to see where stolen credentials actually go. &lt;/p&gt;&lt;p&gt;These investigations can require agents to run autonomously for long periods of time. Agent sessions run a median of 16 minutes, but routinely stretch to an hour and beyond; the longest run thus far lasted two hours of agentic work before returning results.&lt;/p&gt;&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-22T22:55:17.618553+00:00</crawled>
     </item>
   </channel>
 </rss>
