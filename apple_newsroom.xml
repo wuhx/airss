@@ -7,7 +7,41 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Jul 2026 23:29:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 23:28:20 +0000</lastBuildDate>
+    <item>
+      <title>WWDC26: Apple unveils next generation of Apple Intelligence, Siri AI, powerful parental controls, and an expansive set of software improvements</title>
+      <link>https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Today, during the Worldwide Developers Conference, Apple previewed its upcoming software releases that will deliver the next generation of &lt;a href="https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/"&gt;Apple Intelligence&lt;/a&gt; and introduce &lt;a href="https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/"&gt;Siri AI&lt;/a&gt;, an entirely new version of Siri that is profoundly more intelligent, knowledgeable, and capable. The releases also bring powerful and intuitive &lt;a href="https://www.apple.com/newsroom/2026/06/apple-previews-new-child-safety-features/"&gt;new features to help parents create safe digital experiences for kids&lt;/a&gt;, as well as improvements that further elevate the software design and performance of Apple products while making them more responsive, delightful, and easier to use with &lt;a href="https://www.apple.com/os/ios/"&gt;iOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/ipados/"&gt;iPadOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/macos/"&gt;macOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/watchos/"&gt;watchOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/visionos/"&gt;visionOS 27&lt;/a&gt;, and tvOS 27.
+&lt;/div&gt;
+&lt;div&gt;“Apple products are an essential part of people’s lives, and this year we’re bringing powerful new capabilities to empower our users in even more ways,” said Craig Federighi, Apple’s senior vice president of Software Engineering. “We’re delivering the next generation of Apple Intelligence across our platforms; introducing Siri AI, a profoundly more intelligent, knowledgeable, and capable Siri; expanding child safety features with intuitive new tools for families; and making our software platforms faster, more reliable, and more delightful than ever before.”
+&lt;/div&gt;
+&lt;h2&gt;&lt;strong&gt;Next Generation of Apple Intelligence and an Entirely New Siri Experience&lt;/strong&gt;
+&lt;/h2&gt;
+&lt;div&gt;Leveraging a bold new architecture uniquely designed to protect users’ privacy, the next generation of &lt;a href="https://www.apple.com/apple-intelligence/"&gt;Apple Intelligence&lt;/a&gt; powers Siri AI and brings helpful new features to apps users rely on every day.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:03:18.848767+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple accelerates app development with new intelligence frameworks and advanced tools</title>
+      <link>https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt;&lt;/strong&gt; Apple today introduced new intelligence capabilities, expanded productivity features in &lt;a href="https://developer.apple.com/xcode/"&gt;Xcode&lt;/a&gt;, and platform improvements that make apps faster, more adaptive, and easier to build.
+&lt;/div&gt;
+&lt;div&gt;“Developers are at the heart of the Apple ecosystem, and our goal is to provide them with the best possible tools and technologies to build the future,” said Susan Prescott, Apple’s vice president of Worldwide Developer Relations. “With new intelligence frameworks and agentic coding in Xcode 27, developers have the tools they need to focus on what they do best: bringing their incredible ideas to life.”
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:03:13.246277+00:00</crawled>
+    </item>
     <item>
       <title>Apple Intelligence brings powerful AI capabilities into everyday experiences</title>
       <link>https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/</link>
@@ -28,40 +62,6 @@
       <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-07T17:03:24.886863+00:00</crawled>
-    </item>
-    <item>
-      <title>Apple accelerates app development with new intelligence frameworks and advanced tools</title>
-      <link>https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/</link>
-      <description>&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;strong&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt;&lt;/strong&gt; Apple today introduced new intelligence capabilities, expanded productivity features in &lt;a href="https://developer.apple.com/xcode/"&gt;Xcode&lt;/a&gt;, and platform improvements that make apps faster, more adaptive, and easier to build.
-&lt;/div&gt;
-&lt;div&gt;“Developers are at the heart of the Apple ecosystem, and our goal is to provide them with the best possible tools and technologies to build the future,” said Susan Prescott, Apple’s vice president of Worldwide Developer Relations. “With new intelligence frameworks and agentic coding in Xcode 27, developers have the tools they need to focus on what they do best: bringing their incredible ideas to life.”
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:03:13.246277+00:00</crawled>
-    </item>
-    <item>
-      <title>WWDC26: Apple unveils next generation of Apple Intelligence, Siri AI, powerful parental controls, and an expansive set of software improvements</title>
-      <link>https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</link>
-      <description>&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Today, during the Worldwide Developers Conference, Apple previewed its upcoming software releases that will deliver the next generation of &lt;a href="https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/"&gt;Apple Intelligence&lt;/a&gt; and introduce &lt;a href="https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/"&gt;Siri AI&lt;/a&gt;, an entirely new version of Siri that is profoundly more intelligent, knowledgeable, and capable. The releases also bring powerful and intuitive &lt;a href="https://www.apple.com/newsroom/2026/06/apple-previews-new-child-safety-features/"&gt;new features to help parents create safe digital experiences for kids&lt;/a&gt;, as well as improvements that further elevate the software design and performance of Apple products while making them more responsive, delightful, and easier to use with &lt;a href="https://www.apple.com/os/ios/"&gt;iOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/ipados/"&gt;iPadOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/macos/"&gt;macOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/watchos/"&gt;watchOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/visionos/"&gt;visionOS 27&lt;/a&gt;, and tvOS 27.
-&lt;/div&gt;
-&lt;div&gt;“Apple products are an essential part of people’s lives, and this year we’re bringing powerful new capabilities to empower our users in even more ways,” said Craig Federighi, Apple’s senior vice president of Software Engineering. “We’re delivering the next generation of Apple Intelligence across our platforms; introducing Siri AI, a profoundly more intelligent, knowledgeable, and capable Siri; expanding child safety features with intuitive new tools for families; and making our software platforms faster, more reliable, and more delightful than ever before.”
-&lt;/div&gt;
-&lt;h2&gt;&lt;strong&gt;Next Generation of Apple Intelligence and an Entirely New Siri Experience&lt;/strong&gt;
-&lt;/h2&gt;
-&lt;div&gt;Leveraging a bold new architecture uniquely designed to protect users’ privacy, the next generation of &lt;a href="https://www.apple.com/apple-intelligence/"&gt;Apple Intelligence&lt;/a&gt; powers Siri AI and brings helpful new features to apps users rely on every day.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:03:18.848767+00:00</crawled>
     </item>
     <item>
       <title>Apple introduces innovative features and intelligence experiences across services</title>
@@ -261,6 +261,29 @@
       <guid isPermaLink="false">https://www.apple.com/newsroom/2026/07/major-league-soccer-returns-to-apple-tv-tomorrow/</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-15T22:54:52.993145+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple Maps to power the navigation experience for the Ford Universal Electric Vehicle Platform</title>
+      <link>https://www.apple.com/newsroom/2026/07/apple-maps-to-power-navigation-experience-for-ford-uev-platform/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Apple and Ford today announced that Apple Maps will be integrated directly into Ford’s upcoming Universal Electric Vehicle (UEV) Platform through Apple’s new MapKit for Automotive SDK. Coming to Ford’s UEV Platform in 2027, this integration will deliver a beautiful and easy-to-use navigation experience powered by Apple Maps directly to the vehicle’s displays. Road-level Maps information will also enable Ford’s Latitude AI team to build a seamless hands-free driving experience.
+&lt;/div&gt;
+&lt;div&gt;Leveraging Apple’s new MapKit for Automotive SDK, Ford’s Universal Electric Vehicle Platform will offer drivers turn-by-turn directions using natural language, real-time traffic and incident information, intuitive search featuring detailed place cards, and routing options to help users easily find the best route to their destination. Additionally, Ford UEV drivers will benefit from an intelligent EV routing functionality, including battery preconditioning. Ford will also use road-level information from Apple Maps as part of the development of its next-generation BlueCruise hands-free highway driving capability to deliver a more seamless on-ramp-to-off-ramp experience.
+&lt;/div&gt;
+&lt;div&gt;“Apple Maps delivers the best map experience in the world, and we’re excited to bring the power of Maps’ navigation technology to Ford’s innovative Universal Electric Vehicle Platform,” said Eddy Cue, Apple’s senior vice president of Services and Health. “With our new MapKit for Automotive SDK, we’re bringing Maps further into drivers’ daily lives, giving them an incredibly accurate and easy-to-use navigation system that is seamlessly integrated into Ford vehicles.”
+&lt;/div&gt;
+&lt;div&gt;“Our new midsize electric vehicle will be priced around $30,000 and redefines what advanced technology can be — simple, useful, and truly attainable for more customers,” said Jim Farley, Ford Motor Company’s CEO. “We’re proud to embed Apple Maps’ navigation and mapping technology directly into our Universal Electric Vehicle Platform, giving customers the ultimate navigation experience alongside our Ford app, a full suite of software, and next-generation BlueCruise, all enabled by a new zonal architecture. Apple Maps has delivered a world-class product, and we’re honored to be among the first to embed it directly into a vehicle, helping define intuitive, capable driving.”
+&lt;/div&gt;
+&lt;div&gt;This integration is made possible by Apple’s new MapKit for Automotive SDK, which allows automakers to embed and customize Apple Maps. The SDK also enables automakers to deliver a cohesive navigation experience for drivers that is consistent with the look and feel of their vehicles, and provides road-level information to help automakers build hands-free driving experiences. The SDK follows the same privacy principles that the Apple Maps app provides today. Apple does not collect users’ location details and activity on the vehicle’s map in a way that can be tied back to the individual user.
+&lt;/div&gt;
+&lt;div&gt;In addition to the integration of Apple Maps into Ford’s UEV Platform, CarPlay will continue to be available on Ford vehicles, providing drivers with a safe and smart way to use their iPhone in the car.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/07/apple-maps-to-power-navigation-experience-for-ford-uev-platform/</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-23T22:52:37.370575+00:00</crawled>
     </item>
   </channel>
 </rss>
