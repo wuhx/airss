@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jul 2026 23:33:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 23:29:59 +0000</lastBuildDate>
     <item>
       <title>Making Sense of the Early Universe</title>
       <link>https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy/</link>
@@ -1660,6 +1660,43 @@
       <guid isPermaLink="false">https://blogs.nvidia.com/blog/vera-cpu-eda/</guid>
       <pubDate>Mon, 27 Jul 2026 02:00:07 -0700</pubDate>
       <crawled>2026-07-27T22:58:11.160994+00:00</crawled>
+    </item>
+    <item>
+      <title>Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson</title>
+      <link>https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;As a discerning AI investor who values style &lt;/span&gt;&lt;i&gt;&lt;span&gt;and&lt;/span&gt;&lt;/i&gt;&lt;span&gt; substance, Sarah Guo knows this season’s standout accessory isn’t the latest designer purse — but what’s inside it. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;In a recent video, Guo, founder of AI-native venture capital firm Conviction and co-host of the AI podcast &lt;/span&gt;&lt;i&gt;&lt;span&gt;No Priors&lt;/span&gt;&lt;/i&gt;&lt;span&gt;, highlighted how the &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/"&gt;&lt;span&gt;NVIDIA Jetson&lt;/span&gt;&lt;/a&gt;&lt;span&gt; platform for edge AI and robotics gives busy developers both power and portability in one &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/glossary/ai-agents/"&gt;&lt;span&gt;agentic-ready AI&lt;/span&gt;&lt;/a&gt;&lt;span&gt; platform built for the physical world — and every industry. The best part? It all fits in one handbag.&lt;/span&gt;&lt;/p&gt;
+&lt;div&gt;&lt;video controls="controls" height="675" width="1200"&gt;&lt;source src="https://blogs.nvidia.com/wp-content/uploads/2026/07/SarahGuo_Jetson01_captions.mp4?_=1" type="video/mp4"/&gt;&lt;a href="https://blogs.nvidia.com/wp-content/uploads/2026/07/SarahGuo_Jetson01_captions.mp4"&gt;https://blogs.nvidia.com/wp-content/uploads/2026/07/SarahGuo_Jetson01_captions.mp4&lt;/a&gt;&lt;/video&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span&gt;Compact enough to carry in a bag, yet powerful enough to take on the toughest problems, NVIDIA Jetson modules and developer kits power robots, autonomous machines and real-world AI projects in classrooms, labs and makerspaces — wherever inspiration strikes — enabling &lt;/span&gt;&lt;span&gt;developers to build using &lt;/span&gt;&lt;a href="https://x.com/JensenHuang/status/2080643682408321103"&gt;&lt;span&gt;industry-transforming frontier open models&lt;/span&gt;&lt;/a&gt;&lt;span&gt; at the highest standard of &lt;/span&gt;&lt;a href="https://x.com/JensenHuang/status/2081698060330250294"&gt;&lt;span&gt;safety and security&lt;/span&gt;&lt;/a&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Whether for a student running their first robotics project on &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/"&gt;&lt;span&gt;Jetson Orin Nano Super&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, a professor bringing cutting-edge AI to their curriculum on &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"&gt;&lt;span&gt;Jetson AGX Orin&lt;/span&gt;&lt;/a&gt;&lt;span&gt; or a researcher pushing the limits of autonomous systems with &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/"&gt;&lt;span&gt;Jetson AGX Thor&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, the platform enables building, learning and launching the next generation of intelligent robots — in every classroom, every lab and every country. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;As Guo shows: bring the bag, Jetson brings the robot brain. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Check back here throughout the week for a series of examples — beginning with the Jetson Orin Nano Super below — to help developers navigate the &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/"&gt;&lt;span&gt;NVIDIA Jetson platform&lt;/span&gt;&lt;/a&gt;&lt;span&gt; and get started on their next robotics breakthroughs.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;NVIDIA Jetson Orin Nano Super: Ideal for Building a First AI Robot&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Robots deserve a real brain and, apparently, an incredibly chic commute. When Guo popped the &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/"&gt;&lt;span&gt;Jetson Orin Nano Super&lt;/span&gt;&lt;/a&gt;&lt;span&gt; into her Jacquemus Mini, she gained the entire AI stack right at her fingertips — now with a cute handle: clutch!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Jetson Orin Nano Super brings desktop-class &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/glossary/generative-ai/"&gt;&lt;span&gt;generative AI&lt;/span&gt;&lt;/a&gt;&lt;span&gt; to a handbag-friendly developer kit, offering first-time builders a practical path to learning computer vision, building &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/glossary/ai-agents/"&gt;&lt;span&gt;AI agents&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, prototyping edge AI and more. With 67 trillion operations per second (TOPS) of AI performance, Jetson Orin Nano Super helps developers get started on the problems they’ve always wanted to solve.&lt;/span&gt;&lt;span&gt;&lt;br/&gt;
+&lt;/span&gt;&lt;span&gt;&lt;br/&gt;
+&lt;/span&gt;&lt;span&gt;To help builders move from inspiration to implementation, &lt;/span&gt;&lt;a href="https://github.com/NVIDIA-AI-IOT/jetson-device-skills"&gt;&lt;span&gt;NVIDIA Jetson Device Skills&lt;/span&gt;&lt;/a&gt;&lt;span&gt; and &lt;/span&gt;&lt;a href="https://github.com/NVIDIA-AI-IOT/jetson-bsp-skills"&gt;&lt;span&gt;Jetson BSP Skills&lt;/span&gt;&lt;/a&gt;&lt;span&gt; give students, researchers and developers an easier way to harness coding AI agents to create, optimize and deploy real-world AI at the edge.&lt;/span&gt;&lt;span&gt;&lt;br/&gt;
+&lt;/span&gt;&lt;span&gt;&lt;br/&gt;
+&lt;/span&gt;&lt;span&gt;Robot builders can get inspired to start their first — or next — dream project with these innovative examples of Jetson Orin Nano Super in action:&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Self Driving My EV Car  | Model SidewalkPilot&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;iframe height="675" src="https://www.youtube.com/embed/Lnz4uRvEhbM?feature=oembed" title="SidewalkPilot-v4.1a In Action (Demo Video)" width="1200"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A custom SidewalkPilot AI model autonomously executes maneuvers in a toy electric vehicle using Jetson Orin Nano Super.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Reachy Mini Jetson Assistant&lt;/strong&gt;&lt;/h2&gt;
+&lt;div&gt;&lt;video controls="controls" height="675" width="1200"&gt;&lt;source src="https://blogs.nvidia.com/wp-content/uploads/2026/07/Reachy-Mini-Jetson-Assistant.mp4?_=2" type="video/mp4"/&gt;&lt;a href="https://blogs.nvidia.com/wp-content/uploads/2026/07/Reachy-Mini-Jetson-Assistant.mp4"&gt;https://blogs.nvidia.com/wp-content/uploads/2026/07/Reachy-Mini-Jetson-Assistant.mp4&lt;/a&gt;&lt;/video&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://www.jetson-ai-lab.com/tutorials/reachy-mini-jetson-assistant/"&gt;Reachy Mini Jetson Assistant&lt;/a&gt; is a low-latency, fully on-device voice and vision assistant for &lt;a href="https://www.pollen-robotics.com/reachy-mini/"&gt;Reachy Mini Lite&lt;/a&gt; powered by NVIDIA &lt;span&gt;Jetson Orin Nano Super&lt;/span&gt;. Everything runs locally with GPU acceleration — no cloud, no API keys, no internet required at runtime. Get started &lt;a href="https://github.com/NVIDIA-AI-IOT/reachy-mini-jetson-assistant"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Building My First AI Robot From Scratch&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;iframe height="675" src="https://www.youtube.com/embed/Sf-nklw0ljQ?feature=oembed" title="I Built My First AI Robot" width="1200"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Coding with Lewis constructed an AI-powered robot using Mistral — an open-weight model — showing that first time robotics developers can build from the ground up using Jetson Orin Nano Super.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Robotics AI Podcast&lt;/strong&gt;&lt;/h2&gt;
+&lt;div&gt;&lt;video controls="controls" height="675" width="1200"&gt;&lt;source src="https://blogs.nvidia.com/wp-content/uploads/2026/07/JONS_robotic-ai-podcast.mp4?_=3" type="video/mp4"/&gt;&lt;a href="https://blogs.nvidia.com/wp-content/uploads/2026/07/JONS_robotic-ai-podcast.mp4"&gt;https://blogs.nvidia.com/wp-content/uploads/2026/07/JONS_robotic-ai-podcast.mp4&lt;/a&gt;&lt;/video&gt;&lt;/div&gt;
+&lt;p&gt;Using Jetson Orin Nano Super, Asier Arnaz built a Yocto-powered Robotics AI video podcast featuring two AI models discussing topics in real-time and highlighting what makers are creating at the edge.&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Inspired yet? Get started by joining &lt;/span&gt;&lt;a href="https://www.youtube.com/playlist?list=PLZrTAEPLeXfo"&gt;&lt;span&gt;our livestream series&lt;/span&gt;&lt;/a&gt;&lt;span&gt;. Across three modules, developers can learn to run generative AI, build claw agents and bring &lt;a href="https://www.nvidia.com/en-us/glossary/vision-language-models/"&gt;vision-language&lt;/a&gt; and &lt;a href="https://www.nvidia.com/en-us/glossary/reasoning-vision-language-action/"&gt;vision-language-action&lt;/a&gt; models to power real-world physical AI applications — all on NVIDIA Jetson. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Tomorrow, learn how Jetson AGX Orin helps b&lt;/span&gt;ring powerful AI to real-world machines.&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/</guid>
+      <pubDate>Mon, 27 Jul 2026 02:00:07 -0700</pubDate>
+      <crawled>2026-07-28T22:56:59.755722+00:00</crawled>
     </item>
   </channel>
 </rss>
