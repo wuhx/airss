@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jul 2026 23:29:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 23:30:17 +0000</lastBuildDate>
     <item>
       <title>Introducing Gemini Omni</title>
       <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/</link>
@@ -3898,6 +3898,56 @@ that can interact across platforms.
       <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/</guid>
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-21T22:51:15.640693+00:00</crawled>
+    </item>
+    <item>
+      <title>We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control.</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/</link>
+      <description>&lt;article&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;uni-breadcrumbs&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+
+&lt;!-- --&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/uni-breadcrumbs&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;h1&gt;We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control.&lt;/h1&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Jul 29, 2026&lt;/p&gt;
+&lt;uni-button-copy-link&gt;&lt;!-- --&gt;&lt;/uni-button-copy-link&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;p&gt;Our newest music generation model, Lyria 3.5, delivers significant advancements across musicality, lyrics, and vocal quality, empowering you to craft richer tracks. We’re rolling it out today in &lt;a href="http://flowmusic.google/"&gt;Google Flow Music&lt;/a&gt;, where we want to help you create songs you love, with creative control.&lt;/p&gt;&lt;p&gt;Here's what’s new:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Improved musicality:&lt;/b&gt; Create richer, more complex melodic structures that sound more natural.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Enhanced lyrics:&lt;/b&gt; Generate higher quality lyrics with improved prompt adherence and structural awareness.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Improved vocals:&lt;/b&gt; Bring more expression and emotion to your songs with more realistic and emotionally nuanced vocals, plus improved pronunciation.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Creative control:&lt;/b&gt; More easily control the tempo and duration of your outputs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Try it today in &lt;a href="http://flowmusic.google/"&gt;Flow Music&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;uni-youtube-player-article&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;uni-youtube-player-core&gt;&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-youtube-player-core&gt;&lt;/div&gt;&lt;/div&gt;&lt;!--?lit$191547699$--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-youtube-player-article&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-29T22:57:08.672687+00:00</crawled>
     </item>
   </channel>
 </rss>
