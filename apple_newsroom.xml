@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jul 2026 23:30:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 23:33:12 +0000</lastBuildDate>
     <item>
       <title>WWDC26: Apple unveils next generation of Apple Intelligence, Siri AI, powerful parental controls, and an expansive set of software improvements</title>
       <link>https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</link>
@@ -317,6 +317,27 @@
       <guid isPermaLink="false">https://www.apple.com/newsroom/2026/07/apple-upgrade-launches-in-the-united-states/</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-28T22:57:18.152652+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple reports third quarter results</title>
+      <link>https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Apple today announced financial results for its fiscal 2026 third quarter ended June 27, 2026. The Company posted quarterly revenue of $109.4 billion, up 16 percent year over year. Company gross margin was 50.1 percent, including a favorable impact of approximately 2 percentage points from tariff refunds. Diluted earnings per share was $2.02, up 29 percent year over year, and included a favorable impact of $0.11 from tariff refunds.
+&lt;/div&gt;
+&lt;div&gt;“Today, Apple is proud to report our strongest June quarter ever, with double-digit revenue growth across iPhone, Mac and Services, and in every geographic segment,” said Tim Cook, Apple’s CEO. “At WWDC26, we were thrilled to introduce the all-new Siri AI, alongside all of Apple’s latest software innovations and important new child safety features.”&lt;br/&gt;
+&lt;/div&gt;
+&lt;div&gt;“We are very pleased with our record business performance during the quarter, which set new June quarter records for both EPS and operating cash flow,” said Kevan Parekh, Apple’s CFO. “Our installed base of active devices also reached a new all-time high across all major product categories and geographic segments.”
+&lt;/div&gt;
+&lt;div&gt;Apple’s board of directors has declared a cash dividend of $0.27 per share of the Company’s common stock. The dividend is payable on August 13, 2026, to shareholders of record as of the close of business on August 10, 2026.
+&lt;/div&gt;
+&lt;div&gt;Apple will provide live streaming of its Q3 2026 financial results conference call beginning at 2:00 p.m. PT on July 30, 2026, at &lt;a href="https://www.apple.com/investor/earnings-call"&gt;apple.com/investor/earnings-call&lt;/a&gt;. The webcast will be available for replay for approximately two weeks thereafter.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-30T23:01:32.687921+00:00</crawled>
     </item>
   </channel>
 </rss>
