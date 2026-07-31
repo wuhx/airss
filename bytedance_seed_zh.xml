@@ -7,115 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jul 2026 23:33:15 +0000</lastBuildDate>
-    <item>
-      <title>Seed-1.6-Embedding：基于 Seed1.6-Flash 构建的多模态向量化模型</title>
-      <link>https://seed.bytedance.com/zh/research/seed-1-6-embedding-基于-seed1-6-flash-构建的多模态向量化模型</link>
-      <description>我们推出了 Seed-1.6-Embedding，这是一个基于Seed1.6-Flash构建的向量化模型。它具有以下关键特性:
-
-&lt;br/&gt;
-
-* **多模态混合检索**: 支持文本、图像和视频模态之间的混合检索。
-
-&lt;br/&gt;
-
-* **SOTA性能**: 在纯文本任务的CMTEB排行榜和多模态任务的MMEB-V2排行榜上均取得了新的SOTA分数。
-
-&lt;br/&gt;
-
-* **灵活性**: 支持多种嵌入维度 —[2048, 1024] 在较低维度下仍保持较好效果。
-
-&lt;br/&gt;
-
-[Seed1.6-Embedding的API已在火山引擎上线（模型ID：doubao-embedding-vision-250615）。](https://console.volcengine.com/auth/login?redirectURI=%2Fark%2Fregion%3Aark%2Bcn-beijing%2Fmodel%2Fdetail%3FId%3Ddoubao-embedding-vision)
-
-&lt;br/&gt;
-
-## 模型结构
-
-&lt;br/&gt;
-
-基于Seed1.6-Flash，Seed-1.6-Embedding充分保留和增强了模型对于文本、图片、视频以及混合模态的多模态理解能力。它基于双塔结构，提取的向量维度与[EOS]token 的最后一层隐向量相对应。
-
-&lt;br/&gt;
-&lt;p&gt;&lt;img alt="image" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymct5lyoa.png"/&gt;&lt;/p&gt;
-&lt;br/&gt;
-
-## 训练方法
-
-&lt;br/&gt;
-
-在 embedding 模型的构建过程中，我们使用了分阶段训练策略，逐步提升模型性能，最终塑造出Seed1.6-Embedding 模型。
-
-&lt;br/&gt;
-
-### Stage1: Text Continue Training
-
-&lt;br/&gt;
-
-**训练目标**: 这一阶段的目标是赋予模型基础的 embedding 能力，将vlm模型转变为具备embedding能力的模型。
-
-&lt;br/&gt;
-
-**训练策略**: 我们使用了大规模纯文本数据作为训练数据，涵盖了从互联网采集的多领域公开数据以及部分合成数据。对于公开数据，我们设计了精巧的数据清洗算法和过滤规则，去除其中的噪声、重复内容以及无关信息，保证数据的高质量。而合成数据则是基于特定的种子数据，借助大语言模型进行扩展，使得合成的数据能够覆盖各类不同的领域知识和话题。训练过程中，每条样本是一个文本对，并采用 infoNce 损失函数进行对比学习。
-
-&lt;br/&gt;
-
-### Stage 2: Multimodal Continue Training
-
-&lt;br/&gt;
-
-**训练目标**: 在上一阶段的基础上，增加文、图、视频的多模态对齐能力。
-
-&lt;br/&gt;
-
-**训练策略**: 我们收集了千万级规模的图文对、视频-文对数据用于训练。这些原始数据一部分采集自互联网，为确保数据质量，首先对其中的图片进行严格的清洗和过滤，剔除模糊、损坏、低分辨率等不合格的图片。同时，为了构建高质量的图文样本对，我们设计了一套数据生产流程，从原始图片中获取准确、详细的 caption，使图文语义实现精准匹配。在训练过程中，同样采用 infoNce 损失函数，通过优化图文对在向量空间中的距离，不断强化模型对多模态数据的理解能力。
-
-&lt;br/&gt;
-
-### Stage 3: Fine-Tuning
-
-&lt;br/&gt;
-
-**训练目标**: 这一阶段的目标是通过引入不同形式、模态以及任务类型的数据，全面提升模型在各类细分场景和复杂任务下的处理能力，使其能够更好地适配信息检索、内容分类等实际应用需求。
-
-&lt;br/&gt;
-
-**训练策略**: 我们从任务类型、输入数据模态、任务场景三个关键维度出发，系统性地构建高质量的微调数据集。一方面参考公开评测集的任务类型和数据结构，另一方面紧密结合火山引擎的实际业务需求与丰富经验，构建了数十个不同任务的数据集。针对每个数据集的特点和场景需求，我们设计了专属的指令，以引导模型学习特定任务的处理逻辑，并具备一定的泛化能力。对于部分训练数据匮乏的场景和任务，我们运用数据增强和合成技术，扩充数据规模；对于难度较高，训练效果不佳的任务，定向挖掘不同难度层次的负样本，以此提升模型在复杂任务下的表现。最后，将所有数据集进行混合训练，经过多轮迭代优化，使得 Seed1.6-Embedding 模型在不同的细分场景下都展现出较好的泛化能力与性能表现。
-
-&lt;br/&gt;
-
-## 效果
-
-&lt;br/&gt;
-
-在最能体现模型泛化能力的权威榜单中，Seed1.6-Embedding 均展现出优势:
-
-&lt;br/&gt;
-&lt;p&gt;C-MTEB (Chinese)&lt;/p&gt;
-&lt;p&gt;&lt;img alt="image" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymct6e22m.jpeg"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;*截止到6月28日&lt;/span&gt;&lt;/p&gt;
-&lt;br/&gt;
-
-**纯文本任务**: 在 CMTEB 中文文本向量评测榜单上，模型以75.62高分刷新榜单 SOTA，在检索、分类、语义匹配等通用任务表现上领跑。
-
-&lt;br/&gt;
-&lt;p&gt;MMEB-V2&lt;/p&gt;
-&lt;p&gt;&lt;img alt="image" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymct6fijt.jpeg"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;*截止到6月28日&lt;/span&gt;&lt;/p&gt;
-&lt;br/&gt;
-
-**多模态任务**: 在多模态评测榜单 MMEB_v2中，模型的图片、视频向量化任务登顶 SOTA，实现较大幅度领先。其中在 MMEB_v2 Image 榜单上，模型以77.78分领先第二名5.6分；模型新增的视频模态，在 MMEB_v2 video 榜单领先第二名20.1分。
-
-&lt;br/&gt;
-
-## 使用方法
-
-&lt;p&gt;&lt;img alt="image" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymct6qcxe.jpeg"/&gt;&lt;/p&gt;
-</description>
-      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/seed-1-6-embedding-基于-seed1-6-flash-构建的多模态向量化模型</guid>
-      <pubDate>Fri, 27 Jun 2025 16:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 31 Jul 2026 23:30:00 +0000</lastBuildDate>
     <item>
       <title>25 篇成果入选，字节跳动 Seed 与你共赴 ICML 2025</title>
       <link>https://seed.bytedance.com/zh/research/25-篇成果入选-字节跳动-seed-与你共赴-icml-2025</link>
@@ -8670,6 +8562,13 @@ Seed-OSS-36B-Instruct 是基于 Seed-OSS-36B-Base 进行后训练的模型版本
       <description>&lt;p&gt;&lt;span&gt;对音频创作者而言，生成单一音频要素并不困难，真正困难的是让台词、音效等各类声音在同一场景中自然配合，服务于叙事和情绪表达。长期以来，这类创作往往依赖多个模型分别生成，再通过人工拼接、对齐和混音完成，不仅流程冗长，也难以兼顾整体完成度与控制精度。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;今天，我们很高兴向你介绍&lt;strong&gt;音频创作模型 Seed Audio 1.0，&lt;/strong&gt;它面向完整声音场景，在统一框架下联合建模人声、音效和环境声等多种音频要素，端到端完成影视级音频创作。声音不再只是画面的补充，而是可以直接参与叙事，在听者脑海中直接形成画面感，做到 “听见” 即 “看见”。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;其核心能力主要体现在以下方面：&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;多要素统一编排，支持精细的时间控制：&lt;/strong&gt;一条 prompt 即可统一编排带有特定情绪的对白、关键音效和环境声，并可按时间线精准控制声音进场。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;音色风格可控，长时稳定：&lt;/strong&gt;支持文本与参考音频输入，在长音频和多次延长场景下保持角色一致性，同一音色也能自然呈现不同语气和情绪。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;多语种自然生成：&lt;/strong&gt;支持 20+ 语种的音频生成，同一角色声音可依据不同语种的特点，呈现更自然的发音、节奏与表达方式。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;目前，Seed Audio 1.0 已在火山方舟体验中心上线，欢迎大家体验，用声音表达创意。&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;项目主页：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://seed.bytedance.com/zh/seedaudio1_0"&gt;&lt;span&gt;https://seed.bytedance.com/zh/seedaudio1_0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;体验入口：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://ark.volcengine.com/region:cn-beijing/experience/voice?_vtm_=a441938.b28928.0_0.0_0.0.242_7661095862207497779&amp;amp;model=doubao-seed-audio-1-0"&gt;&lt;span&gt;https://ark.volcengine.com/region:cn-beijing/experience/voice?_vtm_=a441938.b28928.0_0.0_0.0.242_7661095862207497779&amp;amp;model=doubao-seed-audio-1-0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;从拼接生成到完整声音场景生成&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;过去，完整音频内容的生产通常依赖多环节拼接。要打破这种级联方式，实现完整声音场景的生成，模型至少需要跨越三个门槛：&lt;/span&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;兼顾多类声音的细节保留&lt;/strong&gt;。不同类型音频对表征的要求并不相同：语音看重清晰度和韵律，环境声则要求空间氛围持续稳定。模型需具备足够强的声学细节建模能力。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;理解并生成完整声音场景&lt;/strong&gt;。一段完整音频里，各音频要素间存在时间关系、情绪关系和声学互动，彼此关联、相互影响，模型要理解的是整个声音场景。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;遵循多种指令控制。&lt;/strong&gt;模型不仅要有生成质量，还要能够服从文本、参考音频、时间轴和角色设定等多种条件，使声音在合适的时间、以合适的方式出现。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;span&gt;Seed Audio 1.0 的核心思路，是将不同的音频要素放在统一框架下理解与生成，学习更复杂的联合分布。为此，我们训练了一个通用声学编码器，将各类音频要素视为同一声音场景中的组成部分，映射到统一的声学表征中，而非将多类音频作为独立任务编码。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;基于这种统一建模方式，模型能够更自然地组织角色语气、背景氛围和声音节奏，让输出更接近一段完整作品，而不是一组拼接起来的素材。&lt;strong&gt;这也是我们更愿意将 Seed Audio 1.0 称为 “音频创作模型” 的原因。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed Audio 1.0 可生成兼具角色互动、情绪推进和氛围营造的复杂音频作品，支持专题叙事、剧情对话、主播互动等典型场景。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsj6kui.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;p&gt;&lt;span&gt;在真实创作环境中，声音出现的时机同样关键。它会直接影响节奏推进、情绪表达，以及一段内容能否真正成立。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed Audio 1.0 能先将创作意图拆解成结构化时间线，明确角色、台词、情绪和音效的进入时机，从而控制不同声音何时出现、如何衔接，以及怎样更自然地服务剧情。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;基于此，Seed Audio 1.0 支持精准时间控制生成，创作者可以在 prompt 中指定角色台词的时间安排，当前时间控制支持 100ms 间隔精度。对于视频配音、视频翻配、广告片等场景，这项能力尤其关键。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsj6tjh.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;音色立得住、接得上、演得开&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;Seed Audio 1.0 支持零样本音频生成。创作者既可以直接用文字描述目标声音，也可以结合参考音频进一步控制生成结果，而无需为每一种声音单独训练模型。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;对真实创作来说，这意味着在前期尚未明确最终声音方案时，创作者可以先快速试出方向，再围绕更合适的音色与表达继续细化，从而减少反复试音和后期返工的成本。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsj73pf.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;p&gt;&lt;span&gt;与此同时，在长音频创作场景中，有声书、播客、长剧集和多人对话都要求角色声音前后一致，一旦出现明显音色变化，听众很快就会出戏。传统制作中，这通常需要配音演员长时间连续录制，或者依赖后期反复比对和修正。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;针对这一问题，Seed Audio 1.0 支持基于参考音频进行延展生成，当前单次可生成约 2 分钟音频，并可在此基础上继续延长，同时保持角色音色与表达方式一致。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsj7zbu.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;p&gt;&lt;span&gt;不过，稳定并不意味着表达单一。Seed Audio 1.0 在保持角色辨识度的同时，也支持同一音色自然呈现不同情绪、场景和表达方式。它支持“单音色、多角色”能力，同一音色可以通过差异化演绎塑造不同人物，从而拓展配音、叙事类内容和创意音频的创作空间。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsnekz8.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;多语种生成，声音表达更地道&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;多语种创作，不只是内容翻译，而是让声音的节奏、重音、停顿与情绪都更符合目标语言的表达方式。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed Audio 1.0 支持同一音色在多种语言中的自然迁移，并已覆盖 20+ 语种，包括中文、英文、日语、韩语、西班牙语、印尼语、德语、法语、泰语、越南语等。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;对于出海内容、游戏本地化、品牌广告、多语种播客和短视频创作来说，这意味着一个创意不必在每个语言市场重新制作，而可以基于同一角色或音色设定，高效地扩展出多语言版本。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsj94o0.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;评测结果&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;为了更全面地验证 Seed Audio 1.0 在真实创作任务中的表现，我们从文本生成音色、多场景创作和多语种生成三个维度进行了评估。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;在文本生成音色能力上，Seed Audio 1.0 在 AB 主观评测中表现出显著优势，可用率和优良率也明显提升。&lt;/span&gt;&lt;/p&gt;&lt;img src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsmgnj9.jpeg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Seed Audio 1.0 在文本到音色任务上与其他模型的主观评测结果&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;在多场景音频生成能力上，我们进一步评测了影视、电视节目、短剧、动漫、播客对话、直播带货、网络创作、话剧和语音合成等场景。结果显示，多数场景中的音频可用率已达到 90% 以上。&lt;/span&gt;&lt;/p&gt;&lt;img alt="Seed Audio 1.0 按场景拆分的条件音频到音频生成评测" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsj9m5l.png"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Seed Audio 1.0 按场景拆分的条件音频到音频生成评测&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;针对多语言音频生成能力，我们从指令遵循和音频自然度两个维度进行了人工评测。结果显示，在音频自然度上，大部分语言的 MOS 超过 4 分，音质已达到优秀水准；复杂音频生成的指令遵循能力，除越南语外，其余语言的 MOS 均高于 3.5 分，表明 Seed Audio 1.0 已具备较强的多语言指令遵循能力。&lt;/span&gt;&lt;/p&gt;&lt;img alt="Seed Audio 1.0 在 “文本生成音频” 和 “音频生成音频” 两类任务上的效果" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mrsj9mdq.png"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Seed Audio 1.0 在 “文本生成音频” 任务上的效果&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;写在最后&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;从“会说”到“会创作”，Seed Audio 1.0 迈出了重要一步。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;以 Seed Audio 1.0 为起点，我们希望进一步拓展模型在真实创作流程中的能力边界，通过模型框架创新支持视频参考等更多模态输入，并满足长音频、分轨等更复杂的音频生成需求。同时，我们也将探索把 Seed Audio 与可控翻译结合起来，提升模型在多语种场景下对内容表达和时长约束的控制能力。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;未来，我们希望音频生成朝着更自然、更可控、更贴近创作流程的方向继续演进，让创作者轻松将脑海中的声音变成可听见的作品。&lt;/span&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/从-会说-走向-会创作-seed-audio-1-0-音频创作模型发布</guid>
       <pubDate>Sun, 19 Jul 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>一镜成片，随心参考｜Seedance 2.5 正式发布</title>
+      <link>https://seed.bytedance.com/zh/research/一镜成片-随心参考-seedance-2-5-正式发布</link>
+      <description>&lt;p&gt;&lt;span&gt;&lt;strong&gt;今天，我们正式发布新一代视频创作模型 Seedance 2.5。&lt;/strong&gt;Seedance 2.0 发布后，我们观察到，用户对视频创作模型的期待正在从“生成一个片段”走向“完成一段创作”。Seedance 2.5 延续了 Seedance 2.0 统一的多模态音视频联合生成架构，&lt;strong&gt;重点突破长叙事能力、多模态参考能力和编辑能力。&lt;/strong&gt;围绕真实的产业场景，让创作拥有更大的想象空间，并进一步释放生产力。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;其核心亮点如下：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;单次生成时长达 30 秒，支持多轮延长&lt;/strong&gt;：Seedance 2.5 可单次生成 30 秒高质量视频片段，并支持多轮延长。同时，模型优化了镜头衔接和场景过渡，让长视频保持更好的连贯性。模型还大幅优化了画质、音质以及运动质量，并有效弱化了视频生成中常见的“油腻感”。用户可以生产数分钟具有统一视听语言、高质量的连贯内容，精彩故事一次呈现&lt;strong&gt;。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;多模态参考能力全面升级&lt;/strong&gt;：Seedance 2.5 支持用户单次输入最多 30 张图片、10 段视频、10 段音频作为参考素材。模型还提升了白模参考、运动参考、创意参考等各类参考能力，使模型能更好地理解创作意图，实现多主体、多场景、多镜头变化的复杂创意。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;更精准、稳定的编辑能力&lt;/strong&gt;：Seedance 2.5 支持精准的时间戳控制，可定向编辑视频内容，提升创作的效率和可控性。同时，模型强化了绿幕编辑、视角编辑、参考编辑等多种编辑能力，满足影视、广告等更多专业、复杂场景的创作需求。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;凭借长叙事、多模态参考、编辑能力的提升，模型不只能单次生成更长的视频，也能更好地理解创作意图、更可控地完成从想法到视频落地的全过程。接下来，我们想邀请你一起观看一段创意短片，&lt;strong&gt;全片由 Seedance 2.5 独立生成。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms89f0vl.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;p&gt;&lt;span&gt;今天，Seedance 2.5 正在陆续上线即梦 AI、豆包专业版等平台，API 服务也将在近期上线火山方舟，欢迎体验和反馈。&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;项目主页：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;https://seed.bytedance.com/seedance2_5&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;体验入口：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;1）即梦网页端-视频生成-选择 Seedance 2.5&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;2）豆包专业版-视频生成-选择 Seedance 2.5&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;30 秒长叙事、支持多轮延长，精彩故事一次呈现&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;Seedance 2.5 将单次视频生成时长从 15 秒提升至 30 秒，同时进一步提升长视频中的叙事能力。模型可以在 30 秒内组织多个有逻辑关联的镜头，让故事从铺垫、推进、转折到收尾逐步展开，而不是简单延续一个画面。比如创作一段歌手一镜到底上台演出的片段，模型演绎了歌手在化妆间与工作人员互动后，穿过后台走廊与伴舞相遇并一起登台演出的完整故事，而非仅歌手上台的画面。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8eg74b.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;T2V prompt：一镜到底手持稳定器跟拍，镜头从红色厚重幕布缝隙缓缓推进，进入暖色后台化妆间。年轻女歌手背对镜头整理耳机，工作人员提醒她准备登台。她回头看向镜头，开始唱起 City Pop。镜头后退跟拍，歌手穿过幕布进后台通道，与舞伴自然互动，一位工作人员把麦克风递给她。随后歌手与舞伴登上舞台，镜头绕至背面，红黑舞美、LED 屏、追光、烟雾与反光地板逐渐展开。镜头最终拉远至体育馆全景，呈现满场观众、灯牌、荧光棒与欢呼声，营造年轻自由的演唱会高潮氛围。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;凭借模型的多轮延长能力， 用户能在已有的视频结果上自然衔接后续镜头，并在延长过程中保持主体特征、场景环境和叙事节奏的连贯，最终生成数分钟具有统一视听语言的连贯内容，减少拆分镜头、反复拼接和处理衔接的成本。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms89gioe.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;R2V prompt：延长视频，衔接 @视频 1 画面内容和主体继续生成一个 30 秒的视频，保持人物主体、场景、画面风格、声音音效一致。小男孩抱着足球沿车厢跑，地铁停稳后侧边门打开，他立刻冲出，男主紧追。两人一路穿过站台跑到街上，惊动街边路人，男主最终追上并抓住他，小男孩委屈抬头，男主慢慢消气，摸摸他的头，露出无奈笑容。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;在画面呈现上，模型能更好地做到自然的运镜衔接，主体在多次切镜中仍保持稳定，音画始终对齐，使长视频生成结果更连贯。比如在一段京剧表演中，镜头伴随主角旋转水袖甩动完成一次优雅的环绕运镜，主体和背景的呈现始终保持一致。水袖在空中的摆动形成自然的弧线，更遵循物理规律。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms89gnha.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;R2V prompt：16:9 宽幅电影级质感，一镜到底，丝滑运镜，无剪辑。场景参考 @图片 4。 0-5 秒：@图片 2 霸王近景开场，镜头缓慢环绕上半身并过渡至中景；霸王旋身翻转，随后身体与靠旗从镜头前快速掠过，形成自然遮挡，镜头顺势绕至 @图片 1 虞姬身侧。6-10 秒：镜头稳定环绕 @图片 1 虞姬中景，跟随水袖动作完成环绕运镜虞姬抬臂、挑腕、展袖、半转身。最后收袖定格，侧身看向霸王。11-20 秒：@图片 3 武生出场完成后空翻腾动作，随后霸王居中，武生在对侧进退攻防。虞姬位于霸王侧后方以水袖配合，形成刚柔对比。镜头从武生中近景缓慢后拉至舞台大景，结尾三人面向观众同步京剧落幕亮相。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;此外，针对视频生成中常见的“油腻感”问题，Seedance 2.5 对物体材质、人物肤质与眼神、光影、画面饱和度等细节进行系统优化。模型还减少了字幕与背景音乐不受控的情况，使成片更接近实拍的影视质感。&lt;/span&gt;&lt;/p&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;多模态参考能力全面升级，复杂创作任务更可控&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;Seedance 2.5 进一步强化多模态参考能力，支持用户单次输入最多 30 张图片、10 段视频和 10 段音频作为参考素材。更多数量、不同类型的参考素材，能更好的还原用户脑海中的创意，生成主体更多、场景更丰富、镜头变化更灵活的复杂视频内容。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;模型能综合理解不同素材中的画面构图、场景、风格、人物、道具等元素，并按指令将这些参考素材用于视频生成。在多人同框、群像叙事等复杂场景中，也能同时还原多个人物的形象与声音，保持各主体特征稳定。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms89h7hu.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;R2V prompt：30 秒音乐会片段，16:9 横屏，电影感写实，真实音乐厅光影，暖金色舞台灯，正式古典音乐会氛围。场景@图一，钢琴家参考@图二，大提琴参考@图三，小提琴参考@图四，主唱参考@图五，管弦等其他乐队参考@图六到图十，合唱团参考图十一到图十四，观众席参考@图十五到图十八。主唱舞台中央走向前沿，钢琴家在钢琴旁，乐队分布两侧与后方，合唱团在舞台后方。开场高位俯拍音乐厅全景，钢琴家落键，主唱进入追光演唱，镜头自然带过小提琴、大提琴与管弦乐队，小提琴明亮，大提琴温暖。后段合唱团加入，主唱与第一排观众短暂眼神交流，观众微笑点头。结尾镜头后移，演唱结束，观众跟随鼓掌。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;此外，模型还提升了白模参考、运动参考、创意参考等各类参考能力，让画面中的主体、动作、运镜更可控。比如，在白模参考中，用户可以用无纹理 3D 模型搭出画面的空间结构、主体姿态、运动轨迹和镜头机位，再让模型参考这套结构生成视频，使复杂镜头的构图和调度更接近预期。同时，模型还增强了光照控制能力，通过白模的空间信息，生成符合真实物理规律的光照效果，包括光源方向、色温、强度、阴影投射等，让最终生成的画面光影更自然。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms89imyw.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;R2V prompt：参考 @白模 1 的运镜、镜头节奏、景别变化、主体轨迹和镜头调度。参考 @图片 2 的角色外形、场景、材质、光照、色彩和童话氛围，将白模渲染为梦幻温暖、儿童幻想感、3D 动画短片。剧情依次为：幻想天空飞行→云海神兽伴飞→俯冲入海→鳐鱼海底穿梭→镜面时空裂缝→宇宙摘星→幻化回房间→爸爸盖被→合上绘本定格。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;更精准、稳定的编辑能力，有效提升创作效率&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;在视频生成创作中，用户通常需要控制生成时的节奏，并在生成后持续打磨细节。某个动作在第几秒出现、镜头在什么时间切换，或某片段里的角色、动作是否需要调整，都关系到最终成片的效果。更精准、稳定的编辑能力，可以让用户准确还原创意，提高创作效率，减少反复生成的成本。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedance 2.5 支持通过时间戳精准编辑音视频内容，在生成时，用户通过 prompt 控制某个时间段发生的故事、画面视角、运镜和整体节奏，使其更贴近创作意图。在生成后，用户还能针对指定片段里的角色、动作、声音或剧情进行定向修改，同时保持修改前后的连贯性和真实感。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;模型还进一步提升了绿幕编辑、视角与运镜编辑、参考编辑等多种编辑能力，以满足影视、广告等更多专业、复杂的创作场景。比如，在绿幕编辑方面，模型不仅能在保持主体不变的情况下，替换不同场景、讲述不同故事，还能更好地基于不同场景的物理规则渲染人物身上的物理效果，包括衣服飘动方向、头发状态、步态节奏、光影等，使主体和场景更加和谐。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms89jtbf.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;R2V prompt：把 @视频 1 绿幕背景渲染场景、障碍、服装和配角：0-4 秒：户外训练，障碍换石头、砖块、轮胎、木箱；4-10 秒：休息室，朋友鼓励；10-15 秒：国际赛场，训练杆换原创防守球员和门将，主角进球。整体写实电影级。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms89jxvz.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;R2V prompt：编辑 @视频 1，保持人物、动作及画风不变，仅调整运镜。15 秒分段运镜设计：0–4 秒，微型 FPV 贴锅穿行，跟随弹起的吐司后横甩至咖啡；4–7 秒，推近并沿锅边横移，跟随煎蛋翻起落回；7–11 秒，急速升至顶视角，匀速下压扫过餐盘和钥匙；11–15 秒，手持近镜跟随双手快速横甩，最后推近早餐，再拉回双人中景。全程连贯稳定。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;深入更广泛的产业场景，持续探索应用价值&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;随着模型能力的提升，Seedance 2.5 也在深入教育、工业等更广泛的产业场景。在教育领域，模型已开始进入真实学习场景。比如，Seedance 2.5 可以将课文背后的历史背景、人物和情节转化为视频内容，把学习内容从静态讲解转化成更生动、更沉浸感的画面。同时，模型可以帮助老师更高效地制作教学视频，将科学原理、历史事件、实验过程等抽象内容转化为动态演示，不仅降低教学物料的制作门槛，还支持灵活的内容定制。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms89k0ne.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;豆包爱学 App「豆包课堂」场景示例&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;R2V prompt：东方写意风格。 南宋临安街景，热闹的街上几个孩子边跑边闹，孩子们嘴里张嘴念着“蓦然回首，那人却在，灯火阑珊处”。镜头始终跟随孩子们奔跑，带过热闹的街景。镜头上摇，此人正是 @图片 1 辛弃疾。辛弃疾回头，远处是在灯火阑珊中的男子，镜头连贯。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;在工业制造、具身智能和自动驾驶等产业中，Seedance 2.5 也开始进入更具体的生产环节。模型可以生成高质量合成视频数据，帮助训练机器人的感知和操作能力；也可以用于工业仿真、流程培训和设备演示。在自动驾驶场景中，模型还可以模拟极端天气、复杂路况等低频场景，为系统测试和训练提供更多样本。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms89k8sg.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;R2V prompt：参考 @白模 1 的运镜、构图、景别、空间关系、零件位置、模型结构、装配顺序和运动轨迹。参考 @图片 1 的材质、光照、色彩、反射和氛围，将白模渲染为高端真实汽车拼装片段。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h1&gt;&lt;span&gt;&lt;strong&gt;总结与展望&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;Seedance 2.5 进一步增强了对真实世界的理解和呈现能力，让视频生成从片段级输出，走向更完整的创作流程。我们也看到，在复杂运动的物理合理性、极多主体交互场景的稳定性上，模型仍有提升空间。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;未来，Seedance 团队将继续探索更长的连贯叙事、更懂用户的生成与编辑体验，并进一步增强模型对物理世界规律的理解。我们希望 Seedance 系列模型能更生动、更可控、更懂创作者，帮助更多用户表达创意的同时，持续探索并服务更广泛的产业需求。&lt;/span&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/一镜成片-随心参考-seedance-2-5-正式发布</guid>
+      <pubDate>Thu, 30 Jul 2026 16:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
