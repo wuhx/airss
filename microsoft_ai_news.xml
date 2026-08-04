@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Aug 2026 23:38:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 23:33:23 +0000</lastBuildDate>
     <item>
       <title>lang-en</title>
       <link>https://news.microsoft.com/source/latam/features/ai/data-driven-farming-chile/?lang=en</link>
@@ -1474,6 +1474,27 @@ You can ask very basic questions like, “Who should I have in my team this week
       <guid isPermaLink="false">https://news.microsoft.com/source/emea/features/fantasy-premier-league-companion-gives-managers-a-new-tool-for-success/</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-27T22:58:38.591075+00:00</crawled>
+    </item>
+    <item>
+      <title>Teaching AI to speak the language of pathology</title>
+      <link>https://news.microsoft.com/signal/articles/teaching-ai-to-speak-the-language-of-pathology/</link>
+      <description>&lt;article&gt;
+&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;Artificial intelligence is already helping clinicians spot patterns in diagnostic images and detect signs of disease. But many of today’s pathology AI systems are built for a single task and must be rebuilt for each new application.&lt;/p&gt;
+&lt;p&gt;A study &lt;a href="https://www.nature.com/articles/s41591-026-04521-4"&gt; recently published in &lt;em&gt;Nature Medicine &lt;/em&gt;&lt;/a&gt; describes a different approach aimed at advancing research in this field. Researchers from Microsoft Research and Paige, now part of Tempus, developed PRISM2, a pathology foundation model trained on both tissue images and language based on real pathology reports. The goal was to help AI learn from the large amount of available text data and create a system that could support future pathology research and development.&lt;/p&gt;
+&lt;p&gt;In testing, the model matched or exceeded the performance of specialized cancer-detection systems on several benchmark tasks, including prostate cancer, breast cancer and breast lymph node metastasis detection. Importantly, researchers reported these results without creating a separate model for each task.&lt;/p&gt;
+&lt;p&gt;The full PRISM2 model weights are publicly available for research use on Hugging Face  &lt;a href="https://huggingface.co/paige-ai/Prism2"&gt;here&lt;/a&gt; and &lt;a href="https://huggingface.co/paige-ai/Prism2-survival"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why it matters &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pathology sits at the center of many cancer diagnoses. Pathologists examine tissue samples and create reports that guide treatment decisions. As healthcare generates larger volumes of data, researchers have been exploring how AI can support clinicians in making these decisions and possibly even deliver new insights.&lt;/p&gt;
+&lt;p&gt;Most pathology AI systems today are designed for a single purpose, such as detecting a particular type of cancer. PRISM2 was developed as a research effort to support a broader range of tasks through a single model that can respond to prompts and questions. Researchers say that could make it easier to build and adapt future pathology tools without starting from scratch for each new application.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How it works &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The central idea behind PRISM2 is that pathology is not only a visual discipline. It is also a language-driven one.&lt;/p&gt;
+&lt;p&gt;To train the model, researchers paired pathology images with information derived from pathology reports, creating millions of question-and-answer examples that helped connect visual findings with diagnostic language. The resulting model can work with either images only or images and text, enabling users to interact with it through prompts rather than relying solely on task-specific software.&lt;/p&gt;
+&lt;p&gt;This approach differs from many earlier pathology foundation models, which focused primarily on learning visual representations from images. PRISM2 was designed from the outset to link visual patterns in tissue with the language clinicians use when making diagnoses.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Lead image created with Microsoft Copilot.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://news.microsoft.com/signal/articles/teaching-ai-to-speak-the-language-of-pathology/</guid>
+      <pubDate>Tue, 04 Aug 2026 12:00:21 -0400</pubDate>
+      <crawled>2026-08-04T22:58:10.599685+00:00</crawled>
     </item>
   </channel>
 </rss>
