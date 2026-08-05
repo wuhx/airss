@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Aug 2026 23:33:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 23:29:12 +0000</lastBuildDate>
     <item>
       <title>Bringing Claude Code and Claude Cowork to government</title>
       <link>https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government</link>
@@ -419,6 +419,14 @@
       <guid isPermaLink="false">https://claude.com/blog/bringing-mcp-2026-07-28-to-claude</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-28T22:52:58.707506+00:00</crawled>
+    </item>
+    <item>
+      <title>Inference hooks: inline data loss prevention for Claude Enterprise</title>
+      <link>https://claude.com/blog/claude-enterprise-inference-hooks</link>
+      <description>&lt;div&gt;&lt;figure&gt;&lt;div&gt;&lt;img alt="" src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a737642f52b1b4fc4aaec1a_260805-PromptHooks-Blog-960x540-ZT-v008.gif"/&gt;&lt;/div&gt;&lt;/figure&gt;&lt;p&gt;Inference hooks lets your compliance team inspect and enforce policy on every prompt and tool call response before they reach Claude — across Claude Enterprise surfaces including chat, Claude Code, Claude Cowork, and more. Your DLP server makes the call to block or allow, and Claude enforces that decision in real time, blocking unapproved content before it reaches Claude.&lt;/p&gt;&lt;p&gt;Security teams require every channel where employees can move sensitive data to pass through an inspection point their team controls. Until today, native inline enforcement was limited to Claude Code's client-side hooks. Inference hooks closes the gap with a single enforcement layer that covers every Claude Enterprise surface without separate integration work or agent per product. &lt;/p&gt;&lt;h2&gt;How inference hooks works&lt;/h2&gt;&lt;figure&gt;&lt;div&gt;&lt;img alt="" src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7362314ccf1158f2bffe5f_Claude-blog-prompt-hooks-DLP%20(1).png"/&gt;&lt;/div&gt;&lt;/figure&gt;&lt;p&gt;When an organization turns on inference hooks, every inference request routes through a signed WebSocket connection to a security server. Before the model starts generating, Claude sends the prompt and its surrounding context to your server. Your server returns a verdict — allow or deny — and Claude only proceeds once it has one.  The same check runs on tool calls: when Claude calls a tool — including tools connected through MCP, skills, and plugins — the tool's response is checked before it's sent back to the model.&lt;/p&gt;&lt;h2&gt;Ways to use inference hooks&lt;/h2&gt;&lt;p&gt;Extend your existing DLP program to Claude. Inference hooks uses an open, webhook-based protocol with a published schema. That makes deployment easy — just point it at the same server your other tools already report to including Netskope, Palo Alto Networks, Proofpoint, Zscaler or an AI security server you built in-house.&lt;/p&gt;&lt;p&gt;Cover chat, Claude Code, Cowork, and additional Claude Enterprise products with one configuration. Turn on inference hooks once at the organization level and it applies to Claude Enterprise surfaces, including tool calls made through MCP connectors, skills, and plugins.&lt;/p&gt;&lt;p&gt;Simplify rollout with shadow mode (always allow), role-based exclusions, and percentage-based rollouts. Customize failure-policy tolerance, timeouts, and other settings to match your organization's risk tolerance.&lt;/p&gt;&lt;h2&gt;Getting started&lt;/h2&gt;&lt;p&gt;Inference hooks is available today in beta for Claude Enterprise customers. Read the &lt;a href="https://platform.claude.com/docs/en/manage-claude/inference-hooks"&gt;documentation&lt;/a&gt; to configure your organization's DLP server and start enforcing policy across Claude Enterprise surfaces.&lt;/p&gt;&lt;p&gt;For security vendors, inference hooks is built on a webhook-based protocol with a documented schema, so you can build an integration, and Claude Enterprise customers can point their organization at your platform.&lt;/p&gt;&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-enterprise-inference-hooks</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-08-05T22:50:39.219774+00:00</crawled>
     </item>
     <item>
       <title>A guide to cost visibility and control in Claude</title>
