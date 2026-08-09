@@ -7,22 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Aug 2026 22:57:18 +0000</lastBuildDate>
-    <item>
-      <title>Making Sense of the Early Universe</title>
-      <link>https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy/</link>
-      <description>&lt;article&gt;
-&lt;a href="https://blogs.nvidia.com/blog/open-models-icml-2026/"&gt;
-&lt;div&gt;&lt;img alt="How Open Models Are Driving AI Research" height="169" src="https://blogs.nvidia.com/wp-content/uploads/2026/07/ICML-Blog-Featured-Image-300x169.jpg" width="300"/&gt;&lt;/div&gt; &lt;/a&gt;
-&lt;a href="https://blogs.nvidia.com/blog/open-models-icml-2026/"&gt;
-		How Open Models Are Driving AI Research	&lt;/a&gt;
-&lt;div&gt;
-		Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work.  This year’s accepted papers reveal a clear direction: open...	&lt;/div&gt;
-&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy/</guid>
-      <pubDate>Thu, 23 Apr 2026 13:00:22 +0000</pubDate>
-      <crawled>2026-07-07T17:01:09.832160+00:00</crawled>
-    </item>
+    <lastBuildDate>Sun, 09 Aug 2026 22:59:29 +0000</lastBuildDate>
     <item>
       <title>Firefly Aerospace Operates NVIDIA Jetson in Lunar Orbit for the First Time</title>
       <link>https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/</link>
@@ -2088,6 +2073,35 @@
       <guid isPermaLink="false">https://blogs.nvidia.com/blog/geforce-now-thursday-august-2026-games-list/</guid>
       <pubDate>Thu, 06 Aug 2026 06:00:00 -0700</pubDate>
       <crawled>2026-08-07T01:32:24.528099+00:00</crawled>
+    </item>
+    <item>
+      <title>Firebird Launches CIS Region’s Largest AI Factory in Armenia</title>
+      <link>https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated computing and Dell Technologies high-performance AI infrastructure&lt;/span&gt;&lt;span&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Nikol Pashinyan, prime minister of the Republic of Armenia; Zhaslan Madiyev, deputy prime minister of the Republic of Kazakhstan; and David Allen, U.S. chargé d`affaires, a.i. in Armenia, attended the AI factory opening ceremony. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;AI factories are the foundational infrastructure for the AI era, providing the computing capacity needed to train, fine-tune and deploy AI models for every domain at scale.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe height="675" src="https://www.youtube.com/embed/xcTRTotS9-A?feature=oembed" title="Firebird Launches CIS Region’s Largest AI Factory in Armenia" width="1200"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;b&gt;Building the Infrastructure to Create Intelligence at Home&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;While AI services are available globally, countries also need the capacity to develop and run AI for their own languages, industries and national priorities. Firebird’s AI factory brings that capacity to Armenia, giving developers, startups, enterprises, universities and public institutions the compute to build and scale AI at home.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Firebird plans to deploy more than 70,000 NVIDIA Rubin and Blackwell GPUs and 300 megawatts of AI infrastructure capacity in Armenia by the end of 2027, accelerating the country’s development as a center for AI research, advanced computing and innovation. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;“Our ambition for what we are building in the next 2 years or so is roughly 2 gigawatts of capacity around the world. We’re very focused on merging into frontier markets,” said Alexander Yesayan, co-founder of Firebird.&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;At this scale, energy efficiency is essential. Built on the &lt;/span&gt;&lt;a href="https://www.nvidia.com/en-us/data-center/products/dsx/"&gt;&lt;span&gt;NVIDIA DSX&lt;/span&gt;&lt;/a&gt;&lt;span&gt; platform, this AI factory integrates accelerated computing, networking, power and cooling as one codesigned system. Firebird’s AI factory is designed from the ground up to turn compute into revenue. With DSX, it can run up to 40% more GPUs on the same footprint, producing more tokens per dollar and extracting more value from every megawatt of capacity.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;b&gt;A Magnet for Global AI, a Catalyst for Local Innovation&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Firebird’s ambitions extend beyond a single site. With NVIDIA’s support, the company is pursuing an approximately 2-gigawatt AI infrastructure roadmap spanning Armenia, Kazakhstan and additional markets. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Firebird also announced that NVIDIA intends to invest in the company, following an earlier investment by CoreWeave this year. These investments will help Firebird expand its global infrastructure and operational footprint, and support its efforts to establish the largest and most advanced compute clusters across frontier markets.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Delivered in just over six months, the Armenia AI factory demonstrates Firebird’s ability to turn ambitious infrastructure plans into operational AI capacity with exceptional speed.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Schneider Electric provides the power infrastructure supporting Firebird’s AI factory in Hrazdan, helping Firebird meet its accelerated deployment schedule by rapidly delivering and setting up critical systems, including medium- and low-voltage switchgear, three-phase uninterruptible power supply systems and rack enclosures. This keeps the power buildout moving at the pace of the compute and provides a reliable foundation to bring NVIDIA accelerated computing online at scale.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;To support the facility’s thermal needs, Vertiv provided a cooling architecture combining chilled-water technology, advanced controls and Vertiv TrimCooler technology for efficient heat rejection. Vertiv’s iCOM CWM Chilled Water Manager centrally coordinates cooling resources, improving visibility, efficiency and responsiveness as demand shifts with AI workloads.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Early demand is coming from AI-native companies including Perplexity, which is working with Firebird to access high-performance AI infrastructure for its AI agent platform and answer engine. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;As AI becomes essential infrastructure worldwide, Firebird’s expansion can help make the CIS region a magnet for global companies building and running AI — and a catalyst for local developers, researchers and enterprises. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Powered by NVIDIA’s total AI factory platform — reference architecture, accelerated computing, networking and AI software — and deployed on Dell PowerEdge servers, the new Firebird AI factory will help Armenia’s builders turn energy into intelligence and connect their innovations to the global AI economy.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;div&gt;&lt;/div&gt; &lt;/div&gt;</description>
+      <guid isPermaLink="false">https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/</guid>
+      <pubDate>Thu, 06 Aug 2026 06:00:11 -0700</pubDate>
+      <crawled>2026-08-09T22:23:49.503236+00:00</crawled>
     </item>
     <item>
       <title>Into the Omniverse: How Open World Models Push the Frontier of Physical AI</title>
