@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 Aug 2026 22:59:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 23:06:36 +0000</lastBuildDate>
     <item>
       <title>WWDC26: Apple unveils next generation of Apple Intelligence, Siri AI, powerful parental controls, and an expansive set of software improvements</title>
       <link>https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</link>
@@ -359,6 +359,25 @@
       <guid isPermaLink="false">https://www.apple.com/newsroom/2026/08/leagues-cup-kicks-off-tomorrow-august-4-on-apple-tv/</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
       <crawled>2026-08-03T22:59:49.935990+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple and Major League Baseball announce September “Friday Night Baseball” schedule and first‑ever broadcast in Apple Immersive</title>
+      <link>https://www.apple.com/newsroom/2026/08/apple-mlb-announce-september-friday-night-baseball-schedule/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Today, Apple and Major League Baseball (MLB) unveiled the September schedule for “Friday Night Baseball,” the weekly doubleheader streaming every Friday on Apple TV throughout the 2026 regular season. Apple TV subscribers across 60 countries and regions can enjoy two marquee matchups each week with enhanced production quality, expert commentary, and no local broadcast restrictions.
+&lt;/div&gt;
+&lt;div&gt;For the first time, baseball fans can take in all the action of “Friday Night Baseball” live in Apple Immersive on Apple Vision Pro, leveraging 3D video recorded in 8K with a 180-degree field of view. On August 28, viewers with Vision Pro will experience the iconic Red Sox vs. Yankees rivalry from unique camera angles that place viewers right in the game, immersed in the drama of each at-bat, the celebrations in the dugout after a big hit, close plays at the outfield wall, and more.
+&lt;/div&gt;
+&lt;div&gt;The experience features bespoke commentary from Paul Severino (play-by-play), Xavier Scruggs (analyst), and Michelle Margaux (sideline reporter); dedicated replays; and an immersive graphics package that includes team lineups and stats floating in the viewer’s space. During breaks in the action, the broadcast remains live, immersing viewers in the stadium experience from all angles as ambisonic microphones capture sounds in Spatial Audio.
+&lt;/div&gt;
+&lt;div&gt;Apple Vision Pro users with an Apple TV subscription in Australia, Canada, Germany, Hong Kong, Japan, South Korea, Taiwan, the UK, and the U.S. can stream the games live directly through the Apple TV app. Full game replays, as well as a highlight package of the game’s key moments, will be available on demand in the Apple TV app for Vision Pro.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/08/apple-mlb-announce-september-friday-night-baseball-schedule/</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-08-10T22:32:00.741022+00:00</crawled>
     </item>
   </channel>
 </rss>
