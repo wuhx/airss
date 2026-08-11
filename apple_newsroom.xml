@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 23:06:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 23:11:50 +0000</lastBuildDate>
     <item>
       <title>WWDC26: Apple unveils next generation of Apple Intelligence, Siri AI, powerful parental controls, and an expansive set of software improvements</title>
       <link>https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</link>
@@ -378,6 +378,21 @@
       <guid isPermaLink="false">https://www.apple.com/newsroom/2026/08/apple-mlb-announce-september-friday-night-baseball-schedule/</guid>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
       <crawled>2026-08-10T22:32:00.741022+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple Arcade’s lineup of hit puzzle games gets even bigger with the addition of Block Blast!+ and Art of Fauna: Cozy Puzzles+</title>
+      <link>https://www.apple.com/newsroom/2026/08/apple-arcade-levels-up-with-block-blast-plus-and-art-of-fauna-cozy-puzzles-plus/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Whether gamers are looking for high-octane action or a laid-back afternoon, Apple Arcade has a little bit of everything for every player, and its puzzle catalog is getting a big upgrade. On September 3, two standout new titles join the mix: &lt;a href="https://apps.apple.com/us/app/block-blast/id6766824098/"&gt;Block Blast!+&lt;/a&gt; and &lt;a href="https://apps.apple.com/us/app/art-of-fauna-cozy-puzzles/id6756780731/"&gt;Art of Fauna: Cozy Puzzles+&lt;/a&gt;. Block Blast!+ brings one of the most popular daily puzzle games to Arcade, while the 2025 App Store Award winner for Cultural Impact — Art of Fauna: Cozy Puzzles+ — combines soothing jigsaw-style gameplay with rich storytelling about the natural world.
+&lt;/div&gt;
+&lt;div&gt;There’s a reason Block Blast!+ has topped charts around the world: It’s simple to pick up and nearly impossible to put down. The game challenges players to slot blocks onto a grid to clear rows and columns, and chase that perfect combo. On Arcade, players can now enjoy the same blockbusting gameplay completely uninterrupted by ads.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/08/apple-arcade-levels-up-with-block-blast-plus-and-art-of-fauna-cozy-puzzles-plus/</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-08-11T22:37:18.178155+00:00</crawled>
     </item>
   </channel>
 </rss>
