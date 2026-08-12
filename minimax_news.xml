@@ -7,7 +7,103 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 23:11:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 23:10:29 +0000</lastBuildDate>
+    <item>
+      <title>MiniMax M2.5: 更快更强更智能，为真实世界生产力而生</title>
+      <link>https://www.minimaxi.com/news/minimax-m25</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.2.12&lt;/div&gt;&lt;h1&gt;MiniMax M2.5: 更快更强更智能，为真实世界生产力而生&lt;/h1&gt;&lt;div&gt;&lt;a href="https://platform.minimaxi.com/docs/api-reference/text-anthropic-api"&gt;&lt;p&gt;即刻接入API&lt;/p&gt;&lt;/a&gt;&lt;a href="https://platform.minimaxi.com/subscribe/coding-plan"&gt;&lt;p&gt;Coding Plan&lt;/p&gt;&lt;/a&gt;&lt;a href="https://agent.minimaxi.com/"&gt;&lt;p&gt;立即体验Agent&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/9dd08dfa-166a-42f0-8119-6ab57ee02140.png" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F9dd08dfa-166a-42f0-8119-6ab57ee02140.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Ff6d88bac-3b5c-46fc-ae0c-4e1ce423eb51.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;今天我们来介绍 MiniMax-M2.5。经过数十万个真实复杂环境中的大规模强化学习训练，M2.5 在编程、工具调用和搜索、办公等生产力场景都达到或者刷新了行业的 SOTA，比如 SWE-Bench Verified（80.2%），Multi-SWE-Bench（51.3%），BrowseComp（76.3%）。&lt;br/&gt;&lt;br/&gt;M2.5 优化了模型对复杂任务的拆解能力和思考过程中 token 的消耗，使其能更快地完成复杂的 Agentic 任务，比如在 SWE-Bench Verified 的测试中，比上一个版本 M2.1 完成任务的速度快了 37%。&lt;br/&gt;&lt;br/&gt;M2.5 是第一个不需要考虑使用成本可以无限使用的前沿模型。在每秒输出 100 token 的情况下，M2.5 连续工作一小时只需花费 1 美金；而在每秒输出 50 个 token 的情况下，只需要 0.3 美金。我们希望M2.5能够加速Agent时代的发展。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;编程：像架构师一样思考和构建&lt;/h3&gt;&lt;div&gt;在编程的核心测试中，M2.5 相比于上一代模型有了显著提升，达到了跟 Claude Opus 系列类似的水平。在多语言相关的任务 Multi-SWE-Bench 上，M2.5 更是达到了第一。&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F63cbae73-ee28-4012-a4bc-fadfee47ffb9.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;M2.5 具备了「像架构师一样思考和构建」的能力，比如模型演化出了原生 Spec 行为：在动手写代码前，以架构师视角主动拆解功能、结构和 UI 设计，实现完整的前期规划。&lt;br/&gt;&lt;br/&gt;M2.5 在超过 10 种语言（包括 GO、C、C++、TS、Rust、Kotlin、Python、Java、JS、PHP、Lua、Dart、Ruby）和数十万个真实环境中进行了训练。不仅限于 bug fixed 类场景，复杂系统的从 0-1 系统设计、环境构建，从 1-10 的系统开发，从 10-90 的功能迭代，从 90-100 的完备 code review 与系统测试，M2.5 都有可靠的表现，能够胜任各类复杂系统开发的全流程。覆盖 Web、Android、iOS、Windows、Mac 等多平台的全栈项目，包含 Server 端 API、功能逻辑、DataBase 等，而不仅仅是“前端网页 demo”。&lt;br/&gt;&lt;br/&gt;为了衡量相关能力，我们也将 VIBE 基准升级为了更复杂、更具挑战性的 Pro 版：显著提升了任务复杂度、领域覆盖度和评估准确度。综合来看，M2.5 与 Opus4.5 表现相当。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F0fa0fd02-38ab-4a4b-8dc6-8bf3bb6454ae.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;我们关注了模型在不同脚手架上的泛化性。我们在不同的编程脚手架上测试了 SWE-Bench Verified 评测集上的表现。 在 Droid 上，M2.5 的通过率为 79.7，超过了 M2.1 的 71.3 分以及 Opus 4.6 的 78.9 分；在 OpenCode 上，M2.5 的通过率为 76.1， 超过了 M2.1 的 72.0 分和 Opus 4.6 的 75.9 分。 &lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;搜索和工具调用&lt;/h3&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F7c519ec8-1279-41b1-a6f2-54e78b1c21f8.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;搜索和工具调用是模型能够自动处理复杂任务的前提，在 BrowseComp、Wide Search 等榜单的评测中，M2.5 在这些方面也达到了行业顶尖的水平。同时，模型的泛化能力也有提升。M2.5 在面对陌生的脚手架环境时，具有更加稳定的表现。&lt;br/&gt;&lt;br/&gt;在人类专家真实的搜索任务中，使用搜索引擎只是一小部分，更多的是在专业网页内进行深度探索。为此我们构建了 RISE（Realistic Interactive Search Evaluation），用于衡量模型在真实专业任务上的搜索能力。结果表明 M2.5 在真实世界的专家级搜索任务上表现卓越。&lt;br/&gt;&lt;br/&gt;相比于前代模型，M2.5 在处理复杂任务时也展现出了更高的决策成熟度：它学会了用更精准的搜索轮次和更优的 token 效率去解决问题。例如，在 BrowseComp、Wide Search 和 RISE 多项任务中，M2.5 以更低的轮次消耗取得了更优的效果，相较于 M2.1 节省了大约 20% 的轮次消耗。这表明模型不再只是“做对”题目，而是能以更精简的路径逼近结果。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;办公&lt;/h3&gt;&lt;div&gt;我们考虑了在办公场景中，如何给出真正可交付的产物。为此，我们与金融、法律、社会科学等领域的资深从业者展开深度合作，由他们提出需求、反馈问题、参与标准定义，并直接构建数据，将行业的隐性知识带入到模型的训练流程之中。在此基础上，M2.5 在 Word、PPT、Excel 金融建模等办公高阶场景中取得了显著的能力提升。在评测层面，我们构建了内部的 Cowork Agent 评测框架（GDPval-MM），以两两对比的方式评估模型的交付质量和轨迹的专业性，同时监控全流程的 token 费用，估算模型在生产力场景中的实际效益。在与主流模型的对比中，它取得了 59.0% 的平均胜率。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fdb7cbd03-aa36-44b4-b782-5b610a7f9f4f.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F083383f6-4f0a-4f8c-bc8c-66af394bdbe0.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;效率&lt;/h3&gt;&lt;div&gt;我们总是希望 Agent 完成复杂任务的时间尽可能少。这取决于模型拆解复杂任务的能力、模型的 token 效率，以及模型的推理速度。我们的模型本来就提供 100TPS 的推理速度，这几乎两倍于现在的主流模型。同时，我们在强化学习中注重优化了模型对复杂任务的拆解能力和思考过程的token消耗。这三个环节加在一起，使得 M2.5 在完成复杂任务的时间和成本上有显著的优势。&lt;br/&gt;&lt;br/&gt;例如，在运行 SWE-Bench Verified 评测集时，M2.5 平均在每个任务上消耗了 3.52M 的 token。相比之下，M2.1 会消耗 3.72M tokens。同时，由于在并行工具调用等能力上的提升，端到端运行从平均 31.3 分钟减少到了 22.8 分钟，速度提升了 37%。这一耗时情况与 Claude Opus 4.6 的 22.9 分钟基本持平。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;成本&lt;/h3&gt;&lt;div&gt;我们设计 M2 系列的初衷是希望能没有成本约束的情况下运行复杂 Agents，随着我们能力的持续提升，我们认为 M2.5 已经接近实现了这个目标。M2.5 提供两个效果一样，但是速度和价格不一样的版本：速度 100 TPS 左右的快速版本，处理每百万的 token 输入只需要 0.3 美金，处理每百万的 token 输出只需要 2.4 美金。而 50 TPS 的版本的输出价格还更低一倍。按照输出价格参考，50 TPS 的版本价格是 Opus、Gemini 3 Pro 以及 GPT5 这些模型的 1/10-1/20。&lt;br/&gt;&lt;br/&gt;在以每秒输出 100 个 token 的情况下，连续工作一小时只需要 1 美金，而在每秒输出 50 个 token 的情况下，只需要 0.3 美金。也就是说 1 万美金可以让 4 个 Agent 连续工作一年，我们认为 M2.5 提供了经济上几乎无限制地构建和运营 Agent 的可能性。对于 M2 系列的模型来说，唯一的问题变成了模型能力的进步速度。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;进步速度&lt;/h3&gt;&lt;div&gt;在过去108天里面，我们陆续更新了 M2、M2.1 和 M2.5，模型的进步速度超过了我们原本的预期。比如在编程领域最具代表性的 SWE-Bench Verfied 上面，相比 Claude、GPT 和 Gemini 等模型系列的进步速度，M2 系列模型保持了行业最快的进步速度。&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa1d44a28-2b35-488b-ac62-5145c5de8af6.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;强化学习的扩展&lt;/h3&gt;&lt;div&gt;我们认为取得上述进展的核心原因是大规模的强化学习。它显著地提升了模型能力以及对脚手架、环境的泛化性。通过 Agent RL 框架、算法和 Reward 设计、工程优化的 co-design， 我们支持了对任意 Agent 脚手架与环境的高效优化，我们在包括大量公司内部真实任务的数十万个 Agent 脚手架与环境上大规模训练，验证了模型能力随算力和任务数的 scaling 取得近线性提升。&lt;br/&gt;&lt;br/&gt;
+&lt;strong&gt;Forge - 原生 Agent RL 框架&lt;/strong&gt;
+&lt;br/&gt;&lt;br/&gt;Forge 作为一个原生 Agent RL 框架，在设计上通过引入中间层完全解耦了底层训推引擎与 Agent，支持任意 Agent 的接入，使得我们可以优化模型在 Agent 脚手架和工具上的泛化。为了提升系统吞吐，我们优化了异步调度策略来平衡系统吞吐和样本的 off-policyness ，并设计了树状合并训练样本的训练策略，实现了约 40 倍的训练加速。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F9f949b20-da28-4a60-80d1-f8d4f7031398.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;Agent RL 算法与 Reward 设计&lt;/h3&gt;&lt;div&gt;算法层面，我们沿用了我们年初提出的 CISPO 算法以保障 MoE 模型在大规模训练中的稳定性。针对 Agent 场景长上下文带来的信用分配（Credit Assignment）难题，我们引入了过程奖励机制（Process Reward）对完成质量进行全链路监控。此外，为深度对齐用户体验，我们直接估计任务在真实环境下的耗时并作为 Reward，在模型效果与响应速度之间实现了更好的平衡。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F10c97904-2363-4b7b-afe4-0e3c6df59575.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;关于 RL 的 scaling 和 Agent RL 框架 Forge 的更多信息我们会在后续的技术博客中给出。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;MiniMax Agent: M2.5 as a Real World Coworker&lt;/h3&gt;&lt;div&gt;M2.5 已经在 MiniMax Agent 中全面上线，带来最佳 Agentic 体验。
+
+我们将处理信息的核心能力，提炼为标准的 Office Skills，深度集成于 Agent 中。全能（MAX）模式下，处理 Word 排版、PPT 编辑、Excel 测算等任务时，MiniMax Agent 将自动根据文件类型加载对应的 Office Skills，提升任务输出质量。此外，用户还可以将 Office Skills 与特定领域的行业经验相结合，创建面向特定任务场景的、可复用的专家（Expert）。
+&lt;br/&gt;&lt;br/&gt;
+以行业研究为例，将成熟的研究框架 SOP 与 Word Skills 融合后，Agent 能够严格按照既定框架，自动抓取数据、组织分析逻辑，并输出格式规范的研报文档，而非仅仅生成一段粗略的文字。在金融建模场景中，将机构专属的建模规范与 Excel Skills 结合，Agent 则可以遵循特定的风控逻辑与测算标准，自动生成并校验复杂的财务模型，而不只是输出一张简单的表格。
+&lt;br/&gt;&lt;br/&gt;
+截至目前，用户已经在 MiniMax Agent 上构建了 1 万多个专家，且仍在快速增长。&lt;strong&gt;MiniMax 也针对办公、金融、编程等高频场景，在 MiniMax Agent 上构建了多组深度优化、开箱即用的专家套组。&lt;/strong&gt;
+&lt;br/&gt;&lt;br/&gt;
+MiniMax 内部已率先受益于 M2.5 的模型能力。&lt;strong&gt;在 MiniMax 真实业务场景中，整体任务的 30% 由 M2.5 自主完成，&lt;/strong&gt;覆盖研发、产品、销售、HR、财务等职能，且渗透率仍在持续上升。&lt;strong&gt;其中，在编程场景表现尤为突出，M2.5 生成的代码已占新提交代码的 80%。&lt;strong&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;&lt;strong&gt;附评测方法：&lt;/strong&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;div&gt;&lt;strong&gt;&lt;strong&gt;&lt;br/&gt;
+&lt;i&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SWE benchmark:&lt;/strong&gt; SWE-bench Verified &amp;amp; SWE-bench Multilingual &amp;amp; SWE-bench-pro &amp;amp; Multi-SWE-bench 在内部设施上使用 Claude Code 作为脚手架进行测试，覆盖默认 system prompt，测试 4 次取平均值。此外 SWE-bench Verified 还在 Droid &amp;amp; Opencode 脚手架上使用默认 prompt 完成评估。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Terminal Bench 2:&lt;/strong&gt; 我们使用 Claude Code 2.0.64 作为评测脚手架对 Terminal Bench 2 进行测试，修改了部分题目的 Dockerfile 以保证题目本身的正确性，将沙盒规格统一扩展至 8 核 CPU 和 16g 内存，超时时间统一设置为 7200 秒，并为每个题目配备了基础工具集（ps、curl、git 等）。在排除超时不重试的前提下，我们增加了对脚手架 response 为空的检测机制，对最终 response 为空的任务进行重试，以应对各类异常中断情况。最终结果取 4 次运行平均值。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VIBE-Pro:&lt;/strong&gt; 内部基准测试。使用 Claude Code 作为脚手架自动验证程序的交互逻辑与视觉效果。所有得分通过包含需求集合、容器化部署及动态交互环境的统一链路计算，最终结果取 3 次运行平均值。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BrowseComp:&lt;/strong&gt; 使用了与 WebExplorer（Liu et al. 2025）相同的智能体框架。每当 token 用量超过 32k 的时候，我们对历史上下文进行总结。最多 token 用量为 1M。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wide Search:&lt;/strong&gt; 使用了与 WebExplorer（Liu et al. 2025）相同的智能体框架。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RISE:&lt;/strong&gt; 内部基准测试。包含人类专家真实的提问，考察模型结合复杂网页交互时的多步信息搜寻和推理能力。在 WebExplorer（Liu et al. 2025）的智能体框架基础上加入了基于 PlayWright 的浏览器使用工具集。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GDPval-MM:&lt;/strong&gt; 内部基准测试。基于开源的 GDPval 测试集，使用自建 Agentic 评测框架，由 LLM-as-a-judge 对完整轨迹做 pairwise 胜平负判定；根据各厂商官方 API 定价（无 cache）计算每个任务的平均 token 花费。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MEWC:&lt;/strong&gt; 内部基准测试。基于 MEWC（Microsoft Excel World Championship）构建，包含从 2021-2026 的 Excel esports 主赛区以及其他分赛区的题目共 179 道题目。评测模型理解竞赛 Excel 表格，并操作 Excel 工具完成题目的能力，最终通过逐个比较输出和答案单元格的数值计算分数。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Finance Modeling:&lt;/strong&gt; 内部基准测试。主要包含有行业专家构建的金融建模题目，通过 Excel 工具进行端到端的研究、分析任务，每个题目通过专家的 rubrics 进行打分。最终结果取 3 次运行平均值。&lt;/li&gt;
+&lt;/ul&gt;&lt;/i&gt;
+&lt;/strong&gt;&lt;/strong&gt;&lt;/div&gt;&lt;/main&gt;</description>
+      <guid isPermaLink="false">https://www.minimaxi.com/news/minimax-m25</guid>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-08-12T22:33:28.102616+00:00</crawled>
+    </item>
+    <item>
+      <title>MiniMax M2.7: 开启模型的自我进化</title>
+      <link>https://www.minimaxi.com/news/minimax-m27-zh</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026-03-18&lt;/div&gt;&lt;h1&gt;MiniMax M2.7: 开启模型的自我进化&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/7a85723c-acc3-4eb8-a3a8-f53713d0822e.png" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F7a85723c-acc3-4eb8-a3a8-f53713d0822e.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;p&gt;在 M2 系列模型发布后的几个月，我们收到了大量热心用户的反馈和建议，这促使我们进一步加速模型的迭代效率。除了更加认真工作之外，我们能找到的唯一途径就是&lt;span&gt;开启模型和组织的自我进化。MiniMax M2.7是我们第一个模型深度参与迭代自己的模型。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;M2.7 能够自行构建复杂 Agent Harness，并基于 Agent Teams、复杂 Skills、Tool Search Tool 等能力，完成高度复杂的生产力任务。例如，在研发M2.7的过程中，我们基于模型构建强化学习Harness 中的数十个复杂的 skills，更新自己的 memory，驱动模型自身的强化学习，并基于结果优化强化学习过程和Harness，开启模型的自我进化。&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;1. M2.7 在真实的软件工程中有优异的表现，包括端到端的完整项目交付，分析日志排查 Bug、代码安全，机器学习等。在基准测试 SWE-Pro 中，M2.7 得分56.22%，几乎接近Opus最好的水平。这一能力同样延伸到了端到端的完整项目交付场景（VIBE-Pro 55.6%）以及对复杂工程系统的深层理解Terminal Bench 2（57.0%）。&lt;/p&gt;
+&lt;p&gt;2. 在专业办公领域，我们提升了模型在各领域的专业知识和任务交付能力，在 GDPval-AA 的ELO得分是1495，为开源最高。M2.7 对 Office 三件套 Excel/PPT/Word 的复杂编辑能力显著提升，能更好地完成多轮修改和高保真的编辑。M2.7具备与复杂环境交互的能力，M2.7 在 40 个复杂 skills (&amp;gt; 2000 Token) 的 case 上，仍能保持 97% 的 skills 遵循率。在OpenClaw的使用中，M2.7相比于M2.5也有了显著的提升，在MMClaw的评测中接近最新的Sonnet 4.6。&lt;/p&gt;
+&lt;p&gt;3. M2.7具备优秀的身份保持能力和情商，除了生产力使用外，给互动娱乐场景的创新也准备了空间。&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;基于上述能力，M2.7 也在显著加速我们自身向一个 AI Native 组织的进化。&lt;/p&gt;
+&lt;img alt="MiniMax M2.7 基准测试对比" src="https://filecdn.minimax.chat/public/4f5db695-e248-481a-9081-311b35ba5a87.jpg"/&gt;
+&lt;h2&gt;构建模型自我进化智能体&lt;/h2&gt;
+&lt;p&gt;在最开始，我们分享一个我们内部让M2系列模型自我进化的实践，这也是对模型Agent能力边界的探索。&lt;/p&gt;
+&lt;p&gt;Agent Harness通常依赖复杂的Skills、记忆系统和其他组件来提升模型对不同工作环境的适应能力。在此基础上，我们在 M2 的早期版本中，将其引导为一个研究型 Agent Harness——它能够与不同的研究项目组进行交互和协作。该系统覆盖了数据流水线、训练环境、评测基础设施、跨团队协作、持久化记忆——让研究员可以驱动它来交付更好的模型。研究 Agent 驱动着产出下一代模型的迭代循环。研究员在每一层引导方向，模型在每一层负责构建。&lt;/p&gt;
+&lt;p&gt;以一个 RL 场景为例：研究员从一个实验想法出发，与 Agent 展开讨论。Agent 协助进行文献调研，持续跟踪预设的实验规格，完成数据流水线及其他对接工作，并启动实验。实验运行期间，它会自动监控和分析实验状态，并自动触发日志读取、问题排查、指标分析、代码修复、合并请求以及冒烟测试，识别并配置那些细微但关键的变更。这些工作过去可能需要来自不同团队的多位同事协作完成，而现在研究员只需在关键决策和讨论时介入。这大幅加速了问题发现和实验迭代，从而更快地交付模型。在这个场景下，M2.7 能够胜任 30-50% 的工作流。&lt;/p&gt;
+&lt;img alt="M2* 模型迭代系统架构" src="https://filecdn.minimax.chat/public/d080353d-31aa-4642-8586-3b7f2201bf94.png"/&gt;
+&lt;p&gt;我们在迭代过程中也意识到，模型自主迭代 harness 的能力也至关重要。我们内部的 harness 会自主收集反馈，建立内部任务的评测集，并基于此不断迭代自己的 Agent架构、Skills/MCP 实现和记忆机制，来更好和更高效的完成任务。&lt;/p&gt;
+&lt;p&gt;举个例子，我们让 M2.7 优化一个内部脚手架上模型的软件工程开发表现。M2.7 全程自主运行，执行"分析失败轨迹 → 规划改动 → 修改脚手架代码 → 运行评测 → 对比结果 → 决定保留或回退"的迭代循环超过 100 轮。这个过程中 M2.7 发现了针对模型的有效优化：系统性搜索温度、频率惩罚、存在惩罚等采样参数的最优组合；为模型设计更具体的工作流指引（如修复后自动搜索其他文件中的相同 bug 模式）；在脚手架的Agent Loop中添加循环检测等优化。最终在内部评测集上效果提升 30%。&lt;/p&gt;
+&lt;p&gt;我们相信，未来的 AI 自我进化会逐步向完全自动化过渡，包括完全自主的协调数据构建、模型训练、推理架构、评测等等。我们用 M2.7 参与了MLE Bench Lite的22 个机器学习任务测试，几乎囊括了研发的所有环节。&lt;/p&gt;
+&lt;p&gt;我们设计和实现了一个简易的脚手架来引导 Agent 进行自主优化，核心的模块包括短时记忆、自反馈以及自优化三个模块。具体来讲，Agent 完成每轮迭代后会形成一个短时记忆文件，同时对当前轮次的结果进行自反馈，从而给下一轮次提供潜在的优化方向，下一轮次基于所有历史轮次的记忆及自反馈链进行下一步的自优化。我们总共测试三次，每次有 24 小时来迭代进化，从下图中能够看到 M2.7 随时间不断取得更高的性能。最好的一次取得 9 枚金牌，5 枚银牌，1枚铜牌。三次平均是 66.6% 的得牌率，此成绩仅次于Opus-4.6 (75.7%)、GPT-5.4 (71.2%)，和 Gemini-3.1 (66.6%) 持平。&lt;/p&gt;
+&lt;img alt="MLE Bench 得牌率随时间变化" src="https://filecdn.minimax.chat/public/61f43a5f-f359-4194-8245-6484b08c4a3e.png"/&gt;
+&lt;h2&gt;真实的软件工程&lt;/h2&gt;
+&lt;p&gt;在编程等代码生成类任务上，M2.7 更深入地打磨了真实软件工程所需的编程能力，覆盖日志分析与 Bug 定位、代码重构、代码安全、机器学习、安卓开发等方向。&lt;/p&gt;
+&lt;p&gt;以线上最常见的线上生产环境故障调试为例——这类任务不仅需要生成代码，还需要很强的综合推理能力。面对我们实际的生产环境告警，M2.7 能关联监控指标与部署时间线做因果推理，对轨迹采样做统计分析并提出精准假设，主动连接数据库执行验证根因，定位到代码仓库中缺失的索引迁移文件，甚至知道用非阻塞建索引先止血，再提 MR。从可观测性分析、数据库专业知识到 SRE 级别的决策判断——这不只是一个会写代码的模型，而是一个真正理解生产系统的模型。相比传统的人工排障流程，基于 M2.7，我们已多次将线上生产系统故障的恢复时间缩短到三分钟以内。&lt;/p&gt;
+&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/163bd51d-7793-469c-a497-8ad21df3da33.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
+&lt;p&gt;【线上生产环境故障调试】&lt;/p&gt;
+&lt;p&gt;在单项编程能力上，M2.7 已具备国际一线模型水准。 在涵盖多种编程语言的 SWE-Pro 中，M2.7 以 56.22% 的正确率追平 GPT-5.3-Codex；而在更贴近真实工程场景的 SWE Multilingual（76.5）和 Multi SWE Bench（52.7）中展现出更显著优势。&lt;/p&gt;
+&lt;p&gt;这一能力同样延伸到了端到端的完整项目交付场景。 在 Repo 级代码生成基准 VIBE-Pro 上，M2.7 得分55.6%，几乎与 Opus 4.6持平 —— 这意味着无论是 Web、Android、iOS 还是 Simulation 类需求，都可以直接交给 M2.7 完成。&lt;/p&gt;
+&lt;p&gt;更值得关注的，是对复杂工程系统的深层理解。 在对系统认知要求极高的 Terminal Bench 2（57.0%）和 NL2Repo（39.8%）中，M2.7 同样表现稳健，进一步印证了它不只擅长代码生成，更能深入理解软件系统的运行逻辑与协作流程。&lt;/p&gt;
+&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/misc/screen-recording-20260316-med.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
+&lt;p&gt;【基于M2.7生成的WildGuard演示网页】&lt;/p&gt;
+&lt;p&gt;为了提升开发效率，一个比较重要的特性是原生的 Agent Teams （多智能体协作）。Agent Teams 对模型提出了范式级要求：角色边界、对抗性推理、协议遵循、行为分化——这些无法通过提示词，必须内化为模型的原生能力。Agent Teams 场景下，模型需要稳定锚定角色身份、主动挑战队友的逻辑与伦理盲区、在复杂状态机中自主决策。下面是我们内部使用的一个做产品原型开发的 Agent Teams，里面包含了做产品原型的一个最小组织。&lt;/p&gt;
+&lt;img alt="Agent Teams 协作模拟演示" src="https://filecdn.minimax.chat/public/dd83d19a-156b-481f-9835-9576293c323a.gif"/&gt;
+&lt;p&gt;【Agent Teams 协作模拟演示】&lt;/p&gt;
+&lt;h2&gt;专业办公&lt;/h2&gt;
+&lt;p&gt;除了软件工程外，Agent开始在办公场景中变得越来越有用，我们认为这是两个核心能力：&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;1. &lt;span&gt;专业知识与任务交付能力。&lt;/span&gt; 模型需要具备各领域的专业知识，理解用户的需求。在衡量这一能力的 GDPval-AA 的评测中，M2.7 在45个模型中的ELO得分是1500，仅次于Opus 4.6、Sonnet 4.6和GPT5.4，超过了GPT5.3。在最常见的办公文件处理上，我们系统性地优化了模型处理 Word、Excel 和 PPT 的能力。M2.7 在各种 Agent Harness上，既能够基于模版和 skills 直接生成文件，也能够遵从用户的交互指令，对已有的文件做多轮的高保真编辑，最终给出可编辑的产物。&lt;/p&gt;
+&lt;p&gt;2. &lt;span&gt;与复杂环境的交互能力。&lt;/span&gt; 泛化的日常场景意味着模型需要灵活适应各类上下文、调用各种 skills 和工具、并在长程交互中保持稳定的指令遵循。M2.7 在这些方面有大幅提升。在 Toolathon 上，M2.7的正确率 46.3%，达到了全球第一梯队水平。真实工作场景中的 Agent Harness 往往也需要理解和调用大量复杂的 skills。在 MM Claw 的测试中，M2.7 在 40 个复杂 skills (&amp;gt; 2000 Token) 的 case 上，仍能保持 97% 的 skills 遵循率。&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;我们测试了在Finance领域的专业水准，与上代模型相比，模型的能力提升显著。例如，在Finance领域一个阅读研报并建模公司未来营收的场景，M2.7可以自主阅读公司的年报与业绩沟通会纪要，交叉比对多篇研报，独立设计假设并构建营收预测模型，再基于模版产出PPT和研究报告——像一个初级分析师一样理解、判断、输出，并在多轮交互中自我修正。从业者的评价是：产出物已经可以作为初稿直接进入后续工作流程。下面是一个对台积电的例子。&lt;/p&gt;
+&lt;blockquote&gt;任务：基于台积电年报和业绩沟通会信息，构建台积电的营收模型，读取多个研报，设计对应的假设，基于最新的信息对台积电营收建模，然后基于PPT模版产出PPT，并写一个Word文档研究报告。&lt;/blockquote&gt;
+&lt;div&gt;&lt;a href="https://filecdn.minimax.chat/public/0dff594f-3226-421e-a7f3-b4d55273ee5f.xlsx"&gt;[TSMC_Revenue_Model.xlsx]&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a href="https://filecdn.minimax.chat/public/504a47e3-8d71-4dd0-9397-8c7214bb26d7.pptx"&gt;[TSMC_Financial_Analysis.pptx]&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a href="https://filecdn.minimax.chat/public/7bd2f0a5-06e2-406f-818d-7bf5bd64eca8.docx"&gt;[TSMC_Equity_Research_Report.docx]&lt;/a&gt;&lt;/div&gt;
+&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/d070816d-2c2a-4a5c-a441-48c9dd19d44d.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
+&lt;p&gt;最近OpenClaw 爆火为代表的Agent社区蓬勃发展，我们很高兴M2系列的模型帮助到了社区的繁荣。我们基于OpenClaw中的常用任务，构建了一个评测集 MM Claw，涵盖个人学习规划，到办公文档的处理与交付、定时的专业信息调研与投资建议、代码开发与维护等工作与生活中形形色色的真实需求。M2.7 在这个测试中达到了接近Sonnet 4.6的水平，正确率是62.7%。&lt;/p&gt;
+&lt;h2&gt;互动娱乐&lt;/h2&gt;
+&lt;p&gt;在 OpenClaw 等 Agent 脚手架的使用过程中，不少用户在使用 Agent 完成工作的同时，还希望模型具备比较高的情商和复杂人设保持能力。在有人设的情况下，用户不再只是让模型机械完成任务，而是开始自然于与Agent"相处"。 这促使我们思考，产品与交互设计、内容创作、甚至娱乐体验的构建，都可以被 AI 原生驱动的可能性。我们认为这会让 Agentic 模型的使用从单纯的生产力能进一步拓展到互动娱乐。为此，我们在 M2.7 中极大加强了人设保持和对话能力。&lt;/p&gt;
+&lt;p&gt;基于此，我们构建了一个 Agent 交互系统 OpenRoom，它将 AI 互动置入一个万物皆可互动的 Web GUI 空间。在这里，对话即驱动，实时产生视觉反馈与场景交互，角色可以主动地与环境交互。我们认为这个框架扩展性较高，能够随着模型 Agentic 能力的提升和社区的共建持续进化，探索出更多人与 Agent 之间全新的交互方式。为了促进这个领域的创新，我们已将这个原型项目开源 （这个里面的代码大部分也是 AI 写的）：&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href="https://github.com/MiniMax-AI/OpenRoom"&gt;github.com/MiniMax-AI/OpenRoom&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;立即体验： &lt;a href="https://openroom.ai"&gt;openroom.ai&lt;/a&gt;&lt;/p&gt;
+&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/misc/openroom-20260305-med.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
+&lt;p&gt;MiniMax M2.7 已在 MiniMax Agent 与开放平台上全量上线，期待用户和开发者朋友们能在MiniMax M2.7上探索出更多有趣场景。&lt;/p&gt;
+&lt;p&gt;MiniMax Agent：&lt;a href="https://agent.minimaxi.com"&gt;agent.minimaxi.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;API服务：&lt;a href="https://platform.minimaxi.com"&gt;platform.minimaxi.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Coding Plan订阅：&lt;a href="https://platform.minimaxi.com/subscribe/coding-plan"&gt;platform.minimaxi.com/subscribe/coding-plan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Intelligence with Everyone.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
+      <guid isPermaLink="false">https://www.minimaxi.com/news/minimax-m27-zh</guid>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-08-12T22:33:21.336529+00:00</crawled>
+    </item>
     <item>
       <title>开展"清朗·整治AI应用乱象"专项公告</title>
       <link>https://www.minimaxi.com/news/%E5%BC%80%E5%B1%95%E6%B8%85%E6%9C%97%E6%95%B4%E6%B2%BBai%E5%BA%94%E7%94%A8%E4%B9%B1%E8%B1%A1%E4%B8%93%E9%A1%B9%E5%85%AC%E5%91%8A</link>
@@ -213,37 +309,6 @@ Intelligence with Everyone.
       <crawled>2026-07-07T16:49:05.687881+00:00</crawled>
     </item>
     <item>
-      <title>MiniMax M2.5: 更快更强更智能，为真实世界生产力而生</title>
-      <link>https://minimaxi.com/news/minimax-m25</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.2.12&lt;/div&gt;&lt;h1&gt;MiniMax M2.5: 更快更强更智能，为真实世界生产力而生&lt;/h1&gt;&lt;div&gt;&lt;a href="https://platform.minimaxi.com/docs/api-reference/text-anthropic-api"&gt;&lt;p&gt;即刻接入API&lt;/p&gt;&lt;/a&gt;&lt;a href="https://platform.minimaxi.com/subscribe/coding-plan"&gt;&lt;p&gt;Coding Plan&lt;/p&gt;&lt;/a&gt;&lt;a href="https://agent.minimaxi.com/"&gt;&lt;p&gt;立即体验Agent&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/9dd08dfa-166a-42f0-8119-6ab57ee02140.png" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F9dd08dfa-166a-42f0-8119-6ab57ee02140.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Ff6d88bac-3b5c-46fc-ae0c-4e1ce423eb51.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;今天我们来介绍 MiniMax-M2.5。经过数十万个真实复杂环境中的大规模强化学习训练，M2.5 在编程、工具调用和搜索、办公等生产力场景都达到或者刷新了行业的 SOTA，比如 SWE-Bench Verified（80.2%），Multi-SWE-Bench（51.3%），BrowseComp（76.3%）。&lt;br/&gt;&lt;br/&gt;M2.5 优化了模型对复杂任务的拆解能力和思考过程中 token 的消耗，使其能更快地完成复杂的 Agentic 任务，比如在 SWE-Bench Verified 的测试中，比上一个版本 M2.1 完成任务的速度快了 37%。&lt;br/&gt;&lt;br/&gt;M2.5 是第一个不需要考虑使用成本可以无限使用的前沿模型。在每秒输出 100 token 的情况下，M2.5 连续工作一小时只需花费 1 美金；而在每秒输出 50 个 token 的情况下，只需要 0.3 美金。我们希望M2.5能够加速Agent时代的发展。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;编程：像架构师一样思考和构建&lt;/h3&gt;&lt;div&gt;在编程的核心测试中，M2.5 相比于上一代模型有了显著提升，达到了跟 Claude Opus 系列类似的水平。在多语言相关的任务 Multi-SWE-Bench 上，M2.5 更是达到了第一。&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F63cbae73-ee28-4012-a4bc-fadfee47ffb9.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;M2.5 具备了「像架构师一样思考和构建」的能力，比如模型演化出了原生 Spec 行为：在动手写代码前，以架构师视角主动拆解功能、结构和 UI 设计，实现完整的前期规划。&lt;br/&gt;&lt;br/&gt;M2.5 在超过 10 种语言（包括 GO、C、C++、TS、Rust、Kotlin、Python、Java、JS、PHP、Lua、Dart、Ruby）和数十万个真实环境中进行了训练。不仅限于 bug fixed 类场景，复杂系统的从 0-1 系统设计、环境构建，从 1-10 的系统开发，从 10-90 的功能迭代，从 90-100 的完备 code review 与系统测试，M2.5 都有可靠的表现，能够胜任各类复杂系统开发的全流程。覆盖 Web、Android、iOS、Windows、Mac 等多平台的全栈项目，包含 Server 端 API、功能逻辑、DataBase 等，而不仅仅是“前端网页 demo”。&lt;br/&gt;&lt;br/&gt;为了衡量相关能力，我们也将 VIBE 基准升级为了更复杂、更具挑战性的 Pro 版：显著提升了任务复杂度、领域覆盖度和评估准确度。综合来看，M2.5 与 Opus4.5 表现相当。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F0fa0fd02-38ab-4a4b-8dc6-8bf3bb6454ae.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;我们关注了模型在不同脚手架上的泛化性。我们在不同的编程脚手架上测试了 SWE-Bench Verified 评测集上的表现。 在 Droid 上，M2.5 的通过率为 79.7，超过了 M2.1 的 71.3 分以及 Opus 4.6 的 78.9 分；在 OpenCode 上，M2.5 的通过率为 76.1， 超过了 M2.1 的 72.0 分和 Opus 4.6 的 75.9 分。 &lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;搜索和工具调用&lt;/h3&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F7c519ec8-1279-41b1-a6f2-54e78b1c21f8.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;搜索和工具调用是模型能够自动处理复杂任务的前提，在 BrowseComp、Wide Search 等榜单的评测中，M2.5 在这些方面也达到了行业顶尖的水平。同时，模型的泛化能力也有提升。M2.5 在面对陌生的脚手架环境时，具有更加稳定的表现。&lt;br/&gt;&lt;br/&gt;在人类专家真实的搜索任务中，使用搜索引擎只是一小部分，更多的是在专业网页内进行深度探索。为此我们构建了 RISE（Realistic Interactive Search Evaluation），用于衡量模型在真实专业任务上的搜索能力。结果表明 M2.5 在真实世界的专家级搜索任务上表现卓越。&lt;br/&gt;&lt;br/&gt;相比于前代模型，M2.5 在处理复杂任务时也展现出了更高的决策成熟度：它学会了用更精准的搜索轮次和更优的 token 效率去解决问题。例如，在 BrowseComp、Wide Search 和 RISE 多项任务中，M2.5 以更低的轮次消耗取得了更优的效果，相较于 M2.1 节省了大约 20% 的轮次消耗。这表明模型不再只是“做对”题目，而是能以更精简的路径逼近结果。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;办公&lt;/h3&gt;&lt;div&gt;我们考虑了在办公场景中，如何给出真正可交付的产物。为此，我们与金融、法律、社会科学等领域的资深从业者展开深度合作，由他们提出需求、反馈问题、参与标准定义，并直接构建数据，将行业的隐性知识带入到模型的训练流程之中。在此基础上，M2.5 在 Word、PPT、Excel 金融建模等办公高阶场景中取得了显著的能力提升。在评测层面，我们构建了内部的 Cowork Agent 评测框架（GDPval-MM），以两两对比的方式评估模型的交付质量和轨迹的专业性，同时监控全流程的 token 费用，估算模型在生产力场景中的实际效益。在与主流模型的对比中，它取得了 59.0% 的平均胜率。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fdb7cbd03-aa36-44b4-b782-5b610a7f9f4f.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F083383f6-4f0a-4f8c-bc8c-66af394bdbe0.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;效率&lt;/h3&gt;&lt;div&gt;我们总是希望 Agent 完成复杂任务的时间尽可能少。这取决于模型拆解复杂任务的能力、模型的 token 效率，以及模型的推理速度。我们的模型本来就提供 100TPS 的推理速度，这几乎两倍于现在的主流模型。同时，我们在强化学习中注重优化了模型对复杂任务的拆解能力和思考过程的token消耗。这三个环节加在一起，使得 M2.5 在完成复杂任务的时间和成本上有显著的优势。&lt;br/&gt;&lt;br/&gt;例如，在运行 SWE-Bench Verified 评测集时，M2.5 平均在每个任务上消耗了 3.52M 的 token。相比之下，M2.1 会消耗 3.72M tokens。同时，由于在并行工具调用等能力上的提升，端到端运行从平均 31.3 分钟减少到了 22.8 分钟，速度提升了 37%。这一耗时情况与 Claude Opus 4.6 的 22.9 分钟基本持平。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;成本&lt;/h3&gt;&lt;div&gt;我们设计 M2 系列的初衷是希望能没有成本约束的情况下运行复杂 Agents，随着我们能力的持续提升，我们认为 M2.5 已经接近实现了这个目标。M2.5 提供两个效果一样，但是速度和价格不一样的版本：速度 100 TPS 左右的快速版本，处理每百万的 token 输入只需要 0.3 美金，处理每百万的 token 输出只需要 2.4 美金。而 50 TPS 的版本的输出价格还更低一倍。按照输出价格参考，50 TPS 的版本价格是 Opus、Gemini 3 Pro 以及 GPT5 这些模型的 1/10-1/20。&lt;br/&gt;&lt;br/&gt;在以每秒输出 100 个 token 的情况下，连续工作一小时只需要 1 美金，而在每秒输出 50 个 token 的情况下，只需要 0.3 美金。也就是说 1 万美金可以让 4 个 Agent 连续工作一年，我们认为 M2.5 提供了经济上几乎无限制地构建和运营 Agent 的可能性。对于 M2 系列的模型来说，唯一的问题变成了模型能力的进步速度。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;进步速度&lt;/h3&gt;&lt;div&gt;在过去108天里面，我们陆续更新了 M2、M2.1 和 M2.5，模型的进步速度超过了我们原本的预期。比如在编程领域最具代表性的 SWE-Bench Verfied 上面，相比 Claude、GPT 和 Gemini 等模型系列的进步速度，M2 系列模型保持了行业最快的进步速度。&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa1d44a28-2b35-488b-ac62-5145c5de8af6.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;强化学习的扩展&lt;/h3&gt;&lt;div&gt;我们认为取得上述进展的核心原因是大规模的强化学习。它显著地提升了模型能力以及对脚手架、环境的泛化性。通过 Agent RL 框架、算法和 Reward 设计、工程优化的 co-design， 我们支持了对任意 Agent 脚手架与环境的高效优化，我们在包括大量公司内部真实任务的数十万个 Agent 脚手架与环境上大规模训练，验证了模型能力随算力和任务数的 scaling 取得近线性提升。&lt;br/&gt;&lt;br/&gt;
-&lt;strong&gt;Forge - 原生 Agent RL 框架&lt;/strong&gt;
-&lt;br/&gt;&lt;br/&gt;Forge 作为一个原生 Agent RL 框架，在设计上通过引入中间层完全解耦了底层训推引擎与 Agent，支持任意 Agent 的接入，使得我们可以优化模型在 Agent 脚手架和工具上的泛化。为了提升系统吞吐，我们优化了异步调度策略来平衡系统吞吐和样本的 off-policyness ，并设计了树状合并训练样本的训练策略，实现了约 40 倍的训练加速。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F9f949b20-da28-4a60-80d1-f8d4f7031398.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;Agent RL 算法与 Reward 设计&lt;/h3&gt;&lt;div&gt;算法层面，我们沿用了我们年初提出的 CISPO 算法以保障 MoE 模型在大规模训练中的稳定性。针对 Agent 场景长上下文带来的信用分配（Credit Assignment）难题，我们引入了过程奖励机制（Process Reward）对完成质量进行全链路监控。此外，为深度对齐用户体验，我们直接估计任务在真实环境下的耗时并作为 Reward，在模型效果与响应速度之间实现了更好的平衡。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F10c97904-2363-4b7b-afe4-0e3c6df59575.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;关于 RL 的 scaling 和 Agent RL 框架 Forge 的更多信息我们会在后续的技术博客中给出。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;MiniMax Agent: M2.5 as a Real World Coworker&lt;/h3&gt;&lt;div&gt;M2.5 已经在 MiniMax Agent 中全面上线，带来最佳 Agentic 体验。
-
-我们将处理信息的核心能力，提炼为标准的 Office Skills，深度集成于 Agent 中。全能（MAX）模式下，处理 Word 排版、PPT 编辑、Excel 测算等任务时，MiniMax Agent 将自动根据文件类型加载对应的 Office Skills，提升任务输出质量。此外，用户还可以将 Office Skills 与特定领域的行业经验相结合，创建面向特定任务场景的、可复用的专家（Expert）。
-&lt;br/&gt;&lt;br/&gt;
-以行业研究为例，将成熟的研究框架 SOP 与 Word Skills 融合后，Agent 能够严格按照既定框架，自动抓取数据、组织分析逻辑，并输出格式规范的研报文档，而非仅仅生成一段粗略的文字。在金融建模场景中，将机构专属的建模规范与 Excel Skills 结合，Agent 则可以遵循特定的风控逻辑与测算标准，自动生成并校验复杂的财务模型，而不只是输出一张简单的表格。
-&lt;br/&gt;&lt;br/&gt;
-截至目前，用户已经在 MiniMax Agent 上构建了 1 万多个专家，且仍在快速增长。&lt;strong&gt;MiniMax 也针对办公、金融、编程等高频场景，在 MiniMax Agent 上构建了多组深度优化、开箱即用的专家套组。&lt;/strong&gt;
-&lt;br/&gt;&lt;br/&gt;
-MiniMax 内部已率先受益于 M2.5 的模型能力。&lt;strong&gt;在 MiniMax 真实业务场景中，整体任务的 30% 由 M2.5 自主完成，&lt;/strong&gt;覆盖研发、产品、销售、HR、财务等职能，且渗透率仍在持续上升。&lt;strong&gt;其中，在编程场景表现尤为突出，M2.5 生成的代码已占新提交代码的 80%。&lt;strong&gt;
-&lt;br/&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;&lt;strong&gt;附评测方法：&lt;/strong&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;div&gt;&lt;strong&gt;&lt;strong&gt;&lt;br/&gt;
-&lt;i&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SWE benchmark:&lt;/strong&gt; SWE-bench Verified &amp;amp; SWE-bench Multilingual &amp;amp; SWE-bench-pro &amp;amp; Multi-SWE-bench 在内部设施上使用 Claude Code 作为脚手架进行测试，覆盖默认 system prompt，测试 4 次取平均值。此外 SWE-bench Verified 还在 Droid &amp;amp; Opencode 脚手架上使用默认 prompt 完成评估。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Terminal Bench 2:&lt;/strong&gt; 我们使用 Claude Code 2.0.64 作为评测脚手架对 Terminal Bench 2 进行测试，修改了部分题目的 Dockerfile 以保证题目本身的正确性，将沙盒规格统一扩展至 8 核 CPU 和 16g 内存，超时时间统一设置为 7200 秒，并为每个题目配备了基础工具集（ps、curl、git 等）。在排除超时不重试的前提下，我们增加了对脚手架 response 为空的检测机制，对最终 response 为空的任务进行重试，以应对各类异常中断情况。最终结果取 4 次运行平均值。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;VIBE-Pro:&lt;/strong&gt; 内部基准测试。使用 Claude Code 作为脚手架自动验证程序的交互逻辑与视觉效果。所有得分通过包含需求集合、容器化部署及动态交互环境的统一链路计算，最终结果取 3 次运行平均值。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;BrowseComp:&lt;/strong&gt; 使用了与 WebExplorer（Liu et al. 2025）相同的智能体框架。每当 token 用量超过 32k 的时候，我们对历史上下文进行总结。最多 token 用量为 1M。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Wide Search:&lt;/strong&gt; 使用了与 WebExplorer（Liu et al. 2025）相同的智能体框架。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;RISE:&lt;/strong&gt; 内部基准测试。包含人类专家真实的提问，考察模型结合复杂网页交互时的多步信息搜寻和推理能力。在 WebExplorer（Liu et al. 2025）的智能体框架基础上加入了基于 PlayWright 的浏览器使用工具集。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GDPval-MM:&lt;/strong&gt; 内部基准测试。基于开源的 GDPval 测试集，使用自建 Agentic 评测框架，由 LLM-as-a-judge 对完整轨迹做 pairwise 胜平负判定；根据各厂商官方 API 定价（无 cache）计算每个任务的平均 token 花费。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;MEWC:&lt;/strong&gt; 内部基准测试。基于 MEWC（Microsoft Excel World Championship）构建，包含从 2021-2026 的 Excel esports 主赛区以及其他分赛区的题目共 179 道题目。评测模型理解竞赛 Excel 表格，并操作 Excel 工具完成题目的能力，最终通过逐个比较输出和答案单元格的数值计算分数。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Finance Modeling:&lt;/strong&gt; 内部基准测试。主要包含有行业专家构建的金融建模题目，通过 Excel 工具进行端到端的研究、分析任务，每个题目通过专家的 rubrics 进行打分。最终结果取 3 次运行平均值。&lt;/li&gt;
-&lt;/ul&gt;&lt;/i&gt;
-&lt;/strong&gt;&lt;/strong&gt;&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://minimaxi.com/news/minimax-m25</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:48:41.125597+00:00</crawled>
-    </item>
-    <item>
       <title>昇腾0Day支持MiniMaxM2.7，共同开启模型自我进化新范式</title>
       <link>https://www.minimaxi.com/news/%E6%98%87%E8%85%BE0day%E6%94%AF%E6%8C%81minimaxm27%E5%85%B1%E5%90%8C%E5%BC%80%E5%90%AF%E6%A8%A1%E5%9E%8B%E8%87%AA%E6%88%91%E8%BF%9B%E5%8C%96%E6%96%B0%E8%8C%83%E5%BC%8F</link>
       <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.4.12&lt;/div&gt;&lt;h1&gt;昇腾0Day支持MiniMaxM2.7，共同开启模型自我进化新范式&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/c600d3eb-54ec-4180-9005-9edf9809962e.png" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fc600d3eb-54ec-4180-9005-9edf9809962e.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
@@ -443,71 +508,6 @@ MiniMax 内部已率先受益于 M2.5 的模型能力。&lt;strong&gt;在 MiniMa
       <guid isPermaLink="false">https://www.minimaxi.com/news/day-0-%E5%AE%9E%E7%8E%B0-minimax-m27-%E5%85%AD%E8%8A%AF%E8%90%BD%E5%9C%B0%E4%BC%97%E6%99%BAflagos-%E5%8F%88%E5%8F%8C%E5%8F%92%E5%8F%95%E8%AE%A9%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%9A%E8%8A%AF%E5%8F%AF%E7%94%A8%E4%BA%86</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-07T16:48:14.426952+00:00</crawled>
-    </item>
-    <item>
-      <title>MiniMax M2.7: 开启模型的自我进化</title>
-      <link>https://minimaxi.com/news/minimax-m27-zh</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026-03-18&lt;/div&gt;&lt;h1&gt;MiniMax M2.7: 开启模型的自我进化&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/7a85723c-acc3-4eb8-a3a8-f53713d0822e.png" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F7a85723c-acc3-4eb8-a3a8-f53713d0822e.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
-&lt;p&gt;在 M2 系列模型发布后的几个月，我们收到了大量热心用户的反馈和建议，这促使我们进一步加速模型的迭代效率。除了更加认真工作之外，我们能找到的唯一途径就是&lt;span&gt;开启模型和组织的自我进化。MiniMax M2.7是我们第一个模型深度参与迭代自己的模型。&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;M2.7 能够自行构建复杂 Agent Harness，并基于 Agent Teams、复杂 Skills、Tool Search Tool 等能力，完成高度复杂的生产力任务。例如，在研发M2.7的过程中，我们基于模型构建强化学习Harness 中的数十个复杂的 skills，更新自己的 memory，驱动模型自身的强化学习，并基于结果优化强化学习过程和Harness，开启模型的自我进化。&lt;/p&gt;
-&lt;div&gt;
-&lt;p&gt;1. M2.7 在真实的软件工程中有优异的表现，包括端到端的完整项目交付，分析日志排查 Bug、代码安全，机器学习等。在基准测试 SWE-Pro 中，M2.7 得分56.22%，几乎接近Opus最好的水平。这一能力同样延伸到了端到端的完整项目交付场景（VIBE-Pro 55.6%）以及对复杂工程系统的深层理解Terminal Bench 2（57.0%）。&lt;/p&gt;
-&lt;p&gt;2. 在专业办公领域，我们提升了模型在各领域的专业知识和任务交付能力，在 GDPval-AA 的ELO得分是1495，为开源最高。M2.7 对 Office 三件套 Excel/PPT/Word 的复杂编辑能力显著提升，能更好地完成多轮修改和高保真的编辑。M2.7具备与复杂环境交互的能力，M2.7 在 40 个复杂 skills (&amp;gt; 2000 Token) 的 case 上，仍能保持 97% 的 skills 遵循率。在OpenClaw的使用中，M2.7相比于M2.5也有了显著的提升，在MMClaw的评测中接近最新的Sonnet 4.6。&lt;/p&gt;
-&lt;p&gt;3. M2.7具备优秀的身份保持能力和情商，除了生产力使用外，给互动娱乐场景的创新也准备了空间。&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;基于上述能力，M2.7 也在显著加速我们自身向一个 AI Native 组织的进化。&lt;/p&gt;
-&lt;img alt="MiniMax M2.7 基准测试对比" src="https://filecdn.minimax.chat/public/4f5db695-e248-481a-9081-311b35ba5a87.jpg"/&gt;
-&lt;h2&gt;构建模型自我进化智能体&lt;/h2&gt;
-&lt;p&gt;在最开始，我们分享一个我们内部让M2系列模型自我进化的实践，这也是对模型Agent能力边界的探索。&lt;/p&gt;
-&lt;p&gt;Agent Harness通常依赖复杂的Skills、记忆系统和其他组件来提升模型对不同工作环境的适应能力。在此基础上，我们在 M2 的早期版本中，将其引导为一个研究型 Agent Harness——它能够与不同的研究项目组进行交互和协作。该系统覆盖了数据流水线、训练环境、评测基础设施、跨团队协作、持久化记忆——让研究员可以驱动它来交付更好的模型。研究 Agent 驱动着产出下一代模型的迭代循环。研究员在每一层引导方向，模型在每一层负责构建。&lt;/p&gt;
-&lt;p&gt;以一个 RL 场景为例：研究员从一个实验想法出发，与 Agent 展开讨论。Agent 协助进行文献调研，持续跟踪预设的实验规格，完成数据流水线及其他对接工作，并启动实验。实验运行期间，它会自动监控和分析实验状态，并自动触发日志读取、问题排查、指标分析、代码修复、合并请求以及冒烟测试，识别并配置那些细微但关键的变更。这些工作过去可能需要来自不同团队的多位同事协作完成，而现在研究员只需在关键决策和讨论时介入。这大幅加速了问题发现和实验迭代，从而更快地交付模型。在这个场景下，M2.7 能够胜任 30-50% 的工作流。&lt;/p&gt;
-&lt;img alt="M2* 模型迭代系统架构" src="https://filecdn.minimax.chat/public/d080353d-31aa-4642-8586-3b7f2201bf94.png"/&gt;
-&lt;p&gt;我们在迭代过程中也意识到，模型自主迭代 harness 的能力也至关重要。我们内部的 harness 会自主收集反馈，建立内部任务的评测集，并基于此不断迭代自己的 Agent架构、Skills/MCP 实现和记忆机制，来更好和更高效的完成任务。&lt;/p&gt;
-&lt;p&gt;举个例子，我们让 M2.7 优化一个内部脚手架上模型的软件工程开发表现。M2.7 全程自主运行，执行"分析失败轨迹 → 规划改动 → 修改脚手架代码 → 运行评测 → 对比结果 → 决定保留或回退"的迭代循环超过 100 轮。这个过程中 M2.7 发现了针对模型的有效优化：系统性搜索温度、频率惩罚、存在惩罚等采样参数的最优组合；为模型设计更具体的工作流指引（如修复后自动搜索其他文件中的相同 bug 模式）；在脚手架的Agent Loop中添加循环检测等优化。最终在内部评测集上效果提升 30%。&lt;/p&gt;
-&lt;p&gt;我们相信，未来的 AI 自我进化会逐步向完全自动化过渡，包括完全自主的协调数据构建、模型训练、推理架构、评测等等。我们用 M2.7 参与了MLE Bench Lite的22 个机器学习任务测试，几乎囊括了研发的所有环节。&lt;/p&gt;
-&lt;p&gt;我们设计和实现了一个简易的脚手架来引导 Agent 进行自主优化，核心的模块包括短时记忆、自反馈以及自优化三个模块。具体来讲，Agent 完成每轮迭代后会形成一个短时记忆文件，同时对当前轮次的结果进行自反馈，从而给下一轮次提供潜在的优化方向，下一轮次基于所有历史轮次的记忆及自反馈链进行下一步的自优化。我们总共测试三次，每次有 24 小时来迭代进化，从下图中能够看到 M2.7 随时间不断取得更高的性能。最好的一次取得 9 枚金牌，5 枚银牌，1枚铜牌。三次平均是 66.6% 的得牌率，此成绩仅次于Opus-4.6 (75.7%)、GPT-5.4 (71.2%)，和 Gemini-3.1 (66.6%) 持平。&lt;/p&gt;
-&lt;img alt="MLE Bench 得牌率随时间变化" src="https://filecdn.minimax.chat/public/61f43a5f-f359-4194-8245-6484b08c4a3e.png"/&gt;
-&lt;h2&gt;真实的软件工程&lt;/h2&gt;
-&lt;p&gt;在编程等代码生成类任务上，M2.7 更深入地打磨了真实软件工程所需的编程能力，覆盖日志分析与 Bug 定位、代码重构、代码安全、机器学习、安卓开发等方向。&lt;/p&gt;
-&lt;p&gt;以线上最常见的线上生产环境故障调试为例——这类任务不仅需要生成代码，还需要很强的综合推理能力。面对我们实际的生产环境告警，M2.7 能关联监控指标与部署时间线做因果推理，对轨迹采样做统计分析并提出精准假设，主动连接数据库执行验证根因，定位到代码仓库中缺失的索引迁移文件，甚至知道用非阻塞建索引先止血，再提 MR。从可观测性分析、数据库专业知识到 SRE 级别的决策判断——这不只是一个会写代码的模型，而是一个真正理解生产系统的模型。相比传统的人工排障流程，基于 M2.7，我们已多次将线上生产系统故障的恢复时间缩短到三分钟以内。&lt;/p&gt;
-&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/163bd51d-7793-469c-a497-8ad21df3da33.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
-&lt;p&gt;【线上生产环境故障调试】&lt;/p&gt;
-&lt;p&gt;在单项编程能力上，M2.7 已具备国际一线模型水准。 在涵盖多种编程语言的 SWE-Pro 中，M2.7 以 56.22% 的正确率追平 GPT-5.3-Codex；而在更贴近真实工程场景的 SWE Multilingual（76.5）和 Multi SWE Bench（52.7）中展现出更显著优势。&lt;/p&gt;
-&lt;p&gt;这一能力同样延伸到了端到端的完整项目交付场景。 在 Repo 级代码生成基准 VIBE-Pro 上，M2.7 得分55.6%，几乎与 Opus 4.6持平 —— 这意味着无论是 Web、Android、iOS 还是 Simulation 类需求，都可以直接交给 M2.7 完成。&lt;/p&gt;
-&lt;p&gt;更值得关注的，是对复杂工程系统的深层理解。 在对系统认知要求极高的 Terminal Bench 2（57.0%）和 NL2Repo（39.8%）中，M2.7 同样表现稳健，进一步印证了它不只擅长代码生成，更能深入理解软件系统的运行逻辑与协作流程。&lt;/p&gt;
-&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/misc/screen-recording-20260316-med.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
-&lt;p&gt;【基于M2.7生成的WildGuard演示网页】&lt;/p&gt;
-&lt;p&gt;为了提升开发效率，一个比较重要的特性是原生的 Agent Teams （多智能体协作）。Agent Teams 对模型提出了范式级要求：角色边界、对抗性推理、协议遵循、行为分化——这些无法通过提示词，必须内化为模型的原生能力。Agent Teams 场景下，模型需要稳定锚定角色身份、主动挑战队友的逻辑与伦理盲区、在复杂状态机中自主决策。下面是我们内部使用的一个做产品原型开发的 Agent Teams，里面包含了做产品原型的一个最小组织。&lt;/p&gt;
-&lt;img alt="Agent Teams 协作模拟演示" src="https://filecdn.minimax.chat/public/dd83d19a-156b-481f-9835-9576293c323a.gif"/&gt;
-&lt;p&gt;【Agent Teams 协作模拟演示】&lt;/p&gt;
-&lt;h2&gt;专业办公&lt;/h2&gt;
-&lt;p&gt;除了软件工程外，Agent开始在办公场景中变得越来越有用，我们认为这是两个核心能力：&lt;/p&gt;
-&lt;div&gt;
-&lt;p&gt;1. &lt;span&gt;专业知识与任务交付能力。&lt;/span&gt; 模型需要具备各领域的专业知识，理解用户的需求。在衡量这一能力的 GDPval-AA 的评测中，M2.7 在45个模型中的ELO得分是1500，仅次于Opus 4.6、Sonnet 4.6和GPT5.4，超过了GPT5.3。在最常见的办公文件处理上，我们系统性地优化了模型处理 Word、Excel 和 PPT 的能力。M2.7 在各种 Agent Harness上，既能够基于模版和 skills 直接生成文件，也能够遵从用户的交互指令，对已有的文件做多轮的高保真编辑，最终给出可编辑的产物。&lt;/p&gt;
-&lt;p&gt;2. &lt;span&gt;与复杂环境的交互能力。&lt;/span&gt; 泛化的日常场景意味着模型需要灵活适应各类上下文、调用各种 skills 和工具、并在长程交互中保持稳定的指令遵循。M2.7 在这些方面有大幅提升。在 Toolathon 上，M2.7的正确率 46.3%，达到了全球第一梯队水平。真实工作场景中的 Agent Harness 往往也需要理解和调用大量复杂的 skills。在 MM Claw 的测试中，M2.7 在 40 个复杂 skills (&amp;gt; 2000 Token) 的 case 上，仍能保持 97% 的 skills 遵循率。&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;我们测试了在Finance领域的专业水准，与上代模型相比，模型的能力提升显著。例如，在Finance领域一个阅读研报并建模公司未来营收的场景，M2.7可以自主阅读公司的年报与业绩沟通会纪要，交叉比对多篇研报，独立设计假设并构建营收预测模型，再基于模版产出PPT和研究报告——像一个初级分析师一样理解、判断、输出，并在多轮交互中自我修正。从业者的评价是：产出物已经可以作为初稿直接进入后续工作流程。下面是一个对台积电的例子。&lt;/p&gt;
-&lt;blockquote&gt;任务：基于台积电年报和业绩沟通会信息，构建台积电的营收模型，读取多个研报，设计对应的假设，基于最新的信息对台积电营收建模，然后基于PPT模版产出PPT，并写一个Word文档研究报告。&lt;/blockquote&gt;
-&lt;div&gt;&lt;a href="https://filecdn.minimax.chat/public/0dff594f-3226-421e-a7f3-b4d55273ee5f.xlsx"&gt;[TSMC_Revenue_Model.xlsx]&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href="https://filecdn.minimax.chat/public/504a47e3-8d71-4dd0-9397-8c7214bb26d7.pptx"&gt;[TSMC_Financial_Analysis.pptx]&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href="https://filecdn.minimax.chat/public/7bd2f0a5-06e2-406f-818d-7bf5bd64eca8.docx"&gt;[TSMC_Equity_Research_Report.docx]&lt;/a&gt;&lt;/div&gt;
-&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/d070816d-2c2a-4a5c-a441-48c9dd19d44d.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
-&lt;p&gt;最近OpenClaw 爆火为代表的Agent社区蓬勃发展，我们很高兴M2系列的模型帮助到了社区的繁荣。我们基于OpenClaw中的常用任务，构建了一个评测集 MM Claw，涵盖个人学习规划，到办公文档的处理与交付、定时的专业信息调研与投资建议、代码开发与维护等工作与生活中形形色色的真实需求。M2.7 在这个测试中达到了接近Sonnet 4.6的水平，正确率是62.7%。&lt;/p&gt;
-&lt;h2&gt;互动娱乐&lt;/h2&gt;
-&lt;p&gt;在 OpenClaw 等 Agent 脚手架的使用过程中，不少用户在使用 Agent 完成工作的同时，还希望模型具备比较高的情商和复杂人设保持能力。在有人设的情况下，用户不再只是让模型机械完成任务，而是开始自然于与Agent"相处"。 这促使我们思考，产品与交互设计、内容创作、甚至娱乐体验的构建，都可以被 AI 原生驱动的可能性。我们认为这会让 Agentic 模型的使用从单纯的生产力能进一步拓展到互动娱乐。为此，我们在 M2.7 中极大加强了人设保持和对话能力。&lt;/p&gt;
-&lt;p&gt;基于此，我们构建了一个 Agent 交互系统 OpenRoom，它将 AI 互动置入一个万物皆可互动的 Web GUI 空间。在这里，对话即驱动，实时产生视觉反馈与场景交互，角色可以主动地与环境交互。我们认为这个框架扩展性较高，能够随着模型 Agentic 能力的提升和社区的共建持续进化，探索出更多人与 Agent 之间全新的交互方式。为了促进这个领域的创新，我们已将这个原型项目开源 （这个里面的代码大部分也是 AI 写的）：&lt;/p&gt;
-&lt;p&gt;项目地址： &lt;a href="https://github.com/MiniMax-AI/OpenRoom"&gt;github.com/MiniMax-AI/OpenRoom&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;立即体验： &lt;a href="https://openroom.ai"&gt;openroom.ai&lt;/a&gt;&lt;/p&gt;
-&lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/misc/openroom-20260305-med.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
-&lt;p&gt;MiniMax M2.7 已在 MiniMax Agent 与开放平台上全量上线，期待用户和开发者朋友们能在MiniMax M2.7上探索出更多有趣场景。&lt;/p&gt;
-&lt;p&gt;MiniMax Agent：&lt;a href="https://agent.minimaxi.com"&gt;agent.minimaxi.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;API服务：&lt;a href="https://platform.minimaxi.com"&gt;platform.minimaxi.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Coding Plan订阅：&lt;a href="https://platform.minimaxi.com/subscribe/coding-plan"&gt;platform.minimaxi.com/subscribe/coding-plan&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Intelligence with Everyone.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://minimaxi.com/news/minimax-m27-zh</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:48:33.992262+00:00</crawled>
     </item>
     <item>
       <title>Day-0支持｜摩尔线程率先完成MiniMax M2.7大模型适配</title>
