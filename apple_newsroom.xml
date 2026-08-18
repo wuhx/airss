@@ -1,12 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Apple Newsroom</title><link>https://www.apple.com/newsroom/</link><description>apple_newsroom RSS Feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 07 Jul 2026 23:20:37 +0000</lastBuildDate><item><title>Apple accelerates app development with new intelligence frameworks and advanced tools</title><link>https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/</link><description>&lt;div&gt;
+<rss version="2.0">
+  <channel>
+    <title>Apple Newsroom</title>
+    <link>https://www.apple.com/newsroom/</link>
+    <description>apple_newsroom RSS Feed</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 18 Aug 2026 22:50:48 +0000</lastBuildDate>
+    <item>
+      <title>Apple accelerates app development with new intelligence frameworks and advanced tools</title>
+      <link>https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;
 &lt;div&gt;&lt;strong&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt;&lt;/strong&gt; Apple today introduced new intelligence capabilities, expanded productivity features in &lt;a href="https://developer.apple.com/xcode/"&gt;Xcode&lt;/a&gt;, and platform improvements that make apps faster, more adaptive, and easier to build.
 &lt;/div&gt;
 &lt;div&gt;“Developers are at the heart of the Apple ecosystem, and our goal is to provide them with the best possible tools and technologies to build the future,” said Susan Prescott, Apple’s vice president of Worldwide Developer Relations. “With new intelligence frameworks and agentic coding in Xcode 27, developers have the tools they need to focus on what they do best: bringing their incredible ideas to life.”
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/</guid><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate></item><item><title>Apple Intelligence brings powerful AI capabilities into everyday experiences</title><link>https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/</link><description>&lt;div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:03:13.246277+00:00</crawled>
+    </item>
+    <item>
+      <title>WWDC26: Apple unveils next generation of Apple Intelligence, Siri AI, powerful parental controls, and an expansive set of software improvements</title>
+      <link>https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Today, during the Worldwide Developers Conference, Apple previewed its upcoming software releases that will deliver the next generation of &lt;a href="https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/"&gt;Apple Intelligence&lt;/a&gt; and introduce &lt;a href="https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/"&gt;Siri AI&lt;/a&gt;, an entirely new version of Siri that is profoundly more intelligent, knowledgeable, and capable. The releases also bring powerful and intuitive &lt;a href="https://www.apple.com/newsroom/2026/06/apple-previews-new-child-safety-features/"&gt;new features to help parents create safe digital experiences for kids&lt;/a&gt;, as well as improvements that further elevate the software design and performance of Apple products while making them more responsive, delightful, and easier to use with &lt;a href="https://www.apple.com/os/ios/"&gt;iOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/ipados/"&gt;iPadOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/macos/"&gt;macOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/watchos/"&gt;watchOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/visionos/"&gt;visionOS 27&lt;/a&gt;, and tvOS 27.
+&lt;/div&gt;
+&lt;div&gt;“Apple products are an essential part of people’s lives, and this year we’re bringing powerful new capabilities to empower our users in even more ways,” said Craig Federighi, Apple’s senior vice president of Software Engineering. “We’re delivering the next generation of Apple Intelligence across our platforms; introducing Siri AI, a profoundly more intelligent, knowledgeable, and capable Siri; expanding child safety features with intuitive new tools for families; and making our software platforms faster, more reliable, and more delightful than ever before.”
+&lt;/div&gt;
+&lt;h2&gt;&lt;strong&gt;Next Generation of Apple Intelligence and an Entirely New Siri Experience&lt;/strong&gt;
+&lt;/h2&gt;
+&lt;div&gt;Leveraging a bold new architecture uniquely designed to protect users’ privacy, the next generation of &lt;a href="https://www.apple.com/apple-intelligence/"&gt;Apple Intelligence&lt;/a&gt; powers Siri AI and brings helpful new features to apps users rely on every day.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:03:18.848767+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple Intelligence brings powerful AI capabilities into everyday experiences</title>
+      <link>https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;
 &lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Apple today introduced the next generation of &lt;a href="https://www.apple.com/apple-intelligence/"&gt;Apple Intelligence&lt;/a&gt;, powered by a bold new architecture that integrates the latest Apple Foundation Models deep into Apple’s platforms and is uniquely designed to protect users’ privacy. This makes the apps and experiences users rely on every day across iPhone, iPad, Mac, Apple Watch, AirPods, and Apple Vision Pro more personal and helpful than ever. Apps become smarter and more useful with powerful editing capabilities in Photos, intelligent tools to tailor browsing in Safari, the ability to upgrade security protections with Passwords, an all-new Image Playground that creates photorealistic imagery, and more. Across many of these features, users have the ability to simply describe what they’re looking for, so they can do the things that matter most to them even more easily. These features are available for developer testing starting today, and will be available to users this fall.
 &lt;/div&gt;
@@ -19,18 +58,15 @@
 &lt;div&gt;The Photos app taps into more powerful image models so users can make incredible edits, while respecting the original moment as it was captured. Photos adjusted with Apple Intelligence will automatically include a hidden SynthID watermark to identify those that have been edited with AI.
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/</guid><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate></item><item><title>WWDC26: Apple unveils next generation of Apple Intelligence, Siri AI, powerful parental controls, and an expansive set of software improvements</title><link>https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</link><description>&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Today, during the Worldwide Developers Conference, Apple previewed its upcoming software releases that will deliver the next generation of &lt;a href="https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/"&gt;Apple Intelligence&lt;/a&gt; and introduce &lt;a href="https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/"&gt;Siri AI&lt;/a&gt;, an entirely new version of Siri that is profoundly more intelligent, knowledgeable, and capable. The releases also bring powerful and intuitive &lt;a href="https://www.apple.com/newsroom/2026/06/apple-previews-new-child-safety-features/"&gt;new features to help parents create safe digital experiences for kids&lt;/a&gt;, as well as improvements that further elevate the software design and performance of Apple products while making them more responsive, delightful, and easier to use with &lt;a href="https://www.apple.com/os/ios/"&gt;iOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/ipados/"&gt;iPadOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/macos/"&gt;macOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/watchos/"&gt;watchOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/visionos/"&gt;visionOS 27&lt;/a&gt;, and tvOS 27.
-&lt;/div&gt;
-&lt;div&gt;“Apple products are an essential part of people’s lives, and this year we’re bringing powerful new capabilities to empower our users in even more ways,” said Craig Federighi, Apple’s senior vice president of Software Engineering. “We’re delivering the next generation of Apple Intelligence across our platforms; introducing Siri AI, a profoundly more intelligent, knowledgeable, and capable Siri; expanding child safety features with intuitive new tools for families; and making our software platforms faster, more reliable, and more delightful than ever before.”
-&lt;/div&gt;
-&lt;h2&gt;&lt;strong&gt;Next Generation of Apple Intelligence and an Entirely New Siri Experience&lt;/strong&gt;
-&lt;/h2&gt;
-&lt;div&gt;Leveraging a bold new architecture uniquely designed to protect users’ privacy, the next generation of &lt;a href="https://www.apple.com/apple-intelligence/"&gt;Apple Intelligence&lt;/a&gt; powers Siri AI and brings helpful new features to apps users rely on every day.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description><guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</guid><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate></item><item><title>Apple introduces innovative features and intelligence experiences across services</title><link>https://www.apple.com/newsroom/2026/06/apple-unveils-innovative-features-and-intelligence-experiences-across-services/</link><description>&lt;div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:03:24.886863+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple introduces innovative features and intelligence experiences across services</title>
+      <link>https://www.apple.com/newsroom/2026/06/apple-unveils-innovative-features-and-intelligence-experiences-across-services/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;
 &lt;div&gt;With the 2027 software releases coming this fall, Apple is bringing powerful new features to services users. New offerings include improved Flyover views and Local Lists in Apple Maps, flexible sharing options in Find My, the ability to use Visual Intelligence to split bills with Apple Cash, video podcast support across Mac and tvOS, revamped Shared Albums in iCloud, and a new program for Apple Fitness+.
 &lt;/div&gt;
@@ -41,7 +77,15 @@
 &lt;div&gt;Apple Maps brings an enhanced Flyover experience, which combines aerial imagery with AI to enable users to view imagery in stunning detail for select cities around the world like never before. Whether scouting a location before a trip or simply exploring a city from a new perspective, the enhanced experience gives users a sharper and more lifelike glimpse into destinations across the globe.
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-unveils-innovative-features-and-intelligence-experiences-across-services/</guid><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate></item><item><title>Apple announces changes to iOS in Brazil</title><link>https://www.apple.com/newsroom/2026/06/apple-announces-changes-to-ios-in-brazil/</link><description>&lt;div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-unveils-innovative-features-and-intelligence-experiences-across-services/</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:03:08.203014+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple announces changes to iOS in Brazil</title>
+      <link>https://www.apple.com/newsroom/2026/06/apple-announces-changes-to-ios-in-brazil/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;
 &lt;div&gt;Apple today announced changes impacting iOS apps in Brazil that reflect a recent agreement with Brazil’s competition regulator, the Conselho Administrativo de Defesa Econômica (CADE). These updates create new options for developers to distribute apps on alternative app marketplaces and to process app payments for digital goods and services outside of Apple In-App Purchase. Across these changes, Apple has worked to reduce the new privacy and security risks they create to provide users in Brazil the best and safest experience possible.
 &lt;/div&gt;
@@ -126,7 +170,15 @@
 &lt;div&gt;Apple is providing detailed resources to help developers understand the options now available for their apps in Brazil, which they can access from the &lt;a href="https://developer.apple.com/support/app-distribution-in-brazil"&gt;Apple Developer Support page&lt;/a&gt;.
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-announces-changes-to-ios-in-brazil/</guid><pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate></item><item><title>Apple Creator Studio gets smarter, faster, and more connected</title><link>https://www.apple.com/newsroom/2026/06/apple-creator-studio-gets-smarter-faster-and-more-connected/</link><description>&lt;div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-announces-changes-to-ios-in-brazil/</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:03:03.001467+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple Creator Studio gets smarter, faster, and more connected</title>
+      <link>https://www.apple.com/newsroom/2026/06/apple-creator-studio-gets-smarter-faster-and-more-connected/</link>
+      <description>&lt;div&gt;
 &lt;div&gt;
 &lt;div&gt;Apple today introduced power-packed updates to Apple Creator Studio, a groundbreaking collection of creative apps that build on the essential role Mac, iPad, and iPhone play in the lives of millions around the world. Featuring new AI capabilities that are dynamic enough for every creative discipline, these updates make Apple Creator Studio even more connected, capable, and intelligent. Users can open and customize any image placed in Keynote, Pages, and Numbers, or even send a key frame from Final Cut Pro directly to Pixelmator Pro. Logic Pro users can elevate their music making with improvements to Chord ID or explore a new Producer Project from a Grammy Award-winning producer.
 &lt;/div&gt;
@@ -135,4 +187,320 @@
 &lt;div&gt;Final Cut Pro, the ultimate video creation app for Mac and iPad, enhances creative workflows with a new set of powerful AI tools like Generate Captions and Edit Detection, along with new content like Creator Themes with support for multiple aspect ratios, dynamic titles, and customizable backgrounds.&lt;sup&gt;1&lt;/sup&gt; On Mac, users also benefit from even more tools like Auto Mask, an enhanced Match Color, Advanced Trimming, and the ability to send frames to Pixelmator Pro.
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-creator-studio-gets-smarter-faster-and-more-connected/</guid><pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-creator-studio-gets-smarter-faster-and-more-connected/</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:02:57.934873+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple scores record 89 Emmy Award nominations, with top category nods for celebrated comedies Widow’s Bay, Shrinking, and Margo’s Got Money Troubles, and global hit dramas Pluribus, Slow Horses, and Your Friends &amp; Neighbors</title>
+      <link>https://www.apple.com/newsroom/2026/07/apple-scores-record-89-emmy-award-nominations/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span&gt;CULVER CITY, CALIFORNIA&lt;/span&gt; Apple scores a historic 89 nominations across 15 programs for the 78th Primetime Emmy Awards, and leads as the network with the most nominations in the Outstanding Drama and Outstanding Comedy series categories, respectively, earning top program nominations for comedies &lt;em&gt;Widow’s Bay&lt;/em&gt;, &lt;em&gt;Shrinking&lt;/em&gt;, and &lt;em&gt;Margo’s Got Money Troubles,&lt;/em&gt; alongside dramas &lt;em&gt;Pluribus&lt;/em&gt;, &lt;em&gt;Slow Horses&lt;/em&gt;, and &lt;em&gt;Your Friends &amp;amp; Neighbors&lt;/em&gt;. Apple’s breakout comedy sensation &lt;em&gt;Widow’s Bay&lt;/em&gt; leads as one of this year’s most-nominated programs with 19 nominations in total, and &lt;em&gt;Pluribus&lt;/em&gt; lands 18 nominations following its global hit freshman season, while celebrated Apple Original &lt;em&gt;Shrinking&lt;/em&gt; lands 10 nominations, &lt;em&gt;Slow Horses&lt;/em&gt; is recognized with nine, and &lt;em&gt;Margo’s Got Money Troubles&lt;/em&gt; scores eight in total.
+&lt;/div&gt;
+&lt;div&gt;This year’s record-breaking nominations follow Apple TV’s sweeping last year’s 77th Primetime Emmy Awards as the network led with &lt;em&gt;The Studio&lt;/em&gt; becoming the most-winning freshman comedy in Emmy history, and &lt;em&gt;Severance&lt;/em&gt; leading as the year’s most-winning drama. Nominations for the 78th Emmy Awards were announced today by the Television Academy, and the winners will be unveiled at a ceremony on September 14.
+&lt;/div&gt;
+&lt;div&gt;“Great stories have the ability to entertain, surprise, and bring people together, and these unprecedented nominations recognize shows that have done exactly that,” said Matt Cherniss, Apple TV’s head of programming. “We are in awe of the world-class storytellers we have the opportunity to collaborate with every day and are deeply grateful to the Television Academy for celebrating them. Congratulations to all of this year’s nominees whose brilliant work has connected with viewers everywhere.”
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/07/apple-scores-record-89-emmy-award-nominations/</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-09T01:47:37.322302+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple to increase spend with Broadcom to produce billions more U.S. chips</title>
+      <link>https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; &lt;/strong&gt;Apple today announced a new multiyear commitment with Broadcom to design and produce custom silicon components and cutting-edge wireless connectivity technologies for a wide range of Apple products. The new agreement, expected to exceed $30 billion, will lead to the production of more than 15 billion U.S.-made chips and support hundreds of American jobs. Apple has been working with the administration and businesses across the U.S. to help create an end-to-end silicon supply chain in America, and today’s announcement advances those efforts.
+&lt;/div&gt;
+&lt;div&gt;Broadcom is part of Apple’s American Manufacturing Program (AMP), launched last year to accelerate manufacturing in the U.S. This new agreement, which marks Apple’s largest AMP commitment to date, will enable Broadcom to expand and modernize its manufacturing facilities in Fort Collins, Colorado, with a $1.5 billion capital expenditure investment. Broadcom will produce advanced radio frequency components — including FBAR filters — and advanced wireless connectivity technologies at the Fort Collins facility.
+&lt;/div&gt;
+&lt;div&gt;“Apple and Broadcom have a long history together, and this new phase of our partnership further accelerates our commitment to American manufacturing and innovation,” said Tim Cook, Apple’s CEO. “The cutting-edge components built in Fort Collins are essential to delivering the incredible performance and connectivity our customers expect, and we’re proud to deepen our investments in U.S.-based suppliers that share our commitment to excellence and innovation. We’re grateful to the president and his administration for supporting important projects like this one.”
+&lt;/div&gt;
+&lt;div&gt;“Broadcom is proud to continue to work with Apple after decades of success together, and we share a strong commitment to American innovation,” said Hock Tan, Broadcom’s president and CEO. “With Apple’s newest commitment, we’re pleased to expand our manufacturing footprint in Fort Collins, where we create groundbreaking technology that connects people around the world.”
+&lt;/div&gt;
+&lt;div&gt;These investments are part of Apple’s commitment to invest $600 billion in the U.S. economy over four years, supporting manufacturing, job creation, and technology development across the country.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-08T17:24:43.683880+00:00</crawled>
+    </item>
+    <item>
+      <title>EA SPORTS Madden NFL 27 Arcade Edition brings authentic gridiron action to Apple Arcade on August 6</title>
+      <link>https://www.apple.com/newsroom/2026/07/madden-nfl-27-arcade-edition-brings-gridiron-action-to-apple-arcade-on-august-6/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;On August 6, the most authentic NFL video game comes to Apple devices with &lt;a href="https://apps.apple.com/us/app/madden-nfl-27-arcade-edition/id6755553408/"&gt;Madden NFL 27 Arcade Edition&lt;/a&gt;. Designed specifically for Apple Arcade, this all-new release in the massively popular franchise lets fans live out their gridiron dreams, offering an immersive season-based experience featuring current NFL teams and realistic simulation gameplay. Arcade also welcomes &lt;a href="https://apps.apple.com/us/app/nfl-retro-bowl-27/id6476767864/"&gt;NFL Retro Bowl ’27&lt;/a&gt; and &lt;a href="https://apps.apple.com/us/app/retro-bowl-college/id6745877228/"&gt;Retro Bowl College+&lt;/a&gt;, adding to the blockbuster catalog of hit sports games on the service including &lt;a href="https://apps.apple.com/us/app/football-manager-26-touch/id1626267810/"&gt;Football Manager 26 Touch&lt;/a&gt;, &lt;a href="https://apps.apple.com/us/app/mini-football-legends/id6743856618/"&gt;Mini Football Legends&lt;/a&gt;, &lt;a href="https://apps.apple.com/us/app/nba-2k26-arcade-edition/id6746148175/"&gt;NBA 2K26 Arcade Edition&lt;/a&gt;, &lt;a href="https://apps.apple.com/us/app/nfl-retro-bowl-26/id6476767864/"&gt;NFL Retro Bowl ’26&lt;/a&gt;, &lt;a href="https://apps.apple.com/us/app/pga-tour-pro-golf/id6545262709/"&gt;PGA TOUR Pro Golf&lt;/a&gt;, &lt;a href="https://apps.apple.com/us/app/skate-city-new-york/id6448986810/"&gt;Skate City: New York&lt;/a&gt;, and more.
+&lt;/div&gt;
+&lt;div&gt;“From the pitch to the court to the gridiron, Apple Arcade delivers an unmatched lineup of sports games for every kind of fan,” said Alex Rofman, Apple’s senior director of Apple Arcade. “I’ve been a longtime Madden NFL player and adding this legendary franchise to our catalog is a dream come true. Just in time for the new season, our Arcade community can now dive into an authentic NFL experience alongside other massive sports hits like NFL Retro Bowl, NBA 2K, and Football Manager, all in one place.”
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/07/madden-nfl-27-arcade-edition-brings-gridiron-action-to-apple-arcade-on-august-6/</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-14T22:53:04.150524+00:00</crawled>
+    </item>
+    <item>
+      <title>Major League Soccer returns to Apple TV tomorrow</title>
+      <link>https://www.apple.com/newsroom/2026/07/major-league-soccer-returns-to-apple-tv-tomorrow/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Major League Soccer returns to Apple TV tomorrow, July 16, as regular-season play resumes and the league welcomes fans back following a monthlong break for the FIFA World Cup.
+&lt;/div&gt;
+&lt;div&gt;Apple TV subscribers in more than 100 countries and regions can watch every MLS match with no blackouts. Subscribers also receive comprehensive coverage and analysis, exclusive content, and access to matches beyond the regular season, including the annual Leagues Cup tournament, Michelob ULTRA Campeones Cup, MLS All-Star Game, and Audi MLS Cup Playoffs.
+&lt;/div&gt;
+&lt;div&gt;All 30 clubs return to action following the World Cup Final, with six marquee matchups scheduled across July 16 and 17. Highlights include the Cascadia Cup rivalry between the Seattle Sounders and Portland Timbers, a Southern showdown between Nashville SC and Atlanta United FC, and the latest edition of El Tráfico featuring the LA Galaxy and Los Angeles Football Club.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/07/major-league-soccer-returns-to-apple-tv-tomorrow/</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-15T22:54:52.993145+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple Maps to power the navigation experience for the Ford Universal Electric Vehicle Platform</title>
+      <link>https://www.apple.com/newsroom/2026/07/apple-maps-to-power-navigation-experience-for-ford-uev-platform/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Apple and Ford today announced that Apple Maps will be integrated directly into Ford’s upcoming Universal Electric Vehicle (UEV) Platform through Apple’s new MapKit for Automotive SDK. Coming to Ford’s UEV Platform in 2027, this integration will deliver a beautiful and easy-to-use navigation experience powered by Apple Maps directly to the vehicle’s displays. Road-level Maps information will also enable Ford’s Latitude AI team to build a seamless hands-free driving experience.
+&lt;/div&gt;
+&lt;div&gt;Leveraging Apple’s new MapKit for Automotive SDK, Ford’s Universal Electric Vehicle Platform will offer drivers turn-by-turn directions using natural language, real-time traffic and incident information, intuitive search featuring detailed place cards, and routing options to help users easily find the best route to their destination. Additionally, Ford UEV drivers will benefit from an intelligent EV routing functionality, including battery preconditioning. Ford will also use road-level information from Apple Maps as part of the development of its next-generation BlueCruise hands-free highway driving capability to deliver a more seamless on-ramp-to-off-ramp experience.
+&lt;/div&gt;
+&lt;div&gt;“Apple Maps delivers the best map experience in the world, and we’re excited to bring the power of Maps’ navigation technology to Ford’s innovative Universal Electric Vehicle Platform,” said Eddy Cue, Apple’s senior vice president of Services and Health. “With our new MapKit for Automotive SDK, we’re bringing Maps further into drivers’ daily lives, giving them an incredibly accurate and easy-to-use navigation system that is seamlessly integrated into Ford vehicles.”
+&lt;/div&gt;
+&lt;div&gt;“Our new midsize electric vehicle will be priced around $30,000 and redefines what advanced technology can be — simple, useful, and truly attainable for more customers,” said Jim Farley, Ford Motor Company’s CEO. “We’re proud to embed Apple Maps’ navigation and mapping technology directly into our Universal Electric Vehicle Platform, giving customers the ultimate navigation experience alongside our Ford app, a full suite of software, and next-generation BlueCruise, all enabled by a new zonal architecture. Apple Maps has delivered a world-class product, and we’re honored to be among the first to embed it directly into a vehicle, helping define intuitive, capable driving.”
+&lt;/div&gt;
+&lt;div&gt;This integration is made possible by Apple’s new MapKit for Automotive SDK, which allows automakers to embed and customize Apple Maps. The SDK also enables automakers to deliver a cohesive navigation experience for drivers that is consistent with the look and feel of their vehicles, and provides road-level information to help automakers build hands-free driving experiences. The SDK follows the same privacy principles that the Apple Maps app provides today. Apple does not collect users’ location details and activity on the vehicle’s map in a way that can be tied back to the individual user.
+&lt;/div&gt;
+&lt;div&gt;In addition to the integration of Apple Maps into Ford’s UEV Platform, CarPlay will continue to be available on Ford vehicles, providing drivers with a safe and smart way to use their iPhone in the car.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/07/apple-maps-to-power-navigation-experience-for-ford-uev-platform/</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-23T22:52:37.370575+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple Upgrade launches in the United States</title>
+      <link>https://www.apple.com/newsroom/2026/07/apple-upgrade-launches-in-the-united-states/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Apple today announced &lt;a href="https://www.apple.com/shop/apple-upgrade"&gt;Apple Upgrade&lt;/a&gt;, a new product leasing program provided by Klarna for iPhone, Apple Watch, Mac, and iPad available on the Apple Store online, in the Apple Store app, and at Apple Store locations in the United States.&lt;sup&gt;1&lt;/sup&gt; Apple Upgrade makes it even easier for customers to get the Apple products they love with a leasing plan that is right for them.
+&lt;/div&gt;
+&lt;div&gt;“At Apple, we put the customer at the center of everything we do,” said Karen Rasmussen, Apple’s vice president of the Apple Store online, “and we’re thrilled that Apple Upgrade offers our customers, both online and in-store, a more flexible way to pay for the products they love.”
+&lt;/div&gt;
+&lt;div&gt;Apple Upgrade offers 12- and 24-month leasing options for iPhone and Apple Watch, and 24- and 36-month leasing options for Mac and iPad. Leasing prices start as low as $17.99 per month for iPhone, $11.99 for Apple Watch, $24.99 for Mac, and $11.99 for iPad.&lt;sup&gt;^&lt;/sup&gt; When customers first enroll in Apple Upgrade, they can further lower their monthly lease payments by trading in their currently owned device through &lt;a href="https://www.apple.com/shop/trade-in/"&gt;Apple Trade In&lt;/a&gt;. Customers can also earn 3 percent Daily Cash back when making their lease payments with Apple Card.&lt;sup&gt;2&lt;/sup&gt;
+&lt;/div&gt;
+&lt;h2&gt;&lt;strong&gt;Upgrading Has Never Been Easier&lt;/strong&gt;
+&lt;/h2&gt;
+&lt;div&gt;With Apple Upgrade, customers can expect the same seamless and personalized shopping experience online and in stores. Apple and Klarna have created a simple enrollment process that provides customers with detailed information regarding their leasing options before they enroll.
+&lt;/div&gt;
+&lt;div&gt;Upon choosing their preferred leasing option, customers can apply within minutes — online or in-store — and receive quick approval from Klarna.&lt;sup&gt;3&lt;/sup&gt; All applicants will be subject to a soft credit inquiry that will not impact their credit score. Once approved, they can complete their transaction as usual. In-store customers can enjoy their new device right away, while online customers can choose delivery or in-store pickup. Whether they shop in-store or online, all customers can take advantage of Apple’s Personal Setup service to help get their new product ready to use and ask any questions they might have. They can also join the many free and educational Today at Apple sessions to learn how to get started — or go further — with their devices.
+&lt;/div&gt;
+&lt;div&gt;At the end of the lease term, customers can upgrade their device to the latest generation,&lt;sup&gt;4&lt;/sup&gt; purchase it with a one-time payment, or simply return it and exit the program. In the Klarna app, they can stay on top of all of their lease information, including their billing schedule and remaining payments. Customers can add an AppleCare subscription to protect their products, making the return of their current device and upgrade to a new one even easier.&lt;sup&gt;5&lt;/sup&gt;
+&lt;/div&gt;
+&lt;div&gt;With the launch of Apple Upgrade, Apple will no longer offer the iPhone Upgrade Program and iPhone Payments in the United States. When eligible, customers currently enrolled in the iPhone Upgrade Program will have the option of leasing a new device with Apple Upgrade, financing with Apple Card Monthly Installments,&lt;sup&gt;6&lt;/sup&gt; purchasing the product outright, or choosing carrier financing.
+&lt;/div&gt;
+&lt;h2&gt;&lt;strong&gt;Explore the Lineup and Upgrade Today&lt;/strong&gt;
+&lt;/h2&gt;
+&lt;div&gt;&lt;br/&gt;
+&lt;strong&gt;iPhone&lt;/strong&gt;&lt;br/&gt;
+&lt;a href="https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/"&gt;iPhone 17e&lt;/a&gt; delivers incredible value with faster performance, an advanced camera system, enhanced durability, the magic of MagSafe, and double the starting storage at 256GB. &lt;a href="https://www.apple.com/newsroom/2025/09/apple-debuts-iphone-17/"&gt;iPhone 17&lt;/a&gt; is packed with features users will enjoy every day, including a bigger and brighter display with ProMotion up to 120Hz, all-day battery life with faster charging, a fantastic 48MP Dual Fusion camera system, and the Center Stage front camera. &lt;a href="https://www.apple.com/newsroom/2025/09/introducing-iphone-air-a-powerful-new-iphone-with-a-breakthrough-design/"&gt;iPhone Air&lt;/a&gt; features a thin and light design that is more durable than any previous model, with pro performance, advanced camera systems on the front and back, and all-day battery life. With a unibody design optimized for performance and powered by A19 Pro, &lt;a href="https://www.apple.com/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/"&gt;iPhone 17 Pro and iPhone 17 Pro Max&lt;/a&gt; are the most powerful Pro models ever made, delivering the best performance, camera systems, and battery life in an iPhone. iPhone leases start at $17.99.^
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/07/apple-upgrade-launches-in-the-united-states/</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-28T22:57:18.152652+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple reports third quarter results</title>
+      <link>https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Apple today announced financial results for its fiscal 2026 third quarter ended June 27, 2026. The Company posted quarterly revenue of $109.4 billion, up 16 percent year over year. Company gross margin was 50.1 percent, including a favorable impact of approximately 2 percentage points from tariff refunds. Diluted earnings per share was $2.02, up 29 percent year over year, and included a favorable impact of $0.11 from tariff refunds.
+&lt;/div&gt;
+&lt;div&gt;“Today, Apple is proud to report our strongest June quarter ever, with double-digit revenue growth across iPhone, Mac and Services, and in every geographic segment,” said Tim Cook, Apple’s CEO. “At WWDC26, we were thrilled to introduce the all-new Siri AI, alongside all of Apple’s latest software innovations and important new child safety features.”&lt;br/&gt;
+&lt;/div&gt;
+&lt;div&gt;“We are very pleased with our record business performance during the quarter, which set new June quarter records for both EPS and operating cash flow,” said Kevan Parekh, Apple’s CFO. “Our installed base of active devices also reached a new all-time high across all major product categories and geographic segments.”
+&lt;/div&gt;
+&lt;div&gt;Apple’s board of directors has declared a cash dividend of $0.27 per share of the Company’s common stock. The dividend is payable on August 13, 2026, to shareholders of record as of the close of business on August 10, 2026.
+&lt;/div&gt;
+&lt;div&gt;Apple will provide live streaming of its Q3 2026 financial results conference call beginning at 2:00 p.m. PT on July 30, 2026, at &lt;a href="https://www.apple.com/investor/earnings-call"&gt;apple.com/investor/earnings-call&lt;/a&gt;. The webcast will be available for replay for approximately two weeks thereafter.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-30T23:01:32.687921+00:00</crawled>
+    </item>
+    <item>
+      <title>Leagues Cup kicks off tomorrow, August 4, on Apple TV</title>
+      <link>https://www.apple.com/newsroom/2026/08/leagues-cup-kicks-off-tomorrow-august-4-on-apple-tv/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Building on the momentum of a landmark year for soccer in North America, Leagues Cup — the Concacaf-sanctioned competition featuring 18 clubs from Major League Soccer (MLS) and 18 clubs from Liga MX — kicks off tomorrow, August 4. Apple TV subscribers in more than 100 countries and regions can watch all 62 Leagues Cup matches.
+&lt;/div&gt;
+&lt;div&gt;The fourth edition of the annual competition between MLS and Liga MX once again brings together top clubs from both leagues in a unique format that guarantees interleague matchups through the quarterfinals. For the first time, the tournament will also include four Phase One matches in Mexico.
+&lt;/div&gt;
+&lt;div&gt;Qualified clubs from each league will compete for the Leagues Cup trophy and one of three berths in the 2027 Concacaf Champions Cup, awarded to the champion, runner-up, and third-place finisher. The Leagues Cup Champion will also earn a direct berth into the Concacaf Champions Cup Round of 16, putting the club on the path to FIFA’s premier international club competitions, including the FIFA Club World Cup.
+&lt;/div&gt;
+&lt;div&gt;Defending champion Seattle Sounders open their title defense against reigning Concacaf Champions Cup winner Toluca FC on August 5 at 7 p.m. PT at Estadio Nemesio Díez, after capturing their first Leagues Cup title with a 3-0 victory over Inter Miami CF in the 2025 final. The 2026 tournament will also feature several global stars making their Leagues Cup debuts, including France’s Antoine Griezmann (Orlando City SC), Poland’s Robert Lewandowski (Chicago Fire), and Brazil’s Casemiro (Inter Miami CF), who enters the competition following his third FIFA World Cup campaign.
+&lt;/div&gt;
+&lt;div&gt;To see the complete 2026 Leagues Cup schedule, visit &lt;a href="https://www.leaguescup.com/"&gt;leaguescup.com&lt;/a&gt;.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/08/leagues-cup-kicks-off-tomorrow-august-4-on-apple-tv/</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-08-03T22:59:49.935990+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple and Major League Baseball announce September “Friday Night Baseball” schedule and first‑ever broadcast in Apple Immersive</title>
+      <link>https://www.apple.com/newsroom/2026/08/apple-mlb-announce-september-friday-night-baseball-schedule/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Today, Apple and Major League Baseball (MLB) unveiled the September schedule for “Friday Night Baseball,” the weekly doubleheader streaming every Friday on Apple TV throughout the 2026 regular season. Apple TV subscribers across 60 countries and regions can enjoy two marquee matchups each week with enhanced production quality, expert commentary, and no local broadcast restrictions.
+&lt;/div&gt;
+&lt;div&gt;For the first time, baseball fans can take in all the action of “Friday Night Baseball” live in Apple Immersive on Apple Vision Pro, leveraging 3D video recorded in 8K with a 180-degree field of view. On August 28, viewers with Vision Pro will experience the iconic Red Sox vs. Yankees rivalry from unique camera angles that place viewers right in the game, immersed in the drama of each at-bat, the celebrations in the dugout after a big hit, close plays at the outfield wall, and more.
+&lt;/div&gt;
+&lt;div&gt;The experience features bespoke commentary from Paul Severino (play-by-play), Xavier Scruggs (analyst), and Michelle Margaux (sideline reporter); dedicated replays; and an immersive graphics package that includes team lineups and stats floating in the viewer’s space. During breaks in the action, the broadcast remains live, immersing viewers in the stadium experience from all angles as ambisonic microphones capture sounds in Spatial Audio.
+&lt;/div&gt;
+&lt;div&gt;Apple Vision Pro users with an Apple TV subscription in Australia, Canada, Germany, Hong Kong, Japan, South Korea, Taiwan, the UK, and the U.S. can stream the games live directly through the Apple TV app. Full game replays, as well as a highlight package of the game’s key moments, will be available on demand in the Apple TV app for Vision Pro.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/08/apple-mlb-announce-september-friday-night-baseball-schedule/</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-08-10T22:32:00.741022+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple Arcade’s lineup of hit puzzle games gets even bigger with the addition of Block Blast!+ and Art of Fauna: Cozy Puzzles+</title>
+      <link>https://www.apple.com/newsroom/2026/08/apple-arcade-levels-up-with-block-blast-plus-and-art-of-fauna-cozy-puzzles-plus/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Whether gamers are looking for high-octane action or a laid-back afternoon, Apple Arcade has a little bit of everything for every player, and its puzzle catalog is getting a big upgrade. On September 3, two standout new titles join the mix: &lt;a href="https://apps.apple.com/us/app/block-blast/id6766824098/"&gt;Block Blast!+&lt;/a&gt; and &lt;a href="https://apps.apple.com/us/app/art-of-fauna-cozy-puzzles/id6756780731/"&gt;Art of Fauna: Cozy Puzzles+&lt;/a&gt;. Block Blast!+ brings one of the most popular daily puzzle games to Arcade, while the 2025 App Store Award winner for Cultural Impact — Art of Fauna: Cozy Puzzles+ — combines soothing jigsaw-style gameplay with rich storytelling about the natural world.
+&lt;/div&gt;
+&lt;div&gt;There’s a reason Block Blast!+ has topped charts around the world: It’s simple to pick up and nearly impossible to put down. The game challenges players to slot blocks onto a grid to clear rows and columns, and chase that perfect combo. On Arcade, players can now enjoy the same blockbusting gameplay completely uninterrupted by ads.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/08/apple-arcade-levels-up-with-block-blast-plus-and-art-of-fauna-cozy-puzzles-plus/</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-08-11T22:37:18.178155+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple opens Advanced Manufacturing Center in Houston</title>
+      <link>https://www.apple.com/newsroom/2026/08/apple-opens-advanced-manufacturing-center-in-houston/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Apple today opened its new Advanced Manufacturing Center (AMC) in Houston. The center offers free training and educational sessions for small- and medium-sized businesses, giving them direct experience with state-of-the-art equipment, interactive labs, and tools they need to accelerate innovation. The AMC is located within the same Houston facility that builds and ships Apple’s advanced AI servers and will begin manufacturing Mac mini this year.
+&lt;/div&gt;
+&lt;div&gt;At the center — the company’s second U.S. manufacturing learning site — experts teach participants many of the same innovative processes used to make Apple products. As part of the center’s kickoff event, Apple is proud to host U.S. Secretary of Commerce Howard Lutnick, U.S. Senator Ted Cruz, Houston Mayor John Whitmire, U.S. Representative Christian Menefee, and Harris County Precinct One Commissioner Rodney Ellis, along with other officials and community partners. They are joining Apple leaders and the AMC’s first cohort of small- and medium-sized business leaders for a full day of hands-on training and programming.
+&lt;/div&gt;
+&lt;div&gt;“In less than nine months, we have invested hundreds of millions of dollars into this Houston facility. We stood up a factory, started production, and shipped the first advanced AI servers off the line. Today, we’re thrilled to open our new Advanced Manufacturing Center, a place where businesses, workers, and students can learn the same innovative processes that we use to make Apple’s most groundbreaking products. And we’re pleased to begin Mac mini production later this year,” said Tim Cook, Apple’s CEO. “We believe in American workers and American ingenuity, and we are moving at an incredible pace because we want to build more than great products. We want to build the future of American manufacturing.”
+&lt;/div&gt;
+&lt;div&gt;“This opening is an important step in Apple delivering on its promise to bring its manufacturing back to America,” said U.S. Secretary of Commerce Howard Lutnick. “With this Advanced Manufacturing Center, Apple will equip American workers with the skills they need to lead the next generation of technology.”
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/08/apple-opens-advanced-manufacturing-center-in-houston/</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-08-13T22:37:20.984555+00:00</crawled>
+    </item>
+    <item>
+      <title>Apple announces changes for apps in the European Union</title>
+      <link>https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Apple today announced changes to its business terms for apps in the European Union, following close collaboration with the European Commission. These changes resolve Apple’s disagreements with the Commission over business terms and alternative distribution. They also reduce complexity by moving every developer that distributes apps in the EU to a single set of business terms. Developers can sign the new terms today, and changes will go into effect on October 1.
+&lt;/div&gt;
+&lt;h2&gt;&lt;strong&gt;Unified Business Terms for Developers That Distribute Apps in the EU&lt;/strong&gt;
+&lt;/h2&gt;
+&lt;div&gt;Under this new model, Apple will charge a commission on the sale of digital goods and services. The Core Technology Fee, a per-install fee for developers that achieve extraordinary scale, will be replaced by the Core Technology Commission, a simple 5 percent commission on digital transactions in apps distributed outside the App Store. The new terms also eliminate the initial acquisition fee and store services fee.
+&lt;/div&gt;
+&lt;div&gt;In addition, Apple is adjusting commission rates across the App Store, alternative app payments, and alternatively distributed apps. Each of these commissions reflects the many ways Apple creates value for developers’ apps, whether they use the App Store and/or Apple In-App Purchase.
+&lt;/div&gt;
+&lt;div&gt;Under the new terms:
+&lt;/div&gt;
+&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;For App Store apps using Apple In-App Purchase&lt;/strong&gt;, the commission will be 26 percent. For the vast majority of developers, including those in the App Store Small Business Program, Mini Apps Partner Program, or Video Partner Program, and for auto-renewing subscriptions after their first year, it will be 15 percent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;For App Store apps using alternative payment processing&lt;/strong&gt;, the commission will be 20 percent. Developers in the programs mentioned above will pay a reduced rate of 10 percent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;For App Store apps that link out of the app to complete purchases&lt;/strong&gt;, the commission will be 15 percent. Developers in the programs mentioned above will pay a reduced rate of 10 percent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;For apps distributed via alternative app marketplaces or the web&lt;/strong&gt;, Apple will charge a 5 percent Core Technology Commission.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2&gt;&lt;strong&gt;Alternative Payments and Apple In-App Purchase&lt;/strong&gt;
+&lt;/h2&gt;
+&lt;div&gt;Apple In-App Purchase is the safest, most trusted way for users to purchase and download apps and make seamless and secure payments in those apps. Under the updated terms, developers can now offer Apple In-App Purchase alongside alternative payment options, which had not previously been permitted in the EU. This is subject to presentation requirements designed to give users a consistent, transparent experience.
+&lt;/div&gt;
+&lt;div&gt;To provide consistency and clarity for users, developers distributing apps in the EU will select their payment options — Apple In-App Purchase, alternative payment processing in their app, linking out to the web, or a combination — and must maintain those options for 12 months.
+&lt;/div&gt;
+&lt;h2&gt;&lt;strong&gt;Child Safety Protections for Alternative Payments in the EU&lt;/strong&gt;
+&lt;/h2&gt;
+&lt;div&gt;The App Store is designed to be a safe and trusted place for everyone, particularly children. Apple has worked with the Commission to implement child safety measures for alternative payments similar to those already in place in other markets:
+&lt;/div&gt;
+&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Apps in the Kids category&lt;/strong&gt; on the App Store will not include links to websites to complete transactions, to reduce the risk of fraud or scams targeting children.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;For&lt;strong&gt; users under 18 years old&lt;/strong&gt;, all apps from the App Store that use alternative payment processing or link out to a website for transactions must include a parental gate that requires younger users to involve their parent or guardian before making a purchase.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;For &lt;strong&gt;users under 13 years old&lt;/strong&gt;, apps from the App Store cannot link out to websites for transactions to protect against the risk of scams that target younger kids.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;In EU member states that require parental consent for digital actions for children older than 13 years old, these protections will scale accordingly.
+&lt;/div&gt;
+&lt;h2&gt;&lt;strong&gt;Expanded Eligibility to Operate Alternative App Marketplaces or Distribute via the Web&lt;/strong&gt;
+&lt;/h2&gt;
+&lt;div&gt;Apple is also expanding who is eligible to operate an alternative app marketplace or distribute apps via the web in the EU. Companies will now qualify if they:
+&lt;/div&gt;
+&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;Meet a moderate financial-stability bar as scored by Dun &amp;amp; Bradstreet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;Are publicly traded or owned by a publicly traded company.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;Have received venture funding from an established investment firm.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;Have completed a financial audit by a licensed accountant.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;Are a government entity, educational institution, or nonprofit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;Web distribution, which is available only in the EU, does not have a marketplace operator standing behind it or ongoing oversight like the kind Apple provides for the App Store. This means a bad actor distributing via the web can operate for a long time, harming users, before anyone catches it. In order to keep EU users as safe as possible, Apple will continue to require every alternatively distributed app to go through Notarization — a baseline review focused on basic functionality and protection from serious threats.
+&lt;/div&gt;
+&lt;div&gt;Apple is providing detailed resources to help developers understand the options now available for their apps in the EU, which they can access from the &lt;a href="https://developer.apple.com/support/apps-in-the-eu/"&gt;Apple Developer Support page&lt;/a&gt;.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-08-18T22:18:52.137094+00:00</crawled>
+    </item>
+  </channel>
+</rss>
