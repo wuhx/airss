@@ -618,3 +618,32 @@ body.sidebar-open #scrim { opacity: 1; pointer-events: auto; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation-duration: .01s !important; }
 }
+
+/* ---------- Load More & Sync ---------- */
+
+.load-more-btn {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin-top: 8px;
+  border-radius: 11px;
+  background: var(--hover);
+  color: var(--text-2);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: background .15s ease, color .15s ease;
+}
+.load-more-btn:hover {
+  background: var(--active);
+  color: var(--text-1);
+}
+.load-more-btn:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+#sync-btn.syncing .icon {
+  animation: spin 1s linear infinite;
+}

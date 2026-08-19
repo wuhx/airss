@@ -20,6 +20,8 @@ const state = {
   read: loadSet(LS.read),
   star: loadSet(LS.star),
   status: {},
+  nextUrls: new Map(),
+  loadedFeeds: new Set(),
 };
 
 let pendingKey = null;
@@ -59,12 +61,12 @@ function relTime(ts) {
   const d = new Date(ts);
   const opts = { month: 'short', day: 'numeric' };
   if (d.getFullYear() !== new Date().getFullYear()) opts.year = 'numeric';
-  return new Intl.DateTimeFormat('en', opts).format(d);
+  return new Intl.DateTimeFormat(undefined, opts).format(d);
 }
 
 function fmtDate(ts) {
   if (!ts) return '';
-  return new Intl.DateTimeFormat('en', { dateStyle: 'long', timeStyle: 'short' }).format(new Date(ts));
+  return new Intl.DateTimeFormat(undefined, { dateStyle: 'long', timeStyle: 'short' }).format(new Date(ts));
 }
 
 /* ---------- markdown-ish → HTML (ByteDance feed) ---------- */
@@ -133,6 +135,9 @@ function sanitize(html) {
       case 'IMG':
         el.setAttribute('loading', 'lazy');
         el.setAttribute('decoding', 'async');
+        // WeChat's CDN answers any request carrying a Referer with a 140x140
+        // 未经允许不可引用 placeholder; with no Referer it serves the real image
+        el.setAttribute('referrerpolicy', 'no-referrer');
         break;
       case 'A':
         el.setAttribute('target', '_blank');
@@ -161,11 +166,27 @@ function sanitize(html) {
 
 const JUNK_TITLE = /^no ?title$/i;
 
-function parseFeed(feed, xml) {
+async function parseFeed(feed, xml) {
   const doc = new DOMParser().parseFromString(xml, 'text/xml');
   if (doc.querySelector('parsererror')) throw new Error('XML parse error');
 
-  const items = [...doc.getElementsByTagName('item')].map((el, i) => {
+  let nextUrl = null;
+  const atomLinks = doc.getElementsByTagNameNS('http://www.w3.org/2005/Atom', 'link');
+  for (const el of atomLinks) {
+    if (el.getAttribute('rel') === 'next') nextUrl = el.getAttribute('href');
+  }
+  if (!nextUrl) {
+    const links = doc.getElementsByTagName('link');
+    for (const el of links) {
+      if (el.getAttribute('rel') === 'next') nextUrl = el.getAttribute('href');
+    }
+  }
+
+  const rawItems = [...doc.getElementsByTagName('item')];
+  const items = [];
+
+  for (let i = 0; i < rawItems.length; i++) {
+    const el = rawItems[i];
     const text = tag => el.getElementsByTagName(tag)[0]?.textContent?.trim() ?? '';
     const link = text('link');
     const encoded = el.getElementsByTagNameNS(CONTENT_NS, 'encoded')[0]?.textContent;
@@ -183,13 +204,17 @@ function parseFeed(feed, xml) {
     const norm = s => s.replace(/\s+/g, ' ').trim().toLowerCase();
     if (norm(preview) === norm(title)) preview = '';
 
-    return {
+    items.push({
       key: feed.id + '|' + (link || i),
       feed, link, ts, crawledTs, title, preview,
       html: tpl.innerHTML,
-    };
-  });
-  return dedupeByLink(items);
+    });
+
+    // Time slice every 20 items to avoid freezing the UI
+    if (i % 20 === 19) await new Promise(r => setTimeout(r, 0));
+  }
+  
+  return { items: dedupeByLink(items), nextUrl };
 }
 
 /* First paragraph with real prose — skips leading link-badge clusters. */
@@ -221,26 +246,56 @@ function pickRicher(a, b) {
   return b.html.length > a.html.length ? b : a;
 }
 
-function loadFeeds() {
-  FEEDS.forEach(async feed => {
-    state.status[feed.id] = 'loading';
-    updateNavStatus(feed.id);
-    try {
-      const res = await fetch(feed.file);
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      const items = parseFeed(feed, await res.text());
-      for (const it of items) state.byKey.set(it.key, it);
-      state.items.push(...items);
-      state.items.sort((a, b) => b.ts - a.ts);
-      state.status[feed.id] = 'ok';
-    } catch (err) {
-      console.error('airss: failed to load', feed.file, err);
-      state.status[feed.id] = 'error';
+async function loadFeed(feed, url = null) {
+  const fetchUrl = url || feed.file;
+  state.status[feed.id] = 'loading';
+  updateNavStatus(feed.id);
+  
+  if (!url) state.loadedFeeds.add(feed.id);
+
+  try {
+    const res = await fetch(fetchUrl);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const xml = await res.text();
+    
+    // Yield before parsing
+    await new Promise(r => setTimeout(r, 0));
+    
+    const { items, nextUrl } = await parseFeed(feed, xml);
+    
+    for (const it of items) {
+      if (!state.byKey.has(it.key)) {
+        state.byKey.set(it.key, it);
+        state.items.push(it);
+      }
     }
-    updateNavStatus(feed.id);
-    renderTimeline();
-    maybeRestore();
-  });
+    state.items.sort((a, b) => b.ts - a.ts);
+    
+    if (nextUrl) {
+      state.nextUrls.set(feed.id, nextUrl);
+    } else {
+      state.nextUrls.delete(feed.id);
+    }
+    state.status[feed.id] = 'ok';
+  } catch (err) {
+    console.error('airss: failed to load', fetchUrl, err);
+    state.status[feed.id] = 'error';
+  }
+  
+  updateNavStatus(feed.id);
+  renderTimeline();
+  maybeRestore();
+}
+
+async function syncAll() {
+  const btn = $('sync-btn');
+  if (btn.classList.contains('syncing')) return;
+  btn.classList.add('syncing');
+  
+  const promises = FEEDS.map(feed => loadFeed(feed));
+  await Promise.allSettled(promises);
+  
+  btn.classList.remove('syncing');
 }
 
 function maybeRestore() {
@@ -303,6 +358,14 @@ function setView(view) {
   $('search').value = '';
   document.querySelectorAll('.nav-item').forEach(b => b.classList.toggle('active', b.dataset.view === view));
   $('search').placeholder = searchPlaceholder(view);
+  
+  if (view !== 'all' && view !== 'today' && view !== 'star') {
+    if (!state.loadedFeeds.has(view)) {
+      const feed = FEEDS.find(f => f.id === view);
+      if (feed) loadFeed(feed);
+    }
+  }
+  
   renderTimeline();
   $('timeline').scrollTop = 0;
   saveJSON(LS.sel, { view, key: state.selected });
@@ -354,7 +417,7 @@ function renderSkeletons() {
 }
 
 function renderTimeline() {
-  const started = FEEDS.some(f => state.status[f.id] && state.status[f.id] !== 'loading');
+  const started = state.loadedFeeds.size > 0;
   if (!started) return; // keep skeletons until the first feed settles
 
   const items = visibleItems();
@@ -367,7 +430,18 @@ function renderTimeline() {
     $('cards').innerHTML = `<div class="timeline-note">${note}</div>`;
     return;
   }
-  $('cards').innerHTML = items.map(cardHTML).join('');
+  
+  let html = items.map(cardHTML).join('');
+  
+  if (state.view !== 'all' && state.view !== 'today' && state.view !== 'star' && !state.q) {
+    const nextUrl = state.nextUrls.get(state.view);
+    if (nextUrl) {
+      const isLoading = state.status[state.view] === 'loading';
+      html += `<button class="load-more-btn" data-feed="${state.view}" ${isLoading ? 'disabled' : ''}>${isLoading ? 'Loading...' : 'Load Older Articles'}</button>`;
+    }
+  }
+
+  $('cards').innerHTML = html;
 }
 
 /* ---------- reader ---------- */
@@ -438,6 +512,15 @@ function move(delta) {
 
 function bindUI() {
   $('cards').addEventListener('click', e => {
+    const moreBtn = e.target.closest('.load-more-btn');
+    if (moreBtn && !moreBtn.disabled) {
+      const feedId = moreBtn.dataset.feed;
+      const feed = FEEDS.find(f => f.id === feedId);
+      const url = state.nextUrls.get(feedId);
+      if (feed && url) loadFeed(feed, url);
+      return;
+    }
+    
     const starBtn = e.target.closest('.card-star-btn');
     if (starBtn) {
       toggleStar(starBtn.closest('.card').dataset.key);
@@ -447,10 +530,13 @@ function bindUI() {
     if (card && !card.classList.contains('skeleton')) select(card.dataset.key);
   });
 
-  // drop broken favicon images (they fall back to their monogram)
+  // drop images that never loaded: favicons fall back to their monogram, and
+  // article images (WeChat leaves 404ing decorative gifs behind) would otherwise
+  // sit there as a broken-image icon. Capture phase -- error does not bubble.
   document.addEventListener('error', e => {
     const t = e.target;
-    if (t.tagName === 'IMG' && t.closest('.favicon')) t.remove();
+    if (t.tagName !== 'IMG') return;
+    if (t.closest('.favicon') || t.closest('.article-body')) t.remove();
   }, true);
   // reveal favicon images only once they have pixels (monogram shows until then)
   document.addEventListener('load', e => {
@@ -476,6 +562,12 @@ function bindUI() {
     document.documentElement.dataset.theme = next;
     try { localStorage.setItem(LS.theme, next); } catch {}
   });
+  
+  const syncBtn = $('sync-btn');
+  if (syncBtn) {
+    syncBtn.addEventListener('click', () => syncAll());
+  }
+
   matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
     let stored = null;
     try { stored = localStorage.getItem(LS.theme); } catch {}
@@ -519,6 +611,10 @@ function bindUI() {
 /* ---------- boot ---------- */
 
 async function boot() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(err => console.error('airss: sw error', err));
+  }
+
   renderSkeletons();
   bindUI();
 
@@ -542,7 +638,14 @@ async function boot() {
 
   buildNav();
   $('search').placeholder = searchPlaceholder(state.view);
-  loadFeeds();
+  
+  if (state.view === 'all' || state.view === 'today' || state.view === 'star') {
+    const defaultFeed = FEEDS.find(f => f.id === 'crawl-log') || FEEDS[0];
+    if (defaultFeed) loadFeed(defaultFeed);
+  } else {
+    const feed = FEEDS.find(f => f.id === state.view);
+    if (feed) loadFeed(feed);
+  }
 }
 
 boot();

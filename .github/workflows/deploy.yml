@@ -29,7 +29,7 @@ jobs:
       - name: Stage site
         run: |
           mkdir -p _site
-          cp -R index.html assets feeds.json *.xml _site/
+          cp -R index.html manifest.json sw.js assets feeds.json *.xml _site/
 
       - uses: actions/configure-pages@v6
 
