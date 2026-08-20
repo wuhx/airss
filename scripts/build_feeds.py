@@ -43,6 +43,10 @@ OVERRIDES = {
         "id": "mp-ali", "title": "阿里技术", "lang": "zh",
         "color": "#ff6a00", "home": "https://mp.weixin.qq.com/mp/homepage?__biz=Mzg4NTczNzg2OA==",
     },
+    "mp.xml": {
+        "id": "mp", "title": "微信公众号", "lang": "zh",
+        "color": "#07c160", "home": "https://mp.weixin.qq.com/",
+    },
     "airss.xml": {
         "id": "crawl-log", "title": "Crawl Log", "lang": "en",
         "color": "#8e8e93", "home": "https://github.com/wuhx/Aiji/actions",
