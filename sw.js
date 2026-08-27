@@ -1,4 +1,4 @@
-const CACHE_NAME = 'airss-cache-v1';
+const CACHE_NAME = 'airss-cache-77baf537';
 const DATA_CACHE_NAME = 'airss-data-v1';
 
 const CORE_ASSETS = [
