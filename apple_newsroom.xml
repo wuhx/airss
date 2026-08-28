@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 03:27:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 15:49:08 +0000</lastBuildDate>
     <item>
       <title>Apple accelerates app development with new intelligence frameworks and advanced tools</title>
       <link>https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/</link>
@@ -22,25 +22,6 @@
       <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-07T17:03:13.246277+00:00</crawled>
-    </item>
-    <item>
-      <title>WWDC26: Apple unveils next generation of Apple Intelligence, Siri AI, powerful parental controls, and an expansive set of software improvements</title>
-      <link>https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</link>
-      <description>&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Today, during the Worldwide Developers Conference, Apple previewed its upcoming software releases that will deliver the next generation of &lt;a href="https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/"&gt;Apple Intelligence&lt;/a&gt; and introduce &lt;a href="https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/"&gt;Siri AI&lt;/a&gt;, an entirely new version of Siri that is profoundly more intelligent, knowledgeable, and capable. The releases also bring powerful and intuitive &lt;a href="https://www.apple.com/newsroom/2026/06/apple-previews-new-child-safety-features/"&gt;new features to help parents create safe digital experiences for kids&lt;/a&gt;, as well as improvements that further elevate the software design and performance of Apple products while making them more responsive, delightful, and easier to use with &lt;a href="https://www.apple.com/os/ios/"&gt;iOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/ipados/"&gt;iPadOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/macos/"&gt;macOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/watchos/"&gt;watchOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/visionos/"&gt;visionOS 27&lt;/a&gt;, and tvOS 27.
-&lt;/div&gt;
-&lt;div&gt;“Apple products are an essential part of people’s lives, and this year we’re bringing powerful new capabilities to empower our users in even more ways,” said Craig Federighi, Apple’s senior vice president of Software Engineering. “We’re delivering the next generation of Apple Intelligence across our platforms; introducing Siri AI, a profoundly more intelligent, knowledgeable, and capable Siri; expanding child safety features with intuitive new tools for families; and making our software platforms faster, more reliable, and more delightful than ever before.”
-&lt;/div&gt;
-&lt;h2&gt;&lt;strong&gt;Next Generation of Apple Intelligence and an Entirely New Siri Experience&lt;/strong&gt;
-&lt;/h2&gt;
-&lt;div&gt;Leveraging a bold new architecture uniquely designed to protect users’ privacy, the next generation of &lt;a href="https://www.apple.com/apple-intelligence/"&gt;Apple Intelligence&lt;/a&gt; powers Siri AI and brings helpful new features to apps users rely on every day.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T17:03:18.848767+00:00</crawled>
     </item>
     <item>
       <title>Apple Intelligence brings powerful AI capabilities into everyday experiences</title>
@@ -62,6 +43,25 @@
       <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-07T17:03:24.886863+00:00</crawled>
+    </item>
+    <item>
+      <title>WWDC26: Apple unveils next generation of Apple Intelligence, Siri AI, powerful parental controls, and an expansive set of software improvements</title>
+      <link>https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Today, during the Worldwide Developers Conference, Apple previewed its upcoming software releases that will deliver the next generation of &lt;a href="https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/"&gt;Apple Intelligence&lt;/a&gt; and introduce &lt;a href="https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/"&gt;Siri AI&lt;/a&gt;, an entirely new version of Siri that is profoundly more intelligent, knowledgeable, and capable. The releases also bring powerful and intuitive &lt;a href="https://www.apple.com/newsroom/2026/06/apple-previews-new-child-safety-features/"&gt;new features to help parents create safe digital experiences for kids&lt;/a&gt;, as well as improvements that further elevate the software design and performance of Apple products while making them more responsive, delightful, and easier to use with &lt;a href="https://www.apple.com/os/ios/"&gt;iOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/ipados/"&gt;iPadOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/macos/"&gt;macOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/watchos/"&gt;watchOS 27&lt;/a&gt;, &lt;a href="https://www.apple.com/os/visionos/"&gt;visionOS 27&lt;/a&gt;, and tvOS 27.
+&lt;/div&gt;
+&lt;div&gt;“Apple products are an essential part of people’s lives, and this year we’re bringing powerful new capabilities to empower our users in even more ways,” said Craig Federighi, Apple’s senior vice president of Software Engineering. “We’re delivering the next generation of Apple Intelligence across our platforms; introducing Siri AI, a profoundly more intelligent, knowledgeable, and capable Siri; expanding child safety features with intuitive new tools for families; and making our software platforms faster, more reliable, and more delightful than ever before.”
+&lt;/div&gt;
+&lt;h2&gt;&lt;strong&gt;Next Generation of Apple Intelligence and an Entirely New Siri Experience&lt;/strong&gt;
+&lt;/h2&gt;
+&lt;div&gt;Leveraging a bold new architecture uniquely designed to protect users’ privacy, the next generation of &lt;a href="https://www.apple.com/apple-intelligence/"&gt;Apple Intelligence&lt;/a&gt; powers Siri AI and brings helpful new features to apps users rely on every day.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T17:03:18.848767+00:00</crawled>
     </item>
     <item>
       <title>Apple introduces innovative features and intelligence experiences across services</title>
@@ -501,57 +501,6 @@
       <guid isPermaLink="false">https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
       <crawled>2026-08-18T22:18:52.137094+00:00</crawled>
-    </item>
-    <item>
-      <title>Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute</title>
-      <link>https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/</link>
-      <description>&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Apple today debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities. M6, Apple’s first state-of-the-art 2-nanometer chip, advances every compute block, delivering gains across every dimension of performance. The chip features a larger 12-core CPU complex with the world’s fastest CPU core, a larger 12-core GPU with Neural Accelerators, a Dual 16-core Neural Engine, and up to 170GB/s of unified memory bandwidth.&lt;sup&gt;1&lt;/sup&gt; M5 Ultra, the ultimate powerhouse for pro and AI workloads, uses next-generation UltraFusion technology to form a quad-die architecture for the first time in an M-series system on a chip (SoC). The chip includes an up-to-36-core CPU and up-to-80-core GPU with a massive 1.2TB/s of unified memory bandwidth, 50 percent more than M3 Ultra. With their advanced technologies, these SoCs deliver extraordinary compute with industry-leading power efficiency, empowering users to do even more on a desktop.
-&lt;/div&gt;
-&lt;div&gt;“Today, we’re debuting the next giant leap in performance and AI compute for Apple silicon with the incredibly advanced M6 and the most powerful M-series chip yet, M5 Ultra,” said Sri Santhanam, Apple’s vice president of Silicon Engineering Group. “Built using the cutting-edge 2 nm process, M6 combines a new CPU complex, two additional CPU and GPU cores, a Dual 16-core Neural Engine, and more unified memory bandwidth to power through workloads with amazing energy efficiency. And for the ultimate desktop performance and the ability to run massive AI models, M5 Ultra features a massive GPU, now with Neural Accelerators, and more unified memory bandwidth, pushing the boundaries of what a desktop can do.”
-&lt;/div&gt;
-&lt;h2&gt;&lt;strong&gt;M6: Optimized Design and Enhanced Performance&lt;/strong&gt;
-&lt;/h2&gt;
-&lt;div&gt;Designed to power the workflows of everyday users, students, developers, AI hobbyists, and enterprises, M6 offers the ideal balance of performance, power efficiency, and on-device AI to effortlessly fly through daily tasks, coding, and creative projects.
-&lt;/div&gt;
-&lt;div&gt;M6 is built using cutting-edge 2 nm process technology, packing greater transistor density into a smaller die for a major leap in performance and power efficiency. M6 also introduces a Dual 16-core Neural Engine, providing up to 2x the peak compute over previous generations to make on-device AI workflows run even faster. System frameworks can automatically utilize both engines simultaneously, enabling applications to see faster model execution.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-08-25T22:22:39.419249+00:00</crawled>
-    </item>
-    <item>
-      <title>Apple’s new Mac mini, featuring M6 and M5 Pro, delivers a massive leap in AI performance, supercharging the leading desktop for always-on agentic computing</title>
-      <link>https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/</link>
-      <description>&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Apple today announced the new &lt;a href="https://www.apple.com/mac-mini/"&gt;Mac mini&lt;/a&gt; with the all-new M6 and powerful M5 Pro, delivering a dramatic boost in performance and even more versatility in its supersmall desktop design. With M6, Mac mini now delivers up to 4x faster AI performance,&lt;sup&gt;1&lt;/sup&gt; 2x faster storage&lt;sup&gt;2&lt;/sup&gt; and graphics,&lt;sup&gt;1&lt;/sup&gt; and 40 percent faster CPU performance.&lt;sup&gt;1&lt;/sup&gt; Everything on Mac mini with M6 feels incredibly fast, from everyday productivity tasks to agentic AI workflows. Mac mini with M5 Pro delivers even more pro-level performance to breeze through demanding projects, from video production to game development. And this new level of performance takes on business workflows with ease whether Mac mini is being used as a primary desktop or for always-on, deskside agentic computing. Both Mac mini models include Wi-Fi 7 and Bluetooth 6, as well as upgraded 2.5Gb Ethernet, with a 10Gb option available. Combined with the power of macOS 27 and the next generation of Apple Intelligence,&lt;sup&gt;3&lt;/sup&gt; including Siri AI,&lt;sup&gt;4&lt;/sup&gt; the new Mac mini is a tremendous upgrade for existing and new-to-Mac users. The new Mac mini is available for pre-order starting today, with availability beginning September 22.
-&lt;/div&gt;
-&lt;div&gt;“Mac mini has always been our most versatile Mac. Whether it’s being used as a home computer, powering a professional studio, or as an always-on agentic device, it’s the little Mac that can do it all,” said Johny Srouji, Apple’s chief hardware officer. “Today, we’re taking this versatility even further. With a more powerful CPU and graphics, Neural Accelerators in the GPU, and higher memory bandwidth, Mac mini with M6 delivers a whole new level of AI performance. And with up to an 18-core CPU and 20-core GPU, Mac mini with M5 Pro is an ultracompact powerhouse for complex pro workflows. We can’t wait to see all the incredible ways people will use it next.”
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-08-25T22:22:33.817587+00:00</crawled>
-    </item>
-    <item>
-      <title>Apple introduces new Mac Studio with M5 Max and M5 Ultra — the ultimate desktop for on‑device AI and the most extreme pro workflows</title>
-      <link>https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/</link>
-      <description>&lt;div&gt;
-&lt;div&gt;
-&lt;div&gt;&lt;span&gt;CUPERTINO, CALIFORNIA&lt;/span&gt; Apple today announced the new &lt;a href="https://www.apple.com/mac-studio/"&gt;Mac Studio&lt;/a&gt;, featuring M5 Max and the all-new M5 Ultra, delivering a monumental leap in AI performance and even faster graphics for the most demanding pro workflows, all in its signature compact design that lives right on a user’s desk. Now featuring up to 4.3x faster AI performance,&lt;sup&gt;1&lt;/sup&gt; up to 2x faster storage,&lt;sup&gt;2&lt;/sup&gt; up to 1.8x faster graphics,&lt;sup&gt;1&lt;/sup&gt; and up to 1.3x faster CPU speed,&lt;sup&gt;1&lt;/sup&gt; along with higher memory bandwidth, Mac Studio empowers creatives, developers, AI researchers, data scientists, and more to push the boundaries of what they can do. Mac Studio with M5 Max features an 18-core CPU, an up-to-40-core GPU with Neural Accelerators built into each core, and up to 128GB of unified memory, accelerating complex pro and AI workloads. With the powerful M5 Ultra, Mac Studio scales up to a 36-core CPU, up to an 80-core GPU, and a staggering 512GB of unified memory, enabling users to run enormous LLMs entirely on device. Wi-Fi 7 and Bluetooth 6 come to Mac Studio for the first time, while Thunderbolt 5 rounds out its extensive connectivity, so users can take advantage of blazing-fast external storage, PCIe expansion chassis, and powerful hub solutions for the most intense workloads. Thunderbolt 5 also enables multiple Mac Studio systems to be clustered, bringing up to 3x faster performance for distributed AI inference when compared to a single system.&lt;sup&gt;1&lt;/sup&gt; Together with Studio Display and Studio Display XDR, along with the power of macOS 27 and the next generation of Apple Intelligence,&lt;sup&gt;3&lt;/sup&gt; including Siri AI,&lt;sup&gt;4&lt;/sup&gt; it is the ultimate pro desktop. The new Mac Studio is available for pre-order starting today, with availability beginning September 22.
-&lt;/div&gt;
-&lt;div&gt;“Mac Studio is the ultimate desktop for on-device AI and the world’s most demanding pro workflows, relied on by users for its tremendous performance and extensive pro connectivity, all in a quiet, compact design that sits right on your desk — and today, we’re pushing the boundaries even further,” said Johny Srouji, Apple’s chief hardware officer. “With the powerful M5 Max and the incredible capabilities of M5 Ultra, Mac Studio ushers in a new era of desktop computing, delivering huge performance gains for pro workloads and AI inference with frontier-class models. By integrating Neural Accelerators directly into the GPU and offering massive amounts of high-bandwidth unified memory, the new Mac Studio is our most powerful Mac ever.”
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-08-25T22:22:28.197623+00:00</crawled>
     </item>
   </channel>
 </rss>
