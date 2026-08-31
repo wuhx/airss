@@ -608,12 +608,47 @@ function bindUI() {
   });
 }
 
+/* ---------- service worker ---------- */
+
+/* Pages serves everything with max-age=600 and that isn't ours to change, so
+   the service worker does the freshness work. updateViaCache 'none' keeps
+   sw.js itself out of that HTTP cache, and the worker messages us when a
+   revalidated core asset came back changed. The reload is the reader's call,
+   not ours — selection survives it through LS.sel / maybeRestore(). */
+function registerServiceWorker() {
+  if (!('serviceWorker' in navigator)) return;
+
+  const pill = $('update-pill');
+  if (!pill) return;
+  pill.addEventListener('click', () => location.reload());
+
+  const show = () => { pill.hidden = false; };
+  // Three ways in, covering the whole timeline: the inline listener in the head
+  // caught it before app.js loaded, it arrives while we're running, or the
+  // worker had already found it and is holding it for whoever says hello.
+  if (window.airssUpdateReady) show();
+  document.addEventListener('airss-update', show);
+  navigator.serviceWorker.addEventListener('message', ev => {
+    if (ev.data?.type === 'airss-update') show();
+  });
+
+  navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' })
+    .then(reg => {
+      navigator.serviceWorker.ready.then(() => {
+        navigator.serviceWorker.controller?.postMessage({ type: 'airss-hello' });
+      });
+      // A tab left open for days would otherwise only check on navigation.
+      document.addEventListener('visibilitychange', () => {
+        if (!document.hidden) reg.update().catch(() => {});
+      });
+    })
+    .catch(err => console.error('airss: sw error', err));
+}
+
 /* ---------- boot ---------- */
 
 async function boot() {
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js').catch(err => console.error('airss: sw error', err));
-  }
+  registerServiceWorker();
 
   renderSkeletons();
   bindUI();
