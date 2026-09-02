@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 06:46:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 00:33:15 +0000</lastBuildDate>
     <item>
       <title>Simulate real-world places with Project Genie and Street View</title>
       <link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/</link>
@@ -5590,6 +5590,406 @@ interaction = client.interactions.create(
       <guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <crawled>2026-08-29T03:48:36.033568+00:00</crawled>
+    </item>
+    <item>
+      <title>Introducing agentic video understanding with Gemini</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/</link>
+      <description>&lt;article&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;uni-breadcrumbs&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+
+&lt;!-- --&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/uni-breadcrumbs&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;h1&gt;Introducing agentic video understanding with Gemini&lt;/h1&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Sep 01, 2026&lt;/p&gt;
+&lt;span&gt;|&lt;/span&gt;
+&lt;uni-reading-time&gt;&lt;!-- --&gt;&lt;p&gt;&lt;!--?lit$368676699$--&gt;7 min read&lt;/p&gt;&lt;/uni-reading-time&gt;
+&lt;/div&gt;
+&lt;!-- Share Dropdown Menu --&gt;
+&lt;div&gt;
+&lt;uni-cta&gt;
+&lt;!-- --&gt;&lt;/uni-cta&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Introducing%20agentic%20video%20understanding%20with%20Gemini%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/"&gt;
+
+&lt;span&gt;x.com&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Introducing%20agentic%20video%20understanding%20with%20Gemini&amp;amp;u=https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/"&gt;
+
+&lt;span&gt;Facebook&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/&amp;amp;title=Introducing%20agentic%20video%20understanding%20with%20Gemini"&gt;
+
+&lt;span&gt;LinkedIn&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="mailto:?subject=Introducing%20agentic%20video%20understanding%20with%20Gemini&amp;amp;body=Check out this article on the Keyword:%0A%0AIntroducing%20agentic%20video%20understanding%20with%20Gemini%0A%0AWe’re launching agentic video understanding across our latest Gemini models for improved accuracy and lower costs and token usage.%0A%0Ahttps://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/"&gt;
+
+&lt;span&gt;Mail&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;div&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+                Our new agentic feature for video analysis cuts token consumption by up to 88%, reduces costs by up to 66%, and boosts quality by up to 7%.
+              &lt;/p&gt;
+&lt;/div&gt;
+&lt;hr/&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Rohan Doshi&lt;/p&gt;
+&lt;p&gt;Senior Product Manager, Google DeepMind&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Mario Lučić&lt;/p&gt;
+&lt;p&gt;Research Director, Google DeepMind&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;!-- Share Dropdown Menu --&gt;
+&lt;div&gt;
+&lt;uni-cta&gt;&lt;!-- --&gt;&lt;/uni-cta&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Introducing%20agentic%20video%20understanding%20with%20Gemini%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/"&gt;
+
+&lt;span&gt;x.com&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Introducing%20agentic%20video%20understanding%20with%20Gemini&amp;amp;u=https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/"&gt;
+
+&lt;span&gt;Facebook&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/&amp;amp;title=Introducing%20agentic%20video%20understanding%20with%20Gemini"&gt;
+
+&lt;span&gt;LinkedIn&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="mailto:?subject=Introducing%20agentic%20video%20understanding%20with%20Gemini&amp;amp;body=Check out this article on the Keyword:%0A%0AIntroducing%20agentic%20video%20understanding%20with%20Gemini%0A%0AWe’re launching agentic video understanding across our latest Gemini models for improved accuracy and lower costs and token usage.%0A%0Ahttps://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/"&gt;
+
+&lt;span&gt;Mail&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;div&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;img alt='Text "Agentic video understanding" next to the Gemini logo, all on a dark blue background' referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video___keyword__blog-hea.width-200.format-webp.webp"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;!-- Workaround for Safari: Safari fails to resolve linear gradients defined in external SVG sprites when referenced via &lt;use&gt;. Inlining them here makes them available in the DOM for the page. --&gt;
+
+&lt;div&gt;
+&lt;audio title="Introducing agentic video understanding with Gemini"&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_86108_umbriel_2026_09_01_17_44_39.mp3" type="audio/mpeg"/&gt;
+&lt;p&gt;Your browser does not support the audio element.&lt;/p&gt;
+&lt;/audio&gt;
+&lt;div&gt;
+&lt;div&gt;
+
+&lt;div&gt;
+&lt;span&gt;
+          Listen to article
+        &lt;/span&gt;
+&lt;div&gt;6:37 minutes&lt;/div&gt;
+&lt;span&gt;
+&lt;div&gt;This content is generated by Google AI. Generative AI is experimental&lt;/div&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;div&gt;
+&lt;span&gt;0:00&lt;/span&gt;
+&lt;div&gt;
+
+&lt;/div&gt;
+&lt;span&gt;6:37&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;div&gt;
+
+
+&lt;/div&gt;
+&lt;div&gt;
+
+&lt;/div&gt;
+&lt;div&gt;
+
+
+
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Google just launched agentic video understanding for Gemini 3.7 Flash, 3.6 Flash, and 3.5 Flash-Lite. This feature allows the model to dynamically scan video segments, which improves accuracy while cutting token usage by up to 88% and costs by up to 66%. You can start using this today by setting your API configuration to "agentic" in Google AI Studio or the Gemini Enterprise Agent Platform.&lt;/p&gt;
+&lt;/div&gt;
+&lt;small&gt;
+              Summaries were generated by Google AI. Generative AI is experimental.
+            &lt;/small&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;!--article text--&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;p&gt;Today, we’re launching &lt;a href="https://ai.google.dev/gemini-api/docs/video-understanding#agentic-video-understanding"&gt;agentic video understanding&lt;/a&gt; across our latest models: Gemini 3.7 Flash, 3.6 Flash and 3.5 Flash-Lite. This new capability improves accuracy while dramatically reducing token usage and costs for video analysis. Similar to &lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/"&gt;agentic vision&lt;/a&gt;, which combines code execution with Gemini models’ native image understanding, agentic video understanding uses Gemini’s native video tools to improve performance and unlock new capabilities for video processing like sub-second moment retrieval, more accurate anomaly detection, precise counting and more.&lt;/p&gt;&lt;p&gt;The feature is available today for video uploads and YouTube videos via the Gemini API in Google AI Studio and the Gemini Enterprise Agent Platform.&lt;/p&gt;&lt;h2&gt;Benchmarks&lt;/h2&gt;&lt;p&gt;Unlike current ‘static’ processing, where the model ingests the video at a fixed frames-per-second rate (default 1 FPS, adjustable via API), agentic video understanding pairs the model’s core reasoning with native video tools to dynamically search, scan, and inspect target video segments across visual frames, audio, and transcripts. Across standard video analysis benchmarks, Gemini models with agentic video understanding &lt;b&gt;reduce analysis costs by up to 66% and token consumption by up to 88%, while improving accuracy by up to 7%.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;These efficiency gains are especially pronounced on long-form video (from 10-minute how-to guides to 90-minute lectures and multi-hour recordings), where static processing forces developers to choose between high token costs or techniques that drop critical details.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-inline-image&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;a alt="Graphs analyzing token efficiency and accuracy gains" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video__evals.original.png"&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;img alt="Graphs analyzing token efficiency and accuracy gains" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video__evals.width-1200.format-webp.webp"/&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/a&gt; &lt;!--?lit$368676699$--&gt;&lt;figcaption&gt;&lt;uni-collapsable-caption&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;div&gt;&lt;p&gt;Activating agentic video understanding drops token consumption by up to 88% and boosts accuracy by up to 7% with Gemini 3.7 Flash.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;!--?lit$368676699$--&gt;&lt;!--?--&gt;&lt;/uni-collapsable-caption&gt;&lt;/figcaption&gt;&lt;/div&gt;&lt;/uni-inline-image&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;p&gt;While these gains span all three supported models, Gemini 3.7 Flash with agentic understanding offers the best possible quality overall and the best combination of quality and cost efficiency, putting it at the accuracy-to-cost pareto frontier among tested models for video understanding.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-inline-image&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;a alt='Graph with "Cost per query" on the x-axis and "Accuracy" on the y-axis' href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video__evals_table2.original.png"&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;img alt='Graph with "Cost per query" on the x-axis and "Accuracy" on the y-axis' referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video__evals_table2.width-1200.format-webp.webp"/&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/a&gt; &lt;!--?lit$368676699$--&gt;&lt;figcaption&gt;&lt;uni-collapsable-caption&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;div&gt;&lt;p&gt;Using agentic video understanding places Gemini 3.7 Flash at the accuracy-to-cost pareto frontier for video analysis.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;!--?lit$368676699$--&gt;&lt;!--?--&gt;&lt;/uni-collapsable-caption&gt;&lt;/figcaption&gt;&lt;/div&gt;&lt;/uni-inline-image&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;How it works&lt;/h2&gt;&lt;p&gt;Instead of static processing where the model ingests media streams at a fixed frame rate, agentic video understanding enables Gemini to take an active, goal-directed role in determining &lt;i&gt;what&lt;/i&gt; to watch, at &lt;i&gt;what&lt;/i&gt; speed, and through &lt;i&gt;which&lt;/i&gt; modality (frames, audio, or transcript), fetching only the moments and signals needed. While developers could previously do this manually, with agentic video understanding, Gemini can accomplish it through an agentic loop, invoking an internal tool to load the relevant part of the video file, significantly reducing development overheads.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-inline-image&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;img alt="Diagram of the process from Query to Output" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video__diagram.width-1200.format-webp.webp"/&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$368676699$--&gt;&lt;/div&gt;&lt;/uni-inline-image&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;Capabilities and use cases&lt;/h2&gt;&lt;p&gt;Agentic video understanding transforms how developers can process long-form video content across a variety of demanding applications.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Sub-second moment retrieval&lt;/b&gt;: Pinpoint split-second state changes and tight cut boundaries that are easily missed at 1 FPS, making precise automated video editing possible.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Long-form needle-in-a-haystack search&lt;/b&gt;: Answer complex queries across multi-hour videos without consuming millions of tokens.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Anomaly detection&lt;/b&gt;: Resample interesting time windows at higher FPS to inspect rapid motion and subtle visual artifacts.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Counting action &amp;amp; object&lt;/b&gt;: Accurately track repeated physical movements and distinct objects over time.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-media-carousel&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;uni-media-carousel-viewport&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt; &lt;!--?lit$368676699$--&gt;&lt;!--?lit$368676699$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/"&gt;&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/SxS_LVBench_with_end_card.mp4#t=0.001" type="video/mp4"/&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/SxS_LVBench_with_end_card.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;uni-collapsable-caption&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;p&gt;&lt;b&gt;&lt;i&gt;Token-efficient long-form video analysis&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;See how Gemini 3.7 Flash performs with and without agentic video understanding on LongVideoBench, a long-form video understanding benchmark. Notice the large token reductions and accuracy improvements.&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;!--?lit$368676699$--&gt;&lt;!--?--&gt;&lt;/uni-collapsable-caption&gt;&lt;/div&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt; &lt;!--?lit$368676699$--&gt;&lt;!--?lit$368676699$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/"&gt;&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/AgenticVideo_Jumping_Jacks_Final_1.mp4#t=0.001" type="video/mp4"/&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/AgenticVideo_Jumping_Jacks_Final_1.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;uni-collapsable-caption&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;p&gt;&lt;b&gt;&lt;i&gt;Accurate fast action analysis with dynamic FPS&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;With agentic video understanding, 3.7 Flash is able to accurately count a fast-paced movement by scanning and rewatching the video at different frames per second, as needed.&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;!--?lit$368676699$--&gt;&lt;!--?--&gt;&lt;/uni-collapsable-caption&gt;&lt;/div&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt; &lt;!--?lit$368676699$--&gt;&lt;!--?lit$368676699$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/"&gt;&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/KW_SxS-needle_Blog_V1.mp4#t=0.001" type="video/mp4"/&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/KW_SxS-needle_Blog_V1.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;uni-collapsable-caption&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;p&gt;&lt;b&gt;Token-efficient needle-in-a-haystack search&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Using agentic video understanding, Gemini 3.7 is able to accurately answer complex questions based on the content of the video while consuming a significantly lower number of tokens compared to static analysis.&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;!--?lit$368676699$--&gt;&lt;!--?--&gt;&lt;/uni-collapsable-caption&gt;&lt;/div&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media-carousel-viewport&gt; &lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;div&gt;
+&lt;uni-carousel-controls&gt;&lt;!-- --&gt;&lt;div&gt;&lt;div&gt; &lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-carousel-controls&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/uni-media-carousel&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;Real-world results&lt;/h2&gt;&lt;p&gt;Many of our early access partners saw strong performance while testing with agentic video understanding. Here’s what they have to say:&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-media-carousel&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;uni-media-carousel-viewport&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;img alt="Quote from Ponder" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video-understanding__test.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;!--?lit$368676699$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;img alt="Quote from Revyl" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video-understanding__test.width-100.format-webp_IH5FVna.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;!--?lit$368676699$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;img alt="Quote from Mosaic" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video-understanding__test.width-100.format-webp_JwIFAZ5.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;!--?lit$368676699$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;&lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;img alt="Quote from Resemble.AI" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video-understanding__test.width-100.format-webp_HHQ7484.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;!--?lit$368676699$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$368676699$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media-carousel-viewport&gt; &lt;!--?lit$368676699$--&gt;&lt;div&gt;
+&lt;div&gt;
+&lt;uni-carousel-controls&gt;&lt;!-- --&gt;&lt;div&gt;&lt;div&gt; &lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-carousel-controls&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/uni-media-carousel&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;Getting started&lt;/h2&gt;&lt;p&gt;Agentic video understanding is available via the Gemini API in &lt;a href="https://ai.google.dev/gemini-api/docs/video-understanding#agentic-video-understanding"&gt;Google AI Studio&lt;/a&gt; and &lt;a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/capabilities/video-understanding"&gt;Gemini Enterprise Agent Platform&lt;/a&gt;, launching across Gemini 3.7 Flash, 3.6 Flash, and 3.5 Flash-Lite. It uses standard Gemini API token pricing with no additional feature fee.&lt;/p&gt;&lt;p&gt;To enable it, simply set processing to "agentic" in the API configuration. Read our &lt;a href="http://ai.dev/learn/agentic-video-understanding-with-gemini"&gt;developer guide&lt;/a&gt; to get more insights into the feature and how to get started.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;section&gt;
+&lt;div&gt;
+
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;from&lt;/span&gt; google &lt;span&gt;import&lt;/span&gt; genai
+
+client = genai.Client()
+
+interaction = client.interactions.create(
+    model=&lt;span&gt;"gemini-3.7-flash"&lt;/span&gt;,
+    &lt;span&gt;input&lt;/span&gt;=[
+        {
+            &lt;span&gt;"type"&lt;/span&gt;: &lt;span&gt;"video"&lt;/span&gt;,
+            &lt;span&gt;"uri"&lt;/span&gt;: &lt;span&gt;"https://youtu.be/7Z5Vy9JBANs"&lt;/span&gt;,
+            &lt;span&gt;"processing"&lt;/span&gt;: &lt;span&gt;"agentic"&lt;/span&gt;
+        },
+        {
+            &lt;span&gt;"type"&lt;/span&gt;: &lt;span&gt;"text"&lt;/span&gt;,
+            &lt;span&gt;"text"&lt;/span&gt;: &lt;span&gt;"What are the 3 most important announcements in this keynote?"&lt;/span&gt;,
+        },
+    ],
+)
+
+&lt;span&gt;print&lt;/span&gt;(interaction.output_text)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;p&gt;We are also bringing the efficiency and quality improvements of agentic video understanding to billions of users across Google products. The feature will roll out to all users in the Gemini app across Flash and Flash-Lite models soon. And in the coming months, agentic video understanding will also power YouTube's ‘&lt;a href="https://support.google.com/youtube/answer/14110396?hl=en&amp;amp;co=GENIE.Platform%3DAndroid"&gt;Ask YouTube’&lt;/a&gt; feature on the video watch page, leveraging Gemini to deliver higher-quality answers grounded in the visuals.&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;i&gt;Acknowledgement for their contribution to this work:&lt;/i&gt;&lt;/b&gt; &lt;i&gt;Sergi Caelles, Filip Pavetić, Ahmet Iscen, Suhas Yogin, and the Agentic Vision team.&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;uni-portal&gt;&lt;/uni-portal&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;span&gt;Posted in:&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-09-02T00:19:00.326933+00:00</crawled>
     </item>
   </channel>
 </rss>
