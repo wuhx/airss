@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 06:25:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 00:41:59 +0000</lastBuildDate>
     <item>
       <title>lang-en</title>
       <link>https://news.microsoft.com/source/latam/features/ai/data-driven-farming-chile/?lang=en</link>
@@ -1537,6 +1537,138 @@ You can ask very basic questions like, “Who should I have in my team this week
       <guid isPermaLink="false">https://news.microsoft.com/signal/articles/how-to-build-an-ai-agent-guide/</guid>
       <pubDate>Mon, 10 Aug 2026 14:50:04 +0000</pubDate>
       <crawled>2026-08-10T22:32:09.318679+00:00</crawled>
+    </item>
+    <item>
+      <title>How Kier Group’s Louisa Finlay is using Copilot to drive safety and productivity in the construction industry</title>
+      <link>https://news.microsoft.com/source/emea/features/how-kier-groups-louisa-finlay-is-using-copilot-to-drive-safety-and-productivity-in-the-construction-industry/</link>
+      <description>&lt;article&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;!-- block-wysiwyg --&gt;
+&lt;section&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Two years ago, Kier Group plc decided to embrace AI – with a little help from work friends and peers.&lt;/p&gt;
+&lt;p&gt;Executives at the UK construction and infrastructure firm were excited by AI’s promise to boost productivity and enhance safety practices. But “some leaders were reticent because they were very busy and it is new technology,” says Louisa Finlay, chief operating officer of &lt;a href="https://www.kier.co.uk/"&gt;Kier&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;“I will happily be the one that asks the silly question,” she notes. “But if you are a senior leader, that can be quite worrying.”&lt;/p&gt;
+&lt;p&gt;To encourage experimentation, executives and colleagues were invited to a series of “prompt-a-thons,” where they were encouraged to test their knowledge against AI. One team was asked to answer questions on their own, while a second team was asked to answer the same questions using Microsoft’s &lt;a href="https://copilot.microsoft.com/"&gt;Copilot AI assistant&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Separately, Kier encouraged AI adoption via fun prompts posed to multiple influencers and leaders throughout the company. Participants asked Copilot to review their emails, meeting documents and collaborations over the past six months and then identify which character they’d be in one of their favorite films. Colleagues who chose to participate enabled Copilot to identify participants’ leadership strengths and blind spots – and receive advice  that would help them become more effective over the next 12 months.&lt;/p&gt;
+&lt;p&gt;“The engagement following that was amazing,” says Finlay. By conducting the training in small peer groups, the prompt-a-thon “allowed people to feel comfortable not being the cleverest person in the room, knowing it’s OK to ask questions and not know the answers.” Since then, she says, Copilot use has “taken off.”&lt;/p&gt;
+&lt;p&gt;Kier has roughly 11,000 employees and is based in Salford, England, not far from the northern industrial hub of Manchester. The company builds everything from schools to prisons and has a fast-growing infrastructure services division that builds and manages large-scale water and nuclear energy projects. About 40 percent of colleagues use &lt;a href="https://www.microsoft.com/en-gb/microsoft-365-copilot"&gt;Microsoft 365 Copilot&lt;/a&gt;; the rest have &lt;a href="https://www.microsoft.com/en-us/microsoft-teams/"&gt;Teams Premium&lt;/a&gt;, which adds advanced AI features to the Teams chat and meeting functions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- block title --&gt;
+&lt;section&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;h2&gt;
+&lt;split-text&gt;Using AI agents to support safety&lt;/split-text&gt;
+&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- block-wysiwyg --&gt;
+&lt;section&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Finlay uses Copilot within Outlook, Excel, Teams and PowerPoint. On any given day, she may ask Copilot to prioritize emails, conduct research or start the first draft of a job description. She also counts on Copilot for “joining the dots and giving you insights you wouldn’t get otherwise. It adds value to nearly everything I do day to day.” When not at work, she uses it to help plan travel itineraries and make up quizzes to entertain family and friends.&lt;/p&gt;
+&lt;p&gt;Kier is also in the “early stages” of developing a series of AI agents. One is being developed to help collect and organize safety data that can be analyzed to help humans overseeing the agent to address possible risk areas and other forward-looking actions. Another is being trained on Kier safety standards and links to photographs documenting job sites, equipment and supplies, as well as drone video Kier collects from its vast construction portfolio. Drones, says Finlay, reduce the need for people to work at height or interact with&lt;/p&gt;
+&lt;p&gt;“AI is supporting our people in their day-to-day activities, but we stress that they must be in control. We call it “Human at the Helm,” says Finlay.&lt;/p&gt;
+&lt;p&gt;IT is developing an AI agent that is designed to speed up response times while still allowing people to quickly speak directly to a human as needed. . Data is securely stored on Microsoft’s Azure cloud platform.&lt;/p&gt;
+&lt;p&gt;“We’re trying to make it easy for people to be productive and safe,” says Finlay.&lt;/p&gt;
+&lt;p&gt;Kier is also looking to deploy AI in its facilities management business, to help predict when complex building parts, such as pumps or elevators, might need servicing to help support continuity of operation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- block title --&gt;
+&lt;section&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;h2&gt;
+&lt;split-text&gt;Training colleagues to use AI with confidence &lt;/split-text&gt;
+&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- block-wysiwyg --&gt;
+&lt;section&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;While Finlay believes AI and robotics have huge potential to boost efficiency and productivity across the construction business, and make job sites safer, “we still need to bring on new graduates and apprentices” to learn the trade from the ground up and supervise more routine work that is increasingly being handled by AI.&lt;/p&gt;
+&lt;p&gt;Training colleagues throughout the company to be comfortable using AI is a top priority for Finlay.  She believes people learn more and enjoy small group peer learning sessions, such as prompt-a-thons, over webinars or other computer-based training sessions that individuals do on their own.&lt;/p&gt;
+&lt;p&gt;Next steps include sharing more colleague stories inside the company, so people can learn from each other in a “safe environment,” and responding to ideas submitted by employees about new ways to apply AI at work. Finlay was particularly gratified to receive an email from a site manager who happens to be dyslexic thanking her for rolling out AI and telling her using Copilot was “game changing” for him.&lt;/p&gt;
+&lt;p&gt;“With Copilot and AI, we want people to know this is about people solving their own problems. It’s not being done to them,” says Finlay.&lt;/p&gt;
+&lt;p&gt;“The biggest skill we can ask from everybody these days is curiosity and being willing to try new things,” she adds. “You know, ‘What is it? Can I try it?”&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- block stories --&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;h2&gt;
+			Read more		&lt;/h2&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;em&gt;Sally Beatty writes about AI and innovation at Microsoft, focusing on the company’s most cutting-edge breakthroughs and how emerging technologies are improving the lives of ordinary people. Previously, Sally was a feature reporter for the Wall Street Journal in New York, where she broke news about media and marketing. A California native, Sally lived in Hong Kong in the early 1990s, where she wrote for the Journal about the societal impact of economic and political reforms and consumer spending trends. You can contact Sally at &lt;a href="https://www.linkedin.com/in/sally-beatty-b9051226/" title="https://www.linkedin.com/in/sally-beatty-b9051226/"&gt;LinkedIn&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;article&gt;
+&lt;a href="https://news.microsoft.com/source/emea/features/fantasy-premier-league-companion-gives-managers-a-new-tool-for-success/"&gt;
+&lt;span&gt;
+&lt;img alt='"Portrait' referrerpolicy="no-referrer" src="https://news.microsoft.com/source/emea/wp-content/uploads/2026/07/Andy-Selby-FPL-companion.png"/&gt;
+&lt;/span&gt;
+&lt;/a&gt;
+&lt;h3&gt;
+&lt;a href="https://news.microsoft.com/source/emea/features/fantasy-premier-league-companion-gives-managers-a-new-tool-for-success/"&gt;
+								Fantasy Premier League Companion gives managers a new tool for success							&lt;/a&gt;
+&lt;/h3&gt;
+&lt;/article&gt;
+&lt;article&gt;
+&lt;a href="https://news.microsoft.com/source/emea/features/farming-is-risky-business-this-app-helps-turkish-growers-succeed/"&gt;
+&lt;span&gt;
+&lt;img alt='"A' referrerpolicy="no-referrer" src="https://news.microsoft.com/source/emea/wp-content/uploads/2026/06/microsoft-imecemobil-unsal-flowers.jpg"/&gt;
+&lt;/span&gt;
+&lt;/a&gt;
+&lt;h3&gt;
+&lt;a href="https://news.microsoft.com/source/emea/features/farming-is-risky-business-this-app-helps-turkish-growers-succeed/"&gt;
+								Farming is risky business. This app helps Turkish growers succeed							&lt;/a&gt;
+&lt;/h3&gt;
+&lt;/article&gt;
+&lt;article&gt;
+&lt;a href="https://news.microsoft.com/source/emea/features/zavarovalnica-triglav-copilot-adoption-insurance/"&gt;
+&lt;span&gt;
+&lt;img alt='"A' referrerpolicy="no-referrer" src="https://news.microsoft.com/source/emea/wp-content/uploads/2026/05/Klemen_Ramoves_Triglav_Microsoft_copilot.jpg"/&gt;
+&lt;/span&gt;
+&lt;/a&gt;
+&lt;h3&gt;
+&lt;a href="https://news.microsoft.com/source/emea/features/zavarovalnica-triglav-copilot-adoption-insurance/"&gt;
+								There is no Copilot without the pilots, says Slovenian insurance executive							&lt;/a&gt;
+&lt;/h3&gt;
+&lt;/article&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt; &lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;h4&gt;Tags: &lt;/h4&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://news.microsoft.com/source/emea/tag/ai/"&gt;AI&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt;&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://news.microsoft.com/source/emea/features/how-kier-groups-louisa-finlay-is-using-copilot-to-drive-safety-and-productivity-in-the-construction-industry/</guid>
+      <pubDate>Wed, 02 Sep 2026 08:00:07 +0000</pubDate>
+      <crawled>2026-09-03T00:21:34.509565+00:00</crawled>
     </item>
   </channel>
 </rss>

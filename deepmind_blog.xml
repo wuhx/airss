@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 06:25:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 00:42:00 +0000</lastBuildDate>
     <item>
       <title>Simulate real-world places with Project Genie and Street View</title>
       <link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/</link>
@@ -5990,6 +5990,679 @@ interaction = client.interactions.create(
       <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <crawled>2026-09-02T00:19:00.326933+00:00</crawled>
+    </item>
+    <item>
+      <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/</link>
+      <description>&lt;article&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;uni-breadcrumbs&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+
+&lt;!-- --&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/uni-breadcrumbs&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;h1&gt;Introducing Gemini 3.8 Flash and 3.8 Flash Cyber&lt;/h1&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Sep 02, 2026&lt;/p&gt;
+&lt;span&gt;|&lt;/span&gt;
+&lt;uni-reading-time&gt;&lt;!-- --&gt;&lt;p&gt;&lt;!--?lit$7874875927$--&gt;10 min read&lt;/p&gt;&lt;/uni-reading-time&gt;
+&lt;/div&gt;
+&lt;!-- Share Dropdown Menu --&gt;
+&lt;div&gt;
+&lt;uni-cta&gt;
+&lt;!-- --&gt;&lt;/uni-cta&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Introducing%20Gemini%203.8%20Flash%20and%203.8%20Flash%20Cyber%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"&gt;
+
+&lt;span&gt;x.com&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Introducing%20Gemini%203.8%20Flash%20and%203.8%20Flash%20Cyber&amp;amp;u=https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"&gt;
+
+&lt;span&gt;Facebook&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/&amp;amp;title=Introducing%20Gemini%203.8%20Flash%20and%203.8%20Flash%20Cyber"&gt;
+
+&lt;span&gt;LinkedIn&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="mailto:?subject=Introducing%20Gemini%203.8%20Flash%20and%203.8%20Flash%20Cyber&amp;amp;body=Check out this article on the Keyword:%0A%0AIntroducing%20Gemini%203.8%20Flash%20and%203.8%20Flash%20Cyber%0A%0AGemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity.%0A%0Ahttps://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"&gt;
+
+&lt;span&gt;Mail&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;div&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+                Our newest Gemini models deliver next-generation intelligence for agentic workflows and cybersecurity.
+              &lt;/p&gt;
+&lt;/div&gt;
+&lt;hr/&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;a href="https://blog.google/authors/tulsee-doshi/"&gt;
+&lt;p&gt;Tulsee Doshi&lt;/p&gt;
+&lt;p&gt;Senior Director, Product Management&lt;/p&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Raluca Ada Popa&lt;/p&gt;
+&lt;p&gt;Gemini Security Lead, Google DeepMind&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;!-- Share Dropdown Menu --&gt;
+&lt;div&gt;
+&lt;uni-cta&gt;&lt;!-- --&gt;&lt;/uni-cta&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Introducing%20Gemini%203.8%20Flash%20and%203.8%20Flash%20Cyber%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"&gt;
+
+&lt;span&gt;x.com&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Introducing%20Gemini%203.8%20Flash%20and%203.8%20Flash%20Cyber&amp;amp;u=https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"&gt;
+
+&lt;span&gt;Facebook&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/&amp;amp;title=Introducing%20Gemini%203.8%20Flash%20and%203.8%20Flash%20Cyber"&gt;
+
+&lt;span&gt;LinkedIn&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="mailto:?subject=Introducing%20Gemini%203.8%20Flash%20and%203.8%20Flash%20Cyber&amp;amp;body=Check out this article on the Keyword:%0A%0AIntroducing%20Gemini%203.8%20Flash%20and%203.8%20Flash%20Cyber%0A%0AGemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity.%0A%0Ahttps://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"&gt;
+
+&lt;span&gt;Mail&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;div&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;img alt='a hero image reading "Gemini 3.8 Flash and 3.8 Flash Cyber"' referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__1.width-200.format-webp.webp"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;!--article text--&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;p&gt;Building on the momentum of &lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"&gt;3.7 Flash&lt;/a&gt; from three weeks ago and marking our third Flash release in only six weeks, today we’re introducing Gemini 3.8, our best reasoning &amp;amp; coding model yet, at the same speed and low cost of 3.7. Gemini 3.8 introduces 2 variants:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Gemini 3.8 Flash:&lt;/b&gt; our most intelligent workhorse model, delivering significant improvements from 3.7 Flash across software engineering, agentic tasks, and critical, multi-step reasoning in specialized domains. It is available at the same introductory price 
+
+&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/#footnote-1"&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;
+ as 3.7 Flash at $0.75 per million input tokens and $3.75 per million output tokens.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Gemini 3.8 Flash Cyber:&lt;/b&gt; our most capable cybersecurity model with frontier-level performance in vulnerability detection and automated patching, available to trusted defenders through our new &lt;a href="https://deepmind.google/fairwind-program/"&gt;Fairwind Program&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;While tailored for different deployment environments, both of today's releases are powered by the same foundational intelligence, and further accelerated by long-running agentic loops designed to recursively evaluate and refine the underlying models. The significant coding and reasoning gains across this shared core were driven by a number of innovations, including rigorous training in the highly demanding domain of cybersecurity.&lt;/p&gt;&lt;h2&gt;Gemini 3.8 Flash: built for long-horizon coding and autonomous agents&lt;/h2&gt;&lt;p&gt;Gemini 3.8 Flash delivers substantial gains from 3.7 Flash, often approaching the performance of higher-cost frontier models.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-inline-image&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;a alt="comparison chart showing Gemini 3.8 Flash and other models" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-flash__evals__table_light_1.original.png"&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;img alt="comparison chart showing Gemini 3.8 Flash and other models" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-flash__evals__table_l.width-1200.format-webp_2pLdBp5.webp"/&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/a&gt; &lt;!--?lit$7874875927$--&gt;&lt;/div&gt;&lt;/uni-inline-image&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;p&gt;&lt;b&gt;On DeepSWE v1.1 (Long-Horizon Software Engineering&lt;/b&gt;) 3.8 Flash outperforms most larger frontier models in autonomously solving complex engineering problems end to end, only at a fraction of the cost.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-inline-image&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;a alt="chart showing Gemini 3.8 Flash DeepSWE v1.1" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__evals__deepswe-plot__light.original.png"&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;img alt="chart showing Gemini 3.8 Flash DeepSWE v1.1" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__evals__deepswe.width-1200.format-webp.webp"/&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/a&gt; &lt;!--?lit$7874875927$--&gt;&lt;/div&gt;&lt;/uni-inline-image&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;p&gt;Additionally, 3.8 Flash exhibits the dependability required for critical enterprise autonomy, across specialized knowledge domains&lt;b&gt;.&lt;/b&gt; In quantitative and professional fields that require advanced analysis and reporting, 3.8 Flash outperforms 3.7 Flash and other frontier models in benchmarks like &lt;a href="https://www.vals.ai/benchmarks/fabv2"&gt;Vals Finance Agent V2&lt;/a&gt; and &lt;a href="https://www.vals.ai/benchmarks/hlab"&gt;Harvey's Legal Agent Benchmark&lt;/a&gt;. 3.8 Flash also achieves a 54.9% on HLE-Verified, demonstrating its ability to handle multi-step reasoning across STEM, humanities, and professional fields.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-media-carousel&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-media-carousel-viewport&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;img alt="chart showing Gemini 3.8 Flash Vals Finance Agent v2" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-flash_evals_vals-finan.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;img alt="a chart showing Gemini 3.8 Flash Harvey's Legal Agent Benchmark" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-flash_evals_harveys-le.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;img alt="a chart showing Gemini 3.8 Flash HLE-Verified" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-flash_evals_HLE_light.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media-carousel-viewport&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;div&gt;
+&lt;uni-carousel-controls&gt;&lt;!-- --&gt;&lt;div&gt;&lt;div&gt; &lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-carousel-controls&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/uni-media-carousel&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;p&gt;These performance gains stem from a core design choice: 3.8 Flash works harder. On complex tasks, it exhibits greater diligence — executing extra reasoning steps, and calling tools iteratively. At times, the model might use more tokens to maximize performance, especially at higher effort levels.&lt;/p&gt;&lt;p&gt;For applications where compute efficiency is the primary constraint, developers can utilize lower effort levels to minimize token overhead or continue to rely on Gemini 3.7 Flash, which remains fully supported for efficiency-first workloads.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-media-carousel&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-media-carousel-viewport&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"&gt;&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Chronomancers_Blog_noVO_V1.mp4#t=0.001" type="video/mp4"/&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Chronomancers_Blog_noVO_V1.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$7874875927$--&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;uni-collapsable-caption&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;p&gt;Gemini 3.8 Flash built this game with a simple prompt using a looping instruction in Google Antigravity. The game uses puzzles, environmental storytelling, and textures generated with Nano Banana to create an immersive 3D level in which you play a wizard navigating a castle.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/uni-collapsable-caption&gt;&lt;/div&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"&gt;&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/DOSmaps_Blog_V3.mp4#t=0.001" type="video/mp4"/&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/DOSmaps_Blog_V3.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$7874875927$--&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;uni-collapsable-caption&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;p&gt;Gemini 3.8 Flash builds a fully functional DOS version of Google Maps in a single prompt in Google Antigravity that is fully playable with locations, directions, and Street View.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/uni-collapsable-caption&gt;&lt;/div&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"&gt;&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Google_Gemini_Topo_Map_16x9_v04.mp4#t=0.001" type="video/mp4"/&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Google_Gemini_Topo_Map_16x9_v04.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$7874875927$--&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;uni-collapsable-caption&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;p&gt;Explore realtime cross-sections, 2D projections, scientific explanations in a topographic map of famous geographical sites built with Gemini 3.8 Flash in Google Antigravity using real datasets from the U.S. Geological Survey.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/uni-collapsable-caption&gt;&lt;/div&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"&gt;&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/HardwareAnatomy_Blog_V1.mp4#t=0.001" type="video/mp4"/&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/HardwareAnatomy_Blog_V1.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$7874875927$--&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;uni-collapsable-caption&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;p&gt;Hardware Anatomy is an interactive 3D visualizer built with Gemini 3.8 Flash in Google AI Studio that generates realistic Three.js renderings of physically-proportioned teardowns for hardware devices. It automatically decomposes devices into layers you can explode and inspect with a deconstruction slider.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/uni-collapsable-caption&gt;&lt;/div&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media-carousel-viewport&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;div&gt;
+&lt;uni-carousel-controls&gt;&lt;!-- --&gt;&lt;div&gt;&lt;div&gt; &lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-carousel-controls&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/uni-media-carousel&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;Gemini 3.8 Flash Cyber: expert cyber performance&lt;/h2&gt;&lt;p&gt;Gemini 3.8 Flash Cyber, available to a set of trusted defenders via the &lt;a href="https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program"&gt;Fairwind Program&lt;/a&gt;, provides a decisive advantage in today’s complex cybersecurity landscape, with the Flash speed and cost that enables quick iteration.&lt;/p&gt;&lt;h3&gt;Autonomous vulnerability discovery&lt;/h3&gt;&lt;p&gt;On the standard industry benchmark for finding vulnerabilities, CyberGym, Gemini 3.8 Flash Cyber demonstrates frontier-level performance in autonomous vulnerability discovery. It surpasses both 3.5 Flash Cyber as well as significantly larger frontier models.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-inline-image&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;a alt="a chart showing Gemini 3.8 Flash Cyber CyberGym Pass@1" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-cyber__evals__cybergym_light.original.png"&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;img alt="a chart showing Gemini 3.8 Flash Cyber CyberGym Pass@1" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-cyber__evals__cybergy.width-1200.format-webp.webp"/&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/a&gt; &lt;!--?lit$7874875927$--&gt;&lt;/div&gt;&lt;/uni-inline-image&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;p&gt;To better capture real-world defensive needs which are not limited to just C/C++ codebases like in CyberGym, we also evaluated Gemini 3.8 Flash Cyber against a comprehensive internal benchmark in which the model has to discover a wide range of vulnerabilities across complex codebases spanning 20 programming languages. Here, the model showcases an impressive leap over our previous models and reaches a success rate exceeding 70%.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-inline-image&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;a alt="Chart showing Gemini 3.8 Flash Cyber real world vulnerability discovery" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-cyber__evals__rw-vulnerability_light.original.png"&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;img alt="Chart showing Gemini 3.8 Flash Cyber real world vulnerability discovery" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-cyber__evals__rw-vuln.width-1200.format-webp.webp"/&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/a&gt; &lt;!--?lit$7874875927$--&gt;&lt;/div&gt;&lt;/uni-inline-image&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h3&gt;Automated patching&lt;/h3&gt;&lt;p&gt;With Gemini 3.8 Flash Cyber, we focused specifically on equipping defenders with expert capabilities that give them an advantage over attackers. This is why we have invested in vulnerability fixing from the start, and prioritized it over offensive capabilities like exploitation.&lt;/p&gt;&lt;p&gt;&lt;a href="https://cwe-bench.com/#leaderboard"&gt;CWE-Bench&lt;/a&gt;, run by Collinear, is a challenging external benchmark for patching capabilities. On this benchmark, Gemini 3.8 Flash Cyber is on the Pareto frontier: with a pass@1 of 47.2% compared to a leading frontier model at 47.8%, yet offered at a significantly lower cost.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-inline-image&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;a alt="Chart showing Gemini 3.8 Flash Cyber StaticBench Pass@1 vs Cost Per Rollout" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-cyber__evals__cwe-bench_light.original.png"&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;img alt="Chart showing Gemini 3.8 Flash Cyber StaticBench Pass@1 vs Cost Per Rollout" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-cyber__evals__cwe-ben.width-1200.format-webp.webp"/&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/a&gt; &lt;!--?lit$7874875927$--&gt;&lt;/div&gt;&lt;/uni-inline-image&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h3&gt;Real-world impact: securing Google’s code&lt;/h3&gt;&lt;p&gt;We’re already using Gemini 3.8 Flash Cyber to secure code across Google. For example:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The Chrome Security team found that 3.8 Flash Cyber produced 2.6 times more correct patches to vulnerabilities in Chrome than the best commercial models that are much larger.&lt;/li&gt;&lt;li&gt;Wiz found that Gemini 3.8 Flash Cyber achieves +7.5-9.7% higher recall on their internal penetration testing benchmark for a 2.3-5.2x lower cost compared to other leading frontier models.&lt;/li&gt;&lt;li&gt;Google’s Cloud Vulnerability Research team leveraged the 3.8 Flash Cyber model to find a critical foundational vulnerability in less than 2 hours, a vulnerability for which research and discovery usually takes months.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;What our Fairwind Program partners are saying&lt;/h2&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-media-carousel&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-media-carousel-viewport&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;img alt="quote from David Slater, Founder and Chief Architect, Armadin" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__testimonial__ar.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;img alt="quote from Charlie Sestito, Director, Office of the CTO, Palo Alto Networks" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__testimonial__pa.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;img alt="quote from Mayank Upadhyay, CSTO, Snowflake" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__testimonial__sn.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;img alt="quote from Gal Nagli, Head of Threat Exposure, Wiz" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__testimonial__wi.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media-carousel-viewport&gt; &lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;div&gt;
+&lt;uni-carousel-controls&gt;&lt;!-- --&gt;&lt;div&gt;&lt;div&gt; &lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-carousel-controls&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/uni-media-carousel&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-inline-image&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;!--?lit$7874875927$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"&gt;&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Gemini_3.8_Flash_Cyber_Launch_32Mb_hWy2GEU.mp4#t=0.001" type="video/mp4"/&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Gemini_3.8_Flash_Cyber_Launch_32Mb_hWy2GEU.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?lit$7874875927$--&gt;&lt;!--?lit$7874875927$--&gt;&lt;!--?--&gt;&lt;!--?--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$7874875927$--&gt;&lt;/div&gt;&lt;/uni-inline-image&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;Built with safety in mind&lt;/h2&gt;&lt;p&gt;3.8 Flash ships with safeguards against misuse in the domains of Chemical, Biological, Radiological, and Nuclear (CBRN) and cyber offense, while enabling beneficial use cases, as per our &lt;a href="https://deepmind.google/blog/strengthening-our-frontier-safety-framework/"&gt;Frontier Safety Framework&lt;/a&gt;. 3.8 Flash Cyber ships with a more permissive set of mitigations for cybersecurity, and as such, is only available to trusted defenders who require a more comprehensive set of cyber capabilities.&lt;/p&gt;&lt;p&gt;Gemini 3.8 models have also made a significant leap in prompt injection robustness as measured by Gray Swan, protecting Gemini model users from prompt-injection related malicious attacks.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-inline-image&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;a alt="a chart showing Gemini 3.8 Flash Cyber Gray Swan IPI Benchmark" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-flash_evals_attack__light.original.png"&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;&lt;!--?lit$7874875927$--&gt;&lt;div&gt;
+&lt;img alt="a chart showing Gemini 3.8 Flash Cyber Gray Swan IPI Benchmark" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-flash_evals_attack__l.width-1200.format-webp.webp"/&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/a&gt; &lt;!--?lit$7874875927$--&gt;&lt;/div&gt;&lt;/uni-inline-image&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;Gemini 3.8 Flash and Cyber: get started today&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Developers&lt;/b&gt;: Build with 3.8 Flash and explore agent-first workflows in &lt;a href="https://antigravity.google/"&gt;Google Antigravity&lt;/a&gt; or start building today in the Gemini API via &lt;a href="https://aistudio.google.com/prompts/new_chat?model=gemini-3.8-flash"&gt;Google AI Studio&lt;/a&gt; and &lt;a href="https://developer.android.com/studio"&gt;Android Studio&lt;/a&gt;, or generate UIs in &lt;a href="http://stitch.withgoogle.com/"&gt;Stitch&lt;/a&gt;. Get started with our &lt;a href="https://ai.google.dev/gemini-api/docs/latest-model"&gt;developer docs&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Enterprises&lt;/b&gt;: Access 3.8 Flash in &lt;a href="https://console.cloud.google.com/agent-platform/studio/multimodal?mode=prompt&amp;amp;model=gemini-3.8-flash"&gt;Gemini Enterprise.&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Consumers&lt;/b&gt;: 3.8 Flash is available to Google AI Pro and Ultra subscribers across the &lt;a href="http://gemini.google.com/"&gt;Gemini app&lt;/a&gt;, &lt;a href="http://google.com/ai"&gt;AI Mode&lt;/a&gt; in Google Search and Gemini in &lt;a href="http://sheets.new/"&gt;Google Sheets&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Cyber:&lt;/b&gt; Through our new &lt;a href="https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program"&gt;Fairwind Program&lt;/a&gt;, we’re providing trusted government authorities, as well as critical infrastructure operators and software maintainers with prioritized access to Gemini 3.8 Flash Cyber. &lt;a href="https://deepmind.google/fairwind-program/"&gt;Apply for access&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;span&gt;Posted in:&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-09-03T00:21:04.660238+00:00</crawled>
+    </item>
+    <item>
+      <title>Proactive cyber defense for governments and enterprises</title>
+      <link>https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/</link>
+      <description>&lt;article&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;uni-breadcrumbs&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+
+&lt;!-- --&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/uni-breadcrumbs&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;h1&gt;Proactive cyber defense for governments and enterprises&lt;/h1&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Sep 02, 2026&lt;/p&gt;
+&lt;span&gt;|&lt;/span&gt;
+&lt;uni-reading-time&gt;&lt;!-- --&gt;&lt;p&gt;&lt;!--?lit$9543684229$--&gt;5 min read&lt;/p&gt;&lt;/uni-reading-time&gt;
+&lt;/div&gt;
+&lt;!-- Share Dropdown Menu --&gt;
+&lt;div&gt;
+&lt;uni-cta&gt;
+&lt;!-- --&gt;&lt;/uni-cta&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Proactive%20cyber%20defense%20for%20governments%20and%20enterprises%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/"&gt;
+
+&lt;span&gt;x.com&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Proactive%20cyber%20defense%20for%20governments%20and%20enterprises&amp;amp;u=https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/"&gt;
+
+&lt;span&gt;Facebook&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/&amp;amp;title=Proactive%20cyber%20defense%20for%20governments%20and%20enterprises"&gt;
+
+&lt;span&gt;LinkedIn&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="mailto:?subject=Proactive%20cyber%20defense%20for%20governments%20and%20enterprises&amp;amp;body=Check out this article on the Keyword:%0A%0AProactive%20cyber%20defense%20for%20governments%20and%20enterprises%0A%0AThe Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.%0A%0Ahttps://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/"&gt;
+
+&lt;span&gt;Mail&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;div&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+                Today, we’re launching our Fairwind Program, a limited access program for governments and trusted partners to use our most advanced cyber defense capabilities.
+              &lt;/p&gt;
+&lt;/div&gt;
+&lt;hr/&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Four Flynn&lt;/p&gt;
+&lt;p&gt;Vice President - Security and Privacy&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;!-- Share Dropdown Menu --&gt;
+&lt;div&gt;
+&lt;uni-cta&gt;&lt;!-- --&gt;&lt;/uni-cta&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Proactive%20cyber%20defense%20for%20governments%20and%20enterprises%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/"&gt;
+
+&lt;span&gt;x.com&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Proactive%20cyber%20defense%20for%20governments%20and%20enterprises&amp;amp;u=https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/"&gt;
+
+&lt;span&gt;Facebook&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/&amp;amp;title=Proactive%20cyber%20defense%20for%20governments%20and%20enterprises"&gt;
+
+&lt;span&gt;LinkedIn&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="mailto:?subject=Proactive%20cyber%20defense%20for%20governments%20and%20enterprises&amp;amp;body=Check out this article on the Keyword:%0A%0AProactive%20cyber%20defense%20for%20governments%20and%20enterprises%0A%0AThe Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.%0A%0Ahttps://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/"&gt;
+
+&lt;span&gt;Mail&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;div&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;img alt="Introducing Fairwind Program" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__blo.width-200.format-webp.webp"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;!-- Workaround for Safari: Safari fails to resolve linear gradients defined in external SVG sprites when referenced via &lt;use&gt;. Inlining them here makes them available in the DOM for the page. --&gt;
+
+&lt;div&gt;
+&lt;audio title="Proactive cyber defense for governments and enterprises"&gt;
+&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_86130_umbriel_2026_09_02_20_40_39.mp3" type="audio/mpeg"/&gt;
+&lt;p&gt;Your browser does not support the audio element.&lt;/p&gt;
+&lt;/audio&gt;
+&lt;div&gt;
+&lt;div&gt;
+
+&lt;div&gt;
+&lt;span&gt;
+          Listen to article
+        &lt;/span&gt;
+&lt;div&gt;5:24 minutes&lt;/div&gt;
+&lt;span&gt;
+&lt;div&gt;This content is generated by Google AI. Generative AI is experimental&lt;/div&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;div&gt;
+&lt;span&gt;0:00&lt;/span&gt;
+&lt;div&gt;
+
+&lt;/div&gt;
+&lt;span&gt;5:24&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;div&gt;
+
+
+&lt;/div&gt;
+&lt;div&gt;
+
+&lt;/div&gt;
+&lt;div&gt;
+
+
+
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;!--article text--&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;p&gt;Defenders wanting to use advanced AI have faced a difficult dilemma: adopt enormous frontier models that could be expensive to deploy and difficult to control across enterprise codebases, or turn to smaller open-weight models that might struggle with complex vulnerability remediation and require teams to build their own tooling and infrastructure from scratch. Until now.&lt;/p&gt;&lt;p&gt;Today, we’re launching our &lt;a href="https://deepmind.google/fairwind-program/"&gt;Fairwind Program&lt;/a&gt; to bring the best of Google’s AI and cyber defense capabilities to a trusted group of Google Cloud customers, government agencies, and cybersecurity partners, to help them proactively solve cyber risks at scale. As a first step, the Fairwind Program will give defenders access to powerful and advanced Gemini models to help them autonomously find and fix vulnerabilities, protecting critical infrastructure, public services, and national security.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;Finding and autonomously fixing vulnerabilities&lt;/h2&gt;&lt;p&gt;The Fairwind Program offerings bring together our most advanced cyber model, &lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"&gt;Gemini 3.8 Flash Cyber&lt;/a&gt;, with our &lt;a href="https://cloud.google.com/security/codemender"&gt;CodeMender&lt;/a&gt; harness, to help defenders find, verify, and fix vulnerabilities at agentic scale. Spotting weaknesses creates awareness and fear; autonomously finding and fixing vulnerabilities delivers security.&lt;/p&gt;&lt;p&gt;CodeMender with Gemini 3.8 Flash Cyber delivers the specialized reasoning to write and validate code fixes, at a fraction of the operating cost of traditional frontier models. Instead of taking weeks to manually fix vulnerabilities, defenders can now generate verified, deployment-ready patches in minutes — within an organization’s secure cloud environment.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;Scaling frontline defense&lt;/h2&gt;&lt;p&gt;Providing early access to these powerful cyber capabilities gives trusted defenders a vital adaptation window to harden their systems before bad actors have a chance to exploit new capabilities. We’re staging initial access to government and enterprise partners most critical to society’s resilience:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Governments and national cyber authorities:&lt;/b&gt; Hardening public-sector networks and citizen services against targeted intrusions.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Critical infrastructure operators:&lt;/b&gt; Protecting essential services across healthcare, telecommunications, energy, and financial networks from operational disruption.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Core technology platforms:&lt;/b&gt; Securing widespread software foundations to uplift digital security for millions of downstream users at once.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;To ensure these powerful AI capabilities are used responsibly, participating organizations agree to strict operational standards, including limiting access to employees within their internal cybersecurity, incident response, or penetration testing teams and deploying protections like multi-factor authentication.&lt;/p&gt;&lt;p&gt;We have more than 650 participating partners globally, including:&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-inline-image&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;
+&lt;img alt="Logos of partner companies working with the Fairwind program" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Logo_Update.width-1200.format-webp.webp"/&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$9543684229$--&gt;&lt;/div&gt;&lt;/uni-inline-image&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;What our Fairwind Program partners are saying&lt;/h2&gt;&lt;p&gt;Trusted defenders and industry leaders are already putting Gemini 3.8 Flash Cyber into practice:&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-media-carousel&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;uni-media-carousel-viewport&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$9543684229$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;
+&lt;img alt="Armadin testimonial" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__testimonial__ar.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$9543684229$--&gt;&lt;!--?lit$9543684229$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$9543684229$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$9543684229$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;
+&lt;img alt="Crowdstrike testimonial" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__testimonial__cr.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$9543684229$--&gt;&lt;!--?lit$9543684229$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$9543684229$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$9543684229$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;
+&lt;img alt="Testimonial quote from Palo Alto" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__testimonial__pa.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$9543684229$--&gt;&lt;!--?lit$9543684229$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$9543684229$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$9543684229$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;
+&lt;img alt="Snowflake testimonial" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__testimonial__sn.width-100.format-webp.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$9543684229$--&gt;&lt;!--?lit$9543684229$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$9543684229$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;uni-media-carousel-slide&gt;
+&lt;!-- --&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;/div&gt; &lt;!--?lit$9543684229$--&gt;&lt;div&gt;
+&lt;uni-media&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;&lt;!--?lit$9543684229$--&gt;&lt;div&gt;
+&lt;img alt="Wiz testimonial" referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__testimonial__wi.width-100.format-webp_lOCPWmx.webp"/&gt;
+&lt;/div&gt; &lt;!--?lit$9543684229$--&gt;&lt;!--?lit$9543684229$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;!--?lit$9543684229$--&gt;&lt;!--?--&gt;&lt;/uni-media-carousel-slide&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-media-carousel-viewport&gt; &lt;!--?lit$9543684229$--&gt;&lt;div&gt;
+&lt;div&gt;
+&lt;uni-carousel-controls&gt;&lt;!-- --&gt;&lt;div&gt;&lt;div&gt; &lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-carousel-controls&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/uni-media-carousel&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;p&gt;The Fairwind Program will evolve alongside our partners and users' needs. We will adapt our product offerings and expand partner access, collaborating closely with industry, governments, and open-weight community leaders to strike the right balance between open access and robust security.&lt;/p&gt;&lt;p&gt;While we are prioritizing Gemini 3.8 Flash Cyber access for customers in the Fairwind Program, any Google Cloud customer can proactively secure their code by using CodeMender with publicly available models hosted on Gemini Enterprise Agent Platform, in combination with industry-leading solutions offered through &lt;a href="https://cloud.google.com/security/ai-threat-defense"&gt;AI Threat Defense&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;Making an ecosystem-scale impact on cyber defense&lt;/h2&gt;&lt;p&gt;Years of Google’s pioneering zero-trust architecture, advanced AI defenses, and built-in security allow us to protect billions of accounts daily – keeping more people and organizations safe online than anyone else. The Fairwind Program builds on this experience and is part of our broader commitment to global cyber resilience across the entire digital ecosystem, including helping to fortify grassroots cyber defense.&lt;/p&gt;&lt;p&gt;Through &lt;a href="http://google.org/"&gt;Google.org&lt;/a&gt;, our latest commitment brings our total cybersecurity funding to more than $100 million globally. We’re pleased to release our 2026 Google.org &lt;a href="https://www.gstatic.com/marketing-cms/32/93/3027b8ef4bb59ade9a019c9ff03a/google-org-cybersecurity-clinics-impact-report-2026.pdf"&gt;US Cybersecurity Impact Report&lt;/a&gt;, which details $36 million in funding for 35 cyber clinics to date, providing free, hands-on security support to over 1,250 hospitals, public school districts, and municipal utilities in the U.S.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;Providing a security advantage&lt;/h2&gt;&lt;p&gt;The defender’s edge comes from shrinking the time between detecting a flaw and patching it. Through Google’s Fairwind Program, government and enterprise partners gain autonomous tools to repair systems faster and at scale, keeping them one step ahead of agentic-speed threats.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;span&gt;Posted in:&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-09-03T00:21:09.850897+00:00</crawled>
     </item>
   </channel>
 </rss>
