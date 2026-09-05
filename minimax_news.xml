@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Sep 2026 06:32:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 00:24:06 +0000</lastBuildDate>
     <item>
       <title>MiniMax M2.5: 更快更强更智能，为真实世界生产力而生</title>
       <link>https://www.minimaxi.com/news/minimax-m25</link>
@@ -113,6 +113,14 @@ MiniMax 内部已率先受益于 M2.5 的模型能力。&lt;strong&gt;在 MiniMa
       <crawled>2026-07-07T16:47:56.864046+00:00</crawled>
     </item>
     <item>
+      <title>沐曦股份曦云C系列GPU Day 0 适配 MiniMax M3，国产算力支撑前沿Coding与Agentic能力</title>
+      <link>https://www.minimaxi.com/news/m3-day0-suczi21nrg</link>
+      <description>&lt;article&gt;&lt;div&gt;&lt;p&gt;6月12日，MiniMax正式开源新一代原生多模态旗舰模型M3。沐曦股份曦云C系列GPU凭借全栈自研的软硬一体技术优势，完成对M3的Day 0深度适配，成为率先支持该模型的国产算力平台，持续领跑国产GPU极速适配赛道。&lt;/p&gt;&lt;p&gt;这是近期继M2.5、M2.7之后，曦云C系列又一次对MiniMax旗舰大模型实现极速适配。此次Day 0适配的快速实现，持续源于沐曦股份"自研GPU硬件+MXMACA全栈软件"的软硬一体核心优势。&lt;/p&gt;&lt;p&gt;曦云C系列GPU基于沐曦自主核心GPU IP打造，具备高能效比与高通用性，精准匹配大模型的超大规模参数处理及长上下文推理需求。MXMACA软件栈作为连接硬件算力与上层应用生态的核心枢纽，全链路覆盖底层驱动、用户态接口、MXCC编译器、算子深度适配及主流训练/推理框架对接，原生兼容 PyTorch、TensorFlow、vLLM与SGLang等 40 余种主流 AI 框架，支持 500+ AI 模型稳定运行，大幅缩短传统模型适配周期。曦云C系列GPU依托沐曦自研MXMACA软件栈的深度优化能力，成功实现M3的高效部署与稳定运行，为其前沿能力提供澎湃算力支撑。&lt;/p&gt;&lt;p&gt;在国产GPU Day 0适配赛道，沐曦股份持续保持行业领先地位。截至目前，沐曦已累计完成Day 0适配模型达26个，全面覆盖MiniMax、智谱、阿里千问、阶跃星辰、百度、DeepSeek等国内头部厂商的最新旗舰模型，品类涵盖语言、多模态、OCR、文生图、3D生成等全领域，构建起"模型发布—芯片适配—产业落地"的高效闭环。&lt;/p&gt;&lt;h3&gt;关于MiniMax新一代原生多模态旗舰模型M3&lt;/h3&gt;&lt;p&gt;MiniMax M3 在编程和智能体等专业任务上达到了前沿的能力。它使用了全新注意力架构 MSA （MiniMax Sparse Attention），最高支持 1M 超长上下文。它也是一个原生多模态模型，支持图片和视频的输入，并能操作电脑桌面。这三种能力是海外闭源前沿模型所必须拥有的。M3 是国内第一个齐备这些要素的模型，也是目前唯一的开源模型。&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://filecdn.minimax.chat/public/code=NGJmNmE3ZjMzMzMzNGZmMzNkNDg3NWY5ZDExMDA2N2ZfNUlxWUQwYTBYSGFRMk4xRDhtRkk4R0JpaVZNRTJ1WmxfVG9rZW46V1VXcGJXTlBzb2ZybHd4eXRwd2NaemxDbkhkXzE3ODE1ODQ4MjQ6MTc4MTU4ODQyNF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781584839670"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;在 Artificial Analysis 综合智能指数排行榜上，M3 取得了全球开源模型的最高排名。&lt;/p&gt;&lt;h3&gt;MSA：结构创新带来 Context Scaling&lt;/h3&gt;&lt;p&gt;MSA 是一个简洁且易于扩展的全新稀疏注意力架构，让 context 真正成为又一个可被 scale 的维度。稀疏注意力机制普遍通过增加一个初筛阶段来避免复杂度爆炸问题。与 DSA 和 MoBA 等方案相比，MSA 可以更精确为 KV 分块，实现更高的有效上下文覆盖。&lt;/p&gt;&lt;p&gt;同时，MiniMax团队还在算子层直接优化，采用以 KV 块为外层来聚合命中 query 的 KV outer gather Q。每块只读一次、访存连续，在 M3 的 head 配比下计算访存比显著优于通行方法，比开源的 Flash-Sparse-Attention、FlashMoBA 快 4 倍以上。&lt;/p&gt;&lt;p&gt;简洁可扩展、易于实现且硬件友好的特点，使它的理论收益能真正落地：在 100 万上下文下，M3 每 token 计算量仅为上代模型的 1/20。在 prefilling 阶段，MiniMax团队实现了超过 9 倍的加速倍率，在 decoding 阶段有超过 15 倍的加速优势。而且在多个对照实验中，MSA 的绝大部分能力与全注意力打平。&lt;/p&gt;&lt;h3&gt;前沿的Coding和Agentic能力&lt;/h3&gt;&lt;p&gt;Coding 与 Agent 能力是 M3 重点提升之处，在涵盖软件工程、终端执行等多个维度的国际权威评测中，M3 均达到国际领先水平：&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://filecdn.minimax.chat/public/code=Y2ZhZGMzMDgxZDc1ZjNhMjY1NGUxN2I5Y2VmYTMyYTdfTm9xck5HclVpNFRRM0VYNkw1MHJPaFVBVDBoZEU2YWhfVG9rZW46UFRxSWJEM0Y5bzlXMkl4dXZ1ZGN1T3N1bk5mXzE3ODE1ODQ4MjQ6MTc4MTU4ODQyNF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781584838830"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;下一代 Agent Coding 比的不仅是代码生成，更要比拼长期协作能力、规划能力以及人与 Agent 的协同效率。M3 把真正对 Coding 和 Agent 至关重要的数据 Scale up，目标不仅是在 Benchmark 上取得领先，更是在真实研发流程中成为开发者可靠的协作伙伴。&lt;/p&gt;&lt;h3&gt;多模态：原生训练，继续 Scale&lt;/h3&gt;&lt;p&gt;M3 是一个从 Step 0 开始进行多模态混合训练的模型。这种原生多模态的路线能让不同模态数据的语义空间更天然、更高度的融合。&lt;/p&gt;&lt;p&gt;同时，在数据配比和构成上，MiniMax团队的大量实验显示，Interleaved data（交错数据）对模型性能带来的提升，比一般认为的更加关键。&lt;/p&gt;&lt;p&gt;这些文本和图像或其他模态在序列中交替自然排列的数据，对于整体训练数据的规模扩展也很重要。在MiniMax团队为这些数据重构整套数据管线后，已可以将训练数据 Token 规模提升至更大量级。&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://www.minimaxi.com/news/m3-day0-suczi21nrg</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T16:47:45.502009+00:00</crawled>
+    </item>
+    <item>
       <title>Day-0支持｜摩尔线程率先完成MiniMax M3大模型适配​</title>
       <link>https://www.minimaxi.com/news/m3-day0-moer</link>
       <description>&lt;article&gt;&lt;div&gt;&lt;p&gt;6月12日，&lt;strong&gt;MiniMax新一代原生多模态旗舰模型 M3正式开源。&lt;/strong&gt;同日，摩尔线程旗舰级AI训推一体智算卡&lt;strong&gt;MTT S5000已完成对该模型的Day-0极速适配&lt;/strong&gt;。这是国产大模型与国产算力芯片完成适配的又一例证，也彰显了摩尔线程凭借&lt;strong&gt;原生FP8算力底座与高效MUSA软件生态&lt;/strong&gt;，对前沿大模型需求的即时响应与稳定支撑能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;▼ MiniMax M3开源地址：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;div&gt;https://huggingface.co/MiniMaxAI/MiniMax-M3&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;▼ 开发者可下载镜像进行开箱体验：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;registry.mthreads.com/mcconline/inference/vllm:v0.20.0-ph1-4.3.5-torch2.9-20260605-mtcc51&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MiniMax M3是目前国内唯一同时具备前沿Coding &amp;amp; Agentic能力、超长下文与原生多模态的开源大模型，也是第一个将完整frontier能力带入开放世界的模型。&lt;/strong&gt;该模型基于自研MSA（MiniMax Sparse Attention）架构，可将上下文窗口扩展至1M级别，并在BrowseComp、SWE-Bench Pro等国际权威评测中达到前沿水平。作为原生多模态模型，M3重构了整个数据管线，从第零步开始多模态训练，使文本和视觉语义空间高度对齐。&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://filecdn.minimax.chat/public/code=ZGI5NDFhMTdjMDJlYjkyOTJkN2RmN2RkN2FhM2IzMjJfVDFuNktYY0QwbHQ2NjJTN0lXWkNMRTVzQ3pxdTlRZk5fVG9rZW46TkJReGJlV2pob0RKM3F4UEJsTGN4YUFTbnRjXzE3ODE1ODQ0Nzc6MTc4MTU4ODA3N19WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781584493112"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;图示：MiniMax M3的Coding &amp;amp; Agentic能力在软件工程、终端执行、工具调用等多维度权威评测中达到前沿水平。&lt;/p&gt;&lt;p&gt;针对MiniMax M3的核心技术特性，MTT S5000从&lt;strong&gt;硬件算力、软件栈到开源框架&lt;/strong&gt;进行了全链路精准匹配与深度优化：&lt;/p&gt;&lt;p&gt;&lt;strong&gt;▼ 支撑超长上下文：高密度算力与大显存提供坚实支撑。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;MSA架构带来的超长上下文窗口，对推理阶段的KV Cache存储和访存带宽提出了极高要求。MTT S5000凭借&lt;strong&gt;硬件级原生FP8加速&lt;/strong&gt;，&lt;strong&gt;单卡AI算力（稠密）高达1000 TFLOPS&lt;/strong&gt;；同时配备80GB大容量显存与1.6TB/s的超高带宽，为百万token级长序列提供充足的缓存空间与卓越的数据吞吐能力。此外，依托&lt;strong&gt;MUSA C++与Triton-MUSA等抽象层&lt;/strong&gt;，M3的新算子结构可实现快速迁移，确保摩尔线程平台能够快速完成架构适配。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;▼ 赋能前沿Coding与Agentic能力：实现低延迟、高吞吐的推理优化。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;面向M3重点强化的编程与智能体场景，摩尔线程基于此前对DeepSeek-V4、MiniMax M2.7、GLM-5.1等&lt;strong&gt;多款国产旗舰模型&lt;/strong&gt;的Day-0适配经验，已形成一套高效、系统化的复杂推理任务优化方法论。本次适配通过&lt;strong&gt;原生算子定制&lt;/strong&gt;，在保障模型精度无损的前提下，显著提升推理吞吐、降低响应延迟；同时，&lt;strong&gt;摩尔线程完成了vLLM与SGLang两大主流推理框架的同步拉起&lt;/strong&gt;，以MUSA开放架构拥抱开源生态，为开发者提供灵活多样的部署选择。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;▼ 推动原生多模态推理：覆盖全精度与贯通全场景。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;M3作为从Step 0即进行多模态混合训练的模型更适配当下Agentic AI多元场景的需求，同时这也要求&lt;strong&gt;算力底座具备多元化算力&lt;/strong&gt;。MTT S5000智算卡覆盖&lt;strong&gt;从FP8至FP64全计算精度&lt;/strong&gt;，可无缝适配从模型研发到商业化落地的完整链路，助力国产旗舰大模型快速完成生态普及。&lt;/p&gt;&lt;p&gt;随着MiniMax M3在MTT S5000上完成适配，开发者现在即可&lt;strong&gt;基于MUSA软件栈与vLLM/SGLang双框架完成部署&lt;/strong&gt;，并持续获得算子级性能优化。依托MUSA架构对主流AI生态的深度兼容与持续演进，摩尔线程已具备覆盖前沿模型&lt;strong&gt;“适配—部署—优化”&lt;/strong&gt;的完整工程能力，帮助开发者以更快响应、更稳运行、更低迁移成本接入最新模型能力，加速大模型创新落地与规模化应用。&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;</description>
@@ -121,12 +129,12 @@ MiniMax 内部已率先受益于 M2.5 的模型能力。&lt;strong&gt;在 MiniMa
       <crawled>2026-07-07T16:47:39.685856+00:00</crawled>
     </item>
     <item>
-      <title>沐曦股份曦云C系列GPU Day 0 适配 MiniMax M3，国产算力支撑前沿Coding与Agentic能力</title>
-      <link>https://www.minimaxi.com/news/m3-day0-suczi21nrg</link>
-      <description>&lt;article&gt;&lt;div&gt;&lt;p&gt;6月12日，MiniMax正式开源新一代原生多模态旗舰模型M3。沐曦股份曦云C系列GPU凭借全栈自研的软硬一体技术优势，完成对M3的Day 0深度适配，成为率先支持该模型的国产算力平台，持续领跑国产GPU极速适配赛道。&lt;/p&gt;&lt;p&gt;这是近期继M2.5、M2.7之后，曦云C系列又一次对MiniMax旗舰大模型实现极速适配。此次Day 0适配的快速实现，持续源于沐曦股份"自研GPU硬件+MXMACA全栈软件"的软硬一体核心优势。&lt;/p&gt;&lt;p&gt;曦云C系列GPU基于沐曦自主核心GPU IP打造，具备高能效比与高通用性，精准匹配大模型的超大规模参数处理及长上下文推理需求。MXMACA软件栈作为连接硬件算力与上层应用生态的核心枢纽，全链路覆盖底层驱动、用户态接口、MXCC编译器、算子深度适配及主流训练/推理框架对接，原生兼容 PyTorch、TensorFlow、vLLM与SGLang等 40 余种主流 AI 框架，支持 500+ AI 模型稳定运行，大幅缩短传统模型适配周期。曦云C系列GPU依托沐曦自研MXMACA软件栈的深度优化能力，成功实现M3的高效部署与稳定运行，为其前沿能力提供澎湃算力支撑。&lt;/p&gt;&lt;p&gt;在国产GPU Day 0适配赛道，沐曦股份持续保持行业领先地位。截至目前，沐曦已累计完成Day 0适配模型达26个，全面覆盖MiniMax、智谱、阿里千问、阶跃星辰、百度、DeepSeek等国内头部厂商的最新旗舰模型，品类涵盖语言、多模态、OCR、文生图、3D生成等全领域，构建起"模型发布—芯片适配—产业落地"的高效闭环。&lt;/p&gt;&lt;h3&gt;关于MiniMax新一代原生多模态旗舰模型M3&lt;/h3&gt;&lt;p&gt;MiniMax M3 在编程和智能体等专业任务上达到了前沿的能力。它使用了全新注意力架构 MSA （MiniMax Sparse Attention），最高支持 1M 超长上下文。它也是一个原生多模态模型，支持图片和视频的输入，并能操作电脑桌面。这三种能力是海外闭源前沿模型所必须拥有的。M3 是国内第一个齐备这些要素的模型，也是目前唯一的开源模型。&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://filecdn.minimax.chat/public/code=NGJmNmE3ZjMzMzMzNGZmMzNkNDg3NWY5ZDExMDA2N2ZfNUlxWUQwYTBYSGFRMk4xRDhtRkk4R0JpaVZNRTJ1WmxfVG9rZW46V1VXcGJXTlBzb2ZybHd4eXRwd2NaemxDbkhkXzE3ODE1ODQ4MjQ6MTc4MTU4ODQyNF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781584839670"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;在 Artificial Analysis 综合智能指数排行榜上，M3 取得了全球开源模型的最高排名。&lt;/p&gt;&lt;h3&gt;MSA：结构创新带来 Context Scaling&lt;/h3&gt;&lt;p&gt;MSA 是一个简洁且易于扩展的全新稀疏注意力架构，让 context 真正成为又一个可被 scale 的维度。稀疏注意力机制普遍通过增加一个初筛阶段来避免复杂度爆炸问题。与 DSA 和 MoBA 等方案相比，MSA 可以更精确为 KV 分块，实现更高的有效上下文覆盖。&lt;/p&gt;&lt;p&gt;同时，MiniMax团队还在算子层直接优化，采用以 KV 块为外层来聚合命中 query 的 KV outer gather Q。每块只读一次、访存连续，在 M3 的 head 配比下计算访存比显著优于通行方法，比开源的 Flash-Sparse-Attention、FlashMoBA 快 4 倍以上。&lt;/p&gt;&lt;p&gt;简洁可扩展、易于实现且硬件友好的特点，使它的理论收益能真正落地：在 100 万上下文下，M3 每 token 计算量仅为上代模型的 1/20。在 prefilling 阶段，MiniMax团队实现了超过 9 倍的加速倍率，在 decoding 阶段有超过 15 倍的加速优势。而且在多个对照实验中，MSA 的绝大部分能力与全注意力打平。&lt;/p&gt;&lt;h3&gt;前沿的Coding和Agentic能力&lt;/h3&gt;&lt;p&gt;Coding 与 Agent 能力是 M3 重点提升之处，在涵盖软件工程、终端执行等多个维度的国际权威评测中，M3 均达到国际领先水平：&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://filecdn.minimax.chat/public/code=Y2ZhZGMzMDgxZDc1ZjNhMjY1NGUxN2I5Y2VmYTMyYTdfTm9xck5HclVpNFRRM0VYNkw1MHJPaFVBVDBoZEU2YWhfVG9rZW46UFRxSWJEM0Y5bzlXMkl4dXZ1ZGN1T3N1bk5mXzE3ODE1ODQ4MjQ6MTc4MTU4ODQyNF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781584838830"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;下一代 Agent Coding 比的不仅是代码生成，更要比拼长期协作能力、规划能力以及人与 Agent 的协同效率。M3 把真正对 Coding 和 Agent 至关重要的数据 Scale up，目标不仅是在 Benchmark 上取得领先，更是在真实研发流程中成为开发者可靠的协作伙伴。&lt;/p&gt;&lt;h3&gt;多模态：原生训练，继续 Scale&lt;/h3&gt;&lt;p&gt;M3 是一个从 Step 0 开始进行多模态混合训练的模型。这种原生多模态的路线能让不同模态数据的语义空间更天然、更高度的融合。&lt;/p&gt;&lt;p&gt;同时，在数据配比和构成上，MiniMax团队的大量实验显示，Interleaved data（交错数据）对模型性能带来的提升，比一般认为的更加关键。&lt;/p&gt;&lt;p&gt;这些文本和图像或其他模态在序列中交替自然排列的数据，对于整体训练数据的规模扩展也很重要。在MiniMax团队为这些数据重构整套数据管线后，已可以将训练数据 Token 规模提升至更大量级。&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://www.minimaxi.com/news/m3-day0-suczi21nrg</guid>
+      <title>华为云与MiniMax最新模型M3完成适配</title>
+      <link>https://www.minimaxi.com/news/huawei-cloud-minimax-m3-adaptation-copy</link>
+      <description>&lt;article&gt;&lt;div&gt;&lt;p&gt;6月12日，华为云与MiniMax原生多模态旗舰模型M3实现开源首发适配。华为云基于昇腾算力底座，为MiniMax提供强大的Tokens算力支持。双方打通“算力”到“企业生产力”的闭环，共筑AI行业新标杆。&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://filecdn.minimax.chat/public/code=M2NmZGVjZjViOWRjMjk3NDYzNTE3NzM4MDRkNzI1NjZfZVZZcmY0Nm9PdEY2SlFrUWxrdEYxZjJCeEtZbXQ2TTZfVG9rZW46SG1pcmJYd1Bsb0xXenR4Uk9PM2N2bjdDblZoXzE3ODE1ODM3Njg6MTc4MTU4NzM2OF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781583786505"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;近日，华为云与MiniMax 达成进一步深化合作。华为云CloudMatrix智算云服务已完成对其全新一代&lt;strong&gt;原生多模态旗舰模型MiniMax M3&lt;/strong&gt;的开源首发适配。在此次合作中，华为云基于昇腾算力为M3提供Tokens支持，全面护航新模型的稳定、高效运行。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MiniMax M3：前沿Coding &amp;amp; Agentic能力·百万上下文·原生多模态&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;MiniMax M3在编程和智能体等专业任务上达到了前沿的能力。它使用了MiniMax提出的全新注意力架构MSA（MiniMax Sparse Attention），最高支持1M超长上下文。它也是一个原生多模态模型，支持图片和视频的输入，并能操作电脑桌面。&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://filecdn.minimax.chat/public/code=ZTAwMzUyYTE0NWQ3Yzc3ZjcwMzI1ZDkzODI2MTE0ZThfRVd1WnhsUDhieTd1Q05LcThWSVNZT2E3OWZRMVJ5Yk9fVG9rZW46RzVMTGJFMlRIbzR3ZXp4YWxJNmN2RVltbjliXzE3ODE1ODM3Njg6MTc4MTU4NzM2OF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781583785762"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;在衡量Coding能力的SWE-Bench Pro上，MiniMax M3超过GPT-5.5和Gemini 3.1 Pro，接近Opus 4.7。在综合评估SVG生成性能的基准SVG-Bench上，MiniMax M3超过Opus 4.7。&lt;/p&gt;&lt;p&gt;而在多模态测试集OmniDocBench上，MiniMax M3得分超过Gemini 3.1 Pro，在面向自主Agent的端到端评测框架Claw-Eval上，MiniMax M3得到最高分。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;昇腾算力云端适配&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;MiniMax M3在昇腾算力上完成MSA的算子适配，实现精确KV分块与连续访存策略，使M3的Context Scaling能力得以充分发挥。同时，M3还在昇腾算力上完成了MOE均衡优化，确保各专家模块在多卡间高效协作，为M3的大规模推理服务提供稳定的性能支撑。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;构建“算力”到“企业生产力”闭环&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;在刚刚闭幕的华为云INSPIRE创想者大会上，华为云联合MiniMax等20余家TOP模型厂商，发布了“百模千态，云聚共赢”生态合作计划，共建系统化商业生态，打造多方共赢的产业发展新模式。&lt;/p&gt;&lt;p&gt;结合华为云在政企、金融、制造等30+行业、5500+企业的深厚积累，华为云将与MiniMax共同推进行业Agent应用落地，真正用AI解决业务难题，让每一个Token创造真实价值。&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://www.minimaxi.com/news/huawei-cloud-minimax-m3-adaptation-copy</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:47:45.502009+00:00</crawled>
+      <crawled>2026-07-07T16:47:22.332433+00:00</crawled>
     </item>
     <item>
       <title>Day0极速适配！海光DCU解锁MiniMax M3满血能力</title>
@@ -153,12 +161,112 @@ MiniMax 内部已率先受益于 M2.5 的模型能力。&lt;strong&gt;在 MiniMa
       <crawled>2026-07-07T16:47:28.330880+00:00</crawled>
     </item>
     <item>
-      <title>华为云与MiniMax最新模型M3完成适配</title>
-      <link>https://www.minimaxi.com/news/huawei-cloud-minimax-m3-adaptation-copy</link>
-      <description>&lt;article&gt;&lt;div&gt;&lt;p&gt;6月12日，华为云与MiniMax原生多模态旗舰模型M3实现开源首发适配。华为云基于昇腾算力底座，为MiniMax提供强大的Tokens算力支持。双方打通“算力”到“企业生产力”的闭环，共筑AI行业新标杆。&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://filecdn.minimax.chat/public/code=M2NmZGVjZjViOWRjMjk3NDYzNTE3NzM4MDRkNzI1NjZfZVZZcmY0Nm9PdEY2SlFrUWxrdEYxZjJCeEtZbXQ2TTZfVG9rZW46SG1pcmJYd1Bsb0xXenR4Uk9PM2N2bjdDblZoXzE3ODE1ODM3Njg6MTc4MTU4NzM2OF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781583786505"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;近日，华为云与MiniMax 达成进一步深化合作。华为云CloudMatrix智算云服务已完成对其全新一代&lt;strong&gt;原生多模态旗舰模型MiniMax M3&lt;/strong&gt;的开源首发适配。在此次合作中，华为云基于昇腾算力为M3提供Tokens支持，全面护航新模型的稳定、高效运行。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MiniMax M3：前沿Coding &amp;amp; Agentic能力·百万上下文·原生多模态&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;MiniMax M3在编程和智能体等专业任务上达到了前沿的能力。它使用了MiniMax提出的全新注意力架构MSA（MiniMax Sparse Attention），最高支持1M超长上下文。它也是一个原生多模态模型，支持图片和视频的输入，并能操作电脑桌面。&lt;/p&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://filecdn.minimax.chat/public/code=ZTAwMzUyYTE0NWQ3Yzc3ZjcwMzI1ZDkzODI2MTE0ZThfRVd1WnhsUDhieTd1Q05LcThWSVNZT2E3OWZRMVJ5Yk9fVG9rZW46RzVMTGJFMlRIbzR3ZXp4YWxJNmN2RVltbjliXzE3ODE1ODM3Njg6MTc4MTU4NzM2OF9WNA&amp;amp;add_watermark=true&amp;amp;scene_type=CCM-1781583785762"/&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;在衡量Coding能力的SWE-Bench Pro上，MiniMax M3超过GPT-5.5和Gemini 3.1 Pro，接近Opus 4.7。在综合评估SVG生成性能的基准SVG-Bench上，MiniMax M3超过Opus 4.7。&lt;/p&gt;&lt;p&gt;而在多模态测试集OmniDocBench上，MiniMax M3得分超过Gemini 3.1 Pro，在面向自主Agent的端到端评测框架Claw-Eval上，MiniMax M3得到最高分。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;昇腾算力云端适配&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;MiniMax M3在昇腾算力上完成MSA的算子适配，实现精确KV分块与连续访存策略，使M3的Context Scaling能力得以充分发挥。同时，M3还在昇腾算力上完成了MOE均衡优化，确保各专家模块在多卡间高效协作，为M3的大规模推理服务提供稳定的性能支撑。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;构建“算力”到“企业生产力”闭环&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;在刚刚闭幕的华为云INSPIRE创想者大会上，华为云联合MiniMax等20余家TOP模型厂商，发布了“百模千态，云聚共赢”生态合作计划，共建系统化商业生态，打造多方共赢的产业发展新模式。&lt;/p&gt;&lt;p&gt;结合华为云在政企、金融、制造等30+行业、5500+企业的深厚积累，华为云将与MiniMax共同推进行业Agent应用落地，真正用AI解决业务难题，让每一个Token创造真实价值。&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;</description>
-      <guid isPermaLink="false">https://www.minimaxi.com/news/huawei-cloud-minimax-m3-adaptation-copy</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:47:22.332433+00:00</crawled>
+      <title>MiniMax Music 2.6：我们想讲四个人的故事</title>
+      <link>https://minimaxi.com/news/music-26</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026-04-10&lt;/div&gt;&lt;h1&gt;MiniMax Music 2.6：我们想讲四个人的故事&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/ba44b483-c46c-4611-8942-470f77750af5.png" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fba44b483-c46c-4611-8942-470f77750af5.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;p&gt;今天我们发布 MiniMax Music 2.6。&lt;/p&gt;
+&lt;p&gt;过去几代，我们都在讲模型本身变强了多少。这一次我们想换一种讲法——讲四个人、四段音乐、四件过去做不到的事。因为一个音乐模型的升级，最终不是活在参数表里的，是活在"这一次有人用它做成了一件以前做不成的事"里。&lt;/p&gt;
+&lt;h2&gt;她在做一段需要呼吸的国风&lt;/h2&gt;
+&lt;p&gt;@萧蓠苒苒 是一个做了三年国风短视频的独立创作者，一直在找能用的国风音乐素材。&lt;/p&gt;
+&lt;p&gt;国风里最有辨识度的部分，恰恰是 AI 音乐最做不好的部分。&lt;/p&gt;
+&lt;p&gt;二胡的揉弦、笛子的气口、古筝的扫弦、戏腔的收放——这些不是乐器种类的问题，是演奏细节的问题。过去的 AI 音乐能识别"国风"这个标签，但做出来的东西像一套国风音色包被机械地拼在一起，该有呼吸的地方没有呼吸，该有气口的地方没有气口。&lt;/p&gt;
+&lt;p&gt;Music 2.6 在器乐上不止支持更多乐器，也让乐器之间&lt;span&gt;有了横向的时序演进&lt;/span&gt;。开场可以只有鼓的留白、弦乐和弹拨乐器一层一层进来，旋律和人声最后一起推到顶点。先铺氛围，再入旋律，这是古戏里"仓才仓才"锣鼓开场的章法，也是 AI 音乐开始真正懂国风的进场顺序。&lt;/p&gt;
+&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-1.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
+&lt;p&gt;她现在可以做的事：一条国风短视频的 BGM，从"找现成的、版权模糊的素材"，变成"15 分钟写一段完全符合画面情绪的原创配乐"。&lt;/p&gt;
+&lt;h2&gt;他在给独立游戏配 boss 战&lt;/h2&gt;
+&lt;p&gt;@本命彦祖 的问题是，他在做一款单人开发的动作游戏，预算里没有配乐工作室这一项。&lt;/p&gt;
+&lt;p&gt;过去他有两个选择。一是花几千块买一套 sample library，但 sample library 里的"史诗战斗音乐"就那么几首，买回来的第一天他就知道玩家会听到重复。二是用 AI 音乐生成，但过去的 AI 音乐做史诗感做不到——鼓点是"响"但不是"重"，低频是糊的，推不动 boss 战该有的情绪压迫感。&lt;/p&gt;
+&lt;p&gt;Music 2.6 这一代对中低频做了专门的优化。贝斯和鼓点在下潜深度和咬合紧密度上有了明显提升——具体落到听感上就是：在带低音的耳机里、在车载音响里、在玩家的游戏音响里，鼓和贝斯不会糊成一片，它们能真的推着画面走。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;配合 2.6 对段落结构的理解力提升，他可以在 prompt 里明确写："开局渲染压抑氛围，逐渐过渡到力量觉醒，再到爆发与无敌的姿态"——模型能真的按这个结构来。&lt;/span&gt;&lt;/p&gt;
+&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-2.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
+&lt;p&gt;他现在可以做的事：给一款独立游戏做一整套 boss 战配乐，成本从几千块降到一个下午。&lt;/p&gt;
+&lt;h2&gt;她在挑一份能放在咖啡厅里四小时的独家歌单&lt;/h2&gt;
+&lt;p&gt;@南方易小姐 是一家精品咖啡店的主理人，每天下午 2 点到 6 点的时段需要一份歌单，但她一直挑不到合适的。&lt;/p&gt;
+&lt;p&gt;播放器的咖啡馆歌单要么太有"背景音乐感"——流畅到没有存在感，放了等于没放；要么太有"表演感"——萨克斯 solo 张扬到抢走客人的对话。而咖啡馆需要的音乐有一个反直觉的标准：它必须足够好听到能被注意，又足够克制到不会被讨厌。这个"刚好"的分寸，过去的 AI 音乐几乎做不到。&lt;/p&gt;
+&lt;p&gt;Music 2.6 的人声和旋律处理有一个微妙但重要的变化：它允许"不精准"。在合适的风格区间里（lo-fi、indie folk、独立爵士），这种不精准变成了律动的呼吸感。&lt;/p&gt;
+&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-3.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
+&lt;p&gt;在她创作的《荒野赛跑》中，人声带着一种深夜独处时的随性与倔强，像另一个自我在唱一首写给自己的歌。低频的 Bass 和鼓点与中频的人声能量几乎完全对等，高频被刻意压制在暖厚暗调里。放进咖啡馆里，不会让任何人觉得烦，但偶尔会让某个客人停下来，问一句"这首歌是谁唱的"。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;她现在可以做的事：不再在歌单里挑来挑去，直接告诉 2.6 她想要的情绪和氛围——"深夜感、都市、微醺、不要太亮"&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;她是一个想给妈妈做生日惊喜的女儿&lt;/h2&gt;
+&lt;p&gt;@NYX 是四个人里，以前最做不成自己那件事的一个。&lt;/p&gt;
+&lt;p&gt;她不会编曲，不认识音乐人，预算也有限。她想做的事很简单——妈妈年轻时最喜欢的那首歌，她想用自己的风格重新做一版，作为妈妈生日那天的惊喜。&lt;/p&gt;
+&lt;p&gt;这件事过去没法做。不是因为 AI 音乐生成不了音乐，是因为她要的不是"一首新歌"——她要的是"&lt;span&gt;那首歌&lt;/span&gt;的另一种样子"。旋律必须是妈妈认得出的那条旋律，改的是风格、编曲、氛围。这是一个需要把一首已经存在的歌作为精确约束的任务。&lt;/p&gt;
+&lt;p&gt;这是 Music 2.6 的新功能：&lt;span&gt;Cover&lt;/span&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;你上传一首歌，模型会精准提取它的旋律骨架，然后让你决定骨架之外的一切——风格可以从民谣跳到重金属，编曲可以从古典交响变成赛博朋克电子，甚至可以保留旋律、完全换掉歌词。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;《友谊地久天长》原曲：&lt;/p&gt;
+&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-4.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
+&lt;p&gt;Cover 版本：&lt;/p&gt;
+&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-5.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
+&lt;p&gt;她现在可以做的事：在生日前一个晚上，花半小时，做出一份过去需要整个编曲团队才能做出的礼物。&lt;/p&gt;
+&lt;h2&gt;这四个人，和剩下的那些人&lt;/h2&gt;
+&lt;p&gt;以上是四个人的故事。但 Music 2.6 的升级不止覆盖这四个人——&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;首包延迟降到 20 秒以内&lt;/span&gt;。当你写完 prompt，短暂的一个深呼吸之后就能听到第一段反馈。过去的"等待感"基本消失。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;指令控制全面增强&lt;/span&gt;。BPM、Key、段落结构、情绪走向都可以写在 prompt 里被模型准确执行。你写下的具体要求，模型会认真执行。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;中低频声学表现系统性优化&lt;/span&gt;。除了前面提到的游戏配乐场景，任何对低频有要求的风格——House、Trap、Drum &amp;amp; Bass——都会直接受益。&lt;/p&gt;
+&lt;p&gt;这些能力在上面四个故事里都有出场，但它们的适用范围比那四个故事宽得多。&lt;/p&gt;
+&lt;h2&gt;还有一种用法：让 Agent 替你用它&lt;/h2&gt;
+&lt;p&gt;上面四个人都是直接和 Music 2.6 打交道。但如果你是一个 AI Agent 开发者，你可能想的不是自己用它做一首歌，而是让我的 Agent 能用它做一首歌。&lt;/p&gt;
+&lt;p&gt;这是我们这次同步开源的三个 Music Skill 要解决的事：&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;• &lt;span&gt;minimax-music-gen&lt;/span&gt;：让 Agent 具备完整的音乐生成能力。一句话描述需求，Agent 自动识别意图、选择模式（原创/纯音乐/Cover）、调用生成接口。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;• &lt;span&gt;minimax-music-playlist&lt;/span&gt;：让 Agent 成为你的音乐主理人。它会了解你的听歌喜好，构建品味画像，然后为你生成整份定制歌单。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;• &lt;span&gt;buddy-sings&lt;/span&gt;：让你的虚拟伙伴开口唱歌。联动 OpenClaw，Agent 会读取你定义的角色人格，构建专属的声音身份，以角色第一人称为你即兴创作。去试试看，让一直陪伴你工作的 Moth 唱一首歌吧 ~&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2&gt;现在就试&lt;/h2&gt;
+&lt;p&gt;这四个人的故事，本来都不是 Music 2.6 写的剧本。是他们自己想做的事，我们只是用 AI 做到了能让他们做成的程度。&lt;/p&gt;
+&lt;p&gt;即日起，MiniMax Music 2.6 全球创作内测开启，14 天限免，邀你来创作。&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;• C 端产品用户：每个账号每日 500 首免费创作额度&lt;/p&gt;
+&lt;p&gt;• 开发者：现有 Token Plan 用户额外获赠 100 首/天的免费调用额度&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;每一段音乐背后，都是一个在 AI 时代第一次成为音乐创作者的人。&lt;/p&gt;
+&lt;p&gt;你那件想做的事，是什么？&lt;/p&gt;
+&lt;p&gt;C 端产品体验：&lt;a href="https://minimaxi.com/audio/music"&gt;minimaxi.com/audio/music&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;API 接口：&lt;a href="https://platform.minimaxi.com/docs/api-reference/music-generation"&gt;platform.minimaxi.com/docs/api-reference/music-generation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Intelligence with Everyone.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
+      <guid isPermaLink="false">https://minimaxi.com/news/music-26</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T16:49:12.497953+00:00</crawled>
+    </item>
+    <item>
+      <title>MiniMax Hailuo 2.3 视频复杂表现新高度 &amp; Media Agent</title>
+      <link>https://minimaxi.com/news/minimax-hailuo-23</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2025.10.28&lt;/div&gt;&lt;h1&gt;MiniMax Hailuo 2.3 视频复杂表现新高度 &amp;amp; Media Agent&lt;/h1&gt;&lt;div&gt;&lt;a href="https://platform.minimaxi.com/docs/api-reference/video-generation-intro"&gt;&lt;p&gt;即刻接入 API&lt;/p&gt;&lt;/a&gt;&lt;a href="https://hailuoai.com/"&gt;&lt;p&gt;立即体验海螺&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;br/&gt;今天，我们为大家带来MiniMax视频模型 Hailuo 2.3，在 Hailuo 02 模型的基础上进一步升级动态表现力，画面更加真实、稳定。Hailuo 2.3 模型在肢体动作呈现、风格化以及人物微表情方面实现了显著的效果提升，同时对运动指令响应做进一步优化。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:47&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/7409a7e3-9b93-4f61-a608-8eb0d575cb1d.mp4"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;首先，得益于模型在物理表现与指令遵循进一步的增强，Hailuo 2.3 可以呈现出更加复杂的人物肢体动作，更加流畅自然，精确度和可控性更好。在不同的大动态运镜下，光线方向、明暗过渡和色调，都能实现近乎实拍的视觉效果。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:38&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/71cfe88d-70d7-4efa-b501-eec6ec1f165a.MP4"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;在风格化方面，Hailuo 2.3对动漫、插画类，以及水墨、游戏CG等特殊画风的支持效果更佳。喜欢动漫创作的用户对Hailuo 01 的 Live 模型爱不释手，而 Hailuo 2.3 解锁了更多画风，通用模型的输出效果更稳定、更生动。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:38&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/ccf98ca6-401d-4ec2-ac54-b0d0e99111b9.MP4"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;在 Hailuo 2.3 中，真人面部表演、微表情变化等动作也更自然。我们用细腻的表情变化，打造最动人的角色表演。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F4a25c486-f4be-43d0-80b7-b19b047d4ead.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa770623c-baa5-47b4-8558-7e8c6a24a672.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;除了人的表情、动作呈现得到提升以外，Hailuo 2.3 对物体的运动指令响应也更加出色。正值双十一购物节期间，有创作者在内测期间制作了一些电商广告，抽卡率大幅提高。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F10e1ebf4-8f82-4094-ba6f-efd9962d4aad.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fe5fc1281-dcdd-4865-aea4-1041d023a8fe.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Hailuo 2.3 再次刷新了全球视频模型效果成本纪录，在提升性能表现的同时保持 Hailuo 02 既有价格，B端与C端都“加量不加价”，为全球创作者提供业内最优性价比。此外，我们提供 Hailuo 2.3 Fast 模型，生成速度更快，定价更低，最高可为批量创作降低50%成本。&lt;br/&gt;&lt;br/&gt;
+
+我们在海螺AI网页端、APP客户端及开放平台API中推全了上述的模型更新，并在发布期间每日提供免费试用额度，欢迎体验。我们在持续迭代模型整体水平的同时，会继续针对AI视频的不同应用场景深度优化，解决用户在实际使用中遇到的问题。
+
+今年夏天，我们发布了 Hailuo Video Agent，得到了不错的反响。在海螺创作者的使用和反馈中我们发现，多模态融合创作一定是未来的趋势。&lt;strong&gt;今天，Hailuo Video Agent 正式迭代升级为支持全模态全能创作的 Media Agent，并已经在全球同步上线&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;
+
+输入你想要的内容，Media Agent 自动匹配多模态模型，无需手动剪辑，“一键成片”功能帮你全部搞定。专业创作者也可以在Media Agent中分布创作，自由上传图片、视频或音频，根据需求自由定制成片。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa7a35bc7-c948-4d7a-b2e9-a8e6e5f65b13.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;例如，我们尝试为“Casa Nacho”品牌的玉米片设计一支30秒的广告，可以将想要的场景、色调、运镜风格和音乐等要素输入，来看一看一键成片的效果。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:30&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/4535e623-138e-43d6-ad17-74cb02ed3f7d.mov"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;在 Media Agent 后续的更新版本中，对成片链路上的任一Part，我们都可以在画布中与Agent一起调整细节，真正实现“对话即创作”，并把每一个灵感留存。用自然语言与AI交互、共创，也是我们认为下一代应有的工作平台。&lt;br/&gt;&lt;br/&gt;
+
+我们正迎来一个快速变革的时代，而在这个新时代中，AI视频改变了很多人的工作和创造方式。我们希望，Hailuo是创作的全能帮手，也是创新和变革的先锋，让灵感生长成形——又超越一切形。&lt;br/&gt;&lt;br/&gt;
+&lt;p&gt;
+    海螺AI体验链接：
+  &lt;/p&gt;
+&lt;p&gt;
+&lt;a href="https://hailuoai.com/"&gt;https://hailuoai.com/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    Media Agent体验链接：
+  &lt;/p&gt;
+&lt;p&gt;
+&lt;a href="https://hailuoai.com/agent"&gt;https://hailuoai.com/agent&lt;/a&gt;
+&lt;/p&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+
+Intelligence with Everyone.
+
+
+
+&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F756afba2-5149-469f-8dc1-9e6f1489bd8c.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
+      <guid isPermaLink="false">https://minimaxi.com/news/minimax-hailuo-23</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T16:48:57.738294+00:00</crawled>
     </item>
     <item>
       <title>Day 0支持｜昆仑芯完成MiniMax M2.7模型极速适配</title>
@@ -176,6 +284,30 @@ MiniMax 内部已率先受益于 M2.5 的模型能力。&lt;strong&gt;在 MiniMa
       <guid isPermaLink="false">https://www.minimaxi.com/news/day-0%E6%94%AF%E6%8C%81%E6%98%86%E4%BB%91%E8%8A%AF%E5%AE%8C%E6%88%90minimax-m27%E6%A8%A1%E5%9E%8B%E6%9E%81%E9%80%9F%E9%80%82%E9%85%8D</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-07T16:48:08.161927+00:00</crawled>
+    </item>
+    <item>
+      <title>Day-0支持｜摩尔线程率先完成MiniMax M2.7大模型适配</title>
+      <link>https://www.minimaxi.com/news/day-0%E6%94%AF%E6%8C%81%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%E7%8E%87%E5%85%88%E5%AE%8C%E6%88%90minimax-m27%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%80%82%E9%85%8D</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.4.12&lt;/div&gt;&lt;h1&gt;Day-0支持｜摩尔线程率先完成MiniMax M2.7大模型适配&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/cf1c2a2c-2f38-40f5-8e6a-6b1eead75c03.png" referrerpolicy="no-referrer" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fcf1c2a2c-2f38-40f5-8e6a-6b1eead75c03.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;p&gt;4月12日，摩尔线程其旗舰级AI训推一体全功能GPU MTT S5000已率先完成对MiniMax新一代大模型MiniMax M2.7的Day-0极速适配，再次验证了国产全功能GPU对前沿AI大模型的快速响应与稳定支撑能力。&lt;/p&gt;
+&lt;!-- &lt;p style="margin: 0 0 12px 0; text-align: justify;"&gt;图示：MiniMax M2.7在MTT S5000运行&lt;/p&gt; --&gt;
+&lt;p&gt;MiniMax M2.7是业界首个具备深度自我进化能力的大模型，能够自主构建Agent Harness，通过Agent Teams协作、复杂Skills调用及Tool Search Tool等能力完成复杂生产力任务，甚至深度参与自身迭代。在软件工程领域，M2.7支持端到端完整项目交付、日志分析排障、代码安全审查及机器学习任务；在专业办公场景，其Excel/PPT/Word高保真编辑与多轮修改能力显著提升，即使在超长上下文复杂任务中仍保持稳定的高水平skills遵循率。与此同时，该模型对长上下文处理、复杂Agent任务调度及高保真编辑等场景提出了极高的计算效率要求。&lt;/p&gt;
+&lt;img referrerpolicy="no-referrer" src="https://filecdn.minimax.chat/platform_web/offical-news/摩尔线程_Day0_MiniMax_M27/image_01.jpeg"/&gt;
+&lt;p&gt;针对上述挑战，摩尔线程技术团队基于MUSA架构完成深度调优，成功在MTT S5000上实现M2.7高性能推理，核心技术优势包括：&lt;/p&gt;
+&lt;p&gt;· &lt;span&gt;超长上下文与高吞吐保障：&lt;/span&gt;依托MTT S5000的80GB大容量显存、1.6TB/s高带宽及PD分离架构，配合高效KV Cache管理，支撑MiniMax M2.7长时间、多步骤任务的稳定执行。&lt;/p&gt;
+&lt;p&gt;· &lt;span&gt;全精度端到端支持：&lt;/span&gt;MTT S5000原生支持FP8至FP64全精度计算，满足代码生成、金融建模等场景对混合精度及高精度计算的要求，确保决策精准可靠。&lt;/p&gt;
+&lt;p&gt;· &lt;span&gt;高算力低延迟推理：&lt;/span&gt;MTT S5000单卡可提供1000 TFLOPS稠密算力，结合vLLM-MUSA定制化调优，实现复杂Agent Harness与高频工具调用场景下的低延迟响应。&lt;/p&gt;
+&lt;p&gt;· &lt;span&gt;强大生态兼容性：&lt;/span&gt;深度兼容PyTorch、vLLM、SGLang、Triton等主流生态，通过MUSA C++、Triton-MUSA、TileLang-MUSA等抽象层实现新算子"零成本迁移"，确保前沿模型发布当日完成极速适配。&lt;/p&gt;
+&lt;p&gt;此次 Day-0 适配是摩尔线程常态化技术响应能力的再次体现。依托 MUSA 架构对主流AI生态的深度兼容与持续演进，国产全功能GPU算力底座已形成覆盖前沿模型"Day-0适配—高效部署"的全链路支撑体系，帮助开发者以更快响应、更稳运行、更低迁移成本第一时间接入最新模型能力，加速大模型创新落地与规模化应用。&lt;/p&gt;
+&lt;p&gt;开发者可下载镜像进行开箱体验：&lt;/p&gt;
+&lt;p&gt;registry.mthreads.com/presale/devtech/vllm_musa:MiniMax-M2.7&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;span&gt;关于摩尔线程&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;摩尔线程以全功能GPU为核心，致力于向全球提供加速计算的基础设施和一站式解决方案，为各行各业的数智化转型提供强大的AI计算支持。我们的目标是成为具备国际竞争力的GPU领军企业，为融合人工智能和数字孪生的数智世界打造先进的加速计算平台。我们的愿景是为美好世界加速。&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
+      <guid isPermaLink="false">https://www.minimaxi.com/news/day-0%E6%94%AF%E6%8C%81%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%E7%8E%87%E5%85%88%E5%AE%8C%E6%88%90minimax-m27%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%80%82%E9%85%8D</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-07-07T16:48:27.409521+00:00</crawled>
     </item>
     <item>
       <title>沐曦股份曦云C系列GPU Day 0适配MiniMax M2.7  澎湃算力支持自进化大模型</title>
@@ -217,30 +349,6 @@ MiniMax 内部已率先受益于 M2.5 的模型能力。&lt;strong&gt;在 MiniMa
       <crawled>2026-07-07T16:48:21.054888+00:00</crawled>
     </item>
     <item>
-      <title>Day-0支持｜摩尔线程率先完成MiniMax M2.7大模型适配</title>
-      <link>https://www.minimaxi.com/news/day-0%E6%94%AF%E6%8C%81%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%E7%8E%87%E5%85%88%E5%AE%8C%E6%88%90minimax-m27%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%80%82%E9%85%8D</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.4.12&lt;/div&gt;&lt;h1&gt;Day-0支持｜摩尔线程率先完成MiniMax M2.7大模型适配&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/cf1c2a2c-2f38-40f5-8e6a-6b1eead75c03.png" referrerpolicy="no-referrer" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fcf1c2a2c-2f38-40f5-8e6a-6b1eead75c03.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
-&lt;p&gt;4月12日，摩尔线程其旗舰级AI训推一体全功能GPU MTT S5000已率先完成对MiniMax新一代大模型MiniMax M2.7的Day-0极速适配，再次验证了国产全功能GPU对前沿AI大模型的快速响应与稳定支撑能力。&lt;/p&gt;
-&lt;!-- &lt;p style="margin: 0 0 12px 0; text-align: justify;"&gt;图示：MiniMax M2.7在MTT S5000运行&lt;/p&gt; --&gt;
-&lt;p&gt;MiniMax M2.7是业界首个具备深度自我进化能力的大模型，能够自主构建Agent Harness，通过Agent Teams协作、复杂Skills调用及Tool Search Tool等能力完成复杂生产力任务，甚至深度参与自身迭代。在软件工程领域，M2.7支持端到端完整项目交付、日志分析排障、代码安全审查及机器学习任务；在专业办公场景，其Excel/PPT/Word高保真编辑与多轮修改能力显著提升，即使在超长上下文复杂任务中仍保持稳定的高水平skills遵循率。与此同时，该模型对长上下文处理、复杂Agent任务调度及高保真编辑等场景提出了极高的计算效率要求。&lt;/p&gt;
-&lt;img referrerpolicy="no-referrer" src="https://filecdn.minimax.chat/platform_web/offical-news/摩尔线程_Day0_MiniMax_M27/image_01.jpeg"/&gt;
-&lt;p&gt;针对上述挑战，摩尔线程技术团队基于MUSA架构完成深度调优，成功在MTT S5000上实现M2.7高性能推理，核心技术优势包括：&lt;/p&gt;
-&lt;p&gt;· &lt;span&gt;超长上下文与高吞吐保障：&lt;/span&gt;依托MTT S5000的80GB大容量显存、1.6TB/s高带宽及PD分离架构，配合高效KV Cache管理，支撑MiniMax M2.7长时间、多步骤任务的稳定执行。&lt;/p&gt;
-&lt;p&gt;· &lt;span&gt;全精度端到端支持：&lt;/span&gt;MTT S5000原生支持FP8至FP64全精度计算，满足代码生成、金融建模等场景对混合精度及高精度计算的要求，确保决策精准可靠。&lt;/p&gt;
-&lt;p&gt;· &lt;span&gt;高算力低延迟推理：&lt;/span&gt;MTT S5000单卡可提供1000 TFLOPS稠密算力，结合vLLM-MUSA定制化调优，实现复杂Agent Harness与高频工具调用场景下的低延迟响应。&lt;/p&gt;
-&lt;p&gt;· &lt;span&gt;强大生态兼容性：&lt;/span&gt;深度兼容PyTorch、vLLM、SGLang、Triton等主流生态，通过MUSA C++、Triton-MUSA、TileLang-MUSA等抽象层实现新算子"零成本迁移"，确保前沿模型发布当日完成极速适配。&lt;/p&gt;
-&lt;p&gt;此次 Day-0 适配是摩尔线程常态化技术响应能力的再次体现。依托 MUSA 架构对主流AI生态的深度兼容与持续演进，国产全功能GPU算力底座已形成覆盖前沿模型"Day-0适配—高效部署"的全链路支撑体系，帮助开发者以更快响应、更稳运行、更低迁移成本第一时间接入最新模型能力，加速大模型创新落地与规模化应用。&lt;/p&gt;
-&lt;p&gt;开发者可下载镜像进行开箱体验：&lt;/p&gt;
-&lt;p&gt;registry.mthreads.com/presale/devtech/vllm_musa:MiniMax-M2.7&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;span&gt;关于摩尔线程&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;摩尔线程以全功能GPU为核心，致力于向全球提供加速计算的基础设施和一站式解决方案，为各行各业的数智化转型提供强大的AI计算支持。我们的目标是成为具备国际竞争力的GPU领军企业，为融合人工智能和数字孪生的数智世界打造先进的加速计算平台。我们的愿景是为美好世界加速。&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://www.minimaxi.com/news/day-0%E6%94%AF%E6%8C%81%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%E7%8E%87%E5%85%88%E5%AE%8C%E6%88%90minimax-m27%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%80%82%E9%85%8D</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:48:27.409521+00:00</crawled>
-    </item>
-    <item>
       <title>昇腾0Day支持MiniMaxM2.7，共同开启模型自我进化新范式</title>
       <link>https://www.minimaxi.com/news/%E6%98%87%E8%85%BE0day%E6%94%AF%E6%8C%81minimaxm27%E5%85%B1%E5%90%8C%E5%BC%80%E5%90%AF%E6%A8%A1%E5%9E%8B%E8%87%AA%E6%88%91%E8%BF%9B%E5%8C%96%E6%96%B0%E8%8C%83%E5%BC%8F</link>
       <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.4.12&lt;/div&gt;&lt;h1&gt;昇腾0Day支持MiniMaxM2.7，共同开启模型自我进化新范式&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/c600d3eb-54ec-4180-9005-9edf9809962e.png" referrerpolicy="no-referrer" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fc600d3eb-54ec-4180-9005-9edf9809962e.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
@@ -260,98 +368,6 @@ MiniMax 内部已率先受益于 M2.5 的模型能力。&lt;strong&gt;在 MiniMa
       <guid isPermaLink="false">https://www.minimaxi.com/news/%E6%98%87%E8%85%BE0day%E6%94%AF%E6%8C%81minimaxm27%E5%85%B1%E5%90%8C%E5%BC%80%E5%90%AF%E6%A8%A1%E5%9E%8B%E8%87%AA%E6%88%91%E8%BF%9B%E5%8C%96%E6%96%B0%E8%8C%83%E5%BC%8F</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-07T16:48:02.503170+00:00</crawled>
-    </item>
-    <item>
-      <title>MiniMax Speech 2.8：赋予 AI 语音“人的温度”</title>
-      <link>https://minimaxi.com/news/minimax-speech-28</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026-01-23&lt;/div&gt;&lt;h1&gt;MiniMax Speech 2.8：赋予 AI 语音“人的温度”&lt;/h1&gt;&lt;div&gt;&lt;a href="https://platform.minimaxi.com/docs/guides/speech-t2a-websocket"&gt;&lt;p&gt;即刻接入 API&lt;/p&gt;&lt;/a&gt;&lt;a href="https://www.minimaxi.com/audio"&gt;&lt;p&gt;立即体验语音&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/b94fb26a-aeb5-4303-929e-a28033e26fb1.png" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fb94fb26a-aeb5-4303-929e-a28033e26fb1.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
-&lt;h2&gt;MiniMax Speech 2.8：赋予 AI 语音"人的温度"&lt;/h2&gt;
-&lt;p&gt;今天，我们正式推出全新的语音大模型 MiniMax Speech 2.8。&lt;/p&gt;
-&lt;p&gt;这次升级不仅仅是参数的提升，更是一次关于"真实感"的突破：我们首次实现了&lt;span&gt;原生语气词支持&lt;/span&gt;，并带来了极高精度的&lt;span&gt;音色还原&lt;/span&gt;、&lt;span&gt;录音棚级音质&lt;/span&gt;以及地道的&lt;span&gt;跨语言表现&lt;/span&gt;。&lt;/p&gt;
-&lt;p&gt;我们致力于解决一个核心目标：让合成语音听起来更像真人在说话。&lt;/p&gt;
-&lt;h2&gt;1. 那些被找回的"语气"：让 AI 学会犹豫与呼吸&lt;/h2&gt;
-&lt;p&gt;过去，AI语音让人感到冰冷，往往是因为它"太完美了"。真正的真人说话，其实充满了不完美的呼吸、停顿和犹豫，这些细节才是传递情绪、强调重点的关键信号。&lt;/p&gt;
-&lt;p&gt;Speech 2.8 模型首次引入了&lt;span&gt;自然语气标签&lt;/span&gt;，通过对口语填充词进行原生建模，让每一个"嗯"、"呃"或者"哎"都保留了应有的停顿和节奏。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;不再被吞掉的"嗯"，不再被拉平的"呃"，说话的温度，从细节开始。&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;语气词范例&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:41&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/b2821759-1fc2-47c1-aa9e-9e728ac117e6.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
-&lt;p&gt;音频文案：&lt;/p&gt;
-&lt;p&gt;"嘿，是我。最近怎么样？(倒吸气)昨天那个上线日，真的是把我折腾得够呛，你是不知道，那种连轴转的感觉。（正常换气）不过还好，我现在总算活过来了，准备开始搬下一块砖。你这会儿听我说话，估计觉得我就是对着麦克风在那儿瞎聊呢，对吧？哎，重点就在这儿了：其实吧……我根本不是真人。我是 MiniMax 最新的 Speech 2.8 模型。怎么样，吓一跳吧？ 你仔细品品，这呼吸声、这语气，甚至还有点随意的碎碎念，是不是跟我本人一模一样？"&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;2. 音色克隆：10 秒钟，复刻你的"声音指纹"&lt;/h2&gt;
-&lt;p&gt;我们重新优化了人声特征的提取流程，使音色克隆的相似度达到了新的高度。&lt;/p&gt;
-&lt;p&gt;仅需 10 秒的原声片段，Speech 2.8 就能精准捕捉到你说话时的质感、气息，甚至是你特有的语速习惯。复刻出来的声音不再只是"听着像"，而是真正还原了你说话的灵魂。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;你的声音不只是"像"，而是"就是"。&lt;/span&gt;&lt;/p&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;原始素材&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/aa54c7eb-02db-4d00-99dc-d43bf50b08a8.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;复刻结果&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/302b1b3d-6ab8-4271-999b-4f209827b3a7.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
-&lt;p&gt;这份复刻案例生动展示了 Speech 2.8 如何精准捕捉"声音的灵魂"：&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;极致丝滑的"成熟质感"&lt;/span&gt;：完美捕捉了原声中低频的胸腔共鸣与细腻的鼻音特征，还原了那种如绸缎般顺滑、带有女性成熟魅力的音色指纹。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;慵懒而自然的"呼吸留白"&lt;/span&gt;：成功复刻了原主在说话间不经意流露出的深呼吸与轻微气声，使得"可能吧"、"谁知道呢"等短句充满了真实的人机互动温度。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;微嘲讽式的"语癖捕捉"&lt;/span&gt;：精准建模了原音频中特有的"慢起快收"节奏，尤其是句尾带有一丝慵懒拖腔的语调习惯，将那种玩味、似褒实贬的情绪还原得淋漓尽致。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;3. 纯净音质：告别背景杂音与数字伪影&lt;/h2&gt;
-&lt;p&gt;我们全面升级了音频处理方案，有效消除了背景杂音和不自然的机械毛刺感。生成的语音更加干净、通透，听起来就像真人坐在你面前录音一样纯净。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;更纯净的声音，更专业的输出。&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;无噪声范例&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 01:03&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/682eea95-6077-41ba-9bb7-c80b79cc94b5.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
-&lt;p&gt;音频文案：&lt;/p&gt;
-&lt;p&gt;在森林的深处，藏着一种不为人知的宁静。当清晨的第一缕微光穿过浓密的枝叶，洒在铺满苔藓的土地上时，整个世界仿佛都停下了脚步。你听，那是风穿过松针的沙沙声，细微得几乎像是耳语。&lt;/p&gt;
-&lt;p&gt;很多时候，我们总是在追赶时间，却忘了如何去感受那些安静的时刻。那些藏在书页翻动声里的专注，那些落在窗棂上的雨滴声，还有深夜里独自思考时的呼吸感。这些细碎的声音，构成了生活最真实的底色。&lt;/p&gt;
-&lt;p&gt;让我们试着在这一份平和中停留片刻，去倾听，去思考，去重新发现那些被嘈杂世界所遮盖的，最本质的温柔。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;4. 跨语言体验改善：从中日场景开始&lt;/h2&gt;
-&lt;p&gt;我们针对跨语言合成中的口音串入问题进行了专项优化。本次率先修正了中文音色合成日语时的发音偏移，消除了此前偶发的音素错位和语调不自然问题。后续将持续优化更多语种组合的跨语言表现。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;一个音色，40+种语言，每一种都像母语者在说话。&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;中日混合范例&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;中日混合范例&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/831a01aa-41d7-40e1-b251-295f4c9eb6aa.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
-&lt;p&gt;音频文案：&lt;/p&gt;
-&lt;p&gt;关于这次项目的进展，总体来说已经完成得不错了。&lt;/p&gt;
-&lt;p&gt;ただ、技術的な詳細については、もう少し検討する必要があります。&lt;/p&gt;
-&lt;p&gt;我们需要在下周前把最终方案定下来，どうぞよろしくお願いします。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br/&gt;&lt;br/&gt;
-&lt;p&gt;Speech 2.8 已经全面上线，欢迎使用：&lt;/p&gt;
-&lt;br/&gt;
-&lt;p&gt;MiniMax开放平台:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://platform.minimaxi.com/docs/guides/models-intro"&gt;Platform.minimaxi.com/docs/guides/models-intro&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;MiniMax Audio:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://minimaxi.com/audio"&gt;Minimaxi.com/audio&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Intelligence with Everyone.&lt;/p&gt;
-&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://minimaxi.com/news/minimax-speech-28</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:49:05.687881+00:00</crawled>
-    </item>
-    <item>
-      <title>MiniMax Hailuo 2.3 视频复杂表现新高度 &amp; Media Agent</title>
-      <link>https://minimaxi.com/news/minimax-hailuo-23</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2025.10.28&lt;/div&gt;&lt;h1&gt;MiniMax Hailuo 2.3 视频复杂表现新高度 &amp;amp; Media Agent&lt;/h1&gt;&lt;div&gt;&lt;a href="https://platform.minimaxi.com/docs/api-reference/video-generation-intro"&gt;&lt;p&gt;即刻接入 API&lt;/p&gt;&lt;/a&gt;&lt;a href="https://hailuoai.com/"&gt;&lt;p&gt;立即体验海螺&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;br/&gt;今天，我们为大家带来MiniMax视频模型 Hailuo 2.3，在 Hailuo 02 模型的基础上进一步升级动态表现力，画面更加真实、稳定。Hailuo 2.3 模型在肢体动作呈现、风格化以及人物微表情方面实现了显著的效果提升，同时对运动指令响应做进一步优化。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:47&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/7409a7e3-9b93-4f61-a608-8eb0d575cb1d.mp4"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;首先，得益于模型在物理表现与指令遵循进一步的增强，Hailuo 2.3 可以呈现出更加复杂的人物肢体动作，更加流畅自然，精确度和可控性更好。在不同的大动态运镜下，光线方向、明暗过渡和色调，都能实现近乎实拍的视觉效果。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:38&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/71cfe88d-70d7-4efa-b501-eec6ec1f165a.MP4"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;在风格化方面，Hailuo 2.3对动漫、插画类，以及水墨、游戏CG等特殊画风的支持效果更佳。喜欢动漫创作的用户对Hailuo 01 的 Live 模型爱不释手，而 Hailuo 2.3 解锁了更多画风，通用模型的输出效果更稳定、更生动。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:38&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/ccf98ca6-401d-4ec2-ac54-b0d0e99111b9.MP4"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;在 Hailuo 2.3 中，真人面部表演、微表情变化等动作也更自然。我们用细腻的表情变化，打造最动人的角色表演。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F4a25c486-f4be-43d0-80b7-b19b047d4ead.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa770623c-baa5-47b4-8558-7e8c6a24a672.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;除了人的表情、动作呈现得到提升以外，Hailuo 2.3 对物体的运动指令响应也更加出色。正值双十一购物节期间，有创作者在内测期间制作了一些电商广告，抽卡率大幅提高。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F10e1ebf4-8f82-4094-ba6f-efd9962d4aad.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fe5fc1281-dcdd-4865-aea4-1041d023a8fe.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Hailuo 2.3 再次刷新了全球视频模型效果成本纪录，在提升性能表现的同时保持 Hailuo 02 既有价格，B端与C端都“加量不加价”，为全球创作者提供业内最优性价比。此外，我们提供 Hailuo 2.3 Fast 模型，生成速度更快，定价更低，最高可为批量创作降低50%成本。&lt;br/&gt;&lt;br/&gt;
-
-我们在海螺AI网页端、APP客户端及开放平台API中推全了上述的模型更新，并在发布期间每日提供免费试用额度，欢迎体验。我们在持续迭代模型整体水平的同时，会继续针对AI视频的不同应用场景深度优化，解决用户在实际使用中遇到的问题。
-
-今年夏天，我们发布了 Hailuo Video Agent，得到了不错的反响。在海螺创作者的使用和反馈中我们发现，多模态融合创作一定是未来的趋势。&lt;strong&gt;今天，Hailuo Video Agent 正式迭代升级为支持全模态全能创作的 Media Agent，并已经在全球同步上线&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;
-
-输入你想要的内容，Media Agent 自动匹配多模态模型，无需手动剪辑，“一键成片”功能帮你全部搞定。专业创作者也可以在Media Agent中分布创作，自由上传图片、视频或音频，根据需求自由定制成片。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa7a35bc7-c948-4d7a-b2e9-a8e6e5f65b13.gif&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;例如，我们尝试为“Casa Nacho”品牌的玉米片设计一支30秒的广告，可以将想要的场景、色调、运镜风格和音乐等要素输入，来看一看一键成片的效果。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="icon" height="24" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa533807b-9ff6-4f86-a72e-8eb31d0245c1.png&amp;amp;w=48&amp;amp;q=75" width="24"/&gt;&lt;div&gt;00:00&lt;!-- --&gt; / &lt;!-- --&gt;00:30&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt="icon" height="90" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa6b5a26c-e791-400a-9a0d-36f42ea9c727.png&amp;amp;w=256&amp;amp;q=75" width="90"/&gt;&lt;/div&gt;&lt;div&gt;&lt;video controls="controls" src="https://filecdn.minimax.chat/public/4535e623-138e-43d6-ad17-74cb02ed3f7d.mov"&gt;&lt;/video&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;在 Media Agent 后续的更新版本中，对成片链路上的任一Part，我们都可以在画布中与Agent一起调整细节，真正实现“对话即创作”，并把每一个灵感留存。用自然语言与AI交互、共创，也是我们认为下一代应有的工作平台。&lt;br/&gt;&lt;br/&gt;
-
-我们正迎来一个快速变革的时代，而在这个新时代中，AI视频改变了很多人的工作和创造方式。我们希望，Hailuo是创作的全能帮手，也是创新和变革的先锋，让灵感生长成形——又超越一切形。&lt;br/&gt;&lt;br/&gt;
-&lt;p&gt;
-    海螺AI体验链接：
-  &lt;/p&gt;
-&lt;p&gt;
-&lt;a href="https://hailuoai.com/"&gt;https://hailuoai.com/&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;
-    Media Agent体验链接：
-  &lt;/p&gt;
-&lt;p&gt;
-&lt;a href="https://hailuoai.com/agent"&gt;https://hailuoai.com/agent&lt;/a&gt;
-&lt;/p&gt;
-&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
-
-Intelligence with Everyone.
-
-
-
-&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F756afba2-5149-469f-8dc1-9e6f1489bd8c.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://minimaxi.com/news/minimax-hailuo-23</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:48:57.738294+00:00</crawled>
     </item>
     <item>
       <title>Day 0 实现 MiniMax M2.7 六芯落地，众智FlagOS 又双叒叕让大模型多芯可用了！</title>
@@ -461,77 +477,61 @@ Intelligence with Everyone.
       <crawled>2026-07-07T16:48:14.426952+00:00</crawled>
     </item>
     <item>
-      <title>MiniMax Music 2.6：我们想讲四个人的故事</title>
-      <link>https://minimaxi.com/news/music-26</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026-04-10&lt;/div&gt;&lt;h1&gt;MiniMax Music 2.6：我们想讲四个人的故事&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/ba44b483-c46c-4611-8942-470f77750af5.png" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fba44b483-c46c-4611-8942-470f77750af5.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
-&lt;p&gt;今天我们发布 MiniMax Music 2.6。&lt;/p&gt;
-&lt;p&gt;过去几代，我们都在讲模型本身变强了多少。这一次我们想换一种讲法——讲四个人、四段音乐、四件过去做不到的事。因为一个音乐模型的升级，最终不是活在参数表里的，是活在"这一次有人用它做成了一件以前做不成的事"里。&lt;/p&gt;
-&lt;h2&gt;她在做一段需要呼吸的国风&lt;/h2&gt;
-&lt;p&gt;@萧蓠苒苒 是一个做了三年国风短视频的独立创作者，一直在找能用的国风音乐素材。&lt;/p&gt;
-&lt;p&gt;国风里最有辨识度的部分，恰恰是 AI 音乐最做不好的部分。&lt;/p&gt;
-&lt;p&gt;二胡的揉弦、笛子的气口、古筝的扫弦、戏腔的收放——这些不是乐器种类的问题，是演奏细节的问题。过去的 AI 音乐能识别"国风"这个标签，但做出来的东西像一套国风音色包被机械地拼在一起，该有呼吸的地方没有呼吸，该有气口的地方没有气口。&lt;/p&gt;
-&lt;p&gt;Music 2.6 在器乐上不止支持更多乐器，也让乐器之间&lt;span&gt;有了横向的时序演进&lt;/span&gt;。开场可以只有鼓的留白、弦乐和弹拨乐器一层一层进来，旋律和人声最后一起推到顶点。先铺氛围，再入旋律，这是古戏里"仓才仓才"锣鼓开场的章法，也是 AI 音乐开始真正懂国风的进场顺序。&lt;/p&gt;
-&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-1.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
-&lt;p&gt;她现在可以做的事：一条国风短视频的 BGM，从"找现成的、版权模糊的素材"，变成"15 分钟写一段完全符合画面情绪的原创配乐"。&lt;/p&gt;
-&lt;h2&gt;他在给独立游戏配 boss 战&lt;/h2&gt;
-&lt;p&gt;@本命彦祖 的问题是，他在做一款单人开发的动作游戏，预算里没有配乐工作室这一项。&lt;/p&gt;
-&lt;p&gt;过去他有两个选择。一是花几千块买一套 sample library，但 sample library 里的"史诗战斗音乐"就那么几首，买回来的第一天他就知道玩家会听到重复。二是用 AI 音乐生成，但过去的 AI 音乐做史诗感做不到——鼓点是"响"但不是"重"，低频是糊的，推不动 boss 战该有的情绪压迫感。&lt;/p&gt;
-&lt;p&gt;Music 2.6 这一代对中低频做了专门的优化。贝斯和鼓点在下潜深度和咬合紧密度上有了明显提升——具体落到听感上就是：在带低音的耳机里、在车载音响里、在玩家的游戏音响里，鼓和贝斯不会糊成一片，它们能真的推着画面走。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;配合 2.6 对段落结构的理解力提升，他可以在 prompt 里明确写："开局渲染压抑氛围，逐渐过渡到力量觉醒，再到爆发与无敌的姿态"——模型能真的按这个结构来。&lt;/span&gt;&lt;/p&gt;
-&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-2.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
-&lt;p&gt;他现在可以做的事：给一款独立游戏做一整套 boss 战配乐，成本从几千块降到一个下午。&lt;/p&gt;
-&lt;h2&gt;她在挑一份能放在咖啡厅里四小时的独家歌单&lt;/h2&gt;
-&lt;p&gt;@南方易小姐 是一家精品咖啡店的主理人，每天下午 2 点到 6 点的时段需要一份歌单，但她一直挑不到合适的。&lt;/p&gt;
-&lt;p&gt;播放器的咖啡馆歌单要么太有"背景音乐感"——流畅到没有存在感，放了等于没放；要么太有"表演感"——萨克斯 solo 张扬到抢走客人的对话。而咖啡馆需要的音乐有一个反直觉的标准：它必须足够好听到能被注意，又足够克制到不会被讨厌。这个"刚好"的分寸，过去的 AI 音乐几乎做不到。&lt;/p&gt;
-&lt;p&gt;Music 2.6 的人声和旋律处理有一个微妙但重要的变化：它允许"不精准"。在合适的风格区间里（lo-fi、indie folk、独立爵士），这种不精准变成了律动的呼吸感。&lt;/p&gt;
-&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-3.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
-&lt;p&gt;在她创作的《荒野赛跑》中，人声带着一种深夜独处时的随性与倔强，像另一个自我在唱一首写给自己的歌。低频的 Bass 和鼓点与中频的人声能量几乎完全对等，高频被刻意压制在暖厚暗调里。放进咖啡馆里，不会让任何人觉得烦，但偶尔会让某个客人停下来，问一句"这首歌是谁唱的"。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;她现在可以做的事：不再在歌单里挑来挑去，直接告诉 2.6 她想要的情绪和氛围——"深夜感、都市、微醺、不要太亮"&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;她是一个想给妈妈做生日惊喜的女儿&lt;/h2&gt;
-&lt;p&gt;@NYX 是四个人里，以前最做不成自己那件事的一个。&lt;/p&gt;
-&lt;p&gt;她不会编曲，不认识音乐人，预算也有限。她想做的事很简单——妈妈年轻时最喜欢的那首歌，她想用自己的风格重新做一版，作为妈妈生日那天的惊喜。&lt;/p&gt;
-&lt;p&gt;这件事过去没法做。不是因为 AI 音乐生成不了音乐，是因为她要的不是"一首新歌"——她要的是"&lt;span&gt;那首歌&lt;/span&gt;的另一种样子"。旋律必须是妈妈认得出的那条旋律，改的是风格、编曲、氛围。这是一个需要把一首已经存在的歌作为精确约束的任务。&lt;/p&gt;
-&lt;p&gt;这是 Music 2.6 的新功能：&lt;span&gt;Cover&lt;/span&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;你上传一首歌，模型会精准提取它的旋律骨架，然后让你决定骨架之外的一切——风格可以从民谣跳到重金属，编曲可以从古典交响变成赛博朋克电子，甚至可以保留旋律、完全换掉歌词。&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;《友谊地久天长》原曲：&lt;/p&gt;
-&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-4.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
-&lt;p&gt;Cover 版本：&lt;/p&gt;
-&lt;audio controls=""&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-Music-2.6/audio-5.mp3" type="audio/mpeg"/&gt;您的浏览器不支持播放此音频，请更换浏览器。&lt;/audio&gt;
-&lt;p&gt;她现在可以做的事：在生日前一个晚上，花半小时，做出一份过去需要整个编曲团队才能做出的礼物。&lt;/p&gt;
-&lt;h2&gt;这四个人，和剩下的那些人&lt;/h2&gt;
-&lt;p&gt;以上是四个人的故事。但 Music 2.6 的升级不止覆盖这四个人——&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;首包延迟降到 20 秒以内&lt;/span&gt;。当你写完 prompt，短暂的一个深呼吸之后就能听到第一段反馈。过去的"等待感"基本消失。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;指令控制全面增强&lt;/span&gt;。BPM、Key、段落结构、情绪走向都可以写在 prompt 里被模型准确执行。你写下的具体要求，模型会认真执行。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;中低频声学表现系统性优化&lt;/span&gt;。除了前面提到的游戏配乐场景，任何对低频有要求的风格——House、Trap、Drum &amp;amp; Bass——都会直接受益。&lt;/p&gt;
-&lt;p&gt;这些能力在上面四个故事里都有出场，但它们的适用范围比那四个故事宽得多。&lt;/p&gt;
-&lt;h2&gt;还有一种用法：让 Agent 替你用它&lt;/h2&gt;
-&lt;p&gt;上面四个人都是直接和 Music 2.6 打交道。但如果你是一个 AI Agent 开发者，你可能想的不是自己用它做一首歌，而是让我的 Agent 能用它做一首歌。&lt;/p&gt;
-&lt;p&gt;这是我们这次同步开源的三个 Music Skill 要解决的事：&lt;/p&gt;
+      <title>MiniMax Speech 2.8：赋予 AI 语音“人的温度”</title>
+      <link>https://minimaxi.com/news/minimax-speech-28</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026-01-23&lt;/div&gt;&lt;h1&gt;MiniMax Speech 2.8：赋予 AI 语音“人的温度”&lt;/h1&gt;&lt;div&gt;&lt;a href="https://platform.minimaxi.com/docs/guides/speech-t2a-websocket"&gt;&lt;p&gt;即刻接入 API&lt;/p&gt;&lt;/a&gt;&lt;a href="https://www.minimaxi.com/audio"&gt;&lt;p&gt;立即体验语音&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/b94fb26a-aeb5-4303-929e-a28033e26fb1.png" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fb94fb26a-aeb5-4303-929e-a28033e26fb1.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;h2&gt;MiniMax Speech 2.8：赋予 AI 语音"人的温度"&lt;/h2&gt;
+&lt;p&gt;今天，我们正式推出全新的语音大模型 MiniMax Speech 2.8。&lt;/p&gt;
+&lt;p&gt;这次升级不仅仅是参数的提升，更是一次关于"真实感"的突破：我们首次实现了&lt;span&gt;原生语气词支持&lt;/span&gt;，并带来了极高精度的&lt;span&gt;音色还原&lt;/span&gt;、&lt;span&gt;录音棚级音质&lt;/span&gt;以及地道的&lt;span&gt;跨语言表现&lt;/span&gt;。&lt;/p&gt;
+&lt;p&gt;我们致力于解决一个核心目标：让合成语音听起来更像真人在说话。&lt;/p&gt;
+&lt;h2&gt;1. 那些被找回的"语气"：让 AI 学会犹豫与呼吸&lt;/h2&gt;
+&lt;p&gt;过去，AI语音让人感到冰冷，往往是因为它"太完美了"。真正的真人说话，其实充满了不完美的呼吸、停顿和犹豫，这些细节才是传递情绪、强调重点的关键信号。&lt;/p&gt;
+&lt;p&gt;Speech 2.8 模型首次引入了&lt;span&gt;自然语气标签&lt;/span&gt;，通过对口语填充词进行原生建模，让每一个"嗯"、"呃"或者"哎"都保留了应有的停顿和节奏。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;不再被吞掉的"嗯"，不再被拉平的"呃"，说话的温度，从细节开始。&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;语气词范例&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:41&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/b2821759-1fc2-47c1-aa9e-9e728ac117e6.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
+&lt;p&gt;音频文案：&lt;/p&gt;
+&lt;p&gt;"嘿，是我。最近怎么样？(倒吸气)昨天那个上线日，真的是把我折腾得够呛，你是不知道，那种连轴转的感觉。（正常换气）不过还好，我现在总算活过来了，准备开始搬下一块砖。你这会儿听我说话，估计觉得我就是对着麦克风在那儿瞎聊呢，对吧？哎，重点就在这儿了：其实吧……我根本不是真人。我是 MiniMax 最新的 Speech 2.8 模型。怎么样，吓一跳吧？ 你仔细品品，这呼吸声、这语气，甚至还有点随意的碎碎念，是不是跟我本人一模一样？"&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;2. 音色克隆：10 秒钟，复刻你的"声音指纹"&lt;/h2&gt;
+&lt;p&gt;我们重新优化了人声特征的提取流程，使音色克隆的相似度达到了新的高度。&lt;/p&gt;
+&lt;p&gt;仅需 10 秒的原声片段，Speech 2.8 就能精准捕捉到你说话时的质感、气息，甚至是你特有的语速习惯。复刻出来的声音不再只是"听着像"，而是真正还原了你说话的灵魂。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;你的声音不只是"像"，而是"就是"。&lt;/span&gt;&lt;/p&gt;
 &lt;div&gt;
-&lt;p&gt;• &lt;span&gt;minimax-music-gen&lt;/span&gt;：让 Agent 具备完整的音乐生成能力。一句话描述需求，Agent 自动识别意图、选择模式（原创/纯音乐/Cover）、调用生成接口。&lt;/p&gt;
-&lt;/div&gt;
 &lt;div&gt;
-&lt;p&gt;• &lt;span&gt;minimax-music-playlist&lt;/span&gt;：让 Agent 成为你的音乐主理人。它会了解你的听歌喜好，构建品味画像，然后为你生成整份定制歌单。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;• &lt;span&gt;buddy-sings&lt;/span&gt;：让你的虚拟伙伴开口唱歌。联动 OpenClaw，Agent 会读取你定义的角色人格，构建专属的声音身份，以角色第一人称为你即兴创作。去试试看，让一直陪伴你工作的 Moth 唱一首歌吧 ~&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2&gt;现在就试&lt;/h2&gt;
-&lt;p&gt;这四个人的故事，本来都不是 Music 2.6 写的剧本。是他们自己想做的事，我们只是用 AI 做到了能让他们做成的程度。&lt;/p&gt;
-&lt;p&gt;即日起，MiniMax Music 2.6 全球创作内测开启，14 天限免，邀你来创作。&lt;/p&gt;
-&lt;div&gt;
-&lt;p&gt;• C 端产品用户：每个账号每日 500 首免费创作额度&lt;/p&gt;
-&lt;p&gt;• 开发者：现有 Token Plan 用户额外获赠 100 首/天的免费调用额度&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;每一段音乐背后，都是一个在 AI 时代第一次成为音乐创作者的人。&lt;/p&gt;
-&lt;p&gt;你那件想做的事，是什么？&lt;/p&gt;
-&lt;p&gt;C 端产品体验：&lt;a href="https://minimaxi.com/audio/music"&gt;minimaxi.com/audio/music&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;API 接口：&lt;a href="https://platform.minimaxi.com/docs/api-reference/music-generation"&gt;platform.minimaxi.com/docs/api-reference/music-generation&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;原始素材&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/aa54c7eb-02db-4d00-99dc-d43bf50b08a8.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;复刻结果&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/302b1b3d-6ab8-4271-999b-4f209827b3a7.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
+&lt;p&gt;这份复刻案例生动展示了 Speech 2.8 如何精准捕捉"声音的灵魂"：&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;极致丝滑的"成熟质感"&lt;/span&gt;：完美捕捉了原声中低频的胸腔共鸣与细腻的鼻音特征，还原了那种如绸缎般顺滑、带有女性成熟魅力的音色指纹。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;慵懒而自然的"呼吸留白"&lt;/span&gt;：成功复刻了原主在说话间不经意流露出的深呼吸与轻微气声，使得"可能吧"、"谁知道呢"等短句充满了真实的人机互动温度。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;微嘲讽式的"语癖捕捉"&lt;/span&gt;：精准建模了原音频中特有的"慢起快收"节奏，尤其是句尾带有一丝慵懒拖腔的语调习惯，将那种玩味、似褒实贬的情绪还原得淋漓尽致。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;3. 纯净音质：告别背景杂音与数字伪影&lt;/h2&gt;
+&lt;p&gt;我们全面升级了音频处理方案，有效消除了背景杂音和不自然的机械毛刺感。生成的语音更加干净、通透，听起来就像真人坐在你面前录音一样纯净。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;更纯净的声音，更专业的输出。&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;无噪声范例&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 01:03&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/682eea95-6077-41ba-9bb7-c80b79cc94b5.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
+&lt;p&gt;音频文案：&lt;/p&gt;
+&lt;p&gt;在森林的深处，藏着一种不为人知的宁静。当清晨的第一缕微光穿过浓密的枝叶，洒在铺满苔藓的土地上时，整个世界仿佛都停下了脚步。你听，那是风穿过松针的沙沙声，细微得几乎像是耳语。&lt;/p&gt;
+&lt;p&gt;很多时候，我们总是在追赶时间，却忘了如何去感受那些安静的时刻。那些藏在书页翻动声里的专注，那些落在窗棂上的雨滴声，还有深夜里独自思考时的呼吸感。这些细碎的声音，构成了生活最真实的底色。&lt;/p&gt;
+&lt;p&gt;让我们试着在这一份平和中停留片刻，去倾听，去思考，去重新发现那些被嘈杂世界所遮盖的，最本质的温柔。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;4. 跨语言体验改善：从中日场景开始&lt;/h2&gt;
+&lt;p&gt;我们针对跨语言合成中的口音串入问题进行了专项优化。本次率先修正了中文音色合成日语时的发音偏移，消除了此前偶发的音素错位和语调不自然问题。后续将持续优化更多语种组合的跨语言表现。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;一个音色，40+种语言，每一种都像母语者在说话。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;中日混合范例&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;中日混合范例&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/831a01aa-41d7-40e1-b251-295f4c9eb6aa.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
+&lt;p&gt;音频文案：&lt;/p&gt;
+&lt;p&gt;关于这次项目的进展，总体来说已经完成得不错了。&lt;/p&gt;
+&lt;p&gt;ただ、技術的な詳細については、もう少し検討する必要があります。&lt;/p&gt;
+&lt;p&gt;我们需要在下周前把最终方案定下来，どうぞよろしくお願いします。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;p&gt;Speech 2.8 已经全面上线，欢迎使用：&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;MiniMax开放平台:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://platform.minimaxi.com/docs/guides/models-intro"&gt;Platform.minimaxi.com/docs/guides/models-intro&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MiniMax Audio:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://minimaxi.com/audio"&gt;Minimaxi.com/audio&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Intelligence with Everyone.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://minimaxi.com/news/music-26</guid>
+&lt;/div&gt;&lt;/main&gt;</description>
+      <guid isPermaLink="false">https://minimaxi.com/news/minimax-speech-28</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:49:12.497953+00:00</crawled>
+      <crawled>2026-07-07T16:49:05.687881+00:00</crawled>
     </item>
     <item>
       <title>开放通用智能，MiniMax H3 正式开源</title>

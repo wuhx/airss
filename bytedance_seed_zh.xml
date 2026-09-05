@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Sep 2026 06:32:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 00:24:06 +0000</lastBuildDate>
     <item>
       <title>25 篇成果入选，字节跳动 Seed 与你共赴 ICML 2025</title>
       <link>https://seed.bytedance.com/zh/research/25-篇成果入选-字节跳动-seed-与你共赴-icml-2025</link>
@@ -152,7 +152,7 @@ ShadowKV 将 KV cache offload 到 CPU，同时，在 GPU 上保留低秩 Key cac
 团队为此开发了一个 2D 物理仿真测试平台，该平台能生成由一个或多个经典力学定律控制的物体运动与碰撞视频，**旨在评估基于扩散方法的视频生成模型在预测物体运动任务中，性能的规模化效应（scaling effect）。**
 
 &lt;br/&gt;
-&lt;p&gt;&lt;video alt="video" controls="" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4td5bmd33ccr3.mp4"&gt;&lt;/video&gt;
+&lt;p&gt;&lt;video alt="video" controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4td5bmd33ccr3.mp4"&gt;&lt;/video&gt;
 &lt;p&gt;&lt;span&gt;Phyworld 实验动画演示&lt;/span&gt;&lt;/p&gt;
 &lt;br/&gt; 
 
@@ -269,7 +269,6 @@ ShadowKV 将 KV cache offload 到 CPU，同时，在 GPU 上保留低秩 Key cac
 &lt;/p&gt;</description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/25-篇成果入选-字节跳动-seed-与你共赴-icml-2025</guid>
       <pubDate>Sun, 13 Jul 2025 16:00:00 +0000</pubDate>
-      <crawled>2026-07-07T09:36:53.784296+00:00</crawled>
     </item>
     <item>
       <title>Seed Research｜4B 模型数学推理接近 235B 表现，Seed 最新强化学习配方全面开源</title>
@@ -563,6 +562,7 @@ POLARIS 采用多阶段的训练方式，在早期阶段，模型使用较短的
 </description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/seed-research-4b-模型数学推理接近-235b-表现-seed-最新强化学习配方全面开源</guid>
       <pubDate>Mon, 14 Jul 2025 16:00:00 +0000</pubDate>
+      <crawled>2026-07-07T09:36:53.441203+00:00</crawled>
     </item>
     <item>
       <title>Seed Research｜4B 模型数学推理接近 235B 表现，Seed 最新强化学习配方全面开源</title>
@@ -856,6 +856,7 @@ POLARIS 采用多阶段的训练方式，在早期阶段，模型使用较短的
 </description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/seed-research-4b-模型数学推理接近-235b-表现-seed-最新强化学习配方全面开源</guid>
       <pubDate>Mon, 14 Jul 2025 16:00:00 +0000</pubDate>
+      <crawled>2026-07-07T09:36:53.441203+00:00</crawled>
     </item>
     <item>
       <title>Seed Research￨通用机器人模型 GR-3 发布！支持高泛化、长程任务、柔性物体双臂操作</title>
@@ -1568,6 +1569,7 @@ Seed Prover 的轻量级测试时扩展设置为每个证明最多迭代 8 次�
 Seed Prover 在数学竞赛题中的表现，展现了将大语言模型与形式化验证相结合的潜力。团队采取的推理时间扩展策略通过深度且广泛的思考，显著提升了系统性能。不过，竞赛数学并不能代表所有的数学领域，团队未来的目标是在更广泛的数学课题上进行探索。</description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/字节跳动-seed-prover-取得-imo-2025-银牌分数</guid>
       <pubDate>Tue, 22 Jul 2025 16:00:00 +0000</pubDate>
+      <crawled>2026-07-07T09:36:52.719566+00:00</crawled>
     </item>
     <item>
       <title>字节跳动 Seed Prover 取得 IMO 2025 银牌分数</title>
@@ -1702,6 +1704,7 @@ Seed Prover 的轻量级测试时扩展设置为每个证明最多迭代 8 次�
 Seed Prover 在数学竞赛题中的表现，展现了将大语言模型与形式化验证相结合的潜力。团队采取的推理时间扩展策略通过深度且广泛的思考，显著提升了系统性能。不过，竞赛数学并不能代表所有的数学领域，团队未来的目标是在更广泛的数学课题上进行探索。</description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/字节跳动-seed-prover-取得-imo-2025-银牌分数</guid>
       <pubDate>Tue, 22 Jul 2025 16:00:00 +0000</pubDate>
+      <crawled>2026-07-07T09:36:52.719566+00:00</crawled>
     </item>
     <item>
       <title>Seed 端到端同声传译大模型发布：准确率接近真人，3s 延迟，实时声音复刻</title>
@@ -2760,17 +2763,6 @@ RoboCup 足球赛场上的表现，是我们在技术探索路上的一小步。
     <item>
       <title>解锁任意模态模型训练，字节跳动 Seed 开源 VeOmni 框架</title>
       <link>https://seed.bytedance.com/zh/research/解锁任意模态模型训练-字节跳动-seed-开源-veomni-框架</link>
-      <description>&lt;div&gt;
-&lt;span&gt;具体代码见：&lt;/span&gt;
-&lt;a href="https://github.com/ByteDance-Seed/VeOmni/blob/main/veomni/ops/attention.py"&gt;https://github.com/ByteDance-Seed/VeOmni/blob/main/veomni/ops/attention.py&lt;/a&gt;
-&lt;/div&gt;</description>
-      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/解锁任意模态模型训练-字节跳动-seed-开源-veomni-框架</guid>
-      <pubDate>Wed, 13 Aug 2025 16:00:00 +0000</pubDate>
-      <crawled>2026-07-07T09:29:34.750292+00:00</crawled>
-    </item>
-    <item>
-      <title>解锁任意模态模型训练，字节跳动 Seed 开源 VeOmni 框架</title>
-      <link>https://seed.bytedance.com/zh/research/解锁任意模态模型训练-字节跳动-seed-开源-veomni-框架</link>
       <description>
 &lt;section&gt;
 &lt;span&gt;&lt;span&gt;近年来，大模型技术正从单一文本模态，向包含图像、语音、视频等多种信息的“全模态”（Omni-Modal）理解生成方向演进。但目前训练一个能“看”、能“听”、能“说”的全能模型，依然面临着系统性的工程挑战。&lt;/span&gt;&lt;/span&gt;
@@ -3131,7 +3123,16 @@ RoboCup 足球赛场上的表现，是我们在技术探索路上的一小步。
 </description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/解锁任意模态模型训练-字节跳动-seed-开源-veomni-框架</guid>
       <pubDate>Wed, 13 Aug 2025 16:00:00 +0000</pubDate>
-      <crawled>2026-07-07T09:29:34.750292+00:00</crawled>
+    </item>
+    <item>
+      <title>解锁任意模态模型训练，字节跳动 Seed 开源 VeOmni 框架</title>
+      <link>https://seed.bytedance.com/zh/research/解锁任意模态模型训练-字节跳动-seed-开源-veomni-框架</link>
+      <description>&lt;div&gt;
+&lt;span&gt;具体代码见：&lt;/span&gt;
+&lt;a href="https://github.com/ByteDance-Seed/VeOmni/blob/main/veomni/ops/attention.py"&gt;https://github.com/ByteDance-Seed/VeOmni/blob/main/veomni/ops/attention.py&lt;/a&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/解锁任意模态模型训练-字节跳动-seed-开源-veomni-框架</guid>
+      <pubDate>Wed, 13 Aug 2025 16:00:00 +0000</pubDate>
     </item>
     <item>
       <title>字节跳动 Seed 开源语言模型 Seed-OSS 系列</title>
@@ -4903,10 +4904,10 @@ Seed-OSS-36B-Instruct 是基于 Seed-OSS-36B-Base 进行后训练的模型版本
 &lt;section&gt;
 &lt;/section&gt;
 &lt;section&gt;
-&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247484993&amp;amp;idx=1&amp;amp;sn=10b3b6e1261b957de9391c72e7c401bc&amp;amp;scene=21#wechat_redirect"&gt;&lt;/a&gt;
+&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247484993&amp;amp;idx=1&amp;amp;sn=10b3b6e1261b957de9391c72e7c401bc&amp;amp;scene=21#wechat_redirect"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;
 &lt;/section&gt;
 &lt;section&gt;
-&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247492735&amp;amp;idx=1&amp;amp;sn=55ec7ab528a5cea7a808576cea4873bf&amp;amp;scene=21#wechat_redirect"&gt;&lt;/a&gt;
+&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247492735&amp;amp;idx=1&amp;amp;sn=55ec7ab528a5cea7a808576cea4873bf&amp;amp;scene=21#wechat_redirect"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;
 &lt;/section&gt;
 &lt;section&gt;
 &lt;/section&gt;
@@ -4914,6 +4915,7 @@ Seed-OSS-36B-Instruct 是基于 Seed-OSS-36B-Base 进行后训练的模型版本
 </description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/depth-anything-3-单一-transformer-架构实现任意视角空间重建</guid>
       <pubDate>Wed, 26 Nov 2025 16:00:00 +0000</pubDate>
+      <crawled>2026-07-07T09:29:33.972214+00:00</crawled>
     </item>
     <item>
       <title>Depth Anything 3：单一 Transformer 架构实现任意视角空间重建</title>
@@ -5161,10 +5163,10 @@ Seed-OSS-36B-Instruct 是基于 Seed-OSS-36B-Base 进行后训练的模型版本
 &lt;section&gt;
 &lt;/section&gt;
 &lt;section&gt;
-&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247484993&amp;amp;idx=1&amp;amp;sn=10b3b6e1261b957de9391c72e7c401bc&amp;amp;scene=21#wechat_redirect"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247484993&amp;amp;idx=1&amp;amp;sn=10b3b6e1261b957de9391c72e7c401bc&amp;amp;scene=21#wechat_redirect"&gt;&lt;/a&gt;
 &lt;/section&gt;
 &lt;section&gt;
-&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247492735&amp;amp;idx=1&amp;amp;sn=55ec7ab528a5cea7a808576cea4873bf&amp;amp;scene=21#wechat_redirect"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247492735&amp;amp;idx=1&amp;amp;sn=55ec7ab528a5cea7a808576cea4873bf&amp;amp;scene=21#wechat_redirect"&gt;&lt;/a&gt;
 &lt;/section&gt;
 &lt;section&gt;
 &lt;/section&gt;
@@ -5172,6 +5174,7 @@ Seed-OSS-36B-Instruct 是基于 Seed-OSS-36B-Base 进行后训练的模型版本
 </description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/depth-anything-3-单一-transformer-架构实现任意视角空间重建</guid>
       <pubDate>Wed, 26 Nov 2025 16:00:00 +0000</pubDate>
+      <crawled>2026-07-07T09:29:33.972214+00:00</crawled>
     </item>
     <item>
       <title>GR-RL 发布：突破 VLA 精细操作瓶颈，首次实现真机强化学习穿鞋带</title>
@@ -5879,259 +5882,6 @@ Seed-OSS-36B-Instruct 是基于 Seed-OSS-36B-Base 进行后训练的模型版本
       <description>
 &lt;p&gt;&lt;span&gt;&lt;span&gt;舞台中央，灯光聚焦，随着一段高亢的旦角唱腔，角色完成了一连串配合鼓点的长枪动作。这并非真实演出，而是
       Seedance 1.5 pro
-      尝试一镜生成的创作片段，其演绎与专业戏曲表演尚有很大差距，但声韵已初见雏形。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hld15.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;注：生成视频中角色的唱腔、妆造及身段与真实剧种规范仍有明显差距，台词也非传统戏文，仅作为 &lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;AI &lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;技术对戏曲美学的一次初步探索。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;section&gt;
-&lt;span&gt;&lt;span&gt;今天，我们正式发布新一代音视频创作模型 Seedance 1.5 pro。&lt;/span&gt;&lt;/span&gt;
-&lt;/section&gt;
-&lt;p&gt;
-&lt;span&gt;Seedance 1.5 pro
-    支持音视频联合生成，它能够执行多种任务，包括从文本到音视频的合成以及图像引导的音视频生成等。至此，Seedance
-    视频生成不再局限于视觉维度，而是自然融合了声音。&lt;/span&gt;
-&lt;/p&gt;
-&lt;section&gt;
-&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mj8gw1vp.jpg" type="block"/&gt;
-&lt;/section&gt;
-&lt;p&gt;
-&lt;span&gt;在 Seedance 1.0
-    版本中，我们更侧重改善模型表现的“下限”，优化了运动生成的稳定性；&lt;span&gt;而 Seedance 1.5 pro
-      除了支持音频同步生成外，还致力于提升视觉冲击力和运动效果的“上限”。&lt;/span&gt;通过采用更加大胆的技术方案，Seedance 1.5 pro
-    在视听协同、视觉张力和叙事协调性等方面实现突破：&lt;/span&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;精准音画同步与多语言、方言支持：&lt;/span&gt;&lt;span&gt;模型在生成中实现了较高的视听一致性，提升了角色的口型、语调与表演节奏的拟合精度。模型原生支持多语种和特色方言口音，能够捕捉其独有的语音韵律与情感张力。&lt;/span&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;电影级运镜控制与动态张力：&lt;/span&gt;&lt;span&gt;模型具备自发的镜头调度能力，可执行长镜头跟随、希区柯克变焦等高难度运镜，同时还能实现电影级的画面衔接与专业影调，大幅提升了视频的动态张力。&lt;/span&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;语义理解与叙事协调性增强：&lt;/span&gt;&lt;span&gt;通过增强语义理解，模型实现了对叙事语境的较好解析。它显著提升了音视频段落的整体叙事协调性，为专业级内容创作提供有力支撑。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;
-&lt;span&gt;在综合评测中，Seedance 1.5 pro
-    取得领先的结果，各项关键能力处于业界前列。目前，Seedance 1.5 pro
-    已上线即梦AI和豆包，欢迎使用反馈。&lt;/span&gt;
-&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;strong&gt;&lt;span&gt;Model Card：&lt;span&gt;https://arxiv.org/pdf/2512.13507&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;strong&gt;&lt;span&gt;项目主页：&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;https://seed.bytedance.com/seedance1_5_pro&lt;/span&gt;&lt;/strong&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;strong&gt;&lt;span&gt;&lt;span&gt;体验入口：&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;（1）即梦网页端-视频生成-选择视频3.5 Pro；&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;（2）豆包 App 对话框-照片动起来-上传照片-选择 1.5 Pro 模型-输入
-      prompt（内测中）&lt;/span&gt;
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;&lt;span&gt;﻿&lt;/span&gt;&lt;br/&gt;&lt;/h2&gt;
-&lt;h2&gt;
-&lt;span&gt;不止音画，更有叙事&lt;/span&gt;
-&lt;/h2&gt;
-&lt;h2&gt;
-&lt;span&gt;从素材生成到作品表达&lt;/span&gt;
-&lt;/h2&gt;
-&lt;p&gt;
-&lt;span&gt;Seedance 1.5 pro
-    不再满足于生成简单的内容片段，而是将视频和音频视为一个整体，以满足多样化的创作需求。模型对视听协同、动态调度和文化语境的掌握，使其在影视创作、短剧生成、广告生产及戏曲演绎等场景中，均展现出较好的叙事表现力与视听融合度。&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;接下来，我们将通过具体场景，拆解 Seedance 1.5 pro 如何助力专业创作。&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;1. 细腻连贯的叙事表现力，支持影视艺术创作&lt;/span&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;Seedance 1.5 pro
-    在语义理解上实现了较大提升，这使它能够解析细腻复杂的人类情感，并将其转化为富有张力的艺术表达。同时，依靠高精度的视听协同，模型可深度融合语音、画面和场景氛围，生成相对一致的精细呈现，从而增强内容的叙事感染力。&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;在特写镜头中，模型展现出细腻的情绪捕捉能力。即使在没有台词的情况下，它也能通过细微的表情变化延续情绪铺垫。例如，在生成的赛博朋克电影感视频中，模型可根据指令推测故事背景，并精细演绎人物状态，其情绪变化自然且富有层次，与环境和音乐氛围达到统一。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hmxth.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;/section&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;Demo 观看提示：可调大音量，效果更佳&lt;/span&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;T2V
-        prompt：赛博朋克废墟风格，冷暖光影交替。镜头手持跟随年轻东亚女性，特写捕捉她从眼眶含泪的压抑悲伤，随着朝阳金光洒在脸上，神情转为温柔坚定的微表情变化。人物皮肤具备真实胶片质感，浅景深背景虚化。&lt;/span&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-&lt;span&gt;除了带有故事感的特写镜头生成，Seedance 1.5 pro
-    还可根据提示语组织出具备基本叙事结构的镜头序列。比如，在动漫作品创作中，模型能生成烟火绽放、男女主日语告白的多个连续镜头，配合情绪化声线，展现出流畅的叙事逻辑。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hnuiv.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;/section&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;T2V
-        prompt：夏日花火大会动漫风格，烟花绽放提供柔和轮廓光。镜头从全景烟花推至人群中穿和服的男女主，特写镜头捕捉女生做告白前的心理准备，男生羞涩开口「実は...」，女生抢先一步告白「大好きです」，两人互表心意后亲密相拥。烟花声、人群环境声与日语对白融合，营造浪漫且连贯的叙事氛围。&lt;/span&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;
-&lt;span&gt;&lt;span&gt;2. 专业运镜与动态张力，满足高难度场景需求&lt;/span&gt;&lt;/span&gt;
-&lt;/h3&gt;
-&lt;p&gt;
-&lt;span&gt;Seedance 1.5 pro
-    优化了运镜控制和动态张力，能更好地应对高难度的复杂场景生成。&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;模型可以相对从容地演绎高动态、高冲击力的运动场景。在滑雪视频中，通过声音和画面运动的协同，Seedance
-    1.5 pro
-    创造了强烈的临场感：镜头高速侧切紧随滑雪者轨迹，雪雾迸溅的瞬间被细腻捕捉，真实还原了极限运动的速度与力量。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hohek.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;&lt;br/&gt;
-&lt;/section&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;I2V
-        prompt：滑雪者身着专业装备在雪山背景中展现敏捷技巧。镜头以长镜头低角度跟随滑雪者滑下雪坡，捕捉卡宾切刃、雪雾炸开瞬间，随后快切至慢镜头特写，最后跟随滑雪者转向冲出弯道。背景音乐为动感
-        Future Bass，配合风声环境音，整体氛围充满活力。&lt;/span&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-&lt;span&gt;同时，模型具备自发的运镜调度能力，能够执行高难度镜头运动，可应对精度要求较高的生成场景。在模拟红毯首映礼场景时，模型能生成镜头快速摇移的效果，营造现场的匆忙与繁华，配合女生清晰的中文说话声，有效还原了现场氛围。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hvi14.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;&lt;br/&gt;
-&lt;/section&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;T2V
-        prompt：身穿晚礼服的亚洲时尚博主在红毯出镜，兴奋地说道：“空气里都是香水和野心的味道！今晚的红毯简直是时装编年史的现场，快跟我来捕捉那个高光时刻！”&lt;/span&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-&lt;span&gt;在生成的扫地机器人宣传片中，画面可按商业广告片风格缓慢地推动镜头，并紧密追随机器人的运动，较好地聚焦产品。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hw3cw.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;&lt;br/&gt;
-&lt;/section&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;T2V&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt; prompt：极简主义现代豪宅，落日余晖倒映在大理石地面。一台黑色高端洗地机，自动工作时发出幽幽蓝光探测灰尘。运镜采用贴地低角度跟随，展示机器流线线条。音频配合
-        AI 女声口播：“&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;看不见的微尘，才是过敏的元凶。激光显尘，智能变频，把地板还给赤脚行走的自由。”&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;3. 支持多语种和方言，增强喜剧等风格化表演质感&lt;/span&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;Seedance 1.5 pro
-    支持多语种语音生成，能够相对自然地呈现中文、英文、日文、韩语、西班牙语、印尼语等语种的声韵。尤其在中文语境下，模型还能模拟四川语、粤语等多种方言口音，为短剧和娱乐内容提供了更自然的表演质感。&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;例如，大熊猫啃竹子时突然用四川口音对着镜头吐槽，模型能匹配方言的声韵和表情，赋予视频鲜活的生命力。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hwnnm.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;&lt;br/&gt;
-&lt;/section&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;T2V
-        prompt：实拍高级质感。竹林中一只真实的熊猫拿竹子咀嚼，突然停下用四川话吐槽：“今天的竹子咋有点老哦！啷个的喃？有点造孽哦~”。随后镜头急推至近特写，熊猫歪头狡黠一笑，凑近镜头压低声音说：“喂，摄像的大哥，帮我点个外卖要得不！要微辣的哈！”&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;4. 精准音效生成，提升游戏等视听内容沉浸感&lt;/span&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;除了人声，Seedance 1.5 pro
-    对环境音效和音乐氛围同样有较好的理解。模型能够根据画面内容叠加环境音，营造空间感，实现“所见即所听”。&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;在像素风游戏片段中，模型不仅实现了随角色跑步、跳跃而流畅跟随的运镜，还可同步生成契合场景的
-    8-bit 游戏音效，展现了在快节奏运动中的音画协同。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hxaoh.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;&lt;br/&gt;
-&lt;/section&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;T2V prompt：8-bit
-        像素艺术风格，勇者夕阳下奔跑跳跃，带扫描线效果，复古电子游戏配乐。&lt;/span&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-&lt;span&gt;在 3D
-    风格的游戏片段中，模型生成了细节丰富的开放世界，且随着角色移动，脚步声与喘息声精准同步，配合远处低沉的乌鸦鸣叫，提升了视听交互的沉浸感。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hxkau.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;&lt;br/&gt;
-&lt;/section&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;I2V&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt; prompt：3D 游戏&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt; CG
-        视频，皮夹克男人在废弃教堂遗址中行动，他警觉停下，确认安全后冲刺，最后在拱门边缘急&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;停观察。画面采用左侧高窗逆光拍摄，呈现暖色调黄褐色。音频精准叠加脚步声、心跳声和猫头鹰叫声，配合紧张背景乐营造悬疑氛围。&lt;/span&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-&lt;span&gt;依托上述能力， Seedance 1.5 pro
-    可有力支持影视、广告、短剧、动漫等类型化创作。尤其在 I2V
-    任务中，模型展现出较强的风格一致性，有效保持了多镜头切换与复杂运动中的人物特征稳定，提升了从素材片段到成片制作的连贯性。&lt;/span&gt;
-&lt;/p&gt;
-&lt;section&gt;&lt;span&gt;&lt;/span&gt;&lt;/section&gt;
-&lt;h2&gt;&lt;span&gt;﻿&lt;/span&gt;&lt;span&gt;﻿&lt;/span&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;Seedance 1.5 pro &lt;/span&gt;&lt;span&gt;评测结果&lt;/span&gt;&lt;/h2&gt;
-&lt;h2&gt;
-&lt;span&gt;指令遵循&lt;/span&gt;&lt;span&gt;、音频表现突出&lt;/span&gt;
-&lt;/h2&gt;
-&lt;p&gt;
-&lt;span&gt;为了客观评估模型的综合能力，团队建立了综合评测基准 SeedVideoBench
-    1.5。该测试集由影视导演与技术专家联合制定评估标准，重点考察模型在视觉复杂指令遵循、运动稳定性与生动性、美学质量，以及音频指令遵循、音画同步、音质表现力等维度的表现。&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;在视频生成方面，相比对比评测的其他模型，Seedance 1.5 pro
-    对动作、镜头等复杂指令的理解相对精准，可更好匹配提示词设定的叙事与影像风格。评测显示，其动态表现较为饱满，人物表情特写生动，复杂运镜相对流畅且与参考图风格衔接自然统一，整体画面质感更贴近实拍；不过，其运动稳定性仍有提升空间。&lt;/span&gt;
-&lt;/p&gt;
-&lt;section&gt;
-&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mj8gw21c.jpg" type="block"/&gt;
-&lt;/section&gt;
-&lt;p&gt;
-&lt;span&gt;Seedance 1.5 pro 视频生成能力评测&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;在音频生成方面， Seedance 1.5 pro
-    处于业内头部水平。模型在音频指令遵循、音画同步、音质与表现力等维度表现稳定且均衡：能相对准确地生成匹配的人声与指定音效，尤其在中文台词场景中具备较高的完整性与发音清晰度，并可响应多种方言指令。&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;相比同类模型，Seedance 1.5 pro
-    生成的人声相对更自然、机械感更少，音效真实感与空间混响较为贴近实际，同时音画错位现象显著减少。尽管后续仍需重点提升其在多角色交替对话及歌唱类场景的表现，但综合来看，该模型已能部分应用于中文及方言对白驱动的短剧、舞台演艺及电影类叙事场景。&lt;/span&gt;
-&lt;/p&gt;
-&lt;section&gt;&lt;span&gt;&lt;/span&gt;&lt;/section&gt;
-&lt;section&gt;
-&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mj8gw2ar.jpg" type="block"/&gt;
-&lt;/section&gt;
-&lt;p&gt;
-&lt;span&gt;Seedance 1.5 pro 音频生成能力评测&lt;/span&gt;&lt;/p&gt;&lt;h2&gt;&lt;span&gt;﻿&lt;/span&gt;
-&lt;/h2&gt;
-&lt;h2&gt;
-&lt;span&gt;多&lt;/span&gt;&lt;span&gt;模态&lt;/span&gt;&lt;span&gt;联合生成架构&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/h2&gt;&lt;span&gt;
-&lt;/span&gt;&lt;h2&gt;&lt;span&gt;
-&lt;/span&gt;&lt;span&gt;实现视听流精准协同&lt;/span&gt;
-&lt;/h2&gt;
-&lt;p&gt;
-&lt;span&gt;Seedance 1.5 pro
-    采用音视频联合生成的基座模型设计，通过底层架构、数据链路、后训练与推理环节的重构，提升了模型在多样化复杂任务中的泛化性能。&lt;/span&gt;
-&lt;/p&gt;
-&lt;section&gt;
-&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mj8gw2ec.jpg"/&gt;
-&lt;/section&gt;
-&lt;p&gt;&lt;em&gt;&lt;span&gt;Seedance 1.5 pro 训推框架图&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;&lt;span&gt;&lt;span&gt;多&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;&lt;span&gt;模态&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;&lt;span&gt;联合架构&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;&lt;span&gt;：&lt;/span&gt;团队提出了一种基于 MMDiT
-        架构的统一音视频联合生成框架，通过深度跨模态信息交互机制，实现了视觉与听觉流在时间同步与语义一致性上的精准协同。通过在大规模混合模态数据集上进行多任务训练，我们的模型在各种下游任务中实现了稳健的泛化能力。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;&lt;span&gt;&lt;span&gt;多阶段数据 Pipeline&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;&lt;span&gt;：&lt;/span&gt;团队设计了平衡音视频一致性、运动表现力与课程化调度的多阶段数据链路。该方案显著增强了视频描述的丰富度与专业性，并融入音频描述，为高保真音视频生成任务提供了高质量、多样化的数据基础。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;&lt;span&gt;&lt;span&gt;精细化后训练优化&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;&lt;span&gt;：&lt;/span&gt;团队采用了高质量音视频数据集进行监督微调
-        (SFT)，并引入专为音视频场景定制的 RLHF
-        算法。具体而言，多维奖励模型有效增强了文生视频 (T2V) 和图生视频 (I2V)
-        任务的表现，全面提升了运动质量、视觉美感及音频保真度。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;&lt;span&gt;&lt;span&gt;高效推理加速&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;&lt;span&gt;：&lt;/span&gt;团队进一步优化了多阶段蒸馏框架，大幅降低生成所需的函数评估次数
-        (NFE)。通过集成量化、并行等推理基础设施优化，在保持模型性能的同时，实现了超过
-        10 倍的端到端推理加速。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;总结与展望&lt;/span&gt;&lt;/h2&gt;
-&lt;section&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;/section&gt;
-&lt;p&gt;
-&lt;span&gt;相较我们的前代视频生成模型 Seedance 1.0，Seedance 1.5 pro
-    在沉浸式音画体验和作品级叙事表达上迈出关键一步。&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;依托音视频联合架构与精细化后训练，Seedance 1.5 pro
-    实现了对多模态指令的较好遵循——无论是在影视级的高动态运镜，还是对口型精准度有要求的方言表演中，它均展现出较高潜力。不过，我们也注意到，模型在高难度运动的物理稳定性、多角色对话及演唱等方面仍有提升空间。&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;未来，Seed
-    团队将致力于突破更长时长的叙事生成与更实时的端侧体验，并进一步增强模型对物理世界规律的理解及其多模态感知能力。我们希望
-    Seedance
-    系列模型能更生动、更高效、更懂用户，助力创作者打破感官界限，实现视听创意。&lt;/span&gt;&lt;/p&gt;&lt;section&gt;
-&lt;/section&gt;
-&lt;p&gt;&lt;mp-style-type&gt;&lt;/mp-style-type&gt;&lt;/p&gt;
-</description>
-      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/声画俱全-一镜入戏-seedance-1-5-pro-音视频创作模型正式发布</guid>
-      <pubDate>Tue, 16 Dec 2025 10:47:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>声画俱全，一镜入戏 | Seedance 1.5 pro 音视频创作模型正式发布</title>
-      <link>https://seed.bytedance.com/zh/research/声画俱全-一镜入戏-seedance-1-5-pro-音视频创作模型正式发布</link>
-      <description>
-&lt;p&gt;&lt;span&gt;&lt;span&gt;舞台中央，灯光聚焦，随着一段高亢的旦角唱腔，角色完成了一连串配合鼓点的长枪动作。这并非真实演出，而是
-      Seedance 1.5 pro
       尝试一镜生成的创作片段，其演绎与专业戏曲表演尚有很大差距，但声韵已初见雏形。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hld15.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;注：生成视频中角色的唱腔、妆造及身段与真实剧种规范仍有明显差距，台词也非传统戏文，仅作为 &lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;AI &lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;技术对戏曲美学的一次初步探索。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;/p&gt;
 &lt;section&gt;
@@ -6378,327 +6128,261 @@ Seed-OSS-36B-Instruct 是基于 Seed-OSS-36B-Base 进行后训练的模型版本
 </description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/声画俱全-一镜入戏-seedance-1-5-pro-音视频创作模型正式发布</guid>
       <pubDate>Tue, 16 Dec 2025 10:47:38 +0000</pubDate>
+      <crawled>2026-07-07T09:29:33.495921+00:00</crawled>
     </item>
     <item>
-      <title>通用 Agent 模型 Seed1.8 正式发布</title>
-      <link>https://seed.bytedance.com/zh/research/通用-agent-模型-seed1-8-正式发布</link>
+      <title>声画俱全，一镜入戏 | Seedance 1.5 pro 音视频创作模型正式发布</title>
+      <link>https://seed.bytedance.com/zh/research/声画俱全-一镜入戏-seedance-1-5-pro-音视频创作模型正式发布</link>
       <description>
-&lt;section&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;span&gt;随着大模型任务范围不断扩展，我们注意到，用户需求正从获取建议、查询信息，转向让模型直接执行复杂工作流。这意味着，通用模型必须具备更广泛的能力，超越现有语言生成的范畴。&lt;/span&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;span&gt;&lt;span&gt;在此背景下，我们正式推出通用 Agent 模型 Seed1.8&lt;/span&gt;，它具备强大的多模态能力，支持图文输入，能在信息检索、代码生成、GUI
-    交互及复杂工作流等场景中高效精准地完成任务，满足日益多元的技术需求。&lt;/span&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;span&gt;以下是 Seed1.8 的三大核心特点&lt;/span&gt;&lt;span&gt;：&lt;/span&gt;
-&lt;/section&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;&lt;span&gt;通用 Agent 模型：&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;Seed1.8 集搜索、代码与 GUI Agent
-        能力于一体，其原生基座视觉能力使它能够“看见”并直接与界面交互。&lt;/span&gt;
+&lt;p&gt;&lt;span&gt;&lt;span&gt;舞台中央，灯光聚焦，随着一段高亢的旦角唱腔，角色完成了一连串配合鼓点的长枪动作。这并非真实演出，而是
+      Seedance 1.5 pro
+      尝试一镜生成的创作片段，其演绎与专业戏曲表演尚有很大差距，但声韵已初见雏形。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hld15.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;注：生成视频中角色的唱腔、妆造及身段与真实剧种规范仍有明显差距，台词也非传统戏文，仅作为 &lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;AI &lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;技术对戏曲美学的一次初步探索。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;&lt;span&gt;低延迟、高效应答：&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;Seed1.8
-        支持三种思考模式，能够根据任务的复杂度自动调整处理方式，它还优化了图片编码需要的
-        token 数量，在无损智能的前提下大幅提升了推理效率。&lt;/span&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;&lt;span&gt;对接真实世界需求：&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;我们对 Seed1.8
-        进行了严格模拟真实工作流的评估测试，其在需求广泛的信息检索、意图识别、复杂指令遵循等场景表现良好。&lt;/span&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;section&gt;
-&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;今天，我们正式发布新一代音视频创作模型 Seedance 1.5 pro。&lt;/span&gt;&lt;/span&gt;
 &lt;/section&gt;
 &lt;p&gt;
-&lt;span&gt;基于我们建立的以现实需求为导向的内部评测体系，结合公开基准，我们对 Seed1.8
-    进行了全面系统的能力测试，完整结果详见 Model Card。下文将分别介绍 Seed 1.8
-    在通用 Agent、LLM 和 VLM 关键能力项上的表现。&lt;/span&gt;
+&lt;span&gt;Seedance 1.5 pro
+    支持音视频联合生成，它能够执行多种任务，包括从文本到音视频的合成以及图像引导的音视频生成等。至此，Seedance
+    视频生成不再局限于视觉维度，而是自然融合了声音。&lt;/span&gt;
+&lt;/p&gt;
+&lt;section&gt;
+&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mj8gw1vp.jpg" type="block"/&gt;
+&lt;/section&gt;
+&lt;p&gt;
+&lt;span&gt;在 Seedance 1.0
+    版本中，我们更侧重改善模型表现的“下限”，优化了运动生成的稳定性；&lt;span&gt;而 Seedance 1.5 pro
+      除了支持音频同步生成外，还致力于提升视觉冲击力和运动效果的“上限”。&lt;/span&gt;通过采用更加大胆的技术方案，Seedance 1.5 pro
+    在视听协同、视觉张力和叙事协调性等方面实现突破：&lt;/span&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;精准音画同步与多语言、方言支持：&lt;/span&gt;&lt;span&gt;模型在生成中实现了较高的视听一致性，提升了角色的口型、语调与表演节奏的拟合精度。模型原生支持多语种和特色方言口音，能够捕捉其独有的语音韵律与情感张力。&lt;/span&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;电影级运镜控制与动态张力：&lt;/span&gt;&lt;span&gt;模型具备自发的镜头调度能力，可执行长镜头跟随、希区柯克变焦等高难度运镜，同时还能实现电影级的画面衔接与专业影调，大幅提升了视频的动态张力。&lt;/span&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;语义理解与叙事协调性增强：&lt;/span&gt;&lt;span&gt;通过增强语义理解，模型实现了对叙事语境的较好解析。它显著提升了音视频段落的整体叙事协调性，为专业级内容创作提供有力支撑。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;
+&lt;span&gt;在综合评测中，Seedance 1.5 pro
+    取得领先的结果，各项关键能力处于业界前列。目前，Seedance 1.5 pro
+    已上线即梦AI和豆包，欢迎使用反馈。&lt;/span&gt;
 &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;
-&lt;strong&gt;&lt;span&gt;项目主页（含Model Card）：&lt;/span&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;span&gt;Model Card：&lt;span&gt;https://arxiv.org/pdf/2512.13507&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
 &lt;/p&gt;
 &lt;p&gt;
-&lt;span&gt;https://seed.bytedance.com/seed1_8&lt;/span&gt;
+&lt;strong&gt;&lt;span&gt;项目主页：&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;https://seed.bytedance.com/seedance1_5_pro&lt;/span&gt;&lt;/strong&gt;
 &lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;span&gt;&lt;span&gt;体验入口：&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;（1）即梦网页端-视频生成-选择视频3.5 Pro；&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;（2）豆包 App 对话框-照片动起来-上传照片-选择 1.5 Pro 模型-输入
+      prompt（内测中）&lt;/span&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;span&gt;﻿&lt;/span&gt;&lt;br/&gt;&lt;/h2&gt;
+&lt;h2&gt;
+&lt;span&gt;不止音画，更有叙事&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h2&gt;
+&lt;span&gt;从素材生成到作品表达&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;
+&lt;span&gt;Seedance 1.5 pro
+    不再满足于生成简单的内容片段，而是将视频和音频视为一个整体，以满足多样化的创作需求。模型对视听协同、动态调度和文化语境的掌握，使其在影视创作、短剧生成、广告生产及戏曲演绎等场景中，均展现出较好的叙事表现力与视听融合度。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;接下来，我们将通过具体场景，拆解 Seedance 1.5 pro 如何助力专业创作。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;&lt;span&gt;1. 细腻连贯的叙事表现力，支持影视艺术创作&lt;/span&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;Seedance 1.5 pro
+    在语义理解上实现了较大提升，这使它能够解析细腻复杂的人类情感，并将其转化为富有张力的艺术表达。同时，依靠高精度的视听协同，模型可深度融合语音、画面和场景氛围，生成相对一致的精细呈现，从而增强内容的叙事感染力。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;在特写镜头中，模型展现出细腻的情绪捕捉能力。即使在没有台词的情况下，它也能通过细微的表情变化延续情绪铺垫。例如，在生成的赛博朋克电影感视频中，模型可根据指令推测故事背景，并精细演绎人物状态，其情绪变化自然且富有层次，与环境和音乐氛围达到统一。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hmxth.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;
+&lt;/section&gt;
+&lt;section&gt;
 &lt;span&gt;&lt;/span&gt;
+&lt;/section&gt;
+&lt;blockquote&gt;
 &lt;p&gt;
-&lt;strong&gt;&lt;span&gt;体验入口：&lt;/span&gt;&lt;/strong&gt;
+&lt;span&gt;&lt;span&gt;Demo 观看提示：可调大音量，效果更佳&lt;/span&gt;&lt;/span&gt;
 &lt;/p&gt;
 &lt;p&gt;
-&lt;span&gt;&lt;span&gt;火山引擎官网-大模型-豆包大模型-豆包大模型1.8-立即体验&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;T2V
+        prompt：赛博朋克废墟风格，冷暖光影交替。镜头手持跟随年轻东亚女性，特写捕捉她从眼眶含泪的压抑悲伤，随着朝阳金光洒在脸上，神情转为温柔坚定的微表情变化。人物皮肤具备真实胶片质感，浅景深背景虚化。&lt;/span&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+&lt;span&gt;除了带有故事感的特写镜头生成，Seedance 1.5 pro
+    还可根据提示语组织出具备基本叙事结构的镜头序列。比如，在动漫作品创作中，模型能生成烟火绽放、男女主日语告白的多个连续镜头，配合情绪化声线，展现出流畅的叙事逻辑。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hnuiv.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/section&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;span&gt;&lt;span&gt;T2V
+        prompt：夏日花火大会动漫风格，烟花绽放提供柔和轮廓光。镜头从全景烟花推至人群中穿和服的男女主，特写镜头捕捉女生做告白前的心理准备，男生羞涩开口「実は...」，女生抢先一步告白「大好きです」，两人互表心意后亲密相拥。烟花声、人群环境声与日语对白融合，营造浪漫且连贯的叙事氛围。&lt;/span&gt;&lt;/span&gt;
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;
-&lt;span&gt;&lt;br/&gt;&lt;/span&gt;
-&lt;/h3&gt;
-&lt;h3&gt;
-&lt;span&gt;Seed1.8 通用 Agent 能力&lt;/span&gt;
-&lt;/h3&gt;
-&lt;h3&gt;
-&lt;span&gt;在多类真实任务中获得验证&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;2. 专业运镜与动态张力，满足高难度场景需求&lt;/span&gt;&lt;/span&gt;
 &lt;/h3&gt;
 &lt;p&gt;
-&lt;span&gt;在多项基准测试中，Seed1.8 展现了其作为通用 Agent
-    模型的强劲潜力，尤其在 &lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;GUI&lt;/span&gt;&lt;span&gt; Agent、搜索、行业应用等任务中&lt;/span&gt;&lt;span&gt;，取得了优秀的分数。&lt;/span&gt;
+&lt;span&gt;Seedance 1.5 pro
+    优化了运镜控制和动态张力，能更好地应对高难度的复杂场景生成。&lt;/span&gt;
 &lt;/p&gt;
-&lt;section&gt;
-&lt;span&gt;&lt;/span&gt;
+&lt;p&gt;
+&lt;span&gt;模型可以相对从容地演绎高动态、高冲击力的运动场景。在滑雪视频中，通过声音和画面运动的协同，Seedance
+    1.5 pro
+    创造了强烈的临场感：镜头高速侧切紧随滑雪者轨迹，雪雾迸溅的瞬间被细腻捕捉，真实还原了极限运动的速度与力量。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hohek.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;&lt;br/&gt;
 &lt;/section&gt;
+&lt;blockquote&gt;
 &lt;p&gt;
-&lt;span&gt;Agent 能力的难点体现在多个层面：&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;I2V
+        prompt：滑雪者身着专业装备在雪山背景中展现敏捷技巧。镜头以长镜头低角度跟随滑雪者滑下雪坡，捕捉卡宾切刃、雪雾炸开瞬间，随后快切至慢镜头特写，最后跟随滑雪者转向冲出弯道。背景音乐为动感
+        Future Bass，配合风声环境音，整体氛围充满活力。&lt;/span&gt;&lt;/span&gt;
 &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;
-&lt;span&gt;&lt;span&gt;多任务并行处理：&lt;/span&gt;模型需要在多个任务之间做出判断，高效分配计算资源，并确保每个任务的执行质量。&lt;/span&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;复杂指令遵循：&lt;/span&gt;在需要处理多个约束条件的任务中，模型必须快速准确地理解并执行复杂指令。&lt;/span&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;跨域知识迁移：&lt;/span&gt;模型要在不同领域之间切换，完美执行任务，而这要求其具备强大的跨领域知识和推理能力。&lt;/span&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;section&gt;
-&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;同时，模型具备自发的运镜调度能力，能够执行高难度镜头运动，可应对精度要求较高的生成场景。在模拟红毯首映礼场景时，模型能生成镜头快速摇移的效果，营造现场的匆忙与繁华，配合女生清晰的中文说话声，有效还原了现场氛围。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hvi14.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;&lt;br/&gt;
 &lt;/section&gt;
+&lt;blockquote&gt;
 &lt;p&gt;
-&lt;span&gt;Seed1.8 在以上难点中都有所突破。&lt;/span&gt;&lt;span&gt;评测结果显示，&lt;/span&gt;&lt;span&gt;它具备了业界领先的 &lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;GUI&lt;/span&gt;&lt;span&gt; Agent &lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;能力，&lt;/span&gt;&lt;span&gt;较 &lt;/span&gt;&lt;span&gt;Seed1.5-VL &lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;进一步提升&lt;/span&gt;&lt;span&gt;，并&lt;/span&gt;&lt;span&gt;在&lt;/span&gt;&lt;span&gt;电脑、网页、移动端三类环境中，&lt;/span&gt;&lt;span&gt;均&lt;/span&gt;&lt;span&gt;展现出在不同系统和界面中执行多步任务的可靠&lt;/span&gt;&lt;span&gt;性&lt;/span&gt;&lt;span&gt;。&lt;/span&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjazfhe8.png"/&gt;
+&lt;span&gt;&lt;span&gt;T2V
+        prompt：身穿晚礼服的亚洲时尚博主在红毯出镜，兴奋地说道：“空气里都是香水和野心的味道！今晚的红毯简直是时装编年史的现场，快跟我来捕捉那个高光时刻！”&lt;/span&gt;&lt;/span&gt;
 &lt;/p&gt;
-&lt;section&gt;
-&lt;span&gt;&lt;/span&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+&lt;span&gt;在生成的扫地机器人宣传片中，画面可按商业广告片风格缓慢地推动镜头，并紧密追随机器人的运动，较好地聚焦产品。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hw3cw.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;&lt;br/&gt;
 &lt;/section&gt;
-&lt;section&gt;
-&lt;span&gt;&lt;/span&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;span&gt;&lt;span&gt;T2V&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt; prompt：极简主义现代豪宅，落日余晖倒映在大理石地面。一台黑色高端洗地机，自动工作时发出幽幽蓝光探测灰尘。运镜采用贴地低角度跟随，展示机器流线线条。音频配合
+        AI 女声口播：“&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;看不见的微尘，才是过敏的元凶。激光显尘，智能变频，把地板还给赤脚行走的自由。”&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+&lt;span&gt;&lt;span&gt;3. 支持多语种和方言，增强喜剧等风格化表演质感&lt;/span&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;Seedance 1.5 pro
+    支持多语种语音生成，能够相对自然地呈现中文、英文、日文、韩语、西班牙语、印尼语等语种的声韵。尤其在中文语境下，模型还能模拟四川语、粤语等多种方言口音，为短剧和娱乐内容提供了更自然的表演质感。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;例如，大熊猫啃竹子时突然用四川口音对着镜头吐槽，模型能匹配方言的声韵和表情，赋予视频鲜活的生命力。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hwnnm.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;&lt;br/&gt;
 &lt;/section&gt;
-&lt;section&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;span&gt;&lt;span&gt;T2V
+        prompt：实拍高级质感。竹林中一只真实的熊猫拿竹子咀嚼，突然停下用四川话吐槽：“今天的竹子咋有点老哦！啷个的喃？有点造孽哦~”。随后镜头急推至近特写，熊猫歪头狡黠一笑，凑近镜头压低声音说：“喂，摄像的大哥，帮我点个外卖要得不！要微辣的哈！”&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+&lt;span&gt;&lt;span&gt;4. 精准音效生成，提升游戏等视听内容沉浸感&lt;/span&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;除了人声，Seedance 1.5 pro
+    对环境音效和音乐氛围同样有较好的理解。模型能够根据画面内容叠加环境音，营造空间感，实现“所见即所听”。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;在像素风游戏片段中，模型不仅实现了随角色跑步、跳跃而流畅跟随的运镜，还可同步生成契合场景的
+    8-bit 游戏音效，展现了在快节奏运动中的音画协同。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hxaoh.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;&lt;br/&gt;
 &lt;/section&gt;
+&lt;blockquote&gt;
 &lt;p&gt;
-&lt;span&gt;Seed1.8 &lt;/span&gt;&lt;span&gt;在搜索任务中表现&lt;/span&gt;&lt;span&gt;同样&lt;/span&gt;&lt;span&gt;突出，在多组公开 Agent 搜索评测基准中保持业界第一梯队水平&lt;/span&gt;&lt;span&gt;，比如在 &lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;BrowseComp-en&lt;/span&gt;&lt;span&gt; 基准测试中得分高达 &lt;/span&gt;&lt;span&gt;67.6&lt;/span&gt;&lt;span&gt;，超过 Gemini-3-Pro 等其他顶级模型&lt;/span&gt;&lt;span&gt;。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjazm9e9.png"/&gt;&lt;/p&gt;&lt;p&gt;
+&lt;span&gt;&lt;span&gt;T2V prompt：8-bit
+        像素艺术风格，勇者夕阳下奔跑跳跃，带扫描线效果，复古电子游戏配乐。&lt;/span&gt;&lt;/span&gt;
 &lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;
-&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;&lt;span&gt;；标注 1 的数据&lt;/span&gt;&lt;span&gt;&lt;span&gt;引自官方全集分数&lt;/span&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;在 Agentic Coding 相关基准测试中，Seed1.8
-    展现出了面向真实软件工程场景的稳定能力。这表明 Seed1.8
-    并非只停留在代码生成层面，而是具备在真实开发环境中持续推进任务的 Agent
-    编程能力，为复杂工程场景下的应用打下基础。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjazoh5x.png"/&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;在有突出经济价值的现实应用任务上，Seed1.8 的表现也值得关注。&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;FinSearchComp 和 &lt;/span&gt;&lt;span&gt;XpertBench 的测评显示，该模型在处理金融商业相关任务时相&lt;/span&gt;&lt;span&gt;对稳定和高效。此外，Seed1.8 在 WorldTravel 多模态应用任务中得分达
-    47.2，表明它在处理旅行规划、用户需求分析等真实场景需求时具有可靠性。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjazrscc.png"/&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;WorldTravel 相关分数采用五次取最优得分&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;如下图所示，Seed1.8
-    为预算有限的一家人制定了游玩柏林的行程，其结合了旅行平台、预订网站和餐厅菜单等多方信息，并利用良好的推理能力和视觉解读能力，快速生成了符合所有约束条件的旅行计划。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb02npz.png"/&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;在上述案例中，Seed1.8
-    不仅能根据预算、时间等基本条件做出推荐，还能根据用户的具体偏好（如餐饮口味、住宿环境）精确安排行程。通过智能推理和约束优化，模型自动结合多个维度的信息，生成了完整且符合实际需求的旅行计划，展现了其在复杂决策和个性化定制方面的能力。&lt;/span&gt;
-&lt;/p&gt;
-&lt;section&gt;
-&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;在 3D
+    风格的游戏片段中，模型生成了细节丰富的开放世界，且随着角色移动，脚步声与喘息声精准同步，配合远处低沉的乌鸦鸣叫，提升了视听交互的沉浸感。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/47w9omj8hxkau.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;/p&gt;&lt;section&gt;&lt;br/&gt;
 &lt;/section&gt;
-&lt;section&gt;
-&lt;span&gt;&lt;br/&gt;&lt;/span&gt;
-&lt;/section&gt;
-&lt;h3&gt;
-&lt;span&gt;LLM 能力评测结果&lt;/span&gt;
-&lt;/h3&gt;
-&lt;h3&gt;
-&lt;span&gt;水平接近顶级通用模型&lt;/span&gt;
-&lt;/h3&gt;
+&lt;blockquote&gt;
 &lt;p&gt;
-&lt;span&gt;在多组公开的大语言模型基准测试中，Seed1.8
-    保持了稳定且具有竞争力的表现，处于业界第一梯队水平。&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;I2V&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt; prompt：3D 游戏&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt; CG
+        视频，皮夹克男人在废弃教堂遗址中行动，他警觉停下，确认安全后冲刺，最后在拱门边缘急&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;停观察。画面采用左侧高窗逆光拍摄，呈现暖色调黄褐色。音频精准叠加脚步声、心跳声和猫头鹰叫声，配合紧张背景乐营造悬疑氛围。&lt;/span&gt;&lt;/span&gt;
 &lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;
-&lt;span&gt;在数学、推理和知识理解等核心基础能力维度上，其整体水平接近业界顶级通用模型。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb1rshf.png"/&gt;
+&lt;span&gt;依托上述能力， Seedance 1.5 pro
+    可有力支持影视、广告、短剧、动漫等类型化创作。尤其在 I2V
+    任务中，模型展现出较强的风格一致性，有效保持了多镜头切换与复杂运动中的人物特征稳定，提升了从素材片段到成片制作的连贯性。&lt;/span&gt;
 &lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;在复杂指令遵循相关的基准测试中，Seed1.8
-    展现出了稳定的执行能力。这类任务通常包含多重约束、反向条件或长链路推理，要求模型在多步执行过程中持续保持对指令目标的准确理解。从结果来看，Seed1.8
-    在多项复杂指令基准中保持了与业界领先模型接近的表现。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb1tz3d.png"/&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;在此基础上，Seed1.8
-    进一步将能力验证扩展至由真实专家定义、具有明确经济价值的应用场景，包括教育辅导、客服问答、信息处理、意图识别、信息抽取以及多步骤复杂工作流等任务类型，验证了模型在真实使用环境中的适用性。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb210ym.png"/&gt;&lt;/p&gt;&lt;p&gt;
-&lt;/p&gt;
-&lt;h3&gt;
-&lt;strong&gt;&lt;span&gt;VLM &lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;多&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;模态&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;评测结果&lt;/span&gt;&lt;/strong&gt;
-&lt;/h3&gt;
-&lt;h3&gt;
-&lt;strong&gt;&lt;span&gt;分数&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;显著提升，&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;表现突出&lt;/span&gt;&lt;/strong&gt;
-&lt;/h3&gt;
-&lt;p&gt;
-&lt;span&gt;Seed1.8
-    在多个视觉语言基准测试中表现突出，其在多模态推理任务中超越了前代模型
-    Seed1.5-VL，在大部分任务中接近目前最先进的 Gemini-3-Pro。&lt;/span&gt;
-&lt;/p&gt;
-&lt;h4&gt;
-&lt;span&gt;&lt;span&gt;图像理解能力&lt;/span&gt;&lt;/span&gt;
-&lt;/h4&gt;
-&lt;p&gt;
-&lt;span&gt;Seed1.8
-    在图像视觉理解任务中展现出较好的性能。在多模态推理类任务中，Seed1.8 在被认为难度极高的视觉推理测试
-    ZeroBench 中，获得 11.0 的最高得分，相比前代
-    Seed1.5-VL，其成功解答问题数量大幅增加。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb22697.png"/&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;在通用视觉问答任务中，Seed1.8 在 VLMsAreBiased 基准测试中取得了 62.0
-    的分数，大幅领先其他模型。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb24c2n.png"/&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;Seed1.8 在 2D 以及 3D 空间理解的多个基准测试中表现优秀。其在处理 3D
-    空间理解和复杂任务时，特别是在动态和复杂数据集上，表现出较好的适应性和推理能力。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb25ay6.png"/&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;
-&lt;/p&gt;
-&lt;h4&gt;
-&lt;span&gt;&lt;span&gt;视频理解能力&lt;/span&gt;&lt;/span&gt;
-&lt;/h4&gt;
-&lt;p&gt;
-&lt;span&gt;Seed1.8
-    在视频理解领域表现出色，尤其在视频推理、运动与感知、长视频理解等任务中，展现出了较强的适应性。&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;在动态场景和实时感知任务中，Seed1.8
-    名列前茅，展现了模型在复杂感知任务中的能力，尤其是在处理实时信息时的高效性。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb265o8.png"/&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;Seed1.8 在长视频理解任务中表现突出，比如在 VideoMME 中取得了 87.8
-    的较高分数。长视频理解通常涉及复杂的时间跨度、情境变换和长时间的上下文多跳推理，Seed1.8
-    加入了“VideoCut”视频工具调用能力，通过对部分片段慢放回看，可实现更加精准的长视频推理与高帧率运动感知。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb26xj6.png"/&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;标注 * 的数据引自公开技术报告；&lt;/span&gt;&lt;span&gt;标注 ‡ 的数据在评估时纳入字幕信息&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;在视频处理中，Seed1.8 还实现了 Token Efficiency
-    的显著提升，这不仅带来了更强的理解能力，还将为用户提供更低延迟的实时视频处理体验。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb28cil.png"/&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;在多个长视频 Benchmark 上，即便采用更低的 Max Video Token 配置，Seed1.8
-    仍然可取得比 Seed1.5-VL 更好的表现&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;更进一步，Seed1.8 通过引入多种 Thinking
-    Modes，嵌入了动态调节思考深度的能力。用户可以根据任务的不同需求，灵活调整模型的推理深度和计算负载。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb294t2.png"/&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;Seed1.8 与其他模型在不同多&lt;/span&gt;&lt;span&gt;模态&lt;/span&gt;&lt;span&gt;推理 Benchmark 下的推理成本与精度对比&lt;/span&gt;
-&lt;/p&gt;
-&lt;section&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;/section&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;br/&gt;&lt;/span&gt;
-&lt;/p&gt;
+&lt;section&gt;&lt;span&gt;&lt;/span&gt;&lt;/section&gt;
+&lt;h2&gt;&lt;span&gt;﻿&lt;/span&gt;&lt;span&gt;﻿&lt;/span&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;Seedance 1.5 pro &lt;/span&gt;&lt;span&gt;评测结果&lt;/span&gt;&lt;/h2&gt;
 &lt;h2&gt;
-&lt;span&gt;未来展望&lt;/span&gt;
+&lt;span&gt;指令遵循&lt;/span&gt;&lt;span&gt;、音频表现突出&lt;/span&gt;
 &lt;/h2&gt;
 &lt;p&gt;
-&lt;span&gt;在 Seed1.8
-    的基础上，我们将面向全能智能体模型持续迭代，以解决真实世界复杂任务中的挑战。未来，我们将在以下方向上持续发力：&lt;/span&gt;
+&lt;span&gt;为了客观评估模型的综合能力，团队建立了综合评测基准 SeedVideoBench
+    1.5。该测试集由影视导演与技术专家联合制定评估标准，重点考察模型在视觉复杂指令遵循、运动稳定性与生动性、美学质量，以及音频指令遵循、音画同步、音质表现力等维度的表现。&lt;/span&gt;
 &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
 &lt;p&gt;
-&lt;span&gt;&lt;span&gt;继续 Scaling 并提升性能，&lt;/span&gt;通过更强的算力支持，进一步提升模型在预训练和后训练环节的表现，以应对日益复杂的任务需求。&lt;/span&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;强化长期任务执行能力，&lt;/span&gt;推进长时间上下文处理和 Agent
-        记忆的优化，使模型能更加高效地处理长期任务和跨步骤的推理。&lt;/span&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;不断在真实场景中打磨模型，&lt;/span&gt;继续扩充与真实工作生活场景相关的训练数据，确保 Seed
-        模型能够真正适应多变的实际需求。&lt;/span&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;拓展智能边界，&lt;/span&gt;我们将进一步提升 Seed
-        模型在人类智能边界问题上的自主探索能力，为更高层次的 Agent
-        能力奠定基础。&lt;/span&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-&lt;span&gt;同时，我们认为，建立以真实需求为导向的评测体系，对提升 &lt;/span&gt;&lt;span&gt;Agent &lt;/span&gt;&lt;span&gt;模型的稳定性、泛化性和可用性有较大帮助，部分为 Seed1.8
-    研发构建的评测数据集已开源或将在未来开源，希望推动社区共同进步。&lt;/span&gt;
+&lt;span&gt;在视频生成方面，相比对比评测的其他模型，Seedance 1.5 pro
+    对动作、镜头等复杂指令的理解相对精准，可更好匹配提示词设定的叙事与影像风格。评测显示，其动态表现较为饱满，人物表情特写生动，复杂运镜相对流畅且与参考图风格衔接自然统一，整体画面质感更贴近实拍；不过，其运动稳定性仍有提升空间。&lt;/span&gt;
 &lt;/p&gt;
 &lt;section&gt;
+&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mj8gw21c.jpg" type="block"/&gt;
 &lt;/section&gt;
+&lt;p&gt;
+&lt;span&gt;Seedance 1.5 pro 视频生成能力评测&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;在音频生成方面， Seedance 1.5 pro
+    处于业内头部水平。模型在音频指令遵循、音画同步、音质与表现力等维度表现稳定且均衡：能相对准确地生成匹配的人声与指定音效，尤其在中文台词场景中具备较高的完整性与发音清晰度，并可响应多种方言指令。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;相比同类模型，Seedance 1.5 pro
+    生成的人声相对更自然、机械感更少，音效真实感与空间混响较为贴近实际，同时音画错位现象显著减少。尽管后续仍需重点提升其在多角色交替对话及歌唱类场景的表现，但综合来看，该模型已能部分应用于中文及方言对白驱动的短剧、舞台演艺及电影类叙事场景。&lt;/span&gt;
+&lt;/p&gt;
+&lt;section&gt;&lt;span&gt;&lt;/span&gt;&lt;/section&gt;
+&lt;section&gt;
+&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mj8gw2ar.jpg" type="block"/&gt;
+&lt;/section&gt;
+&lt;p&gt;
+&lt;span&gt;Seedance 1.5 pro 音频生成能力评测&lt;/span&gt;&lt;/p&gt;&lt;h2&gt;&lt;span&gt;﻿&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h2&gt;
+&lt;span&gt;多&lt;/span&gt;&lt;span&gt;模态&lt;/span&gt;&lt;span&gt;联合生成架构&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/h2&gt;&lt;span&gt;
+&lt;/span&gt;&lt;h2&gt;&lt;span&gt;
+&lt;/span&gt;&lt;span&gt;实现视听流精准协同&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;
+&lt;span&gt;Seedance 1.5 pro
+    采用音视频联合生成的基座模型设计，通过底层架构、数据链路、后训练与推理环节的重构，提升了模型在多样化复杂任务中的泛化性能。&lt;/span&gt;
+&lt;/p&gt;
+&lt;section&gt;
+&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mj8gw2ec.jpg"/&gt;
+&lt;/section&gt;
+&lt;p&gt;&lt;em&gt;&lt;span&gt;Seedance 1.5 pro 训推框架图&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;&lt;span&gt;&lt;span&gt;多&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;&lt;span&gt;模态&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;&lt;span&gt;联合架构&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;&lt;span&gt;：&lt;/span&gt;团队提出了一种基于 MMDiT
+        架构的统一音视频联合生成框架，通过深度跨模态信息交互机制，实现了视觉与听觉流在时间同步与语义一致性上的精准协同。通过在大规模混合模态数据集上进行多任务训练，我们的模型在各种下游任务中实现了稳健的泛化能力。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;&lt;span&gt;&lt;span&gt;多阶段数据 Pipeline&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;&lt;span&gt;：&lt;/span&gt;团队设计了平衡音视频一致性、运动表现力与课程化调度的多阶段数据链路。该方案显著增强了视频描述的丰富度与专业性，并融入音频描述，为高保真音视频生成任务提供了高质量、多样化的数据基础。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;&lt;span&gt;&lt;span&gt;精细化后训练优化&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;&lt;span&gt;：&lt;/span&gt;团队采用了高质量音视频数据集进行监督微调
+        (SFT)，并引入专为音视频场景定制的 RLHF
+        算法。具体而言，多维奖励模型有效增强了文生视频 (T2V) 和图生视频 (I2V)
+        任务的表现，全面提升了运动质量、视觉美感及音频保真度。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;&lt;span&gt;&lt;span&gt;高效推理加速&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;&lt;span&gt;：&lt;/span&gt;团队进一步优化了多阶段蒸馏框架，大幅降低生成所需的函数评估次数
+        (NFE)。通过集成量化、并行等推理基础设施优化，在保持模型性能的同时，实现了超过
+        10 倍的端到端推理加速。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;总结与展望&lt;/span&gt;&lt;/h2&gt;
 &lt;section&gt;
 &lt;span&gt;&lt;/span&gt;
 &lt;/section&gt;
-&lt;section&gt;
-&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247492056&amp;amp;idx=1&amp;amp;sn=6c8be03406f7907fce4b02f8ef0aa74f&amp;amp;scene=21#wechat_redirect"&gt;&lt;/a&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247491739&amp;amp;idx=1&amp;amp;sn=c89b29424e27d777cbe4647de1bd52ef&amp;amp;scene=21#wechat_redirect"&gt;&lt;/a&gt;
-&lt;/section&gt;
-&lt;section&gt;
+&lt;p&gt;
+&lt;span&gt;相较我们的前代视频生成模型 Seedance 1.0，Seedance 1.5 pro
+    在沉浸式音画体验和作品级叙事表达上迈出关键一步。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;依托音视频联合架构与精细化后训练，Seedance 1.5 pro
+    实现了对多模态指令的较好遵循——无论是在影视级的高动态运镜，还是对口型精准度有要求的方言表演中，它均展现出较高潜力。不过，我们也注意到，模型在高难度运动的物理稳定性、多角色对话及演唱等方面仍有提升空间。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;未来，Seed
+    团队将致力于突破更长时长的叙事生成与更实时的端侧体验，并进一步增强模型对物理世界规律的理解及其多模态感知能力。我们希望
+    Seedance
+    系列模型能更生动、更高效、更懂用户，助力创作者打破感官界限，实现视听创意。&lt;/span&gt;&lt;/p&gt;&lt;section&gt;
 &lt;/section&gt;
 &lt;p&gt;&lt;mp-style-type&gt;&lt;/mp-style-type&gt;&lt;/p&gt;
 </description>
-      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/通用-agent-模型-seed1-8-正式发布</guid>
-      <pubDate>Wed, 17 Dec 2025 16:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/声画俱全-一镜入戏-seedance-1-5-pro-音视频创作模型正式发布</guid>
+      <pubDate>Tue, 16 Dec 2025 10:47:38 +0000</pubDate>
+      <crawled>2026-07-07T09:29:33.495921+00:00</crawled>
     </item>
     <item>
       <title>通用 Agent 模型 Seed1.8 正式发布</title>
@@ -7020,236 +6704,301 @@ Seed-OSS-36B-Instruct 是基于 Seed-OSS-36B-Base 进行后训练的模型版本
 </description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/通用-agent-模型-seed1-8-正式发布</guid>
       <pubDate>Wed, 17 Dec 2025 16:00:00 +0000</pubDate>
+      <crawled>2026-07-07T09:29:33.102780+00:00</crawled>
     </item>
     <item>
-      <title>Seed Prover 1.5：全新 Agentic 架构，更强数学推理表现</title>
-      <link>https://seed.bytedance.com/zh/research/seed-prover-1-5-全新-agentic-架构-更强数学推理表现</link>
+      <title>通用 Agent 模型 Seed1.8 正式发布</title>
+      <link>https://seed.bytedance.com/zh/research/通用-agent-模型-seed1-8-正式发布</link>
       <description>
 &lt;section&gt;
 &lt;span&gt;&lt;/span&gt;
 &lt;/section&gt;
+&lt;section&gt;
+&lt;span&gt;随着大模型任务范围不断扩展，我们注意到，用户需求正从获取建议、查询信息，转向让模型直接执行复杂工作流。这意味着，通用模型必须具备更广泛的能力，超越现有语言生成的范畴。&lt;/span&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;span&gt;&lt;span&gt;在此背景下，我们正式推出通用 Agent 模型 Seed1.8&lt;/span&gt;，它具备强大的多模态能力，支持图文输入，能在信息检索、代码生成、GUI
+    交互及复杂工作流等场景中高效精准地完成任务，满足日益多元的技术需求。&lt;/span&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;span&gt;以下是 Seed1.8 的三大核心特点&lt;/span&gt;&lt;span&gt;：&lt;/span&gt;
+&lt;/section&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;p&gt;
-&lt;span&gt;今年 7 月，字节跳动 Seed 团队受邀参加了 IMO 2025。我们的形式化数学推理模型
-    Seed Prover 通过 3 天的尝试，完整解决了 6 道题目中的 4
-    道以及一道题的部分证明，达到官方认证的银牌成绩。&lt;/span&gt;
+&lt;strong&gt;&lt;span&gt;通用 Agent 模型：&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;Seed1.8 集搜索、代码与 GUI Agent
+        能力于一体，其原生基座视觉能力使它能够“看见”并直接与界面交互。&lt;/span&gt;
 &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;
-&lt;span&gt;近日，&lt;/span&gt;&lt;strong&gt;&lt;span&gt;我们推出新一代形式化数学推理专用模型 Seed Prover 1.5 ，通过大规模的
-      Agentic &lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;RL&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt; 训练，其推理能力和推理效率取得显著进步&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;。相比上一代模型，Seed Prover 1.5 在 16.5 小时内，针对 IMO 2025 的前 5
-    道题目生成了完整可编译验证的 Lean 证明代码，换算成绩为 35/42，达到此前 IMO
-    评分标准的金牌分数线。&lt;/span&gt;
+&lt;strong&gt;&lt;span&gt;低延迟、高效应答：&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;Seed1.8
+        支持三种思考模式，能够根据任务的复杂度自动调整处理方式，它还优化了图片编码需要的
+        token 数量，在无损智能的前提下大幅提升了推理效率。&lt;/span&gt;
 &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;
-&lt;span&gt;针对北美本科级别数学竞赛 Putnam，Seed Prover 1.5 用时 9 小时，对 12 道
-    Putnam 2025 赛题中的 11 道生成了可编译验证的 Lean 代码。更系统的评估中，Seed
-    Prover 1.5 表现出色：它在完整的 Putnam 历史评估集上解决了 88%
-    的问题，在代表硕士数学难度的 Fate-H 和代表博士生数学难度的 Fate-X
-    评估集上，分别解决了 80% 和 33%
-    的问题，刷新了形式化数学推理模型在这几个评测集上的 SOTA 表现。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjji272t.jpeg"/&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;Seed Prover 1.5 在多个评估集上与此前其他 SOTA
-    方法的比较（柱列上数字代表解决评估集中问题的数量）&lt;/span&gt;
+&lt;strong&gt;&lt;span&gt;对接真实世界需求：&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;我们对 Seed1.8
+        进行了严格模拟真实工作流的评估测试，其在需求广泛的信息检索、意图识别、复杂指令遵循等场景表现良好。&lt;/span&gt;
 &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;section&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/section&gt;
 &lt;p&gt;
-&lt;span&gt;Seed Prover 1.5 的技术报告已对外公开。我们后续将开放
-    API，邀请感兴趣的数学和 AI 研究者体验该模型。&lt;/span&gt;
+&lt;span&gt;基于我们建立的以现实需求为导向的内部评测体系，结合公开基准，我们对 Seed1.8
+    进行了全面系统的能力测试，完整结果详见 Model Card。下文将分别介绍 Seed 1.8
+    在通用 Agent、LLM 和 VLM 关键能力项上的表现。&lt;/span&gt;
 &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;
-&lt;strong&gt;&lt;span&gt;技术报告：&lt;/span&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;span&gt;项目主页（含Model Card）：&lt;/span&gt;&lt;/strong&gt;
 &lt;/p&gt;
 &lt;p&gt;
-&lt;span&gt;https://arxiv.org/abs/2512.17260&lt;/span&gt;
+&lt;span&gt;https://seed.bytedance.com/seed1_8&lt;/span&gt;
 &lt;/p&gt;
 &lt;span&gt;&lt;/span&gt;
 &lt;p&gt;
-&lt;strong&gt;&lt;span&gt;Lean 证明代码：&lt;/span&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;span&gt;体验入口：&lt;/span&gt;&lt;/strong&gt;
 &lt;/p&gt;
 &lt;p&gt;
-&lt;span&gt;https://github.com/ByteDance-Seed/Seed-Prover/blob/main/SeedProver-1.5/Putnam2025.zip&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;火山引擎官网-大模型-豆包大模型-豆包大模型1.8-立即体验&lt;/span&gt;&lt;/span&gt;
 &lt;/p&gt;
-&lt;span&gt;&lt;/span&gt;
 &lt;/blockquote&gt;
-&lt;h2&gt;
+&lt;h3&gt;
 &lt;span&gt;&lt;br/&gt;&lt;/span&gt;
-&lt;/h2&gt;
-&lt;h2&gt;
-&lt;span&gt;&lt;span&gt; 1. Agentic Prover：一种新的形式化数学推理范式 &lt;/span&gt;&lt;/span&gt;
-&lt;/h2&gt;
+&lt;/h3&gt;
+&lt;h3&gt;
+&lt;span&gt;Seed1.8 通用 Agent 能力&lt;/span&gt;
+&lt;/h3&gt;
+&lt;h3&gt;
+&lt;span&gt;在多类真实任务中获得验证&lt;/span&gt;
+&lt;/h3&gt;
 &lt;p&gt;
-&lt;span&gt;大语言模型已能用自然语言流畅解答不少数学问题，不过，面对复杂度极高的前沿数学研究，自然语言证明常出现逻辑跳跃或定义模糊的问题，导致难以完全获得数学家的信任。形式化数学推理则要求模型使用
-    Lean
-    等形式语言，构建可在公理系统中机械验证的证明，这意味着其在确保正确性上有着自然语言证明无法比及的优势。&lt;/span&gt;
+&lt;span&gt;在多项基准测试中，Seed1.8 展现了其作为通用 Agent
+    模型的强劲潜力，尤其在 &lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;GUI&lt;/span&gt;&lt;span&gt; Agent、搜索、行业应用等任务中&lt;/span&gt;&lt;span&gt;，取得了优秀的分数。&lt;/span&gt;
 &lt;/p&gt;
 &lt;section&gt;
 &lt;span&gt;&lt;/span&gt;
 &lt;/section&gt;
 &lt;p&gt;
-&lt;span&gt;但也正因如此，形式化证明比自然语言证明更加困难。根据“De Bruijn
-    factor”经验法则，一行普通的数学推导，通常需要扩展成 4 到 10
-    行复杂的代码。这需要模型不仅懂数学，还要精通编程和类型论，而这一高门槛导致形式化证明在效率和成功率上一直远落后于自然语言推理。&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;以往的研究中，形式化证明器通常分为两类：一类是“步步为营”的
-    Step-prover，效率很低；一类是“一气呵成”的
-    Whole-prover，尝试一次性生成完整证明，一旦中间出错则前功尽弃。&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;Seed Prover 1.5 提出了一种全新的 Agentic Prover
-    架构来弥合与自然语言推理的差距，其平衡了两种形式化证明方式的优缺点：&lt;/span&gt;&lt;strong&gt;&lt;span&gt;模型将 Lean
-      语言视为一种工具，且在证明过程中可以自主地调用其他多种工具。&lt;/span&gt;&lt;/strong&gt;
+&lt;span&gt;Agent 能力的难点体现在多个层面：&lt;/span&gt;
 &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;strong&gt;&lt;span&gt;Mathlib 搜索工具&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;：类似于程序员查阅技术文档，模型可以主动检索 Lean 庞大的数学库
-        Mathlib，寻找可用的定理和定义，而非依赖不可靠的隐式记忆。&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;多任务并行处理：&lt;/span&gt;模型需要在多个任务之间做出判断，高效分配计算资源，并确保每个任务的执行质量。&lt;/span&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;strong&gt;&lt;span&gt;Python&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt; 代码执行&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;：遇到需要计算的部分，模型可以编写并运行 Python
-        脚本来辅助验证直觉。&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;复杂指令遵循：&lt;/span&gt;在需要处理多个约束条件的任务中，模型必须快速准确地理解并执行复杂指令。&lt;/span&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;strong&gt;&lt;span&gt;增量式引理验证&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;：模型不再被迫一次性生成整个证明，而是将复杂问题拆解为若干引理。每证明出一个引理，系统就会将其保留并复用，作为后续推理的基石。&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;跨域知识迁移：&lt;/span&gt;模型要在不同领域之间切换，完美执行任务，而这要求其具备强大的跨领域知识和推理能力。&lt;/span&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;
-&lt;span&gt;这种设计让模型能够灵活调整策略：既可以像人类一样先使用“草稿纸”（自然语言）进行推理，又可以随时调用工具验证猜想，最后将经过验证的模块拼装成完整的形式化证明。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjji2vjb.jpeg"/&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;Seed Prover 1.5 &lt;/span&gt;&lt;span&gt;针对 FATE-H 问题调用工具&lt;/span&gt;&lt;span&gt;示例&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;&lt;span&gt;Seed Prover 1.5 的强大能力来自大规模的 Agentic RL。&lt;/span&gt;我们在构建的环境中让模型进行了海量的自我探索和训练。由于 Lean
-    编译器提供了绝对客观的“对/错”反馈，这为强化学习提供了最优质的奖励信号。实验表明，随着
-    RL 训练步数的增加，模型在训练集上的证明通过率从初始的 50% 升至接近
-    90%。&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;Agentic RL 还带来了大幅的效率提升。在对比测试中，Seed Prover 1.5
-    仅需少量的计算资源，就能在 Putnam 和 Fate
-    等高难度数据集上，击败消耗大量算力的上一代 Seed Prover 模型。这表明 Seed
-    Prover 1.5
-    在推理能力与效率上迈上了新台阶，让形式化证明进一步走向实用化。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjji3xdx.jpeg"/&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;span&gt;Seed Prover 1.5 在效率和效果上都明显领先 Seed Prover 1.0 (pass@8*8 约等于
-    0.4 GPU days/problem 算力)&lt;/span&gt;
-&lt;/p&gt;
-&lt;h2&gt;
-&lt;span&gt;&lt;br/&gt;&lt;/span&gt;
-&lt;/h2&gt;
-&lt;h2&gt;
-&lt;span&gt;&lt;span&gt; 2. Sketch Model：打通自然语言与形式语言的界限 &lt;/span&gt;&lt;/span&gt;
-&lt;/h2&gt;
 &lt;section&gt;
 &lt;span&gt;&lt;/span&gt;
 &lt;/section&gt;
 &lt;p&gt;
-&lt;span&gt;虽有 Agentic Prover
-    加持，但模型面对动辄需要上万行代码的复杂定理证明，直接生成完整的形式化代码仍是一个巨大的挑战。为解决这一难题，我们训练了一个
-    Sketch
-    Model，模拟人类数学家解决问题的方式：先构建高层的证明框架，再补充细节。&lt;/span&gt;
+&lt;span&gt;Seed1.8 在以上难点中都有所突破。&lt;/span&gt;&lt;span&gt;评测结果显示，&lt;/span&gt;&lt;span&gt;它具备了业界领先的 &lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;GUI&lt;/span&gt;&lt;span&gt; Agent &lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;能力，&lt;/span&gt;&lt;span&gt;较 &lt;/span&gt;&lt;span&gt;Seed1.5-VL &lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;进一步提升&lt;/span&gt;&lt;span&gt;，并&lt;/span&gt;&lt;span&gt;在&lt;/span&gt;&lt;span&gt;电脑、网页、移动端三类环境中，&lt;/span&gt;&lt;span&gt;均&lt;/span&gt;&lt;span&gt;展现出在不同系统和界面中执行多步任务的可靠&lt;/span&gt;&lt;span&gt;性&lt;/span&gt;&lt;span&gt;。&lt;/span&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjazfhe8.png"/&gt;
+&lt;/p&gt;
+&lt;section&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;/section&gt;
+&lt;p&gt;
+&lt;span&gt;Seed1.8 &lt;/span&gt;&lt;span&gt;在搜索任务中表现&lt;/span&gt;&lt;span&gt;同样&lt;/span&gt;&lt;span&gt;突出，在多组公开 Agent 搜索评测基准中保持业界第一梯队水平&lt;/span&gt;&lt;span&gt;，比如在 &lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;BrowseComp-en&lt;/span&gt;&lt;span&gt; 基准测试中得分高达 &lt;/span&gt;&lt;span&gt;67.6&lt;/span&gt;&lt;span&gt;，超过 Gemini-3-Pro 等其他顶级模型&lt;/span&gt;&lt;span&gt;。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjazm9e9.png"/&gt;&lt;/p&gt;&lt;p&gt;
 &lt;/p&gt;
 &lt;p&gt;
-&lt;span&gt;这一模型可将自然语言证明拆解为若干个独立的、难度更低的引理，并暂时跳过具体证明，仅保留整体的逻辑骨架。其好处显而易见：将原本不可解的复杂命题，转化成了难度显著降低的子目标。&lt;/span&gt;
+&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;&lt;span&gt;；标注 1 的数据&lt;/span&gt;&lt;span&gt;&lt;span&gt;引自官方全集分数&lt;/span&gt;&lt;/span&gt;
 &lt;/p&gt;
 &lt;p&gt;
-&lt;span&gt;为训练出优秀的“证明架构师”，我们采用了一种混合奖励信号的强化学习策略：&lt;/span&gt;
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;&lt;span&gt;信号一：&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;Lean 编译器验证生成的草图是否完全正确。&lt;/span&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;&lt;span&gt;信号二：&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;自然语言 Prover
-        会逐一检查引理，一旦发现任一引理在数学上不成立，整个草图即被否决。&lt;/span&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;&lt;span&gt;信号三：&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;引入基于长思维链的 Rubric
-        评分模型，从语义层面评估草图的质量——考量引理是否与自然语言证明对齐、拆解的粒度是否合适、是否真正降低了原题的难度。&lt;/span&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-&lt;span&gt;最终，当草图在形式验证、数学正确性和整体评分上均满足要求时，才会获得正向奖励。&lt;/span&gt;
+&lt;span&gt;在 Agentic Coding 相关基准测试中，Seed1.8
+    展现出了面向真实软件工程场景的稳定能力。这表明 Seed1.8
+    并非只停留在代码生成层面，而是具备在真实开发环境中持续推进任务的 Agent
+    编程能力，为复杂工程场景下的应用打下基础。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjazoh5x.png"/&gt;
 &lt;/p&gt;
 &lt;p&gt;
-&lt;span&gt;基于 Sketch
-    Model，我们还构建了一套高效的测试工作流，形成一个分层级的多智能体协作系统：&lt;/span&gt;
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;&lt;span&gt;Natural Language Prover&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; 负责提供高层的数学直觉和自然语言证明。&lt;/span&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;&lt;span&gt;Sketch Model&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; 将自然语言转化为形式化的引理结构。&lt;/span&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-&lt;strong&gt;&lt;span&gt;Agentic Prover&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; 并行地攻克每一个被拆解出的引理。&lt;/span&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-&lt;span&gt;如果某个引理太难证明，系统会递归地调用 Sketch Model
-    再次进行拆解。这种“分而治之”的策略，不仅规避了长文本生成的错误累积问题，更提升了推理的并行度和成功率。&lt;/span&gt;
+&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;
 &lt;/p&gt;
 &lt;p&gt;
+&lt;span&gt;在有突出经济价值的现实应用任务上，Seed1.8 的表现也值得关注。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;FinSearchComp 和 &lt;/span&gt;&lt;span&gt;XpertBench 的测评显示，该模型在处理金融商业相关任务时相&lt;/span&gt;&lt;span&gt;对稳定和高效。此外，Seed1.8 在 WorldTravel 多模态应用任务中得分达
+    47.2，表明它在处理旅行规划、用户需求分析等真实场景需求时具有可靠性。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjazrscc.png"/&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;WorldTravel 相关分数采用五次取最优得分&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;如下图所示，Seed1.8
+    为预算有限的一家人制定了游玩柏林的行程，其结合了旅行平台、预订网站和餐厅菜单等多方信息，并利用良好的推理能力和视觉解读能力，快速生成了符合所有约束条件的旅行计划。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb02npz.png"/&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;在上述案例中，Seed1.8
+    不仅能根据预算、时间等基本条件做出推荐，还能根据用户的具体偏好（如餐饮口味、住宿环境）精确安排行程。通过智能推理和约束优化，模型自动结合多个维度的信息，生成了完整且符合实际需求的旅行计划，展现了其在复杂决策和个性化定制方面的能力。&lt;/span&gt;
+&lt;/p&gt;
+&lt;section&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/section&gt;
+&lt;section&gt;
 &lt;span&gt;&lt;br/&gt;&lt;/span&gt;
+&lt;/section&gt;
+&lt;h3&gt;
+&lt;span&gt;LLM 能力评测结果&lt;/span&gt;
+&lt;/h3&gt;
+&lt;h3&gt;
+&lt;span&gt;水平接近顶级通用模型&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;
+&lt;span&gt;在多组公开的大语言模型基准测试中，Seed1.8
+    保持了稳定且具有竞争力的表现，处于业界第一梯队水平。&lt;/span&gt;
 &lt;/p&gt;
 &lt;p&gt;
-&lt;span&gt;&lt;span&gt; 3. 未来展望：AI 解决开放数学问题 &lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;在数学、推理和知识理解等核心基础能力维度上，其整体水平接近业界顶级通用模型。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb1rshf.png"/&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;在复杂指令遵循相关的基准测试中，Seed1.8
+    展现出了稳定的执行能力。这类任务通常包含多重约束、反向条件或长链路推理，要求模型在多步执行过程中持续保持对指令目标的准确理解。从结果来看，Seed1.8
+    在多项复杂指令基准中保持了与业界领先模型接近的表现。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb1tz3d.png"/&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;在此基础上，Seed1.8
+    进一步将能力验证扩展至由真实专家定义、具有明确经济价值的应用场景，包括教育辅导、客服问答、信息处理、意图识别、信息抽取以及多步骤复杂工作流等任务类型，验证了模型在真实使用环境中的适用性。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb210ym.png"/&gt;&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;
+&lt;h3&gt;
+&lt;strong&gt;&lt;span&gt;VLM &lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;多&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;模态&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;评测结果&lt;/span&gt;&lt;/strong&gt;
+&lt;/h3&gt;
+&lt;h3&gt;
+&lt;strong&gt;&lt;span&gt;分数&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;显著提升，&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;表现突出&lt;/span&gt;&lt;/strong&gt;
+&lt;/h3&gt;
+&lt;p&gt;
+&lt;span&gt;Seed1.8
+    在多个视觉语言基准测试中表现突出，其在多模态推理任务中超越了前代模型
+    Seed1.5-VL，在大部分任务中接近目前最先进的 Gemini-3-Pro。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h4&gt;
+&lt;span&gt;&lt;span&gt;图像理解能力&lt;/span&gt;&lt;/span&gt;
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;span&gt;Seed1.8
+    在图像视觉理解任务中展现出较好的性能。在多模态推理类任务中，Seed1.8 在被认为难度极高的视觉推理测试
+    ZeroBench 中，获得 11.0 的最高得分，相比前代
+    Seed1.5-VL，其成功解答问题数量大幅增加。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb22697.png"/&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;在通用视觉问答任务中，Seed1.8 在 VLMsAreBiased 基准测试中取得了 62.0
+    的分数，大幅领先其他模型。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb24c2n.png"/&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;Seed1.8 在 2D 以及 3D 空间理解的多个基准测试中表现优秀。其在处理 3D
+    空间理解和复杂任务时，特别是在动态和复杂数据集上，表现出较好的适应性和推理能力。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb25ay6.png"/&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;
+&lt;/p&gt;
+&lt;h4&gt;
+&lt;span&gt;&lt;span&gt;视频理解能力&lt;/span&gt;&lt;/span&gt;
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;span&gt;Seed1.8
+    在视频理解领域表现出色，尤其在视频推理、运动与感知、长视频理解等任务中，展现出了较强的适应性。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;在动态场景和实时感知任务中，Seed1.8
+    名列前茅，展现了模型在复杂感知任务中的能力，尤其是在处理实时信息时的高效性。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb265o8.png"/&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;标注 * 的数据引自公开技术报告&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;Seed1.8 在长视频理解任务中表现突出，比如在 VideoMME 中取得了 87.8
+    的较高分数。长视频理解通常涉及复杂的时间跨度、情境变换和长时间的上下文多跳推理，Seed1.8
+    加入了“VideoCut”视频工具调用能力，通过对部分片段慢放回看，可实现更加精准的长视频推理与高帧率运动感知。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb26xj6.png"/&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;标注 * 的数据引自公开技术报告；&lt;/span&gt;&lt;span&gt;标注 ‡ 的数据在评估时纳入字幕信息&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;在视频处理中，Seed1.8 还实现了 Token Efficiency
+    的显著提升，这不仅带来了更强的理解能力，还将为用户提供更低延迟的实时视频处理体验。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb28cil.png"/&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;在多个长视频 Benchmark 上，即便采用更低的 Max Video Token 配置，Seed1.8
+    仍然可取得比 Seed1.5-VL 更好的表现&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;更进一步，Seed1.8 通过引入多种 Thinking
+    Modes，嵌入了动态调节思考深度的能力。用户可以根据任务的不同需求，灵活调整模型的推理深度和计算负载。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjb294t2.png"/&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;Seed1.8 与其他模型在不同多&lt;/span&gt;&lt;span&gt;模态&lt;/span&gt;&lt;span&gt;推理 Benchmark 下的推理成本与精度对比&lt;/span&gt;
 &lt;/p&gt;
 &lt;section&gt;
 &lt;span&gt;&lt;/span&gt;
 &lt;/section&gt;
 &lt;p&gt;
-&lt;span&gt;现有 AI 系统虽已能较好解决“规则清晰、背景封闭”的数学题目，如 IMO 或 Putnam
-    等竞赛题，但其距离做出媲美人类专家的数学贡献仍有很大距离。这种局限性源于前沿数学研究中的“依赖性问题”——与解决“无需特定先验知识即可求解”的竞赛题不同，推动前沿数学的发展往往需要综合大量相关论文中的洞见。&lt;/span&gt;
+&lt;span&gt;&lt;br/&gt;&lt;/span&gt;
 &lt;/p&gt;
+&lt;h2&gt;
+&lt;span&gt;未来展望&lt;/span&gt;
+&lt;/h2&gt;
 &lt;p&gt;
-&lt;span&gt;为了让 AI
-    从“做题家”进化为真正的“研究者”，我们还需要解决三个相互关联的核心挑战：&lt;/span&gt;
+&lt;span&gt;在 Seed1.8
+    的基础上，我们将面向全能智能体模型持续迭代，以解决真实世界复杂任务中的挑战。未来，我们将在以下方向上持续发力：&lt;/span&gt;
 &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;strong&gt;&lt;span&gt;文献发现&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;：让模型能从大量数学文献中识别出最具影响力和相关性的论文。&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;继续 Scaling 并提升性能，&lt;/span&gt;通过更强的算力支持，进一步提升模型在预训练和后训练环节的表现，以应对日益复杂的任务需求。&lt;/span&gt;
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;strong&gt;&lt;span&gt;基于文献的推理&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;：让模型能立足于已有的论文，进行下一步的数学推理。&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;强化长期任务执行能力，&lt;/span&gt;推进长时间上下文处理和 Agent
+        记忆的优化，使模型能更加高效地处理长期任务和跨步骤的推理。&lt;/span&gt;
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;
-&lt;strong&gt;&lt;span&gt;规模形式化&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;：开发可扩展的方法，将模型从既有论文中推导出的新结果转化为形式化代码。&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;不断在真实场景中打磨模型，&lt;/span&gt;继续扩充与真实工作生活场景相关的训练数据，确保 Seed
+        模型能够真正适应多变的实际需求。&lt;/span&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;span&gt;&lt;span&gt;拓展智能边界，&lt;/span&gt;我们将进一步提升 Seed
+        模型在人类智能边界问题上的自主探索能力，为更高层次的 Agent
+        能力奠定基础。&lt;/span&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-&lt;span&gt;我们后续将对这几大难题进行探索研究。期待在不远的将来，AI
-    能够协助人类数学家，共同向开放性数学猜想发起冲击。&lt;/span&gt;
+&lt;span&gt;同时，我们认为，建立以真实需求为导向的评测体系，对提升 &lt;/span&gt;&lt;span&gt;Agent &lt;/span&gt;&lt;span&gt;模型的稳定性、泛化性和可用性有较大帮助，部分为 Seed1.8
+    研发构建的评测数据集已开源或将在未来开源，希望推动社区共同进步。&lt;/span&gt;
 &lt;/p&gt;
 &lt;section&gt;
 &lt;/section&gt;
@@ -7266,18 +7015,18 @@ Seed-OSS-36B-Instruct 是基于 Seed-OSS-36B-Base 进行后训练的模型版本
 &lt;section&gt;
 &lt;/section&gt;
 &lt;section&gt;
-&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247492281&amp;amp;idx=1&amp;amp;sn=c701bb6e47e8b8183fbbb9aed6fdc591&amp;amp;scene=21#wechat_redirect"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247492056&amp;amp;idx=1&amp;amp;sn=6c8be03406f7907fce4b02f8ef0aa74f&amp;amp;scene=21#wechat_redirect"&gt;&lt;/a&gt;
 &lt;/section&gt;
 &lt;section&gt;
-&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247492181&amp;amp;idx=1&amp;amp;sn=50778642b1464762feebd1e0b9d7db65&amp;amp;scene=21#wechat_redirect"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247491739&amp;amp;idx=1&amp;amp;sn=c89b29424e27d777cbe4647de1bd52ef&amp;amp;scene=21#wechat_redirect"&gt;&lt;/a&gt;
 &lt;/section&gt;
 &lt;section&gt;
 &lt;/section&gt;
 &lt;p&gt;&lt;mp-style-type&gt;&lt;/mp-style-type&gt;&lt;/p&gt;
 </description>
-      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/seed-prover-1-5-全新-agentic-架构-更强数学推理表现</guid>
-      <pubDate>Tue, 23 Dec 2025 16:00:00 +0000</pubDate>
-      <crawled>2026-07-07T09:29:32.903698+00:00</crawled>
+      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/通用-agent-模型-seed1-8-正式发布</guid>
+      <pubDate>Wed, 17 Dec 2025 16:00:00 +0000</pubDate>
+      <crawled>2026-07-07T09:29:33.102780+00:00</crawled>
     </item>
     <item>
       <title>Seed Prover 1.5：全新 Agentic 架构，更强数学推理表现</title>
@@ -7535,7 +7284,263 @@ Seed-OSS-36B-Instruct 是基于 Seed-OSS-36B-Base 进行后训练的模型版本
 </description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/seed-prover-1-5-全新-agentic-架构-更强数学推理表现</guid>
       <pubDate>Tue, 23 Dec 2025 16:00:00 +0000</pubDate>
-      <crawled>2026-07-07T09:29:32.903698+00:00</crawled>
+    </item>
+    <item>
+      <title>Seed Prover 1.5：全新 Agentic 架构，更强数学推理表现</title>
+      <link>https://seed.bytedance.com/zh/research/seed-prover-1-5-全新-agentic-架构-更强数学推理表现</link>
+      <description>
+&lt;section&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/section&gt;
+&lt;p&gt;
+&lt;span&gt;今年 7 月，字节跳动 Seed 团队受邀参加了 IMO 2025。我们的形式化数学推理模型
+    Seed Prover 通过 3 天的尝试，完整解决了 6 道题目中的 4
+    道以及一道题的部分证明，达到官方认证的银牌成绩。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;近日，&lt;/span&gt;&lt;strong&gt;&lt;span&gt;我们推出新一代形式化数学推理专用模型 Seed Prover 1.5 ，通过大规模的
+      Agentic &lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt;RL&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt; 训练，其推理能力和推理效率取得显著进步&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;。相比上一代模型，Seed Prover 1.5 在 16.5 小时内，针对 IMO 2025 的前 5
+    道题目生成了完整可编译验证的 Lean 证明代码，换算成绩为 35/42，达到此前 IMO
+    评分标准的金牌分数线。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;针对北美本科级别数学竞赛 Putnam，Seed Prover 1.5 用时 9 小时，对 12 道
+    Putnam 2025 赛题中的 11 道生成了可编译验证的 Lean 代码。更系统的评估中，Seed
+    Prover 1.5 表现出色：它在完整的 Putnam 历史评估集上解决了 88%
+    的问题，在代表硕士数学难度的 Fate-H 和代表博士生数学难度的 Fate-X
+    评估集上，分别解决了 80% 和 33%
+    的问题，刷新了形式化数学推理模型在这几个评测集上的 SOTA 表现。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjji272t.jpeg"/&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;Seed Prover 1.5 在多个评估集上与此前其他 SOTA
+    方法的比较（柱列上数字代表解决评估集中问题的数量）&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;Seed Prover 1.5 的技术报告已对外公开。我们后续将开放
+    API，邀请感兴趣的数学和 AI 研究者体验该模型。&lt;/span&gt;
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;span&gt;技术报告：&lt;/span&gt;&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;https://arxiv.org/abs/2512.17260&lt;/span&gt;
+&lt;/p&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;span&gt;Lean 证明代码：&lt;/span&gt;&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;https://github.com/ByteDance-Seed/Seed-Prover/blob/main/SeedProver-1.5/Putnam2025.zip&lt;/span&gt;
+&lt;/p&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;
+&lt;span&gt;&lt;br/&gt;&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h2&gt;
+&lt;span&gt;&lt;span&gt; 1. Agentic Prover：一种新的形式化数学推理范式 &lt;/span&gt;&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;
+&lt;span&gt;大语言模型已能用自然语言流畅解答不少数学问题，不过，面对复杂度极高的前沿数学研究，自然语言证明常出现逻辑跳跃或定义模糊的问题，导致难以完全获得数学家的信任。形式化数学推理则要求模型使用
+    Lean
+    等形式语言，构建可在公理系统中机械验证的证明，这意味着其在确保正确性上有着自然语言证明无法比及的优势。&lt;/span&gt;
+&lt;/p&gt;
+&lt;section&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/section&gt;
+&lt;p&gt;
+&lt;span&gt;但也正因如此，形式化证明比自然语言证明更加困难。根据“De Bruijn
+    factor”经验法则，一行普通的数学推导，通常需要扩展成 4 到 10
+    行复杂的代码。这需要模型不仅懂数学，还要精通编程和类型论，而这一高门槛导致形式化证明在效率和成功率上一直远落后于自然语言推理。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;以往的研究中，形式化证明器通常分为两类：一类是“步步为营”的
+    Step-prover，效率很低；一类是“一气呵成”的
+    Whole-prover，尝试一次性生成完整证明，一旦中间出错则前功尽弃。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;Seed Prover 1.5 提出了一种全新的 Agentic Prover
+    架构来弥合与自然语言推理的差距，其平衡了两种形式化证明方式的优缺点：&lt;/span&gt;&lt;strong&gt;&lt;span&gt;模型将 Lean
+      语言视为一种工具，且在证明过程中可以自主地调用其他多种工具。&lt;/span&gt;&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;span&gt;Mathlib 搜索工具&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;：类似于程序员查阅技术文档，模型可以主动检索 Lean 庞大的数学库
+        Mathlib，寻找可用的定理和定义，而非依赖不可靠的隐式记忆。&lt;/span&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;span&gt;Python&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span&gt; 代码执行&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;：遇到需要计算的部分，模型可以编写并运行 Python
+        脚本来辅助验证直觉。&lt;/span&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;span&gt;增量式引理验证&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;：模型不再被迫一次性生成整个证明，而是将复杂问题拆解为若干引理。每证明出一个引理，系统就会将其保留并复用，作为后续推理的基石。&lt;/span&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;span&gt;这种设计让模型能够灵活调整策略：既可以像人类一样先使用“草稿纸”（自然语言）进行推理，又可以随时调用工具验证猜想，最后将经过验证的模块拼装成完整的形式化证明。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjji2vjb.jpeg"/&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;Seed Prover 1.5 &lt;/span&gt;&lt;span&gt;针对 FATE-H 问题调用工具&lt;/span&gt;&lt;span&gt;示例&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;&lt;span&gt;Seed Prover 1.5 的强大能力来自大规模的 Agentic RL。&lt;/span&gt;我们在构建的环境中让模型进行了海量的自我探索和训练。由于 Lean
+    编译器提供了绝对客观的“对/错”反馈，这为强化学习提供了最优质的奖励信号。实验表明，随着
+    RL 训练步数的增加，模型在训练集上的证明通过率从初始的 50% 升至接近
+    90%。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;Agentic RL 还带来了大幅的效率提升。在对比测试中，Seed Prover 1.5
+    仅需少量的计算资源，就能在 Putnam 和 Fate
+    等高难度数据集上，击败消耗大量算力的上一代 Seed Prover 模型。这表明 Seed
+    Prover 1.5
+    在推理能力与效率上迈上了新台阶，让形式化证明进一步走向实用化。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymjji3xdx.jpeg"/&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;Seed Prover 1.5 在效率和效果上都明显领先 Seed Prover 1.0 (pass@8*8 约等于
+    0.4 GPU days/problem 算力)&lt;/span&gt;
+&lt;/p&gt;
+&lt;h2&gt;
+&lt;span&gt;&lt;br/&gt;&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h2&gt;
+&lt;span&gt;&lt;span&gt; 2. Sketch Model：打通自然语言与形式语言的界限 &lt;/span&gt;&lt;/span&gt;
+&lt;/h2&gt;
+&lt;section&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/section&gt;
+&lt;p&gt;
+&lt;span&gt;虽有 Agentic Prover
+    加持，但模型面对动辄需要上万行代码的复杂定理证明，直接生成完整的形式化代码仍是一个巨大的挑战。为解决这一难题，我们训练了一个
+    Sketch
+    Model，模拟人类数学家解决问题的方式：先构建高层的证明框架，再补充细节。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;这一模型可将自然语言证明拆解为若干个独立的、难度更低的引理，并暂时跳过具体证明，仅保留整体的逻辑骨架。其好处显而易见：将原本不可解的复杂命题，转化成了难度显著降低的子目标。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;为训练出优秀的“证明架构师”，我们采用了一种混合奖励信号的强化学习策略：&lt;/span&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;span&gt;信号一：&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;Lean 编译器验证生成的草图是否完全正确。&lt;/span&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;span&gt;信号二：&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;自然语言 Prover
+        会逐一检查引理，一旦发现任一引理在数学上不成立，整个草图即被否决。&lt;/span&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;span&gt;信号三：&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;引入基于长思维链的 Rubric
+        评分模型，从语义层面评估草图的质量——考量引理是否与自然语言证明对齐、拆解的粒度是否合适、是否真正降低了原题的难度。&lt;/span&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;span&gt;最终，当草图在形式验证、数学正确性和整体评分上均满足要求时，才会获得正向奖励。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;基于 Sketch
+    Model，我们还构建了一套高效的测试工作流，形成一个分层级的多智能体协作系统：&lt;/span&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;span&gt;Natural Language Prover&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; 负责提供高层的数学直觉和自然语言证明。&lt;/span&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;span&gt;Sketch Model&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; 将自然语言转化为形式化的引理结构。&lt;/span&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;span&gt;Agentic Prover&lt;/span&gt;&lt;/strong&gt;&lt;span&gt; 并行地攻克每一个被拆解出的引理。&lt;/span&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;span&gt;如果某个引理太难证明，系统会递归地调用 Sketch Model
+    再次进行拆解。这种“分而治之”的策略，不仅规避了长文本生成的错误累积问题，更提升了推理的并行度和成功率。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;&lt;br/&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;&lt;span&gt; 3. 未来展望：AI 解决开放数学问题 &lt;/span&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;section&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/section&gt;
+&lt;p&gt;
+&lt;span&gt;现有 AI 系统虽已能较好解决“规则清晰、背景封闭”的数学题目，如 IMO 或 Putnam
+    等竞赛题，但其距离做出媲美人类专家的数学贡献仍有很大距离。这种局限性源于前沿数学研究中的“依赖性问题”——与解决“无需特定先验知识即可求解”的竞赛题不同，推动前沿数学的发展往往需要综合大量相关论文中的洞见。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span&gt;为了让 AI
+    从“做题家”进化为真正的“研究者”，我们还需要解决三个相互关联的核心挑战：&lt;/span&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;span&gt;文献发现&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;：让模型能从大量数学文献中识别出最具影响力和相关性的论文。&lt;/span&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;span&gt;基于文献的推理&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;：让模型能立足于已有的论文，进行下一步的数学推理。&lt;/span&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;span&gt;规模形式化&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;：开发可扩展的方法，将模型从既有论文中推导出的新结果转化为形式化代码。&lt;/span&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;span&gt;我们后续将对这几大难题进行探索研究。期待在不远的将来，AI
+    能够协助人类数学家，共同向开放性数学猜想发起冲击。&lt;/span&gt;
+&lt;/p&gt;
+&lt;section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247492281&amp;amp;idx=1&amp;amp;sn=c701bb6e47e8b8183fbbb9aed6fdc591&amp;amp;scene=21#wechat_redirect"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247492181&amp;amp;idx=1&amp;amp;sn=50778642b1464762feebd1e0b9d7db65&amp;amp;scene=21#wechat_redirect"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;/section&gt;
+&lt;p&gt;&lt;mp-style-type&gt;&lt;/mp-style-type&gt;&lt;/p&gt;
+</description>
+      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/seed-prover-1-5-全新-agentic-架构-更强数学推理表现</guid>
+      <pubDate>Tue, 23 Dec 2025 16:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Seedance 2.0 正式发布</title>
@@ -8175,27 +8180,17 @@ Seed-OSS-36B-Instruct 是基于 Seed-OSS-36B-Base 进行后训练的模型版本
       <title>“思考”更深，生成更准｜Seedream 5.0 Lite 发布</title>
       <link>https://seed.bytedance.com/zh/research/思考-更深-生成更准-seedream-5-0-lite-发布</link>
       <description>
-&lt;p&gt;&lt;span&gt;去年 9 月，我们发布统一编辑与生成的图像创作模型 Seedream 4.0，它融合了部分常识和一定的推理能力，受到不少用户的欢迎。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;今天，我们推出 &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Seedream 5.0 Lite 智能图像创作模型&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;。相比 4.0 版本，它在&lt;/span&gt;&lt;span&gt;&lt;strong&gt;理解、推理和生成方面全面提升&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;，是一个“更聪明”且“更专业”的视觉创意伙伴。&lt;/span&gt;&lt;/p&gt;&lt;video controls="true" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4uec3mlkedgtv.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 带来的主要提升，不是更高的分辨率或更快的速度，而是贯穿在“读”“看”“画”“写”背后的深度思考。作为通向统一多模态模型的进一步探索，它开始能像人类设计师一样“理解”用户指令背后的意图，“看懂”不同画面中的规律，并将世界知识应用于图像与文本创作中。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;在此基础上，我们还首次为 Seedream 模型引入&lt;/span&gt;&lt;span&gt;&lt;strong&gt;实时检索增强能力&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;，它可通过联网检索，获取最新的知识和资讯，更精准地回应具有时效性的创作需求。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 的核心亮点如下：&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;理解与生成表现全面提升&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;：模型采用多模态统一架构，其跨模态理解和推理能力进一步提升。这使得模型能更深刻地把握参考图的主要特征，更准确地理解用户模糊的指令，从而生成更加符合用户意图的内容。同时，模型在主体一致性、图文对齐等生成方面的表现也显著进步。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;世界知识体系增强&lt;/strong&gt;：&lt;/span&gt;&lt;span&gt;模型内置丰富的世界知识，覆盖科技与人文领域的多个垂类行业知识库。知识体系增强后，其生成结果更符合物理规律，信息可视化能力也大幅提升。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;实时检索让“大脑”突破局限&lt;/strong&gt;：&lt;/span&gt;&lt;span&gt;模型可更有效地响应具有时效性的生成需求，尤其适合资讯海报生成等场景。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;在综合评测中，Seedream 5.0 Lite 的 Elo 评分超越 Seedream 4.5，其知识推理、编辑响应与一致性保持等能力提升显著，在真实落地场景中进步尤为突出。现在，Seedream 5.0 Lite 已上线即梦AI、火山方舟体验中心，并在豆包开启内测，欢迎体验和反馈。&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;项目主页：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;https://seed.bytedance.c&lt;/span&gt;&lt;span&gt;om/seedream5_0_l&lt;/span&gt;&lt;span&gt;ite&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;体验链接：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;1）即梦网页端-图片生成-选择图片 5.0 Lite；&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;2）火山方舟体验中心-视觉模型-图片生成-Doubao-Seedream-5.0-lite。&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;不止听令，更懂所想&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;视觉协作体验再升级&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;span&gt;得益于“智力”的大幅提升，Seedream 最新模型不再仅是一个被动接收指令的绘图引擎，而是进化为一个具备观察力、理解力和逻辑力的专业创作助手。以下是我们总结的 Seedream 5.0 Lite 的几种基础玩法：&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;1. 视觉推理生图：支持多步思考，让生成符合现实规律&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 不只是一支简单的“画笔”，它能先“看懂”输入的图像和指令，再符合逻辑地“画图”。这一特点，让 Seedream 可执行传统图像生成模型难以胜任的视觉思考任务，并支持多步推理，让生成结果符合内在逻辑与物理规律。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;例如，Seedream 开始能完成简单的围棋推理，思考下一步落子和后续的棋局；面对大量散乱的零件，在用户未指出零件属性的情况下，它能推理出物体类型，并进行相对合理的组装。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cue7.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：围棋对弈，下一个白子后，吃掉这个黑子。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuh5.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：用图中所有的零件拼接成一个整体。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;2. 信息可视化：结合世界知识，高效生成演示配图&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;依靠丰富的知识体系和深度推理能力，Seedream 5.0 Lite 的信息可视化能力大幅提升，可用于办公、教育与科研等生产力场景。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;无论是还原热带雨林的垂直群落结构，标注石油地质剖面，还是根据公式绘制展示图，Seedream 都能将晦涩的概念转化为直观、美观的信息图谱，提升用户的生产效率。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuko.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;左图 Prompt：一张丰富多彩的自然生态图，展示热带雨林的四个垂直层次（露生层、树冠层、灌木层、地表层）。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;中图 Prompt：一张英文石油系统信息图表，显示石油钻井平台和地质层。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;右图 Prompt：高中数学教材插图，可视化函数在某一点的导数的几何意义，白色背景，线条清晰，科学专业准确。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;3. 联网检索生成：结合最新热点，让创作贴近当下&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;为打破模型训练数据的时间限制，Seedream 5.0 Lite 引入了强大的实时检索能力。无论结合当下天气情况生成城市海报，总结全球电影票房，还是绘制金价走势图，它都能基于实时检索结果，生成符合现实逻辑的内容。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;检索功能可灵活开关，开启时模型紧跟热点、内容鲜活；关闭时创作更稳定，按需切换即可。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuo4.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：搜索以下地点在 2026 年 2 月 4 日的天气、温度和时间：1.北京、2.纽约、3.东京、4.悉尼、5.马德里，合成摄影作品。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8curf.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;左图 Prompt：参考 2025 年全球票房排行榜前三名，设计一张充满未来科技感的电影票房排行榜，字体全部用英文，附上金额。排列尽量美观，避免单调无聊，霓虹灯感，好看，海报，大片。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;右图 Prompt：请从 2 月 4 日起，生成最近七天的黄金金价柱状图（以国内现货计价，显示具体的数值&amp;amp;时间，非交易日略过，柱状图比例尺正确），一款时尚的玻璃拟态 UI 卡片。风格：磨砂玻璃效果。视觉元素：半透明模糊背景，流畅的金色渐变线条，柔和阴影，悬浮的 3D 金币图标点缀于四角，柔和的粉彩光效。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;4. 精准风格迁移：一键“通感”参考图，生成“艺术大片”&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;文字很难穷尽艺术作品中微妙的光影与笔触。得益于 Seedream 5.0 Lite 跨模态理解能力的提升，无需再绞尽脑汁写复杂的提示词，只需一张参考图，模型就能瞬间“通感”你要的风格。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;不管是波西米亚式的华丽穿搭，还是印象派的油画质感，它都能精准捕捉神韵，融入生成图片，让随手一拍变成艺术大片。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cutw.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：参考下图，将上图做风格转绘。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuwo.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：把图 1 色调改成图 2 的色调。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;5. 高阶图片编辑：通过模糊指令，实现精准修图&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;随着理解和思考能力的提升，Seedream 5.0 Lite 也掌握了更高阶的图片编辑能力。即便用户只给出简短、模糊的指令，它也能像人类设计师一样推测背后意图，并精准实现预期效果。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv03.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：参考图 1 到图 2 的变化，修改图 3。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;相较前代模型，Seedream 5.0 Lite 的编辑可控性也进一步提升。在局部修图或替换主体时，模型可更稳定地保持非编辑区域的一致性，按用户需求“指哪改哪”。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv3t.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：将画面光影改为光斑。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv6h.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：改变焦点，让前景清晰，人物虚化。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;6. 复杂多主体生成：精准遵循指令，还原不同主体属性&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 在基础生成方面也取得了进步。它能更敏锐地捕捉 Prompt 中的细节指令，无论是复杂的空间关系、特定物体属性，还是抽象的情绪氛围，都能被精准解析并转化为画面。相比上一版本，其生成中的“幻觉”与“遗漏”进一步减少。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;比如，在包含多达 9 个主体的视觉图中，Seedream 模型依然实现了对复杂指令的遵循，字母、时间、数字、颜色等属性均精准还原。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv9c.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：一个 3x3 的展示架网格，正面平视视角。 左上格：一个透明的玻璃立方体，里面悬浮着一朵红玫瑰。 中上格：一个木制的球体，表面雕刻着字母'A'。 右上格：一个金属金字塔，表面反射出蓝色的天空。 左中格：一只陶瓷材质的猫，涂着金色的漆。 正中格：一个透明的时钟，指针指向 10 点 10 分。 右中格：整齐堆叠的六颗绿宝石，数量必须正好是六颗。 左下格：一根燃烧的蜡烛，蜡油是蓝色的，火焰是绿色的。 中下格：一个种在茶壶里的仙人掌。 右下格：一个戴着墨镜的骷髅头。 高清分辨率，超写实摄影，影棚光效。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;在多人物主体的复杂场景中，Seedream 也实现了较好的生成效果。例如下图中，模型参考内置世界知识，生成了 5 位艺术人物的“现代风”合照：不仅自然呈现了他们与不同道具的互动姿态，还通过推理精准还原了人物在反差场景中的神韵。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cvca.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：五位艺术人物并排站立，人物保留油画质感，现代道具呈现照片级真实感。1）梵高：佩戴白色 VR 头盔，双臂盲目伸向空中，惊叹张口。2）弗里达·卡罗：俯身 DJ 台，一手按压耳机，另一手积极转动混音旋钮。3）戴珍珠耳环的少女：粉色爱心太阳镜，从容啜饮珍珠奶茶。4）蒙娜丽莎：佩戴亮黄色耳机，闭目微颔，单手轻托耳罩，随音乐律动。5）萨尔瓦多·达利：手持 switch，拇指紧扣摇杆，神情专注沉浸游戏。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;基于智能化程度与专业化水平的提升，我们相信，Seedream 5.0 Lite 还有很多进阶玩法，等待大家探索。&lt;/span&gt;&lt;/p&gt;&lt;h2&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;span&gt;&lt;strong&gt;Seedream 5.0 Lite 评测&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;办公学习场景提升显著&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 并非止步于基础能力提升，而是更加聚焦于“实用化”与“生活化”的真实落地。因此，在能力测试中，我们不仅评测了模型的指令响应、图文一致性、综合表现等传统指标，同时也引入了知识推理、办公学习、商业营销、影视游戏、艺术创作、设计等高频应用场景的专项测试题目。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;相关评测依托 MagicArena 竞技平台展开，我们引入了不同模型进行双盲对战打分。为确保结果的客观性，所有评分均由图像生成领域的资深评测专家完成。基于累计采集的数万轮对战数据，我们计算并输出了高置信度的 Elo 排名。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;结果显示，相较上一代版本，Seedream 5.0 Lite 在 Elo 综合评分、指令响应与编辑一致性等关键基础指标上均取得显著进步，特别是在知识推理、人像增强等场景，其展现出了更强的理解力与执行力。在真实场景中，尤其面向办公学习场景，伴随模型思考能力提升，模型实际表现得分大幅提升。这意味着 Seedream 5.0 Lite 不再仅是创意玩具，而是能走进用户工作与生活的得力助手。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cvnp.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;文生图评测表现&lt;/em&gt;&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cvtt.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;图生图评测表现&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;h2&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;span&gt;&lt;strong&gt;总结与展望&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;span&gt;跨模态推理能力和世界知识的增强，让 Seedream 5.0 Lite 实现了从“执行指令”到“理解意图”的跨越。这意味着图像生成综合能力的显著提升，也将带来新的、更高效的交互方式。未来，用户很可能不再需要学习复杂的 Prompt 技巧，通过与模型交流创作意图，即可高效精准地完成图文创作。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;这一转变，也让图像生成模型从“好玩”走向“好用”，更多地融入生产力场景。升级后的 Seedream 系列模型，可以成为普通用户的得力助手，帮助美化 PPT、生成图表、制作海报，实用性显著增强。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 是一个较小的模型，在结构稳定性、真实感和美感方面还有进一步提升的空间。未来，我们将继续 Scaling 模型，提升 Seedream 系列模型的智能水平和效果上限，并将支持更多轮次的交互式编辑。&lt;/span&gt;&lt;span&gt;希望它不仅能帮助用户实现创意，还能成为激发创意的“第二大脑”，为商业广告、艺术创作等更高难度的创作场景提供创意支持。&lt;/span&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;span&gt;去年 9 月，我们发布统一编辑与生成的图像创作模型 Seedream 4.0，它融合了部分常识和一定的推理能力，受到不少用户的欢迎。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;今天，我们推出 &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Seedream 5.0 Lite 智能图像创作模型&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;。相比 4.0 版本，它在&lt;/span&gt;&lt;span&gt;&lt;strong&gt;理解、推理和生成方面全面提升&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;，是一个“更聪明”且“更专业”的视觉创意伙伴。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4uec3mlkedgtv.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 带来的主要提升，不是更高的分辨率或更快的速度，而是贯穿在“读”“看”“画”“写”背后的深度思考。作为通向统一多模态模型的进一步探索，它开始能像人类设计师一样“理解”用户指令背后的意图，“看懂”不同画面中的规律，并将世界知识应用于图像与文本创作中。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;在此基础上，我们还首次为 Seedream 模型引入&lt;/span&gt;&lt;span&gt;&lt;strong&gt;实时检索增强能力&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;，它可通过联网检索，获取最新的知识和资讯，更精准地回应具有时效性的创作需求。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 的核心亮点如下：&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;理解与生成表现全面提升&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;：模型采用多模态统一架构，其跨模态理解和推理能力进一步提升。这使得模型能更深刻地把握参考图的主要特征，更准确地理解用户模糊的指令，从而生成更加符合用户意图的内容。同时，模型在主体一致性、图文对齐等生成方面的表现也显著进步。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;世界知识体系增强&lt;/strong&gt;：&lt;/span&gt;&lt;span&gt;模型内置丰富的世界知识，覆盖科技与人文领域的多个垂类行业知识库。知识体系增强后，其生成结果更符合物理规律，信息可视化能力也大幅提升。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;实时检索让“大脑”突破局限&lt;/strong&gt;：&lt;/span&gt;&lt;span&gt;模型可更有效地响应具有时效性的生成需求，尤其适合资讯海报生成等场景。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;在综合评测中，Seedream 5.0 Lite 的 Elo 评分超越 Seedream 4.5，其知识推理、编辑响应与一致性保持等能力提升显著，在真实落地场景中进步尤为突出。现在，Seedream 5.0 Lite 已上线即梦AI、火山方舟体验中心，并在豆包开启内测，欢迎体验和反馈。&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;项目主页：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;https://seed.bytedance.c&lt;/span&gt;&lt;span&gt;om/seedream5_0_l&lt;/span&gt;&lt;span&gt;ite&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;体验链接：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;1）即梦网页端-图片生成-选择图片 5.0 Lite；&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;2）火山方舟体验中心-视觉模型-图片生成-Doubao-Seedream-5.0-lite。&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;不止听令，更懂所想&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;视觉协作体验再升级&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;span&gt;得益于“智力”的大幅提升，Seedream 最新模型不再仅是一个被动接收指令的绘图引擎，而是进化为一个具备观察力、理解力和逻辑力的专业创作助手。以下是我们总结的 Seedream 5.0 Lite 的几种基础玩法：&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;1. 视觉推理生图：支持多步思考，让生成符合现实规律&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 不只是一支简单的“画笔”，它能先“看懂”输入的图像和指令，再符合逻辑地“画图”。这一特点，让 Seedream 可执行传统图像生成模型难以胜任的视觉思考任务，并支持多步推理，让生成结果符合内在逻辑与物理规律。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;例如，Seedream 开始能完成简单的围棋推理，思考下一步落子和后续的棋局；面对大量散乱的零件，在用户未指出零件属性的情况下，它能推理出物体类型，并进行相对合理的组装。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cue7.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：围棋对弈，下一个白子后，吃掉这个黑子。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuh5.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：用图中所有的零件拼接成一个整体。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;2. 信息可视化：结合世界知识，高效生成演示配图&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;依靠丰富的知识体系和深度推理能力，Seedream 5.0 Lite 的信息可视化能力大幅提升，可用于办公、教育与科研等生产力场景。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;无论是还原热带雨林的垂直群落结构，标注石油地质剖面，还是根据公式绘制展示图，Seedream 都能将晦涩的概念转化为直观、美观的信息图谱，提升用户的生产效率。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuko.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;左图 Prompt：一张丰富多彩的自然生态图，展示热带雨林的四个垂直层次（露生层、树冠层、灌木层、地表层）。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;中图 Prompt：一张英文石油系统信息图表，显示石油钻井平台和地质层。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;右图 Prompt：高中数学教材插图，可视化函数在某一点的导数的几何意义，白色背景，线条清晰，科学专业准确。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;3. 联网检索生成：结合最新热点，让创作贴近当下&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;为打破模型训练数据的时间限制，Seedream 5.0 Lite 引入了强大的实时检索能力。无论结合当下天气情况生成城市海报，总结全球电影票房，还是绘制金价走势图，它都能基于实时检索结果，生成符合现实逻辑的内容。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;检索功能可灵活开关，开启时模型紧跟热点、内容鲜活；关闭时创作更稳定，按需切换即可。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuo4.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：搜索以下地点在 2026 年 2 月 4 日的天气、温度和时间：1.北京、2.纽约、3.东京、4.悉尼、5.马德里，合成摄影作品。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8curf.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;左图 Prompt：参考 2025 年全球票房排行榜前三名，设计一张充满未来科技感的电影票房排行榜，字体全部用英文，附上金额。排列尽量美观，避免单调无聊，霓虹灯感，好看，海报，大片。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;右图 Prompt：请从 2 月 4 日起，生成最近七天的黄金金价柱状图（以国内现货计价，显示具体的数值&amp;amp;时间，非交易日略过，柱状图比例尺正确），一款时尚的玻璃拟态 UI 卡片。风格：磨砂玻璃效果。视觉元素：半透明模糊背景，流畅的金色渐变线条，柔和阴影，悬浮的 3D 金币图标点缀于四角，柔和的粉彩光效。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;4. 精准风格迁移：一键“通感”参考图，生成“艺术大片”&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;文字很难穷尽艺术作品中微妙的光影与笔触。得益于 Seedream 5.0 Lite 跨模态理解能力的提升，无需再绞尽脑汁写复杂的提示词，只需一张参考图，模型就能瞬间“通感”你要的风格。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;不管是波西米亚式的华丽穿搭，还是印象派的油画质感，它都能精准捕捉神韵，融入生成图片，让随手一拍变成艺术大片。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cutw.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：参考下图，将上图做风格转绘。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuwo.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：把图 1 色调改成图 2 的色调。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;5. 高阶图片编辑：通过模糊指令，实现精准修图&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;随着理解和思考能力的提升，Seedream 5.0 Lite 也掌握了更高阶的图片编辑能力。即便用户只给出简短、模糊的指令，它也能像人类设计师一样推测背后意图，并精准实现预期效果。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv03.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：参考图 1 到图 2 的变化，修改图 3。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;相较前代模型，Seedream 5.0 Lite 的编辑可控性也进一步提升。在局部修图或替换主体时，模型可更稳定地保持非编辑区域的一致性，按用户需求“指哪改哪”。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv3t.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：将画面光影改为光斑。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv6h.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：改变焦点，让前景清晰，人物虚化。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;6. 复杂多主体生成：精准遵循指令，还原不同主体属性&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 在基础生成方面也取得了进步。它能更敏锐地捕捉 Prompt 中的细节指令，无论是复杂的空间关系、特定物体属性，还是抽象的情绪氛围，都能被精准解析并转化为画面。相比上一版本，其生成中的“幻觉”与“遗漏”进一步减少。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;比如，在包含多达 9 个主体的视觉图中，Seedream 模型依然实现了对复杂指令的遵循，字母、时间、数字、颜色等属性均精准还原。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv9c.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：一个 3x3 的展示架网格，正面平视视角。 左上格：一个透明的玻璃立方体，里面悬浮着一朵红玫瑰。 中上格：一个木制的球体，表面雕刻着字母'A'。 右上格：一个金属金字塔，表面反射出蓝色的天空。 左中格：一只陶瓷材质的猫，涂着金色的漆。 正中格：一个透明的时钟，指针指向 10 点 10 分。 右中格：整齐堆叠的六颗绿宝石，数量必须正好是六颗。 左下格：一根燃烧的蜡烛，蜡油是蓝色的，火焰是绿色的。 中下格：一个种在茶壶里的仙人掌。 右下格：一个戴着墨镜的骷髅头。 高清分辨率，超写实摄影，影棚光效。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;在多人物主体的复杂场景中，Seedream 也实现了较好的生成效果。例如下图中，模型参考内置世界知识，生成了 5 位艺术人物的“现代风”合照：不仅自然呈现了他们与不同道具的互动姿态，还通过推理精准还原了人物在反差场景中的神韵。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cvca.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：五位艺术人物并排站立，人物保留油画质感，现代道具呈现照片级真实感。1）梵高：佩戴白色 VR 头盔，双臂盲目伸向空中，惊叹张口。2）弗里达·卡罗：俯身 DJ 台，一手按压耳机，另一手积极转动混音旋钮。3）戴珍珠耳环的少女：粉色爱心太阳镜，从容啜饮珍珠奶茶。4）蒙娜丽莎：佩戴亮黄色耳机，闭目微颔，单手轻托耳罩，随音乐律动。5）萨尔瓦多·达利：手持 switch，拇指紧扣摇杆，神情专注沉浸游戏。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;基于智能化程度与专业化水平的提升，我们相信，Seedream 5.0 Lite 还有很多进阶玩法，等待大家探索。&lt;/span&gt;&lt;/p&gt;&lt;h2&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;span&gt;&lt;strong&gt;Seedream 5.0 Lite 评测&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;办公学习场景提升显著&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 并非止步于基础能力提升，而是更加聚焦于“实用化”与“生活化”的真实落地。因此，在能力测试中，我们不仅评测了模型的指令响应、图文一致性、综合表现等传统指标，同时也引入了知识推理、办公学习、商业营销、影视游戏、艺术创作、设计等高频应用场景的专项测试题目。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;相关评测依托 MagicArena 竞技平台展开，我们引入了不同模型进行双盲对战打分。为确保结果的客观性，所有评分均由图像生成领域的资深评测专家完成。基于累计采集的数万轮对战数据，我们计算并输出了高置信度的 Elo 排名。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;结果显示，相较上一代版本，Seedream 5.0 Lite 在 Elo 综合评分、指令响应与编辑一致性等关键基础指标上均取得显著进步，特别是在知识推理、人像增强等场景，其展现出了更强的理解力与执行力。在真实场景中，尤其面向办公学习场景，伴随模型思考能力提升，模型实际表现得分大幅提升。这意味着 Seedream 5.0 Lite 不再仅是创意玩具，而是能走进用户工作与生活的得力助手。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cvnp.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;文生图评测表现&lt;/em&gt;&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cvtt.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;图生图评测表现&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;h2&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;span&gt;&lt;strong&gt;总结与展望&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;span&gt;跨模态推理能力和世界知识的增强，让 Seedream 5.0 Lite 实现了从“执行指令”到“理解意图”的跨越。这意味着图像生成综合能力的显著提升，也将带来新的、更高效的交互方式。未来，用户很可能不再需要学习复杂的 Prompt 技巧，通过与模型交流创作意图，即可高效精准地完成图文创作。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;这一转变，也让图像生成模型从“好玩”走向“好用”，更多地融入生产力场景。升级后的 Seedream 系列模型，可以成为普通用户的得力助手，帮助美化 PPT、生成图表、制作海报，实用性显著增强。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 是一个较小的模型，在结构稳定性、真实感和美感方面还有进一步提升的空间。未来，我们将继续 Scaling 模型，提升 Seedream 系列模型的智能水平和效果上限，并将支持更多轮次的交互式编辑。&lt;/span&gt;&lt;span&gt;希望它不仅能帮助用户实现创意，还能成为激发创意的“第二大脑”，为商业广告、艺术创作等更高难度的创作场景提供创意支持。&lt;/span&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/思考-更深-生成更准-seedream-5-0-lite-发布</guid>
       <pubDate>Thu, 12 Feb 2026 16:00:00 +0000</pubDate>
-      <crawled>2026-07-07T09:29:32.420007+00:00</crawled>
     </item>
     <item>
       <title>“思考”更深，生成更准｜Seedream 5.0 Lite 发布</title>
       <link>https://seed.bytedance.com/zh/research/思考-更深-生成更准-seedream-5-0-lite-发布</link>
       <description>
-&lt;p&gt;&lt;span&gt;去年 9 月，我们发布统一编辑与生成的图像创作模型 Seedream 4.0，它融合了部分常识和一定的推理能力，受到不少用户的欢迎。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;今天，我们推出 &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Seedream 5.0 Lite 智能图像创作模型&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;。相比 4.0 版本，它在&lt;/span&gt;&lt;span&gt;&lt;strong&gt;理解、推理和生成方面全面提升&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;，是一个“更聪明”且“更专业”的视觉创意伙伴。&lt;/span&gt;&lt;/p&gt;&lt;video controls="controls" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4uec3mlkedgtv.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 带来的主要提升，不是更高的分辨率或更快的速度，而是贯穿在“读”“看”“画”“写”背后的深度思考。作为通向统一多模态模型的进一步探索，它开始能像人类设计师一样“理解”用户指令背后的意图，“看懂”不同画面中的规律，并将世界知识应用于图像与文本创作中。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;在此基础上，我们还首次为 Seedream 模型引入&lt;/span&gt;&lt;span&gt;&lt;strong&gt;实时检索增强能力&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;，它可通过联网检索，获取最新的知识和资讯，更精准地回应具有时效性的创作需求。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 的核心亮点如下：&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;理解与生成表现全面提升&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;：模型采用多模态统一架构，其跨模态理解和推理能力进一步提升。这使得模型能更深刻地把握参考图的主要特征，更准确地理解用户模糊的指令，从而生成更加符合用户意图的内容。同时，模型在主体一致性、图文对齐等生成方面的表现也显著进步。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;世界知识体系增强&lt;/strong&gt;：&lt;/span&gt;&lt;span&gt;模型内置丰富的世界知识，覆盖科技与人文领域的多个垂类行业知识库。知识体系增强后，其生成结果更符合物理规律，信息可视化能力也大幅提升。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;实时检索让“大脑”突破局限&lt;/strong&gt;：&lt;/span&gt;&lt;span&gt;模型可更有效地响应具有时效性的生成需求，尤其适合资讯海报生成等场景。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;在综合评测中，Seedream 5.0 Lite 的 Elo 评分超越 Seedream 4.5，其知识推理、编辑响应与一致性保持等能力提升显著，在真实落地场景中进步尤为突出。现在，Seedream 5.0 Lite 已上线即梦AI、火山方舟体验中心，并在豆包开启内测，欢迎体验和反馈。&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;项目主页：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;https://seed.bytedance.c&lt;/span&gt;&lt;span&gt;om/seedream5_0_l&lt;/span&gt;&lt;span&gt;ite&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;体验链接：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;1）即梦网页端-图片生成-选择图片 5.0 Lite；&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;2）火山方舟体验中心-视觉模型-图片生成-Doubao-Seedream-5.0-lite。&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;不止听令，更懂所想&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;视觉协作体验再升级&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;span&gt;得益于“智力”的大幅提升，Seedream 最新模型不再仅是一个被动接收指令的绘图引擎，而是进化为一个具备观察力、理解力和逻辑力的专业创作助手。以下是我们总结的 Seedream 5.0 Lite 的几种基础玩法：&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;1. 视觉推理生图：支持多步思考，让生成符合现实规律&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 不只是一支简单的“画笔”，它能先“看懂”输入的图像和指令，再符合逻辑地“画图”。这一特点，让 Seedream 可执行传统图像生成模型难以胜任的视觉思考任务，并支持多步推理，让生成结果符合内在逻辑与物理规律。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;例如，Seedream 开始能完成简单的围棋推理，思考下一步落子和后续的棋局；面对大量散乱的零件，在用户未指出零件属性的情况下，它能推理出物体类型，并进行相对合理的组装。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cue7.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：围棋对弈，下一个白子后，吃掉这个黑子。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuh5.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：用图中所有的零件拼接成一个整体。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;2. 信息可视化：结合世界知识，高效生成演示配图&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;依靠丰富的知识体系和深度推理能力，Seedream 5.0 Lite 的信息可视化能力大幅提升，可用于办公、教育与科研等生产力场景。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;无论是还原热带雨林的垂直群落结构，标注石油地质剖面，还是根据公式绘制展示图，Seedream 都能将晦涩的概念转化为直观、美观的信息图谱，提升用户的生产效率。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuko.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;左图 Prompt：一张丰富多彩的自然生态图，展示热带雨林的四个垂直层次（露生层、树冠层、灌木层、地表层）。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;中图 Prompt：一张英文石油系统信息图表，显示石油钻井平台和地质层。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;右图 Prompt：高中数学教材插图，可视化函数在某一点的导数的几何意义，白色背景，线条清晰，科学专业准确。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;3. 联网检索生成：结合最新热点，让创作贴近当下&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;为打破模型训练数据的时间限制，Seedream 5.0 Lite 引入了强大的实时检索能力。无论结合当下天气情况生成城市海报，总结全球电影票房，还是绘制金价走势图，它都能基于实时检索结果，生成符合现实逻辑的内容。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;检索功能可灵活开关，开启时模型紧跟热点、内容鲜活；关闭时创作更稳定，按需切换即可。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuo4.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：搜索以下地点在 2026 年 2 月 4 日的天气、温度和时间：1.北京、2.纽约、3.东京、4.悉尼、5.马德里，合成摄影作品。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8curf.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;左图 Prompt：参考 2025 年全球票房排行榜前三名，设计一张充满未来科技感的电影票房排行榜，字体全部用英文，附上金额。排列尽量美观，避免单调无聊，霓虹灯感，好看，海报，大片。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;右图 Prompt：请从 2 月 4 日起，生成最近七天的黄金金价柱状图（以国内现货计价，显示具体的数值&amp;amp;时间，非交易日略过，柱状图比例尺正确），一款时尚的玻璃拟态 UI 卡片。风格：磨砂玻璃效果。视觉元素：半透明模糊背景，流畅的金色渐变线条，柔和阴影，悬浮的 3D 金币图标点缀于四角，柔和的粉彩光效。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;4. 精准风格迁移：一键“通感”参考图，生成“艺术大片”&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;文字很难穷尽艺术作品中微妙的光影与笔触。得益于 Seedream 5.0 Lite 跨模态理解能力的提升，无需再绞尽脑汁写复杂的提示词，只需一张参考图，模型就能瞬间“通感”你要的风格。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;不管是波西米亚式的华丽穿搭，还是印象派的油画质感，它都能精准捕捉神韵，融入生成图片，让随手一拍变成艺术大片。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cutw.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：参考下图，将上图做风格转绘。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuwo.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：把图 1 色调改成图 2 的色调。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;5. 高阶图片编辑：通过模糊指令，实现精准修图&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;随着理解和思考能力的提升，Seedream 5.0 Lite 也掌握了更高阶的图片编辑能力。即便用户只给出简短、模糊的指令，它也能像人类设计师一样推测背后意图，并精准实现预期效果。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv03.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：参考图 1 到图 2 的变化，修改图 3。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;相较前代模型，Seedream 5.0 Lite 的编辑可控性也进一步提升。在局部修图或替换主体时，模型可更稳定地保持非编辑区域的一致性，按用户需求“指哪改哪”。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv3t.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：将画面光影改为光斑。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv6h.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：改变焦点，让前景清晰，人物虚化。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;6. 复杂多主体生成：精准遵循指令，还原不同主体属性&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 在基础生成方面也取得了进步。它能更敏锐地捕捉 Prompt 中的细节指令，无论是复杂的空间关系、特定物体属性，还是抽象的情绪氛围，都能被精准解析并转化为画面。相比上一版本，其生成中的“幻觉”与“遗漏”进一步减少。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;比如，在包含多达 9 个主体的视觉图中，Seedream 模型依然实现了对复杂指令的遵循，字母、时间、数字、颜色等属性均精准还原。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv9c.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：一个 3x3 的展示架网格，正面平视视角。 左上格：一个透明的玻璃立方体，里面悬浮着一朵红玫瑰。 中上格：一个木制的球体，表面雕刻着字母'A'。 右上格：一个金属金字塔，表面反射出蓝色的天空。 左中格：一只陶瓷材质的猫，涂着金色的漆。 正中格：一个透明的时钟，指针指向 10 点 10 分。 右中格：整齐堆叠的六颗绿宝石，数量必须正好是六颗。 左下格：一根燃烧的蜡烛，蜡油是蓝色的，火焰是绿色的。 中下格：一个种在茶壶里的仙人掌。 右下格：一个戴着墨镜的骷髅头。 高清分辨率，超写实摄影，影棚光效。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;在多人物主体的复杂场景中，Seedream 也实现了较好的生成效果。例如下图中，模型参考内置世界知识，生成了 5 位艺术人物的“现代风”合照：不仅自然呈现了他们与不同道具的互动姿态，还通过推理精准还原了人物在反差场景中的神韵。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cvca.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：五位艺术人物并排站立，人物保留油画质感，现代道具呈现照片级真实感。1）梵高：佩戴白色 VR 头盔，双臂盲目伸向空中，惊叹张口。2）弗里达·卡罗：俯身 DJ 台，一手按压耳机，另一手积极转动混音旋钮。3）戴珍珠耳环的少女：粉色爱心太阳镜，从容啜饮珍珠奶茶。4）蒙娜丽莎：佩戴亮黄色耳机，闭目微颔，单手轻托耳罩，随音乐律动。5）萨尔瓦多·达利：手持 switch，拇指紧扣摇杆，神情专注沉浸游戏。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;基于智能化程度与专业化水平的提升，我们相信，Seedream 5.0 Lite 还有很多进阶玩法，等待大家探索。&lt;/span&gt;&lt;/p&gt;&lt;h2&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;span&gt;&lt;strong&gt;Seedream 5.0 Lite 评测&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;办公学习场景提升显著&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 并非止步于基础能力提升，而是更加聚焦于“实用化”与“生活化”的真实落地。因此，在能力测试中，我们不仅评测了模型的指令响应、图文一致性、综合表现等传统指标，同时也引入了知识推理、办公学习、商业营销、影视游戏、艺术创作、设计等高频应用场景的专项测试题目。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;相关评测依托 MagicArena 竞技平台展开，我们引入了不同模型进行双盲对战打分。为确保结果的客观性，所有评分均由图像生成领域的资深评测专家完成。基于累计采集的数万轮对战数据，我们计算并输出了高置信度的 Elo 排名。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;结果显示，相较上一代版本，Seedream 5.0 Lite 在 Elo 综合评分、指令响应与编辑一致性等关键基础指标上均取得显著进步，特别是在知识推理、人像增强等场景，其展现出了更强的理解力与执行力。在真实场景中，尤其面向办公学习场景，伴随模型思考能力提升，模型实际表现得分大幅提升。这意味着 Seedream 5.0 Lite 不再仅是创意玩具，而是能走进用户工作与生活的得力助手。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cvnp.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;文生图评测表现&lt;/em&gt;&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cvtt.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;图生图评测表现&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;h2&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;span&gt;&lt;strong&gt;总结与展望&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;span&gt;跨模态推理能力和世界知识的增强，让 Seedream 5.0 Lite 实现了从“执行指令”到“理解意图”的跨越。这意味着图像生成综合能力的显著提升，也将带来新的、更高效的交互方式。未来，用户很可能不再需要学习复杂的 Prompt 技巧，通过与模型交流创作意图，即可高效精准地完成图文创作。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;这一转变，也让图像生成模型从“好玩”走向“好用”，更多地融入生产力场景。升级后的 Seedream 系列模型，可以成为普通用户的得力助手，帮助美化 PPT、生成图表、制作海报，实用性显著增强。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 是一个较小的模型，在结构稳定性、真实感和美感方面还有进一步提升的空间。未来，我们将继续 Scaling 模型，提升 Seedream 系列模型的智能水平和效果上限，并将支持更多轮次的交互式编辑。&lt;/span&gt;&lt;span&gt;希望它不仅能帮助用户实现创意，还能成为激发创意的“第二大脑”，为商业广告、艺术创作等更高难度的创作场景提供创意支持。&lt;/span&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;span&gt;去年 9 月，我们发布统一编辑与生成的图像创作模型 Seedream 4.0，它融合了部分常识和一定的推理能力，受到不少用户的欢迎。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;今天，我们推出 &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Seedream 5.0 Lite 智能图像创作模型&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;。相比 4.0 版本，它在&lt;/span&gt;&lt;span&gt;&lt;strong&gt;理解、推理和生成方面全面提升&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;，是一个“更聪明”且“更专业”的视觉创意伙伴。&lt;/span&gt;&lt;/p&gt;&lt;video controls="true" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4uec3mlkedgtv.mp4"&gt;您的浏览器不支持视频播放。&lt;/video&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 带来的主要提升，不是更高的分辨率或更快的速度，而是贯穿在“读”“看”“画”“写”背后的深度思考。作为通向统一多模态模型的进一步探索，它开始能像人类设计师一样“理解”用户指令背后的意图，“看懂”不同画面中的规律，并将世界知识应用于图像与文本创作中。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;在此基础上，我们还首次为 Seedream 模型引入&lt;/span&gt;&lt;span&gt;&lt;strong&gt;实时检索增强能力&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;，它可通过联网检索，获取最新的知识和资讯，更精准地回应具有时效性的创作需求。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 的核心亮点如下：&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;理解与生成表现全面提升&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;：模型采用多模态统一架构，其跨模态理解和推理能力进一步提升。这使得模型能更深刻地把握参考图的主要特征，更准确地理解用户模糊的指令，从而生成更加符合用户意图的内容。同时，模型在主体一致性、图文对齐等生成方面的表现也显著进步。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;世界知识体系增强&lt;/strong&gt;：&lt;/span&gt;&lt;span&gt;模型内置丰富的世界知识，覆盖科技与人文领域的多个垂类行业知识库。知识体系增强后，其生成结果更符合物理规律，信息可视化能力也大幅提升。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;实时检索让“大脑”突破局限&lt;/strong&gt;：&lt;/span&gt;&lt;span&gt;模型可更有效地响应具有时效性的生成需求，尤其适合资讯海报生成等场景。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;在综合评测中，Seedream 5.0 Lite 的 Elo 评分超越 Seedream 4.5，其知识推理、编辑响应与一致性保持等能力提升显著，在真实落地场景中进步尤为突出。现在，Seedream 5.0 Lite 已上线即梦AI、火山方舟体验中心，并在豆包开启内测，欢迎体验和反馈。&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;项目主页：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;https://seed.bytedance.c&lt;/span&gt;&lt;span&gt;om/seedream5_0_l&lt;/span&gt;&lt;span&gt;ite&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;体验链接：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;1）即梦网页端-图片生成-选择图片 5.0 Lite；&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;2）火山方舟体验中心-视觉模型-图片生成-Doubao-Seedream-5.0-lite。&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;不止听令，更懂所想&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;视觉协作体验再升级&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;span&gt;得益于“智力”的大幅提升，Seedream 最新模型不再仅是一个被动接收指令的绘图引擎，而是进化为一个具备观察力、理解力和逻辑力的专业创作助手。以下是我们总结的 Seedream 5.0 Lite 的几种基础玩法：&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;1. 视觉推理生图：支持多步思考，让生成符合现实规律&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 不只是一支简单的“画笔”，它能先“看懂”输入的图像和指令，再符合逻辑地“画图”。这一特点，让 Seedream 可执行传统图像生成模型难以胜任的视觉思考任务，并支持多步推理，让生成结果符合内在逻辑与物理规律。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;例如，Seedream 开始能完成简单的围棋推理，思考下一步落子和后续的棋局；面对大量散乱的零件，在用户未指出零件属性的情况下，它能推理出物体类型，并进行相对合理的组装。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cue7.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：围棋对弈，下一个白子后，吃掉这个黑子。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuh5.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：用图中所有的零件拼接成一个整体。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;2. 信息可视化：结合世界知识，高效生成演示配图&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;依靠丰富的知识体系和深度推理能力，Seedream 5.0 Lite 的信息可视化能力大幅提升，可用于办公、教育与科研等生产力场景。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;无论是还原热带雨林的垂直群落结构，标注石油地质剖面，还是根据公式绘制展示图，Seedream 都能将晦涩的概念转化为直观、美观的信息图谱，提升用户的生产效率。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuko.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;左图 Prompt：一张丰富多彩的自然生态图，展示热带雨林的四个垂直层次（露生层、树冠层、灌木层、地表层）。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;中图 Prompt：一张英文石油系统信息图表，显示石油钻井平台和地质层。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;右图 Prompt：高中数学教材插图，可视化函数在某一点的导数的几何意义，白色背景，线条清晰，科学专业准确。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;3. 联网检索生成：结合最新热点，让创作贴近当下&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;为打破模型训练数据的时间限制，Seedream 5.0 Lite 引入了强大的实时检索能力。无论结合当下天气情况生成城市海报，总结全球电影票房，还是绘制金价走势图，它都能基于实时检索结果，生成符合现实逻辑的内容。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;检索功能可灵活开关，开启时模型紧跟热点、内容鲜活；关闭时创作更稳定，按需切换即可。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuo4.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：搜索以下地点在 2026 年 2 月 4 日的天气、温度和时间：1.北京、2.纽约、3.东京、4.悉尼、5.马德里，合成摄影作品。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8curf.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;左图 Prompt：参考 2025 年全球票房排行榜前三名，设计一张充满未来科技感的电影票房排行榜，字体全部用英文，附上金额。排列尽量美观，避免单调无聊，霓虹灯感，好看，海报，大片。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;右图 Prompt：请从 2 月 4 日起，生成最近七天的黄金金价柱状图（以国内现货计价，显示具体的数值&amp;amp;时间，非交易日略过，柱状图比例尺正确），一款时尚的玻璃拟态 UI 卡片。风格：磨砂玻璃效果。视觉元素：半透明模糊背景，流畅的金色渐变线条，柔和阴影，悬浮的 3D 金币图标点缀于四角，柔和的粉彩光效。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;4. 精准风格迁移：一键“通感”参考图，生成“艺术大片”&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;文字很难穷尽艺术作品中微妙的光影与笔触。得益于 Seedream 5.0 Lite 跨模态理解能力的提升，无需再绞尽脑汁写复杂的提示词，只需一张参考图，模型就能瞬间“通感”你要的风格。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;不管是波西米亚式的华丽穿搭，还是印象派的油画质感，它都能精准捕捉神韵，融入生成图片，让随手一拍变成艺术大片。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cutw.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：参考下图，将上图做风格转绘。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cuwo.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：把图 1 色调改成图 2 的色调。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;5. 高阶图片编辑：通过模糊指令，实现精准修图&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;随着理解和思考能力的提升，Seedream 5.0 Lite 也掌握了更高阶的图片编辑能力。即便用户只给出简短、模糊的指令，它也能像人类设计师一样推测背后意图，并精准实现预期效果。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv03.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：参考图 1 到图 2 的变化，修改图 3。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;相较前代模型，Seedream 5.0 Lite 的编辑可控性也进一步提升。在局部修图或替换主体时，模型可更稳定地保持非编辑区域的一致性，按用户需求“指哪改哪”。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv3t.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：将画面光影改为光斑。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv6h.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：改变焦点，让前景清晰，人物虚化。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;6. 复杂多主体生成：精准遵循指令，还原不同主体属性&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 在基础生成方面也取得了进步。它能更敏锐地捕捉 Prompt 中的细节指令，无论是复杂的空间关系、特定物体属性，还是抽象的情绪氛围，都能被精准解析并转化为画面。相比上一版本，其生成中的“幻觉”与“遗漏”进一步减少。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;比如，在包含多达 9 个主体的视觉图中，Seedream 模型依然实现了对复杂指令的遵循，字母、时间、数字、颜色等属性均精准还原。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cv9c.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：一个 3x3 的展示架网格，正面平视视角。 左上格：一个透明的玻璃立方体，里面悬浮着一朵红玫瑰。 中上格：一个木制的球体，表面雕刻着字母'A'。 右上格：一个金属金字塔，表面反射出蓝色的天空。 左中格：一只陶瓷材质的猫，涂着金色的漆。 正中格：一个透明的时钟，指针指向 10 点 10 分。 右中格：整齐堆叠的六颗绿宝石，数量必须正好是六颗。 左下格：一根燃烧的蜡烛，蜡油是蓝色的，火焰是绿色的。 中下格：一个种在茶壶里的仙人掌。 右下格：一个戴着墨镜的骷髅头。 高清分辨率，超写实摄影，影棚光效。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;在多人物主体的复杂场景中，Seedream 也实现了较好的生成效果。例如下图中，模型参考内置世界知识，生成了 5 位艺术人物的“现代风”合照：不仅自然呈现了他们与不同道具的互动姿态，还通过推理精准还原了人物在反差场景中的神韵。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cvca.jpg"/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Prompt：五位艺术人物并排站立，人物保留油画质感，现代道具呈现照片级真实感。1）梵高：佩戴白色 VR 头盔，双臂盲目伸向空中，惊叹张口。2）弗里达·卡罗：俯身 DJ 台，一手按压耳机，另一手积极转动混音旋钮。3）戴珍珠耳环的少女：粉色爱心太阳镜，从容啜饮珍珠奶茶。4）蒙娜丽莎：佩戴亮黄色耳机，闭目微颔，单手轻托耳罩，随音乐律动。5）萨尔瓦多·达利：手持 switch，拇指紧扣摇杆，神情专注沉浸游戏。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;基于智能化程度与专业化水平的提升，我们相信，Seedream 5.0 Lite 还有很多进阶玩法，等待大家探索。&lt;/span&gt;&lt;/p&gt;&lt;h2&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;span&gt;&lt;strong&gt;Seedream 5.0 Lite 评测&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span&gt;&lt;strong&gt;办公学习场景提升显著&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 并非止步于基础能力提升，而是更加聚焦于“实用化”与“生活化”的真实落地。因此，在能力测试中，我们不仅评测了模型的指令响应、图文一致性、综合表现等传统指标，同时也引入了知识推理、办公学习、商业营销、影视游戏、艺术创作、设计等高频应用场景的专项测试题目。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;相关评测依托 MagicArena 竞技平台展开，我们引入了不同模型进行双盲对战打分。为确保结果的客观性，所有评分均由图像生成领域的资深评测专家完成。基于累计采集的数万轮对战数据，我们计算并输出了高置信度的 Elo 排名。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;结果显示，相较上一代版本，Seedream 5.0 Lite 在 Elo 综合评分、指令响应与编辑一致性等关键基础指标上均取得显著进步，特别是在知识推理、人像增强等场景，其展现出了更强的理解力与执行力。在真实场景中，尤其面向办公学习场景，伴随模型思考能力提升，模型实际表现得分大幅提升。这意味着 Seedream 5.0 Lite 不再仅是创意玩具，而是能走进用户工作与生活的得力助手。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cvnp.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;文生图评测表现&lt;/em&gt;&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/mlk8cvtt.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;图生图评测表现&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;h2&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;span&gt;&lt;strong&gt;总结与展望&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;span&gt;跨模态推理能力和世界知识的增强，让 Seedream 5.0 Lite 实现了从“执行指令”到“理解意图”的跨越。这意味着图像生成综合能力的显著提升，也将带来新的、更高效的交互方式。未来，用户很可能不再需要学习复杂的 Prompt 技巧，通过与模型交流创作意图，即可高效精准地完成图文创作。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;这一转变，也让图像生成模型从“好玩”走向“好用”，更多地融入生产力场景。升级后的 Seedream 系列模型，可以成为普通用户的得力助手，帮助美化 PPT、生成图表、制作海报，实用性显著增强。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seedream 5.0 Lite 是一个较小的模型，在结构稳定性、真实感和美感方面还有进一步提升的空间。未来，我们将继续 Scaling 模型，提升 Seedream 系列模型的智能水平和效果上限，并将支持更多轮次的交互式编辑。&lt;/span&gt;&lt;span&gt;希望它不仅能帮助用户实现创意，还能成为激发创意的“第二大脑”，为商业广告、艺术创作等更高难度的创作场景提供创意支持。&lt;/span&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/思考-更深-生成更准-seedream-5-0-lite-发布</guid>
       <pubDate>Thu, 12 Feb 2026 16:00:00 +0000</pubDate>
-      <crawled>2026-07-07T09:29:32.420007+00:00</crawled>
-    </item>
-    <item>
-      <title>No title</title>
-      <link>https://seed.bytedance.com/zh/research/seed2-0-正式发布</link>
-      <description>&lt;p&gt;&lt;span&gt;大语言模型驱动的产品已深刻融入我们的生活。过去一年多，Seed 开发的 LLM 模型系列已支持豆包等拥有上亿用户的 C 端产品，同时，我们也注意到，随着 Agent 时代到来，LLM 将在现实世界的复杂任务中发挥更大作用：比如参与科学研究，支持复杂软件开发，LLM 甚至可以基于上下文自主学习，完成各类具有经济价值的任务。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;在这个关键节点，我们很荣幸地介绍&lt;strong&gt;最新 Seed2.0 系列&lt;/strong&gt;，它们围绕大规模生产环境下的使用需求做了系统性优化，&lt;strong&gt;旨在帮助突破真实世界中的复杂任务&lt;/strong&gt;。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;通过分析 Seed 通用模型在 MaaS 服务中的调用情况，我们发现，最高比例的需求为处理混杂图表、文档等非结构化信息的知识内容，企业往往要求模型先做“读得多、想得多”的任务，再进入复杂且专业的流程型工作，对模型的长内容理解和多步任务执行能力要求越来越高。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvgeeg.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Seed 通用模型 MaaS 服务在中国大陆的调用场景分布，数据来自“火山方舟协作奖励计划”，相关用户已签署授权协议&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;基于真实使用场景，Seed2.0 系列重点在以下方面进行了优化：&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;更稳健的视觉与多模态理解：&lt;/strong&gt;Seed2.0 强化了视觉感知与推理能力，对复杂文档、表格、图形、视频内容的解析水平显著提升，视觉信息处理更精准。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;更可靠的复杂指令执行：&lt;/strong&gt;Seed2.0 提升了指令遵循和推理表现，并强化了对多约束、多步骤、长链路任务的理解与执行能力，已具备支撑高价值任务的能力基础。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;更快速、更灵活的推理选择：&lt;/strong&gt;Seed2.0 提供 Pro、Lite、Mini 三款不同尺寸的通用 Agent 模型，以及专门的 Code 模型，覆盖不同的场景需求，供企业和开发者选择。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;除了更好地支持生产级需求，Seed2.0 还致力于提升模型智能上限。&lt;/strong&gt;目前，Seed2.0 已能从解决奥林匹克竞赛类问题迈向支持研究级的推理任务。比如，&lt;/span&gt;&lt;span&gt;Seed2.0 可尝试探索埃尔德什级别的数学问题，也可完成部分科学相关任务的编程工作，进一步突破机器智能的边界。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed2.0 Pro 和 Code 模型已分别在豆包 App 和 TRAE 上线，同时，Seed2.0 全系列模型 API 已同步上线火山引擎，欢迎大家体验、反馈。&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;项目主页（含Model Card）：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;https://seed.bytedance.com/zh/seed2&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;体验入口：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;1）豆包App-选择“专家”模式-开启对话；&lt;/p&gt;&lt;p&gt;2）TRAE-在“内置模型”中选择“Doubao-Seed-2.0-Code”。&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;多模态理解能力全面升级&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;大部分基准达 SOTA 水平&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed2.0 全面升级了多模态能力，&lt;strong&gt;在各类视觉理解任务上均达到业界顶尖水平&lt;/strong&gt;，其视觉推理、感知能力、空间推理与长上下文理解能力表现尤为突出，Seed2.0 Pro 在大多数相关基准测试中取得了最高分数。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;在数学与视觉推理方面，Seed2.0 Pro 在 MathVista、MathVision、MathKangaroo、MathCanvas 等数学推理基准上达到业界最优水平。同时，在 LogicVista、VisuLogic 等视觉解谜与逻辑推理基准上，Seed2.0 Pro 得分较 Seed1.8 显著提升。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvh3kv.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;标注 * 的数据引自公开技术报告&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed2.0 的视觉感知能力进一步升级。在 VLMsAreBiased、VLMsAreBlind、BabyVision 等基准中，Seed2.0 取得了业界最高分，说明它在面对不同类型的视觉输入时，仍能保持准确且可信的感知和判断能力。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvi42j.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;标注 * 的数据引自公开技术报告&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;视觉理解基础能力的进步，让 Seed2.0 在真实应用场景中的表现大幅提升。在文档理解中，模型面对的往往不是标准的数据输入，而是复杂版式混排的原始材料。相比 Seed1.8，Seed2.0 处理非结构化信息的能力显著强化，其在 ChartQAPro 与 OmniDocBench 1.5 基准上达到顶尖模型水准。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;同时，在长上下文理解方面，Seed2.0 在 DUDE、MMLongBench 与 MMLongBench‑Doc 上均取得业界最佳分数。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvivtj.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;标注 * 的数据引自公开技术报告&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;面对视频场景，Seed2.0 强化了对时间序列与运动感知的理解能力，在 TVBench、TempCompass、MotionBench 等关键测评中处于领先位置，且在 EgoTempo 基准上超过了人类分数，表明它对“变化、动作、节奏”这类信息的捕捉更为稳定，在工程侧可用性更高。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvjn3c.jpeg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;标注 * 的数据引自公开技术报告&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;长视频场景中，Seed2.0 在大部分评测上超越了其他顶尖模型。其可以高效准确地处理小时级别的长视频，此外，视频工具 VideoCut 进一步提高了长视频处理的时长范围，并提升了推理精度。在视频长、信息杂的企业真实部署场景中，Seed2.0 可帮助快速捕捉视频关键信息，准确地输出用于下游决策的结论。 &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;同时，Seed2.0 在多个流式实时问答视频基准测试中表现优异，能作为 AI 助手完成实时视频流分析、环境感知、主动纠错与情感陪伴，实现从被动问答到主动指导的交互升级，可应用于健身、穿搭等陪伴场景。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvkcvt.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;标注 * 的数据引自公开技术报告&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;LLM 与 Agent 表现大幅强化&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;真实长程任务执行能力提升&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed 团队观察到一个典型失衡：语言模型已经可以顺利解决竞赛难题，但放在真实世界中，它们依然很难端到端地完成实际任务——比如一次性构建一个设计精良、功能完整的小程序。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;LLM 和 Agent 为什么在处理现实问题时屡屡碰壁？我们认为，原因主要来自两点：&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;真实世界任务往往跨越更长时间尺度、包含多个阶段，而现有 LLM Agent 难以自主构建高效工作流，并在长时间跨度中积累经验；&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;真实世界知识具有很强的领域壁垒且呈长尾分布，各行业的经验不在训练语料的高频区，导致即便模型擅长数学与代码，其在专业场景中往往价值有限。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;Seed2.0 首先通过&lt;strong&gt;系统性加强长尾领域知识&lt;/strong&gt;来应对这一难题。Seed2.0 Pro 在 SuperGPQA 上分数超过 GPT-5.2，其在科学领域的整体成绩与 Gemini 3 Pro 和 GPT-5.2 保持相当水平。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;此外，Seed2.0 Pro 在跨学科知识应用上的能力显著增强，其在 FrontierSci 等 STEM 基准测试中表现突出，部分场景得分超过 Gemini 3 Pro。同时，Seed2.0 Pro 在 ICPC、IMO、CMO 测试中均获得金牌成绩，说明模型在数学、代码及推理智能方面进一步提升。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/5flc9mlmg1tvj.jpeg"/&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymlmasf5r.jpeg"/&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymlmaxgf5.jpeg"/&gt;&lt;p&gt;&lt;span&gt;Seed2.0 还重点强化了指令遵循能力。相关评测显示，Seed2.0 可保持较强的一致性与可控性，这为其作为 Agent 模型在长链路、多步骤任务中严格按约束条件执行奠定基础。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvs5fz.jpg"/&gt;&lt;p&gt;&lt;span&gt;从基础 Agent 能力的得分来看，&lt;strong&gt;Seed2.0 在长链路任务中表现突出&lt;/strong&gt;，尤其擅长连续完成“&lt;/span&gt;&lt;span&gt;找资料、做归纳、写结论”等连续工作流。&lt;/span&gt;&lt;span&gt;搜索与深度研究任务中，Seed2.0 在 BrowseComp-zh、HLE-text 等七项评测上均取得较高分数，展现出在研究型任务里的推进能力与稳定性。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/5flc9mlmfww8q.jpeg"/&gt;&lt;p&gt;&lt;span&gt;在复杂 Agent 能力评估中，Seed2.0 达到业界第一梯队水平。比如，在具备直接经济价值的现实任务评测中，Seed2.0 在客服问答、信息抽取、意图识别、中小学阶段问题解答等高频用户场景上表现稳定；在 GDPVal-Diamond、XPert Bench 等复杂专业任务基准上，模型同样取得了有竞争力的结果，说明它可以胜任长链路、多约束查询任务。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvparr.jpg"/&gt;&lt;p&gt;&lt;span&gt;同时，Seed2.0 Pro 在 FrontierSci‑research 等前沿科研基准上表现强劲，并在 AInstein Bench 上领先，体现出在科学发现场景中较强的假设驱动式推理能力。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvtpr9.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;此外，Seed2.0 还能把“研究想法”推进到“形成可落地的实验方案”。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;以高尔基体蛋白分析为例，它不仅能给出总体实验路线，还能把基因工程、小鼠模型构建、亚细胞分离与多组学分析串成一条完整流程，细化到关键环节怎么做、用什么进行对照以排除污染、用哪些指标评估纯度。相关领域专家表示，Seed2.0 给出的方案，在跨学科的实验细节与步骤化表达上，超出了他们对大模型的预期，其回答不止停留在策略层面，而是能产出结构清晰、科学上相对可靠，且具有可执行性的实验草案。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvu9wx.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;在提升了长程任务执行能力的同时，Seed2.0 还进一步降低了推理成本。&lt;/strong&gt;其模型效果与业界顶尖大模型相当，同时 token 定价降低了约一个数量级。在现实世界的复杂任务中，由于大规模推理与长链路生成将消耗大量 token，这一成本优势将变得更为关键。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;*关于评测基准的详细介绍，以及 Seed2.0 的更多真实用例，可以参见模型 Model Card。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;总结与展望&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;针对企业与用户的真实需求及使用场景，我们筛选和搭建了一系列评测基准，用于构建适用于大语言模型的评估体系。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;依托这套可靠且具有前瞻性的评估体系，Seed2.0 强化了多模态理解与推理能力，并致力于解决长尾知识与复杂指令遵循问题，从而提升模型在复杂、长周期现实任务中的可靠性。在针对真实应用场景中的评测中，Seed2.0 表现出色，达到业界第一梯队水平，且已表现出支持科学研究级任务的潜力。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;同时，我们也观察到，Seed2.0 在端到端整体代码生成、上下文学习方面取得了明显进步，不过在部分高难基准上，其与国际领先模型相比仍有提升空间。未来，我们将继续面向真实场景迭代 Seed 语言模型，不断提高其智能上限。&lt;/span&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/seed2-0-正式发布</guid>
-      <pubDate>Fri, 13 Feb 2026 16:00:00 +0000</pubDate>
-      <crawled>2026-07-07T09:28:52.081809+00:00</crawled>
     </item>
     <item>
       <title>Seed2.0 正式发布</title>
@@ -8203,15 +8198,13 @@ Seed-OSS-36B-Instruct 是基于 Seed-OSS-36B-Base 进行后训练的模型版本
       <description>&lt;p&gt;&lt;span&gt;大语言模型驱动的产品已深刻融入我们的生活。过去一年多，Seed 开发的 LLM 模型系列已支持豆包等拥有上亿用户的 C 端产品，同时，我们也注意到，随着 Agent 时代到来，LLM 将在现实世界的复杂任务中发挥更大作用：比如参与科学研究，支持复杂软件开发，LLM 甚至可以基于上下文自主学习，完成各类具有经济价值的任务。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;在这个关键节点，我们很荣幸地介绍&lt;strong&gt;最新 Seed2.0 系列&lt;/strong&gt;，它们围绕大规模生产环境下的使用需求做了系统性优化，&lt;strong&gt;旨在帮助突破真实世界中的复杂任务&lt;/strong&gt;。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;通过分析 Seed 通用模型在 MaaS 服务中的调用情况，我们发现，最高比例的需求为处理混杂图表、文档等非结构化信息的知识内容，企业往往要求模型先做“读得多、想得多”的任务，再进入复杂且专业的流程型工作，对模型的长内容理解和多步任务执行能力要求越来越高。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvgeeg.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Seed 通用模型 MaaS 服务在中国大陆的调用场景分布，数据来自“火山方舟协作奖励计划”，相关用户已签署授权协议&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;基于真实使用场景，Seed2.0 系列重点在以下方面进行了优化：&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;更稳健的视觉与多模态理解：&lt;/strong&gt;Seed2.0 强化了视觉感知与推理能力，对复杂文档、表格、图形、视频内容的解析水平显著提升，视觉信息处理更精准。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;更可靠的复杂指令执行：&lt;/strong&gt;Seed2.0 提升了指令遵循和推理表现，并强化了对多约束、多步骤、长链路任务的理解与执行能力，已具备支撑高价值任务的能力基础。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;更快速、更灵活的推理选择：&lt;/strong&gt;Seed2.0 提供 Pro、Lite、Mini 三款不同尺寸的通用 Agent 模型，以及专门的 Code 模型，覆盖不同的场景需求，供企业和开发者选择。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;除了更好地支持生产级需求，Seed2.0 还致力于提升模型智能上限。&lt;/strong&gt;目前，Seed2.0 已能从解决奥林匹克竞赛类问题迈向支持研究级的推理任务。比如，&lt;/span&gt;&lt;span&gt;Seed2.0 可尝试探索埃尔德什级别的数学问题，也可完成部分科学相关任务的编程工作，进一步突破机器智能的边界。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed2.0 Pro 和 Code 模型已分别在豆包 App 和 TRAE 上线，同时，Seed2.0 全系列模型 API 已同步上线火山引擎，欢迎大家体验、反馈。&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;项目主页（含Model Card）：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;https://seed.bytedance.com/zh/seed2&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;体验入口：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;1）豆包App-选择“专家”模式-开启对话；&lt;/p&gt;&lt;p&gt;2）TRAE-在“内置模型”中选择“Doubao-Seed-2.0-Code”。&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;多模态理解能力全面升级&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;大部分基准达 SOTA 水平&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed2.0 全面升级了多模态能力，&lt;strong&gt;在各类视觉理解任务上均达到业界顶尖水平&lt;/strong&gt;，其视觉推理、感知能力、空间推理与长上下文理解能力表现尤为突出，Seed2.0 Pro 在大多数相关基准测试中取得了最高分数。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;在数学与视觉推理方面，Seed2.0 Pro 在 MathVista、MathVision、MathKangaroo、MathCanvas 等数学推理基准上达到业界最优水平。同时，在 LogicVista、VisuLogic 等视觉解谜与逻辑推理基准上，Seed2.0 Pro 得分较 Seed1.8 显著提升。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvh3kv.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;标注 * 的数据引自公开技术报告&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed2.0 的视觉感知能力进一步升级。在 VLMsAreBiased、VLMsAreBlind、BabyVision 等基准中，Seed2.0 取得了业界最高分，说明它在面对不同类型的视觉输入时，仍能保持准确且可信的感知和判断能力。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvi42j.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;标注 * 的数据引自公开技术报告&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;视觉理解基础能力的进步，让 Seed2.0 在真实应用场景中的表现大幅提升。在文档理解中，模型面对的往往不是标准的数据输入，而是复杂版式混排的原始材料。相比 Seed1.8，Seed2.0 处理非结构化信息的能力显著强化，其在 ChartQAPro 与 OmniDocBench 1.5 基准上达到顶尖模型水准。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;同时，在长上下文理解方面，Seed2.0 在 DUDE、MMLongBench 与 MMLongBench‑Doc 上均取得业界最佳分数。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvivtj.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;标注 * 的数据引自公开技术报告&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;面对视频场景，Seed2.0 强化了对时间序列与运动感知的理解能力，在 TVBench、TempCompass、MotionBench 等关键测评中处于领先位置，且在 EgoTempo 基准上超过了人类分数，表明它对“变化、动作、节奏”这类信息的捕捉更为稳定，在工程侧可用性更高。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvjn3c.jpeg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;标注 * 的数据引自公开技术报告&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;长视频场景中，Seed2.0 在大部分评测上超越了其他顶尖模型。其可以高效准确地处理小时级别的长视频，此外，视频工具 VideoCut 进一步提高了长视频处理的时长范围，并提升了推理精度。在视频长、信息杂的企业真实部署场景中，Seed2.0 可帮助快速捕捉视频关键信息，准确地输出用于下游决策的结论。 &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;同时，Seed2.0 在多个流式实时问答视频基准测试中表现优异，能作为 AI 助手完成实时视频流分析、环境感知、主动纠错与情感陪伴，实现从被动问答到主动指导的交互升级，可应用于健身、穿搭等陪伴场景。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvkcvt.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;标注 * 的数据引自公开技术报告&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;LLM 与 Agent 表现大幅强化&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;真实长程任务执行能力提升&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed 团队观察到一个典型失衡：语言模型已经可以顺利解决竞赛难题，但放在真实世界中，它们依然很难端到端地完成实际任务——比如一次性构建一个设计精良、功能完整的小程序。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;LLM 和 Agent 为什么在处理现实问题时屡屡碰壁？我们认为，原因主要来自两点：&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;真实世界任务往往跨越更长时间尺度、包含多个阶段，而现有 LLM Agent 难以自主构建高效工作流，并在长时间跨度中积累经验；&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;真实世界知识具有很强的领域壁垒且呈长尾分布，各行业的经验不在训练语料的高频区，导致即便模型擅长数学与代码，其在专业场景中往往价值有限。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;Seed2.0 首先通过&lt;strong&gt;系统性加强长尾领域知识&lt;/strong&gt;来应对这一难题。Seed2.0 Pro 在 SuperGPQA 上分数超过 GPT-5.2，其在科学领域的整体成绩与 Gemini 3 Pro 和 GPT-5.2 保持相当水平。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;此外，Seed2.0 Pro 在跨学科知识应用上的能力显著增强，其在 FrontierSci 等 STEM 基准测试中表现突出，部分场景得分超过 Gemini 3 Pro。同时，Seed2.0 Pro 在 ICPC、IMO、CMO 测试中均获得金牌成绩，说明模型在数学、代码及推理智能方面进一步提升。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/5flc9mlmg1tvj.jpeg"/&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymlmasf5r.jpeg"/&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymlmaxgf5.jpeg"/&gt;&lt;p&gt;&lt;span&gt;Seed2.0 还重点强化了指令遵循能力。相关评测显示，Seed2.0 可保持较强的一致性与可控性，这为其作为 Agent 模型在长链路、多步骤任务中严格按约束条件执行奠定基础。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvs5fz.jpg"/&gt;&lt;p&gt;&lt;span&gt;从基础 Agent 能力的得分来看，&lt;strong&gt;Seed2.0 在长链路任务中表现突出&lt;/strong&gt;，尤其擅长连续完成“&lt;/span&gt;&lt;span&gt;找资料、做归纳、写结论”等连续工作流。&lt;/span&gt;&lt;span&gt;搜索与深度研究任务中，Seed2.0 在 BrowseComp-zh、HLE-text 等七项评测上均取得较高分数，展现出在研究型任务里的推进能力与稳定性。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/5flc9mlmfww8q.jpeg"/&gt;&lt;p&gt;&lt;span&gt;在复杂 Agent 能力评估中，Seed2.0 达到业界第一梯队水平。比如，在具备直接经济价值的现实任务评测中，Seed2.0 在客服问答、信息抽取、意图识别、中小学阶段问题解答等高频用户场景上表现稳定；在 GDPVal-Diamond、XPert Bench 等复杂专业任务基准上，模型同样取得了有竞争力的结果，说明它可以胜任长链路、多约束查询任务。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvparr.jpg"/&gt;&lt;p&gt;&lt;span&gt;同时，Seed2.0 Pro 在 FrontierSci‑research 等前沿科研基准上表现强劲，并在 AInstein Bench 上领先，体现出在科学发现场景中较强的假设驱动式推理能力。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvtpr9.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;此外，Seed2.0 还能把“研究想法”推进到“形成可落地的实验方案”。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;以高尔基体蛋白分析为例，它不仅能给出总体实验路线，还能把基因工程、小鼠模型构建、亚细胞分离与多组学分析串成一条完整流程，细化到关键环节怎么做、用什么进行对照以排除污染、用哪些指标评估纯度。相关领域专家表示，Seed2.0 给出的方案，在跨学科的实验细节与步骤化表达上，超出了他们对大模型的预期，其回答不止停留在策略层面，而是能产出结构清晰、科学上相对可靠，且具有可执行性的实验草案。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvu9wx.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;在提升了长程任务执行能力的同时，Seed2.0 还进一步降低了推理成本。&lt;/strong&gt;其模型效果与业界顶尖大模型相当，同时 token 定价降低了约一个数量级。在现实世界的复杂任务中，由于大规模推理与长链路生成将消耗大量 token，这一成本优势将变得更为关键。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;*关于评测基准的详细介绍，以及 Seed2.0 的更多真实用例，可以参见模型 Model Card。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;总结与展望&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;针对企业与用户的真实需求及使用场景，我们筛选和搭建了一系列评测基准，用于构建适用于大语言模型的评估体系。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;依托这套可靠且具有前瞻性的评估体系，Seed2.0 强化了多模态理解与推理能力，并致力于解决长尾知识与复杂指令遵循问题，从而提升模型在复杂、长周期现实任务中的可靠性。在针对真实应用场景中的评测中，Seed2.0 表现出色，达到业界第一梯队水平，且已表现出支持科学研究级任务的潜力。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;同时，我们也观察到，Seed2.0 在端到端整体代码生成、上下文学习方面取得了明显进步，不过在部分高难基准上，其与国际领先模型相比仍有提升空间。未来，我们将继续面向真实场景迭代 Seed 语言模型，不断提高其智能上限。&lt;/span&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/seed2-0-正式发布</guid>
       <pubDate>Fri, 13 Feb 2026 16:00:00 +0000</pubDate>
-      <crawled>2026-07-07T09:28:52.081809+00:00</crawled>
     </item>
     <item>
       <title>No title</title>
-      <link>https://seed.bytedance.com/zh/research/字节跳动-seed-2027-届大模型人才校招启动-含实习</link>
-      <description>&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/字节跳动-seed-2027-届大模型人才校招启动-含实习</guid>
-      <pubDate>Tue, 31 Mar 2026 16:00:00 +0000</pubDate>
-      <crawled>2026-07-07T09:28:51.914251+00:00</crawled>
+      <link>https://seed.bytedance.com/zh/research/seed2-0-正式发布</link>
+      <description>&lt;p&gt;&lt;span&gt;大语言模型驱动的产品已深刻融入我们的生活。过去一年多，Seed 开发的 LLM 模型系列已支持豆包等拥有上亿用户的 C 端产品，同时，我们也注意到，随着 Agent 时代到来，LLM 将在现实世界的复杂任务中发挥更大作用：比如参与科学研究，支持复杂软件开发，LLM 甚至可以基于上下文自主学习，完成各类具有经济价值的任务。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;在这个关键节点，我们很荣幸地介绍&lt;strong&gt;最新 Seed2.0 系列&lt;/strong&gt;，它们围绕大规模生产环境下的使用需求做了系统性优化，&lt;strong&gt;旨在帮助突破真实世界中的复杂任务&lt;/strong&gt;。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;通过分析 Seed 通用模型在 MaaS 服务中的调用情况，我们发现，最高比例的需求为处理混杂图表、文档等非结构化信息的知识内容，企业往往要求模型先做“读得多、想得多”的任务，再进入复杂且专业的流程型工作，对模型的长内容理解和多步任务执行能力要求越来越高。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvgeeg.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Seed 通用模型 MaaS 服务在中国大陆的调用场景分布，数据来自“火山方舟协作奖励计划”，相关用户已签署授权协议&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;基于真实使用场景，Seed2.0 系列重点在以下方面进行了优化：&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;更稳健的视觉与多模态理解：&lt;/strong&gt;Seed2.0 强化了视觉感知与推理能力，对复杂文档、表格、图形、视频内容的解析水平显著提升，视觉信息处理更精准。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;更可靠的复杂指令执行：&lt;/strong&gt;Seed2.0 提升了指令遵循和推理表现，并强化了对多约束、多步骤、长链路任务的理解与执行能力，已具备支撑高价值任务的能力基础。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;更快速、更灵活的推理选择：&lt;/strong&gt;Seed2.0 提供 Pro、Lite、Mini 三款不同尺寸的通用 Agent 模型，以及专门的 Code 模型，覆盖不同的场景需求，供企业和开发者选择。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;除了更好地支持生产级需求，Seed2.0 还致力于提升模型智能上限。&lt;/strong&gt;目前，Seed2.0 已能从解决奥林匹克竞赛类问题迈向支持研究级的推理任务。比如，&lt;/span&gt;&lt;span&gt;Seed2.0 可尝试探索埃尔德什级别的数学问题，也可完成部分科学相关任务的编程工作，进一步突破机器智能的边界。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed2.0 Pro 和 Code 模型已分别在豆包 App 和 TRAE 上线，同时，Seed2.0 全系列模型 API 已同步上线火山引擎，欢迎大家体验、反馈。&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;项目主页（含Model Card）：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;https://seed.bytedance.com/zh/seed2&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;体验入口：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;1）豆包App-选择“专家”模式-开启对话；&lt;/p&gt;&lt;p&gt;2）TRAE-在“内置模型”中选择“Doubao-Seed-2.0-Code”。&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;多模态理解能力全面升级&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;大部分基准达 SOTA 水平&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed2.0 全面升级了多模态能力，&lt;strong&gt;在各类视觉理解任务上均达到业界顶尖水平&lt;/strong&gt;，其视觉推理、感知能力、空间推理与长上下文理解能力表现尤为突出，Seed2.0 Pro 在大多数相关基准测试中取得了最高分数。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;在数学与视觉推理方面，Seed2.0 Pro 在 MathVista、MathVision、MathKangaroo、MathCanvas 等数学推理基准上达到业界最优水平。同时，在 LogicVista、VisuLogic 等视觉解谜与逻辑推理基准上，Seed2.0 Pro 得分较 Seed1.8 显著提升。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvh3kv.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;标注 * 的数据引自公开技术报告&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed2.0 的视觉感知能力进一步升级。在 VLMsAreBiased、VLMsAreBlind、BabyVision 等基准中，Seed2.0 取得了业界最高分，说明它在面对不同类型的视觉输入时，仍能保持准确且可信的感知和判断能力。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvi42j.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;标注 * 的数据引自公开技术报告&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;视觉理解基础能力的进步，让 Seed2.0 在真实应用场景中的表现大幅提升。在文档理解中，模型面对的往往不是标准的数据输入，而是复杂版式混排的原始材料。相比 Seed1.8，Seed2.0 处理非结构化信息的能力显著强化，其在 ChartQAPro 与 OmniDocBench 1.5 基准上达到顶尖模型水准。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;同时，在长上下文理解方面，Seed2.0 在 DUDE、MMLongBench 与 MMLongBench‑Doc 上均取得业界最佳分数。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvivtj.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;标注 * 的数据引自公开技术报告&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;面对视频场景，Seed2.0 强化了对时间序列与运动感知的理解能力，在 TVBench、TempCompass、MotionBench 等关键测评中处于领先位置，且在 EgoTempo 基准上超过了人类分数，表明它对“变化、动作、节奏”这类信息的捕捉更为稳定，在工程侧可用性更高。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvjn3c.jpeg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;标注 * 的数据引自公开技术报告&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;长视频场景中，Seed2.0 在大部分评测上超越了其他顶尖模型。其可以高效准确地处理小时级别的长视频，此外，视频工具 VideoCut 进一步提高了长视频处理的时长范围，并提升了推理精度。在视频长、信息杂的企业真实部署场景中，Seed2.0 可帮助快速捕捉视频关键信息，准确地输出用于下游决策的结论。 &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;同时，Seed2.0 在多个流式实时问答视频基准测试中表现优异，能作为 AI 助手完成实时视频流分析、环境感知、主动纠错与情感陪伴，实现从被动问答到主动指导的交互升级，可应用于健身、穿搭等陪伴场景。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvkcvt.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;标注 * 的数据引自公开技术报告&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;LLM 与 Agent 表现大幅强化&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;真实长程任务执行能力提升&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Seed 团队观察到一个典型失衡：语言模型已经可以顺利解决竞赛难题，但放在真实世界中，它们依然很难端到端地完成实际任务——比如一次性构建一个设计精良、功能完整的小程序。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;LLM 和 Agent 为什么在处理现实问题时屡屡碰壁？我们认为，原因主要来自两点：&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;真实世界任务往往跨越更长时间尺度、包含多个阶段，而现有 LLM Agent 难以自主构建高效工作流，并在长时间跨度中积累经验；&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;真实世界知识具有很强的领域壁垒且呈长尾分布，各行业的经验不在训练语料的高频区，导致即便模型擅长数学与代码，其在专业场景中往往价值有限。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;Seed2.0 首先通过&lt;strong&gt;系统性加强长尾领域知识&lt;/strong&gt;来应对这一难题。Seed2.0 Pro 在 SuperGPQA 上分数超过 GPT-5.2，其在科学领域的整体成绩与 Gemini 3 Pro 和 GPT-5.2 保持相当水平。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;此外，Seed2.0 Pro 在跨学科知识应用上的能力显著增强，其在 FrontierSci 等 STEM 基准测试中表现突出，部分场景得分超过 Gemini 3 Pro。同时，Seed2.0 Pro 在 ICPC、IMO、CMO 测试中均获得金牌成绩，说明模型在数学、代码及推理智能方面进一步提升。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/5flc9mlmg1tvj.jpeg"/&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymlmasf5r.jpeg"/&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymlmaxgf5.jpeg"/&gt;&lt;p&gt;&lt;span&gt;Seed2.0 还重点强化了指令遵循能力。相关评测显示，Seed2.0 可保持较强的一致性与可控性，这为其作为 Agent 模型在长链路、多步骤任务中严格按约束条件执行奠定基础。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvs5fz.jpg"/&gt;&lt;p&gt;&lt;span&gt;从基础 Agent 能力的得分来看，&lt;strong&gt;Seed2.0 在长链路任务中表现突出&lt;/strong&gt;，尤其擅长连续完成“&lt;/span&gt;&lt;span&gt;找资料、做归纳、写结论”等连续工作流。&lt;/span&gt;&lt;span&gt;搜索与深度研究任务中，Seed2.0 在 BrowseComp-zh、HLE-text 等七项评测上均取得较高分数，展现出在研究型任务里的推进能力与稳定性。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/5flc9mlmfww8q.jpeg"/&gt;&lt;p&gt;&lt;span&gt;在复杂 Agent 能力评估中，Seed2.0 达到业界第一梯队水平。比如，在具备直接经济价值的现实任务评测中，Seed2.0 在客服问答、信息抽取、意图识别、中小学阶段问题解答等高频用户场景上表现稳定；在 GDPVal-Diamond、XPert Bench 等复杂专业任务基准上，模型同样取得了有竞争力的结果，说明它可以胜任长链路、多约束查询任务。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvparr.jpg"/&gt;&lt;p&gt;&lt;span&gt;同时，Seed2.0 Pro 在 FrontierSci‑research 等前沿科研基准上表现强劲，并在 AInstein Bench 上领先，体现出在科学发现场景中较强的假设驱动式推理能力。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvtpr9.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;此外，Seed2.0 还能把“研究想法”推进到“形成可落地的实验方案”。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;以高尔基体蛋白分析为例，它不仅能给出总体实验路线，还能把基因工程、小鼠模型构建、亚细胞分离与多组学分析串成一条完整流程，细化到关键环节怎么做、用什么进行对照以排除污染、用哪些指标评估纯度。相关领域专家表示，Seed2.0 给出的方案，在跨学科的实验细节与步骤化表达上，超出了他们对大模型的预期，其回答不止停留在策略层面，而是能产出结构清晰、科学上相对可靠，且具有可执行性的实验草案。&lt;/span&gt;&lt;/p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymllvu9wx.jpg"/&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;在提升了长程任务执行能力的同时，Seed2.0 还进一步降低了推理成本。&lt;/strong&gt;其模型效果与业界顶尖大模型相当，同时 token 定价降低了约一个数量级。在现实世界的复杂任务中，由于大规模推理与长链路生成将消耗大量 token，这一成本优势将变得更为关键。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;*关于评测基准的详细介绍，以及 Seed2.0 的更多真实用例，可以参见模型 Model Card。&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;总结与展望&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;针对企业与用户的真实需求及使用场景，我们筛选和搭建了一系列评测基准，用于构建适用于大语言模型的评估体系。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;依托这套可靠且具有前瞻性的评估体系，Seed2.0 强化了多模态理解与推理能力，并致力于解决长尾知识与复杂指令遵循问题，从而提升模型在复杂、长周期现实任务中的可靠性。在针对真实应用场景中的评测中，Seed2.0 表现出色，达到业界第一梯队水平，且已表现出支持科学研究级任务的潜力。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;同时，我们也观察到，Seed2.0 在端到端整体代码生成、上下文学习方面取得了明显进步，不过在部分高难基准上，其与国际领先模型相比仍有提升空间。未来，我们将继续面向真实场景迭代 Seed 语言模型，不断提高其智能上限。&lt;/span&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/seed2-0-正式发布</guid>
+      <pubDate>Fri, 13 Feb 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
       <title>字节跳动 Seed 2027 届大模型人才校招启动（含实习）</title>
@@ -8219,7 +8212,13 @@ Seed-OSS-36B-Instruct 是基于 Seed-OSS-36B-Base 进行后训练的模型版本
       <description>&lt;p&gt;&lt;span&gt;Seed 大模型人才校招 2027 届正式启动。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;我们始终相信，真正重要的技术进步来自对高难度问题的持续挑战。面对 AI 时代的巨大机遇，Seed 团队并不止步于模型迭代，而是选择进入技术深水区，推进下一代 AI 范式突破，不断探索智能的边界与上限。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;加入这里，你将直接参与打造最前沿的 AI 能力，让下一次突破发生。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://seed.bytedance.com/zh/seedearlycareer"&gt;&lt;span&gt;&lt;u&gt;&lt;span&gt;点击前往项目详情页，了解更多&lt;/span&gt;&lt;/u&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/3gxwwmn5uvalr.jpeg"/&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;b&gt;&lt;font&gt;我们寻找这样的你&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;b&gt;应届生&lt;/b&gt;（2026 年 9 月—2027 年 8 月毕业的本科、硕士及博士同学）&lt;/span&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;b&gt;实习生&lt;/b&gt;（2027 年 9 月及以后毕业的高校在读同学）&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/3gxwwmnffx9x5.png"/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;技术研究方向&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;基础大模型&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;探索基础大模型能力上限与效率边界，持续优化模型架构、训练范式与关键能力。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;视觉智能&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;聚焦多模态预训练新范式、多模态融合、生成理解统一的视觉推理、多模态 Agent 等方向。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;语音智能&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;探索音频的生成理解统一、个性化对话、语音 Agent 及音乐生成等方向。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;机器学习系统&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;聚焦超大规模训练、大模型强化系统、推理优化、软硬件协同及编译加速等关键问题。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;大模型应用&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;优化关键任务的可用率、构建记忆与个性化系统、结合搜索与工具调用, 全面提升豆包 App 的用户体验。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;具身智能&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;探索通用机器人操作大模型、数据算法与强化学习，持续提升机器人在真实环境中的感知、决策与执行能力。&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;在这里，你将可以&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;参与最具挑战性的 AI 前沿工作&lt;/span&gt;&lt;/span&gt;&lt;font&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;font&gt;&lt;span&gt;构建全球领先的 Seed 基座大模型和 GenMedia 大模型，探索下一代 AI。&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;获得充分的研发资源保障&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;AI Infra 基建完善，可获得算力、数据与工程资源保障，聚焦突破核心技术难题。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;为亿万用户创造真实价值&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;目前，我们的 AI 业务在 C 端和 B 端均已取得领先优势，你的技术成果将为亿万用户创造真实价值。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;收获匹配技术贡献的回报&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;薪酬极具竞争力，符合要求的应届生与优秀实习生有机会获得豆包股，越早加入，越有机会共享业务巨大增值空间。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;加入我们，你也有机会做出业界领先的工作&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;img referrerpolicy="no-referrer" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/3gxwwmnectqw6.png"/&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;查看更多成果：&lt;/span&gt;&lt;a href="https://seed.bytedance.com/zh/models?view_from=homepage_tab"&gt;&lt;span&gt;https://seed.bytedance.com/zh/models?view_from=homepage_tab&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;&lt;b&gt;C 同学&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;C 同学作为毕业不到一年的校招生，深度参与 Seedance 2.0 预训练架构攻坚，研究有效的大规模 Scaling 算法，实现了该领域突破。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;&lt;b&gt;Y 同学&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;Y 同学作为实习生，在 Seed1.8 和 Seed2.0 的研发过程中，通过前沿 RL 算法，将多维专家能力稳定、高效地融入统一基座，提升了模型的综合性能上限。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;&lt;b&gt;Z 同学&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;Z 同学作为毕业不到一年的校招生，深度参与 Seed 端到端同传大模型研发，在后训练环节帮助解决了数据冷启动难题，形成“数据 - 训练 - 评测”的能力强化闭环，有效提升模型在翻译质量、时延、音色等方面的性能表现。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;&lt;b&gt;R 同学&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;R 同学在实习期间，深入研究并尝试解决了大模型推理和 RL 训练模拟环境成本高的难题，相关研究成果被国际系统顶会接收，并在豆包线上服务和 Seed 大模型后训练中广泛应用。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;工作地点&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;北京、上海、深圳、杭州、新加坡、圣何塞、西雅图&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;投递方式&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;b&gt;点击投递&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;b&gt;Seed 大模型人才校招及实习岗位&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;u&gt;&lt;a href="https://jobs.toutiao.com/campus/position?keywords=&amp;amp;category=&amp;amp;location=&amp;amp;project=7621018151002507573%2C7621018569480046853&amp;amp;type=&amp;amp;job_hot_flag=&amp;amp;current=1&amp;amp;limit=10&amp;amp;functionCategory=&amp;amp;tag=&amp;amp;spread=CYTY853"&gt;&lt;b&gt;&lt;span&gt;&lt;span&gt;中国大陆地区岗位&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/a&gt;&lt;/u&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;u&gt;&lt;a href="https://job.toutiao.com/en/position?recruitment_id_list=&amp;amp;job_category_id_list=&amp;amp;subject_id_list=7623356417689323781%2C7622958352622176517&amp;amp;location_code_list=&amp;amp;keyword=&amp;amp;limit=12&amp;amp;offset=0&amp;amp;spread=N419R7T"&gt;&lt;b&gt;&lt;span&gt;非中国大陆地区岗位&lt;/span&gt;&lt;/b&gt;&lt;/a&gt;&lt;/u&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;如有问题，请联系我们&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span&gt;&lt;u&gt;&lt;a href="mailto://seedcampus@bytedance.com"&gt;&lt;span&gt;seedcampus@bytedance.com&lt;/span&gt;&lt;/a&gt;&lt;/u&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">https://seed.bytedance.com/zh/research/字节跳动-seed-2027-届大模型人才校招启动-含实习</guid>
       <pubDate>Tue, 31 Mar 2026 16:00:00 +0000</pubDate>
-      <crawled>2026-07-07T09:28:51.914251+00:00</crawled>
+    </item>
+    <item>
+      <title>No title</title>
+      <link>https://seed.bytedance.com/zh/research/字节跳动-seed-2027-届大模型人才校招启动-含实习</link>
+      <description>&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://seed.bytedance.com/zh/research/字节跳动-seed-2027-届大模型人才校招启动-含实习</guid>
+      <pubDate>Tue, 31 Mar 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Seed 全双工语音大模型发布：懂倾听、抗干扰，走向更自然的交互</title>
