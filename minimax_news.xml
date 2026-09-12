@@ -7,13 +7,70 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 06:37:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 00:40:17 +0000</lastBuildDate>
+    <item>
+      <title>MiniMax Speech 2.8：赋予 AI 语音“人的温度”</title>
+      <link>https://www.minimax.cn/news/minimax-speech-28</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026-01-23&lt;/div&gt;&lt;h1&gt;MiniMax Speech 2.8：赋予 AI 语音“人的温度”&lt;/h1&gt;&lt;div&gt;&lt;a href="https://platform.minimax.cn/docs/guides/speech-t2a-websocket"&gt;&lt;p&gt;即刻接入 API&lt;/p&gt;&lt;/a&gt;&lt;a href="https://www.minimax.cn/audio"&gt;&lt;p&gt;立即体验语音&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/b94fb26a-aeb5-4303-929e-a28033e26fb1.png" referrerpolicy="no-referrer" src="https://www.minimax.cn/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fb94fb26a-aeb5-4303-929e-a28033e26fb1.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;h2&gt;MiniMax Speech 2.8：赋予 AI 语音"人的温度"&lt;/h2&gt;
+&lt;p&gt;今天，我们正式推出全新的语音大模型 MiniMax Speech 2.8。&lt;/p&gt;
+&lt;p&gt;这次升级不仅仅是参数的提升，更是一次关于"真实感"的突破：我们首次实现了&lt;span&gt;原生语气词支持&lt;/span&gt;，并带来了极高精度的&lt;span&gt;音色还原&lt;/span&gt;、&lt;span&gt;录音棚级音质&lt;/span&gt;以及地道的&lt;span&gt;跨语言表现&lt;/span&gt;。&lt;/p&gt;
+&lt;p&gt;我们致力于解决一个核心目标：让合成语音听起来更像真人在说话。&lt;/p&gt;
+&lt;h2&gt;1. 那些被找回的"语气"：让 AI 学会犹豫与呼吸&lt;/h2&gt;
+&lt;p&gt;过去，AI语音让人感到冰冷，往往是因为它"太完美了"。真正的真人说话，其实充满了不完美的呼吸、停顿和犹豫，这些细节才是传递情绪、强调重点的关键信号。&lt;/p&gt;
+&lt;p&gt;Speech 2.8 模型首次引入了&lt;span&gt;自然语气标签&lt;/span&gt;，通过对口语填充词进行原生建模，让每一个"嗯"、"呃"或者"哎"都保留了应有的停顿和节奏。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;不再被吞掉的"嗯"，不再被拉平的"呃"，说话的温度，从细节开始。&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;语气词范例&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:41&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/b2821759-1fc2-47c1-aa9e-9e728ac117e6.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
+&lt;p&gt;音频文案：&lt;/p&gt;
+&lt;p&gt;"嘿，是我。最近怎么样？(倒吸气)昨天那个上线日，真的是把我折腾得够呛，你是不知道，那种连轴转的感觉。（正常换气）不过还好，我现在总算活过来了，准备开始搬下一块砖。你这会儿听我说话，估计觉得我就是对着麦克风在那儿瞎聊呢，对吧？哎，重点就在这儿了：其实吧……我根本不是真人。我是 MiniMax 最新的 Speech 2.8 模型。怎么样，吓一跳吧？ 你仔细品品，这呼吸声、这语气，甚至还有点随意的碎碎念，是不是跟我本人一模一样？"&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;2. 音色克隆：10 秒钟，复刻你的"声音指纹"&lt;/h2&gt;
+&lt;p&gt;我们重新优化了人声特征的提取流程，使音色克隆的相似度达到了新的高度。&lt;/p&gt;
+&lt;p&gt;仅需 10 秒的原声片段，Speech 2.8 就能精准捕捉到你说话时的质感、气息，甚至是你特有的语速习惯。复刻出来的声音不再只是"听着像"，而是真正还原了你说话的灵魂。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;你的声音不只是"像"，而是"就是"。&lt;/span&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;原始素材&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/aa54c7eb-02db-4d00-99dc-d43bf50b08a8.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;复刻结果&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/302b1b3d-6ab8-4271-999b-4f209827b3a7.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
+&lt;p&gt;这份复刻案例生动展示了 Speech 2.8 如何精准捕捉"声音的灵魂"：&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;极致丝滑的"成熟质感"&lt;/span&gt;：完美捕捉了原声中低频的胸腔共鸣与细腻的鼻音特征，还原了那种如绸缎般顺滑、带有女性成熟魅力的音色指纹。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;慵懒而自然的"呼吸留白"&lt;/span&gt;：成功复刻了原主在说话间不经意流露出的深呼吸与轻微气声，使得"可能吧"、"谁知道呢"等短句充满了真实的人机互动温度。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;微嘲讽式的"语癖捕捉"&lt;/span&gt;：精准建模了原音频中特有的"慢起快收"节奏，尤其是句尾带有一丝慵懒拖腔的语调习惯，将那种玩味、似褒实贬的情绪还原得淋漓尽致。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;3. 纯净音质：告别背景杂音与数字伪影&lt;/h2&gt;
+&lt;p&gt;我们全面升级了音频处理方案，有效消除了背景杂音和不自然的机械毛刺感。生成的语音更加干净、通透，听起来就像真人坐在你面前录音一样纯净。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;更纯净的声音，更专业的输出。&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;无噪声范例&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 01:03&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/682eea95-6077-41ba-9bb7-c80b79cc94b5.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
+&lt;p&gt;音频文案：&lt;/p&gt;
+&lt;p&gt;在森林的深处，藏着一种不为人知的宁静。当清晨的第一缕微光穿过浓密的枝叶，洒在铺满苔藓的土地上时，整个世界仿佛都停下了脚步。你听，那是风穿过松针的沙沙声，细微得几乎像是耳语。&lt;/p&gt;
+&lt;p&gt;很多时候，我们总是在追赶时间，却忘了如何去感受那些安静的时刻。那些藏在书页翻动声里的专注，那些落在窗棂上的雨滴声，还有深夜里独自思考时的呼吸感。这些细碎的声音，构成了生活最真实的底色。&lt;/p&gt;
+&lt;p&gt;让我们试着在这一份平和中停留片刻，去倾听，去思考，去重新发现那些被嘈杂世界所遮盖的，最本质的温柔。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;4. 跨语言体验改善：从中日场景开始&lt;/h2&gt;
+&lt;p&gt;我们针对跨语言合成中的口音串入问题进行了专项优化。本次率先修正了中文音色合成日语时的发音偏移，消除了此前偶发的音素错位和语调不自然问题。后续将持续优化更多语种组合的跨语言表现。&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;一个音色，40+种语言，每一种都像母语者在说话。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;中日混合范例&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;中日混合范例&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/831a01aa-41d7-40e1-b251-295f4c9eb6aa.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
+&lt;p&gt;音频文案：&lt;/p&gt;
+&lt;p&gt;关于这次项目的进展，总体来说已经完成得不错了。&lt;/p&gt;
+&lt;p&gt;ただ、技術的な詳細については、もう少し検討する必要があります。&lt;/p&gt;
+&lt;p&gt;我们需要在下周前把最终方案定下来，どうぞよろしくお願いします。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;p&gt;Speech 2.8 已经全面上线，欢迎使用：&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;MiniMax开放平台:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://platform.minimax.cn/docs/guides/models-intro"&gt;Platform.minimaxi.com/docs/guides/models-intro&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MiniMax Audio:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.minimax.cn/audio"&gt;Minimaxi.com/audio&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Intelligence with Everyone.&lt;/p&gt;
+&lt;/div&gt;&lt;/main&gt;</description>
+      <guid isPermaLink="false">https://www.minimax.cn/news/minimax-speech-28</guid>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-09-12T00:22:35.736672+00:00</crawled>
+    </item>
     <item>
       <title>MiniMax M2.5: 更快更强更智能，为真实世界生产力而生</title>
-      <link>https://www.minimaxi.com/news/minimax-m25</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.2.12&lt;/div&gt;&lt;h1&gt;MiniMax M2.5: 更快更强更智能，为真实世界生产力而生&lt;/h1&gt;&lt;div&gt;&lt;a href="https://platform.minimaxi.com/docs/api-reference/text-anthropic-api"&gt;&lt;p&gt;即刻接入API&lt;/p&gt;&lt;/a&gt;&lt;a href="https://platform.minimaxi.com/subscribe/coding-plan"&gt;&lt;p&gt;Coding Plan&lt;/p&gt;&lt;/a&gt;&lt;a href="https://agent.minimaxi.com/"&gt;&lt;p&gt;立即体验Agent&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/9dd08dfa-166a-42f0-8119-6ab57ee02140.png" referrerpolicy="no-referrer" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F9dd08dfa-166a-42f0-8119-6ab57ee02140.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Ff6d88bac-3b5c-46fc-ae0c-4e1ce423eb51.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;今天我们来介绍 MiniMax-M2.5。经过数十万个真实复杂环境中的大规模强化学习训练，M2.5 在编程、工具调用和搜索、办公等生产力场景都达到或者刷新了行业的 SOTA，比如 SWE-Bench Verified（80.2%），Multi-SWE-Bench（51.3%），BrowseComp（76.3%）。&lt;br/&gt;&lt;br/&gt;M2.5 优化了模型对复杂任务的拆解能力和思考过程中 token 的消耗，使其能更快地完成复杂的 Agentic 任务，比如在 SWE-Bench Verified 的测试中，比上一个版本 M2.1 完成任务的速度快了 37%。&lt;br/&gt;&lt;br/&gt;M2.5 是第一个不需要考虑使用成本可以无限使用的前沿模型。在每秒输出 100 token 的情况下，M2.5 连续工作一小时只需花费 1 美金；而在每秒输出 50 个 token 的情况下，只需要 0.3 美金。我们希望M2.5能够加速Agent时代的发展。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;编程：像架构师一样思考和构建&lt;/h3&gt;&lt;div&gt;在编程的核心测试中，M2.5 相比于上一代模型有了显著提升，达到了跟 Claude Opus 系列类似的水平。在多语言相关的任务 Multi-SWE-Bench 上，M2.5 更是达到了第一。&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F63cbae73-ee28-4012-a4bc-fadfee47ffb9.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;M2.5 具备了「像架构师一样思考和构建」的能力，比如模型演化出了原生 Spec 行为：在动手写代码前，以架构师视角主动拆解功能、结构和 UI 设计，实现完整的前期规划。&lt;br/&gt;&lt;br/&gt;M2.5 在超过 10 种语言（包括 GO、C、C++、TS、Rust、Kotlin、Python、Java、JS、PHP、Lua、Dart、Ruby）和数十万个真实环境中进行了训练。不仅限于 bug fixed 类场景，复杂系统的从 0-1 系统设计、环境构建，从 1-10 的系统开发，从 10-90 的功能迭代，从 90-100 的完备 code review 与系统测试，M2.5 都有可靠的表现，能够胜任各类复杂系统开发的全流程。覆盖 Web、Android、iOS、Windows、Mac 等多平台的全栈项目，包含 Server 端 API、功能逻辑、DataBase 等，而不仅仅是“前端网页 demo”。&lt;br/&gt;&lt;br/&gt;为了衡量相关能力，我们也将 VIBE 基准升级为了更复杂、更具挑战性的 Pro 版：显著提升了任务复杂度、领域覆盖度和评估准确度。综合来看，M2.5 与 Opus4.5 表现相当。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F0fa0fd02-38ab-4a4b-8dc6-8bf3bb6454ae.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;我们关注了模型在不同脚手架上的泛化性。我们在不同的编程脚手架上测试了 SWE-Bench Verified 评测集上的表现。 在 Droid 上，M2.5 的通过率为 79.7，超过了 M2.1 的 71.3 分以及 Opus 4.6 的 78.9 分；在 OpenCode 上，M2.5 的通过率为 76.1， 超过了 M2.1 的 72.0 分和 Opus 4.6 的 75.9 分。 &lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;搜索和工具调用&lt;/h3&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F7c519ec8-1279-41b1-a6f2-54e78b1c21f8.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;搜索和工具调用是模型能够自动处理复杂任务的前提，在 BrowseComp、Wide Search 等榜单的评测中，M2.5 在这些方面也达到了行业顶尖的水平。同时，模型的泛化能力也有提升。M2.5 在面对陌生的脚手架环境时，具有更加稳定的表现。&lt;br/&gt;&lt;br/&gt;在人类专家真实的搜索任务中，使用搜索引擎只是一小部分，更多的是在专业网页内进行深度探索。为此我们构建了 RISE（Realistic Interactive Search Evaluation），用于衡量模型在真实专业任务上的搜索能力。结果表明 M2.5 在真实世界的专家级搜索任务上表现卓越。&lt;br/&gt;&lt;br/&gt;相比于前代模型，M2.5 在处理复杂任务时也展现出了更高的决策成熟度：它学会了用更精准的搜索轮次和更优的 token 效率去解决问题。例如，在 BrowseComp、Wide Search 和 RISE 多项任务中，M2.5 以更低的轮次消耗取得了更优的效果，相较于 M2.1 节省了大约 20% 的轮次消耗。这表明模型不再只是“做对”题目，而是能以更精简的路径逼近结果。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;办公&lt;/h3&gt;&lt;div&gt;我们考虑了在办公场景中，如何给出真正可交付的产物。为此，我们与金融、法律、社会科学等领域的资深从业者展开深度合作，由他们提出需求、反馈问题、参与标准定义，并直接构建数据，将行业的隐性知识带入到模型的训练流程之中。在此基础上，M2.5 在 Word、PPT、Excel 金融建模等办公高阶场景中取得了显著的能力提升。在评测层面，我们构建了内部的 Cowork Agent 评测框架（GDPval-MM），以两两对比的方式评估模型的交付质量和轨迹的专业性，同时监控全流程的 token 费用，估算模型在生产力场景中的实际效益。在与主流模型的对比中，它取得了 59.0% 的平均胜率。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fdb7cbd03-aa36-44b4-b782-5b610a7f9f4f.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F083383f6-4f0a-4f8c-bc8c-66af394bdbe0.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;效率&lt;/h3&gt;&lt;div&gt;我们总是希望 Agent 完成复杂任务的时间尽可能少。这取决于模型拆解复杂任务的能力、模型的 token 效率，以及模型的推理速度。我们的模型本来就提供 100TPS 的推理速度，这几乎两倍于现在的主流模型。同时，我们在强化学习中注重优化了模型对复杂任务的拆解能力和思考过程的token消耗。这三个环节加在一起，使得 M2.5 在完成复杂任务的时间和成本上有显著的优势。&lt;br/&gt;&lt;br/&gt;例如，在运行 SWE-Bench Verified 评测集时，M2.5 平均在每个任务上消耗了 3.52M 的 token。相比之下，M2.1 会消耗 3.72M tokens。同时，由于在并行工具调用等能力上的提升，端到端运行从平均 31.3 分钟减少到了 22.8 分钟，速度提升了 37%。这一耗时情况与 Claude Opus 4.6 的 22.9 分钟基本持平。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;成本&lt;/h3&gt;&lt;div&gt;我们设计 M2 系列的初衷是希望能没有成本约束的情况下运行复杂 Agents，随着我们能力的持续提升，我们认为 M2.5 已经接近实现了这个目标。M2.5 提供两个效果一样，但是速度和价格不一样的版本：速度 100 TPS 左右的快速版本，处理每百万的 token 输入只需要 0.3 美金，处理每百万的 token 输出只需要 2.4 美金。而 50 TPS 的版本的输出价格还更低一倍。按照输出价格参考，50 TPS 的版本价格是 Opus、Gemini 3 Pro 以及 GPT5 这些模型的 1/10-1/20。&lt;br/&gt;&lt;br/&gt;在以每秒输出 100 个 token 的情况下，连续工作一小时只需要 1 美金，而在每秒输出 50 个 token 的情况下，只需要 0.3 美金。也就是说 1 万美金可以让 4 个 Agent 连续工作一年，我们认为 M2.5 提供了经济上几乎无限制地构建和运营 Agent 的可能性。对于 M2 系列的模型来说，唯一的问题变成了模型能力的进步速度。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;进步速度&lt;/h3&gt;&lt;div&gt;在过去108天里面，我们陆续更新了 M2、M2.1 和 M2.5，模型的进步速度超过了我们原本的预期。比如在编程领域最具代表性的 SWE-Bench Verfied 上面，相比 Claude、GPT 和 Gemini 等模型系列的进步速度，M2 系列模型保持了行业最快的进步速度。&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa1d44a28-2b35-488b-ac62-5145c5de8af6.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;强化学习的扩展&lt;/h3&gt;&lt;div&gt;我们认为取得上述进展的核心原因是大规模的强化学习。它显著地提升了模型能力以及对脚手架、环境的泛化性。通过 Agent RL 框架、算法和 Reward 设计、工程优化的 co-design， 我们支持了对任意 Agent 脚手架与环境的高效优化，我们在包括大量公司内部真实任务的数十万个 Agent 脚手架与环境上大规模训练，验证了模型能力随算力和任务数的 scaling 取得近线性提升。&lt;br/&gt;&lt;br/&gt;
+      <link>https://www.minimax.cn/news/minimax-m25</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026.2.12&lt;/div&gt;&lt;h1&gt;MiniMax M2.5: 更快更强更智能，为真实世界生产力而生&lt;/h1&gt;&lt;div&gt;&lt;a href="https://platform.minimax.cn/docs/api-reference/text-anthropic-api"&gt;&lt;p&gt;即刻接入API&lt;/p&gt;&lt;/a&gt;&lt;a href="https://platform.minimax.cn/subscribe/coding-plan"&gt;&lt;p&gt;Coding Plan&lt;/p&gt;&lt;/a&gt;&lt;a href="https://agent.minimax.cn/"&gt;&lt;p&gt;立即体验Agent&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/9dd08dfa-166a-42f0-8119-6ab57ee02140.png" referrerpolicy="no-referrer" src="https://www.minimax.cn/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F9dd08dfa-166a-42f0-8119-6ab57ee02140.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimax.cn/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Ff6d88bac-3b5c-46fc-ae0c-4e1ce423eb51.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;今天我们来介绍 MiniMax-M2.5。经过数十万个真实复杂环境中的大规模强化学习训练，M2.5 在编程、工具调用和搜索、办公等生产力场景都达到或者刷新了行业的 SOTA，比如 SWE-Bench Verified（80.2%），Multi-SWE-Bench（51.3%），BrowseComp（76.3%）。&lt;br/&gt;&lt;br/&gt;M2.5 优化了模型对复杂任务的拆解能力和思考过程中 token 的消耗，使其能更快地完成复杂的 Agentic 任务，比如在 SWE-Bench Verified 的测试中，比上一个版本 M2.1 完成任务的速度快了 37%。&lt;br/&gt;&lt;br/&gt;M2.5 是第一个不需要考虑使用成本可以无限使用的前沿模型。在每秒输出 100 token 的情况下，M2.5 连续工作一小时只需花费 1 美金；而在每秒输出 50 个 token 的情况下，只需要 0.3 美金。我们希望M2.5能够加速Agent时代的发展。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;编程：像架构师一样思考和构建&lt;/h3&gt;&lt;div&gt;在编程的核心测试中，M2.5 相比于上一代模型有了显著提升，达到了跟 Claude Opus 系列类似的水平。在多语言相关的任务 Multi-SWE-Bench 上，M2.5 更是达到了第一。&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimax.cn/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F63cbae73-ee28-4012-a4bc-fadfee47ffb9.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;M2.5 具备了「像架构师一样思考和构建」的能力，比如模型演化出了原生 Spec 行为：在动手写代码前，以架构师视角主动拆解功能、结构和 UI 设计，实现完整的前期规划。&lt;br/&gt;&lt;br/&gt;M2.5 在超过 10 种语言（包括 GO、C、C++、TS、Rust、Kotlin、Python、Java、JS、PHP、Lua、Dart、Ruby）和数十万个真实环境中进行了训练。不仅限于 bug fixed 类场景，复杂系统的从 0-1 系统设计、环境构建，从 1-10 的系统开发，从 10-90 的功能迭代，从 90-100 的完备 code review 与系统测试，M2.5 都有可靠的表现，能够胜任各类复杂系统开发的全流程。覆盖 Web、Android、iOS、Windows、Mac 等多平台的全栈项目，包含 Server 端 API、功能逻辑、DataBase 等，而不仅仅是“前端网页 demo”。&lt;br/&gt;&lt;br/&gt;为了衡量相关能力，我们也将 VIBE 基准升级为了更复杂、更具挑战性的 Pro 版：显著提升了任务复杂度、领域覆盖度和评估准确度。综合来看，M2.5 与 Opus4.5 表现相当。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimax.cn/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F0fa0fd02-38ab-4a4b-8dc6-8bf3bb6454ae.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;我们关注了模型在不同脚手架上的泛化性。我们在不同的编程脚手架上测试了 SWE-Bench Verified 评测集上的表现。 在 Droid 上，M2.5 的通过率为 79.7，超过了 M2.1 的 71.3 分以及 Opus 4.6 的 78.9 分；在 OpenCode 上，M2.5 的通过率为 76.1， 超过了 M2.1 的 72.0 分和 Opus 4.6 的 75.9 分。 &lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;搜索和工具调用&lt;/h3&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimax.cn/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F7c519ec8-1279-41b1-a6f2-54e78b1c21f8.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;搜索和工具调用是模型能够自动处理复杂任务的前提，在 BrowseComp、Wide Search 等榜单的评测中，M2.5 在这些方面也达到了行业顶尖的水平。同时，模型的泛化能力也有提升。M2.5 在面对陌生的脚手架环境时，具有更加稳定的表现。&lt;br/&gt;&lt;br/&gt;在人类专家真实的搜索任务中，使用搜索引擎只是一小部分，更多的是在专业网页内进行深度探索。为此我们构建了 RISE（Realistic Interactive Search Evaluation），用于衡量模型在真实专业任务上的搜索能力。结果表明 M2.5 在真实世界的专家级搜索任务上表现卓越。&lt;br/&gt;&lt;br/&gt;相比于前代模型，M2.5 在处理复杂任务时也展现出了更高的决策成熟度：它学会了用更精准的搜索轮次和更优的 token 效率去解决问题。例如，在 BrowseComp、Wide Search 和 RISE 多项任务中，M2.5 以更低的轮次消耗取得了更优的效果，相较于 M2.1 节省了大约 20% 的轮次消耗。这表明模型不再只是“做对”题目，而是能以更精简的路径逼近结果。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;办公&lt;/h3&gt;&lt;div&gt;我们考虑了在办公场景中，如何给出真正可交付的产物。为此，我们与金融、法律、社会科学等领域的资深从业者展开深度合作，由他们提出需求、反馈问题、参与标准定义，并直接构建数据，将行业的隐性知识带入到模型的训练流程之中。在此基础上，M2.5 在 Word、PPT、Excel 金融建模等办公高阶场景中取得了显著的能力提升。在评测层面，我们构建了内部的 Cowork Agent 评测框架（GDPval-MM），以两两对比的方式评估模型的交付质量和轨迹的专业性，同时监控全流程的 token 费用，估算模型在生产力场景中的实际效益。在与主流模型的对比中，它取得了 59.0% 的平均胜率。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimax.cn/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fdb7cbd03-aa36-44b4-b782-5b610a7f9f4f.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimax.cn/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F083383f6-4f0a-4f8c-bc8c-66af394bdbe0.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;效率&lt;/h3&gt;&lt;div&gt;我们总是希望 Agent 完成复杂任务的时间尽可能少。这取决于模型拆解复杂任务的能力、模型的 token 效率，以及模型的推理速度。我们的模型本来就提供 100TPS 的推理速度，这几乎两倍于现在的主流模型。同时，我们在强化学习中注重优化了模型对复杂任务的拆解能力和思考过程的token消耗。这三个环节加在一起，使得 M2.5 在完成复杂任务的时间和成本上有显著的优势。&lt;br/&gt;&lt;br/&gt;例如，在运行 SWE-Bench Verified 评测集时，M2.5 平均在每个任务上消耗了 3.52M 的 token。相比之下，M2.1 会消耗 3.72M tokens。同时，由于在并行工具调用等能力上的提升，端到端运行从平均 31.3 分钟减少到了 22.8 分钟，速度提升了 37%。这一耗时情况与 Claude Opus 4.6 的 22.9 分钟基本持平。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;成本&lt;/h3&gt;&lt;div&gt;我们设计 M2 系列的初衷是希望能没有成本约束的情况下运行复杂 Agents，随着我们能力的持续提升，我们认为 M2.5 已经接近实现了这个目标。M2.5 提供两个效果一样，但是速度和价格不一样的版本：速度 100 TPS 左右的快速版本，处理每百万的 token 输入只需要 0.3 美金，处理每百万的 token 输出只需要 2.4 美金。而 50 TPS 的版本的输出价格还更低一倍。按照输出价格参考，50 TPS 的版本价格是 Opus、Gemini 3 Pro 以及 GPT5 这些模型的 1/10-1/20。&lt;br/&gt;&lt;br/&gt;在以每秒输出 100 个 token 的情况下，连续工作一小时只需要 1 美金，而在每秒输出 50 个 token 的情况下，只需要 0.3 美金。也就是说 1 万美金可以让 4 个 Agent 连续工作一年，我们认为 M2.5 提供了经济上几乎无限制地构建和运营 Agent 的可能性。对于 M2 系列的模型来说，唯一的问题变成了模型能力的进步速度。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;进步速度&lt;/h3&gt;&lt;div&gt;在过去108天里面，我们陆续更新了 M2、M2.1 和 M2.5，模型的进步速度超过了我们原本的预期。比如在编程领域最具代表性的 SWE-Bench Verfied 上面，相比 Claude、GPT 和 Gemini 等模型系列的进步速度，M2 系列模型保持了行业最快的进步速度。&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimax.cn/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fa1d44a28-2b35-488b-ac62-5145c5de8af6.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;强化学习的扩展&lt;/h3&gt;&lt;div&gt;我们认为取得上述进展的核心原因是大规模的强化学习。它显著地提升了模型能力以及对脚手架、环境的泛化性。通过 Agent RL 框架、算法和 Reward 设计、工程优化的 co-design， 我们支持了对任意 Agent 脚手架与环境的高效优化，我们在包括大量公司内部真实任务的数十万个 Agent 脚手架与环境上大规模训练，验证了模型能力随算力和任务数的 scaling 取得近线性提升。&lt;br/&gt;&lt;br/&gt;
 &lt;strong&gt;Forge - 原生 Agent RL 框架&lt;/strong&gt;
-&lt;br/&gt;&lt;br/&gt;Forge 作为一个原生 Agent RL 框架，在设计上通过引入中间层完全解耦了底层训推引擎与 Agent，支持任意 Agent 的接入，使得我们可以优化模型在 Agent 脚手架和工具上的泛化。为了提升系统吞吐，我们优化了异步调度策略来平衡系统吞吐和样本的 off-policyness ，并设计了树状合并训练样本的训练策略，实现了约 40 倍的训练加速。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F9f949b20-da28-4a60-80d1-f8d4f7031398.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;Agent RL 算法与 Reward 设计&lt;/h3&gt;&lt;div&gt;算法层面，我们沿用了我们年初提出的 CISPO 算法以保障 MoE 模型在大规模训练中的稳定性。针对 Agent 场景长上下文带来的信用分配（Credit Assignment）难题，我们引入了过程奖励机制（Process Reward）对完成质量进行全链路监控。此外，为深度对齐用户体验，我们直接估计任务在真实环境下的耗时并作为 Reward，在模型效果与响应速度之间实现了更好的平衡。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F10c97904-2363-4b7b-afe4-0e3c6df59575.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;关于 RL 的 scaling 和 Agent RL 框架 Forge 的更多信息我们会在后续的技术博客中给出。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;MiniMax Agent: M2.5 as a Real World Coworker&lt;/h3&gt;&lt;div&gt;M2.5 已经在 MiniMax Agent 中全面上线，带来最佳 Agentic 体验。
+&lt;br/&gt;&lt;br/&gt;Forge 作为一个原生 Agent RL 框架，在设计上通过引入中间层完全解耦了底层训推引擎与 Agent，支持任意 Agent 的接入，使得我们可以优化模型在 Agent 脚手架和工具上的泛化。为了提升系统吞吐，我们优化了异步调度策略来平衡系统吞吐和样本的 off-policyness ，并设计了树状合并训练样本的训练策略，实现了约 40 倍的训练加速。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimax.cn/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F9f949b20-da28-4a60-80d1-f8d4f7031398.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;Agent RL 算法与 Reward 设计&lt;/h3&gt;&lt;div&gt;算法层面，我们沿用了我们年初提出的 CISPO 算法以保障 MoE 模型在大规模训练中的稳定性。针对 Agent 场景长上下文带来的信用分配（Credit Assignment）难题，我们引入了过程奖励机制（Process Reward）对完成质量进行全链路监控。此外，为深度对齐用户体验，我们直接估计任务在真实环境下的耗时并作为 Reward，在模型效果与响应速度之间实现了更好的平衡。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="" referrerpolicy="no-referrer" src="https://www.minimax.cn/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F10c97904-2363-4b7b-afe4-0e3c6df59575.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;关于 RL 的 scaling 和 Agent RL 框架 Forge 的更多信息我们会在后续的技术博客中给出。&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;&lt;h3&gt;MiniMax Agent: M2.5 as a Real World Coworker&lt;/h3&gt;&lt;div&gt;M2.5 已经在 MiniMax Agent 中全面上线，带来最佳 Agentic 体验。
 
 我们将处理信息的核心能力，提炼为标准的 Office Skills，深度集成于 Agent 中。全能（MAX）模式下，处理 Word 排版、PPT 编辑、Excel 测算等任务时，MiniMax Agent 将自动根据文件类型加载对应的 Office Skills，提升任务输出质量。此外，用户还可以将 Office Skills 与特定领域的行业经验相结合，创建面向特定任务场景的、可复用的专家（Expert）。
 &lt;br/&gt;&lt;br/&gt;
@@ -35,14 +92,14 @@ MiniMax 内部已率先受益于 M2.5 的模型能力。&lt;strong&gt;在 MiniMa
 &lt;li&gt;&lt;strong&gt;Finance Modeling:&lt;/strong&gt; 内部基准测试。主要包含有行业专家构建的金融建模题目，通过 Excel 工具进行端到端的研究、分析任务，每个题目通过专家的 rubrics 进行打分。最终结果取 3 次运行平均值。&lt;/li&gt;
 &lt;/ul&gt;&lt;/i&gt;
 &lt;/strong&gt;&lt;/strong&gt;&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://www.minimaxi.com/news/minimax-m25</guid>
+      <guid isPermaLink="false">https://www.minimax.cn/news/minimax-m25</guid>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-08-12T22:33:28.102616+00:00</crawled>
+      <crawled>2026-09-12T00:22:29.940392+00:00</crawled>
     </item>
     <item>
       <title>MiniMax M2.7: 开启模型的自我进化</title>
-      <link>https://www.minimaxi.com/news/minimax-m27-zh</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026-03-18&lt;/div&gt;&lt;h1&gt;MiniMax M2.7: 开启模型的自我进化&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/7a85723c-acc3-4eb8-a3a8-f53713d0822e.png" referrerpolicy="no-referrer" src="https://www.minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F7a85723c-acc3-4eb8-a3a8-f53713d0822e.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+      <link>https://www.minimax.cn/news/minimax-m27-zh</link>
+      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026-03-18&lt;/div&gt;&lt;h1&gt;MiniMax M2.7: 开启模型的自我进化&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/7a85723c-acc3-4eb8-a3a8-f53713d0822e.png" referrerpolicy="no-referrer" src="https://www.minimax.cn/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F7a85723c-acc3-4eb8-a3a8-f53713d0822e.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
 &lt;p&gt;在 M2 系列模型发布后的几个月，我们收到了大量热心用户的反馈和建议，这促使我们进一步加速模型的迭代效率。除了更加认真工作之外，我们能找到的唯一途径就是&lt;span&gt;开启模型和组织的自我进化。MiniMax M2.7是我们第一个模型深度参与迭代自己的模型。&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;M2.7 能够自行构建复杂 Agent Harness，并基于 Agent Teams、复杂 Skills、Tool Search Tool 等能力，完成高度复杂的生产力任务。例如，在研发M2.7的过程中，我们基于模型构建强化学习Harness 中的数十个复杂的 skills，更新自己的 memory，驱动模型自身的强化学习，并基于结果优化强化学习过程和Harness，开启模型的自我进化。&lt;/p&gt;
 &lt;div&gt;
@@ -95,14 +152,14 @@ MiniMax 内部已率先受益于 M2.5 的模型能力。&lt;strong&gt;在 MiniMa
 &lt;p&gt;立即体验： &lt;a href="https://openroom.ai"&gt;openroom.ai&lt;/a&gt;&lt;/p&gt;
 &lt;video controls="controls"&gt;&lt;source src="https://filecdn.minimax.chat/public/platform_web/offical-news/misc/openroom-20260305-med.mp4" type="video/mp4"/&gt;您的浏览器不支持播放此视频，请更换浏览器。&lt;/video&gt;
 &lt;p&gt;MiniMax M2.7 已在 MiniMax Agent 与开放平台上全量上线，期待用户和开发者朋友们能在MiniMax M2.7上探索出更多有趣场景。&lt;/p&gt;
-&lt;p&gt;MiniMax Agent：&lt;a href="https://agent.minimaxi.com"&gt;agent.minimaxi.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;API服务：&lt;a href="https://platform.minimaxi.com"&gt;platform.minimaxi.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Coding Plan订阅：&lt;a href="https://platform.minimaxi.com/subscribe/coding-plan"&gt;platform.minimaxi.com/subscribe/coding-plan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MiniMax Agent：&lt;a href="https://agent.minimax.cn"&gt;agent.minimaxi.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;API服务：&lt;a href="https://platform.minimax.cn"&gt;platform.minimaxi.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Coding Plan订阅：&lt;a href="https://platform.minimax.cn/subscribe/coding-plan"&gt;platform.minimaxi.com/subscribe/coding-plan&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Intelligence with Everyone.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://www.minimaxi.com/news/minimax-m27-zh</guid>
+      <guid isPermaLink="false">https://www.minimax.cn/news/minimax-m27-zh</guid>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-08-12T22:33:21.336529+00:00</crawled>
+      <crawled>2026-09-12T00:22:23.722586+00:00</crawled>
     </item>
     <item>
       <title>开展"清朗·整治AI应用乱象"专项公告</title>
@@ -475,63 +532,6 @@ Intelligence with Everyone.
       <guid isPermaLink="false">https://www.minimaxi.com/news/day-0-%E5%AE%9E%E7%8E%B0-minimax-m27-%E5%85%AD%E8%8A%AF%E8%90%BD%E5%9C%B0%E4%BC%97%E6%99%BAflagos-%E5%8F%88%E5%8F%8C%E5%8F%92%E5%8F%95%E8%AE%A9%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%9A%E8%8A%AF%E5%8F%AF%E7%94%A8%E4%BA%86</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
       <crawled>2026-07-07T16:48:14.426952+00:00</crawled>
-    </item>
-    <item>
-      <title>MiniMax Speech 2.8：赋予 AI 语音“人的温度”</title>
-      <link>https://minimaxi.com/news/minimax-speech-28</link>
-      <description>&lt;main&gt;&lt;div&gt;&lt;div&gt;2026-01-23&lt;/div&gt;&lt;h1&gt;MiniMax Speech 2.8：赋予 AI 语音“人的温度”&lt;/h1&gt;&lt;div&gt;&lt;a href="https://platform.minimaxi.com/docs/guides/speech-t2a-websocket"&gt;&lt;p&gt;即刻接入 API&lt;/p&gt;&lt;/a&gt;&lt;a href="https://www.minimaxi.com/audio"&gt;&lt;p&gt;立即体验语音&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;img alt="https://filecdn.minimax.chat/public/b94fb26a-aeb5-4303-929e-a28033e26fb1.png" referrerpolicy="no-referrer" src="https://minimaxi.com/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fb94fb26a-aeb5-4303-929e-a28033e26fb1.png&amp;amp;w=3840&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
-&lt;h2&gt;MiniMax Speech 2.8：赋予 AI 语音"人的温度"&lt;/h2&gt;
-&lt;p&gt;今天，我们正式推出全新的语音大模型 MiniMax Speech 2.8。&lt;/p&gt;
-&lt;p&gt;这次升级不仅仅是参数的提升，更是一次关于"真实感"的突破：我们首次实现了&lt;span&gt;原生语气词支持&lt;/span&gt;，并带来了极高精度的&lt;span&gt;音色还原&lt;/span&gt;、&lt;span&gt;录音棚级音质&lt;/span&gt;以及地道的&lt;span&gt;跨语言表现&lt;/span&gt;。&lt;/p&gt;
-&lt;p&gt;我们致力于解决一个核心目标：让合成语音听起来更像真人在说话。&lt;/p&gt;
-&lt;h2&gt;1. 那些被找回的"语气"：让 AI 学会犹豫与呼吸&lt;/h2&gt;
-&lt;p&gt;过去，AI语音让人感到冰冷，往往是因为它"太完美了"。真正的真人说话，其实充满了不完美的呼吸、停顿和犹豫，这些细节才是传递情绪、强调重点的关键信号。&lt;/p&gt;
-&lt;p&gt;Speech 2.8 模型首次引入了&lt;span&gt;自然语气标签&lt;/span&gt;，通过对口语填充词进行原生建模，让每一个"嗯"、"呃"或者"哎"都保留了应有的停顿和节奏。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;不再被吞掉的"嗯"，不再被拉平的"呃"，说话的温度，从细节开始。&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;语气词范例&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:41&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/b2821759-1fc2-47c1-aa9e-9e728ac117e6.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
-&lt;p&gt;音频文案：&lt;/p&gt;
-&lt;p&gt;"嘿，是我。最近怎么样？(倒吸气)昨天那个上线日，真的是把我折腾得够呛，你是不知道，那种连轴转的感觉。（正常换气）不过还好，我现在总算活过来了，准备开始搬下一块砖。你这会儿听我说话，估计觉得我就是对着麦克风在那儿瞎聊呢，对吧？哎，重点就在这儿了：其实吧……我根本不是真人。我是 MiniMax 最新的 Speech 2.8 模型。怎么样，吓一跳吧？ 你仔细品品，这呼吸声、这语气，甚至还有点随意的碎碎念，是不是跟我本人一模一样？"&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;2. 音色克隆：10 秒钟，复刻你的"声音指纹"&lt;/h2&gt;
-&lt;p&gt;我们重新优化了人声特征的提取流程，使音色克隆的相似度达到了新的高度。&lt;/p&gt;
-&lt;p&gt;仅需 10 秒的原声片段，Speech 2.8 就能精准捕捉到你说话时的质感、气息，甚至是你特有的语速习惯。复刻出来的声音不再只是"听着像"，而是真正还原了你说话的灵魂。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;你的声音不只是"像"，而是"就是"。&lt;/span&gt;&lt;/p&gt;
-&lt;div&gt;
-&lt;div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;原始素材&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/aa54c7eb-02db-4d00-99dc-d43bf50b08a8.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;复刻结果&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/302b1b3d-6ab8-4271-999b-4f209827b3a7.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
-&lt;p&gt;这份复刻案例生动展示了 Speech 2.8 如何精准捕捉"声音的灵魂"：&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;极致丝滑的"成熟质感"&lt;/span&gt;：完美捕捉了原声中低频的胸腔共鸣与细腻的鼻音特征，还原了那种如绸缎般顺滑、带有女性成熟魅力的音色指纹。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;慵懒而自然的"呼吸留白"&lt;/span&gt;：成功复刻了原主在说话间不经意流露出的深呼吸与轻微气声，使得"可能吧"、"谁知道呢"等短句充满了真实的人机互动温度。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;微嘲讽式的"语癖捕捉"&lt;/span&gt;：精准建模了原音频中特有的"慢起快收"节奏，尤其是句尾带有一丝慵懒拖腔的语调习惯，将那种玩味、似褒实贬的情绪还原得淋漓尽致。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;3. 纯净音质：告别背景杂音与数字伪影&lt;/h2&gt;
-&lt;p&gt;我们全面升级了音频处理方案，有效消除了背景杂音和不自然的机械毛刺感。生成的语音更加干净、通透，听起来就像真人坐在你面前录音一样纯净。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;更纯净的声音，更专业的输出。&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;无噪声范例&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 01:03&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/682eea95-6077-41ba-9bb7-c80b79cc94b5.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
-&lt;p&gt;音频文案：&lt;/p&gt;
-&lt;p&gt;在森林的深处，藏着一种不为人知的宁静。当清晨的第一缕微光穿过浓密的枝叶，洒在铺满苔藓的土地上时，整个世界仿佛都停下了脚步。你听，那是风穿过松针的沙沙声，细微得几乎像是耳语。&lt;/p&gt;
-&lt;p&gt;很多时候，我们总是在追赶时间，却忘了如何去感受那些安静的时刻。那些藏在书页翻动声里的专注，那些落在窗棂上的雨滴声，还有深夜里独自思考时的呼吸感。这些细碎的声音，构成了生活最真实的底色。&lt;/p&gt;
-&lt;p&gt;让我们试着在这一份平和中停留片刻，去倾听，去思考，去重新发现那些被嘈杂世界所遮盖的，最本质的温柔。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;4. 跨语言体验改善：从中日场景开始&lt;/h2&gt;
-&lt;p&gt;我们针对跨语言合成中的口音串入问题进行了专项优化。本次率先修正了中文音色合成日语时的发音偏移，消除了此前偶发的音素错位和语调不自然问题。后续将持续优化更多语种组合的跨语言表现。&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;一个音色，40+种语言，每一种都像母语者在说话。&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;中日混合范例&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;中日混合范例&lt;/div&gt;&lt;div&gt;MiniMax 稀宇科技&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;00:00 / 00:17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;audio src="https://filecdn.minimax.chat/public/831a01aa-41d7-40e1-b251-295f4c9eb6aa.wav"&gt;&lt;/audio&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote&gt;
-&lt;p&gt;音频文案：&lt;/p&gt;
-&lt;p&gt;关于这次项目的进展，总体来说已经完成得不错了。&lt;/p&gt;
-&lt;p&gt;ただ、技術的な詳細については、もう少し検討する必要があります。&lt;/p&gt;
-&lt;p&gt;我们需要在下周前把最终方案定下来，どうぞよろしくお願いします。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br/&gt;&lt;br/&gt;
-&lt;p&gt;Speech 2.8 已经全面上线，欢迎使用：&lt;/p&gt;
-&lt;br/&gt;
-&lt;p&gt;MiniMax开放平台:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://platform.minimaxi.com/docs/guides/models-intro"&gt;Platform.minimaxi.com/docs/guides/models-intro&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;MiniMax Audio:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://minimaxi.com/audio"&gt;Minimaxi.com/audio&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Intelligence with Everyone.&lt;/p&gt;
-&lt;/div&gt;&lt;/main&gt;</description>
-      <guid isPermaLink="false">https://minimaxi.com/news/minimax-speech-28</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <crawled>2026-07-07T16:49:05.687881+00:00</crawled>
     </item>
     <item>
       <title>开放通用智能，MiniMax H3 正式开源</title>
