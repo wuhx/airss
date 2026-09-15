@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 07:05:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 00:55:26 +0000</lastBuildDate>
     <item>
       <title>Apple accelerates app development with new intelligence frameworks and advanced tools</title>
       <link>https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/</link>
@@ -705,6 +705,44 @@
       <guid isPermaLink="false">https://www.apple.com/newsroom/2026/09/get-ready-to-experience-iphone-18-pro-the-new-apple-watch-lineup-and-airpods-5/</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <crawled>2026-09-12T00:25:42.285980+00:00</crawled>
+    </item>
+    <item>
+      <title>Siri AI, a profoundly more capable and personal assistant powered by the next generation of Apple Intelligence, is here</title>
+      <link>https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Apple today released the next generation of Apple Intelligence, powering Siri AI, an entirely new version of Siri, and capabilities that make the apps and experiences users rely on every day more personal and helpful than ever. Siri AI is a profoundly more capable and conversational assistant with personal context understanding, broad world knowledge, onscreen awareness, and even more systemwide app actions. Siri AI can help users find what they need in the moment, from answering questions on virtually any topic to surfacing relevant information from a user’s messages, emails, photos, and more. And Apple Intelligence makes everyday experiences across Apple products more personal and helpful with new editing capabilities in Photos, intelligent browsing tools in Safari, an all-new Image Playground that can create photorealistic imagery, and more.
+&lt;/div&gt;
+&lt;div&gt;With Apple’s 2027 software releases, users can now access new Apple Intelligence capabilities across apps. Siri AI begins rolling out today in beta in English, and will expand to French, Japanese, Korean, Portuguese, and Spanish next month.
+&lt;/div&gt;
+&lt;h2&gt;&lt;strong&gt;An Entirely New Siri&lt;/strong&gt;
+&lt;/h2&gt;
+&lt;div&gt;Siri AI is a completely reimagined version of Siri that is more personal and powerful. With detailed responses and rich, natural conversations, Siri AI helps users get more done than ever before.
+&lt;/div&gt;
+&lt;div&gt;Built on Apple Intelligence, this new version of Siri draws on personal context understanding to help users find what they need in the moment across messages, emails, photos, and more. And with even more systemwide app actions, Siri AI can help users with tasks such as drafting an email from scratch or editing and sharing a set of photos.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-09-15T00:44:04.102637+00:00</crawled>
+    </item>
+    <item>
+      <title>Major updates for Apple’s software platforms are now available</title>
+      <link>https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Apple’s latest software updates introduce Siri AI, a more intelligent, knowledgeable, and capable version of Siri, and deliver helpful new Apple Intelligence features that make the apps users interact with day to day smarter and more useful. The updates also bring powerful and intuitive new features to help parents create safer, more enriching digital experiences for kids and introduce an expansive set of improvements that make Apple products more responsive, more delightful, and easier to use.
+&lt;/div&gt;
+&lt;h2&gt;&lt;strong&gt;Making Apple Products More Personal and Useful Than Ever&lt;/strong&gt;
+&lt;/h2&gt;
+&lt;div&gt;Siri AI is an entirely new version of Siri powered by the next generation of Apple Intelligence and deeply integrated into iPhone, iPad, Mac, Apple Watch, and Apple Vision Pro. A more capable and conversational assistant with personal context understanding, broad world knowledge, onscreen awareness, and even more systemwide app actions, Siri AI is now rolling out as a beta in English, with support for French, Japanese, Korean, Portuguese, and Spanish coming in October.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-09-15T00:43:57.989735+00:00</crawled>
     </item>
   </channel>
 </rss>
