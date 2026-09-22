@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Sep 2026 07:10:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 01:11:24 +0000</lastBuildDate>
     <item>
       <title>lang-en</title>
       <link>https://news.microsoft.com/source/latam/features/ai/data-driven-farming-chile/?lang=en</link>
@@ -1849,6 +1849,71 @@ You can ask very basic questions like, “Who should I have in my team this week
       <guid isPermaLink="false">https://news.microsoft.com/source/canada/features/ai/kinaxis-supply-chain/</guid>
       <pubDate>Thu, 10 Sep 2026 12:59:43 +0000</pubDate>
       <crawled>2026-09-11T00:17:18.977692+00:00</crawled>
+    </item>
+    <item>
+      <title>RetroChimera: New research advances AI-assisted molecule synthesis</title>
+      <link>https://news.microsoft.com/source/features/ai/retrochimera-new-research-advances-ai-assisted-molecule-synthesis/</link>
+      <description>&lt;article&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;aside&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;img alt="" height="144" referrerpolicy="no-referrer" src="https://secure.gravatar.com/avatar/faeecf2ceb1090e6170899d5096a3ddac27cdda3291b2fc764acf7302e010605?s=144&amp;amp;d=blank&amp;amp;r=g" width="144"/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;Written by &lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;a href="https://news.microsoft.com/source/author/deborah-bach/"&gt;Deborah Bach&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt; &lt;div&gt;
+&lt;h5&gt;Published&lt;/h5&gt;
+&lt;a href="https://news.microsoft.com/source/2026/09/"&gt;&lt;time datetime="1790002583"&gt;September 21, 2026&lt;/time&gt;&lt;/a&gt; &lt;/div&gt;
+&lt;div&gt;
+&lt;h5&gt;Category&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://news.microsoft.com/source/topics/ai/"&gt;AI&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;
+&lt;div&gt;
+&lt;h5&gt;Reading Time&lt;/h5&gt;
+&lt;div&gt;3 minutes&lt;/div&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/aside&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Scientists have become increasingly skilled at designing molecules that could become new medicines, advanced materials or catalysts. Determining how to make those molecules in a lab, however, remains a highly complex task in drug discovery and other areas of chemistry. &lt;/p&gt;
+&lt;p&gt;Researchers from Microsoft Research and collaborators including GSK and Novartis, two global companies at the forefront of developing new medicines, have developed an AI model called &lt;a href="https://github.com/microsoft/retrochimera"&gt;RetroChimera&lt;/a&gt; to help address that challenge. A &lt;a href="https://www.nature.com/articles/s41586-026-11160-9"&gt;new study in &lt;em&gt;Nature&lt;/em&gt;&lt;/a&gt; details &lt;a href="https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/"&gt;how the system performs&lt;/a&gt; across public and proprietary chemistry data and how closely its suggestions align with expert chemists’ expectations.   &lt;/p&gt;
+&lt;p&gt;The work builds on Microsoft’s longstanding &lt;a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-ai-for-science/?msockid=17741c2392d26ab7048b0be093ca6be2"&gt;research&lt;/a&gt; into using AI to accelerate scientific discovery, including advances in chemistry, materials science and drug development. &lt;/p&gt;
+&lt;h2&gt;How it works &lt;/h2&gt;
+&lt;p&gt;Retrosynthesis is a technique that starts with a desired target molecule and works backward, step by step, to break it down into simpler, commercially available building blocks. The task is often compared to strategic board games such as chess and Go, but its decision space is vastly larger and more complex.  &lt;/p&gt;
+&lt;p&gt;For decades, this immense combinatorial complexity led researchers to believe that retrosynthesis could not be automated reliably. But recent advances in machine learning are now challenging this assumption.  &lt;/p&gt;
+&lt;p&gt;As described in the &lt;em&gt;Nature&lt;/em&gt; study, RetroChimera, paired with a search algorithm, can now propose promising synthesis pathways for target molecules, demonstrating that AI can perform retrosynthetic planning at a level that increasingly complements expert human decision-making.    &lt;/p&gt;
+&lt;p&gt;Rather than relying on a single AI model, RetroChimera combines predictions from multiple models with complementary strengths. This allows the system to draw on different modeling approaches when evaluating possible synthesis routes.  &lt;/p&gt;
+&lt;p&gt;The researchers developed the approach after analyzing common shortcomings in existing retrosynthesis systems, including difficulties incorporating less frequent but strategically important reactions and a tendency to generate inaccurate predictions, which have so far previously made automated synthesis planning of more complex molecules unviable.  &lt;/p&gt;
+&lt;h2&gt;Why it matters &lt;/h2&gt;
+&lt;p&gt;One challenge in pharmaceutical drug discovery and other industries is that companies often work with proprietary chemistry data that differs from the public datasets used to train many AI systems.  &lt;/p&gt;
+&lt;p&gt;The researchers showed that the pre-trained RetroChimera model can be readily adapted to GSK’s internal data and its proprietary chemistry data, suggesting the approach could help researchers apply AI-driven synthesis planning to practical drug discovery challenges rather than only benchmark datasets and academic research tasks. &lt;/p&gt;
+&lt;p&gt;The finding could make the technology faster and less expensive to customize for use in other real-world research environments, including small-molecule therapeutics, materials science and fine chemical development. &lt;/p&gt;
+&lt;p&gt;When expert chemists evaluated proposed pathways for 10 molecules selected to benchmark RetroChimera against other models, the new model produced a fully accepted sequence of reactions for nine, compared with two to five for other models. And when given a choice between RetroChimera’s top suggestion and previously documented ways of making the same molecule, nine Ph.D-level organic chemists from Microsoft and major pharmaceutical companies preferred RetroChimera’s approach about 64% of the time. &lt;/p&gt;
+&lt;h2&gt;What’s next &lt;/h2&gt;
+&lt;p&gt;Researchers plan to evaluate the model in real-world discovery settings, moving beyond benchmark testing to understand how it could perform as part of the drug discovery process.  &lt;/p&gt;
+&lt;p&gt;Ultimately, the goal is for RetroChimera to become part of the toolkit researchers use to move more efficiently from a promising molecular design to a viable path for making it in the lab.&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Related links: &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Read more: &lt;a href="https://www.nature.com/articles/s41586-026-11160-9"&gt;Chemist-aligned retrosynthesis by ensembling diverse inductive bias models in Nature&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Read more: &lt;a href="https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/"&gt;Improving synthesis prediction of small molecules at scale with RetroChimera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Learn more: &lt;a href="https://github.com/microsoft/retrochimera"&gt;RetroChimera on GitHub&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;Learn more: &lt;a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-ai-for-science/?msockid=17741c2392d26ab7048b0be093ca6be2"&gt;Microsoft Research: AI for Science&lt;/a&gt;&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Lead illustration created with Microsoft Copilot.&lt;/em&gt; &lt;br/&gt; &lt;br/&gt;&lt;em&gt;Deborah Bach writes about AI, innovation and the transformative ways organizations and people are using technology. A native of British Columbia, Deborah was previously a newspaper reporter for the Seattle Post-Intelligencer and the Baltimore Sun. Her work has been published in outlets including the New York Times, Vancouver Sun and TODAY.com, among others. You can reach Deborah on &lt;/em&gt;&lt;a href="https://www.linkedin.com/in/deborah-bach-6a62847/"&gt;&lt;em&gt;LinkedIn&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt; &lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;h4&gt;Tags: &lt;/h4&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://news.microsoft.com/source/tag/ai/"&gt;AI&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt;&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://news.microsoft.com/source/features/ai/retrochimera-new-research-advances-ai-assisted-molecule-synthesis/</guid>
+      <pubDate>Mon, 21 Sep 2026 14:56:23 +0000</pubDate>
+      <crawled>2026-09-22T00:57:01.643803+00:00</crawled>
     </item>
   </channel>
 </rss>
