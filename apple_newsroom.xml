@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 06:47:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 00:57:15 +0000</lastBuildDate>
     <item>
       <title>Apple accelerates app development with new intelligence frameworks and advanced tools</title>
       <link>https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/</link>
@@ -817,6 +817,25 @@
       <guid isPermaLink="false">https://www.apple.com/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london/</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
       <crawled>2026-09-22T06:20:06.757580+00:00</crawled>
+    </item>
+    <item>
+      <title>The new Mac mini and Mac Studio are available today</title>
+      <link>https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/</link>
+      <description>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;Starting today, the new Mac mini and Mac Studio, both powered by the latest Apple silicon, are now available. Customers can shop and discover the new Mac mini, Apple’s most versatile Mac, which features the all-new M6 and M5 Pro. The ultracompact do-it-all desktop is a powerhouse for a wide range of users — from everyday consumers and students to aspiring creatives and small business owners. With M6, Mac mini delivers up to 4x faster AI performance,&lt;sup&gt;1&lt;/sup&gt; 2x faster graphics&lt;sup&gt;2&lt;/sup&gt; and storage,&lt;sup&gt;1&lt;/sup&gt; and 40 percent faster CPU performance.&lt;sup&gt;1&lt;/sup&gt; Users will feel this performance in everything they do, whether it’s multitasking across productivity apps, running agentic AI workflows, or ripping through creative projects like music production and compiling code. Mac mini with M5 Pro offers even greater pro-level performance for complex projects like video production and game development. The new Mac Studio, Apple’s most powerful Mac, features M5 Max and the all-new M5 Ultra for pros tackling the world’s most demanding workloads. The ultimate pro desktop raises the bar with up to 4.3x faster AI performance,&lt;sup&gt;3&lt;/sup&gt; up to 1.8x faster graphics,&lt;sup&gt;4&lt;/sup&gt; and support for up to 512GB of unified memory, all in a quiet, compact design that sits right on a user’s desk.
+&lt;/div&gt;
+&lt;div&gt;Mac mini and Mac Studio are also powerful platforms for on-device AI, featuring next-generation GPUs with Neural Accelerators in every core, along with advanced CPUs, and Neural Engines. Combined with the power of macOS 27 and the latest Apple Intelligence features, including Siri AI, the new Mac mini and Mac Studio are a tremendous upgrade for existing and new-to-Mac users.&lt;sup&gt;5&lt;/sup&gt; Both are available now at Apple Store locations, on &lt;a href="https://www.apple.com"&gt;apple.com&lt;/a&gt;, and in the Apple Store app. Mac mini with M6 starts at $899, while Mac mini with M5 Pro is available at $1,699. Mac Studio with M5 Max starts at $2,499, while Mac Studio with M5 Ultra starts at $5,499.
+&lt;/div&gt;
+&lt;h2&gt;&lt;strong&gt;Say Hello to the New Mac mini: Apple’s Most Versatile Mac&lt;/strong&gt;
+&lt;/h2&gt;
+&lt;div&gt;For everyday users, students, developers, creative enthusiasts, and businesses, Mac mini delivers a dramatic boost in performance and remarkable versatility, all in a super small design. Featuring a 12-core CPU with the world’s fastest single-threaded performance, a 12-core GPU with Neural Accelerators built into each core, and the all-new Dual 16-core Neural Engine, it blazes through everything from everyday productivity to advanced agentic AI workflows.&lt;sup&gt;6&lt;/sup&gt; Starting with 16GB of unified memory, configurable up to 32GB, and higher memory bandwidth up to 170GB/s, multitasking is faster than ever. With M6, Mac mini brings up to 4x faster AI performance,&lt;sup&gt;1&lt;/sup&gt; a supercharge to the leading desktop for always-on agentic computing. Mac mini with M5 Pro delivers even more pro-level performance with an up-to-18-core CPU and an up-to-20-core GPU, along with support for up to 64GB of unified memory with 307GB/s of memory bandwidth, empowering users to take on demanding creative and technical projects. Both models include Wi-Fi 7, Bluetooth 6, and upgraded 2.5Gb Ethernet, with a 10Gb option available. College students and educators can save on the new Mac mini with year-round education pricing starting at $799 for Mac mini with M6.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-09-23T00:40:03.787411+00:00</crawled>
     </item>
   </channel>
 </rss>
