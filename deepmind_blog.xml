@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 06:45:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 00:51:51 +0000</lastBuildDate>
     <item>
       <title>Introducing Gemini Omni</title>
       <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/</link>
@@ -7979,6 +7979,225 @@ interaction = client.interactions.create(
       <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
       <crawled>2026-09-24T00:38:20.702087+00:00</crawled>
+    </item>
+    <item>
+      <title>Introducing Gemini 3.8 Live with Live Avatar</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/</link>
+      <description>&lt;article&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;uni-breadcrumbs&gt;
+
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+
+&lt;!-- --&gt;&lt;slot&gt;&lt;/slot&gt;&lt;/uni-breadcrumbs&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;h1&gt;Introducing Gemini 3.8 Live with Live Avatar&lt;/h1&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Sep 24, 2026&lt;/p&gt;
+&lt;span&gt;|&lt;/span&gt;
+&lt;uni-reading-time&gt;&lt;!-- --&gt;&lt;p&gt;&lt;!--?lit$4681618957$--&gt;3 min read&lt;/p&gt;&lt;/uni-reading-time&gt;
+&lt;/div&gt;
+&lt;!-- Share Dropdown Menu --&gt;
+&lt;div&gt;
+&lt;uni-cta&gt;
+&lt;!-- --&gt;&lt;/uni-cta&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Introducing%20Gemini%203.8%20Live%20with%20Live%20Avatar%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"&gt;
+
+&lt;span&gt;x.com&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Introducing%20Gemini%203.8%20Live%20with%20Live%20Avatar&amp;amp;u=https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"&gt;
+
+&lt;span&gt;Facebook&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/&amp;amp;title=Introducing%20Gemini%203.8%20Live%20with%20Live%20Avatar"&gt;
+
+&lt;span&gt;LinkedIn&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="mailto:?subject=Introducing%20Gemini%203.8%20Live%20with%20Live%20Avatar&amp;amp;body=Check out this article on the Keyword:%0A%0AIntroducing%20Gemini%203.8%20Live%20with%20Live%20Avatar%0A%0AIntroducing Gemini 3.8 Live with Live Avatar, which brings near real-time visual presence to Gemini’s conversational AI.%0A%0Ahttps://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"&gt;
+
+&lt;span&gt;Mail&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;div&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+                Gemini 3.8 Live with Live Avatar brings real-time visual presence to Gemini’s conversational AI. By natively coupling our live dialogue capabilities with low-latency streaming video, Live Avatar enables a more natural and intuitive conversational experience for enterprises and their users.
+              &lt;/p&gt;
+&lt;/div&gt;
+&lt;hr/&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Shuo-yiin Chang&lt;/p&gt;
+&lt;p&gt;Research Scientist&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;CJ Zheng&lt;/p&gt;
+&lt;p&gt;Software Engineer,  on behalf of the Gemini Audio Team&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;!-- Share Dropdown Menu --&gt;
+&lt;div&gt;
+&lt;uni-cta&gt;&lt;!-- --&gt;&lt;/uni-cta&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://twitter.com/intent/tweet?text=Introducing%20Gemini%203.8%20Live%20with%20Live%20Avatar%20%40google&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"&gt;
+
+&lt;span&gt;x.com&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.facebook.com/sharer/sharer.php?caption=Introducing%20Gemini%203.8%20Live%20with%20Live%20Avatar&amp;amp;u=https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"&gt;
+
+&lt;span&gt;Facebook&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.linkedin.com/shareArticle?mini=true&amp;amp;url=https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/&amp;amp;title=Introducing%20Gemini%203.8%20Live%20with%20Live%20Avatar"&gt;
+
+&lt;span&gt;LinkedIn&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="mailto:?subject=Introducing%20Gemini%203.8%20Live%20with%20Live%20Avatar&amp;amp;body=Check out this article on the Keyword:%0A%0AIntroducing%20Gemini%203.8%20Live%20with%20Live%20Avatar%0A%0AIntroducing Gemini 3.8 Live with Live Avatar, which brings near real-time visual presence to Gemini’s conversational AI.%0A%0Ahttps://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"&gt;
+
+&lt;span&gt;Mail&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;div&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;img alt='an image with the phrase "Gemini 3.8 Live with Live Avatar"' referrerpolicy="no-referrer" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Slide_16_9_-_37.width-200.format-webp.webp"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;div&gt;
+&lt;!--article text--&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;p&gt;Building on the momentum of last week's&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"&gt; Gemini 3.8 Live&lt;/a&gt; launch, today we are excited to introduce Gemini 3.8 Live with Live Avatar — bringing near real-time visual presence to our native live dialogue models. By pairing near real-time video generation with speech, the Live Avatar feature creates an experience that listens, sees, and speaks with a dynamic visual persona.&lt;/p&gt;&lt;p&gt;With precise lip-syncing, natural expressions, and fluid turn-taking, Live Avatar enables enterprises to expand their virtual offerings more interactively. Whether providing engaging customer service or delivering interactive walkthroughs, it transforms digital exchanges into richer, more accessible experiences.&lt;/p&gt;&lt;p&gt;Starting today, Gemini 3.8 Live with Live Avatar is available in &lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available"&gt;Gemini Enterprise.&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-inline-image&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"&gt;&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/GLA-Video_3_compression.mp4#t=0.001" type="video/mp4"/&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/GLA-Video_3_compression.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$4681618957$--&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?--&gt;&lt;!--?--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$4681618957$--&gt;&lt;figcaption&gt;&lt;uni-collapsable-caption&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;div&gt;
+&lt;div&gt;&lt;p&gt;See how Gemini 3.8 Live with Live Avatar supports a wide range of characters, each with a distinct look, voice, and expressive presence.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;!--?lit$4681618957$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?--&gt;&lt;/uni-collapsable-caption&gt;&lt;/figcaption&gt;&lt;/div&gt;&lt;/uni-inline-image&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;More natural and multimodal conversations&lt;/h2&gt;&lt;p&gt;Conversation is inherently multimodal: we listen, look, speak, and use facial expressions to communicate. Live Avatar brings these capabilities to enterprise agents. By processing visual and audio inputs simultaneously, it generates enriching conversations for a more comprehensive experience.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-inline-image&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"&gt;&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/GLA-Video_2_v02.mp4#t=0.001" type="video/mp4"/&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/GLA-Video_2_v02.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$4681618957$--&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?--&gt;&lt;!--?--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$4681618957$--&gt;&lt;figcaption&gt;&lt;uni-collapsable-caption&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;div&gt;
+&lt;div&gt;&lt;p&gt;Watch how Gemini 3.8 Live with Live Avatar takes in what it sees and hears in near real time, responding with expressive audio and video for a more natural conversation.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;!--?lit$4681618957$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?--&gt;&lt;/uni-collapsable-caption&gt;&lt;/figcaption&gt;&lt;/div&gt;&lt;/uni-inline-image&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;Asynchronous tool execution with continuous presence&lt;/h2&gt;&lt;p&gt;Beyond visual presence, the feature is backed by Gemini’s advanced reasoning. With asynchronous tool calling, Live Avatar can trigger tool calls and fetch data in the background while continuing active dialogue, handling complex tasks while ensuring an uninterrupted conversational flow.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-inline-image&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"&gt;&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/GLA-Video_6_v02.mp4#t=0.001" type="video/mp4"/&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/GLA-Video_6_v02.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$4681618957$--&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?--&gt;&lt;!--?--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$4681618957$--&gt;&lt;figcaption&gt;&lt;uni-collapsable-caption&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;div&gt;
+&lt;div&gt;&lt;p&gt;See how Gemini 3.8 Live with Live Avatar handles complex tasks like checking in a guest at a hotel. Calling tools in the background while the dialogue continues uninterrupted.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;!--?lit$4681618957$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?--&gt;&lt;/uni-collapsable-caption&gt;&lt;/figcaption&gt;&lt;/div&gt;&lt;/uni-inline-image&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;Conversational experiences built for global scale&lt;/h2&gt;&lt;p&gt;Conversational presence should feel natural and not be limited by languages. Live Avatar features native multilingual speech-to-speech synchronization. The feature dynamically adapts its lip-sync and expressions and can seamlessly transition across 97 languages without degrading video fidelity or introducing visual drift.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-inline-image&gt;
+&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;uni-video-player controls="" type="video/mp4"&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;video controls="controls" poster="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"&gt;&lt;source src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/GLA-Video_4_v02.mp4#t=0.001" type="video/mp4"/&gt;Sorry, your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/GLA-Video_4_v02.mp4"&gt;download it&lt;/a&gt; and watch it with your favorite video player!&lt;/video&gt;&lt;!--?lit$4681618957$--&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/uni-video-player&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?--&gt;&lt;!--?--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!--?--&gt; &lt;!--?lit$4681618957$--&gt;&lt;figcaption&gt;&lt;uni-collapsable-caption&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!-- --&gt;&lt;div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?lit$4681618957$--&gt;&lt;div&gt;
+&lt;div&gt;&lt;p&gt;Watch how Gemini 3.8 Live Avatar switches between languages mid-conversation, with lip-sync and expressions adapting seamlessly across 97 languages.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;!--?lit$4681618957$--&gt;&lt;!--?--&gt;&lt;/div&gt;&lt;!-- --&gt;&lt;/div&gt;&lt;!--?lit$4681618957$--&gt;&lt;!--?--&gt;&lt;/uni-collapsable-caption&gt;&lt;/figcaption&gt;&lt;/div&gt;&lt;/uni-inline-image&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;uni-article-paragraph&gt;
+&lt;div&gt;&lt;h2&gt;A Live Avatar to fit your brand needs&lt;/h2&gt;&lt;p&gt;Organizations often need distinct visual identities to fit their brand. In addition to a library of diverse, preset avatars, organizations can customize their Live Avatars. From a high-quality reference image, developers can generate a fully animated, responsive avatar while preserving reference likeness, brand styling, or character identity. Custom avatar creation is currently available only through enterprise allowlisting.&lt;/p&gt;&lt;h2&gt;Trust and transparency at its core&lt;/h2&gt;&lt;p&gt;We built Live Avatar with strict safeguards designed to respect identity, and keep AI-generated content transparent. All output generated by our AI products is watermarked with&lt;a href="https://deepmind.google/models/synthid/"&gt; SynthID&lt;/a&gt;. This imperceptible watermark is woven directly into the audio and video output, helping to ensure AI-generated content remains detectable to help minimise misinformation and misattribution. To explore our comprehensive approach to safety and responsible deployment, read our &lt;a href="https://deepmind.google/models/model-cards/gemini-3-8-audio/"&gt;model card&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;Get started with Gemini 3.8 Live with Live Avatar&lt;/h2&gt;&lt;p&gt;Gemini 3.8 Live with Live Avatar is available in &lt;a href="https://console.cloud.google.com/agent-platform/studio/multimodal-live"&gt;Gemini Enterprise&lt;/a&gt;. Explore the API &lt;a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/live-api"&gt;documentation&lt;/a&gt; to get started.&lt;/p&gt;&lt;/div&gt;
+&lt;!-- --&gt;&lt;/uni-article-paragraph&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;span&gt;Posted in:&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/article&gt;</description>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <crawled>2026-09-25T00:39:13.427969+00:00</crawled>
     </item>
   </channel>
 </rss>
